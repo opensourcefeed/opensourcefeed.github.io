@@ -1,0 +1,35 @@
+--- 
+layout: default 
+---
+<div class="row post-thumbnail">
+    <div class="col-md-4">
+        <div class="img-thumbnail">
+            <img src="http://placekitten.com/720/340">
+        </div>
+    </div>
+    <div class="col-md-8">
+        <h2><a href="#">Lorem ipsum dolor sit amet</a></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id elit arcu. Praesent laoreet sollicitudin sem, vitae
+            molestie nibh viverra facilisis. Suspendisse et suscipit lacus. Ut tempus fringilla neque vitae vehicula. In
+            euismod tellus risus, et fringilla augue mattis eu. Donec volutpat nunc eu nisl scelerisque, at aliquam metus
+            tempor. Maecenas felis neque, euismod cursus fringilla at, semper sed est. Aenean at varius massa. Donec quis
+            felis in lacus lobortis...</p>
+    </div>
+</div>
+{% for post in site.posts %}
+<div class="row post-thumbnail">
+    <div class="col-md-4">
+        <div class="img-thumbnail">
+            <img src="http://placekitten.com/720/340">
+        </div>
+    </div>
+    <div class="col-md-8">
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+        {{ post.excerpt }}
+    </div>
+</div>
+{% endfor %}
