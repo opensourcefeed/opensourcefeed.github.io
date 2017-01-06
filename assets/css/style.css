@@ -16,12 +16,12 @@ header a, header a:hover {
     text-decoration: none;
 }
 header h2 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin: 0;
 }
 
 header p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .navbar {
@@ -34,7 +34,7 @@ header p {
 }
 
 .post-thumbnail {
-  padding: 20px 20px 0 20px;
+  padding-top: 20px;
   border-bottom: 1px solid #ddd;
   overflow: hidden;
   width: 100%;
@@ -46,34 +46,9 @@ header p {
   text-align: justify;
 }
 
-.img-thumbnail {
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  white-space: nowrap;
-  max-height: 240px;
-}
-.img-thumbnail .helper {
-    vertical-align: middle;
-    height: 100%;
-    display: inline-block;
-}
-.img-thumbnail img {
-  max-height: 180px;
-  height: 100%;
-  width: auto;
-  backface-visibility: hidden;
-  transition: transform .9s;
-  vertical-align: middle;
-}
-
-.img-thumbnail img:hover {
-  transform: scale(1.01);
-}
-
 .post-header h1 {
     font-size: 1.6rem;
-    padding-top: 3rem;
+    padding-top: 20px;
     text-align: center
 }
 
@@ -87,4 +62,71 @@ header p {
     max-width: 80%;
     display: block;
     margin: auto
+}
+
+.post-content p {
+  text-align: justify
+}
+
+/* SIDEBAR */
+.sidebar {
+  padding-top: 20px;
+}
+.sidebar h2 {
+    overflow: hidden;
+    position: relative;
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    background: #fff;
+    border-bottom: 2px solid #444;
+    transition: All .3s ease-out;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  border: 1px solid #eee;
+  padding: 10px;
+  transition: background 0.5s ease;
+}
+
+.sidebar a {
+  color: #0275d8;
+}
+
+.sidebar a:hover, .sidebar a:focus {
+  text-decoration: none;
+}
+
+.sidebar li:hover {
+  background: #eee;
+}
+
+/* PAGE */
+.logo {
+  max-width: 240px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.preview {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background: #272b35;
+  color: white;
+  padding: 10px 0 10px 0;
 }
