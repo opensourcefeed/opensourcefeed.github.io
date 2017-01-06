@@ -83,10 +83,8 @@ header p {
     padding: 5px;
 }
 
-.post-header .categories {
-    right: 0;
-}
-
-.post-header .date {
-    left: 0
+.post-content img {
+    max-width: 80%;
+    display: block;
+    margin: auto
 }
