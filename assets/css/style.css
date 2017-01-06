@@ -59,13 +59,21 @@ header p {
 }
 
 .post-content img {
-    max-width: 80%;
+    max-width: 100%;
     display: block;
     margin: auto
 }
 
 .post-content p {
   text-align: justify
+}
+
+.blockquote {
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.0rem;
+    background: #eee;
+    text-align: justify;
 }
 
 /* SIDEBAR */

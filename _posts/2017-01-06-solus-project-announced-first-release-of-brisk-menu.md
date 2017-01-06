@@ -12,11 +12,15 @@ Though Brisk Menu is developed by Solus project, other big plEnable ayers like U
 
 Current release of Brisk Menu is at it's early stages of development and has a long way to go to fulfill the purpose of developers behind creating such a menu. Following are some of the todo features for Brisk Menu.
 
->       - Enable launch of menu with Super/Meta/Windows/Command key.
->       - Enable support for translation.
->       - Favorite sections to pin applications
->       - Ability to customize general behavior of menu, for example option to toggle sidebar icons.
->       - Ability to customize label & icon.
+<div class="blockquote">
+<ul>
+<li>Enable launch of menu with Super/Meta/Windows/Command key.</li>
+<li>Enable support for translation.</li>
+<li>Favorite sections to pin applications</li>
+<li>Ability to customize general behavior of menu, for example option to toggle sidebar icons.</li>
+<li>Ability to customize label & icon.</li>
+</ul>
+</div>
 
 The latest rolling snapshot of Solus MATE edition (2017.01.01.0) is featuring Brisk Menu. Or alternatively you can download the release snapshot from github releases.
 
