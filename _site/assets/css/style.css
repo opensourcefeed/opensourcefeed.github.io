@@ -76,6 +76,10 @@ header p {
     text-align: justify;
 }
 
+.related h3 {
+  font-size: 1.2rem;
+}
+
 /* SIDEBAR */
 .sidebar {
   padding-top: 20px;

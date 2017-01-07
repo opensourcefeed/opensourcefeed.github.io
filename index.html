@@ -1,9 +1,13 @@
 --- 
 layout: default 
 ---
-Heloo
 {% for post in paginator.posts %}
 <div class="row post-thumbnail">
+    <!--<div class="col-md-4">
+        <div class="img-thumbnail">
+            <img src="http://placekitten.com/720/340">
+        </div>
+    </div>-->
     <div class="col-md-12">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -14,16 +18,45 @@ Heloo
     </div>
 </div>
 {% endfor %}
-<nav aria-label="Page navigation example">
-  <ul class="pagination justify-content-end">
-    <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1">Previous</a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+{% if paginator.total_pages > 1 %}
+<nav class="text-md-right">
+<ul class="pagination">
+  {% if paginator.previous_page %}
     <li class="page-item">
-      <a class="page-link" href="#">Next</a>
+      <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
     </li>
-  </ul>
+  {% else %}
+    <li class="page-item disabled">
+      <span class="page-link">&laquo; Prev</span>
+    </li>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <li class="page-item active">
+        <span class="page-link">{{ page }}</span>
+      </li>
+    {% elsif page == 1 %}
+      <li class="page-item">
+        <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      </li>
+    {% else %}
+      <li class="page-item">
+        <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <li class="page-item">
+      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    </li>
+  {% else %}
+    <li class="page-item disabled">
+      <span class="page-link">Next &raquo;</span>
+    </li>
+  {% endif %}
+</ul>
 </nav>
+{% endif %}
