@@ -33,6 +33,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
 permalink: :title/
-paginate: 3
+paginate: 6
 paginate_path: /page:num/
 gems: [jekyll-paginate]

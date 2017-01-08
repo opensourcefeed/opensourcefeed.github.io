@@ -30,7 +30,19 @@ layout: default
                 <td>
                     <ul>
                     {% for distribution in page.distributions %}
+                        {% assign to_distro = null %}
+                        {% for page in site.pages %}
+                            {% if page.Category == 'Distribution' and page.uid == distribution %}
+                                {% assign to_distro = page %}
+                                {% break %}
+                            {% endif %}
+                        {% endfor %}
+
+                        {% if to_distro %}
+                            <li><a href="{{to_distro.url}}">{{to_distro.title}}</a></li>
+                        {% else %}
                         <li>{{distribution}}</li>
+                        {% endif %}
                     {% endfor %}
                     </ul>
                 </td>

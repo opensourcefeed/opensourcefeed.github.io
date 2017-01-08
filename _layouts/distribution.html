@@ -26,20 +26,36 @@ layout: default
             {% endif %}
             {% if page.desktops %}
             <tr>
-                <td>Desktop Environments</td>
+                <td>Desktop Envrionments</td>
                 <td>
-                    {{page.desktops}}
+                    <ul>
+                    {% for desktop in page.desktops %}
+                        {% assign to_desktop = null %}
+                        {% for page in site.pages %}
+                            {% if page.Category == 'Desktop' and page.uid == desktop %}
+                                {% assign to_desktop = page %}
+                                {% break %}
+                            {% endif %}
+                        {% endfor %}
+
+                        {% if to_desktop %}
+                            <li><a href="{{to_desktop.url}}">{{to_desktop.title}}</a></li>
+                        {% else %}
+                        <li>{{desktop}}</li>
+                        {% endif %}
+                    {% endfor %}
+                    </ul>
                 </td>
             </tr>
             {% endif %}
         </table>
     </article>
     <hr>
-    {% if site.categories.[page.uid] %}
+    {% if site.categories[page.uid] %}
         <div class="story-listing">
         <h3>Stories on {{page.title}}</h3>
         <ul>
-        {% for story in site.categories.[page.uid] %}
+        {% for story in site.categories[page.uid] %}
             <li><a href="{{story.url}}">{{story.title}}</a></li>
         {% endfor %}
         </ul>
