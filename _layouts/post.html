@@ -13,7 +13,20 @@ layout: default
             </div>
             <div class="col-sm-6 text-sm-right">
                 {% for category in page.categories %}
-                <span class="category">{{category}}</span> {% endfor %}
+                    {% assign topage = null %}
+                    {% for page in site.pages %}
+                        {% if page.uid == category %}
+                            {% assign topage = page %}
+                        {% endif %}
+                    {% endfor %}
+                    {% if topage %}
+                        <a href="{{topage.url}}">
+                            <span class="category">{{topage.title}}</span>
+                        </a>
+                    {% else %}
+                        <span class="category">{{category}}</span>
+                    {% endif %}
+                {% endfor %}
             </div>
         </div>
 

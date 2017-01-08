@@ -53,9 +53,12 @@ header p {
 }
 
 .post-header .category {
-    color: #272b35;
     border: 1px solid #ddd;
     padding: 5px;
+}
+
+.post-header a:hover{
+  text-decoration: none;
 }
 
 .post-content img {
@@ -121,6 +124,10 @@ header p {
   background: #eee;
 }
 
+.sidbar .ad {
+  max-height: 400px;
+}
+
 /* PAGE */
 .logo {
   max-width: 240px;
@@ -133,6 +140,15 @@ header p {
   width: 100%;
   text-align: center;
   margin: auto;
+}
+
+.story-listing h3 {
+  font-size: 1.3rem;
+}
+
+.story-listing ul {
+  list-style-type: none;
+  padding-left: 0
 }
 
 /* FOOTER */

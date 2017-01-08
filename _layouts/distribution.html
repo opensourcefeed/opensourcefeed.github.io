@@ -24,14 +24,26 @@ layout: default
                 <td><a href="{{ page.home_page }}" target="_blank">{{page.home_page}}</a></td>
             </tr>
             {% endif %}
-            {% if page.distributions %}
+            {% if page.desktops %}
             <tr>
-                <td>Distributions with {{ page.title }}</td>
+                <td>Desktop Environments</td>
                 <td>
-                    {{page.distributions}}
+                    {{page.desktops}}
                 </td>
             </tr>
             {% endif %}
         </table>
     </article>
+    <hr>
+    {% if site.categories.[page.uid] %}
+        <div class="story-listing">
+        <h3>Stories on {{page.title}}</h3>
+        <ul>
+        {% for story in site.categories.[page.uid] %}
+            <li><a href="{{story.url}}">{{story.title}}</a></li>
+        {% endfor %}
+        </ul>
+        </div>
+    {% endif %}
+    
 </div>

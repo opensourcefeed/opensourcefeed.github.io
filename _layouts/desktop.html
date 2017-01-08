@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div class="post">
+
+    <div class="post-header">
+
+        <h1 class="post-title">{{ page.title }}</h1>
+        <hr>
+    </div>
+    <article class="post-content">
+        <div class="logo">
+            <img src="/assets/images/{{ page.logo }}" alt="{{ page.title}} logo"/>
+        </div>
+        {{ content }}
+        <div class="preview">
+            <img src="/assets/images/{{ page.preview }}" alt="{{ page.title}} preview"/>
+        </div>
+        <hr>
+        <table class="table table-bordered">
+            {% if page.home_page %}
+            <tr>
+                <td>Home Page</td>
+                <td><a href="{{ page.home_page }}" target="_blank">{{page.home_page}}</a></td>
+            </tr>
+            {% endif %}
+            {% if page.distributions %}
+            <tr>
+                <td>Distributions with {{ page.title }}</td>
+                <td>
+                    <ul>
+                    {% for distribution in page.distributions %}
+                        <li>{{distribution}}</li>
+                    {% endfor %}
+                    </ul>
+                </td>
+            </tr>
+            {% endif %}
+        </table>
+    </article>
+</div>
