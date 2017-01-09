@@ -9,12 +9,11 @@ layout: default
         </div>
     </div>-->
     <div class="col-md-12">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+        <span class="post-meta date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <h2>
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
-        {{ post.excerpt }}
+        {{ post.excerpt | slice: 0, 200}}...
     </div>
 </div>
 {% endfor %}

@@ -12,9 +12,9 @@ Ultimate Edition 5.0 Gamers is mainly targeting hard core gamers and you may not
 
 The Gamers OS gives optimal performance when it is installed and some of the games shipped will require heavy data download (upto 5 GB) and proprietary graphical drivers. While some other games are very simple and can run without special graphic card drivers.
 
-<div class="blockquote">
+<blockquote>
 I don’t typically have time to play games, that may change in the future. With a AMD RyZen CPU & Vega GPU on my Itinerary. Both free, I will sell AMD stock to get both for free. I paid 0 for the stock is how it is free. Let me try and queue you in. I convinced a co-worker to invest in AMD back when it was $6.97 a share November 21st I believe at $30,000 (4,043 shares). I did not ask for money. He offered me 2 days later $5,000 for the tip. I turned it down. I wanted stock. I have stock in AMD. I know where they are going. As a bonus to him I will tell him when to sell.
-</div>
+</blockquote>
 For more details, see [release announcement](http://ultimateedition.info/shall-we-play-a-game-2/) published in Ultimate Edition blog.
 
 

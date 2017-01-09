@@ -1,5 +1,6 @@
 ---
 layout: distribution
+uid: maui
 title: 'Maui Linux'
 Category: Distribution
 permalink: /distribution/maui
@@ -8,7 +9,6 @@ preview: maui-dolphin-screen.jpg
 home_page: https://mauilinux.org
 desktops: plasma
 base : KDE Neon, Ubuntu
-uid: maui
 ---
 
 **Maui Linux** is an Ubuntu/KDE Neon based GNU/Linux distribution offering latest and greatest KDE Plasma

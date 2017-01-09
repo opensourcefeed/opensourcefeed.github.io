@@ -46,6 +46,10 @@ header p {
   text-align: justify;
 }
 
+.post-thumbnail .date {
+  color: #aaa;
+}
+
 .post-header h1 {
     font-size: 1.6rem;
     padding-top: 20px;
@@ -71,12 +75,11 @@ header p {
   text-align: justify
 }
 
-.blockquote {
+blockquote {
     padding: .5rem 1rem;
     margin-bottom: 1rem;
     font-size: 1.0rem;
     background: #eee;
-    text-align: justify;
 }
 
 .related h3 {
@@ -147,6 +150,11 @@ header p {
 }
 
 .story-listing ul {
+  list-style-type: none;
+  padding-left: 0
+}
+
+table ul {
   list-style-type: none;
   padding-left: 0
 }

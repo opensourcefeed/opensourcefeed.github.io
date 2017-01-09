@@ -1,14 +1,14 @@
 ---
 layout: distribution
+uid: ultimate
 title: 'Ultimate Edition'
 Category: Distribution
 permalink: /distribution/ultimate
 logo: ultimate-edition-logo.png
 preview: ultimate-edition-preview.jpg
 home_page: http://ultimateedition.info/
-desktops: [KDE Plasma, GNOME, MATE, Xfce]
+desktops: [plasma, GNOME, MATE, xfce]
 base : Ubuntu
-uid: ultimate
 ---
 
 **Ultimate Edition** is an Ubuntu based, highly customized operating system trying to attract
