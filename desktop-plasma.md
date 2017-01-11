@@ -7,7 +7,7 @@ permalink: /desktop/plasma
 logo: plasma-logo.png
 preview: plasma-preview.jpg
 home_page: https://www.kde.org/workspaces/plasmadesktop/
-distributions: [KaOS, Kubuntu, maui, ..etc]
+distributions: [maui, KaOS, Kubuntu, manjaro, ultimate]
 ---
 
 **Plasma** is a modern desktop environment developed by KDE community. With plenty of customizability options,

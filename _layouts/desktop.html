@@ -28,8 +28,9 @@ layout: default
             <tr>
                 <td>Distributions with {{ page.title }}</td>
                 <td>
+                    {% assign distributions = page.distributions | sort %}
                     <ul>
-                    {% for distribution in page.distributions %}
+                    {% for distribution in distributions %}
                         {% assign to_distro = null %}
                         {% for page in site.pages %}
                             {% if page.Category == 'Distribution' and page.uid == distribution %}
