@@ -7,7 +7,6 @@ permalink: /desktop/deepin
 logo: deepin-logo.png
 preview: deepin-preview.jpg
 home_page: https://www.deepin.org/en/dde/
-distributions: [deepin, Arch, Manjaro]
 
 ---
 

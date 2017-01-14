@@ -24,27 +24,21 @@ layout: default
                 <td><a href="{{ page.home_page }}" target="_blank">{{page.home_page}}</a></td>
             </tr>
             {% endif %}
-            {% if page.distributions %}
+            {% assign distributions = '' | split: '' %}
+            {% for candidate in site.pages %}
+                {% if candidate.Category == 'Distribution' and candidate.desktops contains page.uid %}
+                    {% assign distributions = distributions | push: candidate %}
+                {% endif %}
+            {% endfor %}
+            {% assign count = distributions | size %}
+            {% if count > 0 %}
             <tr>
                 <td>Distributions with {{ page.title }}</td>
                 <td>
-                    {% assign distributions = page.distributions | sort %}
                     <ul>
-                    {% for distribution in distributions %}
-                        {% assign to_distro = null %}
-                        {% for page in site.pages %}
-                            {% if page.Category == 'Distribution' and page.uid == distribution %}
-                                {% assign to_distro = page %}
-                                {% break %}
-                            {% endif %}
+                        {% for distribution in distributions %}
+                            <li><a href="{{distribution.permalink}}">{{distribution.title}}</a></li>
                         {% endfor %}
-
-                        {% if to_distro %}
-                            <li><a href="{{to_distro.url}}">{{to_distro.title}}</a></li>
-                        {% else %}
-                        <li>{{distribution}}</li>
-                        {% endif %}
-                    {% endfor %}
                     </ul>
                 </td>
             </tr>
