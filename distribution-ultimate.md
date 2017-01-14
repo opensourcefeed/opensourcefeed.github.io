@@ -8,7 +8,7 @@ logo: ultimate-edition-logo.png
 preview: ultimate-edition-preview.jpg
 home_page: http://ultimateedition.info/
 desktops: [plasma, GNOME, MATE, xfce]
-base : Ubuntu
+base : [Ubuntu]
 ---
 
 **Ultimate Edition** is an Ubuntu based, highly customized operating system trying to attract

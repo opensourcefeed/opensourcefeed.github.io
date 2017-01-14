@@ -13,9 +13,11 @@ layout: default
             <img src="/assets/images/{{ page.logo }}" alt="{{ page.title}} logo"/>
         </div>
         {{ content }}
+        {% if page.preview %}
         <div class="preview">
             <img src="/assets/images/{{ page.preview }}" alt="{{ page.title}} preview"/>
         </div>
+        {% endif %}
         <hr>
         <table class="table table-bordered">
             {% if page.home_page %}
@@ -23,6 +25,28 @@ layout: default
                 <td>Home Page</td>
                 <td><a href="{{ page.home_page }}" target="_blank">{{page.home_page}}</a></td>
             </tr>
+            {% endif %}
+            {% if page.base %}
+            <tr>
+                <td>Base distributions</td>
+                <td>
+                {% for base in page.base %}
+                    {% assign to_distro = null %}
+                    {% for candidate in site.pages %}
+                        {% if candidate.Category == 'Distribution' and candidate.uid == base %}
+                            {% assign to_distro = candidate %}
+                            {% break %}
+                        {% endif %}
+                    {% endfor %}
+                    <ul>
+                        {% if to_distro %}
+                            <li><a href="{{to_distro.permalink}}">{{to_distro.title}}</a></li>
+                        {% else %}
+                            <li>{{base}}</li>
+                        {% endif %}
+                    </ul>
+                {% endfor %}
+                </td>
             {% endif %}
             {% if page.desktops %}
             <tr>

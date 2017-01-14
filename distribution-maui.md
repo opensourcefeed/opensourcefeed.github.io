@@ -8,7 +8,7 @@ logo: maui-logo-v2.png
 preview: maui-dolphin-screen.jpg
 home_page: https://mauilinux.org
 desktops: plasma
-base : KDE Neon, Ubuntu
+base : [KDE Neon, Ubuntu]
 ---
 
 **Maui Linux** is an Ubuntu/KDE Neon based GNU/Linux distribution offering latest and greatest KDE Plasma
