@@ -8,7 +8,7 @@ logo: mx-logo.png
 preview: mx-preview.jpg
 home_page: https://mxlinux.org/
 desktops: [xfce]
-base: [Debian]
+base: [debian]
 ---
 
 **MX Linux** is a cooperative venture between the antiX and former MEPIS communities, using the

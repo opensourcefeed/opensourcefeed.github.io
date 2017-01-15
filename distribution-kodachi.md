@@ -8,7 +8,7 @@ logo: kodachi-logo.png
 preview: kodachi-preview.png
 home_page: https://www.digi77.com/linux-kodachi/
 desktops: [xfce]
-base : [Debian]
+base : [debian]
 ---
 
 **Linux Kodachi** is a Debian based operating system that provides a secure, anti forensic,

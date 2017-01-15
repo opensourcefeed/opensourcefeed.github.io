@@ -1,10 +1,5 @@
-@font-face {
-  font-family: "Roboto Condensed";
-  src: url("http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700") format('embedded-opentype');
-}
-
 * {
-  font-family: 'Roboto Condensed', sans-serif
+  font-family: sans-serif
 }
 header {
   padding: 20px 0 0;
@@ -65,6 +60,11 @@ header p {
   text-decoration: none;
 }
 
+.post-content {
+  font-size: 15px;
+  line-height: 1.7em;
+}
+
 .post-content img {
     max-width: 100%;
     display: block;
@@ -76,9 +76,12 @@ header p {
 }
 
 blockquote {
-    padding: .5rem 1rem;
-    margin-bottom: 1rem;
-    font-size: 1.0rem;
+    position: relative;
+    margin: 15px 0;
+    font-weight: 400;
+    text-align: justify;
+    padding: 15px;
+    color: #000;
     background: #eee;
 }
 
@@ -93,7 +96,6 @@ blockquote {
 .sidebar h2 {
     overflow: hidden;
     position: relative;
-    font-family: 'Roboto Condensed';
     font-size: 16px;
     font-weight: 700;
     padding: 10px 0;
