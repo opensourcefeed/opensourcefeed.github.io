@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Stories of Free & open-source technologies, complete database of free & open-source distributions
   and desktop environments
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://opensourcefeed.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://theopensourcefeed.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
