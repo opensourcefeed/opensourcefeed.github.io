@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://theopensourcefeed.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://theopensourcefeed.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://theopensourcefeed.com/" rel="alternate" type="text/html" /><updated>2017-01-16T22:25:25+05:30</updated><id>http://theopensourcefeed.com//</id><title type="html">OpenSourceFeed</title><subtitle>Stories of Free &amp; open-source technologies, complete database of free &amp; open-source distributions and desktop environments
+</subtitle><entry><title type="html">Linux Mint 18.1 KDE beta released</title><link href="http://theopensourcefeed.com/linuxmint-18-1-kde-beta-released/" rel="alternate" type="text/html" title="Linux Mint 18.1 KDE beta released" /><published>2017-01-16T00:00:00+05:30</published><updated>2017-01-16T00:00:00+05:30</updated><id>http://theopensourcefeed.com/linuxmint-18-1-kde-beta-released</id><content type="html" xml:base="http://theopensourcefeed.com/linuxmint-18-1-kde-beta-released/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Linux Mint team has announced availability of Linux Mint 18.1 KDE beta, development 
+release for upcoming Linux Mint distribution featuring KDE Plasma as default desktop environment.
+Linux Mint 18.x series is based on Ubuntu 16.04 LTS and hence will be supported till 2021.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/linuxmint18.1plasma.jpg&quot; alt=&quot;Linux Mint 18.1 KDE Preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notable highlights of Linux Mint 18.1 KDE beta release includes:&lt;/p&gt;
+&lt;blockquote class=&quot;tr_bq&quot;&gt;
+&lt;ul style=&quot;text-align: left;&quot;&gt;
+&lt;li&gt;Plasma desktop 5.8&lt;/li&gt;
+&lt;li&gt;Update manager includes a new column to indicate the origin of update.&lt;/li&gt;
+&lt;li&gt;Update manager highlights Kernel updates a more prominent way.&lt;/li&gt;
+&lt;li&gt;Software Sources tool to choose between different available mirrors for package installation and updates.&lt;/li&gt;
+&lt;li&gt;linux-firmware 1.157.5 and the Linux kernel 4.4.0-53.&lt;/li&gt;
+&lt;li&gt;Linux Mint 18.1 features a superb collection of backgrounds. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For more details, see &lt;a href=&quot;http://www.linuxmint.com/rel_serena_kde.php&quot;&gt;release notes&lt;/a&gt;, 
+&lt;a href=&quot;http://blog.linuxmint.com/?p=3197&quot;&gt;release announcement&lt;/a&gt; and 
+&lt;a href=&quot;https://www.linuxmint.com/rel_serena_kde_whatsnew.php&quot;&gt;feature list&lt;/a&gt; of Linux Mint 18.1 KDE beta.&lt;/p&gt;</content><summary type="html">The Linux Mint team has announced availability of Linux Mint 18.1 KDE beta, development 
+release for upcoming Linux Mint distribution featuring KDE Plasma as default desktop environment.
+Linux Mint 18.x series is based on Ubuntu 16.04 LTS and hence will be supported till 2021.</summary></entry><entry><title type="html">Debian 9 Stretch installer rc1 released</title><link href="http://theopensourcefeed.com/debian-9-stretch-installer-rc1-released/" rel="alternate" type="text/html" title="Debian 9 Stretch installer rc1 released " /><published>2017-01-16T00:00:00+05:30</published><updated>2017-01-16T00:00:00+05:30</updated><id>http://theopensourcefeed.com/debian-9-stretch-installer-rc1-released</id><content type="html" xml:base="http://theopensourcefeed.com/debian-9-stretch-installer-rc1-released/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Debian Installer team has announced availability of first release candidate for 
+Debian 9 Stretch Installer rc1. This release is coming after several alpha releases and 
+can expect improved stability and robustness.&lt;/p&gt;
+
+&lt;p&gt;This release of Debian installer reverts the switch to merge /usr as the default configuration 
+of debootstrap as it raises a number of serious issues which might not be fixed in time 
+for stretch. In next release cycle, this configuration will come back.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Debian 9.png&quot; alt=&quot;Debian 9 Banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In previous Alpha release (Alpha 6) Debian Pure Blends appeared in Software selection 
+screen. There were some different opinions regarding this. How ever, it was n’t addressed 
+during the freeze as freeze is not the phase where critical screens are expected to revamp.&lt;/p&gt;
+
+&lt;p&gt;Following are some improvements made in this development release:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul style=&quot;text-align: left;&quot;&gt;
+&lt;li&gt;apt-setup
+&lt;br /&gt;&amp;nbsp; - Tweak which images will offer to scan more discs.&lt;/li&gt;
+&lt;li&gt;brltty:&lt;br /&gt;&amp;nbsp; - Switch to espeak-ng.&lt;br /&gt;&amp;nbsp; - Add support for LXQt.&lt;br /&gt;&amp;nbsp; - Improve detection of USB devices.&lt;/li&gt;
+&lt;li&gt;cdebconf-terminal:&lt;br /&gt;&amp;nbsp; - Switch from ttf-dejavu-mono-udeb to fonts-dejavu-mono-udeb.&lt;/li&gt;
+&lt;li&gt;debian-installer:&lt;br /&gt;&amp;nbsp; - Add HTTPS support through new ca-certificates and wget udebs&lt;br /&gt;&amp;nbsp; - Switch from ttf-dejavu-udeb to fonts-dejavu-udeb.&lt;br /&gt;&amp;nbsp; - Switch from fonts-lklug-sinhala to fonts-noto-hinted-udeb for Sinhala&lt;br /&gt;&amp;nbsp; - Bump Linux kernel version from 4.7.0-1 to 4.8.0-2.&lt;br /&gt;&amp;nbsp; - Update theme to softWaves by Juliette Belin.&lt;/li&gt;
+&lt;li&gt;debian-installer-utils:&lt;br /&gt;&amp;nbsp; - Add checksum verification to fetch-url.&lt;/li&gt;
+&lt;li&gt;espeakup-udeb:&lt;br /&gt;&amp;nbsp; - Avoid issues with sound board names containing spaces.&lt;br /&gt;&amp;nbsp; - Fix race conditions when starting espeakup.&lt;br /&gt;&amp;nbsp; - Switch to espeak-ng (#833658).
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For more details, see &lt;a href=&quot;https://lists.debian.org/debian-devel-announce/2017/01/msg00004.html&quot;&gt;original announcement&lt;/a&gt; published in &lt;em&gt;Debian Development&lt;/em&gt; mailing list.&lt;/p&gt;</content><summary type="html">The Debian Installer team has announced availability of first release candidate for 
+Debian 9 Stretch Installer rc1. This release is coming after several alpha releases and 
+can expect improved stability and robustness.</summary></entry><entry><title type="html">Debian 8.7 released with critical security fixes</title><link href="http://theopensourcefeed.com/debian-8-7-released-with-security-fixes/" rel="alternate" type="text/html" title="Debian 8.7 released with critical security fixes" /><published>2017-01-15T00:00:00+05:30</published><updated>2017-01-15T00:00:00+05:30</updated><id>http://theopensourcefeed.com/debian-8-7-released-with-security-fixes</id><content type="html" xml:base="http://theopensourcefeed.com/debian-8-7-released-with-security-fixes/">&lt;p&gt;&lt;strong&gt;Debian&lt;/strong&gt; - &lt;em&gt;The Universal Operating System&lt;/em&gt; developers has announced release of Debian 8.7, 7th updated snapshot in Debian 8.x Jessy branch. This release includes some security fixes and resolutions for other critical issues reported in previous snapshots.&lt;/p&gt;
+
+&lt;p&gt;Debian 8.7 is not a new release, instead an updated snapshot with updated packages. This is just a continuation of snapshots in Debian 8.x series. So you can install any other snapshot in this release and update your system using regular update means to get all upgraded packages and bug fixes as in 8.7 snapshot.
+&lt;img src=&quot;/assets/images/Debian Banner.png&quot; alt=&quot;Debian Banner&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+    The Debian project is pleased to announce the seventh update of its stable distribution Debian 8 (codename &quot;jessie&quot;). This update mainly adds corrections for security problems to the stable release, along with a few adjustments for serious problems. Security advisories were already published separately and are referenced where available.
+
+    Please note that this update does not constitute a new version of Debian 8 but only updates some of the packages included. There is no need to throw away old &quot;jessie&quot; CDs or DVDs but only to update via an up-to-date Debian mirror after an installation, to cause any out of date packages to be updated.
+&lt;/blockquote&gt;
+
+&lt;p&gt;For a brief &lt;a href=&quot;https://www.debian.org/News/2017/20170114&quot;&gt;release announcement&lt;/a&gt; and detailed list of security fixes, see Debian website.&lt;/p&gt;</content><summary type="html">Debian - The Universal Operating System developers has announced release of Debian 8.7, 7th updated snapshot in Debian 8.x Jessy branch. This release includes some security fixes and resolutions for other critical issues reported in previous snapshots.</summary></entry><entry><title type="html">Manjaro 17.0 Gellivara Alpha 2 released in KDE &amp;amp; Xfce flavors</title><link href="http://theopensourcefeed.com/manjaro-170-alpha2-released-with-kde-and-xfce-flavors/" rel="alternate" type="text/html" title=" Manjaro 17.0 Gellivara Alpha 2 released in KDE &amp; Xfce flavors " /><published>2017-01-11T00:00:00+05:30</published><updated>2017-01-11T00:00:00+05:30</updated><id>http://theopensourcefeed.com/manjaro-170-alpha2-released-with-kde-and-xfce-flavors</id><content type="html" xml:base="http://theopensourcefeed.com/manjaro-170-alpha2-released-with-kde-and-xfce-flavors/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Philm&lt;/em&gt; - member of Manjaro development team has announced availability of Manjaro 17.0 Alpha 2 
+for testing. As any other official releases of Manjaro, this release also includes KDE &amp;amp; Xfce flavors.&lt;/p&gt;
+
+&lt;p&gt;Beginning from this release, Manjaro is planning to have some minor changes in it’s release cycle. 
+These changes includes a revised version system. Previous convention was using the month on which 
+the release is expected. As per new release cycle, the project will release 3 major snapshots with 
+new features. In case of any bug, there will be updated point releases in same series.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/manjaro-xfce.jpg&quot; alt=&quot;Manjaro 17.0 Xfce Preview&quot; /&gt;
+&lt;em&gt;CREDIT : Manjaro Forum&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The major highlights/plans for Manjaro 17.0 can be summarized as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+      &lt;li&gt;  We updated the stock kernel to linux49 4.9 LTS&lt;/li&gt;
+    &lt;li&gt;    We will update the Xorg-Stack to v1.19 series&lt;/li&gt;
+    &lt;li&gt;    We will enhance and improve Luks and LVM support in CAL&lt;/li&gt;
+    &lt;li&gt;    We will enhance and improve our Manjaro Tools &amp;amp; Profiles&lt;/li&gt;
+  &lt;li&gt;      We will enhance and improve our MHWD and MSM&lt;/li&gt;
+   &lt;li&gt;     We will update our themes&lt;/li&gt;
+        &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For more information and discussions on Manjaro 17.0 Alpha 2 Xfce &amp;amp; KDE releases, see separate announcements made in Manjaro forums.&lt;/p&gt;</content><summary type="html">Mr Philm - member of Manjaro development team has announced availability of Manjaro 17.0 Alpha 2 
+for testing. As any other official releases of Manjaro, this release also includes KDE &amp;amp; Xfce flavors.</summary></entry><entry><title type="html">MX Linux 16 keeps a good balance between performance and elegance : Review</title><link href="http://theopensourcefeed.com/mx-linux-16-keeps-a-good-balance-between-performance-and-elegance-review/" rel="alternate" type="text/html" title="MX Linux 16 keeps a good balance between performance and elegance : Review" /><published>2017-01-09T00:00:00+05:30</published><updated>2017-01-09T00:00:00+05:30</updated><id>http://theopensourcefeed.com/mx-linux-16-keeps-a-good-balance-between-performance-and-elegance-review</id><content type="html" xml:base="http://theopensourcefeed.com/mx-linux-16-keeps-a-good-balance-between-performance-and-elegance-review/">&lt;p&gt;&lt;strong&gt;MX Linux&lt;/strong&gt; is a Debian stable based GNU/Linux distribution grown as a cooperative venture between the antiX and retired MEPIS communities. It makes use of best tools and technologies from both distributions. In terms of resource usage, it is expected to be a midweight(somewhere between lightweight and heavy distributions) which combines a beautiful and efficient &lt;a href=&quot;/desktop/xfce&quot;&gt;Xfce desktop&lt;/a&gt; with 
+Debian to provide a highly stable, solid operating system.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/mx-16-menu.jpg&quot; alt=&quot;Preview of MX Linux 16&quot; /&gt;
+&lt;em&gt;CREDIT : Distrowatch&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Latest release of distrowatch weekly dated 9th January 2017, features a review of MX Linux 16 as cover story. The review concludes that, the developers of MX Linux were able to keep a fair balance between performance and elegance. The distribution is lightweight, highly responsive with modern technologies. However, the reviewer does not recommend MX Linux for absolute newbies as it expects some kind of prior Linux experience to play with. Though it is a good choice for people with outdated computers and people who care the most about performance and resource usage.&lt;/p&gt;
+
+&lt;blockquote&gt;
+I like that while MX is light on resources, it provides a lot of popular software for us to use. We are treated to good multimedia support, a full featured productivity suite and web browser. The software included in MX is more modern than Debian Stable and we have access to a Backports repository if we want to access up to date applications.
+
+I ran into just a few rough edges, like the theme changer asking me to restart Firefox and the update manager not refreshing its package information before downloading new updates. Earlier I mentioned some frustration with the many overlapping configuration tools, but I acknowledge what I see as clutter could be another person's convenience. 
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can read &lt;a href=&quot;http://distrowatch.com/weekly.php?issue=20170109#mx&quot;&gt;complete review&lt;/a&gt; and other open source related news in distrowatch weekly news letter.&lt;/p&gt;</content><summary type="html">MX Linux is a Debian stable based GNU/Linux distribution grown as a cooperative venture between the antiX and retired MEPIS communities. It makes use of best tools and technologies from both distributions. In terms of resource usage, it is expected to be a midweight(somewhere between lightweight and heavy distributions) which combines a beautiful and efficient Xfce desktop with 
+Debian to provide a highly stable, solid operating system.</summary></entry><entry><title type="html">Deepin Technology gets a new community website</title><link href="http://theopensourcefeed.com/deepin-technology-gets-a-new-community-website/" rel="alternate" type="text/html" title="Deepin Technology gets a new community website" /><published>2017-01-09T00:00:00+05:30</published><updated>2017-01-09T00:00:00+05:30</updated><id>http://theopensourcefeed.com/deepin-technology-gets-a-new-community-website</id><content type="html" xml:base="http://theopensourcefeed.com/deepin-technology-gets-a-new-community-website/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Deepin Technology team has announced launch of new community website for the deepin technology - a Chinese firm doing innovative development on free &amp;amp; open source technologies.&lt;/p&gt;
+
+&lt;p&gt;The newly announced website is coming with a revamped layout and design. The site mainly includes community related content and announcements from deepin technology. The home page lists recent community announcement and provide links to various community channels of project, including facebook, twitter, weibo, telegram and other local community channels.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/deepin-community-site.jpeg&quot; alt=&quot;Courtesy : Deepin blog&quot; /&gt;
+&lt;em&gt;Courtesy : Deepin Community&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;As per &lt;a href=&quot;https://www.deepin.org/en/2017/01/06/the-website-v2-0-of-deepin-technology-is-finally-online/&quot;&gt;official announcement&lt;/a&gt;, main highlights of community website can be summarized as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Mainly shows the contents of the homepage, especially version information, community news and updates, etc;&lt;/li&gt;
+&lt;li&gt;Added column for projects to show Deepin Desktop Environment, Deepin Original Applications and Deepin Cooperative Applications;&lt;/li&gt;
+&lt;li&gt;Added column for documents to show community related documents, mainly wiki and installation process;&lt;/li&gt;
+&lt;li&gt;Integrated blog and make the existing sub domain blog a news center, to show news and updates at once;&lt;/li&gt;
+&lt;li&gt;Added app center to show apps for Deepin Store(to show the latest 
+apps on web) and to show the entry for delivering apps(deliver to 
+community for now, will deliver to the backend of the Deepin Store in 
+the future);&lt;/li&gt;
+&lt;li&gt;Added developer community, mainly to let more developer join the 
+development process and show version planning, howtos(make plugins 
+for&amp;nbsp;dock or control center, etc.) and how to join i18n project, etc;&lt;/li&gt;
+&lt;li&gt;Shows the community culture and put recruit, contact us and commercial cooperative to &lt;a href=&quot;https://www.deepin.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Deepin Commercial Website&lt;/a&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</content><summary type="html">The Deepin Technology team has announced launch of new community website for the deepin technology - a Chinese firm doing innovative development on free &amp;amp; open source technologies.</summary></entry><entry><title type="html">Ultimate 5.0 Gamers Edition released</title><link href="http://theopensourcefeed.com/ultimate-50-gamers-edition-released/" rel="alternate" type="text/html" title="Ultimate 5.0 Gamers Edition released" /><published>2017-01-08T00:00:00+05:30</published><updated>2017-01-08T00:00:00+05:30</updated><id>http://theopensourcefeed.com/ultimate-50-gamers-edition-released</id><content type="html" xml:base="http://theopensourcefeed.com/ultimate-50-gamers-edition-released/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Theehman&lt;/em&gt;, core developer of Ultimate OS has announced release of Ultimate 5.0 Gamers edition, latest stable release of Ubuntu based GNU/Linux distribution specifically developed for gamers. This release ships numerous games of reasonable quality.&lt;/p&gt;
+
+&lt;p&gt;Ultimate Edition 5.0 Gamers is mainly targeting hard core gamers and you may not find it pretty as the regular releases. During the development, Theehman and Mcginnis has worked hard to strip down the OS to the core and then various packages were included to serve the needs of a gamer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/ultimate-edition720x340.png&quot; alt=&quot;Ultimate Edition Banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Gamers OS gives optimal performance when it is installed and some of the games shipped will require heavy data download (upto 5 GB) and proprietary graphical drivers. While some other games are very simple and can run without special graphic card drivers.&lt;/p&gt;
+
+&lt;blockquote&gt;
+I don’t typically have time to play games, that may change in the future. With a AMD RyZen CPU &amp;amp; Vega GPU on my Itinerary. Both free, I will sell AMD stock to get both for free. I paid 0 for the stock is how it is free. Let me try and queue you in. I convinced a co-worker to invest in AMD back when it was $6.97 a share November 21st I believe at $30,000 (4,043 shares). I did not ask for money. He offered me 2 days later $5,000 for the tip. I turned it down. I wanted stock. I have stock in AMD. I know where they are going. As a bonus to him I will tell him when to sell.
+&lt;/blockquote&gt;
+&lt;p&gt;For more details, see &lt;a href=&quot;http://ultimateedition.info/shall-we-play-a-game-2/&quot;&gt;release announcement&lt;/a&gt; published in Ultimate Edition blog.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://sourceforge.net/projects/ultimateedition/files/ultimate-edition-5.0-x64-gamers.iso&quot;&gt;Download Ultimate Edition 5.0 Gamers&lt;/a&gt;&lt;/p&gt;</content><summary type="html">Mr Theehman, core developer of Ultimate OS has announced release of Ultimate 5.0 Gamers edition, latest stable release of Ubuntu based GNU/Linux distribution specifically developed for gamers. This release ships numerous games of reasonable quality.</summary></entry><entry><title type="html">Maui Linux 2.1 is a suprisingly good plasma distribution : Review</title><link href="http://theopensourcefeed.com/Maui-Linux-2.1-is-a-suprisingly-good-plasma-distribution-Review/" rel="alternate" type="text/html" title="Maui Linux 2.1 is a suprisingly good plasma distribution : Review" /><published>2017-01-08T00:00:00+05:30</published><updated>2017-01-08T00:00:00+05:30</updated><id>http://theopensourcefeed.com/Maui%20Linux%202.1%20is%20a%20suprisingly%20good%20plasma%20distribution%20:%20Review</id><content type="html" xml:base="http://theopensourcefeed.com/Maui-Linux-2.1-is-a-suprisingly-good-plasma-distribution-Review/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Maui Linux is a reborn version of Ubuntu based Netrunner Desktop edition featuring KDE Plasma desktop. Netrunner Desktop edition is still alive (at least by that name), but is based on Debian instead of Ubuntu. Maui Linux is based on KDE Neon project which is basically Ubuntu LTS with latest KDE Plasma presentation layer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/maui-desktop-live.jpg&quot; alt=&quot;Preview of Maui Linux Desktop&quot; /&gt;
+&lt;em&gt;CREDIT : Dedoimedo Portal&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The dedoimedo portal has published a review on Maui Linux 2.1. Throughout the review, a positive experience is being presented though with some minor fall backs. The review travels through different aspects of the system and presents positive remarks like less resource utilization without compromising performance and responsiveness, reasonable battery life, a working package management front-end, ie synaptic, which may not be liked by new users, a nice choice of applications, fair amount of customization to offer a familiar experience and good hardware support. Also, some rough edges are figured out like, printer support, slower update process and few other cosmetic glitches.&lt;/p&gt;
+
+&lt;blockquote&gt;
+Maui Linux 2.1 Blue Tang is a surprisingly and yet expectedly good Plasma system, using some of that Mint-like approach to home computing. It's what Kubuntu should have been or should be, and it delivers a practical, out-of-the-box experience with a fine blend of software, fun and stability. That's a very sensible approach.
+
+Not everything was perfect. Plasma has its bugs, the printer and the web cam issues need to be looked into, and on the aesthetics side, a few things can be polished and improved. The installer can benefit from having some extra safety mechanisms. But I guess that is the sum of my complaints. On the happy side, you get all the goodies from the start, the application collection is rich, the distro did not crash, and the performance is really decent for a Plasma beastling. A fine formula, and probably the best one we've seen in the last eighteen months or so.
+&lt;/blockquote&gt;
+&lt;p&gt;See &lt;a href=&quot;http://www.dedoimedo.com/computers/maui-2-1-blue-tang.html&quot;&gt;complete review&lt;/a&gt; in dedoimedo portal for more details and screenshots.&lt;/p&gt;</content><summary type="html">The Maui Linux is a reborn version of Ubuntu based Netrunner Desktop edition featuring KDE Plasma desktop. Netrunner Desktop edition is still alive (at least by that name), but is based on Debian instead of Ubuntu. Maui Linux is based on KDE Neon project which is basically Ubuntu LTS with latest KDE Plasma presentation layer.</summary></entry><entry><title type="html">KaOS 2017.01 released with a fresh look &amp;amp; vertical panel</title><link href="http://theopensourcefeed.com/kaos-2017.01-released/" rel="alternate" type="text/html" title="KaOS 2017.01 released with a fresh look &amp; vertical panel" /><published>2017-01-07T00:00:00+05:30</published><updated>2017-01-07T00:00:00+05:30</updated><id>http://theopensourcefeed.com/kaos-2017.01-released</id><content type="html" xml:base="http://theopensourcefeed.com/kaos-2017.01-released/">&lt;p&gt;&lt;strong&gt;While&lt;/strong&gt; celebrating the beginning of 2017, KaOS team has proudly presented KaOS 2017.01 latest monthly snapshot of independently developed, rolling GNU/Linux distribution offering a smooth and cutting edge KDE experience.&lt;/p&gt;
+
+&lt;p&gt;KaOS team is delivering first snapshot in 2017 with fresh and cool look. It comes with updated version of Midna artwork, which mainly includes inclusion of sddm theme that employs a layered QML model. This will ease the task of selecting between default Plasma session and wayland session. Also, the system panel is moved to right side with vertical orientation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/KaOS 2017.01.jpg&quot; alt=&quot;KaOS 2017.01 Preview&quot; /&gt;
+&lt;em&gt;CREDIT : KaOS Blog&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;As any other monthly snapshot of KaOS, current snapshot is also shipping latest available packages for Plasma Desktop which includes KDE Frameworks 5.29.0, Plasma 5.8.5, KDE Apps 5.20.0 and some pre-release port of KDE Apps. All these packages are build against Qt 5.7.1.&lt;/p&gt;
+
+&lt;p&gt;Most notable major updates to the base of the system are Boost 1.62.0, ICU 58.2, Ruby 2.4.0, Systemd 232, FFMPEG 3.2, Linux 4.8.15, Mesa 13.0.2, Hunspell 1.6.0, Gpgme 1.8.0, Gstreamer 1.10.2 and a move to Openjpeg 2 (2.1.2)&lt;/p&gt;
+
+&lt;blockquote&gt;New is the use of a GUI warning on system updates that require user action. Adding such notices to a News item or having an install message included in (at time large) pacman output is too easily missed. A rolling distribution will have to make such changes over the lifetime of an install. Thus the need for a better way to communicate is now implemented, see an example for the upcoming OpenVPN update for all users.&lt;/blockquote&gt;
+
+&lt;p&gt;For more information on KaOS 2017.01 snapshot, see &lt;a href=&quot;https://kaosx.us/news/2017/kaos01/&quot;&gt;release announcement&lt;/a&gt; in projects blog.&lt;/p&gt;</content><summary type="html">While celebrating the beginning of 2017, KaOS team has proudly presented KaOS 2017.01 latest monthly snapshot of independently developed, rolling GNU/Linux distribution offering a smooth and cutting edge KDE experience.</summary></entry><entry><title type="html">Solus project announced first release of Brisk Menu</title><link href="http://theopensourcefeed.com/solus-project-announced-first-release-of-brisk-menu/" rel="alternate" type="text/html" title="Solus project announced first release of Brisk Menu " /><published>2017-01-06T00:00:00+05:30</published><updated>2017-01-06T00:00:00+05:30</updated><id>http://theopensourcefeed.com/solus-project-announced-first-release-of-brisk-menu</id><content type="html" xml:base="http://theopensourcefeed.com/solus-project-announced-first-release-of-brisk-menu/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Joshua Strobl&lt;/em&gt;, communication manager at Solus project has announced release of Brisk Menu 0.1.0, a modern, efficient and clean application menu for MATE Desktop. It enables quick launch of applications with search support, and includes other session control buttons for logout, shutdown with settings button.&lt;/p&gt;
+
+&lt;p&gt;Though Brisk Menu is developed by Solus project, other big plEnable ayers like Ubuntu MATE has also expressed their interest in this project and has collaborated together. Currently Ubuntu MATE is using mintmenu adopted from Linux Mint and they were looking for an alternative for a while.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Brisk_Menu_0.1.0.jpg&quot; alt=&quot;Brisk Menu in Solus MATE Edition&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Current release of Brisk Menu is at it’s early stages of development and has a long way to go to fulfill the purpose of developers behind creating such a menu. Following are some of the todo features for Brisk Menu.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Enable launch of menu with Super/Meta/Windows/Command key.&lt;/li&gt;
+&lt;li&gt;Enable support for translation.&lt;/li&gt;
+&lt;li&gt;Favorite sections to pin applications&lt;/li&gt;
+&lt;li&gt;Ability to customize general behavior of menu, for example option to toggle sidebar icons.&lt;/li&gt;
+&lt;li&gt;Ability to customize label &amp;amp; icon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;The latest rolling snapshot of Solus MATE edition (2017.01.01.0) is featuring Brisk Menu. Or alternatively you can download the release snapshot from github releases.&lt;/p&gt;</content><summary type="html">Mr Joshua Strobl, communication manager at Solus project has announced release of Brisk Menu 0.1.0, a modern, efficient and clean application menu for MATE Desktop. It enables quick launch of applications with search support, and includes other session control buttons for logout, shutdown with settings button.</summary></entry></feed>

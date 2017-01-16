@@ -7,7 +7,7 @@ permalink: /distribution/debian
 logo: debian-logo.png
 preview: debian-kde-preview.png
 home_page: https://www.debian.org
-desktops: [gnome, kde, xfce]
+desktops: [gnome, plasma, xfce]
 base : Independent
 ---
 
