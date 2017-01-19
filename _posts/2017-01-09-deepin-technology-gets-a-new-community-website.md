@@ -8,7 +8,7 @@ categories: news deepin
 
 The newly announced website is coming with a revamped layout and design. The site mainly includes community related content and announcements from deepin technology. The home page lists recent community announcement and provide links to various community channels of project, including facebook, twitter, weibo, telegram and other local community channels.
 
-![Courtesy : Deepin blog](/assets/images/deepin-community-site.jpeg)
+![Courtesy : Deepin blog](/assets/images/post-images/deepin-community-site.jpeg)
 *Courtesy : Deepin Community*
 
 As per [official announcement](https://www.deepin.org/en/2017/01/06/the-website-v2-0-of-deepin-technology-is-finally-online/), main highlights of community website can be summarized as follows:

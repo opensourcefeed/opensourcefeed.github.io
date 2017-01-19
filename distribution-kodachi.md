@@ -5,7 +5,7 @@ title: 'Kodachi Linux'
 Category: Distribution
 permalink: /distribution/kodachi
 logo: kodachi-logo.png
-preview: kodachi-preview.png
+preview: kodachi-preview.jpg
 home_page: https://www.digi77.com/linux-kodachi/
 desktops: [xfce]
 base : [debian]

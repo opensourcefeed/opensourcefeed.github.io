@@ -4,8 +4,8 @@ uid: budgie
 title: 'Budgie Desktop'
 Category: Desktop
 permalink: /desktop/budgie
-logo: 7b49af6e6a1dfd39bfb46be06f02b5ce.png
-preview: 511dfedb1978d9ad7f89e59f47717563.jpeg
+logo: budgie-logo.png
+preview: budgie-preview.jpeg
 home_page: http://budgie-desktop.org/
 
 ---

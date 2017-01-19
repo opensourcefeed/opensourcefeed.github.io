@@ -10,12 +10,16 @@ layout: default
     </div>
     <article class="post-content">
         <div class="logo">
-            <img src="/assets/images/{{ page.logo }}" alt="{{ page.title}} logo"/>
+            <a href="/assets/images/logo/{{ page.logo }}">
+                <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title}} logo"/>
+            </a>
         </div>
         {{ content }}
         {% if page.preview %}
         <div class="preview">
-            <img src="/assets/images/{{ page.preview }}" alt="{{ page.title}} preview"/>
+            <a href="/assets/images/preview/{{ page.preview }}">
+                <img src="/assets/images/preview/{{ page.preview }}" alt="{{ page.title}} preview"/>
+            </a>
         </div>
         {% endif %}
         <hr>
@@ -74,8 +78,9 @@ layout: default
             {% endif %}
         </table>
     </article>
-    <hr>
+    
     {% if site.categories[page.uid] %}
+        <hr>
         <div class="story-listing">
         <h3>Stories on {{page.title}}</h3>
         <ul>

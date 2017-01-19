@@ -8,7 +8,7 @@ layout: post
 
 Ultimate Edition 5.0 Gamers is mainly targeting hard core gamers and you may not find it pretty as the regular releases. During the development, Theehman and Mcginnis has worked hard to strip down the OS to the core and then various packages were included to serve the needs of a gamer.
 
-![Ultimate Edition Banner](/assets/images/ultimate-edition720x340.png)
+![Ultimate Edition Banner](/assets/images/post-images/ultimate-edition720x340.png)
 
 The Gamers OS gives optimal performance when it is installed and some of the games shipped will require heavy data download (upto 5 GB) and proprietary graphical drivers. While some other games are very simple and can run without special graphic card drivers.
 

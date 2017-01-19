@@ -12,7 +12,7 @@ These changes includes a revised version system. Previous convention was using t
 the release is expected. As per new release cycle, the project will release 3 major snapshots with 
 new features. In case of any bug, there will be updated point releases in same series.
 
-![Manjaro 17.0 Xfce Preview](/assets/images/manjaro-xfce.jpg)
+![Manjaro 17.0 Xfce Preview](/assets/images/post-images/manjaro-xfce.jpg)
 *CREDIT : Manjaro Forum*
 
 The major highlights/plans for Manjaro 17.0 can be summarized as follows:

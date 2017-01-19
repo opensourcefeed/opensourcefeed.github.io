@@ -12,7 +12,7 @@ This release of Debian installer reverts the switch to merge /usr as the default
 of debootstrap as it raises a number of serious issues which might not be fixed in time 
 for stretch. In next release cycle, this configuration will come back.
 
-![Debian 9 Banner](/assets/images/Debian 9.png)
+![Debian 9 Banner](/assets/images/post-images/Debian 9.png)
 
 In previous Alpha release (Alpha 6) Debian Pure Blends appeared in Software selection 
 screen. There were some different opinions regarding this. How ever, it was n't addressed 

@@ -10,11 +10,15 @@ layout: default
     </div>
     <article class="post-content">
         <div class="logo">
-            <img src="/assets/images/{{ page.logo }}" alt="{{ page.title}} logo"/>
+            <a href="/assets/images/logo/{{ page.logo }}">
+                <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title}} logo"/>
+            </a>
         </div>
         {{ content }}
         <div class="preview">
-            <img src="/assets/images/{{ page.preview }}" alt="{{ page.title}} preview"/>
+            <a href="/assets/images/preview/{{ page.preview }}">
+                <img src="/assets/images/preview/{{ page.preview }}" alt="{{ page.title}} preview"/>
+            </a>
         </div>
         <hr>
         <table class="table table-bordered">

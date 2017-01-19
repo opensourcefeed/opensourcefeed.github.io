@@ -8,7 +8,7 @@ categories: linuxmint plasma release
 release for upcoming Linux Mint distribution featuring KDE Plasma as default desktop environment.
 Linux Mint 18.x series is based on Ubuntu 16.04 LTS and hence will be supported till 2021.
 
-![Linux Mint 18.1 KDE Preview](/assets/images/linuxmint18.1plasma.jpg)
+![Linux Mint 18.1 KDE Preview](/assets/images/post-images/linuxmint18.1plasma.jpg)
 
 
 Notable highlights of Linux Mint 18.1 KDE beta release includes:
