@@ -8,7 +8,7 @@
           content="Stores of Free & Open Source technologies. Complete database of open source 
     Operating systems and desktop environments"/>
     <meta name="google-site-verification" content="8-DkVd0YN5zpN1NpF6X4SMnRckVNQgEu4O8Uk9cU_2c" />
-    <link rel="canonical" href="https://opensourcefeed.github.io" />
+    <link rel="canonical" href="https://opensourcefeed.github.io{{page.permalink}}" />
     <title>
         {% if page.title %}
         {{ page.title }} - 
@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href={{ "/assets/css/bootstrap.min.css" | relative_url }}>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <link rel="stylesheet" href={{ "/assets/css/style.css" | relative_url }}>
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
@@ -94,10 +95,6 @@
                         </a>
                         {% endif %} 
                     {% endfor %}
-                        <li>Fedora</li>
-                        <li>Ubuntu Budgie</li>
-                        <li>Ubuntu GNOME</li>
-                        <li>Ubuntu MATE</li>
                     </ul>
                 </aside>
             </div>
@@ -110,12 +107,6 @@
                             <li>{{page.title}}</li>
                         </a>
                         {% endif %} {% endfor %}
-                        <li>Cinnamon</li>
-                        <li>GNOME</li>
-                        <li>LXDE</li>
-                        <li>MATE</li>
-                        <li>Pantheon</li>
-                        <li>Unity</li>
                     </ul>
                 </aside>
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
