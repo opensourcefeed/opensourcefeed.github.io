@@ -42,6 +42,14 @@ nav.navbar {
   transition: color 0.5s ease;
 }
 
+.social-icons img {
+  height: 35px;
+}
+
+.social-icons  li{
+  display: inline;
+}
+
 .post-thumbnail {
   padding-top: 20px;
   border-bottom: 1px solid #ddd;
