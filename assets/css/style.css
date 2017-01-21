@@ -95,7 +95,8 @@ nav.navbar {
 }
 
 .post-content p {
-  text-align: justify
+  font-family: 'sans-serif';
+  text-align: left;
 }
 
 blockquote {
@@ -105,7 +106,7 @@ blockquote {
     text-align: justify;
     padding: 15px;
     color: #000;
-    background: #eee;
+    background: #f0f0f0;
 }
 
 .related h3 {

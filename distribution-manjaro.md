@@ -8,7 +8,7 @@ logo: Manjaro-logo.svg
 preview: manjaro-xfce.jpg
 home_page: https://manjaro.org/
 desktops: [plasma, xfce]
-base : [Arch]
+base : [arch]
 ---
 
 **Manjaro** is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly
