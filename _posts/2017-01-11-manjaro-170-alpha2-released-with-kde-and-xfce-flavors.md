@@ -2,6 +2,7 @@
 layout: post
 title: ' Manjaro 17.0 Gellivara Alpha 2 released in KDE & Xfce flavors '
 categories: manjaro release
+image: "/assets/images/post-images/manjaro-xfce.jpg"
 ---
 
 **Mr** *Philm* - member of Manjaro development team has announced availability of Manjaro 17.0 Alpha 2 

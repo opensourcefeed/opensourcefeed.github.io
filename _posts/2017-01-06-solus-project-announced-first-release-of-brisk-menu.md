@@ -2,6 +2,7 @@
 layout: post
 title: 'Solus project announced first release of Brisk Menu '
 categories: solus News MATE
+image : "/assets/images/post-images/Brisk_Menu_0.1.0.jpg"
 ---
 
 **Mr** *Joshua Strobl*, communication manager at Solus project has announced release of Brisk Menu 0.1.0, a modern, efficient and clean application menu for MATE Desktop. It enables quick launch of applications with search support, and includes other session control buttons for logout, shutdown with settings button.

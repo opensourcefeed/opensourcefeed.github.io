@@ -2,6 +2,7 @@
 layout: post
 title: 'Debian 9 Stretch installer rc1 released '
 categories: debian release
+image: "/assets/images/post-images/Debian 9.png"
 ---
 
 **The** Debian Installer team has announced availability of first release candidate for 

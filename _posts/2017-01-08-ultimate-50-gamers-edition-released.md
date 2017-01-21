@@ -2,6 +2,7 @@
 title: Ultimate 5.0 Gamers Edition released
 categories: ultimate Release
 layout: post
+image: "/assets/images/post-images/ultimate-edition720x340.png"
 ---
 
 **Mr** *Theehman*, core developer of Ultimate OS has announced release of Ultimate 5.0 Gamers edition, latest stable release of Ubuntu based GNU/Linux distribution specifically developed for gamers. This release ships numerous games of reasonable quality.

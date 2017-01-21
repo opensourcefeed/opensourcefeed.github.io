@@ -2,6 +2,7 @@
 layout: post
 title: 'Debian 8.7 released with critical security fixes'
 categories: debian release
+image: "/assets/images/post-images/Debian Banner.png"
 ---
 
 **Debian** - *The Universal Operating System* developers has announced release of Debian 8.7, 7th updated snapshot in Debian 8.x Jessy branch. This release includes some security fixes and resolutions for other critical issues reported in previous snapshots.

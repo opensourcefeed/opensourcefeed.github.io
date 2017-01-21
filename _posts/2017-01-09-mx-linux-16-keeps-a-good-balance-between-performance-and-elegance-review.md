@@ -2,6 +2,7 @@
 layout: post
 title: 'MX Linux 16 keeps a good balance between performance and elegance : Review'
 categories: mx review
+image: "/assets/images/post-images/mx-16-menu.jpg"
 ---
 
 **MX Linux** is a Debian stable based GNU/Linux distribution grown as a cooperative venture between the antiX and retired MEPIS communities. It makes use of best tools and technologies from both distributions. In terms of resource usage, it is expected to be a midweight(somewhere between lightweight and heavy distributions) which combines a beautiful and efficient [Xfce desktop](/desktop/xfce) with 

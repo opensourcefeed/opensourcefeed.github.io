@@ -32,4 +32,16 @@ exclude:
 permalink: :title/
 paginate: 6
 paginate_path: /page:num/
-gems: [jekyll-paginate, jekyll-feed]
+gems: [jekyll-paginate, jekyll-feed, jekyll-seo-tag]
+twitter:
+  username: opensourcefeed
+facebook:
+  publisher: https://www.facebook.com/opensourcefeed
+social:
+  name: OpenSourceFeed
+  links:
+    - https://plus.google.com/b/114426521113195641057/
+    - https://twitter.com/opensourcefeed
+    - https://www.facebook.com/opensourcefeed
+webmaster_verifications:
+  google: "8-DkVd0YN5zpN1NpF6X4SMnRckVNQgEu4O8Uk9cU_2c"

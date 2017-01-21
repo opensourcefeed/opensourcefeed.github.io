@@ -2,6 +2,7 @@
 layout: post
 title: 'Linux Mint 18.1 KDE beta released'
 categories: linuxmint plasma release
+image: "/assets/images/post-images/linuxmint18.1plasma.jpg"
 ---
 
 **The** Linux Mint team has announced availability of Linux Mint 18.1 KDE beta, development 

@@ -4,27 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt | strip_html | slice: 0, 200}}"/>
-    {% else %}
-    <meta name="description" 
-          content="Stores of Free & Open Source technologies. Complete database of open source 
-    Operating systems and desktop environments"/>
-    {% endif %}
+    
     <meta name="google-site-verification" content="8-DkVd0YN5zpN1NpF6X4SMnRckVNQgEu4O8Uk9cU_2c" />
-    <link rel="canonical" href="https://opensourcefeed.github.io{{page.permalink}}" />
-    <title>
-        {% if page.title %}
-        {{ page.title }} - 
-        {% endif %}
-        OpenSourceFeed
-    </title>
 
     <link rel="stylesheet" href={{ "/assets/css/bootstrap.min.css" | relative_url }}>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <link rel="stylesheet" href={{ "/assets/css/style.css" | relative_url }}>
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    {% seo %}
 </head>
 
 <body>

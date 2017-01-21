@@ -2,6 +2,7 @@
 layout: post
 title: 'Deepin Technology gets a new community website'
 categories: news deepin
+image: "/assets/images/post-images/deepin-community-site.jpeg"
 ---
 
 **The** Deepin Technology team has announced launch of new community website for the deepin technology - a Chinese firm doing innovative development on free & open source technologies.
