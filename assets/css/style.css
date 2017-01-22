@@ -99,6 +99,16 @@ nav.navbar {
   text-align: left;
 }
 
+.post-content h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.lastUpdated {
+  font-size: 16px;
+  color: #777;
+}
+
 blockquote {
     position: relative;
     margin: 15px 0;
