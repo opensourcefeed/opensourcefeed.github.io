@@ -1,99 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://opensourcefeed.github.io/</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/solus-project-announced-first-release-of-brisk-menu/</loc>
+<lastmod>2017-01-06T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/manjaro-170-alpha2-released-with-kde-and-xfce-flavors/</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/kaos-2017.01-released/</loc>
+<lastmod>2017-01-07T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/mx-linux-16-keeps-a-good-balance-between-performance-and-elegance-review/</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/Maui-Linux-2.1-is-a-suprisingly-good-plasma-distribution-Review/</loc>
+<lastmod>2017-01-08T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/deepin-technology-gets-a-new-community-website/</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/ultimate-50-gamers-edition-released/</loc>
+<lastmod>2017-01-08T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/ultimate-50-gamers-edition-released/</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/deepin-technology-gets-a-new-community-website/</loc>
+<lastmod>2017-01-09T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/Maui-Linux-2.1-is-a-suprisingly-good-plasma-distribution-Review/</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/mx-linux-16-keeps-a-good-balance-between-performance-and-elegance-review/</loc>
+<lastmod>2017-01-09T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/kaos-2017.01-released/</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/manjaro-170-alpha2-released-with-kde-and-xfce-flavors/</loc>
+<lastmod>2017-01-11T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/page2/</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/debian-8-7-released-with-security-fixes/</loc>
+<lastmod>2017-01-15T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/distribution/deepin</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/debian-9-stretch-installer-rc1-released/</loc>
+<lastmod>2017-01-16T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/distribution/manjaro</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/linuxmint-18-1-kde-beta-released/</loc>
+<lastmod>2017-01-16T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/distribution/maui</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/elementary-os-looks-cool-but-package-management-is-a-pain/</loc>
+<lastmod>2017-01-20T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/distribution/mx</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/running-arch-linux-on-lenovo-yoga-900/</loc>
+<lastmod>2017-01-20T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/distribution/ultimate</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/newsfeed/</loc>
+<lastmod>2017-01-22T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/desktop/budgie</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/04-lmde-2-betsy-is-getting-an-updated-image/</loc>
+<lastmod>2017-01-27T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/desktop/deepin</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/elementary-loki-ships-first-set-of-updates-in-2017/</loc>
+<lastmod>2017-01-27T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/desktop/plasma</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/tails-210-released-with-onion-share-and-updated-packages/</loc>
+<lastmod>2017-01-27T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/desktop/xfce</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/wine-2.0-stable-released-with-ms-office-2013-support/</loc>
+<lastmod>2017-01-27T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>https://opensourcefeed.github.io/solus-project-announced-first-release-of-brisk-menu/</loc>
-  <lastmod>2017-01-12T16:45:53+00:00</lastmod>
-  <changefreq>daily</changefreq>
+<loc>http://theopensourcefeed.com/about/</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/desktop/budgie</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/desktop/deepin</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/desktop/enlightenment</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/desktop/moksha</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/desktop/pantheon</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/desktop/plasma</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/desktop/xfce</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/arch</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/arya</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/debian</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/deepin</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/elementary</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/kodachi</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/lfs</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/linuxmint</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/manjaro</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/maui</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/mx</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/solus</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/tails</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/ubuntu</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/ultimate</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/page2/</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/page3/</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/google9aba68154c5cb9a6.html</loc>
+<lastmod>2017-01-14T22:09:03+05:30</lastmod>
 </url>
 </urlset>
