@@ -69,6 +69,14 @@
 <lastmod>2017-01-27T00:00:00+05:30</lastmod>
 </url>
 <url>
+<loc>http://theopensourcefeed.com/00-linuxmint-181-serena-xfce-and-kde-editions-released/</loc>
+<lastmod>2017-01-29T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/01-bodhi-linux-410-released-with-linux-kernel-48/</loc>
+<lastmod>2017-01-29T00:00:00+05:30</lastmod>
+</url>
+<url>
 <loc>http://theopensourcefeed.com/about/</loc>
 </url>
 <url>
@@ -97,6 +105,9 @@
 </url>
 <url>
 <loc>http://theopensourcefeed.com/distribution/arya</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/bodhi</loc>
 </url>
 <url>
 <loc>http://theopensourcefeed.com/distribution/debian</loc>
@@ -145,6 +156,9 @@
 </url>
 <url>
 <loc>http://theopensourcefeed.com/page3/</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/page4/</loc>
 </url>
 <url>
 <loc>http://theopensourcefeed.com/google9aba68154c5cb9a6.html</loc>

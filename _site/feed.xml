@@ -1,5 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://theopensourcefeed.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://theopensourcefeed.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://theopensourcefeed.com/" rel="alternate" type="text/html" /><updated>2017-01-28T12:47:31+05:30</updated><id>http://theopensourcefeed.com//</id><title type="html">OpenSourceFeed</title><subtitle>Stories of Free &amp; open-source technologies, complete database of free &amp; open-source distributions and desktop environments
-</subtitle><entry><title type="html">WINE 2.0 stable released with MS Office 2013 support</title><link href="http://theopensourcefeed.com/wine-2.0-stable-released-with-ms-office-2013-support/" rel="alternate" type="text/html" title="WINE 2.0 stable released with MS Office 2013 support " /><published>2017-01-27T00:00:00+05:30</published><updated>2017-01-27T00:00:00+05:30</updated><id>http://theopensourcefeed.com/wine-2.0-stable-released-with-ms-office-2013-support</id><content type="html" xml:base="http://theopensourcefeed.com/wine-2.0-stable-released-with-ms-office-2013-support/">&lt;p&gt;&lt;strong&gt;Finally&lt;/strong&gt; the WINE (recursive acronym for Wine Is Not Emulator) developers has announced availability of Wine 2.0 stable release. This release includes numerous changes on underlying components and comes with better application support.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://theopensourcefeed.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://theopensourcefeed.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://theopensourcefeed.com/" rel="alternate" type="text/html" /><updated>2017-01-29T10:02:01+05:30</updated><id>http://theopensourcefeed.com//</id><title type="html">OpenSourceFeed</title><subtitle>Stories of Free &amp; open-source technologies, complete database of free &amp; open-source distributions and desktop environments
+</subtitle><entry><title type="html">Bodhi Linux 4.1.0 released with Linux 4.8 and Arc inspired moksha theme</title><link href="http://theopensourcefeed.com/01-bodhi-linux-410-released-with-linux-kernel-48/" rel="alternate" type="text/html" title="Bodhi Linux 4.1.0 released with Linux 4.8 and Arc inspired moksha theme" /><published>2017-01-29T00:00:00+05:30</published><updated>2017-01-29T00:00:00+05:30</updated><id>http://theopensourcefeed.com/01-bodhi-linux-410-released-with-linux-kernel-48</id><content type="html" xml:base="http://theopensourcefeed.com/01-bodhi-linux-410-released-with-linux-kernel-48/">&lt;p&gt;The &lt;a href=&quot;/distribution/bodhi&quot;&gt;Bodhi Linux&lt;/a&gt; team has announced release of Bodhi Linux 4.1.0, latest maintenance cum bug fix release in Bodhi Linux 4 branch. This release comes with several updated packages and bug fixes.&lt;/p&gt;
+
+&lt;p&gt;For those who are not familiar with Bodhi Linux, it is an Ubuntu LTS based GNU/Linux distribution featuring Enlightenment inspired &lt;a href=&quot;/desktop/moksha&quot;&gt;Moksha desktop&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/bodhi410.jpg&quot; alt=&quot;Bodhi Linux 4.1.0 Preview&quot; /&gt;
+&lt;em&gt;Bodhi Linux 4.1.0 Preview&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Newly announced Bodhi Linux 4.1.0 features updated packages like EFL 1.18.4, and updated version of Enlightenment Foundation Libraries, Linux Kernel 4.8 which comes with improved support for different graphics cards, and a new Moksha desktop theme inspired by Arc Dark.&lt;/p&gt;
+
+&lt;p&gt;The existing users of Bodhi Linux 4.x, can avail all the bug fixes by a simple system update. But they need to take manual actions for changing linux kernel and to use updated dark theme.&lt;/p&gt;
+&lt;blockquote&gt;
+This release serves to package up the fixes for a few bugs that slipped through the cracks in the 4.0.0 release, as well as provided updated package sets for the install ISO images. Most notably these ISO images come with EFL 1.18.4, Linux Kernel 4.8, and a new Moksha Theme based on the “Arc Dark” theme. Existing Bodhi 4.0.0 users already have the bug fixes incorporated into these ISO images, but they will need to manually install the newer kernel and theme if they wish to utilize them.
+&lt;/blockquote&gt;
+&lt;p&gt;You can also find original &lt;a href=&quot;http://www.bodhilinux.com/2017/01/27/bodhi-linux-4-1-0-released/&quot;&gt;release announcement&lt;/a&gt; and a few screenshtos in Bodhi Linux blog.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Download Bodhi Linux 4.1.0&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;64bit &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-64.iso/download&quot;&gt;ISO Download&lt;/a&gt;&amp;nbsp;– &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-64.iso.torrent/download&quot;&gt;Torrent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;32bit &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-32.iso/download&quot;&gt;ISO Download&lt;/a&gt; – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-32.iso.torrent/download&quot;&gt;Torrent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Legacy &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;– &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-legacy.iso/download&quot;&gt;ISO Download&lt;/a&gt; – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.0.0/bodhi-4.0.0-legacy.iso.torrent/download&quot;&gt;Torrent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;64bit AppPack – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-apppack-64.iso/download&quot;&gt;ISO Download&lt;/a&gt; – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-apppack-64.iso.torrent/download&quot;&gt;Torrent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;32bit AppPack – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-apppack-32.iso/download&quot;&gt;ISO Download&lt;/a&gt; – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-apppack-32.iso.torrent/download&quot;&gt;Torrent&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">The Bodhi Linux team has announced release of Bodhi Linux 4.1.0, latest maintenance cum bug fix release in Bodhi Linux 4 branch. This release comes with several updated packages and bug fixes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://theopensourcefeed.com/assets/images/post-images/bodhi410.jpg" /></entry><entry><title type="html">Linux Mint 18.1 Serena Xfce &amp;amp; KDE editions released</title><link href="http://theopensourcefeed.com/00-linuxmint-181-serena-xfce-and-kde-editions-released/" rel="alternate" type="text/html" title="Linux Mint 18.1 Serena Xfce &amp; KDE editions released" /><published>2017-01-29T00:00:00+05:30</published><updated>2017-01-29T00:00:00+05:30</updated><id>http://theopensourcefeed.com/00-linuxmint-181-serena-xfce-and-kde-editions-released</id><content type="html" xml:base="http://theopensourcefeed.com/00-linuxmint-181-serena-xfce-and-kde-editions-released/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; &lt;a href=&quot;/distribution/linuxmint&quot;&gt;Linux Mint&lt;/a&gt; community has announced release of Linux Mint 18.1 Serena Xfce and KDE editions. These releases includes packages updates and usability improvements to provide a better user experience.&lt;/p&gt;
+
+&lt;p&gt;Linux Mint 18.1 a long term supported (LTS) release based on Ubuntu 16.04 LTS and it will continue to get critical security updates till 2021. Thereafter, the release will be discarded and users are expected to upgrade their system to a newer release.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/linuxmint-xfce-181.jpg&quot; alt=&quot;Linux Mint 18.1 Xfce Preview&quot; /&gt;
+&lt;em&gt;Linux Mint 18.1 Xfce Desktop&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The major highlights in both KDE &amp;amp; Xfce flavors can be summarized as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul style=&quot;text-align: left;&quot;&gt;
+&lt;li&gt;KDE Plasma 5.8&lt;/li&gt;
+&lt;li&gt;Whisker application menu in Xfce flavor is upgraded to version 1.6.2&lt;/li&gt;
+&lt;li&gt;A new cross desktop compatible collection of common applications, X-Apps developed by Linux Mint project which includes text editor, media player, document viewer..etc. All these apps are inspired by old gnome school applications.&lt;/li&gt;
+&lt;li&gt;Improved update manager which include option to sort package updates based on origin and displays kernel versions in a more clear way.&lt;/li&gt;
+&lt;li&gt;Better language support which includes translated text for more packages.&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;World Wide availability &lt;/i&gt;of packages&lt;/li&gt;
+&lt;li&gt;Updated MDM - Mint Display Manager&lt;/li&gt;
+&lt;li&gt;Banshee music player is replaced with Rhythmbox&lt;/li&gt;
+&lt;li&gt;Improved artwork&lt;/li&gt;
+&lt;li&gt;Linux Kernel 4.4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For more details, see separate release announcements for &lt;a href=&quot;http://blog.linuxmint.com/?p=3222&quot;&gt;Xfce&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://www.linuxmint.com/rel_serena_kde_whatsnew.php&quot;&gt;KDE&lt;/a&gt; flavors of Linux Mint 18.1.&lt;/p&gt;</content><summary type="html">The Linux Mint community has announced release of Linux Mint 18.1 Serena Xfce and KDE editions. These releases includes packages updates and usability improvements to provide a better user experience.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://theopensourcefeed.com/assets/images/post-images/linuxmint-xfce-181.jpg" /></entry><entry><title type="html">WINE 2.0 stable released with MS Office 2013 support</title><link href="http://theopensourcefeed.com/wine-2.0-stable-released-with-ms-office-2013-support/" rel="alternate" type="text/html" title="WINE 2.0 stable released with MS Office 2013 support " /><published>2017-01-27T00:00:00+05:30</published><updated>2017-01-27T00:00:00+05:30</updated><id>http://theopensourcefeed.com/wine-2.0-stable-released-with-ms-office-2013-support</id><content type="html" xml:base="http://theopensourcefeed.com/wine-2.0-stable-released-with-ms-office-2013-support/">&lt;p&gt;&lt;strong&gt;Finally&lt;/strong&gt; the WINE (recursive acronym for Wine Is Not Emulator) developers has announced availability of Wine 2.0 stable release. This release includes numerous changes on underlying components and comes with better application support.&lt;/p&gt;
 
 &lt;p&gt;Wine is basically a compatibly layer for running windows binary executables on different POSIX compliant platforms like GNU/Linux, BSD and macOS. WINE is not a mere emulator, instead it maps windows system calls into native system calls on real time and hence provide better performance than an emulator.&lt;/p&gt;
 
@@ -149,43 +193,4 @@ Linux Mint 18.x series is based on Ubuntu 16.04 LTS and hence will be supported 
 &lt;a href=&quot;http://blog.linuxmint.com/?p=3197&quot;&gt;release announcement&lt;/a&gt; and 
 &lt;a href=&quot;https://www.linuxmint.com/rel_serena_kde_whatsnew.php&quot;&gt;feature list&lt;/a&gt; of Linux Mint 18.1 KDE beta.&lt;/p&gt;</content><summary type="html">The Linux Mint team has announced availability of Linux Mint 18.1 KDE beta, development 
 release for upcoming Linux Mint distribution featuring KDE Plasma as default desktop environment.
-Linux Mint 18.x series is based on Ubuntu 16.04 LTS and hence will be supported till 2021.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://theopensourcefeed.com/assets/images/post-images/linuxmint18.1plasma.jpg" /></entry><entry><title type="html">Debian 9 Stretch installer rc1 released</title><link href="http://theopensourcefeed.com/debian-9-stretch-installer-rc1-released/" rel="alternate" type="text/html" title="Debian 9 Stretch installer rc1 released " /><published>2017-01-16T00:00:00+05:30</published><updated>2017-01-16T00:00:00+05:30</updated><id>http://theopensourcefeed.com/debian-9-stretch-installer-rc1-released</id><content type="html" xml:base="http://theopensourcefeed.com/debian-9-stretch-installer-rc1-released/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Debian Installer team has announced availability of first release candidate for 
-Debian 9 Stretch Installer rc1. This release is coming after several alpha releases and 
-can expect improved stability and robustness.&lt;/p&gt;
-
-&lt;p&gt;This release of Debian installer reverts the switch to merge /usr as the default configuration 
-of debootstrap as it raises a number of serious issues which might not be fixed in time 
-for stretch. In next release cycle, this configuration will come back.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/Debian 9.png&quot; alt=&quot;Debian 9 Banner&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In previous Alpha release (Alpha 6) Debian Pure Blends appeared in Software selection 
-screen. There were some different opinions regarding this. How ever, it was n’t addressed 
-during the freeze as freeze is not the phase where critical screens are expected to revamp.&lt;/p&gt;
-
-&lt;p&gt;Following are some improvements made in this development release:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul style=&quot;text-align: left;&quot;&gt;
-&lt;li&gt;apt-setup
-&lt;br /&gt;&amp;nbsp; - Tweak which images will offer to scan more discs.&lt;/li&gt;
-&lt;li&gt;brltty:&lt;br /&gt;&amp;nbsp; - Switch to espeak-ng.&lt;br /&gt;&amp;nbsp; - Add support for LXQt.&lt;br /&gt;&amp;nbsp; - Improve detection of USB devices.&lt;/li&gt;
-&lt;li&gt;cdebconf-terminal:&lt;br /&gt;&amp;nbsp; - Switch from ttf-dejavu-mono-udeb to fonts-dejavu-mono-udeb.&lt;/li&gt;
-&lt;li&gt;debian-installer:&lt;br /&gt;&amp;nbsp; - Add HTTPS support through new ca-certificates and wget udebs&lt;br /&gt;&amp;nbsp; - Switch from ttf-dejavu-udeb to fonts-dejavu-udeb.&lt;br /&gt;&amp;nbsp; - Switch from fonts-lklug-sinhala to fonts-noto-hinted-udeb for Sinhala&lt;br /&gt;&amp;nbsp; - Bump Linux kernel version from 4.7.0-1 to 4.8.0-2.&lt;br /&gt;&amp;nbsp; - Update theme to softWaves by Juliette Belin.&lt;/li&gt;
-&lt;li&gt;debian-installer-utils:&lt;br /&gt;&amp;nbsp; - Add checksum verification to fetch-url.&lt;/li&gt;
-&lt;li&gt;espeakup-udeb:&lt;br /&gt;&amp;nbsp; - Avoid issues with sound board names containing spaces.&lt;br /&gt;&amp;nbsp; - Fix race conditions when starting espeakup.&lt;br /&gt;&amp;nbsp; - Switch to espeak-ng (#833658).
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;For more details, see &lt;a href=&quot;https://lists.debian.org/debian-devel-announce/2017/01/msg00004.html&quot;&gt;original announcement&lt;/a&gt; published in &lt;em&gt;Debian Development&lt;/em&gt; mailing list.&lt;/p&gt;</content><summary type="html">The Debian Installer team has announced availability of first release candidate for 
-Debian 9 Stretch Installer rc1. This release is coming after several alpha releases and 
-can expect improved stability and robustness.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://theopensourcefeed.com/assets/images/post-images/Debian%209.png" /></entry><entry><title type="html">Debian 8.7 released with critical security fixes</title><link href="http://theopensourcefeed.com/debian-8-7-released-with-security-fixes/" rel="alternate" type="text/html" title="Debian 8.7 released with critical security fixes" /><published>2017-01-15T00:00:00+05:30</published><updated>2017-01-15T00:00:00+05:30</updated><id>http://theopensourcefeed.com/debian-8-7-released-with-security-fixes</id><content type="html" xml:base="http://theopensourcefeed.com/debian-8-7-released-with-security-fixes/">&lt;p&gt;&lt;strong&gt;Debian&lt;/strong&gt; - &lt;em&gt;The Universal Operating System&lt;/em&gt; developers has announced release of Debian 8.7, 7th updated snapshot in Debian 8.x Jessy branch. This release includes some security fixes and resolutions for other critical issues reported in previous snapshots.&lt;/p&gt;
-
-&lt;p&gt;Debian 8.7 is not a new release, instead an updated snapshot with updated packages. This is just a continuation of snapshots in Debian 8.x series. So you can install any other snapshot in this release and update your system using regular update means to get all upgraded packages and bug fixes as in 8.7 snapshot.
-&lt;img src=&quot;/assets/images/post-images/Debian Banner.png&quot; alt=&quot;Debian Banner&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-    The Debian project is pleased to announce the seventh update of its stable distribution Debian 8 (codename &quot;jessie&quot;). This update mainly adds corrections for security problems to the stable release, along with a few adjustments for serious problems. Security advisories were already published separately and are referenced where available.
-
-    Please note that this update does not constitute a new version of Debian 8 but only updates some of the packages included. There is no need to throw away old &quot;jessie&quot; CDs or DVDs but only to update via an up-to-date Debian mirror after an installation, to cause any out of date packages to be updated.
-&lt;/blockquote&gt;
-
-&lt;p&gt;For a brief &lt;a href=&quot;https://www.debian.org/News/2017/20170114&quot;&gt;release announcement&lt;/a&gt; and detailed list of security fixes, see Debian website.&lt;/p&gt;</content><summary type="html">Debian - The Universal Operating System developers has announced release of Debian 8.7, 7th updated snapshot in Debian 8.x Jessy branch. This release includes some security fixes and resolutions for other critical issues reported in previous snapshots.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://theopensourcefeed.com/assets/images/post-images/Debian%20Banner.png" /></entry></feed>
+Linux Mint 18.x series is based on Ubuntu 16.04 LTS and hence will be supported till 2021.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://theopensourcefeed.com/assets/images/post-images/linuxmint18.1plasma.jpg" /></entry></feed>
