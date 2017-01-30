@@ -76,6 +76,18 @@ layout: default
                 </td>
             </tr>
             {% endif %}
+            {% if page.screenshots %}
+            <tr>
+                <td>Screenshots</td>
+                <td>
+                    <ul>
+                    {% for screenshot in page.screenshots %}
+                        <li><a href="{{screenshot[1]}}">{{screenshot[0]}}</a></li>
+                    {% endfor %}
+                    </ul>
+                </td>
+            </tr>
+            {% endif %}
         </table>
     </article>
     
