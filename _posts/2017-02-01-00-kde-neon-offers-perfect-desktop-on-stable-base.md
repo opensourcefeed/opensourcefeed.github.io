@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'KDE neon offers a near perfect desktop on a stable base'
-categories: kdeneon review
+categories: kdeneon plasma review
 image: "/assets/images/post-images/neon_a.jpg"
 ---
 **KDE neon** is an amazing GNU/Linux distribution developed by the KDE community. It integrates most up-to-date
