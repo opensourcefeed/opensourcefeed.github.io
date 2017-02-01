@@ -97,6 +97,8 @@ nav.navbar {
 .post-content p {
   font-family: sans-serif;
   text-align: left;
+  color: black;
+  text-align: justify;
 }
 
 .post-content h3 {

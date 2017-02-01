@@ -76,6 +76,26 @@ layout: default
                 </td>
             </tr>
             {% endif %}
+
+            {% assign distributions = '' | split: '' %}
+            {% for candidate in site.pages %}
+                {% if candidate.Category == 'Distribution' and candidate.base contains page.uid %}
+                    {% assign distributions = distributions | push: candidate %}
+                {% endif %}
+            {% endfor %}
+            {% assign count = distributions | size %}
+            {% if count > 0 %}
+            <tr>
+                <td>Distributions based on {{page.title}}</td>
+                <td>
+                    <ul>
+                        {% for distribution in distributions %}
+                            <li><a href="{{distribution.permalink}}">{{distribution.title}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </td>
+            </tr>
+            {% endif %}
             {% if page.screenshots %}
             <tr>
                 <td>Screenshots</td>
