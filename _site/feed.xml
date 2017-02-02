@@ -1,5 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://theopensourcefeed.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://theopensourcefeed.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://theopensourcefeed.com/" rel="alternate" type="text/html" /><updated>2017-02-02T21:31:00+05:30</updated><id>http://theopensourcefeed.com//</id><title type="html">OpenSourceFeed</title><subtitle>Stories of Free &amp; open-source technologies, complete database of free &amp; open-source distributions and desktop environments
-</subtitle><entry><title type="html">KDE neon offers a near perfect desktop on a stable base</title><link href="http://theopensourcefeed.com/00-kde-neon-offers-perfect-desktop-on-stable-base/" rel="alternate" type="text/html" title="KDE neon offers a near perfect desktop on a stable base" /><published>2017-02-01T00:00:00+05:30</published><updated>2017-02-01T00:00:00+05:30</updated><id>http://theopensourcefeed.com/00-kde-neon-offers-perfect-desktop-on-stable-base</id><content type="html" xml:base="http://theopensourcefeed.com/00-kde-neon-offers-perfect-desktop-on-stable-base/">&lt;p&gt;&lt;strong&gt;KDE neon&lt;/strong&gt; is an amazing GNU/Linux distribution developed by the KDE community. It integrates most up-to-date
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://theopensourcefeed.com/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://theopensourcefeed.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://theopensourcefeed.com/" rel="alternate" type="text/html" /><updated>2017-02-02T22:27:32+05:30</updated><id>http://theopensourcefeed.com//</id><title type="html">OpenSourceFeed</title><subtitle>Stories of Free &amp; open-source technologies, complete database of free &amp; open-source distributions and desktop environments
+</subtitle><entry><title type="html">LibreOffice 5.3 released with a tons of new features</title><link href="http://theopensourcefeed.com/00-libreoffice-53-released-see-what-is-new/" rel="alternate" type="text/html" title="LibreOffice 5.3 released with a tons of new features" /><published>2017-02-02T00:00:00+05:30</published><updated>2017-02-02T00:00:00+05:30</updated><id>http://theopensourcefeed.com/00-libreoffice-53-released-see-what-is-new</id><content type="html" xml:base="http://theopensourcefeed.com/00-libreoffice-53-released-see-what-is-new/">&lt;p&gt;&lt;strong&gt;The Document Foundation&lt;/strong&gt; has announced release of LibreOffice 5.3, latest stable release of popular
+free and open source office suite. This release introduces a lot of new proffessional quality features which makes it more competing with other proprietary office suites. It will be immediately available for windows, GNU/Linux and macOS platforms and also for cloud platforms.&lt;/p&gt;
+
+&lt;p&gt;LibreOffice 5.3 is a major milestone in the history projects. It introduces new features like online collaborative editing, which will increase the competency of project, also this release provides a lot of incremental improvements to make it more reliable, smooth and user friendly.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/LibreOffice Impress - Notebookbar.jpg&quot; alt=&quot;LibreOffice 5.3 with Notebookbar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The major highlights in LibreOffice 5.3 can be summarized as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduces LibreOffice Online, a cloud based office suite that offers basic collaborative editing features on a web browsers. It is basically a server service and should be expected and configured by adding a cloud storage and SSL certificate.&lt;/li&gt;
+&lt;li&gt;An experimental ribbon UI (MUFFIN - My User Friendly &amp;amp; Flexible INterface)&lt;/li&gt;
+&lt;li&gt;Keyboard shortcuts can now be displayed in context menus, and are enabled by default on Windows and Linux.&lt;/li&gt;
+&lt;li&gt;To help you work better with filled shapes, the Area dialog has been simplified and includes a new Patterns section, for better compatibility with other office software.&lt;/li&gt;
+&lt;li&gt;Additionally, if you want to fill a shape with a custom bitmap image, you can now import a new image directly from the sidebar.&lt;/li&gt;
+&lt;li&gt;It's now possible to insert PDFs into your documents as images, with the first page being shown.&lt;/li&gt;
+&lt;li&gt;Furthermore, you can sign existing PDF files, and verify those signatures as well.&lt;/li&gt;
+&lt;li&gt;Colour palette management has been simplified, and new palettes have been added for professional graphic and layout workflows.&lt;/li&gt;
+&lt;li&gt;New items have been added to the Help menu, including quick links to user guides and community support forums.&lt;/li&gt;
+&lt;li&gt;A Safe Mode is now available, to help you find and fix problems with your user profile or extensions.&lt;/li&gt;
+&lt;li&gt;Text layout has been unified for consistency across operating systems, while file format compatibility has been improved as well.&lt;/li&gt;
+&lt;li&gt;Finally, LibreOffice 5.3 is the first full source code release of LibreOffice online, a browser-based version of the suite that you can run on your private cloud infrastructure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Writer&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;In LibreOffice 5.3, Writer has some great new features to make your documents shine.&lt;/li&gt;
+&lt;li&gt;Table styles are now supported, letting you apply formatting to a table which is preserved when you make edits to it.&lt;/li&gt;
+&lt;li&gt;A new Page deck in the sidebar lets you quickly customise page settings without having to go through a separate dialog box.&lt;/li&gt;
+&lt;li&gt;For faster navigation, a new Go to Page box lets you jump to another page in the document with just a few keypresses.&lt;/li&gt;
+&lt;li&gt;In the drawing tools, arrows that were previously only available in Draw and Impress can now be used in Writer.&lt;/li&gt;
+&lt;li&gt;Lastly, the toolbar includes a new Small Capitals button, and this formatting can also be applied via macros.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Calc&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;LibreOffice 5.3 has many improvements in Calc, to help you work smarter with spreadsheets.&lt;/li&gt;
+&lt;li&gt;A new set of default cell styles are now available, with greater variety and better names than in previous releases.&lt;/li&gt;
+&lt;li&gt;In fresh installations, &quot;Enable wildcards in formulas&quot; is now the default option, rather than regular expressions, to improve compatibility with other spreadsheet software.&lt;/li&gt;
+&lt;li&gt;When you're creating pivot tables, a new median function is now available.&lt;/li&gt;
+&lt;li&gt;The merge cells feature now lets you empty the contents of cells that are hidden after the merge.&lt;/li&gt;
+&lt;li&gt;Finally, when you're inserting a function, a new text entry box lets you narrow down the functions you're looking for.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Impress &amp;amp; Draw&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;In LibreOffice 5.3, Impress has been updated to make your presentations really stand out.&lt;/li&gt;
+&lt;li&gt;When you launch the software, a template selector now appears to get you off to a quick start.&lt;/li&gt;
+&lt;li&gt;Two new attractive templates have been included by default, whileothers have been improved as well.&lt;/li&gt;
+&lt;li&gt;When you're inserting images from a photo album, it's now possible to link these images so that they're not saved in the document itself.&lt;/li&gt;
+&lt;li&gt;Lastly, in slide master mode, slide properties are now available in the sidebar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For more details, see release announcement published in &lt;a href=&quot;https://blog.documentfoundation.org/blog/2017/02/01/the-document-foundation-announces-feature-rich-libreoffice-5-3/&quot;&gt;document foundation blog&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">The Document Foundation has announced release of LibreOffice 5.3, latest stable release of popular
+free and open source office suite. This release introduces a lot of new proffessional quality features which makes it more competing with other proprietary office suites. It will be immediately available for windows, GNU/Linux and macOS platforms and also for cloud platforms.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://theopensourcefeed.com/assets/images/post-images/LibreOffice%20Impress%20-%20Notebookbar.jpg" /></entry><entry><title type="html">KDE neon offers a near perfect desktop on a stable base</title><link href="http://theopensourcefeed.com/00-kde-neon-offers-perfect-desktop-on-stable-base/" rel="alternate" type="text/html" title="KDE neon offers a near perfect desktop on a stable base" /><published>2017-02-01T00:00:00+05:30</published><updated>2017-02-01T00:00:00+05:30</updated><id>http://theopensourcefeed.com/00-kde-neon-offers-perfect-desktop-on-stable-base</id><content type="html" xml:base="http://theopensourcefeed.com/00-kde-neon-offers-perfect-desktop-on-stable-base/">&lt;p&gt;&lt;strong&gt;KDE neon&lt;/strong&gt; is an amazing GNU/Linux distribution developed by the KDE community. It integrates most up-to-date
 KDE Plasma desktop and other KDE community developed applications on stable base of Ubuntu LTS (Long Term
 Supported) releases. While the core remains the same (LTS release of Ubuntu), the KDE components get
 contineous updates to provide most modern KDE technologies to the end users.&lt;/p&gt;
@@ -187,18 +238,4 @@ respective pages.</summary><media:thumbnail xmlns:media="http://search.yahoo.com
     Gnome Classic is one of the best GUIs, but there are a number of good ones and all are getting better. This machine is working quite well now and I’m just going to sit back and keep waiting for the HiDPI and other improvements! I’m looking forward to deep learning inside the grammar checker of LibreOffice.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Read full article on &lt;a href=&quot;http://keithcu.com/wordpress/?p=3739&quot;&gt;keithcu’s blog&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">Over the years GNU/Linux operating system has grown to support a wide range of hardware devices. Also, there are some companies like system 76 who mainly focus on building GNU/Linux powered laptops. Most of the big players like HP, Dell, Lenovo has introduced few special laptops to attract GNU/Linux enthusiasts.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://theopensourcefeed.com/assets/images/post-images/Yoga900-1.jpg" /></entry><entry><title type="html">elementary OS looks cool but package management is a pain : Review</title><link href="http://theopensourcefeed.com/elementary-os-looks-cool-but-package-management-is-a-pain/" rel="alternate" type="text/html" title="elementary OS looks cool but package management is a pain : Review" /><published>2017-01-20T00:00:00+05:30</published><updated>2017-01-20T00:00:00+05:30</updated><id>http://theopensourcefeed.com/elementary-os-looks-cool-but-package-management-is-a-pain</id><content type="html" xml:base="http://theopensourcefeed.com/elementary-os-looks-cool-but-package-management-is-a-pain/">&lt;p&gt;&lt;strong&gt;elementary OS&lt;/strong&gt; has received a lot of visibility within a relatively small span of time and introducing elementary OS will be redundant for an average GNU/Linux user. If someone does not have heard about elementary, it is an Ubuntu LTS based GNU/Linux distribution shipping a simple, elegant &amp;amp; responsive user interface which is called as Pantheon. Pantheon features some cool components like Slingshot application menu, switchboard configuration app, a cool dock ..etc.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/preview/elementary.png&quot; alt=&quot;elementary OS&quot; /&gt;
-&lt;em&gt;Source : DistroScreens&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Keeping the habit of writing reviews on GNU/Linux distributions, Mr Garry Nevell, author of Everday Linux user portal has published a review of elementary 0.4 Freya, latest stable release of elementary available till date. This detailed review examines different aspects of operating system and reaches in a conclusion that, elementary is good looking distribution, though as Ubuntu and it’s derivatives it lacks a good package management system. The default applications are not the application used by masses and applications that comes in use need to be installed explicitly which is not an easy task for a newbie. The elementary operating system is shipping a Software Center however, it does not include popular packages like google chrome.&lt;/p&gt;
-&lt;blockquote&gt;
-    The fact that somebody has had to go to the effort to create the Ubuntu After Install application shows there is a problem.
-
-    Why can't Ubuntu or one of these derivatives grasp the bull by the horns and come up with a solution.
-    People like to use Chrome yet all we get is Firefox or some basic equivalent. Chrome works with everything. It is by far the best browser and I don't want to settle for second best. 
-
-    If you don't want to include it as part of the main package manager add a simple tool for installing this and many other applications including Steam.
-&lt;/blockquote&gt;
-&lt;p&gt;For &lt;a href=&quot;http://www.everydaylinuxuser.com/2017/01/an-everyday-linux-user-review-of.html&quot;&gt;complete review and screenshots&lt;/a&gt;, see original review published in Everyday Linux User portal.&lt;/p&gt;</content><summary type="html">elementary OS has received a lot of visibility within a relatively small span of time and introducing elementary OS will be redundant for an average GNU/Linux user. If someone does not have heard about elementary, it is an Ubuntu LTS based GNU/Linux distribution shipping a simple, elegant &amp;amp; responsive user interface which is called as Pantheon. Pantheon features some cool components like Slingshot application menu, switchboard configuration app, a cool dock ..etc.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://theopensourcefeed.com/assets/images/preview/elementary.png" /></entry></feed>
+&lt;p&gt;Read full article on &lt;a href=&quot;http://keithcu.com/wordpress/?p=3739&quot;&gt;keithcu’s blog&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">Over the years GNU/Linux operating system has grown to support a wide range of hardware devices. Also, there are some companies like system 76 who mainly focus on building GNU/Linux powered laptops. Most of the big players like HP, Dell, Lenovo has introduced few special laptops to attract GNU/Linux enthusiasts.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://theopensourcefeed.com/assets/images/post-images/Yoga900-1.jpg" /></entry></feed>
