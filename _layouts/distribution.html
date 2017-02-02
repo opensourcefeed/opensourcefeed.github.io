@@ -34,22 +34,22 @@ layout: default
             <tr>
                 <td>Base distributions</td>
                 <td>
-                {% for base in page.base %}
-                    {% assign to_distro = null %}
-                    {% for candidate in site.pages %}
-                        {% if candidate.Category == 'Distribution' and candidate.uid == base %}
-                            {% assign to_distro = candidate %}
-                            {% break %}
-                        {% endif %}
-                    {% endfor %}
                     <ul>
-                        {% if to_distro %}
-                            <li><a href="{{to_distro.permalink}}">{{to_distro.title}}</a></li>
-                        {% else %}
-                            <li>{{base}}</li>
-                        {% endif %}
+                    {% for base in page.base %}
+                        {% assign to_distro = null %}
+                        {% for candidate in site.pages %}
+                            {% if candidate.Category == 'Distribution' and candidate.uid == base %}
+                                {% assign to_distro = candidate %}
+                                {% break %}
+                            {% endif %}
+                        {% endfor %}
+                            {% if to_distro %}
+                                <li><a href="{{to_distro.permalink}}">{{to_distro.title}}</a></li>
+                            {% else %}
+                                <li>{{base}}</li>
+                            {% endif %}
+                    {% endfor %}
                     </ul>
-                {% endfor %}
                 </td>
             {% endif %}
             {% if page.desktops %}
