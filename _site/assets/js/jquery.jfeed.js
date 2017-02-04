@@ -125,7 +125,7 @@ JAtom.prototype = {
             item.description = $(this).find('content').eq(0).text();
             item.updated = $(this).find('updated').eq(0).text();
             item.id = $(this).find('id').eq(0).text();
-            item.summary = $(this).find('summary').text();
+            item.summary = $(this).find('summary').text().slice(0, 200) + '...';
 
             feed.items.push(item);
         });

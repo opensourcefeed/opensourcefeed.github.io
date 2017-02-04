@@ -1,4 +1,4 @@
-var FEED_URL = "http://www.open-source-feed.com/atom.xml";
+var FEED_URL = "/assets/atom.xml";
 
 $(function() {
   if($('#recent-posts').length) {
