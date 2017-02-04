@@ -108,6 +108,18 @@ layout: default
                 </td>
             </tr>
             {% endif %}
+            {% if page.reviews %}
+            <tr>
+                <td>Reviews</td>
+                <td>
+                    <ul>
+                    {% for review in page.reviews %}
+                        <li><a href="{{review[1]}}">{{review[0]}}</a></li>
+                    {% endfor %}
+                    </ul>
+                </td>
+            </tr>
+            {% endif %}
         </table>
     </article>
     
