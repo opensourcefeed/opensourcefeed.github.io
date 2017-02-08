@@ -9,6 +9,8 @@ preview: mx-preview.jpg
 home_page: https://mxlinux.org/
 desktops: [xfce]
 base: [debian]
+reviews:
+  MX Linux 16 : "http://www.open-source-feed.com/2017/02/mx-linux-16-is-very-close-to-ideal.html"
 ---
 
 **MX Linux** is a cooperative venture between the antiX and former MEPIS communities, using the
