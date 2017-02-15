@@ -9,6 +9,8 @@ preview: Fedora25-preview.jpg
 home_page: https://getfedora.org/
 desktops: [gnome, plasma, mate, xfce, lxde]
 base : Independent
+reviews :
+  Fedora 25 : "http://www.open-source-feed.com/2017/02/fedora-25-is-not-something-worth-to.html"
 screenshots :
   Fedora 25 Workstation: "http://www.distroscreens.com/2016/11/fedora-25-workstation-screenshots.html"
   Fedora 25 Beta : "http://www.distroscreens.com/2016/10/fedora-25-beta-gnome-322-screenshots.html"
