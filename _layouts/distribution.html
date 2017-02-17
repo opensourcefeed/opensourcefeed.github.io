@@ -123,11 +123,14 @@ layout: default
         </table>
     </article>
     
-    {% if site.categories[page.uid] %}
+    {% if site.categories[page.uid] or page.stories%}
         <hr>
         <div class="story-listing">
         <h3>Stories on {{page.title}}</h3>
         <ul>
+        {% for story in page.stories %}
+            <li><a href="{{story[1]}}">{{story[0]}}</a></li>
+        {% endfor %}
         {% for story in site.categories[page.uid] %}
             <li><a href="{{story.url}}">{{story.title}}</a></li>
         {% endfor %}

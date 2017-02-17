@@ -9,6 +9,8 @@ preview: ubuntu-preview.jpg
 home_page: https://www.ubuntu.com/
 desktops: [Unity]
 base : [debian]
+stories:
+   Ubuntu 16.04.2 released with improved hardware support : http://www.open-source-feed.com/2017/02/ubuntu-16042-released-with-improved.html
 ---
 
 **Ubuntu** is a popular GNU/Linux distribution backed by **Canonical**. It is capable of supporting
