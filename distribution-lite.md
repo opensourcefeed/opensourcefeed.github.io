@@ -17,6 +17,7 @@ reviews:
     Linux Lite 3 - Ideal choice for newbies and old computers : "http://www.open-source-feed.com/2016/07/linux-lite-3-ideal-choice-for-newbies.html"
     Linux Lite 3.0 is a powerful distribution : "http://www.open-source-feed.com/2016/06/linux-lite-30-is-powerful-distribution.html"
 stories:
+    Linux Lite 3.4 beta released, based on Ubuntu 16.04.2 : "http://www.open-source-feed.com/2017/02/linux-lite-34-beta-released-based-on.html"
     Linux Lite 3.2 released, includes numerous improvements : "http://www.open-source-feed.com/2016/10/linux-lite-32-released-includes.html"
     Linux Lite 3.0 Final released with new look & feel : "http://www.open-source-feed.com/2016/06/linux-lite-30-final-released-with-new.html"
 ---

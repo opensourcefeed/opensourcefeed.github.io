@@ -10,6 +10,8 @@ home_page: https://zorinos.com
 desktops: [gnome]
 base : [ubuntu]
 stories:
+    Zorin OS 12.1 released with Linux Kernel 4.8 : "http://www.open-source-feed.com/2017/02/zorin-os-121-released-with-linux-kernel.html"
+    Zorin OS 12 Business edition released : "http://www.open-source-feed.com/2017/02/zorin-os-12-business-edition-released.html"
     Zorin OS 12 Core and Ultimate editions released; Projects biggest release so far : "http://www.open-source-feed.com/2016/11/zorin-os-12-core-and-ultimate-editions.html"
     Zorin OS 12 beta released with Zorin Desktop 2.0 : "http://www.open-source-feed.com/2016/09/zorin-os-12-beta-released-with-zorin.html"
     Italian city Vicenza replaces Windows with Zorin OS : "http://www.open-source-feed.com/2016/05/italian-city-vicenza-replaces-windows.html"
