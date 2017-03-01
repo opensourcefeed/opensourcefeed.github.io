@@ -31,15 +31,20 @@ header p {
 }
 
 nav.navbar {
-  background: #333;
+  background: #4399cd;
   text-transform: uppercase;
   font-size: 0.9rem;
   border-top:1px solid #555;
+  font-weight: 600;
 }
 
 .nav-item:hover {
   color: rgba(255, 255, 255, 1);
   transition: color 0.5s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff
 }
 
 .social-icons img {
@@ -48,6 +53,14 @@ nav.navbar {
 
 .social-icons  li{
   display: inline;
+}
+
+body {
+  background: #eee;
+}
+
+main.container-fluid {
+  background: white;
 }
 
 .post-thumbnail {
@@ -149,8 +162,9 @@ blockquote {
   padding: 10px;
   transition: background 0.5s ease;
   cursor: pointer;
-  background: #eef;
   margin-bottom: 1px;
+  border-bottom: 1px solid #eee;
+  background: #ffffdd;
 }
 
 .sidebar a {
