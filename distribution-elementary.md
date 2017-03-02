@@ -10,7 +10,9 @@ home_page: https://elementary.io/
 desktops: [pantheon]
 base : [ubuntu]
 reviews:
-  elementary 0.4 Loki : "http://www.open-source-feed.com/2017/01/elementary-os-looks-cool-but-package.html"
+    elementary 0.4 Loki : "http://www.open-source-feed.com/2017/01/elementary-os-looks-cool-but-package.html"
+stories:
+    elementary OS 0.4 Loki updates in February : "http://www.open-source-feed.com/2017/03/elementary-os-04-loki-updates-in.html"
 ---
 
 **elementary OS (eOS)** is fast and simple GNU/Linux distribution built on top of Ubuntu LTS releases. The main highlight of elementary is a modern, easy to use & efficient desktop environment named *Pantheon*.
