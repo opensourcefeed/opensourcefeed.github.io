@@ -18,7 +18,7 @@ stories:
   Elive Linux 2.6.12 Beta Released : http://www.open-source-feed.com/2015/11/elive-linux-2612-beta-released.html
 ---
 
-**Elive Linux** is a Debian based, fast and beautiful operating system featuring failry customized enlightenment window manager. The tag of this distribution itself is *Where Debian meets Enlightenment*.
+**Elive Linux** is a Debian based, fast and beautiful operating system featuring failry customized enlightenment window manager. The tag line of this distribution itself is *Where Debian meets Enlightenment*.
 
 Elive delivers a dynamic and neat interface without compromising simplicity and intuitive nature. It comes with features like access to application menu anywhere in desktop, icon zooming and ability to organize windows as you wish.
 

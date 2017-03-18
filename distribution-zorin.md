@@ -9,7 +9,9 @@ preview: zorin-os-preview.jpg
 home_page: https://zorinos.com
 desktops: [gnome]
 base : [ubuntu]
+description : Zorin OS is a good choice for people migrating from other proprietary operating systems like Microsoft Windows and macOS. Stories and reviews on Zorin OS
 stories:
+    Zorin OS 12.1 Education flavor released : http://www.open-source-feed.com/2017/03/zorin-os-121-education-flavor-released.html
     Zorin OS 12.1 released with Linux Kernel 4.8 : "http://www.open-source-feed.com/2017/02/zorin-os-121-released-with-linux-kernel.html"
     Zorin OS 12 Business edition released : "http://www.open-source-feed.com/2017/02/zorin-os-12-business-edition-released.html"
     Zorin OS 12 Core and Ultimate editions released; Projects biggest release so far : "http://www.open-source-feed.com/2016/11/zorin-os-12-core-and-ultimate-editions.html"
