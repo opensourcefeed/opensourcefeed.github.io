@@ -101,6 +101,9 @@
 <loc>http://theopensourcefeed.com/desktop/enlightenment</loc>
 </url>
 <url>
+<loc>http://theopensourcefeed.com/desktop/mate</loc>
+</url>
+<url>
 <loc>http://theopensourcefeed.com/desktop/moksha</loc>
 </url>
 <url>
@@ -120,6 +123,9 @@
 </url>
 <url>
 <loc>http://theopensourcefeed.com/distribution/bodhi</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/chakra</loc>
 </url>
 <url>
 <loc>http://theopensourcefeed.com/distribution/debian</loc>
@@ -164,7 +170,13 @@
 <loc>http://theopensourcefeed.com/distribution/mx</loc>
 </url>
 <url>
+<loc>http://theopensourcefeed.com/distribution/netbsd</loc>
+</url>
+<url>
 <loc>http://theopensourcefeed.com/distribution/opensuse</loc>
+</url>
+<url>
+<loc>http://theopensourcefeed.com/distribution/porteus</loc>
 </url>
 <url>
 <loc>http://theopensourcefeed.com/distribution/rosa</loc>
