@@ -3,6 +3,7 @@ layout: distribution
 uid: manjaro
 title: 'Manjaro Linux'
 Category: Distribution
+type : Linux
 permalink: /distribution/manjaro
 logo: Manjaro-logo.svg
 preview: manjaro-xfce.jpg
@@ -14,7 +15,10 @@ stories:
     Manjaro 17.0 Gellivara Plasma & Xfce flavors released : "http://www.open-source-feed.com/2017/03/manjaro-170-fringilla-plasma-xfce.html"
     Manjaro 17.0-rc1 Xfce & KDE flavors announced with Linux 4.9 LTS : http://www.open-source-feed.com/2017/02/manjaro-170-rc1-xfce-kde-flavors.html
 screenshots:
-    Manjaro Xfce 17.0 : http://www.distroscreens.com/2017/03/manjaro-170-fringilla-xfce-edition.html
+    Manjaro 17.0 Cinnamon : http://www.distroscreens.com/2017/03/manjaro-170-gellivara-cinnamon.html
+    Manjaro 17.0 GNOME : http://www.distroscreens.com/2017/03/manjaro-170-gellivara-gnome-screenshots.html
+    Manjaro 17.0 KDE Plasma : http://www.distroscreens.com/2017/03/manjaro-170-gellivara-plasma-edition.html
+    Manjaro 17.0 Xfce : http://www.distroscreens.com/2017/03/manjaro-170-fringilla-xfce-edition.html
     Manjaro LXQt 16.11 : http://www.distroscreens.com/2016/11/manjaro-lxqt-edition-1611-screenshots.html
     Manjaro Xfce 16.06 : http://www.distroscreens.com/2016/06/manjaro-1606-xfce-screenshots.html
     Manjaro KDE 16.06 : http://www.distroscreens.com/2016/06/manjaro-1606-kde-daniella-screenshots.html 
