@@ -10,6 +10,7 @@ home_page: https://www.linuxliteos.com
 desktops: [xfce]
 base : [ubuntu]
 screenshots:
+    Linux Lite 3.4 screenshots : "http://www.distroscreens.com/2017/04/linux-lite-34-screenshots.html"
     Linux Lite 3.0 beta : "http://www.distroscreens.com/2016/05/linux-lite-30-beta-screenshots.html"
 reviews:
     Linux Lite 3.0 - A user friendly system that really works : "http://www.open-source-feed.com/2016/09/linux-lite-30-user-friendly-system-that.html"
