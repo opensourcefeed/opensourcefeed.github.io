@@ -11,14 +11,15 @@ desktops: [Unity]
 base : [debian]
 description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a wide range of hardware platforms like server computers, cloud systems, desktops, tablets and mobiles. Stories and reviews on Ubuntu
 stories:
-    Ubuntu on AWS gets better performance by AWS-tuned Kernel : "Ubuntu on AWS gets improved performance using AWS-tuned kernel"
-    Ubuntu 12.04 Precise Pangolin retires on 28th April 2017 : http://www.open-source-feed.com/2017/03/ubuntu-1204-precise-pangolin-retires-on.html
-    Ubuntu 16.04.2 released with improved hardware support : http://www.open-source-feed.com/2017/02/ubuntu-16042-released-with-improved.html
-    Microsoft SQL Server public preview is available for Ubuntu : http://www.open-source-feed.com/2016/11/microsoft-sql-server-public-preview-is.html
+  Ubuntu 17.04 released with support for widest range of container technologies : "http://www.open-source-feed.com/2017/04/ubuntu-1704-released-with-support-for.html"
+  Ubuntu on AWS gets better performance by AWS-tuned Kernel : "Ubuntu on AWS gets improved performance using AWS-tuned kernel"
+  Ubuntu 12.04 Precise Pangolin retires on 28th April 2017 : http://www.open-source-feed.com/2017/03/ubuntu-1204-precise-pangolin-retires-on.html
+  Ubuntu 16.04.2 released with improved hardware support : http://www.open-source-feed.com/2017/02/ubuntu-16042-released-with-improved.html
+  Microsoft SQL Server public preview is available for Ubuntu : http://www.open-source-feed.com/2016/11/microsoft-sql-server-public-preview-is.html
     
 reviews:
-    "Comparing Ubuntu 16.10 flavors : Ubuntu, Ubuntu GNOME, Kubuntu and Xubuntu" : http://www.open-source-feed.com/2016/11/comparing-ubuntu-1610-flavors-ubuntu.html
-    Why Ubuntu 16.04 LTS is most secure distribution out of the box? : http://www.open-source-feed.com/2016/12/why-ubuntu-1604-lts-is-most-secure.html
+  "Comparing Ubuntu 16.10 flavors : Ubuntu, Ubuntu GNOME, Kubuntu and Xubuntu" : http://www.open-source-feed.com/2016/11/comparing-ubuntu-1610-flavors-ubuntu.html
+  Why Ubuntu 16.04 LTS is most secure distribution out of the box? : http://www.open-source-feed.com/2016/12/why-ubuntu-1604-lts-is-most-secure.html
 ---
 
 **Ubuntu** is a popular GNU/Linux distribution backed by **Canonical**. It is capable of supporting
