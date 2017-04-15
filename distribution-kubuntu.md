@@ -10,9 +10,12 @@ home_page: http://kubuntu.org
 desktops: [plasma]
 base : [ubuntu]
 screenshots:
-    Kubuntu 16.04 : "http://www.distroscreens.com/2016/04/kubuntu-1604-xenial-xerus-screenshots.html"
+  Kubuntu 16.04 : "http://www.distroscreens.com/2016/04/kubuntu-1604-xenial-xerus-screenshots.html"
+releases:
+  Kubuntu 17.04 released : "http://kubuntu.org/news/kubuntu-17-04-released/"
+  Kubuntu 17.04 Beta 1 released with Plasma 5.9.0 : "http://www.open-source-feed.com/2017/02/kubuntu-1704-beta-1-released-with.html"
 stories:
-    Kubuntu 17.04 Beta 1 released with Plasma 5.9.0 : "http://www.open-source-feed.com/2017/02/kubuntu-1704-beta-1-released-with.html"
+  Plasma 5.8.5 bugfix release in Xenial and Yakkety Backports now : "http://kubuntu.org/news/plasma-5-8-5-bugfix-release-in-xenial-and-yakkety-backports-now/"
 ---
 
 **Kubuntu** is one of the oldest, official community flavor of Ubuntu featuring modern Plasma desktop. It brings plasma desktop with a decent customization such as artwork to make it more appealing to end users.

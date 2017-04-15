@@ -10,6 +10,9 @@ home_page: http://ubuntugnome.org/
 desktops: [gnome]
 base : [ubuntu]
 description : Ubuntu GNOME is an official community flavor of Ubuntu featuring GNOME Desktop Environment. Stories, reviews and screenshots of Ubuntu GNOME
+releases:
+  Ubuntu GNOME 17.04 released with latest GNOME 3.24 : "http://www.open-source-feed.com/2017/04/ubuntu-gnome-1704-released-with-latest.html"
+  Ubuntu GNOME 16.04.1 released : "http://www.open-source-feed.com/2016/07/ubuntu-gnome-16041-released.html"
 screenshots:
   Ubuntu GNOME 16.10 Yakkety Yak screenshots : "http://www.distroscreens.com/2016/10/ubuntu-gnome-1610-yakkety-yak.html"
   Ubuntu GNOME 16.04 Xenial Xerus screenshots : "http://www.distroscreens.com/2016/04/ubuntu-gnome-1604-xenial-xerus.html"

@@ -203,6 +203,9 @@
 <loc>http://localhost:4000/distribution/ubuntugnome</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/ubuntumate</loc>
+</url>
+<url>
 <loc>http://localhost:4000/distribution/ultimate</loc>
 </url>
 <url>

@@ -10,6 +10,9 @@ home_page: http://budgie-desktop.org/
 description: Budgie is a modern desktop environment captured mind of people due to it's elgance, simplicty and productive nature. News and updates on budgie desktop.
 stories:
   "Budgie Desktop 10.3 development is in progress; Main focus is robustness" : "http://www.open-source-feed.com/2017/04/budgie-desktop-103-development-is-in.html"
+  "Budgie Desktop is getting it's own website" : "http://www.open-source-feed.com/2016/12/budgie-desktop-is-getting-its-own.html"
+releases:
+  "Budgie 10.2.9 released; A quick bug fix release" : "http://www.open-source-feed.com/2016/12/budgie-1029-released-quick-bug-fix.html"
 ---
 
 **Budgie** is a modern desktop environment developed by Solus Project. Main focus of budgie desktop is simplicity and elegance. It is independently developed from scratch to provide optimal performance, traditional user experience without compromising productivity and user friendliness.
