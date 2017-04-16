@@ -7,8 +7,11 @@ permalink: /distribution/ultimate
 logo: ultimate-edition-logo.png
 preview: ultimate-edition-preview.jpg
 home_page: http://ultimateedition.info/
-desktops: [plasma, GNOME, MATE, xfce]
+desktops: [budgie, gnome, plasma, mate, xfce]
 base : [ubuntu]
+description: Ultimate Edition is an Ubuntu based, highly customized operating system trying to attract newbie users and experienced users alike. Stories and updates on Ultimate Edition.
+releases:
+  "Ultimate Edition 5.4 released based on Ubuntu 17.04; Includes Budgie" : "http://www.open-source-feed.com/2017/04/ultimate-edition-54-released-based-on.html"
 ---
 
 **Ultimate Edition** is an Ubuntu based, highly customized operating system trying to attract
