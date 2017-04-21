@@ -10,7 +10,12 @@ preview: solus-preview.jpg
 home_page: https://solus-project.com
 desktops: [budgie, mate]
 base : Independent
+description : Solus is an independently developed GNU/Linux distribution that is designed for modern personal computing devices, every tweak enabling us to deliver a singular, cohesive desktop experience. Stories and updates on Solus
+
+releases :
+  Solus 2017.04.18.0 : "http://www.open-source-feed.com/2017/04/solus-201704180-snapshot-released.html"
 screenshots:
+  "Solus GNOME Edition 2017.04.18.0" : "http://www.distroscreens.com/2017/04/solus-gnome-edition-201704180.html"
   "Solus MATE 1.2.1" : "http://www.distroscreens.com/2016/10/solus-mate-121-shannon-screenshots.html"
   "Solus 1.2" : "http://www.distroscreens.com/2016/06/solus-12-shannon-screenshots.html"
 reviews:

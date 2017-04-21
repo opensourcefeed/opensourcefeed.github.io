@@ -10,10 +10,12 @@ home_page: http://ubuntubudgie.org/
 desktops: [budgie]
 base : [ubuntu]
 screenshots:
+  Ubuntu Budgie 17.04 : "http://www.distroscreens.com/2017/04/ubuntu-budgie-1704-zesty-zapus.html"
   budgie remix 16.10 : "http://www.distroscreens.com/2016/11/ubuntu-budgie-remix-1610-screenshots.html"
   budgie remix 16.04 : "http://www.distroscreens.com/2016/06/budgie-remix-1604-screenshots.html"
 releases:
-  Ubuntu Budgie 17.04 beta 1 is ready for testing : "http://www.open-source-feed.com/2017/02/ubuntu-budgie-1704-beta-1-is-ready-for.html"
+  Ubuntu Budgie 17.04 : "http://www.open-source-feed.com/2017/04/ubuntu-budgie-1704-released-first.html"
+  Ubuntu Budgie 17.04 beta 1 : "http://www.open-source-feed.com/2017/02/ubuntu-budgie-1704-beta-1-is-ready-for.html"
 stories:
   Finally, budgie-remix becomes Ubuntu Budgie : "http://www.open-source-feed.com/2016/11/finally-budgie-remix-becomes-ubuntu.html"
 ---

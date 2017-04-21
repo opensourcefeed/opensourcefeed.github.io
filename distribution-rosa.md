@@ -9,8 +9,11 @@ preview: rosa fresh r8.1.jpg
 home_page: http://en.rosalinux.com
 desktops: [gnome, xfce, plasma, mate]
 base : Independent
-stories:
-    ROSA Fresh R8.1 released, latest maintenance release in R8 series : "http://www.open-source-feed.com/2017/03/rosa-fresh-r81-released-latest.html"
+description : ROSA Linux is a Russian GNU/Linux distribution developed by LLC NTC IT ROSA, a software product development company. Stories and udpates on ROSA Linux
+
+releases:
+  ROSA Fresh R9 : "http://www.open-source-feed.com/2017/04/rosa-fresh-r9-released-it-will-be.html"
+  ROSA Fresh R8.1 : "http://www.open-source-feed.com/2017/03/rosa-fresh-r81-released-latest.html"
 ---
 
 **ROSA Linux** is a Russian GNU/Linux distribution developed by LLC NTC IT ROSA, a software product development company. Initillay ROSA Linux project was started by forking from Mandriva Linux. Over the years, it has grown into an independent GNU/Linux distribution.

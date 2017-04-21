@@ -102,13 +102,25 @@ layout: default
                 </td>
             </tr>
             {% endif %}
+            {% if page.releases %}
+            <tr>
+                <td>Releases</td>
+                <td>
+                <ul>
+                {% for release in page.releases %}
+                    <li><a href="{{release[1]}}" target="_blank">{{release[0]}}</a></li>
+                {% endfor %}
+                </ul>
+                </td>
+            </tr>
+            {% endif %}
             {% if page.screenshots %}
             <tr>
                 <td>Screenshots</td>
                 <td>
                     <ul>
                     {% for screenshot in page.screenshots %}
-                        <li><a href="{{screenshot[1]}}">{{screenshot[0]}}</a></li>
+                        <li><a href="{{screenshot[1]}}" target="_blank">{{screenshot[0]}}</a></li>
                     {% endfor %}
                     </ul>
                 </td>
@@ -125,17 +137,6 @@ layout: default
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
-    {% if page.releases %}
-        <hr>
-        <div class="story-listing">
-            <h3>{{page.title}} releases</h3>
-            <ul>
-            {% for release in page.releases %}
-                <li><a href="{{release[1]}}">{{release[0]}}</a></li>
-            {% endfor %}
-            </ul>
-        </div>
-    {% endif %}
     {% if page.reviews %}
         <hr>
         <div class="story-listing">

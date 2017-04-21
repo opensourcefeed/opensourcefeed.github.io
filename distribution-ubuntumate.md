@@ -11,15 +11,16 @@ desktops: [mate]
 base : [ubuntu]
 description : Ubuntu MATE is one of the popular community flavor of Ubuntu delivering, classical yet productive and mdoern desktop experience. Stories, updates and reviews of Ubuntu MATE.
 releases:
-  Ubuntu MATE 17.04 released: "https://ubuntu-mate.org/blog/ubuntu-mate-zesty-final-release/"
-  Ubuntu MATE 16.10 released with MATE 1.16.0 : "http://www.open-source-feed.com/2016/10/ubuntu-mate-1610-released-with-mate.html" 
+  Ubuntu MATE 17.04 : "https://ubuntu-mate.org/blog/ubuntu-mate-zesty-final-release/"
+  Ubuntu MATE 16.10 : "http://www.open-source-feed.com/2016/10/ubuntu-mate-1610-released-with-mate.html" 
 reviews:
   Ubuntu MATE 16.10 is a solid release : "http://www.open-source-feed.com/2016/10/ubuntu-mate-1610-is-solid-release-review.html"
   Ubuntu MATE 16.04 redefines desktop linux experience: "http://www.open-source-feed.com/2016/04/ubuntu-mate-1604-redefines-desktop.html"
   Ubuntu MATE 15.10 : "http://www.open-source-feed.com/2015/11/ubuntu-mate-1510-review.html"
 screenshots:
-  Ubuntu MATE 16.10 Alpha 1 screenshots : "http://www.distroscreens.com/2016/07/ubuntu-mate-1610-alpha-1-screenshots.html"
-  Ubuntu MATE 16.04 screenshots : "http://www.distroscreens.com/2016/04/ubuntu-mate-1604-screenshots.html"
+  Ubuntu MATE 17.04 : "http://www.distroscreens.com/2017/04/ubuntu-mate-1704-zesty-zapus-screenshots.html"
+  Ubuntu MATE 16.10 Alpha 1 : "http://www.distroscreens.com/2016/07/ubuntu-mate-1610-alpha-1-screenshots.html"
+  Ubuntu MATE 16.04 : "http://www.distroscreens.com/2016/04/ubuntu-mate-1604-screenshots.html"
   Ubuntu MATE 16.04 beta 2 : "http://www.open-source-feed.com/2016/03/ubuntu-mate-1604-beta-2-screenshot-tour.html"
 stories:
   Solus project is introducing a brisk menu in collaboration with Ubuntu MATE : "http://www.open-source-feed.com/2016/12/solus-project-is-introducing-brisk-menu.html"

@@ -9,11 +9,13 @@ preview: kubuntu-preview.jpg
 home_page: http://kubuntu.org
 desktops: [plasma]
 base : [ubuntu]
+description : Kubuntu is one of the oldest, official community flavor of Ubuntu featuring modern Plasma desktop. Stories and updates on Kubuntu
 screenshots:
+  Kubuntu 17.04 : "http://www.distroscreens.com/2017/04/kubuntu-1704-zesty-zapus-screenshots.html"
   Kubuntu 16.04 : "http://www.distroscreens.com/2016/04/kubuntu-1604-xenial-xerus-screenshots.html"
 releases:
-  Kubuntu 17.04 released : "http://kubuntu.org/news/kubuntu-17-04-released/"
-  Kubuntu 17.04 Beta 1 released with Plasma 5.9.0 : "http://www.open-source-feed.com/2017/02/kubuntu-1704-beta-1-released-with.html"
+  Kubuntu 17.04 : "http://kubuntu.org/news/kubuntu-17-04-released/"
+  Kubuntu 17.04 Beta 1 : "http://www.open-source-feed.com/2017/02/kubuntu-1704-beta-1-released-with.html"
 stories:
   Plasma 5.8.5 bugfix release in Xenial and Yakkety Backports now : "http://kubuntu.org/news/plasma-5-8-5-bugfix-release-in-xenial-and-yakkety-backports-now/"
 ---

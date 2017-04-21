@@ -8,10 +8,13 @@ logo: budgie-logo.png
 preview: budgie-preview.jpeg
 home_page: http://budgie-desktop.org/
 description: Budgie is a modern desktop environment captured mind of people due to it's elgance, simplicty and productive nature. News and updates on budgie desktop.
+
 stories:
   "Budgie Desktop 10.3 development is in progress; Main focus is robustness" : "http://www.open-source-feed.com/2017/04/budgie-desktop-103-development-is-in.html"
   "Budgie Desktop is getting it's own website" : "http://www.open-source-feed.com/2016/12/budgie-desktop-is-getting-its-own.html"
+
 releases:
+  "Budgie Desktop 10.3.x released; Fixes long standing issues and introduces essential features " : "http://www.open-source-feed.com/2017/04/budgie-desktop-103x-released-fixes-long.html"
   "Budgie 10.2.9 released; A quick bug fix release" : "http://www.open-source-feed.com/2016/12/budgie-1029-released-quick-bug-fix.html"
 ---
 
