@@ -11,7 +11,7 @@ home_page: https://manjaro.org/
 desktops: [plasma, xfce, mate, gnome, cinnamon, budgie]
 base : [arch]
 stories:
-    Manjaro MATE 17.0 released with MATE Desktop 1.18 : "Manjaro MATE 17.0 released with MATE Desktop 1.18 "
+    Manjaro MATE 17.0 released with MATE Desktop 1.18 : "http://www.open-source-feed.com/2017/03/manjaro-mate-170-released-with-mate.html"
     Manjaro 17.0 Gellivara Community editions released : "http://www.open-source-feed.com/2017/03/manjaro-170-fringilla-community.html"
     Manjaro 17.0 Gellivara Plasma & Xfce flavors released : "http://www.open-source-feed.com/2017/03/manjaro-170-fringilla-plasma-xfce.html"
     Manjaro 17.0-rc1 Xfce & KDE flavors announced with Linux 4.9 LTS : http://www.open-source-feed.com/2017/02/manjaro-170-rc1-xfce-kde-flavors.html
