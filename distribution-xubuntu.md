@@ -18,6 +18,7 @@ releases:
 stories:
   "SRU for 16.04: Intel cursor bug fix released" : "https://xubuntu.org/news/sru-16-04-intel-cursor-bug-fix-released/"
 screenshots :
+  Ubuntu 17.04 Zesty Zapus screenshots : "http://www.distroscreens.com/2017/04/xubuntu-1704-zesty-zapus-screenshots.html"
   Xubuntu 16.04 Xenial Xerus screenshots : "http://www.distroscreens.com/2016/04/xubuntu-1604-lts-xenial-xerus.html"
 reviews:
   Xubuntu 15.10 Wily Werewolf - not a silver bullet : "Xubuntu 15.10 Wily Werewolf - Not a silver bullet"

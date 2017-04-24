@@ -7,7 +7,7 @@ permalink: /distribution/ubuntu
 logo: ubuntu-logo32.png
 preview: ubuntu-preview.jpg
 home_page: https://www.ubuntu.com/
-desktops: [Unity]
+desktops: [unity]
 base : [debian]
 description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a wide range of hardware platforms like server computers, cloud systems, desktops, tablets and mobiles. Stories and reviews on Ubuntu
 
@@ -27,6 +27,9 @@ stories:
   Microsoft SQL Server public preview is available for Ubuntu : http://www.open-source-feed.com/2016/11/microsoft-sql-server-public-preview-is.html
   
 reviews:
+  "Ubuntu 17.04 is fairly solid, though does not offer anything significant" : "http://www.open-source-feed.com/2017/04/ubuntu-1704-is-fairly-solid-though-does.html"
+  "Ubuntu 17.04 Zesty Zapata - Viva la revolucion!" : "http://www.dedoimedo.com/computers/ubuntu-zesty.html"
+  "Ubuntu 17.04 is a good release, except the Horrible DNS Issue (now ‘fixed’)" : "http://www.hecticgeek.com/2017/04/ubuntu-17-04-review/"
   "Comparing Ubuntu 16.10 flavors : Ubuntu, Ubuntu GNOME, Kubuntu and Xubuntu" : http://www.open-source-feed.com/2016/11/comparing-ubuntu-1610-flavors-ubuntu.html
   Why Ubuntu 16.04 LTS is most secure distribution out of the box? : http://www.open-source-feed.com/2016/12/why-ubuntu-1604-lts-is-most-secure.html
 ---
