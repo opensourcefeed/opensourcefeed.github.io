@@ -104,6 +104,12 @@
 <loc>http://localhost:4000/desktop/gnome</loc>
 </url>
 <url>
+<loc>http://localhost:4000/desktop/lxde</loc>
+</url>
+<url>
+<loc>http://localhost:4000/desktop/lxqt</loc>
+</url>
+<url>
 <loc>http://localhost:4000/desktop/mate</loc>
 </url>
 <url>
@@ -162,6 +168,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/distribution/lite</loc>
+</url>
+<url>
+<loc>http://localhost:4000/distribution/lubuntu</loc>
 </url>
 <url>
 <loc>http://localhost:4000/distribution/manjaro</loc>
