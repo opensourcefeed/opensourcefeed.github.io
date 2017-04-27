@@ -152,6 +152,9 @@
 <loc>http://localhost:4000/distribution/fedora</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/kali</loc>
+</url>
+<url>
 <loc>http://localhost:4000/distribution/kdeneon</loc>
 </url>
 <url>
