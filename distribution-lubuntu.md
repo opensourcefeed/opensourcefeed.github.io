@@ -15,7 +15,8 @@ releases:
   Lubuntu 17.04 Zesty Zapus: "http://lubuntu.me/zesty-released/"
   Lubuntu 16.04.2 : "http://lubuntu.me/lubuntu-16-04-2-released/"
 screenshots :
-  Lubuntu 17.04 Xenial Xerus : "http://www.distroscreens.com/2016/04/lubuntu-1604-lts-xenial-xerus.html"
+  Lubuntu 17.04 Zesty Zapus : "http://www.distroscreens.com/2017/04/lubuntu-1704-zesty-zapus-screenshots.html"
+  Lubuntu 16.04 Xenial Xerus : "http://www.distroscreens.com/2016/04/lubuntu-1604-lts-xenial-xerus.html"
 ---
 
 **Lubuntu** is a lightweight GNU/Linux distribution built on top of Ubuntu. It integrates lightweight and less resource hungry [LXDE desktop](/desktop/lxde) environment with solid Ubuntu base.

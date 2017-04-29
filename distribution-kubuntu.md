@@ -18,6 +18,8 @@ releases:
   Kubuntu 17.04 Beta 1 : "http://www.open-source-feed.com/2017/02/kubuntu-1704-beta-1-released-with.html"
 stories:
   Plasma 5.8.5 bugfix release in Xenial and Yakkety Backports now : "http://kubuntu.org/news/plasma-5-8-5-bugfix-release-in-xenial-and-yakkety-backports-now/"
+reviews :
+  Kubuntu 17.04 - The next generation OS : "http://linuxblog.darkduck.com/2017/04/kubuntu-1704-next-generation.html"
 ---
 
 **Kubuntu** is one of the oldest, official community flavor of Ubuntu featuring modern Plasma desktop. It brings plasma desktop with a decent customization such as artwork to make it more appealing to end users.
