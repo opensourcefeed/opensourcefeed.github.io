@@ -9,6 +9,10 @@ preview: kdeneon.jpg
 home_page: https://neon.kde.org/
 desktops: plasma
 base : [ubuntu]
+description : KDE neon is a GNU/Linux distribution that combines solid Ubuntu base and latest stable release of KDE Plasma desktop. Stories and updates on KDE Neon project.
+screenshots:
+  "KDE Neon User Edition 2017.04.27" : "http://www.distroscreens.com/2017/04/kde-neon-user-edition-20170427.html"
+  "KDE Neon 14042016" : "http://www.distroscreens.com/2016/04/kde-neon-1604-14-04-2016-screenshots.html"
 ---
 
 **KDE neon** is a GNU/Linux distribution developed by KDE project. It combines stable Ubuntu LTS base 
