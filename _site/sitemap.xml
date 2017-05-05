@@ -143,6 +143,9 @@
 <loc>http://localhost:4000/distribution/deepin</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/devuan</loc>
+</url>
+<url>
 <loc>http://localhost:4000/distribution/elementary</loc>
 </url>
 <url>
@@ -150,6 +153,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/distribution/fedora</loc>
+</url>
+<url>
+<loc>http://localhost:4000/distribution/ferenos</loc>
 </url>
 <url>
 <loc>http://localhost:4000/distribution/kali</loc>

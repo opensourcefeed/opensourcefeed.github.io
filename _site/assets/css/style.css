@@ -31,7 +31,7 @@ header p {
 }
 
 nav.navbar {
-  background: rgb(16,108,200);
+  background: #26292b;
   text-transform: uppercase;
   font-size: 0.9rem;
   border-top:1px solid #555;
@@ -56,10 +56,6 @@ nav.navbar {
 
 body {
   background: #eee;
-}
-
-main.container-fluid {
-  background: white;
 }
 
 .post-thumbnail {
@@ -134,11 +130,20 @@ blockquote {
   font-size: 1.2rem;
 }
 
+/* CONTENT */
+.content {
+  background: white;
+}
+.content, .sidebar {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
 /* SIDEBAR */
 .sidebar {
   padding-top: 20px;
   border: 1px solid #eee;
   font-family: 'Roboto Condensed', sans-serif;
+  background: #fff;
 }
 .sidebar h2 {
     overflow: hidden;
@@ -149,9 +154,9 @@ blockquote {
     margin: 0;
     text-transform: uppercase;
     display: block;
-    border-bottom: 1px solid #eee;
-    background : rgb(16,108,200);
-    color: #fff;
+    border-bottom: 1px solid #888;
+    background: #26292b;
+    color: white;
 }
 .sidebar ul {
   list-style-type: none;
