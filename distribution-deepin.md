@@ -16,7 +16,10 @@ releases :
   deepin 15.4 beta : "http://www.open-source-feed.com/2017/03/deepin-154-beta-released-with.html"
 
 stories:
-    Deepin Screen Recorder released, a new member in deepin software suite : http://www.open-source-feed.com/2017/03/deepin-screen-recorder-released-new.html
+  Deepin Screen Recorder released, a new member in deepin software suite : http://www.open-source-feed.com/2017/03/deepin-screen-recorder-released-new.html
+
+reviews :
+  "deepin 15.4 - Good choice for beginners, too simple to be productive" : "http://www.open-source-feed.com/2017/05/deepin-154-good-choice-for-beginners.html"
 
 ---
 
