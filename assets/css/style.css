@@ -214,6 +214,14 @@ table ul {
   padding-left: 0
 }
 
+.status-active {
+  color: green;
+}
+
+.status-discontinued {
+  color: red;
+}
+
 /* FOOTER */
 footer {
   text-align: center;

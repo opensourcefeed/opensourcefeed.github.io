@@ -30,6 +30,15 @@ layout: default
                 <td>{{page.type}}</td>
             </tr>
             {% endif %}
+            <tr>
+              <td>Status</td>
+              {% if page.status and page.status == 'Discontinued' %}
+              <td class="status-discontinued">Discontinued</td>
+              {% else %}
+              <td class="status-active">Active {{page.status}}</td>
+              {% endif %}
+            </tr>
+            
             {% if page.home_page %}
             <tr>
                 <td>Home Page</td>
