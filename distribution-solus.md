@@ -14,13 +14,17 @@ description : Solus is an independently developed GNU/Linux distribution that is
 
 releases :
   Solus 2017.04.18.0 : "http://www.open-source-feed.com/2017/04/solus-201704180-snapshot-released.html"
+
 screenshots:
   "Solus Budgie Edition 2017.04.18.0" : "http://www.distroscreens.com/2017/04/solus-201704180-budgie-screenshots.html"
   "Solus GNOME Edition 2017.04.18.0" : "http://www.distroscreens.com/2017/04/solus-gnome-edition-201704180.html"
   "Solus MATE 1.2.1" : "http://www.distroscreens.com/2016/10/solus-mate-121-shannon-screenshots.html"
   "Solus 1.2" : "http://www.distroscreens.com/2016/06/solus-12-shannon-screenshots.html"
+
 reviews:
+  "Solus 2017.04.18.0 is fast, stable and smooth; But how far it will go" : "http://www.open-source-feed.com/2017/05/solus-201704180-is-stable-fast-and.html"
   Solus 2017.01.01.0 is an impressive new comer : "http://www.open-source-feed.com/2017/02/solus-201701010-is-impressive-new-comer.html"
+
 stories :
     Solus Project is adopting Flatpak to deliver 3rd party apps with less pain : http://www.open-source-feed.com/2017/01/solus-project-is-adopting-flatpak-to.html
     MATE Desktop 1.18 lands in Solus with other package updates : http://www.open-source-feed.com/2017/03/mate-desktop-118-lands-in-solus-with.html
