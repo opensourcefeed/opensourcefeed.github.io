@@ -42,7 +42,7 @@ layout: default
             {% if page.home_page %}
             <tr>
                 <td>Home Page</td>
-                <td><a href="{{ page.home_page }}" target="_blank">{{page.home_page}}</a></td>
+                <td><a href="{{ page.home_page }}">{{page.home_page}}</a></td>
             </tr>
             {% endif %}
             {% if page.base %}
@@ -117,7 +117,7 @@ layout: default
                 <td>
                 <ul>
                 {% for release in page.releases %}
-                    <li><a href="{{release[1]}}" target="_blank">{{release[0]}}</a></li>
+                    <li><a href="{{release[1]}}">{{release[0]}}</a></li>
                 {% endfor %}
                 </ul>
                 </td>
@@ -129,7 +129,7 @@ layout: default
                 <td>
                     <ul>
                     {% for screenshot in page.screenshots %}
-                        <li><a href="{{screenshot[1]}}" target="_blank">{{screenshot[0]}}</a></li>
+                        <li><a href="{{screenshot[1]}}" >{{screenshot[0]}}</a></li>
                     {% endfor %}
                     </ul>
                 </td>

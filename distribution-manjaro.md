@@ -11,6 +11,7 @@ home_page: https://manjaro.org/
 desktops: [plasma, xfce, mate, gnome, cinnamon, budgie]
 base : [arch]
 releases:
+  Manjaro 17.0.2 Pre2 : "http://www.open-source-feed.com/2017/05/manjaro-170-gellivara-gets-another.html"
   Manjaro 17.0.1 Budgie : "https://manjaro.org/2017/04/25/manjaro-budgie-17-0-1-released/"
   Manjaro MATE 17.0 released with MATE Desktop 1.18 : "http://www.open-source-feed.com/2017/03/manjaro-mate-170-released-with-mate.html"
   Manjaro 17.0 Gellivara Community editions released : "http://www.open-source-feed.com/2017/03/manjaro-170-fringilla-community.html"

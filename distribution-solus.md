@@ -8,7 +8,7 @@ permalink: /distribution/solus
 logo: solus-logo.png
 preview: solus-preview.jpg
 home_page: https://solus-project.com
-desktops: [budgie, mate]
+desktops: [budgie, mate, gnome]
 base : Independent
 description : Solus is an independently developed GNU/Linux distribution that is designed for modern personal computing devices, every tweak enabling us to deliver a singular, cohesive desktop experience. Stories and updates on Solus
 
@@ -26,8 +26,9 @@ reviews:
   Solus 2017.01.01.0 is an impressive new comer : "http://www.open-source-feed.com/2017/02/solus-201701010-is-impressive-new-comer.html"
 
 stories :
-    Solus Project is adopting Flatpak to deliver 3rd party apps with less pain : http://www.open-source-feed.com/2017/01/solus-project-is-adopting-flatpak-to.html
-    MATE Desktop 1.18 lands in Solus with other package updates : http://www.open-source-feed.com/2017/03/mate-desktop-118-lands-in-solus-with.html
+  "Solus gets better bluetooth support, project website has been revamped and other updates" : "http://www.open-source-feed.com/2017/05/solus-gets-better-bluetooth-support.html"
+  Solus Project is adopting Flatpak to deliver 3rd party apps with less pain : http://www.open-source-feed.com/2017/01/solus-project-is-adopting-flatpak-to.html
+  MATE Desktop 1.18 lands in Solus with other package updates : http://www.open-source-feed.com/2017/03/mate-desktop-118-lands-in-solus-with.html
 ---
 
 **Solus** is an independently developed GNU/Linux distribution that is designed for modern personal 
