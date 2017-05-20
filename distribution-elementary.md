@@ -24,6 +24,7 @@ stories:
   elementary OS Loki ships first set of updates in 2017 : "http://www.open-source-feed.com/2017/01/elementary-os-loki-ships-first-set-of.html"
   elementary OS introduces cross desktop compatible System Settings App(Switchboard) : "http://www.open-source-feed.com/2016/12/elementary-os-introduces-cross-desktop.html"
 screenshots:
+  elementary OS 0.4.1 Loki : "http://www.distroscreens.com/2017/05/elementary-os-041-loki-screenshots.html"
   "elementary OS 0.4 Loki" : "http://www.distroscreens.com/2016/09/elementary-os-04-loki-screenshots.html"
   "elementary OS 0.4 Loki beta" : "http://www.distroscreens.com/2016/06/elementary-os-04-loki-beta-screenshots.html"
     
