@@ -4,6 +4,7 @@ uid: elementary
 title: 'elementary OS (eOS)'
 Category: Distribution
 permalink: /distribution/elementary
+type : Linux
 logo: elementary-logo.png
 preview: elementary.png
 home_page: https://elementary.io/

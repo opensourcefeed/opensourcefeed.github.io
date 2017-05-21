@@ -125,6 +125,9 @@
 <loc>http://localhost:4000/desktop/xfce</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/antergos</loc>
+</url>
+<url>
 <loc>http://localhost:4000/distribution/apricity</loc>
 </url>
 <url>
@@ -198,6 +201,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/distribution/opensuse</loc>
+</url>
+<url>
+<loc>http://localhost:4000/distribution/parsix</loc>
 </url>
 <url>
 <loc>http://localhost:4000/distribution/pclinuxos</loc>

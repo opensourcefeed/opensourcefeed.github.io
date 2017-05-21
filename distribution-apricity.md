@@ -10,7 +10,7 @@ preview: apricityos.jpg
 home_page: https://apricity-os.github.io/
 desktops: [cinnamon, gnome]
 base : [arch]
-description : "Apricity (formerly Cinnarch) was a beautiful, rolling GNU/Linux distribution based on Arch. Stories and updates on Apricity OS"
+description : "Apricity was a beautiful, rolling GNU/Linux distribution based on Arch. Stories and updates on Apricity OS"
 status : Discontinued
 
 stories:
@@ -29,7 +29,7 @@ reviews :
   
 ---
 
-**Apricity** (formerly Cinnarch) was a beautiful, rolling GNU/Linux distribution based on Arch. The project was well known
+**Apricity** was a beautiful, rolling GNU/Linux distribution based on Arch. The project was well known
 for it's nicely crafted desktop environments,ie, Cinnamon and GNOME Shell. Instead of shipping the vanilla desktop environments,
 the project used to ship a nicely tweaked user experience to provide a visually appealing distribution. It had a nice choice
 of Gtk and icon themes, applications and other desktop environment extensions.
