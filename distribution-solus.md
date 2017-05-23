@@ -26,6 +26,8 @@ reviews:
   Solus 2017.01.01.0 is an impressive new comer : "http://www.open-source-feed.com/2017/02/solus-201701010-is-impressive-new-comer.html"
 
 stories :
+  "Solus gets support for Plasma Destkop; though not official at the moment" : "http://www.open-source-feed.com/2017/05/solus-gets-support-for-plasma-destkop.html" 
+  "Solus ships updated Brisk Menu with super key shortcut " : "http://www.open-source-feed.com/2017/05/solus-ships-updated-brisk-menu-with.html"
   "Solus gets better bluetooth support, project website has been revamped and other updates" : "http://www.open-source-feed.com/2017/05/solus-gets-better-bluetooth-support.html"
   Solus Project is adopting Flatpak to deliver 3rd party apps with less pain : http://www.open-source-feed.com/2017/01/solus-project-is-adopting-flatpak-to.html
   MATE Desktop 1.18 lands in Solus with other package updates : http://www.open-source-feed.com/2017/03/mate-desktop-118-lands-in-solus-with.html
