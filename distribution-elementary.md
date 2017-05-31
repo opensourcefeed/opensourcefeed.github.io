@@ -18,12 +18,15 @@ releases:
 reviews:
   elementary 0.4 Loki, it is cool but package management is a pain: "http://www.open-source-feed.com/2017/01/elementary-os-looks-cool-but-package.html"
   elementary 0.4 is a mixed user experience : "http://www.open-source-feed.com/2016/11/elementary-os-04-is-mixed-user.html"
+
 stories:
+  elementary OS team was not on vaccation after 0.4.1 release, here is updates in May : "http://www.open-source-feed.com/2017/05/elementary-os-team-was-not-on-vaccation.html"
   elementary OS April 2017 updates : "https://medium.com/elementaryos/loki-updates-for-april-c565b6024426"
   elementaryOS ships an urgent fix for AppCentre crash : "http://www.open-source-feed.com/2017/04/elementaryos-ships-urgent-fix-for.html"
   elementary OS 0.4 Loki updates in February : "http://www.open-source-feed.com/2017/03/elementary-os-04-loki-updates-in.html"
   elementary OS Loki ships first set of updates in 2017 : "http://www.open-source-feed.com/2017/01/elementary-os-loki-ships-first-set-of.html"
   elementary OS introduces cross desktop compatible System Settings App(Switchboard) : "http://www.open-source-feed.com/2016/12/elementary-os-introduces-cross-desktop.html"
+
 screenshots:
   elementary OS 0.4.1 Loki : "http://www.distroscreens.com/2017/05/elementary-os-041-loki-screenshots.html"
   "elementary OS 0.4 Loki" : "http://www.distroscreens.com/2016/09/elementary-os-04-loki-screenshots.html"
