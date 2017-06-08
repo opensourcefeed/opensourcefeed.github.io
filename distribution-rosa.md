@@ -12,6 +12,7 @@ base : Independent
 description : ROSA Linux is a Russian GNU/Linux distribution developed by LLC NTC IT ROSA, a software product development company. Stories and udpates on ROSA Linux
 
 releases:
+  ROSA Fresh R9 LXQt: "http://www.open-source-feed.com/2017/06/rosa-fresh-r9-lxqt-released-it-can.html"
   ROSA Fresh R9 : "http://www.open-source-feed.com/2017/04/rosa-fresh-r9-released-it-will-be.html"
   ROSA Fresh R8.1 : "http://www.open-source-feed.com/2017/03/rosa-fresh-r81-released-latest.html"
   
