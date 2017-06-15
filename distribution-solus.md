@@ -26,6 +26,7 @@ reviews:
   Solus 2017.01.01.0 is an impressive new comer : "http://www.open-source-feed.com/2017/02/solus-201701010-is-impressive-new-comer.html"
 
 stories :
+  "Ikey Doherty leaves Intel and becomes full time Solus developer" : "http://www.open-source-feed.com/2017/06/ikey-doherty-leaves-intel-and-becomes.html"
   "Solus gets support for Plasma Destkop; though not official at the moment" : "http://www.open-source-feed.com/2017/05/solus-gets-support-for-plasma-destkop.html" 
   "Solus ships updated Brisk Menu with super key shortcut " : "http://www.open-source-feed.com/2017/05/solus-ships-updated-brisk-menu-with.html"
   "Solus gets better bluetooth support, project website has been revamped and other updates" : "http://www.open-source-feed.com/2017/05/solus-gets-better-bluetooth-support.html"
