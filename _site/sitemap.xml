@@ -209,6 +209,9 @@
 <loc>http://localhost:4000/distribution/pclinuxos</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/peppermint</loc>
+</url>
+<url>
 <loc>http://localhost:4000/distribution/porteus</loc>
 </url>
 <url>
