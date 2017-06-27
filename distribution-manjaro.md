@@ -10,13 +10,19 @@ preview: manjaro-xfce.jpg
 home_page: https://manjaro.org/
 desktops: [plasma, xfce, mate, gnome, cinnamon, budgie]
 base : [arch]
+
+description : Manjaro is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly
+scripts and installers to make it usable for newbies and proffessionals alike. Stories and updates on Manjaro GNU/Linux.
+
 releases:
+  Manjaro 17.0.2 : "http://www.open-source-feed.com/2017/06/manjaro-1702-released-with-updated.html"
   Manjaro 17.0.2 Pre2 : "http://www.open-source-feed.com/2017/05/manjaro-170-gellivara-gets-another.html"
   Manjaro 17.0.1 Budgie : "https://manjaro.org/2017/04/25/manjaro-budgie-17-0-1-released/"
-  Manjaro MATE 17.0 released with MATE Desktop 1.18 : "http://www.open-source-feed.com/2017/03/manjaro-mate-170-released-with-mate.html"
-  Manjaro 17.0 Gellivara Community editions released : "http://www.open-source-feed.com/2017/03/manjaro-170-fringilla-community.html"
-  Manjaro 17.0 Gellivara Plasma & Xfce flavors released : "http://www.open-source-feed.com/2017/03/manjaro-170-fringilla-plasma-xfce.html"
-  Manjaro 17.0-rc1 Xfce & KDE flavors announced with Linux 4.9 LTS : http://www.open-source-feed.com/2017/02/manjaro-170-rc1-xfce-kde-flavors.html
+  Manjaro MATE 17.0 : "http://www.open-source-feed.com/2017/03/manjaro-mate-170-released-with-mate.html"
+  Manjaro 17.0 Gellivara Community editions : "http://www.open-source-feed.com/2017/03/manjaro-170-fringilla-community.html"
+  Manjaro 17.0 Gellivara Plasma & Xfce : "http://www.open-source-feed.com/2017/03/manjaro-170-fringilla-plasma-xfce.html"
+  Manjaro 17.0-rc1 Xfce & KDE : http://www.open-source-feed.com/2017/02/manjaro-170-rc1-xfce-kde-flavors.html
+
 screenshots:
   Manjaro 17.0 MATE : "http://www.distroscreens.com/2017/04/manjaro-mate-170-screenshots.html"
   Manjaro 17.0 Cinnamon : http://www.distroscreens.com/2017/03/manjaro-170-gellivara-cinnamon.html
