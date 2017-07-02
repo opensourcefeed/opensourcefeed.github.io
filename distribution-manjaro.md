@@ -15,6 +15,7 @@ description : Manjaro is an Arch based, rolling GNU/Linux distribution. It combi
 scripts and installers to make it usable for newbies and proffessionals alike. Stories and updates on Manjaro GNU/Linux.
 
 releases:
+  Manjaro 17.0.2 community editions (i3, budgie, cinnamon & LXDE) : "http://www.open-source-feed.com/2017/07/manjaro-1702-community-editions.html"
   Manjaro 17.0.2 : "http://www.open-source-feed.com/2017/06/manjaro-1702-released-with-updated.html"
   Manjaro 17.0.2 Pre2 : "http://www.open-source-feed.com/2017/05/manjaro-170-gellivara-gets-another.html"
   Manjaro 17.0.1 Budgie : "https://manjaro.org/2017/04/25/manjaro-budgie-17-0-1-released/"

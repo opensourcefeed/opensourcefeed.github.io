@@ -20,6 +20,7 @@ reviews:
   elementary 0.4 is a mixed user experience : "http://www.open-source-feed.com/2016/11/elementary-os-04-is-mixed-user.html"
 
 stories:
+  elementary OS gets support for OEM information on About window : "http://www.open-source-feed.com/2017/07/elementary-os-gets-support-for-oem.html"
   elementary OS has completed github migration : "http://www.open-source-feed.com/2017/06/elementary-os-has-completed-github.html"
   elementary OS team was not on vaccation after 0.4.1 release, here is updates in May : "http://www.open-source-feed.com/2017/05/elementary-os-team-was-not-on-vaccation.html"
   elementary OS April 2017 updates : "https://medium.com/elementaryos/loki-updates-for-april-c565b6024426"

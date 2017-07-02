@@ -22,6 +22,7 @@ releases:
   Ubuntu Budgie 17.04 beta 1 : "http://www.open-source-feed.com/2017/02/ubuntu-budgie-1704-beta-1-is-ready-for.html"
 
 stories:
+  Developers Diary, June 2017 : "https://ubuntubudgie.org/blog/2017/07/01/developer-diary-june"
   Finally, budgie-remix becomes Ubuntu Budgie : "http://www.open-source-feed.com/2016/11/finally-budgie-remix-becomes-ubuntu.html"
   
 reviews:
