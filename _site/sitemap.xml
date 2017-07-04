@@ -128,6 +128,9 @@
 <loc>http://localhost:4000/desktop/xfce</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/4mlinux</loc>
+</url>
+<url>
 <loc>http://localhost:4000/distribution/antergos</loc>
 </url>
 <url>

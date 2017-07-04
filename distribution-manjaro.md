@@ -11,8 +11,7 @@ home_page: https://manjaro.org/
 desktops: [plasma, xfce, mate, gnome, cinnamon, budgie]
 base : [arch]
 
-description : Manjaro is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly
-scripts and installers to make it usable for newbies and proffessionals alike. Stories and updates on Manjaro GNU/Linux.
+description : Manjaro is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly scripts and installers to make it usable for newbies and proffessionals alike. Stories and updates on Manjaro GNU/Linux.
 
 releases:
   Manjaro 17.0.2 community editions (i3, budgie, cinnamon & LXDE) : "http://www.open-source-feed.com/2017/07/manjaro-1702-community-editions.html"
