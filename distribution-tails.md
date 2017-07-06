@@ -3,15 +3,18 @@ layout: distribution
 uid: tails
 title: 'Tails'
 Category: Distribution
+type : Linux
 permalink: /distribution/tails
 logo: tails-logo-square.png
 preview: tails-preview.jpg
 home_page: https://tails.boum.org/
 desktops: [gnome]
 base : [debian]
-description : "Tails - the amnesic live incognito system is a live GNU/Linux distribution based on Debian that offers provision for secure, anonymous and private browsing. Stories, updates and reviews on Tails GNU/Linux."
+
+description : "Tails - is a Debian based operating system which offers provision for secure, anonymous and private browsing. Stories, updates and reviews on Tails GNU/Linux."
 
 releases:
+  Tails 3.0.1 : "http://www.open-source-feed.com/2017/07/ubuntu-1610-yakkety-yak-reaches-end-of.html"
   Tails 3.0 : "http://www.open-source-feed.com/2017/06/tails-30-released-first-release-based.html"
 ---
 
