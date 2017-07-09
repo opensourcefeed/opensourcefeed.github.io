@@ -2,57 +2,15 @@
 layout: default 
 ---
 <div id="recent-posts">
-</div>
-<!--{% for post in paginator.posts %}
-<div class="row post-thumbnail">
-    <div class="col-md-12">
-        <span class="post-meta date">{{ post.date | date: "%b %-d, %Y" }}</span>
+  {% for post in site.data.feed %}
+    <div class="row post-thumbnail">
+      <div class="col-md-12">
+        <span class="post-meta date">{{post.date}}</span>
         <h2>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <a class="post-link" href="{{post.link}}">{{post.title}}</a>
         </h2>
-        {{ post.excerpt | slice: 0, 200}}...
+        <p>{{post.summary}}</p>
+      </div>
     </div>
-</div>
-{% endfor %}
-
-{% if paginator.total_pages > 1 %}
-<nav class="text-md-right">
-<ul class="pagination">
-  {% if paginator.previous_page %}
-    <li class="page-item">
-      <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-    </li>
-  {% else %}
-    <li class="page-item disabled">
-      <span class="page-link">&laquo; Prev</span>
-    </li>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <li class="page-item active">
-        <span class="page-link">{{ page }}</span>
-      </li>
-    {% elsif page == 1 %}
-      <li class="page-item">
-        <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-      </li>
-    {% else %}
-      <li class="page-item">
-        <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      </li>
-    {% endif %}
   {% endfor %}
-
-  {% if paginator.next_page %}
-    <li class="page-item">
-      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-    </li>
-  {% else %}
-    <li class="page-item disabled">
-      <span class="page-link">Next &raquo;</span>
-    </li>
-  {% endif %}
-</ul>
-</nav>
-{% endif %}-->
+</div>
