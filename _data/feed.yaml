@@ -1,3 +1,13 @@
+- title: "Kubernetes 1.7 is now available in Ubuntu"
+  date: "10/07/17"
+  summary: "Canonical has announced official support for Kubernetes 1.7 in Ubuntu. Ubuntu is the first operating system that provides enterprise support for Kubernetes 1.7 and it makes use of Ubuntu kernel optimi..."
+  link: "http://www.open-source-feed.com/2017/07/kubernetes-17-is-now-available-in-ubuntu.html"
+
+- title: "Deepin has increased number of mirrors around the globe to increase availability"
+  date: "10/07/17"
+  summary: "Addressing the issue of slower download speed, Deepin project has added several mirror sites across the world. This will help the project to provide better download speed and ensure higher availabilit..."
+  link: "http://www.open-source-feed.com/2017/07/deepin-has-increased-number-of-mirrors.html"
+
 - title: "Ubuntu 16.10 Yakkety Yak reaches end of life on 20th July 2017"
   date: "06/07/17"
   summary: "Serving 9 months of support period, Ubuntu 16.10 Yakkety Yak will be reaching it's scheduled end of life (EOL) on 20th July 2017. After this date, there won't be any security updates available for thi..."
@@ -37,14 +47,4 @@
   date: "02/07/17"
   summary: "Summarizing the activities in June 2017, elementary team has published monthly new letter. During this month, the team was working on visual improvements of various components and there are under the ..."
   link: "http://www.open-source-feed.com/2017/07/elementary-os-gets-support-for-oem.html"
-
-- title: "Celeberating 10th anniversary, Calculate Linux 17.6 released"
-  date: "01/07/17"
-  summary: "Marking the 10th anniversary of project, Calculate Linux team has announced release of Calculate Linux 17.6, latest stable release of Gentoo based GNU/Linux distribution.The Calculate Linux project wa..."
-  link: "http://www.open-source-feed.com/2017/07/celeberating-10th-anniversary-calulate.html"
-
-- title: "Manjaro 17.0.2 community editions released; Includes budgie, i3, Cinnamon LXDE flavors"
-  date: "01/07/17"
-  summary: "Mr Bernhard Landeaur of Manjaro team has announced release of various Manjaro 17.0.2 community editions. So far, Manjaro community developers has prepared updated installation images for i3, budgie, C..."
-  link: "http://www.open-source-feed.com/2017/07/manjaro-1702-community-editions.html"
 

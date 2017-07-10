@@ -4,11 +4,12 @@ uid: deepin
 title: 'deepin'
 Category: Distribution
 permalink: /distribution/deepin
-logo: deepin-logo.png
+logo: deepin-logo.jpg
 preview: deepin-preview.jpg
 home_page: https://www.deepin.org/en/
 desktops: [deepindesktop]
 base : [debian]
+
 description : deepin is an elegant GNU/Linux distribution from China. Stories and updates on deepin
 
 releases :
@@ -16,6 +17,7 @@ releases :
   deepin 15.4 beta : "http://www.open-source-feed.com/2017/03/deepin-154-beta-released-with.html"
 
 stories:
+  "Deepin has increased number of mirros around the globe" : "http://www.open-source-feed.com/2017/07/deepin-has-increased-number-of-mirrors.html"
   Deepin Screen Recorder released, a new member in deepin software suite : http://www.open-source-feed.com/2017/03/deepin-screen-recorder-released-new.html
 
 reviews :
