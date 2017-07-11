@@ -25,6 +25,7 @@ stories:
   Plasma 5.8.5 bugfix release in Xenial and Yakkety Backports now : "http://kubuntu.org/news/plasma-5-8-5-bugfix-release-in-xenial-and-yakkety-backports-now/"
 
 reviews :
+  "Kubuntu Zesty is shaping to be a perfect distro" : "http://www.dedoimedo.com/computers/kubuntu-zesty-perfect.html"
   "Kubuntu 17.04 Zesty Zaphod - Kawabuntu!" : "http://www.dedoimedo.com/computers/kubuntu-zesty.html"
   Kubuntu 17.04 - The next generation OS : "http://linuxblog.darkduck.com/2017/04/kubuntu-1704-next-generation.html"
 ---

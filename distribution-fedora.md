@@ -3,13 +3,14 @@ layout: distribution
 uid: fedora
 title: 'Fedora'
 Category: Distribution
+type : Linux
 permalink: /distribution/fedora
 logo: fedora-logo.png
 preview: Fedora25-preview.jpg
 home_page: https://getfedora.org/
 desktops: [gnome, plasma, mate, xfce, lxde]
 base : Independent
-description: Fedora is an independently developed GNU/Linux distribution backed by open source giant Red Hat. Fedora is a cutting edge distribution that ships new releases in a rough period of 6 months.
+description: Fedora is an independently developed GNU/Linux distribution supported by Red Hat Inc, and a group of volunteers. Fedora is a cutting edge distribution that ships new releases in a rough period of 6 months. Stories, reviews and updates on Fedora.
 
 reviews :
   Fedora 25 is not something worth to recommend: "http://www.open-source-feed.com/2017/02/fedora-25-is-not-something-worth-to.html"
@@ -21,6 +22,7 @@ screenshots :
   Fedora 24 Alpha : "http://www.distroscreens.com/2016/04/fedora-24-alpha-gnome-320-screenshots.html"
 
 releases:
+  Fedora 26 : "http://www.open-source-feed.com/2017/07/fedora-26-released-with-gcc-7-golang-18.html"
   Fedora 26 Beta : "http://www.open-source-feed.com/2017/06/fedora-26-beta-released-final-release.html"
   Fedora 26 Alpha: "http://www.open-source-feed.com/2017/04/fedora-26-alpha-released.html"
 ---

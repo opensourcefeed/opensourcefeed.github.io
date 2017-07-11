@@ -1,3 +1,13 @@
+- title: "Ubuntu 16.04 is now available in Windows Store"
+  date: "11/07/17"
+  summary: "Following the announcement made by Microsoft on Microsoft Build 2016 conference, Ubuntu 16.04 is now available as an App in Windows Store. Currently this app is  only available Windows Insider (latest..."
+  link: "http://www.open-source-feed.com/2017/07/ubuntu-1604-is-now-available-in-windows.html"
+
+- title: "Fedora 26 released with GCC 7, Golang 1.8 and thousands of other improvements"
+  date: "11/07/17"
+  summary: "Keeping the habit of publishing stable releases on every 6 months, Fedora project has released Fedora 26, latest stable release of independent GNU/Linux distribution backed by Red Hat Inc. This releas..."
+  link: "http://www.open-source-feed.com/2017/07/fedora-26-released-with-gcc-7-golang-18.html"
+
 - title: "Kubernetes 1.7 is now available in Ubuntu"
   date: "10/07/17"
   summary: "Canonical has announced official support for Kubernetes 1.7 in Ubuntu. Ubuntu is the first operating system that provides enterprise support for Kubernetes 1.7 and it makes use of Ubuntu kernel optimi..."
@@ -37,14 +47,4 @@
   date: "03/07/17"
   summary: "The 4MLinux project has declared freeze of 4MLinux 22.0 as a stable release. This release includes many updated packages and bug fixes. It also features a beta release of Skype, popular video conferen..."
   link: "http://www.open-source-feed.com/2017/07/4mlinux-220-stable-released-with.html"
-
-- title: "Linux Mint 18.2 Sonya released in Cinnamon, MATE, KDE & Xfce flavors"
-  date: "03/07/17"
-  summary: "The Linux Mint team has announced release of Linux Mint 18.2 Sonya. In addition to official MATE and Cinnamon flavors, KDE and Xfce flavors are also available for download. This is first time in histo..."
-  link: "http://www.open-source-feed.com/2017/07/linux-mint-182-sonya-released-in.html"
-
-- title: "elementary OS gets support for OEM information on About window"
-  date: "02/07/17"
-  summary: "Summarizing the activities in June 2017, elementary team has published monthly new letter. During this month, the team was working on visual improvements of various components and there are under the ..."
-  link: "http://www.open-source-feed.com/2017/07/elementary-os-gets-support-for-oem.html"
 
