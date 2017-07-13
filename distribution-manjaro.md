@@ -8,12 +8,13 @@ permalink: /distribution/manjaro
 logo: Manjaro-logo.svg
 preview: manjaro-xfce.jpg
 home_page: https://manjaro.org/
-desktops: [plasma, xfce, mate, gnome, cinnamon, budgie]
+desktops: [plasma, xfce, mate, gnome, cinnamon, budgie, lxqt, i3, lxde]
 base : [arch]
 
-description : Manjaro is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly scripts and installers to make it usable for newbies and proffessionals alike. Stories and updates on Manjaro GNU/Linux.
+description : Manjaro is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly scripts and installers to make it usable for newbies and professionals alike. Stories and updates on Manjaro GNU/Linux.
 
 releases:
+  Manjaro 17.0.2 MATE & LXQt : "http://www.open-source-feed.com/2017/07/manjaro-1702-mate-lxqt-community.html"
   Manjaro 17.0.2 community editions (i3, budgie, cinnamon & LXDE) : "http://www.open-source-feed.com/2017/07/manjaro-1702-community-editions.html"
   Manjaro 17.0.2 : "http://www.open-source-feed.com/2017/06/manjaro-1702-released-with-updated.html"
   Manjaro 17.0.2 Pre2 : "http://www.open-source-feed.com/2017/05/manjaro-170-gellivara-gets-another.html"
@@ -42,8 +43,6 @@ screenshots:
   Manjaro Cinnamon 16.02 : http://www.distroscreens.com/2016/04/manjaro-cinnamon-1602-screenshots.html
 ---
 
-**Manjaro** is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly
-scripts and installers to make it usable for newbies and proffessionals alike. Official Manjaro ships KDE and Xfce
-flavors. Additionally, there are community flavors featuring other desktop environments also.
+**Manjaro** is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly scripts and installers to make it usable for newbies and professionals alike. Official Manjaro ships KDE and Xfce flavors. Additionally, there are community flavors featuring other desktop environments also.
 
 Developed in Austria, France, and Germany, Manjaro provides all the benefits of the Arch operating system combined with a focus on user-friendliness and accessibility. Available in both 32 and 64 bit versions, Manjaro is suitable for newcomers as well as experienced Linux users.

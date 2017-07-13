@@ -224,6 +224,9 @@
 <loc>http://localhost:4000/distribution/rosa</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/shark</loc>
+</url>
+<url>
 <loc>http://localhost:4000/distribution/solus</loc>
 </url>
 <url>

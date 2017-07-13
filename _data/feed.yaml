@@ -1,3 +1,18 @@
+- title: "Manjaro 17.0.2 MATE & LXQt community editions released"
+  date: "13/07/17"
+  summary: "Manjaro community developers has announced release of Manjaro 17.0.2 MATE & LXQt editions. The MATE edition of Manjaro provides a traditional looking, yet elegant and modern desktop experience. While ..."
+  link: "http://www.open-source-feed.com/2017/07/manjaro-1702-mate-lxqt-community.html"
+
+- title: "ExTiX 17.7 released with Budgie Desktop, Linux Kernel 4.11.0 & Refracta tools"
+  date: "13/07/17"
+  summary: "The ExTiX GNU/Linux developer has announced release of ExTiX 17.7, latest stable release of Ubuntu/Debian based GNU/Linux distribution trying to deliver ultimate operating system experience.ExTiX 17.7..."
+  link: "http://www.open-source-feed.com/2017/07/extix-177-released-with-budgie-desktop.html"
+
+- title: "Wordpress.com receives a perfect score from EFF for protecting Digital Privacy Rights"
+  date: "12/07/17"
+  summary: "In modern age, it is very critical to protect your data from various intruders and state departments. As a citizen of internet, your data may be collected by different groups and organizations to moni..."
+  link: "http://www.open-source-feed.com/2017/07/wordpresscom-receives-perfect-score.html"
+
 - title: "Ubuntu 16.04 is now available in Windows Store"
   date: "11/07/17"
   summary: "Following the announcement made by Microsoft on Microsoft Build 2016 conference, Ubuntu 16.04 is now available as an App in Windows Store. Currently this app is  only available Windows Insider (latest..."
@@ -32,19 +47,4 @@
   date: "06/07/17"
   summary: "The Tails GNU/Linux team has published another updated snapshot of projects security oriented operating system helping users to surf internet without compromising privacy and anonymity. Tails 3.0.1 is..."
   link: "http://www.open-source-feed.com/2017/07/tails-301-released-with-updated.html"
-
-- title: "Zorin OS 12 Lite released with customized Xfce Desktop"
-  date: "04/07/17"
-  summary: "Renouncing the commitment to deliver user friendly and less resource hungry operating systems, Zorin OS team has announced release of Zorin OS 12 Lite, latest stable release of lightweight operating s..."
-  link: "http://www.open-source-feed.com/2017/07/zorin-os-12-lite-released-with.html"
-
-- title: "Netrunner 17.06 Daedalus released with Plasma 5.10"
-  date: "03/07/17"
-  summary: "The Netrunner team has proudly announced release of Netrunner 17.06, latest stable release of Debian testing based GNU/Linux distribution delivering most recent KDE Plasma desktop experience. Netrunne..."
-  link: "http://www.open-source-feed.com/2017/07/netrunner-1706-daedalus-released-with.html"
-
-- title: "4MLinux 22.0 STABLE released with LibreOffice 5.4.0.1 and GIMP 2.8.22"
-  date: "03/07/17"
-  summary: "The 4MLinux project has declared freeze of 4MLinux 22.0 as a stable release. This release includes many updated packages and bug fixes. It also features a beta release of Skype, popular video conferen..."
-  link: "http://www.open-source-feed.com/2017/07/4mlinux-220-stable-released-with.html"
 
