@@ -14,7 +14,9 @@ description: Fedora is an independently developed GNU/Linux distribution support
 
 reviews :
   Fedora 25 is not something worth to recommend: "http://www.open-source-feed.com/2017/02/fedora-25-is-not-something-worth-to.html"
+
 screenshots :
+  Fedora 26 Workstation: "http://www.distroscreens.com/2017/07/fedora-26-workstation-screenshots.html"
   Fedora 25 Workstation: "http://www.distroscreens.com/2016/11/fedora-25-workstation-screenshots.html"
   Fedora 25 Beta : "http://www.distroscreens.com/2016/10/fedora-25-beta-gnome-322-screenshots.html"
   Fedora 25 Alpha : "http://www.distroscreens.com/2016/09/fedora-25-alpha-screenshots.html"
