@@ -1,19 +1,32 @@
 ---
 layout: distribution
-uid: opensuse
-title: 'openSUSE'
+uid: mageia
+title: 'Mageia'
 Category: Distribution
-permalink: /distribution/opensuse
-logo: openSUSE.svg
-preview: opensuse-laptop.jpg
-home_page: https://www.debian.org
-desktops: [gnome, plasma]
+permalink: /distribution/mageia
+logo: mageia-2013.png
+preview: Mageia 6.jpg
+home_page: https://www.mageia.org
+desktops: [gnome, plasma, xfce]
 base : Independent
-reviews:
-  openSUSE Leap 42.2 : "http://www.open-source-feed.com/2017/02/opensuse-leap-422-is-extremely-stable.html"
-  openSUSE Leap 42.2 GNOME : "http://www.open-source-feed.com/2017/02/opensuse-leap-422-gnome-flavor-is.html"
+
+description : "Mageia is a community driven GNU/Linux operating system backed by a non-profit organization of elected contributors. Releases, reviews and other updates on Mageia."
+
+releases:
+  Mageia 6 : "http://www.open-source-feed.com/2017/07/mageia-6-released-with-plasma-5-dnf-arm.html"
+  Mageia 5 : "https://www.mageia.org/en/5/"
+  Mageia 4 : "https://www.mageia.org/en/4/"
+  Mageia 3 : "https://www.mageia.org/en/3/"
+  Mageia 2 : "https://www.mageia.org/en/2/"
+  Mageia 1 : "https://www.mageia.org/en/1/"
+  
+stories:
+  "Mageia 6 development reaches final stage, release candidate is available now " : "http://www.open-source-feed.com/2017/05/mageia-6-development-reaches-final.html"
+  "Mageia 6 development is in progress; GNOME 3.24 update is under testing" : "http://www.open-source-feed.com/2017/03/mageia-6-development-is-in-progress.html"
+  "Mageia linux 6 sta1 released, first step to Mageia 6" : "http://www.open-source-feed.com/2016/07/mageia-linux-6-sta1-released-first-step.html"
+  "Mageia 6 dev1 is available now" : "http://www.open-source-feed.com/2016/03/mageia-6-dev1-is-available-now.html"
 ---
 
-**openSUSE** is an independently developed, enterprise quality distribution backed by SUSE Foundation. In addition to all beneffits of regular GNU/Linux distribution, it comes with powerful system administration and configuration tools like YaST - a comprehentive linux system configuration and installation, OBS - Open Build Service, build tool supporting builds for openSUSE itself and other main stream distributions like Fedora, Ubuntu, Debian ..etc.
+**Mageia** is a community driven GNU/Linux operating system backed by a non-profit organization of elected contributors. Initially, it was started as a fork of Mandriva Linux in 2010. Over the years, Mageia has developed a lot and has become a full fledged GNU/Linux distribution with it's own brand name and identity.
 
-openSUSE comes in two different flavors. The *Leap* edition is an extremely stable, conservative, professional quality distribution. It is a regular release distribution of openSUSE. While, the *TumbleWeed* edition is a rolling edition with bleeding edge technologies.
+The main motto of Mageia project is told as *to build great tools for people*. The goal of Mageia project is be a credible and recognizable community in free software world.

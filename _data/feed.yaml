@@ -1,3 +1,18 @@
+- title: "Mageia 6 released with Plasma 5, DNF, ARM Integration and tons of other features"
+  date: "17/07/17"
+  summary: "The Mageia community has proudly announced release of Mageia 6, latest stable release of community driven GNU/Linux distribution which was initially started as a fork of Mandriva Linux. This release o..."
+  link: "http://www.open-source-feed.com/2017/07/mageia-6-released-with-plasma-5-dnf-arm.html"
+
+- title: "Sparky Linux 5.0 released based on Debian testing"
+  date: "17/07/17"
+  summary: "The Sparky Linux project has announced availability Sparky Linux 5.0, updated live and installation images for project's Debian based GNU/Linux distribution. This release of Sparky Linux code named Ni..."
+  link: "http://www.open-source-feed.com/2017/07/sparky-linux-50-released-based-on.html"
+
+- title: "Finally Ubuntu completes migration from LightDM to GDM"
+  date: "14/07/17"
+  summary: "As a part of moving away from Unity stack, Ubuntu team has completed migration from LightDM to GDM (GNOME Display Manager). GDM will be used as default display manager in upcoming versions of Ubuntu a..."
+  link: "http://www.open-source-feed.com/2017/07/finally-ubuntu-completes-migration-from.html"
+
 - title: "Manjaro 17.0.2 MATE & LXQt community editions released"
   date: "13/07/17"
   summary: "Manjaro community developers has announced release of Manjaro 17.0.2 MATE & LXQt editions. The MATE edition of Manjaro provides a traditional looking, yet elegant and modern desktop experience. While ..."
@@ -32,19 +47,4 @@
   date: "10/07/17"
   summary: "Addressing the issue of slower download speed, Deepin project has added several mirror sites across the world. This will help the project to provide better download speed and ensure higher availabilit..."
   link: "http://www.open-source-feed.com/2017/07/deepin-has-increased-number-of-mirrors.html"
-
-- title: "Ubuntu 16.10 Yakkety Yak reaches end of life on 20th July 2017"
-  date: "06/07/17"
-  summary: "Serving 9 months of support period, Ubuntu 16.10 Yakkety Yak will be reaching it's scheduled end of life (EOL) on 20th July 2017. After this date, there won't be any security updates available for thi..."
-  link: "http://www.open-source-feed.com/2017/07/ubuntu-1610-yakkety-yak-reaches-end-of.html"
-
-- title: "Antergos makes Arch accessible for the mass"
-  date: "06/07/17"
-  summary: "Despite of of being a solid and rolling distribution, Arch GNU/Linux is often considered as not-a-beginner-friendly distribution. Since Arch Linux leaves a lot of options and choices to the end users,..."
-  link: "http://www.open-source-feed.com/2017/07/antergos-makes-arch-accessible-for-mass.html"
-
-- title: "Tails 3.0.1 released with updated packages and bug fixes"
-  date: "06/07/17"
-  summary: "The Tails GNU/Linux team has published another updated snapshot of projects security oriented operating system helping users to surf internet without compromising privacy and anonymity. Tails 3.0.1 is..."
-  link: "http://www.open-source-feed.com/2017/07/tails-301-released-with-updated.html"
 

@@ -6,7 +6,7 @@ Category: Distribution
 permalink: /distribution/opensuse
 logo: openSUSE.svg
 preview: opensuse-laptop.jpg
-home_page: https://www.debian.org
+home_page: https://www.opensuse.org/
 desktops: [gnome, plasma]
 base : Independent
 reviews:

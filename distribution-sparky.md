@@ -27,7 +27,7 @@ releases:
 ---
 **Sparky Linux** is a Debian based GNU/Linux distribution offering a ready to use, out of the box operating system. It comes with slightly customized variations of different desktop environments.
 
-There are several variations of Sparky Linux. The *Home Edition* provides a complete operating system with all the essential plugins/codecs and other applications and toosl that will find use in day to day use. Sparky Linux *Home Editions* mainly comes with LXQt, LXDE and MATE Desktop environments.
+There are several variations of Sparky Linux. The *Home Edition* provides a complete operating system with all the essential plugins/codecs and other applications and tools that will find use in day to day life. Sparky Linux *Home Editions* mainly comes with LXQt, LXDE and MATE Desktop environments.
 
 While, the Sparky Linux *Minimal GUI* comes with a lightweight Openbox configuration and installer to install required tools and packages. *Minimal CLI* version comes with a text based installer and it is made for advanced users who perfer to configure their operating system from the scratch.
 
