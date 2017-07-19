@@ -1,3 +1,13 @@
+- title: "GNOME Control Center gets a redesigned WiFi settings"
+  date: "19/07/17"
+  summary: "GNOME developers are always looking for modern and efficient designs. Since the first release of GNOME 3.x, there were numerous design changes in GNOME shell. One of the recent design to join this lis..."
+  link: "http://www.open-source-feed.com/2017/07/gnome-control-center-gets-redesigned.html"
+
+- title: "Netrunner Rolling 2017.07 snapshot is available now"
+  date: "19/07/17"
+  summary: "The Netrunner community has announced availability of an update snapshot for Netrunner Rolling edition. Indicating the year and month of release, this snapshot will be identified by the version number..."
+  link: "http://www.open-source-feed.com/2017/07/netrunner-rolling-201707-snapshot-is.html"
+
 - title: "Mageia 6 released with Plasma 5, DNF, ARM Integration and tons of other features"
   date: "17/07/17"
   summary: "The Mageia community has proudly announced release of Mageia 6, latest stable release of community driven GNU/Linux distribution which was initially started as a fork of Mandriva Linux. This release o..."
@@ -37,14 +47,4 @@
   date: "11/07/17"
   summary: "Keeping the habit of publishing stable releases on every 6 months, Fedora project has released Fedora 26, latest stable release of independent GNU/Linux distribution backed by Red Hat Inc. This releas..."
   link: "http://www.open-source-feed.com/2017/07/fedora-26-released-with-gcc-7-golang-18.html"
-
-- title: "Kubernetes 1.7 is now available in Ubuntu"
-  date: "10/07/17"
-  summary: "Canonical has announced official support for Kubernetes 1.7 in Ubuntu. Ubuntu is the first operating system that provides enterprise support for Kubernetes 1.7 and it makes use of Ubuntu kernel optimi..."
-  link: "http://www.open-source-feed.com/2017/07/kubernetes-17-is-now-available-in-ubuntu.html"
-
-- title: "Deepin has increased number of mirrors around the globe to increase availability"
-  date: "10/07/17"
-  summary: "Addressing the issue of slower download speed, Deepin project has added several mirror sites across the world. This will help the project to provide better download speed and ensure higher availabilit..."
-  link: "http://www.open-source-feed.com/2017/07/deepin-has-increased-number-of-mirrors.html"
 

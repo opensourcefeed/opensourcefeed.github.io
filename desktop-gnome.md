@@ -7,12 +7,17 @@ permalink: /desktop/gnome
 logo: gnome-logo.png
 preview: gnome-desktop.jpg
 home_page: https://www.gnome.org/
+
 description: GNOME (originally an acronym for GNU Network Object Model) is a modern desktop environment mainly developed for GNU/Linux operating systems, but also works on most of the BSD systems. Stories & updates on GNOME Desktop.
-stories:
-    GNOME 3.24 screenshots : "http://www.distroscreens.com/2017/04/gnome-324-screenshots.html"
+
+releases:
     GNOME 3.24 released with numerous cool features : http://www.open-source-feed.com/2017/03/gnome-324-released-with-numerous-cool.html
-    GNOME 3.24 is getting released on 22nd March, following are planned features : http://www.open-source-feed.com/2017/03/gnome-324-is-getting-released-on-22nd.html
-     
+    
+
+stories:
+  GNOME 3.24 screenshots : "http://www.distroscreens.com/2017/04/gnome-324-screenshots.html"
+  GNOME 3.24 is getting released on 22nd March, following are planned features : http://www.open-source-feed.com/2017/03/gnome-324-is-getting-released-on-22nd.html
+  GNOME Control Center gets a redesigned WiFi settings  : "http://www.open-source-feed.com/2017/07/gnome-control-center-gets-redesigned.html"
 ---
 
 **GNOME** (originally an acronym for GNU Network Object Model) is a modern desktop environment mainly developed for GNU/Linux operating systems, but also works on most of the BSD systems.
