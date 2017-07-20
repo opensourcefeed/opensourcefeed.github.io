@@ -1,3 +1,8 @@
+- title: "Elive 2.9.5 beta released with various visual improvments"
+  date: "20/07/17"
+  summary: "The Elive Linux team has announced availability of Elive 2.9.5 for testing. This release comes with various design improvements and visual effects planned for next stable release.A preview of Elive Li..."
+  link: "http://www.open-source-feed.com/2017/07/elive-295-beta-released-with-various.html"
+
 - title: "GNOME Control Center gets a redesigned WiFi settings"
   date: "19/07/17"
   summary: "GNOME developers are always looking for modern and efficient designs. Since the first release of GNOME 3.x, there were numerous design changes in GNOME shell. One of the recent design to join this lis..."
@@ -42,9 +47,4 @@
   date: "11/07/17"
   summary: "Following the announcement made by Microsoft on Microsoft Build 2016 conference, Ubuntu 16.04 is now available as an App in Windows Store. Currently this app is  only available Windows Insider (latest..."
   link: "http://www.open-source-feed.com/2017/07/ubuntu-1604-is-now-available-in-windows.html"
-
-- title: "Fedora 26 released with GCC 7, Golang 1.8 and thousands of other improvements"
-  date: "11/07/17"
-  summary: "Keeping the habit of publishing stable releases on every 6 months, Fedora project has released Fedora 26, latest stable release of independent GNU/Linux distribution backed by Red Hat Inc. This releas..."
-  link: "http://www.open-source-feed.com/2017/07/fedora-26-released-with-gcc-7-golang-18.html"
 
