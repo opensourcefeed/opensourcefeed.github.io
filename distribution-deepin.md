@@ -10,9 +10,10 @@ home_page: https://www.deepin.org/en/
 desktops: [deepindesktop]
 base : [debian]
 
-description : deepin is an elegant GNU/Linux distribution from China. Stories and updates on deepin
+description : deepin is a stunning GNU/Linux distribution based on Debian. It brings a beautiful desktop environment called deepin. Stories, updates and other highlights on deepin.
 
 releases :
+  deepin 15.4.1 : "http://www.open-source-feed.com/2017/07/deepin-1541-unveiled-with-launcher-mini.html"
   deepin 15.4 : "http://www.open-source-feed.com/2017/04/deepin-154-released-with-fresh-look-and.html"
   deepin 15.4 beta : "http://www.open-source-feed.com/2017/03/deepin-154-beta-released-with.html"
 
