@@ -12,6 +12,8 @@ base : Independent
 description : Debian is one of the biggest and oldest GNU/Linux distribution available in market. It is often refered as The Universal Operating System. Stories and updates on Debian.
 
 releases:
+  Debian 9.1 Stretch : "http://www.open-source-feed.com/2017/07/debian-91-stretch-released-with-various.html"
+  Debian 8.9 Jessy : "https://www.debian.org/News/2017/2017072202"
   Debian 9 Stretch : "http://www.open-source-feed.com/2017/06/debian-9-stretch-released-with-long.html"
 ---
 

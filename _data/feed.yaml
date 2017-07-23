@@ -1,3 +1,13 @@
+- title: "Debian 9.1 Stretch released with various bug fixes"
+  date: "23/07/17"
+  summary: "The Universal Operating System development team has announced availability of Debian 9.1, first updated snapshot in Debian 9.x Strech series. This point release brings numerous bug fixes and security ..."
+  link: "http://www.open-source-feed.com/2017/07/debian-91-stretch-released-with-various.html"
+
+- title: "BackBox Linux 5 released by replacing outdated tools"
+  date: "22/07/17"
+  summary: "The BackBox Linux community has proudly announced availability of BackBox Linux 5, latest major release of community driven GNU/Linux operating system that strives to promote culture of security in IT..."
+  link: "http://www.open-source-feed.com/2017/07/backbox-linux-5-released-by-replacing.html"
+
 - title: "deepin 15.4.1 unveiled with launcher mini mode, window preview and other visual improvements"
   date: "22/07/17"
   summary: "The deepin team has unveiled deepin 15.4.1, latest stable and optimized snapshot of Debian based GNU/Linux distribution featuring stunning deepin desktop environment.deepin 15.4.1 is a revised edition..."
@@ -37,14 +47,4 @@
   date: "13/07/17"
   summary: "Manjaro community developers has announced release of Manjaro 17.0.2 MATE & LXQt editions. The MATE edition of Manjaro provides a traditional looking, yet elegant and modern desktop experience. While ..."
   link: "http://www.open-source-feed.com/2017/07/manjaro-1702-mate-lxqt-community.html"
-
-- title: "ExTiX 17.7 released with Budgie Desktop, Linux Kernel 4.11.0 & Refracta tools"
-  date: "13/07/17"
-  summary: "The ExTiX GNU/Linux developer has announced release of ExTiX 17.7, latest stable release of Ubuntu/Debian based GNU/Linux distribution trying to deliver ultimate operating system experience.ExTiX 17.7..."
-  link: "http://www.open-source-feed.com/2017/07/extix-177-released-with-budgie-desktop.html"
-
-- title: "Wordpress.com receives a perfect score from EFF for protecting Digital Privacy Rights"
-  date: "12/07/17"
-  summary: "In modern age, it is very critical to protect your data from various intruders and state departments. As a citizen of internet, your data may be collected by different groups and organizations to moni..."
-  link: "http://www.open-source-feed.com/2017/07/wordpresscom-receives-perfect-score.html"
 
