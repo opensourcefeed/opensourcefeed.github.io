@@ -1,3 +1,8 @@
+- title: "Manjaro Deepin 17.0.2 released with updated deepin desktop"
+  date: "25/07/17"
+  summary: "Mr Bernhard Landauer, maintainer of Manjaro Deepin edition has announced release of Manjaro Deepin 17.0.2, latest stable snapshot of beautiful Manjaro community supported distribution featuring stunni..."
+  link: "http://www.open-source-feed.com/2017/07/manjaro-deepin-1702-released-with.html"
+
 - title: "Debian 9.1 Stretch released with various bug fixes"
   date: "23/07/17"
   summary: "The Universal Operating System development team has announced availability of Debian 9.1, first updated snapshot in Debian 9.x Strech series. This point release brings numerous bug fixes and security ..."
@@ -42,9 +47,4 @@
   date: "14/07/17"
   summary: "As a part of moving away from Unity stack, Ubuntu team has completed migration from LightDM to GDM (GNOME Display Manager). GDM will be used as default display manager in upcoming versions of Ubuntu a..."
   link: "http://www.open-source-feed.com/2017/07/finally-ubuntu-completes-migration-from.html"
-
-- title: "Manjaro 17.0.2 MATE & LXQt community editions released"
-  date: "13/07/17"
-  summary: "Manjaro community developers has announced release of Manjaro 17.0.2 MATE & LXQt editions. The MATE edition of Manjaro provides a traditional looking, yet elegant and modern desktop experience. While ..."
-  link: "http://www.open-source-feed.com/2017/07/manjaro-1702-mate-lxqt-community.html"
 
