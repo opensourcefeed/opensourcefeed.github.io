@@ -1,3 +1,13 @@
+- title: "openSUSE Leap 42.3 released with better SEL 12 SP3 alignment"
+  date: "26/07/17"
+  summary: "The openSUSE community has published openSUSE Leap 42.3, latest stable release of community driven GNU/Linux distribution that shares core packages from SUSE Enterprise Linux (SEL) and enjoys seamless..."
+  link: "http://www.open-source-feed.com/2017/07/opensuse-leap-423-released-with-better.html"
+
+- title: "FreeBSD 11.1 released with Support for Microsoft Hyper-V Generation 2"
+  date: "26/07/17"
+  summary: "The FreeBSD release engineering team has announced release of FreeBSD 11.1, latest update cum maintenance release in FreeBSD 11.x branch. This release brings various bug fixes, package updates and oth..."
+  link: "http://www.open-source-feed.com/2017/07/freebsd-111-released-with-support-for.html"
+
 - title: "Manjaro Deepin 17.0.2 released with updated deepin desktop"
   date: "25/07/17"
   summary: "Mr Bernhard Landauer, maintainer of Manjaro Deepin edition has announced release of Manjaro Deepin 17.0.2, latest stable snapshot of beautiful Manjaro community supported distribution featuring stunni..."
@@ -37,14 +47,4 @@
   date: "17/07/17"
   summary: "The Mageia community has proudly announced release of Mageia 6, latest stable release of community driven GNU/Linux distribution which was initially started as a fork of Mandriva Linux. This release o..."
   link: "http://www.open-source-feed.com/2017/07/mageia-6-released-with-plasma-5-dnf-arm.html"
-
-- title: "Sparky Linux 5.0 released based on Debian testing"
-  date: "17/07/17"
-  summary: "The Sparky Linux project has announced availability Sparky Linux 5.0, updated live and installation images for project's Debian based GNU/Linux distribution. This release of Sparky Linux code named Ni..."
-  link: "http://www.open-source-feed.com/2017/07/sparky-linux-50-released-based-on.html"
-
-- title: "Finally Ubuntu completes migration from LightDM to GDM"
-  date: "14/07/17"
-  summary: "As a part of moving away from Unity stack, Ubuntu team has completed migration from LightDM to GDM (GNOME Display Manager). GDM will be used as default display manager in upcoming versions of Ubuntu a..."
-  link: "http://www.open-source-feed.com/2017/07/finally-ubuntu-completes-migration-from.html"
 
