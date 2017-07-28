@@ -12,6 +12,7 @@ base : [ubuntu]
 description : Lubuntu is a lightweight GNU/Linux distribution built on top of Ubuntu. Stories and updates on Lubuntu.
 
 releases:
+  Lubuntu 17.10 Alpha 2 : "http://lubuntu.me/lubuntu-artful-aardvark-alpha-2-has-been-released/"
   Lubuntu 17.10 Alpha 1 : "http://www.open-source-feed.com/2017/06/lubuntu-1710-artful-aardvark-alpha-1.html"
   Lubuntu 17.04 Zesty Zapus: "http://lubuntu.me/zesty-released/"
   Lubuntu 16.04.2 : "http://lubuntu.me/lubuntu-16-04-2-released/"
