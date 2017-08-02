@@ -27,6 +27,9 @@ releases:
   Fedora 26 : "http://www.open-source-feed.com/2017/07/fedora-26-released-with-gcc-7-golang-18.html"
   Fedora 26 Beta : "http://www.open-source-feed.com/2017/06/fedora-26-beta-released-final-release.html"
   Fedora 26 Alpha: "http://www.open-source-feed.com/2017/04/fedora-26-alpha-released.html"
+  
+stories:
+  Fedora 24 reaches end of life : "http://www.open-source-feed.com/2017/08/fedora-24-reaches-end-of-life.html"
 ---
 
 **Fedora** is an independently developed GNU/Linux distribution backed by open source giant Red Hat. Fedora is a cutting edge distribution that ships new releases in a rough period of 6 months.
