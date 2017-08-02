@@ -227,6 +227,9 @@
 <loc>http://localhost:4000/distribution/porteus</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/redhat</loc>
+</url>
+<url>
 <loc>http://localhost:4000/distribution/rosa</loc>
 </url>
 <url>
