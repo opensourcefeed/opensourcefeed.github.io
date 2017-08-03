@@ -17,6 +17,7 @@ screenshots:
   Antergos 2016.04.22 : "http://www.distroscreens.com/2016/04/antergos-22042016-screenshots.html"
 
 releases:
+  Antergos 17.8 : "https://antergos.com/blog/iso-refresh-antergos-17-8/"
   Antergos 17.7 : "https://antergos.com/blog/iso-refresh-antergos-17-7/"
   Antergos 17.6 : "https://antergos.com/blog/iso-refresh-antergos-17-6/"
   Antergos 17.5 : "https://antergos.com/blog/iso-refresh-antergos-17-5/"
