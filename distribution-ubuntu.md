@@ -16,6 +16,7 @@ description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It
 releases :
   Ubuntu 17.04 : "http://www.open-source-feed.com/2017/04/ubuntu-1704-released-with-support-for.html"
   Ubuntu 16.10 : "#"
+  Ubuntu 16.04.3 : "http://www.open-source-feed.com/2017/08/ubuntu-16043-released-with-hardware.html"
   Ubuntu 16.04.2 : http://www.open-source-feed.com/2017/02/ubuntu-16042-released-with-improved.html
 
 screenshots:
