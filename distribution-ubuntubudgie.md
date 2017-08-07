@@ -20,6 +20,7 @@ screenshots:
 releases:
   Ubuntu Budgie 17.04 : "http://www.open-source-feed.com/2017/04/ubuntu-budgie-1704-released-first.html"
   Ubuntu Budgie 17.04 beta 1 : "http://www.open-source-feed.com/2017/02/ubuntu-budgie-1704-beta-1-is-ready-for.html"
+  budgie-remix 16.04.3 : "http://www.open-source-feed.com/2017/08/ubuntu-based-budgie-remix-16043-is.html"
 
 stories:
   Developers Diary, June 2017 : "https://ubuntubudgie.org/blog/2017/07/01/developer-diary-june"

@@ -1,3 +1,33 @@
+- title: "Ubuntu based budgie-remix 16.04.3 is available now"
+  date: "07/08/17"
+  summary: "The Ubuntu Budgie team has announced release of budgie-remix 16.04.3, 3rd maintenance release of Ubuntu LTS based unofficial community flavor featuring budgie desktop. This release comes with latest v..."
+  link: "http://www.open-source-feed.com/2017/08/ubuntu-based-budgie-remix-16043-is.html"
+
+- title: "4MLinux 22.1 STABLE released with better support for WiFi and ethernet"
+  date: "05/08/17"
+  summary: "The 4MLinux developers has announced release of 4MLinux 22.1 STABLE, a minor release in 4MLinux 22.x series. This release brings various updated packages and full set of Linux Firmwares to provide bet..."
+  link: "http://www.open-source-feed.com/2017/08/4mlinux-221-stable-released-with-better.html"
+
+- title: "Integrating Global Application Menu with GNOME Shell"
+  date: "04/08/17"
+  summary: "The concept Global AppMenu was first introduced by Canonical's unity shell in GNU/Linux world. Despite of several negative opinions on unity shell, Global AppMenu was a widely accepted feature. It was..."
+  link: "http://www.open-source-feed.com/2017/08/integrating-global-application-menu.html"
+
+- title: "Ubuntu 16.04.3 released with hardware enablement stack"
+  date: "03/08/17"
+  summary: "The Ubuntu release engineering team has announced availability of Ubuntu 16.04.3, 3rd stable minor release in Ubuntu 16.04.x LTS series. This release announcement includes Ubuntu desktop, server and c..."
+  link: "http://www.open-source-feed.com/2017/08/ubuntu-16043-released-with-hardware.html"
+
+- title: "Fedora 24 reaches end of life"
+  date: "02/08/17"
+  summary: "Serving 13 months of support period, Fedora 24 is approaching it's end of life. This release is officially scheduled to hit it's support period end on 8th August 2017. After this, the packages in Fedo..."
+  link: "http://www.open-source-feed.com/2017/08/fedora-24-reaches-end-of-life.html"
+
+- title: "Red Hat Enterprise Linux 7.4 released with main focus on automation capabilities and container features"
+  date: "02/08/17"
+  summary: "The Red Hat Inc, has announced public availability of Red Hat Enterprise Linux(RHEL) 7.4, latest stable update in RHEL 7.x series. As usual Red Hat releases this release also claims to deliver a more ..."
+  link: "http://www.open-source-feed.com/2017/08/red-hat-enterprise-linux-74-released.html"
+
 - title: "Linux Lite 3.6 beta announced with repository mirror chooser and search enabled documentations"
   date: "31/07/17"
   summary: "The Linux Lite team has announced availability of Linux Lite 3.6 beta for testing. There were numerous updates in Linux Mint since announcement of previous stable release, Linux Lite 3.4. The Linux Li..."
@@ -17,34 +47,4 @@
   date: "28/07/17"
   summary: "Years ago, someone has told that Change is the only constant in life. Everything in this universe keeps on changing to cope with it's surrounding. Adhering to this universal law, Ubuntu MATE team had ..."
   link: "http://www.open-source-feed.com/2017/07/ubuntu-mate-1710-alpha-2-released-with.html"
-
-- title: "Deepin System Monitor V1.0 released; A new member in deepin app family"
-  date: "28/07/17"
-  summary: "The deepin team has launched Deepin System Monitor v1.0, first release of feature rich system resource monitor application developed by the Deepin LLC,. Deepin System Monitor is youngest member in dee..."
-  link: "http://www.open-source-feed.com/2017/07/deepin-system-monitor-v10-released-new.html"
-
-- title: "openSUSE Leap 42.3 released with better SEL 12 SP3 alignment"
-  date: "26/07/17"
-  summary: "The openSUSE community has published openSUSE Leap 42.3, latest stable release of community driven GNU/Linux distribution that shares core packages from SUSE Enterprise Linux (SEL) and enjoys seamless..."
-  link: "http://www.open-source-feed.com/2017/07/opensuse-leap-423-released-with-better.html"
-
-- title: "FreeBSD 11.1 released with Support for Microsoft Hyper-V Generation 2"
-  date: "26/07/17"
-  summary: "The FreeBSD release engineering team has announced release of FreeBSD 11.1, latest update cum maintenance release in FreeBSD 11.x branch. This release brings various bug fixes, package updates and oth..."
-  link: "http://www.open-source-feed.com/2017/07/freebsd-111-released-with-support-for.html"
-
-- title: "Manjaro Deepin 17.0.2 released with updated deepin desktop"
-  date: "25/07/17"
-  summary: "Mr Bernhard Landauer, maintainer of Manjaro Deepin edition has announced release of Manjaro Deepin 17.0.2, latest stable snapshot of beautiful Manjaro community supported distribution featuring stunni..."
-  link: "http://www.open-source-feed.com/2017/07/manjaro-deepin-1702-released-with.html"
-
-- title: "Debian 9.1 Stretch released with various bug fixes"
-  date: "23/07/17"
-  summary: "The Universal Operating System development team has announced availability of Debian 9.1, first updated snapshot in Debian 9.x Strech series. This point release brings numerous bug fixes and security ..."
-  link: "http://www.open-source-feed.com/2017/07/debian-91-stretch-released-with-various.html"
-
-- title: "BackBox Linux 5 released by replacing outdated tools"
-  date: "22/07/17"
-  summary: "The BackBox Linux community has proudly announced availability of BackBox Linux 5, latest major release of community driven GNU/Linux operating system that strives to promote culture of security in IT..."
-  link: "http://www.open-source-feed.com/2017/07/backbox-linux-5-released-by-replacing.html"
 
