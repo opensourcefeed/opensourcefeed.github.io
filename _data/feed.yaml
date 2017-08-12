@@ -1,3 +1,18 @@
+- title: "Deepin Package Manager 1.0 released - A brand new package manager for .deb files"
+  date: "11/08/17"
+  summary: "The deepin project has announced arrival of new member in deepin application family. The Deepin Package Manager V1.0 is first release of simple and efficient package manager developed by deepin projec..."
+  link: "http://www.open-source-feed.com/2017/08/deepin-package-manager-10-released.html"
+
+- title: "GhostBSD 11.1 Alpha 1 released in MATE & Xfce flavors"
+  date: "11/08/17"
+  summary: "Mr Eric Turgeon of GhostBSD project has announced availability of GhostBSD 11.1 Alpha 1 for testing. This is first development release prior to upcoming stable GhostBSD 11.1 release. It is available i..."
+  link: "http://www.open-source-feed.com/2017/08/ghostbsd-111-alpha-1-released-in-mate.html"
+
+- title: "Tails 3.1 released with important security updates"
+  date: "09/08/17"
+  summary: "Tails GNU/Linux team has released Tails 3.1, latest update in Tails 3.x series. This release fix various critical bugs observed in previous releases and it is highly recommended to use updated system ..."
+  link: "http://www.open-source-feed.com/2017/08/tails-31-released-with-important.html"
+
 - title: "Ubuntu based budgie-remix 16.04.3 is available now"
   date: "07/08/17"
   summary: "The Ubuntu Budgie team has announced release of budgie-remix 16.04.3, 3rd maintenance release of Ubuntu LTS based unofficial community flavor featuring budgie desktop. This release comes with latest v..."
@@ -32,19 +47,4 @@
   date: "31/07/17"
   summary: "The Linux Lite team has announced availability of Linux Lite 3.6 beta for testing. There were numerous updates in Linux Mint since announcement of previous stable release, Linux Lite 3.4. The Linux Li..."
   link: "http://www.open-source-feed.com/2017/07/linux-lite-36-beta-announced-with.html"
-
-- title: "Linux Mint modernizes Software Manager for better user experience"
-  date: "30/07/17"
-  summary: "In monthly new letter for July 2017, Linux Mint team has revealed that, they are working on modernizations of Mint Software Manager, a package management tool developed by Linux Mint project itself. T..."
-  link: "http://www.open-source-feed.com/2017/07/linux-mint-modernizes-software-manager.html"
-
-- title: "LibreOffice 5.4 released; Here is what is new"
-  date: "28/07/17"
-  summary: "The Document Foundation has released LibreOffice 5.4, latest stable release of leading open source office suite developed by dedicated volunteer community and backed by The Document Foundation. LibreO..."
-  link: "http://www.open-source-feed.com/2017/07/libreoffice-54-released-here-is-what-is.html"
-
-- title: "Ubuntu MATE 17.10 Alpha 2 released with reconfigurable panel layouts"
-  date: "28/07/17"
-  summary: "Years ago, someone has told that Change is the only constant in life. Everything in this universe keeps on changing to cope with it's surrounding. Adhering to this universal law, Ubuntu MATE team had ..."
-  link: "http://www.open-source-feed.com/2017/07/ubuntu-mate-1710-alpha-2-released-with.html"
 

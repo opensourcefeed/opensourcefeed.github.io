@@ -17,6 +17,10 @@ releases :
   deepin 15.4 : "http://www.open-source-feed.com/2017/04/deepin-154-released-with-fresh-look-and.html"
   deepin 15.4 beta : "http://www.open-source-feed.com/2017/03/deepin-154-beta-released-with.html"
 
+screenshots :
+  deepin 15.4.1 : "http://www.distroscreens.com/2017/08/deepin-1541-screenshots.html"
+  deepin 15.2 : "http://www.distroscreens.com/2016/06/deepin-152-screenshots.html"
+
 stories:
   "Deepin has increased number of mirros around the globe" : "http://www.open-source-feed.com/2017/07/deepin-has-increased-number-of-mirrors.html"
   Deepin Screen Recorder released, a new member in deepin software suite : http://www.open-source-feed.com/2017/03/deepin-screen-recorder-released-new.html
