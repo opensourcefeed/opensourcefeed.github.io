@@ -14,6 +14,7 @@ stories:
   "Budgie Desktop is getting it's own website" : "http://www.open-source-feed.com/2016/12/budgie-desktop-is-getting-its-own.html"
 
 releases:
+  "Budgie Desktop 10.4 released; Implements long awaited features" : "http://www.open-source-feed.com/2017/08/budgie-desktop-104-released-implements.html"
   "Budgie Desktop 10.3.x released; Fixes long standing issues and introduces essential features " : "http://www.open-source-feed.com/2017/04/budgie-desktop-103x-released-fixes-long.html"
   "Budgie 10.2.9 released; A quick bug fix release" : "http://www.open-source-feed.com/2016/12/budgie-1029-released-quick-bug-fix.html"
 ---
