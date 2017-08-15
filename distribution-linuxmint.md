@@ -3,6 +3,7 @@ layout: distribution
 uid: linuxmint
 title: 'Linux Mint'
 Category: Distribution
+type : Linux
 permalink: /distribution/linuxmint
 logo: linuxmint-logo.png
 preview: linuxmint18.1plasma.jpg
@@ -19,10 +20,13 @@ stories:
   "Linux Mint website got hacked on 20th of February" : "http://www.open-source-feed.com/2016/02/linux-mint-website-got-hacked-on-20th.html" 
   "Linux Mint 18.x wll be know as 'Sarah'" : "http://www.open-source-feed.com/2016/01/linux-mint-18x-wll-be-know-as-sarah.html"
   "Five reasons for using Linux Mint" : "http://www.open-source-feed.com/2015/11/5-reasons-for-using-liinux-mint.html"
+
 screenshots:
   Linux Mint 18 Cinnamon : "http://www.distroscreens.com/2016/07/linux-mint-18-cinnamon-screenshots.html"
   Linux Mint 18 Cinnamon beta : "http://www.distroscreens.com/2016/06/linux-mint-18-cinnamon-beta-screenshots.html"
+
 reviews:
+  "Linux Mint 18.2 stands out as best desktop linux" : "http://www.open-source-feed.com/2017/08/linux-mint-182-stands-out-as-best.html"
   "Linux Mint KDE flavor is beautiful and easy to use" : "http://www.open-source-feed.com/2017/03/linux-mint-kde-flavor-is-beautiful-and.html"
   "Linux Mint 17.3 Rosa - A wilted flower" : "http://www.open-source-feed.com/2016/01/linux-mint-173-rosa-wilted-flower-review.html"
   "Linux Mint 17.3 - May be the best distribution so far" : "http://www.open-source-feed.com/2015/12/linux-mint-173-may-be-best-linux-distro.html"
