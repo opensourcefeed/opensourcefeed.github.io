@@ -14,6 +14,7 @@ base : [ubuntu, debian]
 description : Linux Mint is a popular operating system based on Ubuntu, offering a modern yet traditional looking user experience. Stories and updates on Linux Mint project.
 
 stories:
+  Linux Mint 18.3 will feature window level progress info and redesigned backup tool : "http://www.open-source-feed.com/2017/09/linux-mint-183-will-feature-window.html"
   Linux Mint modernizes Software Manager for better UE : "http://www.open-source-feed.com/2017/07/linux-mint-modernizes-software-manager.html"
   "Mint 13 reached EOL; LMDE gets MATE 1.12 and other updates on April 2017" : "http://www.open-source-feed.com/2017/04/mint-13-reached-eol-lmde-gets-mate-118.html"
   "Linux Mint team plans to enable vertical panel support in Cinnamon Desktop" : "http://www.open-source-feed.com/2016/10/linux-mint-team-plans-to-enable.html"

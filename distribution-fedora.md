@@ -29,6 +29,7 @@ releases:
   Fedora 26 Alpha: "http://www.open-source-feed.com/2017/04/fedora-26-alpha-released.html"
   
 stories:
+  Fedora 27 beta enters freeze state : "http://www.open-source-feed.com/2017/09/fedora-27-beta-freezes-for-beta-release.html"
   Fedora 24 reaches end of life : "http://www.open-source-feed.com/2017/08/fedora-24-reaches-end-of-life.html"
 ---
 
