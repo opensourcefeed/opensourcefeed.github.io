@@ -1,16 +1,56 @@
 --- 
 layout: default 
 ---
-<div id="recent-posts">
-  {% for post in site.data.feed %}
-    <div class="row post-thumbnail">
-      <div class="col-md-12">
-        <span class="post-meta date">{{post.date}}</span>
-        <h2>
-          <a class="post-link" href="{{post.link}}">{{post.title}}</a>
-        </h2>
-        <p>{{post.summary}}</p>
-      </div>
+<div class="row heading">
+    <div class="col-md-6">
+        <h2>OPERATING SYSTEMS</h2>
     </div>
-  {% endfor %}
+    <div class="col-md-6">
+        <input class="form-control" disabled="disabled" placeholder ="Search for operating system (Experimental)" type="text" id="searchos">
+    </div>
 </div>
+<hr>
+<div class="row listing">
+    {% for page in site.pages %}
+        {% if page.Category == 'Distribution' %}
+        <span class="item">
+            <a href="{{page.url}}">
+                {{page.title}}
+            </a>
+        </span>
+        {% endif %} 
+    {% endfor %}
+</div>
+<!-- ad block start -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Post body -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6380671811722843"
+     data-ad-slot="3624978305"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- ad block ends -->
+<div class="row heading">
+    <div class="col-md-6">
+        <h2>Desktop Environments</h2>
+    </div>
+    <div class="col-md-6">
+        <input class="form-control" disabled="disabled" placeholder ="Search for desktop environment (Experimental)" type="text" id="searchos">
+    </div>
+</div>
+<hr>
+<div class="row listing">
+    {% for page in site.pages %}
+        {% if page.Category == 'Desktop' %}
+        <span class="item">
+            <a href="{{page.url}}">
+                {{page.title}}
+            </a>
+        </span>
+        {% endif %} 
+    {% endfor %}
+</div>
+<hr>

@@ -41,3 +41,12 @@ table ul{list-style-type:none;padding-left:0}
 .status-active{color:green;}
 .status-discontinued{color:red;}
 footer{text-align:center;background:#272b35;color:white;padding:10px 0 10px 0;}
+.heading {
+  margin-top: 1rem;
+}
+.listing {
+  text-align: center;
+}
+.item {display: ruby; padding: 10px; line-height: 45px; margin: 5px; transition:background 0.5s ease;cursor:pointer;background:#fff;}
+.item a{color:black;}
+.item a:hover, .item a:focus{text-decoration:none;}
