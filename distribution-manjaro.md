@@ -14,7 +14,8 @@ base : [arch]
 description : Manjaro is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly scripts and installers to make it usable for newbies and professionals alike. Stories and updates on Manjaro GNU/Linux.
 
 releases:
-  Manjaro 17.0.4 : "http://www.open-source-feed.com/2017/09/manjaro-1704-fixes-issue-with-graphical.html"
+  Manjaro 17.0.4 Cinnamon : "http://www.open-source-feed.com/2017/09/manjaro-cinnamon-1704-released.html"
+  Manjaro 17.0.4 (K, X, G): "http://www.open-source-feed.com/2017/09/manjaro-1704-fixes-issue-with-graphical.html"
   Manjaro 17.0.3 : "http://www.open-source-feed.com/2017/09/manjaro-1703-gellivara-released-gnome.html"
   Manjaro 17.0.2 Deepin : "http://www.open-source-feed.com/2017/07/manjaro-deepin-1702-released-with.html"
   Manjaro 17.0.2 MATE & LXQt : "http://www.open-source-feed.com/2017/07/manjaro-1702-mate-lxqt-community.html"
@@ -45,6 +46,9 @@ screenshots:
   Manjaro E20 16.04 : http://www.distroscreens.com/2016/04/manjaro-e20-1604-screenshots.html
   Manjaro Deepin 16.03 : http://www.distroscreens.com/2016/04/manjaro-deepin-1603-screenshots.html
   Manjaro Cinnamon 16.02 : http://www.distroscreens.com/2016/04/manjaro-cinnamon-1602-screenshots.html
+
+stories:
+  Splitfire introduces Manjaro powered Station X laptops : "http://www.open-source-feed.com/2017/09/station-x-introduces-manjaro-powered.html"
 ---
 
 **Manjaro** is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly scripts and installers to make it usable for newbies and professionals alike. Official Manjaro ships KDE and Xfce flavors. Additionally, there are community flavors featuring other desktop environments also.

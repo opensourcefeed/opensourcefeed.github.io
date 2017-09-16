@@ -25,6 +25,7 @@ screenshots:
   Ubuntu 16.04 : "http://www.distroscreens.com/2016/04/ubuntu-1604-lts-xenial-xerus-screenshots.html"
 
 stories:
+  GNOME Shell 3.25.91 lands in Artful, final release will ship with 3.26 : "http://www.open-source-feed.com/2017/09/gnome-shell-32591-lands-in-artful-final.html"
   Ubuntu 16.04 is now available in Windows Store : "http://www.open-source-feed.com/2017/07/ubuntu-1604-is-now-available-in-windows.html"
   Kubernetes 1.7 is now available for Ubuntu : "http://www.open-source-feed.com/2017/07/kubernetes-17-is-now-available-in-ubuntu.html"
   Ubuntu 17.10 Yakkety Yak reaches end of life on 20th July 2017 : "http://www.open-source-feed.com/2017/07/ubuntu-1610-yakkety-yak-reaches-end-of.html"
