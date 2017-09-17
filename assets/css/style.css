@@ -47,6 +47,7 @@ footer{text-align:center;background:#272b35;color:white;padding:10px 0 10px 0;}
 .listing {
   text-align: center;
 }
-.item {display: ruby; padding: 10px; line-height: 45px; margin: 5px; transition:background 0.5s ease;cursor:pointer;background:#fff;}
+.item {border: 1px solid #ddd;display: ruby; padding: 10px; line-height: 45px; transition:background 0.5s ease;cursor:pointer;background:#fff;}
+.item:hover {background: #eee}
 .item a{color:black;}
 .item a:hover, .item a:focus{text-decoration:none;}
