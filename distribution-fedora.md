@@ -24,6 +24,7 @@ screenshots :
   Fedora 24 Alpha : "http://www.distroscreens.com/2016/04/fedora-24-alpha-gnome-320-screenshots.html"
 
 releases:
+  Fedora 27 Beta : "https://fedoramagazine.org/fedora-27-beta-released/"
   Fedora 26 : "http://www.open-source-feed.com/2017/07/fedora-26-released-with-gcc-7-golang-18.html"
   Fedora 26 Beta : "http://www.open-source-feed.com/2017/06/fedora-26-beta-released-final-release.html"
   Fedora 26 Alpha: "http://www.open-source-feed.com/2017/04/fedora-26-alpha-released.html"
