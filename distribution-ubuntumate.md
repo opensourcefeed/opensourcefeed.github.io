@@ -13,6 +13,7 @@ base : [ubuntu]
 description : Ubuntu MATE is one of the popular community flavor of Ubuntu delivering, classical yet productive and mdoern desktop experience. Stories, updates and reviews of Ubuntu MATE.
 
 releases:
+  Ubuntu MATE 17.10 Artful Aardvark : "http://ubuntu-mate.org/blog/ubuntu-mate-artful-final-release/"
   Ubuntu MATE 17.10 Alpha 2 : "http://www.open-source-feed.com/2017/07/ubuntu-mate-1710-alpha-2-released-with.html"
   Ubuntu MATE 17.04 : "https://ubuntu-mate.org/blog/ubuntu-mate-zesty-final-release/"
   Ubuntu MATE 16.10 : "http://www.open-source-feed.com/2016/10/ubuntu-mate-1610-released-with-mate.html" 

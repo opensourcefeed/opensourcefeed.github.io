@@ -18,6 +18,7 @@ screenshots:
   budgie remix 16.04 : "http://www.distroscreens.com/2016/06/budgie-remix-1604-screenshots.html"
 
 releases:
+  Ubuntu Budgie 17.10 Artful Aardvark : "https://ubuntubudgie.org/blog/2017/10/19/17-10-ubuntu-budgie-released"
   Ubuntu Budgie 17.04 : "http://www.open-source-feed.com/2017/04/ubuntu-budgie-1704-released-first.html"
   Ubuntu Budgie 17.04 beta 1 : "http://www.open-source-feed.com/2017/02/ubuntu-budgie-1704-beta-1-is-ready-for.html"
   budgie-remix 16.04.3 : "http://www.open-source-feed.com/2017/08/ubuntu-based-budgie-remix-16043-is.html"

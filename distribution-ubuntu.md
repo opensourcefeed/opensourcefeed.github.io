@@ -14,6 +14,7 @@ base : [debian]
 description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a wide range of hardware platforms like server computers, cloud systems, desktops, tablets and mobiles. Stories and reviews on Ubuntu
 
 releases :
+  Ubuntu 17.10 Artful Aardvark : "https://lists.ubuntu.com/archives/ubuntu-announce/2017-October/000226.html"
   Ubuntu 17.04 : "http://www.open-source-feed.com/2017/04/ubuntu-1704-released-with-support-for.html"
   Ubuntu 16.10 : "#"
   Ubuntu 16.04.3 : "http://www.open-source-feed.com/2017/08/ubuntu-16043-released-with-hardware.html"
