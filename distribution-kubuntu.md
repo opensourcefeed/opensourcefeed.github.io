@@ -17,6 +17,7 @@ screenshots:
   Kubuntu 16.04 : "http://www.distroscreens.com/2016/04/kubuntu-1604-xenial-xerus-screenshots.html"
 
 releases:
+  Kubuntu 17.10 Artful Aardvark : "https://kubuntu.org/news/kubuntu-17-10-artful-aardvark-is-released/"
   Kubuntu 17.10 Alpha 1 : "http://www.open-source-feed.com/2017/06/kubuntu-1710-alpha-1-is-available-now.html"
   Kubuntu 17.04 : "http://kubuntu.org/news/kubuntu-17-04-released/"
   Kubuntu 17.04 Beta 1 : "http://www.open-source-feed.com/2017/02/kubuntu-1704-beta-1-released-with.html"
