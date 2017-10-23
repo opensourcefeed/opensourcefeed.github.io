@@ -21,6 +21,7 @@ releases :
   Ubuntu 16.04.2 : http://www.open-source-feed.com/2017/02/ubuntu-16042-released-with-improved.html
 
 screenshots:
+  Ubuntu 17.10 : "http://www.distroscreens.com/2017/10/ubuntu-1710-artful-aardvark-screenshots.html"
   Ubuntu 17.04 : "http://www.distroscreens.com/2017/04/ubuntu-1704-zesty-zapus-screenshots.html"
   Ubuntu 16.10 : "http://www.distroscreens.com/2016/10/ubuntu-1610-yakkety-yak-screenshots.html"
   Ubuntu 16.04 : "http://www.distroscreens.com/2016/04/ubuntu-1604-lts-xenial-xerus-screenshots.html"

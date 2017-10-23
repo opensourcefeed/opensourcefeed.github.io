@@ -13,6 +13,7 @@ base : [ubuntu]
 description : Ubuntu Budgie is an official community flavor of Ubuntu. It combines solid Ubuntu core with elegant, efficient and productive budgie desktop  developed by Solus project. Stories and updates on Ubuntu Budgie
 
 screenshots:
+  Ubuntu Budgie 17.10 : "http://www.distroscreens.com/2017/10/ubuntu-budgie-1710-artful-aardvark.html"
   Ubuntu Budgie 17.04 : "http://www.distroscreens.com/2017/04/ubuntu-budgie-1704-zesty-zapus.html"
   budgie remix 16.10 : "http://www.distroscreens.com/2016/11/ubuntu-budgie-remix-1610-screenshots.html"
   budgie remix 16.04 : "http://www.distroscreens.com/2016/06/budgie-remix-1604-screenshots.html"
