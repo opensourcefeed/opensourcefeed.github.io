@@ -18,7 +18,10 @@ releases:
   MX Linux 17 Beta 1 : "https://mxlinux.org/mx-17-beta-1"
 
 reviews:
-  MX Linux 16 : "http://www.open-source-feed.com/2017/02/mx-linux-16-is-very-close-to-ideal.html"
+  MX Linux 16 is a wind of change : "https://www.dedoimedo.com/computers/mx-16.html"
+  MX Linux 16 is lightweight and effective, but not for newbies : "http://distrowatch.com/weekly.php?issue=20170109#mx"
+  MX Linux 16 is very close to an ideal OS: "http://www.open-source-feed.com/2017/02/mx-linux-16-is-very-close-to-ideal.html"
+  MX 15 is fast, lean and works out of the box, but with some rough edges : "https://www.dedoimedo.com/computers/mx-15.html"
 ---
 
 **MX Linux** is a cooperative venture between the antiX and former MEPIS communities, using the
