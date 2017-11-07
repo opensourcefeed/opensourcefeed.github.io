@@ -13,6 +13,7 @@ base : [ubuntu]
 description : Kubuntu is one of the oldest, official community flavor of Ubuntu featuring modern Plasma desktop. Stories and updates on Kubuntu
 
 screenshots:
+  Kubuntu 17.10 Artful Aardvark : "http://www.distroscreens.com/2017/11/kubuntu-1710-artful-aardvark-screenshots.html"
   Kubuntu 17.04 : "http://www.distroscreens.com/2017/04/kubuntu-1704-zesty-zapus-screenshots.html"
   Kubuntu 16.04 : "http://www.distroscreens.com/2016/04/kubuntu-1604-xenial-xerus-screenshots.html"
 

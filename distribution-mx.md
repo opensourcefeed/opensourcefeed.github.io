@@ -12,8 +12,10 @@ desktops: [xfce]
 base: [debian]
 
 description : "MX Linux is a cooperative venture between the antiX and former MEPIS communities, using the
- best tools and talents from each distro."
+ best tools and talents from each distro. Stories, updates and reviews of MX Linux"
 
+releases:
+  MX Linux 17 Beta 1 : "https://mxlinux.org/mx-17-beta-1"
 
 reviews:
   MX Linux 16 : "http://www.open-source-feed.com/2017/02/mx-linux-16-is-very-close-to-ideal.html"
