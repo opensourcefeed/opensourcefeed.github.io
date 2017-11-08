@@ -7,7 +7,10 @@ layout: default
             <h2>OPERATING SYSTEMS</h2>
         </div>
         <div class="col-md-6">
-            <input class="form-control" disabled="disabled" placeholder ="Search for operating system (Experimental)" type="text" id="searchos">
+        	<div class="input-group">
+  				<span class="input-group-addon">Search</span>
+  				<input type="text" class="form-control" placeholder="Search for operating system" id="searchos">
+			</div>
         </div>
     </div>
     <hr>
@@ -22,6 +25,13 @@ layout: default
             {% endif %} 
         {% endfor %}
     </div>
+    <div class="row hidden center">
+    	<div class="alert alert-warning" role="alert">
+  			<strong>Sorry!</strong> We could n't find the operating system you queried for. 
+  			Please visit our issue tracker to <a href="https://github.com/opensourcefeed/opensourcefeed.github.io/issues">suggest an operating system.</a>
+		</div>
+    </div>
+    <hr>
     <!-- ad block start -->
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Post body -->
@@ -34,12 +44,16 @@ layout: default
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
     <!-- ad block ends -->
+    <hr>
     <div class="row heading">
         <div class="col-md-6">
             <h2>Desktop Environments</h2>
         </div>
         <div class="col-md-6">
-            <input class="form-control" disabled="disabled" placeholder ="Search for desktop environment (Experimental)" type="text" id="searchos">
+            <div class="input-group">
+  				<span class="input-group-addon">Search</span>
+  				<input type="text" class="form-control" placeholder="Search for desktop environment" id="searchdesktop">
+			</div>
         </div>
     </div>
     <hr>
@@ -54,5 +68,11 @@ layout: default
             {% endif %} 
         {% endfor %}
     </div>
+    <div class="row hidden center">
+    	<div class="alert alert-warning" role="alert">
+  			<strong>Sorry!</strong> We could n't find the desktop environment you queried for. 
+  			Please visit our issue tracker to <a href="https://github.com/opensourcefeed/opensourcefeed.github.io/issues">suggest a desktop environment.</a>
+		</div>
+	</div>
     <hr>
 </div>
