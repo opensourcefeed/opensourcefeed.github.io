@@ -11,6 +11,9 @@ home_page: https://zorinos.com
 desktops: [gnome, xfce]
 base : [ubuntu]
 
+purchase :
+  OSDisc : "https://www.osdisc.com/products/zorin"
+
 description : Zorin OS is a good choice for people migrating from other proprietary operating systems like Microsoft Windows and macOS. Stories and reviews on Zorin OS
 
 releases:

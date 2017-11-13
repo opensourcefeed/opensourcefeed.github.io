@@ -10,6 +10,8 @@ preview: linuxmint18.1plasma.jpg
 home_page: https://www.linuxmint.com
 desktops: [mate, cinnamon, xfce, plasma]
 base : [ubuntu, debian]
+purchase : 
+  OSDisc : https://www.osdisc.com/products/linuxmint
 
 description : Linux Mint is a popular operating system based on Ubuntu, offering a modern yet traditional looking user experience. Stories and updates on Linux Mint project.
 
@@ -44,11 +46,11 @@ releases:
   
 ---
 
-**Linux Mint** is a popular operating system based on Ubuntu. In addition to all beneffits of Ubuntu,
-Linux Mint ships a well tweaked desktop environment and wisely choosen applications to deliver a user
+**Linux Mint** is a popular operating system based on Ubuntu. In addition to all benefits of Ubuntu,
+Linux Mint ships a well tweaked desktop environment and wisely chosen applications to provide a user
 friendly, productive and highly efficient operating system.
 
-Linux Mint ships different multimedia codecs and plugins to provide out of the box support for wide
+Linux Mint ships different multimedia codecs and plugins to give out of the box support for wide
 range of media formats.
 
 Linux Mint releases officially comes with two different desktop environments, MATE and Cinnamon.

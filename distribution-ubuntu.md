@@ -10,8 +10,10 @@ preview: ubuntu-preview.jpg
 home_page: https://www.ubuntu.com/
 desktops: [unity]
 base : [debian]
+purchase:
+  OSDisc : "https://www.osdisc.com/products/ubuntu"
 
-description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a wide range of hardware platforms like server computers, cloud systems, desktops, tablets and mobiles. Stories and reviews on Ubuntu
+description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a range of hardware platforms like server computers, cloud systems, desktops, tablets and mobiles. Stories and reviews on Ubuntu
 
 releases :
   Ubuntu 17.10 Artful Aardvark : "https://lists.ubuntu.com/archives/ubuntu-announce/2017-October/000226.html"
@@ -46,9 +48,9 @@ reviews:
 **Ubuntu** is a popular GNU/Linux distribution backed by **Canonical**. It is capable of supporting
 different hardware platforms like server computers, cloud systems, desktops, tablets and mobiles.
 
-Ubuntu was started back in 2004 and over the years it has grown to become most popular open source operating system. Presently Ubuntu most used open source cloud solution and it acts as a stable base for other solutions offered by Canonical such as OpenStack. 
+Ubuntu was started back in 2004 and over the years it has grown to become most popular open source operating system. Presently Ubuntu most used open source cloud solution and it acts as a stable base for other solutions offered by Canonical such as OpenStack.
 
 When the project was started back in 2004, Ubuntu was using GNOME 2.x as default desktop environment. Later when GNOME 2.x development was discontinued in favor of GNOME 3.x / GNOME shell, Ubuntu started developing their own shell named Unity.
 
 Unity is the default desktop environment of Ubuntu and it is a cross device compatible shell. the
-main motive of unity is to provide a uniform user experience in different platforms. Beginning from Ubuntu 17.10, the project will be moving away from Unity in favor of GNOME. The idea of convergence was discontinued by Canonical due to poor appreciation from the market.
+main motive of unity is to offer a uniform user experience in different platforms. Beginning from Ubuntu 17.10, the project will be moving away from Unity in favor of GNOME. The idea of convergence was discontinued by Canonical due to poor appreciation from the market.

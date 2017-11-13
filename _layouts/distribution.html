@@ -98,7 +98,8 @@
                                 </ul>
                             </td>
                         </tr>
-                        {% endif %} {% if page.screenshots %}
+                        {% endif %}
+                        {% if page.screenshots %}
                         <tr>
                             <td>Screenshots</td>
                             <td>
@@ -109,6 +110,25 @@
                                 </ul>
                             </td>
                         </tr>
+                        {% endif %}
+                        {% if page.purchase %}
+                            <td>Buy {{page.title}}</td>
+                            <td>
+                              <ul>
+                            	{% for p in page.purchase %}
+                            	
+                                    <li>
+                                    {%if p[0] == 'OSDisc' %}
+                                    	<a href="{{p[1]}}?affiliate=niyasc">
+                                    {% else %}
+                                        <a href="{{p[1]}}">
+                                    {% endif %}
+                                    {{p[0]}}
+                                    </a>
+                                    </li>
+                                {% endfor %}
+                              </ul>
+                            </td>
                         {% endif %}
                 </table>
             </article>
