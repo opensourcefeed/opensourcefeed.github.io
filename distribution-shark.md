@@ -5,7 +5,7 @@ title: 'Shark Linux'
 Category: Distribution
 permalink: /distribution/shark
 logo: Shark logo.png
-preview: shark-linux.jpg
+preview: sharklinux.jpg
 home_page: http://sharklinuxos.org
 desktops: [mate]
 base: [debian, ubuntu]
