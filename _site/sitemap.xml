@@ -89,6 +89,10 @@
 <lastmod>2017-02-02T00:00:00+05:30</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/fedora-27-released/</loc>
+<lastmod>2017-11-14T00:00:00+05:30</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -273,15 +277,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/page2/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/page3/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/page4/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/google9aba68154c5cb9a6.html</loc>
