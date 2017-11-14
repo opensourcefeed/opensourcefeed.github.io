@@ -20,6 +20,7 @@ releases :
   Red Hat Enterprise Linux 6.8 : "http://www.open-source-feed.com/2016/05/red-hat-enterprise-linux-68-released.html"
 
 stories:
+  Red Hat introduces ARM server support for Enterprise Linux : "https://www.redhat.com/en/blog/red-hat-introduces-arm-server-support-red-hat-enterprise-linux"
   Red Hat donates two new servers to GNOME project : "http://www.open-source-feed.com/2016/05/red-hat-donates-two-new-servers-to.html"
 ---
 
