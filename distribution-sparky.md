@@ -16,6 +16,7 @@ purchase :
 description : "Sparky Linux is a Debian based GNU/Linux distribution offering a ready to use, out of the box operating system. Stories, reviews and updates on Sparky Linux project."
 
 releases:
+  Sparky Linux 4.7 Tyche : "https://sparkylinux.org/sparky-4-7/"
   Sparky Linux 5.0 : "http://www.open-source-feed.com/2017/07/sparky-linux-50-released-based-on.html"
   Sparky Linux 4.6 STB : "http://www.open-source-feed.com/2017/06/sparky-linux-46-stb-is-available-now.html"
   Sparky Linux 4.4 Tyche : "http://www.open-source-feed.com/2016/08/sparkylinux-44-tyche-released-in-5.html"

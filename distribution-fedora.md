@@ -13,9 +13,11 @@ base : Independent
 description: Fedora is an independently developed GNU/Linux distribution supported by Red Hat Inc, and a group of volunteers. Fedora is a cutting edge distribution that ships new releases in a rough period of 6 months. Stories, reviews and updates on Fedora.
 
 reviews :
+  "Fedora 27 is more like a testing ground and provides less polished user experience - DistroWatch" : "http://distrowatch.com/weekly.php?issue=20171120#fedora"
   Fedora 25 is not something worth to recommend: "http://www.open-source-feed.com/2017/02/fedora-25-is-not-something-worth-to.html"
 
 screenshots :
+  Fedora 27 Workstation : "http://www.distroscreens.com/2017/11/fedora-27-workstation-screenshots.html"
   Fedora 27 Beta : "http://www.distroscreens.com/2017/10/fedora-27-beta-screenshots.html"
   Fedora 26 Workstation: "http://www.distroscreens.com/2017/07/fedora-26-workstation-screenshots.html"
   Fedora 25 Workstation: "http://www.distroscreens.com/2016/11/fedora-25-workstation-screenshots.html"
