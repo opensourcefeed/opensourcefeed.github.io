@@ -201,6 +201,9 @@
 <loc>http://localhost:4000/distribution/kodachi</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/korora</loc>
+</url>
+<url>
 <loc>http://localhost:4000/distribution/kubuntu</loc>
 </url>
 <url>
@@ -289,10 +292,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/google9aba68154c5cb9a6.html</loc>
-<lastmod>2017-11-22T09:30:32+05:30</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/google9aba68154c5cb9a6.html</loc>
