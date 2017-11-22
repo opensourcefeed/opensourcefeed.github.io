@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-22T21:46:55+05:30</updated><id>http://localhost:4000//</id><title type="html">OpenSourceFeed</title><subtitle>Database of free &amp; open-source distributions and desktop environments
+</subtitle><entry><title type="html">Kali Linux 2017.03 released</title><link href="http://localhost:4000/kali-linux-201703-released/" rel="alternate" type="text/html" title="Kali Linux 2017.03 released" /><published>2017-11-21T00:00:00+05:30</published><updated>2017-11-21T00:00:00+05:30</updated><id>http://localhost:4000/kali-linux-201703-released</id><content type="html" xml:base="http://localhost:4000/kali-linux-201703-released/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Dookie&lt;/em&gt; on behalf of Kali Linux team has announced release of Kali Linux 2017.3, latest bug fix cum maitenance release of Kali Linux. This release includes various patches, bug fixes, updates and added packages comparing to previous release, ie, Kali Linux 2017.2.&lt;/p&gt;
+
+&lt;p&gt;Kali Linux comes with Linux Kernel 4.13.10 which includes major improvements like SMB 3.0 as default backend for CIFS, increased directory entry limit for EXT4 and built in support for TLS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/kali-release.png&quot; alt=&quot;Kali Linux release banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kali Linux 2017.3 also includes some new tools which will come handy during security assesments and penetration testing. Tools added in this relese includes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;InSpy : A small but useful utility that performs enumeration on LinkedIn and can find people based on job title, company, or email address.&lt;/li&gt;
+    &lt;li&gt;CherryTree - The oft-requested CherryTree has now been added to Kali for all of your note-taking needs. CherryTree is very easy to use and will be familiar to you if you’ve used any of the “big-name” note organization applications.&lt;/li&gt;
+    &lt;li&gt;Sublist3r - Sublist3r is a great application that enables you to enumerate subdomains across multiple sources at once. It has integrated the venerable SubBrute, allowing you to also brute force subdomains using a wordlist.&lt;/li&gt;
+    &lt;li&gt;OSRFramework - Another excellent OSINT tool that has been added to the repos is OSRFramework, a collection of scripts that can enumerate users, domains, and more across over 200 separate services.&lt;/li&gt;
+    &lt;li&gt;Also, Massive Maltego Metamorphosis&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For more information on Kali Linux 2017.3 release see &lt;a href=&quot;https://www.kali.org/releases/kali-linux-2017-3-release/&quot;&gt;original release announcement&lt;/a&gt; published in Kali website.&lt;/p&gt;</content><summary type="html">Mr Dookie on behalf of Kali Linux team has announced release of Kali Linux 2017.3, latest bug fix cum maitenance release of Kali Linux. This release includes various patches, bug fixes, updates and added packages comparing to previous release, ie, Kali Linux 2017.2.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/kali-release.png" /></entry><entry><title type="html">deepin 15.5 beta released with small yet useful features</title><link href="http://localhost:4000/deepin-155-beta-released-with-small-yet-useful-features/" rel="alternate" type="text/html" title="deepin 15.5 beta released with small yet useful features" /><published>2017-11-15T00:00:00+05:30</published><updated>2017-11-15T00:00:00+05:30</updated><id>http://localhost:4000/deepin-155-beta-released-with-small-yet-useful-features</id><content type="html" xml:base="http://localhost:4000/deepin-155-beta-released-with-small-yet-useful-features/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; deepin community has announced availability of deepin 15.5 beta for testing. This release brings various small feature additions and improvements to provide a better user experience.&lt;/p&gt;
+
+&lt;p&gt;Some of the feature additions in deepin 15.5 beta release includes, new web application framework, support for flatpack pages, color temperature feature, better compatibility for WUXGA displays… etc. Also, there are multiple optimizations applied on network module and desktop environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/deepin 15.5 beta.jpg&quot; alt=&quot;deepin 15.5 beta preview image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Other highlights in deepin 15.5 beta release includes:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Optimized proxy function, fast export configured VPN and import existing VPN file.&lt;/li&gt;
+    &lt;li&gt;Application proxy function - When set proxy, different applications required different environment (such as Netease Cloud Music and Spotify), then you can enable Application Proxy for specified applications.&lt;/li&gt;
+    &lt;li&gt;Launcher icon scaling - On device with WUXGA screen, the system will auto adjust the icon size for your sreen. On common device, you can freely resize the icon by shortcuts and mouse wheel (Ctrl =/- or Ctrl+mouse wheel).&lt;/li&gt;
+    &lt;li&gt;Desktop icon collision avoidance - Besides Auto Arrange, if you want to move an icon to a location on desktop, just drag and drop it before another icon which will leave a location.&lt;/li&gt;
+    &lt;li&gt;Ability to hide plugins on dock - n Fashion and Efficient mode, if you want to reduce space on Dock, right click on Dock to select Plugins and uncheck the plugin to hide it.&lt;/li&gt;
+    &lt;li&gt;Ability to force quit applications&lt;/li&gt;
+    &lt;li&gt;Ability to clear package cache directory.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For more information, see &lt;a href=&quot;https://www.deepin.org/en/2017/11/15/deepin-15-5-beta-small-and-beautiful-features/&quot;&gt;release announcement published in deepin blog&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">The deepin community has announced availability of deepin 15.5 beta for testing. This release brings various small feature additions and improvements to provide a better user experience.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/deepin%2015.5%20beta.jpg" /></entry><entry><title type="html">Fedora 27  released</title><link href="http://localhost:4000/fedora-27-released/" rel="alternate" type="text/html" title="Fedora 27  released" /><published>2017-11-14T00:00:00+05:30</published><updated>2017-11-14T00:00:00+05:30</updated><id>http://localhost:4000/fedora-27-released</id><content type="html" xml:base="http://localhost:4000/fedora-27-released/">&lt;p&gt;The Fedora Project has announced release of Fedora 27 , latest stable release of independently developed GNU/Linux operating system project backed by Red Hat Inc. This release announcement is applicable for Fedora Workstation and Fedora atomic editions.&lt;/p&gt;
+
+&lt;p&gt;Keeping the tradition of Fedora releases, Fedora 27 comes with thousands of improvements from Fedora community and various upstream projects.&lt;/p&gt;
+
+&lt;p&gt;One of the key highlight of Fedora 27 workstation is availability of GNOME 3.26 as default desktop environment. It included various improvements ranging from better display manager support, improved search results and redesigned settings application. It also includes built-in support for various emojis.  Other updates in Fedora 27 includes LibreOffice 5.4, updated image writer software,  ..etc&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Fedora Atomic 27 now defaults to a simpler container storage setup. Furthermore, it offers containerized Kubernetes, flannel and etcd. These changes bring flexibility for users to choose different versions of Kubernetes, or to not use Kubernetes at all. This release ships with the latest rpm-ostree, now with support for base package overrides. Cockpit is also updated to the latest version. It includes support for Cockpit Dashboard installation on Atomic Host via RPM package layering.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For more information on Fedora 27, see o&lt;a href=&quot;https://fedoramagazine.org/announcing-fedora-27/&quot;&gt;riginal release announcement published in Fedora magazine.&lt;/a&gt;&lt;/p&gt;</content><summary type="html">The Fedora Project has announced release of Fedora 27 , latest stable release of independently developed GNU/Linux operating system project backed by Red Hat Inc. This release announcement is applicable for Fedora Workstation and Fedora atomic editions.</summary></entry><entry><title type="html">Ubuntu 16.04.2 LTS will be postponed till February 9, due to boot issues</title><link href="http://localhost:4000/01-ubuntu-16042-will-delayed-till-february-9-due-to-boot-issues/" rel="alternate" type="text/html" title="Ubuntu 16.04.2 LTS will be postponed till February 9, due to boot issues" /><published>2017-02-02T00:00:00+05:30</published><updated>2017-02-02T00:00:00+05:30</updated><id>http://localhost:4000/01-ubuntu-16042-will-delayed-till-february-9-due-to-boot-issues</id><content type="html" xml:base="http://localhost:4000/01-ubuntu-16042-will-delayed-till-february-9-due-to-boot-issues/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Leann Ogasawara&lt;/em&gt; of Ubuntu engineering team has requested the release team to postpone Ubuntu 16.04.2 LTS release till February 9. This was owing to some serious booting issues found in arm64 systems.&lt;/p&gt;
+
+&lt;p&gt;It is expected that, the resolution for currently detected issue will require pulling kernel leve changes and flash kernel. Eventhough this can be completed within the scheduled time, there won’t be enough time available for testing which will raise a concern over stability of the release. Considering the seriousness of issue, &lt;em&gt;Mr Adam Cornard&lt;/em&gt; from Ubuntu release engineering team has agreed to postpone the release till February 9th.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/ubuntu16042-banner.png&quot; alt=&quot;Ubuntu 16.04.2 banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You find these mail threads in Ubuntu &lt;a href=&quot;https://lists.ubuntu.com/archives/ubuntu-release/2017-January/004015.html&quot;&gt;release mailing list&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+Hi Adam (and the Release Team),
+&lt;br /&gt;
+We would like to formally request an extension for 16.04.2's release.  We
+have just identified a serious boot regression on arm64.  The resolution
+looks to require landing changes to the kernel, flash-kernel, and possibly
+d-i.  While we can likely physically get those changes into the archive in
+time for the release, there would be next to no time to test this nor
+provide appropriate regression testing on other platforms. We would be much
+more comfortable giving that some proper testing before releasing and
+therefore would like to request an additional extension for the point
+release date.  Thoughts?  We will honor whatever guidance we receive from
+you.
+&lt;br /&gt;
+Thanks,
+Leann
+&lt;br /&gt;
+----
+&lt;br /&gt;
+I'm a big fan of caution when it comes to the bits that make people's
+computers either boot or completely fail to, as it's pretty hard to fix
+boot errors after shipping them.  So, yes, a delay for a week while all
+this is landed and tested seems entirely reasonable to me.  Will push
+the release to Feb 9 instead.
+&lt;br /&gt;
+... Adam
+&lt;/blockquote&gt;</content><summary type="html">Mr Leann Ogasawara of Ubuntu engineering team has requested the release team to postpone Ubuntu 16.04.2 LTS release till February 9. This was owing to some serious booting issues found in arm64 systems.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/ubuntu16042-banner.png" /></entry><entry><title type="html">LibreOffice 5.3 released with a tons of new features</title><link href="http://localhost:4000/00-libreoffice-53-released-see-what-is-new/" rel="alternate" type="text/html" title="LibreOffice 5.3 released with a tons of new features" /><published>2017-02-02T00:00:00+05:30</published><updated>2017-02-02T00:00:00+05:30</updated><id>http://localhost:4000/00-libreoffice-53-released-see-what-is-new</id><content type="html" xml:base="http://localhost:4000/00-libreoffice-53-released-see-what-is-new/">&lt;p&gt;&lt;strong&gt;The Document Foundation&lt;/strong&gt; has announced release of LibreOffice 5.3, latest stable release of popular
+free and open source office suite. This release introduces a lot of new proffessional quality features which makes it more competing with other proprietary office suites. It will be immediately available for windows, GNU/Linux and macOS platforms and also for cloud platforms.&lt;/p&gt;
+
+&lt;p&gt;LibreOffice 5.3 is a major milestone in the history projects. It introduces new features like online collaborative editing, which will increase the competency of project, also this release provides a lot of incremental improvements to make it more reliable, smooth and user friendly.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/LibreOffice Impress - Notebookbar.jpg&quot; alt=&quot;LibreOffice 5.3 with Notebookbar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The major highlights in LibreOffice 5.3 can be summarized as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduces LibreOffice Online, a cloud based office suite that offers basic collaborative editing features on a web browsers. It is basically a server service and should be expected and configured by adding a cloud storage and SSL certificate.&lt;/li&gt;
+&lt;li&gt;An experimental ribbon UI (MUFFIN - My User Friendly &amp;amp; Flexible INterface)&lt;/li&gt;
+&lt;li&gt;Keyboard shortcuts can now be displayed in context menus, and are enabled by default on Windows and Linux.&lt;/li&gt;
+&lt;li&gt;To help you work better with filled shapes, the Area dialog has been simplified and includes a new Patterns section, for better compatibility with other office software.&lt;/li&gt;
+&lt;li&gt;Additionally, if you want to fill a shape with a custom bitmap image, you can now import a new image directly from the sidebar.&lt;/li&gt;
+&lt;li&gt;It's now possible to insert PDFs into your documents as images, with the first page being shown.&lt;/li&gt;
+&lt;li&gt;Furthermore, you can sign existing PDF files, and verify those signatures as well.&lt;/li&gt;
+&lt;li&gt;Colour palette management has been simplified, and new palettes have been added for professional graphic and layout workflows.&lt;/li&gt;
+&lt;li&gt;New items have been added to the Help menu, including quick links to user guides and community support forums.&lt;/li&gt;
+&lt;li&gt;A Safe Mode is now available, to help you find and fix problems with your user profile or extensions.&lt;/li&gt;
+&lt;li&gt;Text layout has been unified for consistency across operating systems, while file format compatibility has been improved as well.&lt;/li&gt;
+&lt;li&gt;Finally, LibreOffice 5.3 is the first full source code release of LibreOffice online, a browser-based version of the suite that you can run on your private cloud infrastructure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Writer&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;In LibreOffice 5.3, Writer has some great new features to make your documents shine.&lt;/li&gt;
+&lt;li&gt;Table styles are now supported, letting you apply formatting to a table which is preserved when you make edits to it.&lt;/li&gt;
+&lt;li&gt;A new Page deck in the sidebar lets you quickly customise page settings without having to go through a separate dialog box.&lt;/li&gt;
+&lt;li&gt;For faster navigation, a new Go to Page box lets you jump to another page in the document with just a few keypresses.&lt;/li&gt;
+&lt;li&gt;In the drawing tools, arrows that were previously only available in Draw and Impress can now be used in Writer.&lt;/li&gt;
+&lt;li&gt;Lastly, the toolbar includes a new Small Capitals button, and this formatting can also be applied via macros.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Calc&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;LibreOffice 5.3 has many improvements in Calc, to help you work smarter with spreadsheets.&lt;/li&gt;
+&lt;li&gt;A new set of default cell styles are now available, with greater variety and better names than in previous releases.&lt;/li&gt;
+&lt;li&gt;In fresh installations, &quot;Enable wildcards in formulas&quot; is now the default option, rather than regular expressions, to improve compatibility with other spreadsheet software.&lt;/li&gt;
+&lt;li&gt;When you're creating pivot tables, a new median function is now available.&lt;/li&gt;
+&lt;li&gt;The merge cells feature now lets you empty the contents of cells that are hidden after the merge.&lt;/li&gt;
+&lt;li&gt;Finally, when you're inserting a function, a new text entry box lets you narrow down the functions you're looking for.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Impress &amp;amp; Draw&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;In LibreOffice 5.3, Impress has been updated to make your presentations really stand out.&lt;/li&gt;
+&lt;li&gt;When you launch the software, a template selector now appears to get you off to a quick start.&lt;/li&gt;
+&lt;li&gt;Two new attractive templates have been included by default, whileothers have been improved as well.&lt;/li&gt;
+&lt;li&gt;When you're inserting images from a photo album, it's now possible to link these images so that they're not saved in the document itself.&lt;/li&gt;
+&lt;li&gt;Lastly, in slide master mode, slide properties are now available in the sidebar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For more details, see release announcement published in &lt;a href=&quot;https://blog.documentfoundation.org/blog/2017/02/01/the-document-foundation-announces-feature-rich-libreoffice-5-3/&quot;&gt;document foundation blog&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">The Document Foundation has announced release of LibreOffice 5.3, latest stable release of popular
+free and open source office suite. This release introduces a lot of new proffessional quality features which makes it more competing with other proprietary office suites. It will be immediately available for windows, GNU/Linux and macOS platforms and also for cloud platforms.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/LibreOffice%20Impress%20-%20Notebookbar.jpg" /></entry><entry><title type="html">KDE neon offers a near perfect desktop on a stable base</title><link href="http://localhost:4000/00-kde-neon-offers-perfect-desktop-on-stable-base/" rel="alternate" type="text/html" title="KDE neon offers a near perfect desktop on a stable base" /><published>2017-02-01T00:00:00+05:30</published><updated>2017-02-01T00:00:00+05:30</updated><id>http://localhost:4000/00-kde-neon-offers-perfect-desktop-on-stable-base</id><content type="html" xml:base="http://localhost:4000/00-kde-neon-offers-perfect-desktop-on-stable-base/">&lt;p&gt;&lt;strong&gt;KDE neon&lt;/strong&gt; is an amazing GNU/Linux distribution developed by the KDE community. It integrates most up-to-date
+KDE Plasma desktop and other KDE community developed applications on stable base of Ubuntu LTS (Long Term
+Supported) releases. While the core remains the same (LTS release of Ubuntu), the KDE components get
+contineous updates to provide most modern KDE technologies to the end users.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/neon_a.jpg&quot; alt=&quot;A Preview of KDE neon Desktop&quot; /&gt;
+&lt;em&gt;Courtesy : Linux.com portal&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;Linux.com&lt;/em&gt; portal has published a review on KDE neon project which observes that, the project a 
+success for providing an almost perfect desktop environment to the end users. The review begins by 
+stating that, the user interest has dramatically moved away from KDE project over the years. Plasma 3
+was able to attract a lot of users owing to it’s simplcity and traditional user experience. However, Plasma 4
+made the system more heavy and was not that responsive. Plasma 5 was able to overcome limitations of 
+Plasma 4 by making system more responsive and resource efficient. Still it was lagging behind due to
+sticking with a traditional desktop metaphor and the desktop was buggy on most of the platforms. The
+KDE neon project was started to show-off how well, KDE Plasma desktop can be integrated with a GNU/Linux
+distribution.&lt;/p&gt;
+
+&lt;p&gt;According to the review, KDE neon provides a smooth Plasma experience to the end users. The project is
+integrating a nice flat theme, and it is very stable and fast comparing to KDE Plasma 4. The widget management
+has also becomes much easier. However, there are some rough edges like, lack of commonly used applications
+like office suites and somewhat outdated packages.&lt;/p&gt;
+
+&lt;blockquote&gt;
+To recover a bit of that lost ground, the KDE developers opted to fork Ubuntu into KDE Neon. The launch of Neon didn’t quite go as planned (and the initial release wasn’t exactly stable). Since then, however, the project has managed to pull off something quite intriguing. KDE Neon takes the stability of Ubuntu 16.04 and applies a cutting-edge release of the KDE desktop to create an absolutely beautiful experience, that could easily appease those looking for the best of both worlds.
+&lt;/blockquote&gt;
+&lt;p&gt;Read complete review in &lt;a href=&quot;https://www.linux.com/learn/kde-neon-offers-near-perfect-desktop-solid-platform&quot;&gt;linux.com&lt;/a&gt; portal.&lt;/p&gt;</content><summary type="html">KDE neon is an amazing GNU/Linux distribution developed by the KDE community. It integrates most up-to-date
+KDE Plasma desktop and other KDE community developed applications on stable base of Ubuntu LTS (Long Term
+Supported) releases. While the core remains the same (LTS release of Ubuntu), the KDE components get
+contineous updates to provide most modern KDE technologies to the end users.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/neon_a.jpg" /></entry><entry><title type="html">Bodhi Linux 4.1.0 released with Linux 4.8 and Arc inspired moksha theme</title><link href="http://localhost:4000/01-bodhi-linux-410-released-with-linux-kernel-48/" rel="alternate" type="text/html" title="Bodhi Linux 4.1.0 released with Linux 4.8 and Arc inspired moksha theme" /><published>2017-01-29T00:00:00+05:30</published><updated>2017-01-29T00:00:00+05:30</updated><id>http://localhost:4000/01-bodhi-linux-410-released-with-linux-kernel-48</id><content type="html" xml:base="http://localhost:4000/01-bodhi-linux-410-released-with-linux-kernel-48/">&lt;p&gt;The &lt;a href=&quot;/distribution/bodhi&quot;&gt;Bodhi Linux&lt;/a&gt; team has announced release of Bodhi Linux 4.1.0, latest maintenance cum bug fix release in Bodhi Linux 4 branch. This release comes with several updated packages and bug fixes.&lt;/p&gt;
+
+&lt;p&gt;For those who are not familiar with Bodhi Linux, it is an Ubuntu LTS based GNU/Linux distribution featuring Enlightenment inspired &lt;a href=&quot;/desktop/moksha&quot;&gt;Moksha desktop&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/bodhi410.jpg&quot; alt=&quot;Bodhi Linux 4.1.0 Preview&quot; /&gt;
+&lt;em&gt;Bodhi Linux 4.1.0 Preview&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Newly announced Bodhi Linux 4.1.0 features updated packages like EFL 1.18.4, and updated version of Enlightenment Foundation Libraries, Linux Kernel 4.8 which comes with improved support for different graphics cards, and a new Moksha desktop theme inspired by Arc Dark.&lt;/p&gt;
+
+&lt;p&gt;The existing users of Bodhi Linux 4.x, can avail all the bug fixes by a simple system update. But they need to take manual actions for changing linux kernel and to use updated dark theme.&lt;/p&gt;
+&lt;blockquote&gt;
+This release serves to package up the fixes for a few bugs that slipped through the cracks in the 4.0.0 release, as well as provided updated package sets for the install ISO images. Most notably these ISO images come with EFL 1.18.4, Linux Kernel 4.8, and a new Moksha Theme based on the “Arc Dark” theme. Existing Bodhi 4.0.0 users already have the bug fixes incorporated into these ISO images, but they will need to manually install the newer kernel and theme if they wish to utilize them.
+&lt;/blockquote&gt;
+&lt;p&gt;You can also find original &lt;a href=&quot;http://www.bodhilinux.com/2017/01/27/bodhi-linux-4-1-0-released/&quot;&gt;release announcement&lt;/a&gt; and a few screenshtos in Bodhi Linux blog.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Download Bodhi Linux 4.1.0&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;64bit &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-64.iso/download&quot;&gt;ISO Download&lt;/a&gt;&amp;nbsp;– &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-64.iso.torrent/download&quot;&gt;Torrent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;32bit &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-32.iso/download&quot;&gt;ISO Download&lt;/a&gt; – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-32.iso.torrent/download&quot;&gt;Torrent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Legacy &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;– &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-legacy.iso/download&quot;&gt;ISO Download&lt;/a&gt; – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.0.0/bodhi-4.0.0-legacy.iso.torrent/download&quot;&gt;Torrent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;64bit AppPack – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-apppack-64.iso/download&quot;&gt;ISO Download&lt;/a&gt; – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-apppack-64.iso.torrent/download&quot;&gt;Torrent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;32bit AppPack – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-apppack-32.iso/download&quot;&gt;ISO Download&lt;/a&gt; – &lt;a href=&quot;https://sourceforge.net/projects/bodhilinux/files/4.1.0/bodhi-4.1.0-apppack-32.iso.torrent/download&quot;&gt;Torrent&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">The Bodhi Linux team has announced release of Bodhi Linux 4.1.0, latest maintenance cum bug fix release in Bodhi Linux 4 branch. This release comes with several updated packages and bug fixes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/bodhi410.jpg" /></entry><entry><title type="html">Linux Mint 18.1 Serena Xfce &amp;amp; KDE editions released</title><link href="http://localhost:4000/00-linuxmint-181-serena-xfce-and-kde-editions-released/" rel="alternate" type="text/html" title="Linux Mint 18.1 Serena Xfce &amp; KDE editions released" /><published>2017-01-29T00:00:00+05:30</published><updated>2017-01-29T00:00:00+05:30</updated><id>http://localhost:4000/00-linuxmint-181-serena-xfce-and-kde-editions-released</id><content type="html" xml:base="http://localhost:4000/00-linuxmint-181-serena-xfce-and-kde-editions-released/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; &lt;a href=&quot;/distribution/linuxmint&quot;&gt;Linux Mint&lt;/a&gt; community has announced release of Linux Mint 18.1 Serena Xfce and KDE editions. These releases includes packages updates and usability improvements to provide a better user experience.&lt;/p&gt;
+
+&lt;p&gt;Linux Mint 18.1 a long term supported (LTS) release based on Ubuntu 16.04 LTS and it will continue to get critical security updates till 2021. Thereafter, the release will be discarded and users are expected to upgrade their system to a newer release.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/linuxmint-xfce-181.jpg&quot; alt=&quot;Linux Mint 18.1 Xfce Preview&quot; /&gt;
+&lt;em&gt;Linux Mint 18.1 Xfce Desktop&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The major highlights in both KDE &amp;amp; Xfce flavors can be summarized as follows:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul style=&quot;text-align: left;&quot;&gt;
+&lt;li&gt;KDE Plasma 5.8&lt;/li&gt;
+&lt;li&gt;Whisker application menu in Xfce flavor is upgraded to version 1.6.2&lt;/li&gt;
+&lt;li&gt;A new cross desktop compatible collection of common applications, X-Apps developed by Linux Mint project which includes text editor, media player, document viewer..etc. All these apps are inspired by old gnome school applications.&lt;/li&gt;
+&lt;li&gt;Improved update manager which include option to sort package updates based on origin and displays kernel versions in a more clear way.&lt;/li&gt;
+&lt;li&gt;Better language support which includes translated text for more packages.&lt;/li&gt;
+&lt;li&gt;&lt;i&gt;World Wide availability &lt;/i&gt;of packages&lt;/li&gt;
+&lt;li&gt;Updated MDM - Mint Display Manager&lt;/li&gt;
+&lt;li&gt;Banshee music player is replaced with Rhythmbox&lt;/li&gt;
+&lt;li&gt;Improved artwork&lt;/li&gt;
+&lt;li&gt;Linux Kernel 4.4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For more details, see separate release announcements for &lt;a href=&quot;http://blog.linuxmint.com/?p=3222&quot;&gt;Xfce&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://www.linuxmint.com/rel_serena_kde_whatsnew.php&quot;&gt;KDE&lt;/a&gt; flavors of Linux Mint 18.1.&lt;/p&gt;</content><summary type="html">The Linux Mint community has announced release of Linux Mint 18.1 Serena Xfce and KDE editions. These releases includes packages updates and usability improvements to provide a better user experience.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/linuxmint-xfce-181.jpg" /></entry><entry><title type="html">WINE 2.0 stable released with MS Office 2013 support</title><link href="http://localhost:4000/wine-2.0-stable-released-with-ms-office-2013-support/" rel="alternate" type="text/html" title="WINE 2.0 stable released with MS Office 2013 support " /><published>2017-01-27T00:00:00+05:30</published><updated>2017-01-27T00:00:00+05:30</updated><id>http://localhost:4000/wine-2.0-stable-released-with-ms-office-2013-support</id><content type="html" xml:base="http://localhost:4000/wine-2.0-stable-released-with-ms-office-2013-support/">&lt;p&gt;&lt;strong&gt;Finally&lt;/strong&gt; the WINE (recursive acronym for Wine Is Not Emulator) developers has announced availability of Wine 2.0 stable release. This release includes numerous changes on underlying components and comes with better application support.&lt;/p&gt;
+
+&lt;p&gt;Wine is basically a compatibly layer for running windows binary executables on different POSIX compliant platforms like GNU/Linux, BSD and macOS. WINE is not a mere emulator, instead it maps windows system calls into native system calls on real time and hence provide better performance than an emulator.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/wine banner.png&quot; alt=&quot;WINE banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Main highlight of WINE 2.0 is support for MS Office 2013, new office suite published by Microsoft Corporation and 64 bit application support in macOS operating system. It took almost one complete year to finish development of WINE 2.0 and it includes around 6,600 individual revisions after previous release. These revisoins provides support for a lot of new games and applications.&lt;/p&gt;
+
+&lt;p&gt;WINE 2.0 is first stable release in revised annual release plan for the project. When a release is published strict annual basis, there can be space for some incomplete changes and WINE 2.0 is not and exception.&lt;/p&gt;
+&lt;blockquote&gt;
+    This release represents over a year of development effort and around 6,600 individual changes. The main highlights are the support for Microsoft Office 2013, and the 64-bit support on macOS.
+&lt;br /&gt;&lt;br /&gt;
+    It also contains a lot of improvements across the board, as well as support for many new applications and games. See the release notes below for a summary of the major changes.
+&lt;br /&gt;&lt;br /&gt;
+    This is the first release made on the new time-based, annual release schedule. This implies that some features that are being worked on but couldn't be finished in time have been deferred to the next development cycle. This includes in particular the Direct3D command stream, the full HID support, the Android graphics driver, and message-mode pipes.
+&lt;/blockquote&gt;
+&lt;p&gt;For a complete list of changes, see &lt;a href=&quot;https://www.winehq.org/announce/2.0&quot;&gt;release announcement&lt;/a&gt; in WINE project website.&lt;/p&gt;</content><summary type="html">Finally the WINE (recursive acronym for Wine Is Not Emulator) developers has announced availability of Wine 2.0 stable release. This release includes numerous changes on underlying components and comes with better application support.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/wine%20banner.png" /></entry><entry><title type="html">Tails 2.10 released with OnionShare and other updated packages</title><link href="http://localhost:4000/tails-210-released-with-onion-share-and-updated-packages/" rel="alternate" type="text/html" title="Tails 2.10 released with OnionShare and other updated packages" /><published>2017-01-27T00:00:00+05:30</published><updated>2017-01-27T00:00:00+05:30</updated><id>http://localhost:4000/tails-210-released-with-onion-share-and-updated-packages</id><content type="html" xml:base="http://localhost:4000/tails-210-released-with-onion-share-and-updated-packages/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Tails developers has announced release of Tails 2.10, latest maintenance release of Debian based  &lt;em&gt;amnesic incognito live system&lt;/em&gt; that offers provision for anonymous and secure browsing. This release fixes many issues reported in previous releases and comes with several updated packages.&lt;/p&gt;
+
+&lt;p&gt;A notable highlight of Tails 2.10 is inclusion of OnionShare an anonymous file sharing tool, and  tor circuit view is enabled in tor browser which will show the nodes through which connection is made to the internet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/tails image.png&quot; alt=&quot;Tails banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Other notable updates/changes in this release includes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul style=&quot;text-align: left;&quot;&gt;
+&lt;li&gt;Upgrade Tor to 0.2.9.9.&lt;/li&gt;
+&lt;li&gt;Upgrade Tor Browser to 6.5.&lt;/li&gt;
+&lt;li&gt;Upgrade Linux to 4.8. This should improve the support for newer hardware (graphics, Wi-Fi, etc.)&lt;/li&gt;
+&lt;li&gt;Upgrade Icedove to 45.6.0.&lt;/li&gt;
+&lt;li&gt;Replace AdBlock Plus with uBlock Origin.&lt;/li&gt;
+&lt;li&gt;Configure the APT package manage to use Debian's Onion services.&lt;/li&gt;
+&lt;li&gt;Install the AMDGPU display driver. This should improve the support for newer AMD graphics adapters.&lt;/li&gt;
+&lt;li&gt;Renamed the Boot Loader Menu entries from &quot;Live&quot; to &quot;Tails&quot;, and replaced the confusing &quot;failsafe&quot; wording with &quot;Troubleshooting Mode&quot;.&lt;/li&gt;
+&lt;li&gt;Add support for exFAT.&lt;/li&gt;
+&lt;li&gt;Remove Nyx (previously called arm).&lt;/li&gt;
+&lt;li&gt;Rewrite Tor control port filter entirely. Now Tails can safely support OnionShare, the circuit view of Tor Browser, and similar. This also enabled Whonix to replace their own similar piece of software with this one.&lt;/li&gt;
+&lt;li&gt;Made OnionCircuits compatible with the Orca screen reader.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You can also find out &lt;a href=&quot;https://tails.boum.org/news/version_2.10/index.en.html&quot;&gt;release announcement&lt;/a&gt; in tails website.&lt;/p&gt;</content><summary type="html">The Tails developers has announced release of Tails 2.10, latest maintenance release of Debian based  amnesic incognito live system that offers provision for anonymous and secure browsing. This release fixes many issues reported in previous releases and comes with several updated packages.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/tails%20image.png" /></entry></feed>

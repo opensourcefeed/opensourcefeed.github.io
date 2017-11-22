@@ -29,7 +29,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 permalink: :title/
-gems: [jekyll-seo-tag, jekyll-sitemap]
+gems: [jekyll-seo-tag, jekyll-sitemap, jekyll-feed]
 twitter:
   username: opensourcefeed
 facebook:
