@@ -10,10 +10,10 @@ layout: default
 		<h1 class="post-title">{{ page.title }}</h1>
 		<hr>
 		<div class="row">
-		    <div class="col-sm-6">
+		    <div class="col-sm-4">
 		        <div class="date">{{ page.date | date: "%B %-d, %Y" }}</div>
 		    </div>
-		    <div class="col-sm-6 text-sm-right">
+		    <div class="col-sm-8 text-sm-right">
 		        {% for category in page.categories %}
 		            {% assign topage = null %}
 		            {% for page in site.pages %}
