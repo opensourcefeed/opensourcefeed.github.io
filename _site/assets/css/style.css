@@ -27,7 +27,7 @@ blockquote{position:relative;margin:0;font-weight:400;text-align:justify;padding
 .content{background:white;}
 .content, .sidebar{box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.2);}
 .sidebar{padding-top:20px;border:1px solid #eee;font-family:'Roboto Condensed', sans-serif;background:#fff;}
-.sidebar h2{overflow:hidden;position:relative;font-size:16px;font-weight:600;padding:10px 10px;margin:0;text-transform:uppercase;display:block;border-bottom:1px solid #888;background:#607D8B;color:white;}
+.sidebar h2 {overflow:hidden;position:relative;font-size:16px;font-weight:600;padding:10px 10px;margin:0;text-transform:uppercase;display:block;border-bottom:1px solid #888;background:#607D8B;color:white;}
 .sidebar ul{list-style-type:none;padding-left:0;}
 .sidebar li{padding:10px;transition:background 0.5s ease;cursor:pointer;background:#fff;}
 .sidebar a{color:black;}
@@ -54,3 +54,31 @@ footer{text-align:center;background:#607D8B;color:white;padding:10px 0 10px 0;}
 .item a:hover, .item a:focus{text-decoration:none;}
 .hidden{display:none}
 .center{text-align:center}
+.blog {padding-top: 20px}
+.blog h2{font-size:16px;font-weight:600;padding:10px 10px;margin:0;text-transform:uppercase;display:block;border-bottom:1px solid #888;margin-bottom:10px;font-family:'Roboto Condensed', sans-serif;margin-bottom: 5px}
+.blog h3 {font-size: 20px}
+.blog h3 a:hover {text-decoration: none}
+.blog .date {text-align: right;font-size: 12px}
+.page-link, .page-link:focus, .page-link:hover {color: #607D8B}
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {background:#607D8B;border-color:#607D8B;}
+.blog .page-nav {text-align: center}
+.scroll {
+  -webkit-animation:  caption 50s linear 0s infinite;
+  padding:20px 0;
+  border: 1px solid #000;
+-webkit-transition: background-color 350ms;
+-moz-transition: background-color 350ms;
+transition: background-color 350ms;
+  overflow: hidden;
+  overflow-x:-webkit-marquee;
+  -webkit-marquee-direction: right;
+  -webkit-marquee-style: scroll;
+  -webkit-marquee-speed: normal;
+  -webkit-marquee-increment: small;
+  -webkit-marquee-repetition: 5;
+  overflow-x: marquee-line;
+  marquee-direction: forward;
+  marquee-style: loop;
+  marquee-speed: slow;
+  marquee-play-count: 5;
+}
