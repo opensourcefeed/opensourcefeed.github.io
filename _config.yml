@@ -33,7 +33,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate-v2
+  - jekyll-paginate
 twitter:
   username: opensourcefeed
 facebook:
@@ -47,13 +47,5 @@ social:
 webmaster_verifications:
   google: "8-DkVd0YN5zpN1NpF6X4SMnRckVNQgEu4O8Uk9cU_2c"
 
-pagination:
-  enabled: true
-  per_page: 10
-  permalink: '/:num/'
-  title: 'Open source stories - page :num'
-  sort_field: 'date'
-  sort_reverse: true
-  trail: 
-    before: 2 # The number of links before the current page
-    after: 2  # The number of links after the current page
+paginate: 10
+paginate_path: '/:num/'
