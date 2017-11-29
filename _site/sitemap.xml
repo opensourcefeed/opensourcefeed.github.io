@@ -122,6 +122,9 @@
 <loc>http://localhost:4000/desktop/budgie</loc>
 </url>
 <url>
+<loc>http://localhost:4000/desktop/cinnamon</loc>
+</url>
+<url>
 <loc>http://localhost:4000/desktop/deepin</loc>
 </url>
 <url>
