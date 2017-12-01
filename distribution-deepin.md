@@ -13,6 +13,7 @@ base : [debian]
 description : deepin is a stunning GNU/Linux distribution based on Debian. It brings a beautiful desktop environment called deepin. Stories, updates and other highlights on deepin.
 
 releases :
+  deepin 15.5 : "../deepin-155-released-with-complete-hidpi-compatiblity/"
   deepin 15.5 beta : "../deepin-155-beta-released-with-small-yet-useful-features/"
   deepin 15.4.1 : "http://www.open-source-feed.com/2017/07/deepin-1541-unveiled-with-launcher-mini.html"
   deepin 15.4 : "http://www.open-source-feed.com/2017/04/deepin-154-released-with-fresh-look-and.html"
@@ -31,4 +32,6 @@ reviews :
 
 ---
 
-**deepin** is an elegant GNU/Linux distribution from China. According to distrowatch ranking, it is most popular Chinese GNU/Linux distribution. Deepin is unique, because of it's unique desktop environment based on html 5 technologies, known as deepin desktop. Also, deepin provides a lot of great applications like deepin movie player, deepin music player, deepin control center, deepin Software Center ..etc
+**deepin** is a Debian based GNU/Linux distribution featuring an elegant desktop environment called deepin desktop. As per distrowatch ranking, it is the most popular Chinese GNU/Linux distribution.
+
+Deepin is unique, because of it's unique desktop environment based on html 5 technologies, known as deepin desktop. Also, deepin provides a lot of great applications like deepin movie player, deepin music player, deepin control center, deepin Software Center ..etc
