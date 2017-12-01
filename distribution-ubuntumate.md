@@ -24,6 +24,7 @@ reviews:
   Ubuntu MATE 15.10 : "http://www.open-source-feed.com/2015/11/ubuntu-mate-1510-review.html"
 
 screenshots:
+  Ubuntu MATE 17.10 Artful Aardvark : "https://goo.gl/fuyVeB"
   Ubuntu MATE 17.04 : "http://www.distroscreens.com/2017/04/ubuntu-mate-1704-zesty-zapus-screenshots.html"
   Ubuntu MATE 16.10 Alpha 1 : "http://www.distroscreens.com/2016/07/ubuntu-mate-1610-alpha-1-screenshots.html"
   Ubuntu MATE 16.04 : "http://www.distroscreens.com/2016/04/ubuntu-mate-1604-screenshots.html"
