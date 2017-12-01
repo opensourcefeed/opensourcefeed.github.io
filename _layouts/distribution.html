@@ -112,6 +112,7 @@
                         </tr>
                         {% endif %}
                         {% if page.purchase %}
+                        <tr>
                             <td>Buy {{page.title}}</td>
                             <td>
                               <ul>
@@ -129,6 +130,15 @@
                                 {% endfor %}
                               </ul>
                             </td>
+                        </tr>
+                        {% endif %}
+                        {% if page.telegram %}
+                        <tr>
+                            <td>Telegram Channel</td>
+                            <td>
+                                <a href="{{page.telegram}}" target="_blank">{{page.telegram}}</a>
+                            </td>
+                        </tr>
                         {% endif %}
                 </table>
             </article>

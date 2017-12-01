@@ -4,12 +4,17 @@ uid: lubuntu
 title: 'Lubuntu'
 Category: Distribution
 permalink: /distribution/lubuntu
+type: Linux
 logo: lubuntu.png
 preview: lxde-preview.jpg
 home_page: http://lubuntu.me/
-desktops: [lxde]
+desktops: [lxde, lxqt]
 base : [ubuntu]
-description : Lubuntu is a lightweight GNU/Linux distribution built on top of Ubuntu. Stories and updates on Lubuntu.
+telegram : "tg://resolve?domain=lubuntudevel"
+purchase:
+  OSDisc : "https://www.osdisc.com/products/lubuntu"
+
+description : Lubuntu is one of the oldest official community flavors of Ubuntu. It provides a lightweight desktop experience with LXDE desktop environment.
 
 releases:
   Lubuntu 17.10 Artful Aardvark : "http://lubuntu.me/artful-released/"
@@ -25,10 +30,13 @@ screenshots :
 
 reviews:
   Lubuntu 17.04 - simple evolution : "http://linuxblog.darkduck.com/2017/05/lubuntu-1704-simple-evolution.html"
+
+stories:
+
 ---
 
 **Lubuntu** is a lightweight GNU/Linux distribution built on top of Ubuntu. It integrates lightweight and less resource hungry [LXDE desktop](/desktop/lxde) environment with solid Ubuntu base.
 
 Lubuntu mainly targets old computers and netbooks where resources less comparing to modern laptops and desktop computers.
 
-Currently Lubuntu makes use of LXDE, in near future, LXDE may be replaced with [LXQt](/desktop/lxqt), a Qt based successor lf LXDE.
+Currently, Lubuntu makes use of LXDE, in near future, LXDE may be replaced with [LXQt](/desktop/lxqt), a Qt based implementation of LXDE. Lubuntu also provides an experimental release called Lubuntu-Next to test LXQt desktop.

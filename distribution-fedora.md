@@ -11,7 +11,7 @@ home_page: https://getfedora.org/
 desktops: [gnome, plasma, mate, xfce, lxde]
 base : Independent
 purchase:
-  OSDisc : "https://www.osdisc.com/products/reactos"
+  OSDisc : "https://www.osdisc.com/products/fedora"
 
 description: Fedora is an independently developed GNU/Linux distribution supported by Red Hat Inc, and a group of volunteers. Fedora is a cutting edge distribution that ships new releases in a rough period of 6 months. Stories, reviews and updates on Fedora.
 
