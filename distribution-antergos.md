@@ -40,6 +40,6 @@ stories:
   Antergos ships MATE 1.18 : "https://antergos.com/blog/mate-1-18-now-available/"
 ---
 
-*Antergos** (formerly Cinnarch) is an Arch based distribution with the goal of delivering a modern, elegant and powerful operating system to all levels of users. Antergos simplifies OS installation and configuration and it makes Arch Linux accessible for the mass.
+**Antergos** (formerly Cinnarch) is an Arch based distribution with the goal of delivering a modern, elegant and powerful operating system to all levels of users. Antergos simplifies OS installation and configuration and it makes Arch Linux accessible for the mass.
 
 Initially, Antergos project was started with the name Cinnarch, and it was only shipping one desktop environment, Cinnamon. Currently, Antergos offers 6 desktop environments from which users can choose during installation.
