@@ -121,6 +121,10 @@
 <lastmod>2017-12-06T00:00:00+05:30</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/uruk-gnu-linux-20-released/</loc>
+<lastmod>2017-12-06T00:00:00+05:30</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -310,6 +314,9 @@
 <loc>http://localhost:4000/distribution/ultimate</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/uruk</loc>
+</url>
+<url>
 <loc>http://localhost:4000/distribution/xubuntu</loc>
 </url>
 <url>
@@ -326,6 +333,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/blog/3/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/4/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/google9aba68154c5cb9a6.html</loc>

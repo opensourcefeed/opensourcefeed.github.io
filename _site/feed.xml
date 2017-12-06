@@ -1,5 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-06T07:41:30+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of free &amp; open-source distributions and desktop environments
-</subtitle><entry><title type="html">Puppy Linux 7.5, Xenialpup released</title><link href="http://localhost:4000/puppy-linux-75-xenialpup-released/" rel="alternate" type="text/html" title="Puppy Linux 7.5, Xenialpup released" /><published>2017-12-06T00:00:00+05:30</published><updated>2017-12-06T00:00:00+05:30</updated><id>http://localhost:4000/puppy-linux-75-xenialpup-released</id><content type="html" xml:base="http://localhost:4000/puppy-linux-75-xenialpup-released/">&lt;p&gt;&lt;strong&gt;The Puppy Linux&lt;/strong&gt; team has announced the release of Puppy Linux 7.5 &lt;em&gt;Xenialpup&lt;/em&gt;. Following the tradition of Puppy releases, this release also brings a small sized, fast and versatile operating system.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-06T23:48:04+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of free &amp; open-source distributions and desktop environments
+</subtitle><entry><title type="html">Uruk GNU/Linux 2.0 released</title><link href="http://localhost:4000/uruk-gnu-linux-20-released/" rel="alternate" type="text/html" title="Uruk GNU/Linux 2.0 released" /><published>2017-12-06T00:00:00+05:30</published><updated>2017-12-06T00:00:00+05:30</updated><id>http://localhost:4000/uruk-gnu-linux-20-released</id><content type="html" xml:base="http://localhost:4000/uruk-gnu-linux-20-released/">&lt;p&gt;&lt;strong&gt;Inspired&lt;/strong&gt; by the wide reach of Uruk 1.0, the Uruk project has announced the release of Uruk GNU/Linux 2.0. This is the second release of 100% libre GNU/Linux distribution built using Trisquel repositories.&lt;/p&gt;
+
+&lt;p&gt;The Uruk GNU/Linux team was excited to see the wide reach of their first most release, especially in Libre OS communities. Learning from their experience with Uruk 1.0, they’ve taken more effort to deliver a better release, ie, Uruk 2.0. Uruk 2.0 will be known by the code name &lt;em&gt;lugalbanda&lt;/em&gt; which has root on a character mentioned in Sumerian mythology and literature and ancient Iraq history.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/preview/uruk1.0.jpg&quot; alt=&quot;A file picture of Uruk GNU/Linux 1.0. Uruk GNU/Linux 2.0 screenshots will be published in Distroscreens soon&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The main highlights of Uruk GNU/Linux 2.0 release includes, but not limited to:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;A new repository for Uruk GNU/Linux 2.0&lt;/li&gt;
+    &lt;li&gt;linux-libre 4.9.66 lts - A long term supported version of Linux-Libre Kernel. Linux-Libre is a variation of Linux Kernel without any proprietary blobs.&lt;/li&gt;
+    &lt;li&gt;gcc 7&lt;/li&gt;
+    &lt;li&gt;mate 1.12.1&lt;/li&gt;
+    &lt;li&gt;Abrowser 57&lt;/li&gt;
+    &lt;li&gt;New welcome screen&lt;/li&gt;
+    &lt;li&gt;replace MDM with LightDM as a default DM&lt;/li&gt;
+    &lt;li&gt;New control center&lt;/li&gt;
+    &lt;li&gt;Guix Installer&lt;/li&gt;
+    &lt;li&gt;Redesigned with new themes, cursor and wallpapers.&lt;/li&gt;
+    &lt;li&gt;Includes various applications which will find use in day to day life, such as thunderbird, deluge, ffmulticonverter, vlc, libreoffice, rose crypt, uruk cleaner, AIA, diskman indicator, lightdm setting, gimp, upms, . . . and more.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You may also read &lt;a href=&quot;https://blog.urukproject.org/en/index.php/welcome/uruk-gnu-linux-20&quot;&gt;Uruk GNU/Linux 2.0 release announcement&lt;/a&gt; published on project’s blog.&lt;/p&gt;</content><author><name></name></author><summary type="html">Inspired by the wide reach of Uruk 1.0, the Uruk project has announced the release of Uruk GNU/Linux 2.0. This is the second release of 100% libre GNU/Linux distribution built using Trisquel repositories.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/preview/uruk1.0.jpg" /></entry><entry><title type="html">Puppy Linux 7.5, Xenialpup released</title><link href="http://localhost:4000/puppy-linux-75-xenialpup-released/" rel="alternate" type="text/html" title="Puppy Linux 7.5, Xenialpup released" /><published>2017-12-06T00:00:00+05:30</published><updated>2017-12-06T00:00:00+05:30</updated><id>http://localhost:4000/puppy-linux-75-xenialpup-released</id><content type="html" xml:base="http://localhost:4000/puppy-linux-75-xenialpup-released/">&lt;p&gt;&lt;strong&gt;The Puppy Linux&lt;/strong&gt; team has announced the release of Puppy Linux 7.5 &lt;em&gt;Xenialpup&lt;/em&gt;. Following the tradition of Puppy releases, this release also brings a small sized, fast and versatile operating system.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/post-images/xenialpup.jpg&quot; alt=&quot;A preview of Xenialpup&quot; /&gt;&lt;/p&gt;
 
@@ -158,54 +181,4 @@ this is landed and tested seems entirely reasonable to me.  Will push
 the release to Feb 9 instead.
 &lt;br /&gt;
 ... Adam
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Mr Leann Ogasawara of Ubuntu engineering team has requested the release team to postpone Ubuntu 16.04.2 LTS release till February 9. This was owing to some serious booting issues found in arm64 systems.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/ubuntu16042-banner.png" /></entry><entry><title type="html">LibreOffice 5.3 released with a tons of new features</title><link href="http://localhost:4000/00-libreoffice-53-released-see-what-is-new/" rel="alternate" type="text/html" title="LibreOffice 5.3 released with a tons of new features" /><published>2017-02-02T00:00:00+05:30</published><updated>2017-02-02T00:00:00+05:30</updated><id>http://localhost:4000/00-libreoffice-53-released-see-what-is-new</id><content type="html" xml:base="http://localhost:4000/00-libreoffice-53-released-see-what-is-new/">&lt;p&gt;&lt;strong&gt;The Document Foundation&lt;/strong&gt; has announced release of LibreOffice 5.3, latest stable release of popular
-free and open source office suite. This release introduces a lot of new proffessional quality features which makes it more competing with other proprietary office suites. It will be immediately available for windows, GNU/Linux and macOS platforms and also for cloud platforms.&lt;/p&gt;
-
-&lt;p&gt;LibreOffice 5.3 is a major milestone in the history projects. It introduces new features like online collaborative editing, which will increase the competency of project, also this release provides a lot of incremental improvements to make it more reliable, smooth and user friendly.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/LibreOffice Impress - Notebookbar.jpg&quot; alt=&quot;LibreOffice 5.3 with Notebookbar&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The major highlights in LibreOffice 5.3 can be summarized as follows:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Introduces LibreOffice Online, a cloud based office suite that offers basic collaborative editing features on a web browsers. It is basically a server service and should be expected and configured by adding a cloud storage and SSL certificate.&lt;/li&gt;
-&lt;li&gt;An experimental ribbon UI (MUFFIN - My User Friendly &amp;amp; Flexible INterface)&lt;/li&gt;
-&lt;li&gt;Keyboard shortcuts can now be displayed in context menus, and are enabled by default on Windows and Linux.&lt;/li&gt;
-&lt;li&gt;To help you work better with filled shapes, the Area dialog has been simplified and includes a new Patterns section, for better compatibility with other office software.&lt;/li&gt;
-&lt;li&gt;Additionally, if you want to fill a shape with a custom bitmap image, you can now import a new image directly from the sidebar.&lt;/li&gt;
-&lt;li&gt;It's now possible to insert PDFs into your documents as images, with the first page being shown.&lt;/li&gt;
-&lt;li&gt;Furthermore, you can sign existing PDF files, and verify those signatures as well.&lt;/li&gt;
-&lt;li&gt;Colour palette management has been simplified, and new palettes have been added for professional graphic and layout workflows.&lt;/li&gt;
-&lt;li&gt;New items have been added to the Help menu, including quick links to user guides and community support forums.&lt;/li&gt;
-&lt;li&gt;A Safe Mode is now available, to help you find and fix problems with your user profile or extensions.&lt;/li&gt;
-&lt;li&gt;Text layout has been unified for consistency across operating systems, while file format compatibility has been improved as well.&lt;/li&gt;
-&lt;li&gt;Finally, LibreOffice 5.3 is the first full source code release of LibreOffice online, a browser-based version of the suite that you can run on your private cloud infrastructure.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Writer&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;In LibreOffice 5.3, Writer has some great new features to make your documents shine.&lt;/li&gt;
-&lt;li&gt;Table styles are now supported, letting you apply formatting to a table which is preserved when you make edits to it.&lt;/li&gt;
-&lt;li&gt;A new Page deck in the sidebar lets you quickly customise page settings without having to go through a separate dialog box.&lt;/li&gt;
-&lt;li&gt;For faster navigation, a new Go to Page box lets you jump to another page in the document with just a few keypresses.&lt;/li&gt;
-&lt;li&gt;In the drawing tools, arrows that were previously only available in Draw and Impress can now be used in Writer.&lt;/li&gt;
-&lt;li&gt;Lastly, the toolbar includes a new Small Capitals button, and this formatting can also be applied via macros.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Calc&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;LibreOffice 5.3 has many improvements in Calc, to help you work smarter with spreadsheets.&lt;/li&gt;
-&lt;li&gt;A new set of default cell styles are now available, with greater variety and better names than in previous releases.&lt;/li&gt;
-&lt;li&gt;In fresh installations, &quot;Enable wildcards in formulas&quot; is now the default option, rather than regular expressions, to improve compatibility with other spreadsheet software.&lt;/li&gt;
-&lt;li&gt;When you're creating pivot tables, a new median function is now available.&lt;/li&gt;
-&lt;li&gt;The merge cells feature now lets you empty the contents of cells that are hidden after the merge.&lt;/li&gt;
-&lt;li&gt;Finally, when you're inserting a function, a new text entry box lets you narrow down the functions you're looking for.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Impress &amp;amp; Draw&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;In LibreOffice 5.3, Impress has been updated to make your presentations really stand out.&lt;/li&gt;
-&lt;li&gt;When you launch the software, a template selector now appears to get you off to a quick start.&lt;/li&gt;
-&lt;li&gt;Two new attractive templates have been included by default, whileothers have been improved as well.&lt;/li&gt;
-&lt;li&gt;When you're inserting images from a photo album, it's now possible to link these images so that they're not saved in the document itself.&lt;/li&gt;
-&lt;li&gt;Lastly, in slide master mode, slide properties are now available in the sidebar.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;For more details, see release announcement published in &lt;a href=&quot;https://blog.documentfoundation.org/blog/2017/02/01/the-document-foundation-announces-feature-rich-libreoffice-5-3/&quot;&gt;document foundation blog&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Document Foundation has announced release of LibreOffice 5.3, latest stable release of popular free and open source office suite. This release introduces a lot of new proffessional quality features which makes it more competing with other proprietary office suites. It will be immediately available for windows, GNU/Linux and macOS platforms and also for cloud platforms.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/LibreOffice%20Impress%20-%20Notebookbar.jpg" /></entry></feed>
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Mr Leann Ogasawara of Ubuntu engineering team has requested the release team to postpone Ubuntu 16.04.2 LTS release till February 9. This was owing to some serious booting issues found in arm64 systems.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/ubuntu16042-banner.png" /></entry></feed>
