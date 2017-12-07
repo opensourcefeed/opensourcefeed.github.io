@@ -3,14 +3,17 @@ layout: distribution
 uid: ubuntubudgie
 title: 'Ubuntu Budgie'
 Category: Distribution
+type: Linux
 permalink: /distribution/ubuntubudgie
 logo: ubuntubudgie.svg
 preview: ubuntu-budgie-preview.jpg
 home_page: http://ubuntubudgie.org/
 desktops: [budgie]
 base : [ubuntu]
+purchase:
+  OSDisc : "https://www.osdisc.com/products/ubuntubudgie"
 
-description : Ubuntu Budgie is an official community flavor of Ubuntu. It combines solid Ubuntu core with elegant, efficient and productive budgie desktop  developed by Solus project. Stories and updates on Ubuntu Budgie
+description : Ubuntu Budgie is an official flavor of Ubuntu combining solid Ubuntu core with elegant, efficient and productive budgie desktop, developed by Solus project.
 
 screenshots:
   Ubuntu Budgie 17.10 : "http://www.distroscreens.com/2017/10/ubuntu-budgie-1710-artful-aardvark.html"
@@ -32,6 +35,8 @@ reviews:
   Ubuntu Budgie 17.04 leaves a good impression despite of being a newbie : "http://www.open-source-feed.com/2017/06/ubuntu-budgie-1704-leaves-good.html"
 ---
 
-**Ubuntu Budgie** was started as an unofficial remix of Ubuntu on 2016. By end of the year, it was recognized as an official community flavor of Ubuntu. It combines solid Ubuntu core with elegant, efficient and productive budgie desktop  developed by Solus project.
+**Ubuntu Budgie** was started as an unofficial remix of Ubuntu in 2016. By end of the year, it was recognized as an official community flavor of Ubuntu. It combines solid Ubuntu core with elegant, efficient and productive budgie desktop, developed by Solus project.
 
 Ubuntu Budgie project does a fair amount of customization on vanilla budgie desktop to make it more appealing to end users and ships numerous applications that will have great value in day to day activities.
+
+One of the key attraction of Ubuntu Budgie is *Budgie Welcome*, an advanced application that takes users through various configuration options such as steam installation, multimedia codec installation, budgie applet installation ..etc. It also provides options to switch complete look & feel with a single click.

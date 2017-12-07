@@ -10,7 +10,8 @@ preview: linuxlite.jpg
 home_page: https://www.linuxliteos.com
 desktops: [xfce]
 base : [ubuntu]
-description: Linux Lite is a lightweight yet fully functional operating system built on top of Ubuntu. It features a wisely choosen set of applications to serve your day to day needs. More stories and updates on Linux Lite.
+
+description: Linux Lite is a lightweight, fully functional operating system built on top of Ubuntu. It includes a good collection of applications to serve your day to day needs.
 
 releases:
   Linux Lite 3.6 beta : "http://www.open-source-feed.com/2017/07/linux-lite-36-beta-announced-with.html"
@@ -32,4 +33,4 @@ reviews:
 
 **Linux Lite** is a lightweight operating system based on Ubuntu Long Term Supported (LTS) releases. This distribution features a highly customized Xfce desktop environment that comes with a fresh look & feel.
 
-Unlike many other GNU/Linux distributions, Linux Lite is not bloated with many packages and tools, instead it includes a single software for a specific purpose. Linux Lite includes tools like *Lite Tweaks*, *Lite Software*, *Lite User*, *Lite Configuration Center* ..etc to provide a better desktop experience.
+Unlike many other GNU/Linux distributions, Linux Lite is not bloated with many packages and tools, instead, it includes a single software for a specific purpose. Linux Lite includes tools like *Lite Tweaks*, *Lite Software*, *Lite User*, *Lite Configuration Center* ..etc to provide a better desktop experience.
