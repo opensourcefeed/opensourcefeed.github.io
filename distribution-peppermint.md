@@ -10,7 +10,7 @@ preview: peppermintos.jpg
 home_page: https://peppermintos.com
 desktops: [lxde]
 base : [ubuntu]
-description : Peppermint OS is a Lubuntu based, GNU/Linux distribution that tries to integrate cloud based applications with a desktop operating system. Stories, reviews and updates on Peppermint OS.
+description : Peppermint OS is a Lubuntu based, GNU/Linux distribution that tries to integrate cloud based applications with a desktop operating system.
 
 releases:
   Peppermint OS 8 : "http://www.open-source-feed.com/2017/05/peppermint-os-8-released-with-linux.html"
