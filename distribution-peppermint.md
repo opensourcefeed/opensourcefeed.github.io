@@ -1,6 +1,6 @@
 ---
 layout: distribution
-uid: peppermintos
+uid: peppermint
 title: 'Peppermint OS'
 Category: Distribution
 type : Linux
@@ -13,16 +13,17 @@ base : [ubuntu]
 description : Peppermint OS is a Lubuntu based, GNU/Linux distribution that tries to integrate cloud based applications with a desktop operating system.
 
 releases:
-  Peppermint OS 8 : "http://www.open-source-feed.com/2017/05/peppermint-os-8-released-with-linux.html"
-  Peppermint OS 7 Respin : "http://www.open-source-feed.com/2016/12/peppermint-7-respin-released.html"
-  Peppermint OS 7 : "http://www.open-source-feed.com/2016/12/peppermint-7-respin-released.html"
+  Peppermint 8 Respin : "../peppermint-8-respin-released-with-slick-greeter-updated-themes-more/"
+  Peppermint 8 : "http://www.open-source-feed.com/2017/05/peppermint-os-8-released-with-linux.html"
+  Peppermint 7 Respin : "http://www.open-source-feed.com/2016/12/peppermint-7-respin-released.html"
+  Peppermint 7 : "http://www.open-source-feed.com/2016/12/peppermint-7-respin-released.html"
 
 screenshots :
-  Peppermint OS 8 : "http://www.distroscreens.com/2017/06/peppermint-os-8-screenshots.html"
-  Peppermint OS 7 : "http://www.distroscreens.com/2016/06/peppermint-os-7-screenshots.html"
+  Peppermint 8 : "http://www.distroscreens.com/2017/06/peppermint-os-8-screenshots.html"
+  Peppermint 7 : "http://www.distroscreens.com/2016/06/peppermint-os-7-screenshots.html"
 
 stories:
-  "Peppermint OS 7 will launch on 30th June (2016)" : "http://www.open-source-feed.com/2016/06/peppermint-os-7-will-launch-on-30th-june.html"
+  "Peppermint 7 will launch on 30th June (2016)" : "http://www.open-source-feed.com/2016/06/peppermint-os-7-will-launch-on-30th-june.html"
 ---
 
 **Peppermint OS** is a Lubuntu based, GNU/Linux distribution that tries to integrate cloud based applications with a desktop operating system. As a model for this, Peppermint OS ships a few cloud based applications like Dropbox, Pixlr express and image editor, Gmail..etc.
