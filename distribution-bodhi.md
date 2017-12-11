@@ -3,17 +3,24 @@ layout: distribution
 uid: bodhi
 title: 'Bodhi Linux'
 Category: Distribution
+type : Linux
 permalink: /distribution/bodhi
 logo: bodhi-logo.png
 preview: bodhi linux.jpg
 home_page: http://www.bodhilinux.com/
 desktops: [moksha]
 base : [ubuntu]
-screenshots : 
+
+description: Bodhi Linux is minimal and resources efficient operating system based on Ubuntu LTS releases. It features Moksha desktop inspired by enlightenment 17 release.
+
+releases:
+  Bodhi Linux 4.4.0 : "http://www.bodhilinux.com/2017/12/08/bodhi-linux-4-4-0-released-november-donation-totals/"
+
+screenshots :
   Bodhi Linux 4.1.0 : "http://www.distroscreens.com/2017/01/bodhi-linux-410-screenshots.html"
   Bodhi Linux 3.2.0 : "http://www.distroscreens.com/2016/04/bodhi-linux-32-screenshots.html"
 ---
 
-**Bodhi Linux** is an *enlightened* distribution based on Ubuntu LTS releases. The main purpose of the project is to develop a minimal and resource efficient operating system. This distributions comes with a few number of essential applications and leaves the users with choice to select their prefered applications.
+**Bodhi Linux** is a *enlightened* distribution based on Ubuntu LTS releases. The main purpose of the project is to develop a minimal and resource efficient operating system. This distribution comes with a few essential applications and leaves the users with the choice to select their preferred applications.
 
-Bodhi Linux features Moksha Desktop environment, a lightweight environment inspired by Enlightenment 17 release.
+Bodhi Linux features Moksha Desktop environment, a lightweight desktop environment developed by Bodhi Linux team. Moksha Desktop is inspired by Enlightenment 17 release. The main purpose of developing a new desktop environment was to retain the Enlightenment 17 experience when enlightenment was moving to a different perspective of the desktop environment.
