@@ -11,10 +11,10 @@ home_page: https://mxlinux.org/
 desktops: [xfce]
 base: [debian]
 
-description : "MX Linux is a cooperative venture between the antiX and former MEPIS communities, using the
- best tools and talents from each distro. Stories, updates and reviews of MX Linux"
+description : "MX Linux is a cooperative venture between the antiX and former MEPIS communities, using the best tools and talents from each distributions."
 
 releases:
+  MX Linux 17 : "https://mxlinux.org/mx-17-released-december-15-2017"
   MX Linux 17 Beta 1 : "https://mxlinux.org/mx-17-beta-1"
 
 reviews:
@@ -24,7 +24,8 @@ reviews:
   MX 15 is fast, lean and works out of the box, but with some rough edges : "https://www.dedoimedo.com/computers/mx-15.html"
 ---
 
-**MX Linux** is a cooperative venture between the antiX and former MEPIS communities, using the
- best tools and talents from each distro. It is a midweight OS designed to combine an elegant and 
- efficient desktop with simple configuration, high stability, solid performance and medium-sized 
- footprint.
+**MX Linux** is a cooperative venture between the antiX and former MEPIS communities, using the best tools and talents from each distro. It is a midweight OS designed to combine an elegant and efficient desktop with simple configuration, high stability, solid performance and medium-sized footprint.
+
+Being a Debian based distribution, MX Linux ships stable Kernel from latest stable Debian release and also provides latest Liquorix Kernel. The user can easily switch between these Kernels using MX Linux Installer.
+
+MX Linux ships [Xfce](/desktop/xfce) as default desktop environment. It is configured to be maximum productive without compromising performance & user experience.
