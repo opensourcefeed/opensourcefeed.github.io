@@ -17,6 +17,9 @@ releases:
   MX Linux 17 : "https://mxlinux.org/mx-17-released-december-15-2017"
   MX Linux 17 Beta 1 : "https://mxlinux.org/mx-17-beta-1"
 
+screenshots:
+  MX Linux 17.0 : "https://goo.gl/F1oHqe"
+
 reviews:
   MX Linux 16 is a wind of change : "https://www.dedoimedo.com/computers/mx-16.html"
   MX Linux 16 is lightweight and effective, but not for newbies : "http://distrowatch.com/weekly.php?issue=20170109#mx"
