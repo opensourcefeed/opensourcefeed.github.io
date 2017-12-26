@@ -306,6 +306,9 @@
 <loc>http://localhost:4000/distribution/shark</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/slax</loc>
+</url>
+<url>
 <loc>http://localhost:4000/distribution/solus</loc>
 </url>
 <url>
