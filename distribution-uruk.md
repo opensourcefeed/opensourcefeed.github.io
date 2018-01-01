@@ -15,6 +15,7 @@ description : "Uruk GNU/Linux is a 100% libre OS with the objective of providing
 
 
 releases:
+  "Uruk 2.0 Xfce edition" : "/uruk-20-xfce-edition-is-available-now/"
   "Uruk GNU/Linux 2.0" : "../uruk-gnu-linux-20-released/"
 
 screenshots:
