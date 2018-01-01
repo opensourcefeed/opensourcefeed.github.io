@@ -1,38 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-01T20:21:49+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of free &amp; open-source distributions and desktop environments
-</subtitle><entry><title type="html">Calculate Linux 17.12 released with support for RAID</title><link href="http://localhost:4000/calculate-linux-1712-released-with-support-for-raid/" rel="alternate" type="text/html" title="Calculate Linux 17.12 released with support for RAID" /><published>2018-01-01T00:00:00+05:30</published><updated>2018-01-01T00:00:00+05:30</updated><id>http://localhost:4000/calculate-linux-1712-released-with-support-for-raid</id><content type="html" xml:base="http://localhost:4000/calculate-linux-1712-released-with-support-for-raid/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; Alexander Tratsevskiy on behalf of Calculate Linux team has announced the release of Calculate Linux 17.12. This release brings support for installation on the RAID (Redundant Array of Inexpensive Disks) without losing fine tuning between performance and resource consumption.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-01T21:36:04+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of free &amp; open-source distributions and desktop environments
+</subtitle><entry><title type="html">Siduction 2018.1.0 released, based on Debian unstable</title><link href="http://localhost:4000/siduction-201810-released-based-on-debian-unstable/" rel="alternate" type="text/html" title="Siduction 2018.1.0 released, based on Debian unstable" /><published>2018-01-01T00:00:00+05:30</published><updated>2018-01-01T00:00:00+05:30</updated><id>http://localhost:4000/siduction-201810-released-based-on-debian-unstable</id><content type="html" xml:base="http://localhost:4000/siduction-201810-released-based-on-debian-unstable/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Siduction community has released Siduction 2018.1.0, the first release of Debian unstable based GNU/Linux distribution in 2018. This release is built on top of Debian unstable snapshot from 29th December 2017 with some enhancements like a brand new installer, various useful scripts &amp;amp; packages, and a patched Linux Kernel.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/cld-mini.jpg&quot; alt=&quot;File picture of Calculate Linux 17.0&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/siduction201810.png&quot; alt=&quot;Siduction 2018.1.0 banner&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Calculate Linux 17.12 is available in 8 different flavors. The Calculate Linux Desktop (CLD) comes with KDE Plasma. There are other alternative desktop flavors featuring Cinnamon, MATE &amp;amp; XFCE. In addition to desktop flavors, it includes Calculate Directory Server (CDS), Calculate Linux Scratch (CLS), Calculate Scratch Server (CSS) and Calculate Container Scratch (CCS).&lt;/p&gt;
+&lt;p&gt;Sidcution 2018.1.0 comes in various flavors. The desktop flavors include KDE, LXQt, GNOME, Cinnamon, MATE, XFCE, LXDE, Xorg, and noX. Currently, GNOME, MATE &amp;amp; LXDE flavors and largely unmaintained. Depending on the availability of volunteers, these flavors may be discontinued in future.&lt;/p&gt;
 
-&lt;p&gt;Some of the notable highlights in Calculate Linux 17.12 can be summarized as follows:&lt;/p&gt;
+&lt;p&gt;Quoting from &lt;a href=&quot;https://news.siduction.org/2017/12/release-notes-for-siduction-2018-1-0/&quot;&gt;original release announcement for Siduction 2018.1.0&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Installation&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;SoftRaid support added.&lt;/li&gt;
-    &lt;li&gt;Fixed autopartitioning problems.&lt;/li&gt;
-    &lt;li&gt;Third-party overlays supported.&lt;/li&gt;
-  &lt;/ul&gt;
+  &lt;p&gt;KDE Plasma stands at version 5.10.5, while GNOME comes in at 3.26 with
+some packages still at 3.24. LXQt ships at 0.12.0 and Xfce at 4.12.4, while
+Cinnamon comes in at 3.4.6 and MATE at 1.18.3. Sadly, right now, GNOME,
+MATE and LXDE are largely unmaintained. If no one steps up to keep them in a releasable state, we might have to drop these flavors with our next release. The corresponding packages will stay in the archives.&lt;/p&gt;
 
-  &lt;p&gt;&lt;strong&gt;Performance&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;The Calculate Utilities server does not run in the background. Instead, it is launched by D-Bus.&lt;/li&gt;
-    &lt;li&gt;The MuQSS patch was included in the kernel configuration for better application task scheduling.&lt;/li&gt;
-    &lt;li&gt;The UKSM patch was included in the kernel configuration for less memory load.&lt;/li&gt;
-    &lt;li&gt;PAE binary kernel supported for 32-bit systems.&lt;/li&gt;
-    &lt;li&gt;All server kernel settings optimized.&lt;/li&gt;
-  &lt;/ul&gt;
-
-  &lt;p&gt;&lt;strong&gt;Miscellaneous&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;GCC completely updated to v6.4 and the kernel updated to v 4.14.&lt;/li&gt;
-    &lt;li&gt;In CLDC, CLDM and CLDX Pidgin were replaced by Gajim. The “httpupload, “image” and “URL image preview” come included.&lt;/li&gt;
-    &lt;li&gt;The LXC/LXD container version was renamed to Calculate Container Scratch (CCS).&lt;/li&gt;
-    &lt;li&gt;11 493 binary packages are available.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You can read &lt;a href=&quot;http://www.calculate-linux.org/blogs/en/681/show&quot;&gt;original Calculate Linux 17.12 release announcement&lt;/a&gt; in projects website.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mr Alexander Tratsevskiy on behalf of Calculate Linux team has announced the release of Calculate Linux 17.12. This release brings support for installation on the RAID (Redundant Array of Inexpensive Disks) without losing fine tuning between performance and resource consumption.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/cld-mini.jpg" /></entry><entry><title type="html">Calculate Linux 17.12 released with support for RAID</title><link href="http://localhost:4000/calculate-linux-1712-released-with-support-for-raid/" rel="alternate" type="text/html" title="Calculate Linux 17.12 released with support for RAID" /><published>2018-01-01T00:00:00+05:30</published><updated>2018-01-01T00:00:00+05:30</updated><id>http://localhost:4000/calculate-linux-1712-released-with-support-for-raid</id><content type="html" xml:base="http://localhost:4000/calculate-linux-1712-released-with-support-for-raid/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; Alexander Tratsevskiy on behalf of Calculate Linux team has announced the release of Calculate Linux 17.12. This release brings support for installation on the RAID (Redundant Array of Inexpensive Disks) without losing fine tuning between performance and resource consumption.&lt;/p&gt;
+  &lt;p&gt;This release comes with the name “patience 2018.1.0”. How we deal with
+this in the future is unclear. The next release, which might be there in March, in advance of CLT 2018, will ship whatever we come up with. Maybe it’ll be just numbered…&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">The Siduction community has released Siduction 2018.1.0, the first release of Debian unstable based GNU/Linux distribution in 2018. This release is built on top of Debian unstable snapshot from 29th December 2017 with some enhancements like a brand new installer, various useful scripts &amp;amp; packages, and a patched Linux Kernel.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/siduction201810.png" /></entry><entry><title type="html">Calculate Linux 17.12 released with support for RAID</title><link href="http://localhost:4000/calculate-linux-1712-released-with-support-for-raid/" rel="alternate" type="text/html" title="Calculate Linux 17.12 released with support for RAID" /><published>2018-01-01T00:00:00+05:30</published><updated>2018-01-01T00:00:00+05:30</updated><id>http://localhost:4000/calculate-linux-1712-released-with-support-for-raid</id><content type="html" xml:base="http://localhost:4000/calculate-linux-1712-released-with-support-for-raid/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; Alexander Tratsevskiy on behalf of Calculate Linux team has announced the release of Calculate Linux 17.12. This release brings support for installation on the RAID (Redundant Array of Inexpensive Disks) without losing fine tuning between performance and resource consumption.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/post-images/cld-mini.jpg&quot; alt=&quot;File picture of Calculate Linux 17.0&quot; /&gt;&lt;/p&gt;
 
@@ -86,27 +68,6 @@
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;You may also proceed to read original &lt;a href=&quot;http://www.slax.org/blog/24578-Slax-9-3-is-here.html&quot;&gt;Slax 9.3 release announcement&lt;/a&gt; in project’s website.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mr Tomas M, developer of Slax has announced the release of Slax 9.3, the latest stable release of Debian based, live GNU/Linux distribution that follows a modular design approach. One of the major highlights of this release is the inclusion of various firmware drivers to provide better support for WiFi devices.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/slax93.jpg" /></entry><entry><title type="html">Slax 9.3 released with improved WiFi support</title><link href="http://localhost:4000/slax-93-released-with-improved-wifi-support/" rel="alternate" type="text/html" title="Slax 9.3 released with improved WiFi support" /><published>2017-12-25T00:00:00+05:30</published><updated>2017-12-25T00:00:00+05:30</updated><id>http://localhost:4000/slax-93-released-with-improved-wifi-support</id><content type="html" xml:base="http://localhost:4000/slax-93-released-with-improved-wifi-support/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Tomas M&lt;/em&gt;, developer of Slax has announced the release of Slax 9.3, the latest stable release of Debian based, live GNU/Linux distribution that follows a modular design approach. One of the major highlights of this release is the inclusion of various firmware drivers to provide better support for WiFi devices.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/slax93.jpg&quot; alt=&quot;Application Launcher in Slax 9.3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The inclusion of additional firmware drivers makes the Slax image a little bigger (around 40 MB). Though, this can be justified by support for various WiFi devices. A bigger distribution with network capabilities is definitely better than a small distribution without networking capabilities.&lt;/p&gt;
-
-&lt;p&gt;Other notable changes in Slax 9.3 includes:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;There were some regression tests to identify issues while booting from alternative file systems. Some of the issues have been identified and corrected during this phase. This mainly includes the ability to boot from NTFS and ext4 file systems.&lt;/li&gt;
-    &lt;li&gt;If booted from a writable storage medium, Slax enables persistence by default.&lt;/li&gt;
-    &lt;li&gt;added pcmanfm as file manager for GUI&lt;/li&gt;
-    &lt;li&gt;added wicd as wifi network manager&lt;/li&gt;
-    &lt;li&gt;xLunch now auto updates, to see newly installed apps&lt;/li&gt;
-    &lt;li&gt;hard drives are mounted on boot and bookmarks added to pcmanfm&lt;/li&gt;
-    &lt;li&gt;keyboard layout stays persistent&lt;/li&gt;
-    &lt;li&gt;screen resolution change is reimplemented to make it work better&lt;/li&gt;
-    &lt;li&gt;syslinux updated to newest version&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
 &lt;p&gt;You may also proceed to read original &lt;a href=&quot;http://www.slax.org/blog/24578-Slax-9-3-is-here.html&quot;&gt;Slax 9.3 release announcement&lt;/a&gt; in project’s website.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mr Tomas M, developer of Slax has announced the release of Slax 9.3, the latest stable release of Debian based, live GNU/Linux distribution that follows a modular design approach. One of the major highlights of this release is the inclusion of various firmware drivers to provide better support for WiFi devices.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/slax93.jpg" /></entry><entry><title type="html">ArchLabs 2017.12 released with various look &amp;amp; feel improvements</title><link href="http://localhost:4000/archlabs-201712-released-with-various-look-feel-improvements/" rel="alternate" type="text/html" title="ArchLabs 2017.12 released with various look &amp; feel improvements" /><published>2017-12-24T00:00:00+05:30</published><updated>2017-12-24T00:00:00+05:30</updated><id>http://localhost:4000/archlabs-201712-released-with-various-look-feel-improvements</id><content type="html" xml:base="http://localhost:4000/archlabs-201712-released-with-various-look-feel-improvements/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; &lt;em&gt;ArchLabs&lt;/em&gt; Linux team has announced the release of ArchLabs 2017.12, the latest stable release of Arch based GNU/Linux distribution featuring customized open box desktop environment. This release brings various package updates from upstream project, ie, Arch and other cool improvements in visual experience.&lt;/p&gt;
 
 &lt;p&gt;ArchLabs as an Arch based distribution, usually ships rolling release. However, considering some significant changes in the distribution, ArchLabs team decided to ship another snapshot release. This will be the final release of project in this year.&lt;/p&gt;
@@ -130,57 +91,7 @@
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;For more information, see &lt;a href=&quot;https://archlabslinux.com/2017/12/23/rounding-out-2017-with-a-final-release/&quot;&gt;ArchLabs 2017.12 release announcement&lt;/a&gt; published in projects website.&lt;/p&gt;</content><author><name></name></author><summary type="html">The ArchLabs Linux team has announced the release of ArchLabs 2017.12, the latest stable release of Arch based GNU/Linux distribution featuring customized open box desktop environment. This release brings various package updates from upstream project, ie, Arch and other cool improvements in visual experience.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/archlabs_2017-12-22-24_1366x768.png" /></entry><entry><title type="html">ArchLabs 2017.12 released with various look &amp;amp; feel improvements</title><link href="http://localhost:4000/archlabs-201712-released-with-various-look-feel-improvements/" rel="alternate" type="text/html" title="ArchLabs 2017.12 released with various look &amp; feel improvements" /><published>2017-12-24T00:00:00+05:30</published><updated>2017-12-24T00:00:00+05:30</updated><id>http://localhost:4000/archlabs-201712-released-with-various-look-feel-improvements</id><content type="html" xml:base="http://localhost:4000/archlabs-201712-released-with-various-look-feel-improvements/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; &lt;em&gt;ArchLabs&lt;/em&gt; Linux team has announced the release of ArchLabs 2017.12, the latest stable release of Arch based GNU/Linux distribution featuring customized open box desktop environment. This release brings various package updates from upstream project, ie, Arch and other cool improvements in visual experience.&lt;/p&gt;
-
-&lt;p&gt;ArchLabs as an Arch based distribution, usually ships rolling release. However, considering some significant changes in the distribution, ArchLabs team decided to ship another snapshot release. This will be the final release of project in this year.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/archlabs_2017-12-22-24_1366x768.png&quot; alt=&quot;A preview of ArchLabs 2017.12&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;One of the major change in ArchLabs 2017.12 is the removal of Calamares installer in favor of ABIF. This was done by the discretion of core developers. It will also help the distribution to cut the image size by a few megabytes.&lt;/p&gt;
-
-&lt;p&gt;Other highlights in ArchLabs 2017.12 includes:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;jgmenu a very cool menu has been added to Polybar.&lt;/li&gt;
-    &lt;li&gt;Polybar itself has had another makeover, and I think it is looking super sharp.&lt;/li&gt;
-    &lt;li&gt;Pacli has been forked for use with ArchLabs.  All the options now work as they should.&lt;/li&gt;
-    &lt;li&gt;new default monospaced font has been added, the very stylish Fantasque Sans font.&lt;/li&gt;
-    &lt;li&gt;The obligatory change to the default wallpaper, which is pretty much expected upon every release.  I personally have prescribed to the “Ubuntu Theorem of New Release Wallpaper“, which is “slightly changed but still the same”.  I think this brings a consistent and recognizable look to ArchLabs.&lt;/li&gt;
-    &lt;li&gt;Numerous minor changes across the board.&lt;/li&gt;
-    &lt;li&gt;Polybar-zen, that’s all I’m saying…..lol.&lt;/li&gt;
-    &lt;li&gt;Oblogout has been removed, rofi-logout has replaced this.  Looks good too.&lt;/li&gt;
-    &lt;li&gt;Al-Hello has had another upgrade and is looking incredible.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
 &lt;p&gt;For more information, see &lt;a href=&quot;https://archlabslinux.com/2017/12/23/rounding-out-2017-with-a-final-release/&quot;&gt;ArchLabs 2017.12 release announcement&lt;/a&gt; published in projects website.&lt;/p&gt;</content><author><name></name></author><summary type="html">The ArchLabs Linux team has announced the release of ArchLabs 2017.12, the latest stable release of Arch based GNU/Linux distribution featuring customized open box desktop environment. This release brings various package updates from upstream project, ie, Arch and other cool improvements in visual experience.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/archlabs_2017-12-22-24_1366x768.png" /></entry><entry><title type="html">TrueOS 17.12 released with improved stability</title><link href="http://localhost:4000/trueos-1712-released-with-improved-stability/" rel="alternate" type="text/html" title="TrueOS 17.12 released with improved stability" /><published>2017-12-14T00:00:00+05:30</published><updated>2017-12-14T00:00:00+05:30</updated><id>http://localhost:4000/trueos-1712-released-with-improved-stability</id><content type="html" xml:base="http://localhost:4000/trueos-1712-released-with-improved-stability/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; &lt;em&gt;TrueOS&lt;/em&gt; team has announced the release of TrueOS 17.12, latest 6 monthly stable release of FreeBSD based desktop BSD operating system. This release comes with improved stability to provide a more reliable experience.&lt;/p&gt;
-
-&lt;p&gt;There are dramatic improvements in various components &amp;amp; tasks such as OpenRC, boot speed, removable device management, SysAdm API integrations ..etc. The Lumina Desktop has also got several improvements since the previous release.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/post-images/trueos17.12.jpg&quot; alt=&quot;TrueOS 17.12 release banner&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In addition to the changes in the desktop release, the team was also working on TrueOS server edition. As a proof of this, the team has introduced a new text-based server image with support for Virtualization systems such as &lt;em&gt;bhyve&lt;/em&gt;. This server image also takes advantage of various improvements in FreeBSD.&lt;/p&gt;
-
-&lt;p&gt;Some of the important highlights in TrueOS 17.12 release can be summarized as:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Over 1100 OpenRC services have been created for 3rd-party packages. This should ensure the functionality of nearly all available 3rd-party packages that install/use their own services.&lt;/li&gt;
-    &lt;li&gt;The OpenRC services for FreeBSD itself have been overhauled, resulting in significantly shorter boot times.&lt;/li&gt;
-    &lt;li&gt;Separate install images for desktops and servers (server image uses a text/console installer). The server image provides support for Bhyve.&lt;/li&gt;
-    &lt;li&gt;FreeBSD base is synced with 12.0-CURRENT as of December 4th, 2017 (Github commit: 209d01f)&lt;/li&gt;
-    &lt;li&gt;FreeBSD ports tree is synced as of November 30th (pre-FLAVOR changes)&lt;/li&gt;
-    &lt;li&gt;Lumina Desktop has been updated/developed from 1.3.0 to 1.4.1&lt;/li&gt;
-    &lt;li&gt;PCDM now supports multiple simultaneous graphical sessions&lt;/li&gt;
-    &lt;li&gt;Removable devices are now managed through the “automounter” service.&lt;/li&gt;
-    &lt;li&gt;Devices are “announced” as available to the system via .desktop shortcuts in /media. These shortcuts also contain a variety of optional “Actions” that may be performed on the device.&lt;/li&gt;
-    &lt;li&gt;Devices are only mounted while they are being used (such as when browsing via the command line or a file manager).&lt;/li&gt;
-    &lt;li&gt;Devices are automatically unmounted as soon as they stop being accessed.&lt;/li&gt;
-    &lt;li&gt;Integrated support for all major filesystems (UFS, EXT, FAT, NTFS, ExFAT, etc..)&lt;/li&gt;
-    &lt;li&gt;The TrueOS update system has moved to an “active” update backend. This means that the user will need to actually start the update process by clicking the “Update Now” button in SysAdm, Lumina, or PCDM (as well as the command-line option). The staging of the update files is still performed automatically by default but this (and many other options) can be easily changed in the “Update Manager” settings as desired.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For more information, proceed to &lt;a href=&quot;https://www.trueos.org/blog/trueos-17-12-release/&quot;&gt;TrueOS 17.12 release announcement&lt;/a&gt; published in projects website.&lt;/p&gt;</content><author><name></name></author><summary type="html">The TrueOS team has announced the release of TrueOS 17.12, latest 6 monthly stable release of FreeBSD based desktop BSD operating system. This release comes with improved stability to provide a more reliable experience.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/trueos17.12.jpg" /></entry><entry><title type="html">TrueOS 17.12 released with improved stability</title><link href="http://localhost:4000/trueos-1712-released-with-improved-stability/" rel="alternate" type="text/html" title="TrueOS 17.12 released with improved stability" /><published>2017-12-14T00:00:00+05:30</published><updated>2017-12-14T00:00:00+05:30</updated><id>http://localhost:4000/trueos-1712-released-with-improved-stability</id><content type="html" xml:base="http://localhost:4000/trueos-1712-released-with-improved-stability/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; &lt;em&gt;TrueOS&lt;/em&gt; team has announced the release of TrueOS 17.12, latest 6 monthly stable release of FreeBSD based desktop BSD operating system. This release comes with improved stability to provide a more reliable experience.&lt;/p&gt;
 
 &lt;p&gt;There are dramatic improvements in various components &amp;amp; tasks such as OpenRC, boot speed, removable device management, SysAdm API integrations ..etc. The Lumina Desktop has also got several improvements since the previous release.&lt;/p&gt;
 
@@ -233,30 +144,82 @@
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;For more information, see &lt;a href=&quot;https://peppermintos.com/2017/12/peppermint-8-respin-released/&quot;&gt;original release announcement for Peppermint 8 Respin&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Peppermint OS team has announced the release of Peppermint 8 Respin, a minor release of Lubuntu based desktop operating system featuring cloud based applications. Similar to previous releases, this release also brings 64 bit and 32 bit installation images. The 64 bit release provides complete support for UEFI systems and secure boot.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/peppermint8respin.jpg" /></entry><entry><title type="html">Peppermint 8 Respin released with slick greeter, updated themes &amp;amp; more</title><link href="http://localhost:4000/peppermint-8-respin-released-with-slick-greeter-updated-themes-more/" rel="alternate" type="text/html" title="Peppermint 8 Respin released with slick greeter, updated themes &amp; more" /><published>2017-12-09T00:00:00+05:30</published><updated>2017-12-09T00:00:00+05:30</updated><id>http://localhost:4000/peppermint-8-respin-released-with-slick-greeter-updated-themes-more</id><content type="html" xml:base="http://localhost:4000/peppermint-8-respin-released-with-slick-greeter-updated-themes-more/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Peppermint OS team has announced the release of Peppermint 8 Respin, a minor release of Lubuntu based desktop operating system featuring cloud based applications. Similar to previous releases, this release also brings 64 bit and 32 bit installation images. The 64 bit release provides complete support for UEFI systems and secure boot.&lt;/p&gt;
+&lt;p&gt;For more information, see &lt;a href=&quot;https://peppermintos.com/2017/12/peppermint-8-respin-released/&quot;&gt;original release announcement for Peppermint 8 Respin&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Peppermint OS team has announced the release of Peppermint 8 Respin, a minor release of Lubuntu based desktop operating system featuring cloud based applications. Similar to previous releases, this release also brings 64 bit and 32 bit installation images. The 64 bit release provides complete support for UEFI systems and secure boot.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/peppermint8respin.jpg" /></entry><entry><title type="html">Uruk GNU/Linux 2.0 released</title><link href="http://localhost:4000/uruk-gnu-linux-20-released/" rel="alternate" type="text/html" title="Uruk GNU/Linux 2.0 released" /><published>2017-12-06T00:00:00+05:30</published><updated>2017-12-06T00:00:00+05:30</updated><id>http://localhost:4000/uruk-gnu-linux-20-released</id><content type="html" xml:base="http://localhost:4000/uruk-gnu-linux-20-released/">&lt;p&gt;&lt;strong&gt;Inspired&lt;/strong&gt; by the wide reach of Uruk 1.0, the Uruk project has announced the release of Uruk GNU/Linux 2.0. This is the second release of 100% libre GNU/Linux distribution built using Trisquel repositories.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/peppermint8respin.jpg&quot; alt=&quot;Peppermint 8 Respin banner&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The Uruk GNU/Linux team was excited to see the wide reach of their first most release, especially in Libre OS communities. Learning from their experience with Uruk 1.0, they’ve taken more effort to deliver a better release, ie, Uruk 2.0. Uruk 2.0 will be known by the code name &lt;em&gt;lugalbanda&lt;/em&gt; which has root on a character mentioned in Sumerian mythology and literature and ancient Iraq history.&lt;/p&gt;
 
-&lt;p&gt;Being a minor release in Peppermint 8 series, the &lt;em&gt;Respin&lt;/em&gt; release brings some package updates &amp;amp; bug fixes. Following are some significant changes introduced in Peppermint 8 Respin.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/preview/uruk1.0.jpg&quot; alt=&quot;A file picture of Uruk GNU/Linux 1.0. Uruk GNU/Linux 2.0 screenshots will be published in Distroscreens soon&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The main highlights of Uruk GNU/Linux 2.0 release includes, but not limited to:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;ul&gt;
-    &lt;li&gt;Nemo 3.4.7 - It seems more stable during large file operations, and now has a separate process for controlling the desktop.&lt;/li&gt;
-    &lt;li&gt;OpenVPN updated in the repos to version OpenVPN 2.4.4 to support mixed mode IPv4/IPv6 VPN’s.&lt;/li&gt;
-    &lt;li&gt;Switched from lightdm-gtk-greeter to slick-greeter, to provide a much simple and elegant login screen.&lt;/li&gt;
-    &lt;li&gt;Added a desktop right-click “Open Peppermint Settings Panel” context menu item.&lt;/li&gt;
-    &lt;li&gt;Installed mint-translations, so included mint applications are now available with non-English translations.&lt;/li&gt;
-    &lt;li&gt;Fixed peppermint-proxy-configuration on the 32bit ISO.&lt;/li&gt;
-    &lt;li&gt;Improved i3lock lock-screen, similar to the previous one but with a neater looking clock that can be changed between 12hr and 24hr&lt;/li&gt;
-    &lt;li&gt;Advert Blocker reinstated by request, available in the main menu not in the Peppermint Settings Panel.&lt;/li&gt;
-    &lt;li&gt;New &lt;em&gt;Peppirus&lt;/em&gt; icon theme &amp;amp; Gtk theme.&lt;/li&gt;
-    &lt;li&gt;Changed default wallpaper to Peppermint-3D-Logo-Alternative.&lt;/li&gt;
-    &lt;li&gt;Three additional Ray Bilcliff wallpapers.&lt;/li&gt;
-    &lt;li&gt;Disabled Gtk overlay scrollbars, so the scrollbars don’t overlay other window content making it difficult to see.&lt;/li&gt;
-    &lt;li&gt;Repository now contain tweaked versions of screenfetch and neofetch with custom Peppermint logo ASCII art.&lt;/li&gt;
-    &lt;li&gt;Slightly larger terminal window defaults so neofetch/screenfetch have the room necessary to display properly.&lt;/li&gt;
-    &lt;li&gt;Started adding non-English translated versions of ICE to the repos .. more languages will be added later as we create them (we’re putting in a lot of effort into having full non-English translations for ALL applications hopefully by Peppermint 9).&lt;/li&gt;
-    &lt;li&gt;All other updates from Lubuntu 16.04.x LTS series.&lt;/li&gt;
+    &lt;li&gt;A new repository for Uruk GNU/Linux 2.0&lt;/li&gt;
+    &lt;li&gt;linux-libre 4.9.66 lts - A long term supported version of Linux-Libre Kernel. Linux-Libre is a variation of Linux Kernel without any proprietary blobs.&lt;/li&gt;
+    &lt;li&gt;gcc 7&lt;/li&gt;
+    &lt;li&gt;mate 1.12.1&lt;/li&gt;
+    &lt;li&gt;Abrowser 57&lt;/li&gt;
+    &lt;li&gt;New welcome screen&lt;/li&gt;
+    &lt;li&gt;replace MDM with LightDM as a default DM&lt;/li&gt;
+    &lt;li&gt;New control center&lt;/li&gt;
+    &lt;li&gt;Guix Installer&lt;/li&gt;
+    &lt;li&gt;Redesigned with new themes, cursor and wallpapers.&lt;/li&gt;
+    &lt;li&gt;Includes various applications which will find use in day to day life, such as thunderbird, deluge, ffmulticonverter, vlc, libreoffice, rose crypt, uruk cleaner, AIA, diskman indicator, lightdm setting, gimp, upms, . . . and more.&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;For more information, see &lt;a href=&quot;https://peppermintos.com/2017/12/peppermint-8-respin-released/&quot;&gt;original release announcement for Peppermint 8 Respin&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Peppermint OS team has announced the release of Peppermint 8 Respin, a minor release of Lubuntu based desktop operating system featuring cloud based applications. Similar to previous releases, this release also brings 64 bit and 32 bit installation images. The 64 bit release provides complete support for UEFI systems and secure boot.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/peppermint8respin.jpg" /></entry></feed>
+&lt;p&gt;You may also read &lt;a href=&quot;https://blog.urukproject.org/en/index.php/welcome/uruk-gnu-linux-20&quot;&gt;Uruk GNU/Linux 2.0 release announcement&lt;/a&gt; published on project’s blog.&lt;/p&gt;</content><author><name></name></author><summary type="html">Inspired by the wide reach of Uruk 1.0, the Uruk project has announced the release of Uruk GNU/Linux 2.0. This is the second release of 100% libre GNU/Linux distribution built using Trisquel repositories.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/preview/uruk1.0.jpg" /></entry><entry><title type="html">Puppy Linux 7.5, Xenialpup released</title><link href="http://localhost:4000/puppy-linux-75-xenialpup-released/" rel="alternate" type="text/html" title="Puppy Linux 7.5, Xenialpup released" /><published>2017-12-06T00:00:00+05:30</published><updated>2017-12-06T00:00:00+05:30</updated><id>http://localhost:4000/puppy-linux-75-xenialpup-released</id><content type="html" xml:base="http://localhost:4000/puppy-linux-75-xenialpup-released/">&lt;p&gt;&lt;strong&gt;The Puppy Linux&lt;/strong&gt; team has announced the release of Puppy Linux 7.5 &lt;em&gt;Xenialpup&lt;/em&gt;. Following the tradition of Puppy releases, this release also brings a small sized, fast and versatile operating system.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/xenialpup.jpg&quot; alt=&quot;A preview of Xenialpup&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Xenialpup comes with 32 bit and 64 bit flavors. The 32 bit flavor includes Linux Kernel 4.4.95-noPAE which can provide better support for older hardware. While the 64 bit flavor includes Linux Kernel 4.9.58 for better modern hardware support.&lt;/p&gt;
+
+&lt;p&gt;In addition to Kernel updates, following are some highlights in Xenialpup 7.5 release:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;JWM window manager and ROX file manager.&lt;/li&gt;
+    &lt;li&gt;Palemoon browser and Claws mail client.&lt;/li&gt;
+    &lt;li&gt;FTP, Torrent, and Chat applications.&lt;/li&gt;
+    &lt;li&gt;MPV media player, Simple Screen Recorder, and Deadbeef audio player.&lt;/li&gt;
+    &lt;li&gt;Abiword word processor and Gnumeric Spread sheet application.&lt;/li&gt;
+    &lt;li&gt;Vector and Drawing applications.&lt;/li&gt;
+    &lt;li&gt;Samba file sharing, CUPS printing and CD/DVD utilities.&lt;/li&gt;
+    &lt;li&gt;Quickpet, a utility to easily install to the most popular additional applications, OS updates &amp;amp; bugfixes.&lt;/li&gt;
+    &lt;li&gt;Lots of in house puppy-specific applications such as Pburn, Uextract, Packit, Change_kernels, JWMdesk, YASSM, Pclock, SimpleGTKradio as well as a wide range of many other up to date programs and utilities.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For more information, see &lt;a href=&quot;http://blog.puppylinux.com/?viewDetailed=00047&quot;&gt;original release announcement of Puppylinux 7.5&lt;/a&gt; published in project’s blog.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Puppy Linux team has announced the release of Puppy Linux 7.5 Xenialpup. Following the tradition of Puppy releases, this release also brings a small sized, fast and versatile operating system.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/xenialpup.jpg" /></entry><entry><title type="html">deepin 15.5 released with complete HiDPI compatiblity</title><link href="http://localhost:4000/deepin-155-released-with-complete-hidpi-compatiblity/" rel="alternate" type="text/html" title="deepin 15.5 released with complete HiDPI compatiblity" /><published>2017-12-01T00:00:00+05:30</published><updated>2017-12-01T00:00:00+05:30</updated><id>http://localhost:4000/deepin-155-released-with-complete-hidpi-compatiblity</id><content type="html" xml:base="http://localhost:4000/deepin-155-released-with-complete-hidpi-compatiblity/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; deepin release engineering team has announced availability of deepin 15.5, latest stable release of Debian based, beautiful and userfriendly GNU/Linux distribution. This release includes various feature improvements and othe package updates.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/deepin15.5.jpg&quot; alt=&quot;deepin 15.5 provides complete HD support&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The main highlights of deepin 15.5 includes:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Full HD support - deepin 15.5 is capable to identify various HD displays and adapt proper resolution for fonts, screen and icons ..etc&lt;/li&gt;
+    &lt;li&gt;Easy backup &amp;amp; restore function - deepin 15.5 includes Deepin Clone to backup, restore your precious data. You can also fix boot issues using Deepin Recovery tool.&lt;/li&gt;
+    &lt;li&gt;Support for WiFi hotpsot - Now, you can enable a WiFi hotspot in your deepin operating system. It lets you to share network with others.&lt;/li&gt;
+    &lt;li&gt;Finger print recognizion and more gesture functions&lt;/li&gt;
+    &lt;li&gt;Autocolor and temperature adjust to protect your eyes.&lt;/li&gt;
+    &lt;li&gt;Various updated applications in deepin eco-system and also various upstream projects.&lt;/li&gt;
+    &lt;li&gt;Several improvements in various deepin modules and visual elements.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For a complete list of changes, read &lt;a href=&quot;https://www.deepin.org/en/2017/11/30/deepin-15-5-know-what-you-want-offer-what-you-need/&quot;&gt;original release announcement for deepin 15.5&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">The deepin release engineering team has announced availability of deepin 15.5, latest stable release of Debian based, beautiful and userfriendly GNU/Linux distribution. This release includes various feature improvements and othe package updates.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/deepin15.5.jpg" /></entry><entry><title type="html">Linux Mint 18.3 Sylvia MATE &amp;amp; Cinnamon editions released</title><link href="http://localhost:4000/linux-mint-183-sylvia-mate-and-cinnamon-editions-released/" rel="alternate" type="text/html" title="Linux Mint 18.3 Sylvia MATE &amp; Cinnamon editions released" /><published>2017-11-27T00:00:00+05:30</published><updated>2017-11-27T00:00:00+05:30</updated><id>http://localhost:4000/linux-mint-183-sylvia-mate-and-cinnamon-editions-released</id><content type="html" xml:base="http://localhost:4000/linux-mint-183-sylvia-mate-and-cinnamon-editions-released/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Linux Mint team has announced release of Linux Mint 18.3 MATE &amp;amp; Cinnamon editions with code name &lt;em&gt;Sylvia&lt;/em&gt;. This release is based on Ubuntu 16.04.x LTS branch and will be supported till 2021. It comes with various updated packages and desktop refinements to provide a more reliable and efficient experience to it’s users.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/linuxmint18.3mate.jpg&quot; alt=&quot;Preview of Linux Mint 18.3 MATE edition&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Some of the important highlights in Linux Mint 18.3 release includes:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Redesigned app center - Linux Mint was one of the early adopters of App Center concept in GNU/Linux &amp;amp; BSD world. It’s app center was looking the same since it’s inception. By this release, Linux Mint team has spent significant effort on app centre redesign. Inspired by GNOME Software, it provides more consistent and reliable user experience. It features various commonly used applications like Spotify, WhatsApp, Skype, Google Earth, Steam or Minecraft ..etc&lt;/li&gt;
+    &lt;li&gt;Linux Mint 18.3 introduces support for flatpak, a modern binary distribution system. It helps to install bleeding edge packages in your system even if dependencies are not met.&lt;/li&gt;
+    &lt;li&gt;The backup tool was completely rewritten to make it simple, efficient and effective.&lt;/li&gt;
+    &lt;li&gt;Linux Mint 18.3 features Timeshift, a tool dedicated to system snapshots.&lt;/li&gt;
+    &lt;li&gt;A new tool called “System Reports” was developed for Linux Mint 18.3. Its goal is to generate reports when software crashes occur, and to show information relevant to your computer and your environment.&lt;/li&gt;
+    &lt;li&gt;Also, there are multiple improvements in XApps, a OS independent collection of applications maintained by Linux Mint team.&lt;/li&gt;
+    &lt;li&gt;and more..&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For more information see separate &lt;a href=&quot;https://blog.linuxmint.com/?p=3457&quot;&gt;official release announcements for Linux Mint Cinnamon&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://blog.linuxmint.com/?p=3458&quot;&gt;MATE editions&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Linux Mint team has announced release of Linux Mint 18.3 MATE &amp;amp; Cinnamon editions with code name Sylvia. This release is based on Ubuntu 16.04.x LTS branch and will be supported till 2021. It comes with various updated packages and desktop refinements to provide a more reliable and efficient experience to it’s users.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/linuxmint18.3mate.jpg" /></entry></feed>
