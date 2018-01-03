@@ -19,6 +19,7 @@ releases:
   "Uruk GNU/Linux 2.0" : "../uruk-gnu-linux-20-released/"
 
 screenshots:
+  "Uruk 2.0 Xfce edition" : "https://goo.gl/GGvK53"
   "Uruk GNU/Linux 2.0" : "http://www.distroscreens.com/2017/12/uruk-gnulinux-20-lugalbanda-screenshots.html"
   "Uruk GNU/Linux 1.0" : "http://www.distroscreens.com/2016/05/uruk-gnulinux-10-screenshots.html"
 
