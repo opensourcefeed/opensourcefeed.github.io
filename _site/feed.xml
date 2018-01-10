@@ -1,5 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-02T21:52:14+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of free &amp; open-source distributions and desktop environments
-</subtitle><entry><title type="html">feren OS launches a new snapshot to welcome 2018</title><link href="http://localhost:4000/feren-os-launches-a-new-snapshot-to-welcome-2018/" rel="alternate" type="text/html" title="feren OS launches a new snapshot to welcome 2018" /><published>2018-01-02T00:00:00+05:30</published><updated>2018-01-02T00:00:00+05:30</updated><id>http://localhost:4000/feren-os-launches-a-new-snapshot-to-welcome-2018</id><content type="html" xml:base="http://localhost:4000/feren-os-launches-a-new-snapshot-to-welcome-2018/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; feren OS team has kick started their activities in 2018 by launching an updated snapshot. This snapshot brings various updated packages, bug fixes and enhancements over the previous release.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-10T23:18:24+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of free &amp; open-source distributions and desktop environments
+</subtitle><entry><title type="html">Ubuntu Budgie team member Jacob creates Budgie Applet to manage USB devices</title><link href="http://localhost:4000/ubuntu-budgie-team-member-jacob-creates-budgie-applet-to-manage-usb-devices/" rel="alternate" type="text/html" title="Ubuntu Budgie team member Jacob creates Budgie Applet to manage USB devices" /><published>2018-01-10T00:00:00+05:30</published><updated>2018-01-10T00:00:00+05:30</updated><id>http://localhost:4000/ubuntu-budgie-team-member-jacob-creates-budgie-applet-to-manage-usb-devices</id><content type="html" xml:base="http://localhost:4000/ubuntu-budgie-team-member-jacob-creates-budgie-applet-to-manage-usb-devices/">&lt;p&gt;&lt;strong&gt;Today&lt;/strong&gt; Ubuntu Budgie team has announced the immediate availability of a new budgie applet for managing USB storage devices. This applet is named as &lt;em&gt;DropBy&lt;/em&gt; and is a part of &lt;em&gt;budgie-extras&lt;/em&gt; applet collection developed by Ubuntu Budgie team.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/dropby.jpg&quot; alt=&quot;First preview of DropBy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;DropBy&lt;/em&gt; applet will pop-up when a USB storage devices are connected to the system. It provides various options to manage connected devices, which includes the ability to mount/unmount devices, copy contents, open devices using default file manager ..etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;DropBy&lt;/em&gt; is expected to find it’s first release with a few more polishing activities. Once it’s ready, it will be made available through Ubuntu Budgie 17.10 backport repositories. It can also be installed using &lt;em&gt;Budgie Welcome&lt;/em&gt;, a multipurpose app created by Ubuntu Budgie team.&lt;/p&gt;
+
+&lt;p&gt;Mr. Jacob joined Ubuntu Budgie team, a few months back. Since then, he was working on &lt;em&gt;budgie-extras&lt;/em&gt;, a handy collection of budgie applets to serve various purposes. So far, it includes applets like&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Window Previews&lt;/li&gt;
+  &lt;li&gt;Hotcorners&lt;/li&gt;
+  &lt;li&gt;Quicknote&lt;/li&gt;
+  &lt;li&gt;Workspace Switcher Overview&lt;/li&gt;
+  &lt;li&gt;Wallpaper Switcher&lt;/li&gt;
+  &lt;li&gt;Workspace Mover&lt;/li&gt;
+  &lt;li&gt;ShowTime&lt;/li&gt;
+  &lt;li&gt;CountDown&lt;/li&gt;
+  &lt;li&gt;Automatic Keyboard Layout Switcher&lt;/li&gt;
+  &lt;li&gt;Screen Rotation Lock&lt;/li&gt;
+  &lt;li&gt;ClockWorks&lt;/li&gt;
+  &lt;li&gt;and now DropBy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Citing from original text shared by &lt;a href=&quot;https://www.facebook.com/UbuntuBudgie/posts/529310910785686&quot;&gt;Ubuntu Budgie in their facebook page&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Team member Jacob has been busy again - another optional applet you may wish to use called “DropBy”. This one automatically pops up whenever a USB device is added. You can mount/unmount, copy the USB device contents and open in Files all from the popup.
+Nice! Well done Jacob 😁&lt;/p&gt;
+
+  &lt;p&gt;Will be polishing in the next few days and will release to the 17.10 backports PPA and you can use budgie-welcome to install.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Today Ubuntu Budgie team has announced the immediate availability of a new budgie applet for managing USB storage devices. This applet is named as DropBy and is a part of budgie-extras applet collection developed by Ubuntu Budgie team.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/dropby.jpg" /></entry><entry><title type="html">feren OS launches a new snapshot to welcome 2018</title><link href="http://localhost:4000/feren-os-launches-a-new-snapshot-to-welcome-2018/" rel="alternate" type="text/html" title="feren OS launches a new snapshot to welcome 2018" /><published>2018-01-02T00:00:00+05:30</published><updated>2018-01-02T00:00:00+05:30</updated><id>http://localhost:4000/feren-os-launches-a-new-snapshot-to-welcome-2018</id><content type="html" xml:base="http://localhost:4000/feren-os-launches-a-new-snapshot-to-welcome-2018/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; feren OS team has kick started their activities in 2018 by launching an updated snapshot. This snapshot brings various updated packages, bug fixes and enhancements over the previous release.&lt;/p&gt;
 
 &lt;p&gt;The feren OS 2018.1 (Let me call it in that way) provides a smooth update path from previous release via update manager. A clear update path between releases is one among the objectives of ferenOS!.&lt;/p&gt;
 
@@ -203,25 +234,4 @@ this in the future is unclear. The next release, which might be there in March, 
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;You may also read &lt;a href=&quot;https://blog.urukproject.org/en/index.php/welcome/uruk-gnu-linux-20&quot;&gt;Uruk GNU/Linux 2.0 release announcement&lt;/a&gt; published on project’s blog.&lt;/p&gt;</content><author><name></name></author><summary type="html">Inspired by the wide reach of Uruk 1.0, the Uruk project has announced the release of Uruk GNU/Linux 2.0. This is the second release of 100% libre GNU/Linux distribution built using Trisquel repositories.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/preview/uruk1.0.jpg" /></entry><entry><title type="html">Puppy Linux 7.5, Xenialpup released</title><link href="http://localhost:4000/puppy-linux-75-xenialpup-released/" rel="alternate" type="text/html" title="Puppy Linux 7.5, Xenialpup released" /><published>2017-12-06T00:00:00+05:30</published><updated>2017-12-06T00:00:00+05:30</updated><id>http://localhost:4000/puppy-linux-75-xenialpup-released</id><content type="html" xml:base="http://localhost:4000/puppy-linux-75-xenialpup-released/">&lt;p&gt;&lt;strong&gt;The Puppy Linux&lt;/strong&gt; team has announced the release of Puppy Linux 7.5 &lt;em&gt;Xenialpup&lt;/em&gt;. Following the tradition of Puppy releases, this release also brings a small sized, fast and versatile operating system.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/xenialpup.jpg&quot; alt=&quot;A preview of Xenialpup&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Xenialpup comes with 32 bit and 64 bit flavors. The 32 bit flavor includes Linux Kernel 4.4.95-noPAE which can provide better support for older hardware. While the 64 bit flavor includes Linux Kernel 4.9.58 for better modern hardware support.&lt;/p&gt;
-
-&lt;p&gt;In addition to Kernel updates, following are some highlights in Xenialpup 7.5 release:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;JWM window manager and ROX file manager.&lt;/li&gt;
-    &lt;li&gt;Palemoon browser and Claws mail client.&lt;/li&gt;
-    &lt;li&gt;FTP, Torrent, and Chat applications.&lt;/li&gt;
-    &lt;li&gt;MPV media player, Simple Screen Recorder, and Deadbeef audio player.&lt;/li&gt;
-    &lt;li&gt;Abiword word processor and Gnumeric Spread sheet application.&lt;/li&gt;
-    &lt;li&gt;Vector and Drawing applications.&lt;/li&gt;
-    &lt;li&gt;Samba file sharing, CUPS printing and CD/DVD utilities.&lt;/li&gt;
-    &lt;li&gt;Quickpet, a utility to easily install to the most popular additional applications, OS updates &amp;amp; bugfixes.&lt;/li&gt;
-    &lt;li&gt;Lots of in house puppy-specific applications such as Pburn, Uextract, Packit, Change_kernels, JWMdesk, YASSM, Pclock, SimpleGTKradio as well as a wide range of many other up to date programs and utilities.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For more information, see &lt;a href=&quot;http://blog.puppylinux.com/?viewDetailed=00047&quot;&gt;original release announcement of Puppylinux 7.5&lt;/a&gt; published in project’s blog.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Puppy Linux team has announced the release of Puppy Linux 7.5 Xenialpup. Following the tradition of Puppy releases, this release also brings a small sized, fast and versatile operating system.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/xenialpup.jpg" /></entry></feed>
+&lt;p&gt;You may also read &lt;a href=&quot;https://blog.urukproject.org/en/index.php/welcome/uruk-gnu-linux-20&quot;&gt;Uruk GNU/Linux 2.0 release announcement&lt;/a&gt; published on project’s blog.&lt;/p&gt;</content><author><name></name></author><summary type="html">Inspired by the wide reach of Uruk 1.0, the Uruk project has announced the release of Uruk GNU/Linux 2.0. This is the second release of 100% libre GNU/Linux distribution built using Trisquel repositories.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/preview/uruk1.0.jpg" /></entry></feed>
