@@ -11,6 +11,7 @@ desktops: [xfce]
 base : [ubuntu]
 description : Xubuntu is a full featured, yet lightweight and resource efficient GNU/Linux distribution. Stories and updates on Xubuntu.
 releases:
+  Xubuntu 17.10.1 : "https://xubuntu.org/news/xubuntu-17-10-1-release"
   Xubuntu 17.10 Artful Aardvark : "https://xubuntu.org/news/xubuntu-17-10-release/"
   Xubuntu 17.04 : "https://xubuntu.org/news/xubuntu-17-04-release/"
   Xubuntu 16.10 : "https://xubuntu.org/news/xubuntu-16-10-release/"
