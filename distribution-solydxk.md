@@ -14,6 +14,10 @@ purchase:
 
 description : "SolydXK is a Debian based distribution aiming to provide a simple, stable & secure operating system. Stories and updates on SolydXK."
 
+
+screenshots:
+  SolydXK 201801 Xfce : "http://www.distroscreens.com/2018/01/solydxk-201801-xfce-screenshot-tour.html"
+
 releases:
   SolydXK 201801 : "/solydxk-201811-released-with-meltodown-vulnerability-fix-solydxk-system-settings-etc/"
 
