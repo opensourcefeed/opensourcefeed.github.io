@@ -322,6 +322,9 @@
 <loc>http://localhost:4000/distribution/puppy</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/q4os</loc>
+</url>
+<url>
 <loc>http://localhost:4000/distribution/reactos</loc>
 </url>
 <url>

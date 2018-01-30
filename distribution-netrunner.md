@@ -10,6 +10,8 @@ preview: netrunner.jpg
 home_page: http://www.netrunner.com
 desktops: [plasma]
 base : [arch, manjaro, debian]
+purchase:
+  OSDisc : "https://www.osdisc.com/products/netrunner"
 
 description : Netrunner is a free operating system featuring a compact, yet fully functional desktop environment. Read reviews, updates and other stories on Netrunner operating system.
 
