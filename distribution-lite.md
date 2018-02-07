@@ -14,6 +14,7 @@ base : [ubuntu]
 description: Linux Lite is a lightweight, fully functional operating system built on top of Ubuntu. It includes a good collection of applications to serve your day to day needs.
 
 releases:
+  Linux Lite 3.8 : "http://www.open-source-feed.com/2018/02/linux-lite-38-released-based-on-ubuntu.html"
   Linux Lite 3.6 beta : "http://www.open-source-feed.com/2017/07/linux-lite-36-beta-announced-with.html"
   Linux Lite 3.4 : "http://www.open-source-feed.com/2017/03/linux-lite-34-released-with-easily.html"
   Linux Lite 3.4 beta : "http://www.open-source-feed.com/2017/02/linux-lite-34-beta-released-based-on.html"
@@ -21,6 +22,7 @@ releases:
   Linux Lite 3.0 : "http://www.open-source-feed.com/2016/06/linux-lite-30-final-released-with-new.html"
 
 screenshots:
+  Linux Lite 3.8 screenshots : "http://www.distroscreens.com/2018/02/linux-lite-38-final-screenshots.html"
   Linux Lite 3.4 screenshots : "http://www.distroscreens.com/2017/04/linux-lite-34-screenshots.html"
   Linux Lite 3.0 beta : "http://www.distroscreens.com/2016/05/linux-lite-30-beta-screenshots.html"
 

@@ -9,9 +9,13 @@ preview: Kali_Linux.jpg
 home_page: https://www.kali.org/
 desktops: [gnome]
 base : [debian]
+purchase :
+  OSDisc : "https://www.osdisc.com/products/kali"
+
 description : "Kali Linux is a Debian (testing) based GNU/Linux distribution designed for digital forensic and peneteration testing. Stories and updates on Kali Linux"
 
 releases:
+  Kali Linux 2018.1 : "http://www.open-source-feed.com/2018/02/kali-linux-20181-released-with-amd.html"
   Kali Linux 2017.03 : "http://theopensourcefeed.com/kali-linux-201703-released/"
   Kali linux 2017.02 : "https://www.kali.org/news/kali-linux-2017-2-release/"
   Kali Linux 2017.01 : "http://www.open-source-feed.com/2017/04/kali-linux-20171-released-with-cool.html"

@@ -10,6 +10,9 @@ preview: elementary.png
 home_page: https://elementary.io/
 desktops: [pantheon]
 base : [ubuntu]
+purchase :
+  OSDisc : "https://www.osdisc.com/products/elementary"
+
 description : elementary OS (eOS) is fast and simple GNU/Linux distribution built on top of Ubuntu LTS releases. Stories and updates on elementary OS.
 
 releases:
@@ -20,6 +23,7 @@ reviews:
   elementary 0.4 is a mixed user experience : "http://www.open-source-feed.com/2016/11/elementary-os-04-is-mixed-user.html"
 
 stories:
+  elemetntary OS team plans to revise AppCenter payment strategy : "http://www.open-source-feed.com/2018/02/elementary-os-plans-to-revise-appcenter.html"
   Loki updates for July 2017 : "https://medium.com/elementaryos/loki-updates-for-july-471e1dd234c9"
   elementary OS gets support for OEM information on About window : "http://www.open-source-feed.com/2017/07/elementary-os-gets-support-for-oem.html"
   elementary OS has completed github migration : "http://www.open-source-feed.com/2017/06/elementary-os-has-completed-github.html"
