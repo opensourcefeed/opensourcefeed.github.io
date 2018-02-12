@@ -10,6 +10,8 @@ preview: elementary.png
 home_page: https://elementary.io/
 desktops: [pantheon]
 base : [ubuntu]
+description: elementary OS is an open source operating system with the motto of pay what you want. The elementary is a profit oriented project and presents a sustainable development ecosystem.
+
 purchase :
   OSDisc : "https://www.osdisc.com/products/elementary"
 
@@ -23,6 +25,7 @@ reviews:
   elementary 0.4 is a mixed user experience : "http://www.open-source-feed.com/2016/11/elementary-os-04-is-mixed-user.html"
 
 stories:
+  elementary team starts talking about upcoming Juno 5.0 release : "https://goo.gl/u8MRad"
   elemetntary OS team plans to revise AppCenter payment strategy : "http://www.open-source-feed.com/2018/02/elementary-os-plans-to-revise-appcenter.html"
   Loki updates for July 2017 : "https://medium.com/elementaryos/loki-updates-for-july-471e1dd234c9"
   elementary OS gets support for OEM information on About window : "http://www.open-source-feed.com/2017/07/elementary-os-gets-support-for-oem.html"
