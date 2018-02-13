@@ -26,7 +26,11 @@ layout: compress
             <div class="row text-xs-center">
                 <a href="{{site.url}}">
                     <div id="title" class="col-md-4 text-md-left">
+                        {% if page.url == '/' %}
+                        <h1>OpenSourceFeed</h1>
+                        {% else %}
                         <h2>OpenSourceFeed</h2>
+                        {% endif %}
                         <p>Free & Open Source Software Showcase</p>
                     </div>
                 </a>
