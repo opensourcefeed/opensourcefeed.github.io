@@ -62,23 +62,4 @@ footer{text-align:center;background:#607D8B;color:white;padding:10px 0 10px 0;}
 .page-link, .page-link:focus, .page-link:hover {color: #607D8B}
 .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {background:#607D8B;border-color:#607D8B;}
 .blog .page-nav {text-align: center}
-.scroll {
-  -webkit-animation:  caption 50s linear 0s infinite;
-  padding:20px 0;
-  border: 1px solid #000;
--webkit-transition: background-color 350ms;
--moz-transition: background-color 350ms;
-transition: background-color 350ms;
-  overflow: hidden;
-  overflow-x:-webkit-marquee;
-  -webkit-marquee-direction: right;
-  -webkit-marquee-style: scroll;
-  -webkit-marquee-speed: normal;
-  -webkit-marquee-increment: small;
-  -webkit-marquee-repetition: 5;
-  overflow-x: marquee-line;
-  marquee-direction: forward;
-  marquee-style: loop;
-  marquee-speed: slow;
-  marquee-play-count: 5;
-}
+.comment-area h3 {font-size: 1.3rem;}

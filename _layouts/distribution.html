@@ -174,7 +174,22 @@
                 </ul>
             </div>
             {% endif %}
-
+            <hr/>
+            <!--Disqus comment box-->
+            <div class="comment-area">
+                <h3>What you think about {{page.title}}?</h3>
+                <div id="disqus_thread"></div>
+                <script>
+                    (function() {
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://theopensourcefeed.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div
+            <!-- End of comment box -->
         </div>
     </div>
     <div class="col-md-3 pull-md-6">
