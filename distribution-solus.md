@@ -10,6 +10,8 @@ preview: solus-preview.jpg
 home_page: https://solus-project.com
 desktops: [budgie, mate, gnome]
 base : Independent
+purchase:
+  OSDisc : "https://www.osdisc.com/products/solus"
 
 description : Solus is an independently developed GNU/Linux distribution that is designed for modern personal computing devices, every tweak enabling us to deliver a singular, cohesive desktop experience. Stories and updates on Solus
 
@@ -28,6 +30,7 @@ reviews:
   Solus 2017.01.01.0 is an impressive new comer : "http://www.open-source-feed.com/2017/02/solus-201701010-is-impressive-new-comer.html"
 
 stories :
+  "Solus 4 won't ship snapd-software center integration in initial release" : "http://www.open-source-feed.com/2018/02/solus-4-wont-ship-snapd-support-in.html"
   "Ikey Doherty leaves Intel and becomes full time Solus developer" : "http://www.open-source-feed.com/2017/06/ikey-doherty-leaves-intel-and-becomes.html"
   "Solus gets support for Plasma Destkop; though not official at the moment" : "http://www.open-source-feed.com/2017/05/solus-gets-support-for-plasma-destkop.html" 
   "Solus ships updated Brisk Menu with super key shortcut " : "http://www.open-source-feed.com/2017/05/solus-ships-updated-brisk-menu-with.html"

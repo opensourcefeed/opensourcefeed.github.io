@@ -10,9 +10,13 @@ preview: porteus.jpg
 home_page: http://www.porteus.org
 desktops: [cinnamon, mate, plasma, xfce]
 base : [slackware]
+purchase:
+  OSDisc : "https://www.osdisc.com/products/porteus"
+
 description: Porteus is a small and live GNU/Linux distribution based on Slackware. Stories on Porteus GNU/Linux
 
 releases:
+  Porteus v4.0 rc4 : "http://www.open-source-feed.com/2018/02/porteus-v40-rc4-released-with-added.html"
   Porteus KIOSK 4.5.0 : "http://www.open-source-feed.com/2017/09/porteus-kiosk-450-released-with-linux.html"
   Porteus KIOSK 4.4.0 : "http://porteus-kiosk.org/news.html#170601"
   Porteus KIOSK 4.3.0 : http://www.open-source-feed.com/2017/03/porteus-kiosk-430-released-with-linux.html

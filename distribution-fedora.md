@@ -21,6 +21,7 @@ reviews :
   Fedora 25 is not something worth to recommend: "http://www.open-source-feed.com/2017/02/fedora-25-is-not-something-worth-to.html"
 
 screenshots :
+  Fedora 27 LXQt spin : "http://www.distroscreens.com/2018/02/fedora-27-lxqt-spin-screenshots.html"
   Fedora 27 Workstation : "http://www.distroscreens.com/2017/11/fedora-27-workstation-screenshots.html"
   Fedora 27 Beta : "http://www.distroscreens.com/2017/10/fedora-27-beta-screenshots.html"
   Fedora 26 Workstation: "http://www.distroscreens.com/2017/07/fedora-26-workstation-screenshots.html"
