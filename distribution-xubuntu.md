@@ -10,6 +10,7 @@ home_page: https://xubuntu.org/
 desktops: [xfce]
 base : [ubuntu]
 description : Xubuntu is a full featured, yet lightweight and resource efficient GNU/Linux distribution. Stories and updates on Xubuntu.
+
 releases:
   Xubuntu 17.10.1 : "https://xubuntu.org/news/xubuntu-17-10-1-release"
   Xubuntu 17.10 Artful Aardvark : "https://xubuntu.org/news/xubuntu-17-10-release/"
@@ -28,7 +29,7 @@ screenshots :
 
 reviews:
   "Xubuntu 17.04, neither too good nor too bad" : "http://www.dedoimedo.com/computers/xubuntu-zesty.html"
-  Xubuntu 15.10 Wily Werewolf - not a silver bullet : "Xubuntu 15.10 Wily Werewolf - Not a silver bullet"
+  Xubuntu 15.10 Wily Werewolf - not a silver bullet : "http://www.open-source-feed.com/2015/11/xubuntu-1510-wily-werewolf-not-silver.html"
 ---
 
 **Xubuntu** is a full featured, yet lightweight and resource efficient GNU/Linux distribution. Built on top of Ubuntu core, it provides a reliable, stable and secure platform along with Xfce Desktop environment.

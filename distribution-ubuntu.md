@@ -33,7 +33,7 @@ stories:
   Ubuntu 16.04 is now available in Windows Store : "http://www.open-source-feed.com/2017/07/ubuntu-1604-is-now-available-in-windows.html"
   Kubernetes 1.7 is now available for Ubuntu : "http://www.open-source-feed.com/2017/07/kubernetes-17-is-now-available-in-ubuntu.html"
   Ubuntu 17.10 Yakkety Yak reaches end of life on 20th July 2017 : "http://www.open-source-feed.com/2017/07/ubuntu-1610-yakkety-yak-reaches-end-of.html"
-  Ubuntu on AWS gets better performance by AWS-tuned Kernel : "Ubuntu on AWS gets improved performance using AWS-tuned kernel"
+  Ubuntu on AWS gets better performance by AWS-tuned Kernel : "http://www.open-source-feed.com/2017/04/ubuntu-on-aws-gets-improved-performance.html"
   Ubuntu 12.04 Precise Pangolin retires on 28th April 2017 : http://www.open-source-feed.com/2017/03/ubuntu-1204-precise-pangolin-retires-on.html
   Microsoft SQL Server public preview is available for Ubuntu : http://www.open-source-feed.com/2016/11/microsoft-sql-server-public-preview-is.html
   

@@ -14,9 +14,7 @@ description : feren OS is a traditional looking, modern desktop environment buil
 releases:
   feren OS 2018.1 : "../feren-os-launches-a-new-snapshot-to-welcome-2018/"
   feren OS 2017.0 Murdock : "http://www.open-source-feed.com/2017/05/feren-os-20170-murdock-released-based.html"
-  feren OS 2017.0 RC : "http://ferenos.weebly.com/blog/feren-os-20170-release-candidate-released-buckle-your-belts-and-get-ready-
-
-stables-on-its-way"
+  feren OS 2017.0 RC : "http://ferenos.weebly.com/blog/feren-os-20170-release-candidate-released-buckle-your-belts-and-get-ready-stables-on-its-way"
   feren OS August 2017 : "http://www.open-source-feed.com/2017/08/feren-os-becomes-rolling-distribution.html"
   feren OS 2016.2 Update 2 : "http://ferenos.weebly.com/blog/feren-os-20162-update-2-has-been-released"
   feren OS 2016.2 Update 1 : "http://ferenos.weebly.com/blog/feren-os-20162-update-1-has-been-released"
