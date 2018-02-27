@@ -37,6 +37,7 @@ blockquote{position:relative;margin:0;font-weight:400;text-align:justify;padding
 .logo{max-width:240px;text-align:center;margin:auto;margin-bottom:20px;}
 .preview{width:100%;text-align:center;margin:auto;}
 .story-listing h3{font-size:1.3rem;}
+.story-listing h4{font-size:1.0rem;color:black}
 table ul{list-style-type:none;padding-left:0}
 .status-active{color:green;}
 .status-discontinued{color:red;}

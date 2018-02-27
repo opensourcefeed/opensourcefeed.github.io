@@ -175,6 +175,20 @@
             </div>
             {% endif %}
             <hr/>
+            {% if page.faq %}
+            <div class="story-listing">
+                <h3>Frequently asked questions on {{page.title}}</h3>
+                <ol>
+                {% for faq in page.faq %}
+                <li>
+                    <h4>{{faq[0]}}</h4>
+                    <p>{{faq[1]}}</p>
+                </li>
+                {% endfor %}
+                </ol>
+            </div>
+            {% endif %}
+            <hr />
             <!--Disqus comment box-->
             <div class="comment-area">
                 <h3>What you think about {{page.title}}?</h3>

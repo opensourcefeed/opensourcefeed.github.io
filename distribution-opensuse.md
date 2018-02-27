@@ -22,6 +22,9 @@ releases :
 reviews:
   openSUSE Leap 42.2 : "http://www.open-source-feed.com/2017/02/opensuse-leap-422-is-extremely-stable.html"
   openSUSE Leap 42.2 GNOME : "http://www.open-source-feed.com/2017/02/opensuse-leap-422-gnome-flavor-is.html"
+
+faq:
+  "How to install Budgie Desktop in OpenSUSE" : "For getting Budgie Desktop in OpenSUSE, you can either download GeckoLinux Budgie Edition (A OpenSUSE derivative) or enable Solus repositories on OpenSUSE Build Service. Further details are available in <a href='https://en.opensuse.org/Budgie' rel='nofollow'>OpenSUSE wiki pages for Budgie</a>"
 ---
 
 **openSUSE** is an independently developed, enterprise quality distribution backed by SUSE Foundation. In addition to all benefits of regular GNU/Linux distribution, it comes with powerful system administration and configuration tools like YaST - a comprehensive linux system configuration and installation, OBS - Open Build Service, build tool supporting builds for openSUSE itself and other main stream distributions like Fedora, Ubuntu, Debian ..etc.
