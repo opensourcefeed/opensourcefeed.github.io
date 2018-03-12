@@ -16,6 +16,7 @@ purchase:
 description : Netrunner is a free operating system featuring a compact, yet fully functional desktop environment. Read reviews, updates and other stories on Netrunner operating system.
 
 releases:
+  Netrunner 18.03 Idolon : "/netrunner-1803-idolon-released-with-a-set-of-redesigned-artworks/"
   Netrunner Rolling 2018.01 : "http://www.open-source-feed.com/2018/01/netrunner-rolling-201801-released-with.html"
   Netrunner Rolling 17.07 : "http://www.open-source-feed.com/2017/07/netrunner-rolling-201707-snapshot-is.html"
   Netrunner 17.06 : "http://www.open-source-feed.com/2017/07/netrunner-1706-daedalus-released-with.html"
