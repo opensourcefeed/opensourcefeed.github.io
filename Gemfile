@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gem 'rouge', '~> 1.7'
+gem 'rouge', '~> 2.0'
 gem 'minima'
 gem 'jekyll-feed'
 gem 'jekyll-admin', group: :jekyll_plugins
