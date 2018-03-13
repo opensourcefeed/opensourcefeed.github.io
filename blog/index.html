@@ -1,0 +1,45 @@
+---
+layout: blog
+description: Stories of free & open source operating systems and desktop environments.
+---
+<div class="blog">
+  <h2>Open Source Stories</h2>
+
+  {% for post in paginator.posts %}
+  <h3><a href="{{post.url}}">{{ post.title }}</a></h3>
+  <div class="date">{{ post.date | date_to_string}}</div>
+  <p>{{ post.content | strip_html | truncatewords: 30, '...'}}</p>
+  <hr>
+  {% endfor %}
+
+  {% if paginator.total_pages > 1 %}
+  <div class="page-nav">
+  <ul class="pagination">
+   {% if paginator.previous_page %}
+   <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a></li>
+   {% else %}
+   <li class="page-item disabled"><a class="page-link">Previous</a></li>
+   {% endif %}
+
+   {% for page in (1..paginator.total_pages) %}
+
+   {% if page == paginator.page %}
+   <li class="page-item active"><a class="page-link">{{ page | pnumber }}</a></li>
+   {% elsif page == 1 %}
+   <li class="page-item"><a class="page-link" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page | pnumber }}</a></li>
+   {% else %}
+   <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page | pnumber }}</a></li>
+   {% endif %}
+
+   {% endfor %}
+
+   {% if paginator.next_page %}
+   <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a></li>
+   {% else %}
+   <li class="page-item disabled"><a class="page-link">Next</a></li>
+   {% endif %}
+  </ul>
+</div>
+  {% endif %}
+
+</div>
