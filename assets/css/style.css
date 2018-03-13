@@ -64,3 +64,6 @@ footer{text-align:center;background:#607D8B;color:white;padding:10px 0 10px 0;}
 .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {background:#607D8B;border-color:#607D8B;}
 .blog .page-nav {text-align: center}
 .comment-area h3 {font-size: 1.3rem;}
+main h2 {font-size: 1.4rem}
+main h3 {font-size: 1rem;}
+main .recent-stories ul{list-style-type: none; padding-left: 0}
