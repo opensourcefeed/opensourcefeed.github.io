@@ -1,5 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-14T23:32:59+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
-</subtitle><entry><title type="html">Neptune 5 ‘Refresh’ released; See what is new</title><link href="http://localhost:4000/neptune-os-5.0-refresh-released-with-updated-debian-base/" rel="alternate" type="text/html" title="Neptune 5 'Refresh' released; See what is new" /><published>2018-03-13T00:00:00+05:30</published><updated>2018-03-13T00:00:00+05:30</updated><id>http://localhost:4000/neptune-os-5.0-refresh-released-with-updated-debian-base</id><content type="html" xml:base="http://localhost:4000/neptune-os-5.0-refresh-released-with-updated-debian-base/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; Leszek, on behalf of Neptune OS project, has announced the release of Neptune 5 ‘Refresh’, the latest release of Debian stable based, GNU/Linux distribution striving to provide a robust desktop experience with Plasma Desktop. This release has been rebased to Debian &lt;em&gt;Stretch&lt;/em&gt; current stable release. It includes several updated packages and implementation of several strategical decisions taken by the team.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-15T00:09:03+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
+</subtitle><entry><title type="html">Tails 3.6 released with Video Acceleration API driver, UI improvements and other updates</title><link href="http://localhost:4000/tails-3.6-released-with-video-acceleration-driver-api-and-other-updates/" rel="alternate" type="text/html" title="Tails 3.6 released with Video Acceleration API driver, UI improvements and other updates" /><published>2018-03-14T00:00:00+05:30</published><updated>2018-03-14T00:00:00+05:30</updated><id>http://localhost:4000/tails-3.6-released-with-video-acceleration-driver-api-and-other-updates</id><content type="html" xml:base="http://localhost:4000/tails-3.6-released-with-video-acceleration-driver-api-and-other-updates/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Tails team has announced the release of Tails 3.6, the latest stable snapshot of &lt;em&gt;the amnesic live incognito system&lt;/em&gt;. This release brings various user experience improvements, the driver for video acceleration, along with various updated tools and packages.&lt;/p&gt;
+
+&lt;p&gt;Since each Tails release fixes various security loop holes and vulnerabilities, it is highly recommended to use the latest version of Tails always. Tails 3.6 is not an exception from this generalization.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/tails 720x340.png&quot; alt=&quot;Tails Linux banner&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-new-in-tails-36&quot;&gt;What is new in Tails 3.6?&lt;/h3&gt;
+&lt;p&gt;Tails 3.6 brings various user experience improvements as part of GNOME Desktop. These improvements can be summarized as follows.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;There is a dedicated lock button included in the system menu. Users can click this button to lock their screen instantly.&lt;/li&gt;
+  &lt;li&gt;If an administrative password is set while starting Tails, the system can be unlocked using administrative password. Alternatively, users can configure a password when locking screen for the first time.&lt;/li&gt;
+  &lt;li&gt;There has been multiple under the hood improvements for additional software persistence feature. This includes installation of additional software in background after starting the session instead of blocking the loading of desktop. Also, the software will be installed even when user is offline.&lt;/li&gt;
+  &lt;li&gt;Includes pdf-redact-tools, a command line tool to clean metadata and redact PDF files by converting them to PNG images.&lt;/li&gt;
+  &lt;li&gt;An error message indicating the name of the graphics card is now displayed when Tails fails to start GNOME.&lt;/li&gt;
+  &lt;li&gt;The Tails documentation launcher on the desktop now opens the documentation on our website if you are online.&lt;/li&gt;
+  &lt;li&gt;Install drivers for the Video Acceleration API to improve the display of videos on many graphics cards.&lt;/li&gt;
+  &lt;li&gt;Multiple package updates like Electrum 3.0.6, Linux Kernel 4.15.0, Tor 0.3.2.10, Thunderbird 52.6.0, ..etc.&lt;/li&gt;
+  &lt;li&gt;The &lt;em&gt;AppArmor&lt;/em&gt; profile for Thunderbird in Debian has been updated to protect of Thunderbird vulnerabilities.&lt;/li&gt;
+  &lt;li&gt;Some of the internal scripts written in shell script has been replaced with python scripts.&lt;/li&gt;
+  &lt;li&gt;Multiple bug fixes like removal of debug and error messages while booting, unavailability of ISO selection for non-English languages in Tails Installer.&lt;/li&gt;
+  &lt;li&gt;Fix OpenPGP Applet being unresponsive when decrypting a lot of text&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;where-can-i-get-tails-36&quot;&gt;Where can I get Tails 3.6?&lt;/h3&gt;
+&lt;p&gt;There are two popular ways to get Tails operating system. The most used option is an &lt;a href=&quot;https://tails.boum.org/install/index.en.html&quot;&gt;online installation wizard&lt;/a&gt; which let you download an image matches your requirements.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, the Tails 3.6 image can be downloaded using following links.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mirrors.dotsrc.org/tails/stable/tails-amd64-3.6/tails-amd64-3.6.iso&quot;&gt;Download Tails 3.6 ISO Image (1.2 GB)&lt;/a&gt;
+&lt;a href=&quot;https://tails.boum.org/torrents/files/tails-amd64-3.6.torrent&quot;&gt;Download Tails 3.6 TORRENT&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+&lt;p&gt;You can read more about Tails 3.6 from following sources&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tails.boum.org/news/version_3.6/index.en.html&quot;&gt;Tails 3.6 release announcement&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git-tails.immerda.ch/tails/plain/debian/changelog&quot;&gt;Tails 3.6 changelogs&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">The Tails team has announced the release of Tails 3.6, the latest stable snapshot of the amnesic live incognito system. This release brings various user experience improvements, the driver for video acceleration, along with various updated tools and packages.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/tails%20720x340.png" /></entry><entry><title type="html">Neptune 5 ‘Refresh’ released; See what is new</title><link href="http://localhost:4000/neptune-os-5.0-refresh-released-with-updated-debian-base/" rel="alternate" type="text/html" title="Neptune 5 'Refresh' released; See what is new" /><published>2018-03-13T00:00:00+05:30</published><updated>2018-03-13T00:00:00+05:30</updated><id>http://localhost:4000/neptune-os-5.0-refresh-released-with-updated-debian-base</id><content type="html" xml:base="http://localhost:4000/neptune-os-5.0-refresh-released-with-updated-debian-base/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; Leszek, on behalf of Neptune OS project, has announced the release of Neptune 5 ‘Refresh’, the latest release of Debian stable based, GNU/Linux distribution striving to provide a robust desktop experience with Plasma Desktop. This release has been rebased to Debian &lt;em&gt;Stretch&lt;/em&gt; current stable release. It includes several updated packages and implementation of several strategical decisions taken by the team.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/post-images/neptune5.0.jpg&quot; alt=&quot;A preview of Neptune 5 'Refresh'&quot; /&gt;&lt;/p&gt;
 
@@ -193,25 +229,4 @@ this in the future is unclear. The next release, which might be there in March, 
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;You can read &lt;a href=&quot;http://www.calculate-linux.org/blogs/en/681/show&quot;&gt;original Calculate Linux 17.12 release announcement&lt;/a&gt; in projects website.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mr Alexander Tratsevskiy on behalf of Calculate Linux team has announced the release of Calculate Linux 17.12. This release brings support for installation on the RAID (Redundant Array of Inexpensive Disks) without losing fine tuning between performance and resource consumption.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/cld-mini.jpg" /></entry><entry><title type="html">Slax 9.3 released with improved WiFi support</title><link href="http://localhost:4000/slax-93-released-with-improved-wifi-support/" rel="alternate" type="text/html" title="Slax 9.3 released with improved WiFi support" /><published>2017-12-25T00:00:00+05:30</published><updated>2017-12-25T00:00:00+05:30</updated><id>http://localhost:4000/slax-93-released-with-improved-wifi-support</id><content type="html" xml:base="http://localhost:4000/slax-93-released-with-improved-wifi-support/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Tomas M&lt;/em&gt;, developer of Slax has announced the release of Slax 9.3, the latest stable release of Debian based, live GNU/Linux distribution that follows a modular design approach. One of the major highlights of this release is the inclusion of various firmware drivers to provide better support for WiFi devices.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/slax93.jpg&quot; alt=&quot;Application Launcher in Slax 9.3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The inclusion of additional firmware drivers makes the Slax image a little bigger (around 40 MB). Though, this can be justified by support for various WiFi devices. A bigger distribution with network capabilities is definitely better than a small distribution without networking capabilities.&lt;/p&gt;
-
-&lt;p&gt;Other notable changes in Slax 9.3 includes:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;There were some regression tests to identify issues while booting from alternative file systems. Some of the issues have been identified and corrected during this phase. This mainly includes the ability to boot from NTFS and ext4 file systems.&lt;/li&gt;
-    &lt;li&gt;If booted from a writable storage medium, Slax enables persistence by default.&lt;/li&gt;
-    &lt;li&gt;added pcmanfm as file manager for GUI&lt;/li&gt;
-    &lt;li&gt;added wicd as wifi network manager&lt;/li&gt;
-    &lt;li&gt;xLunch now auto updates, to see newly installed apps&lt;/li&gt;
-    &lt;li&gt;hard drives are mounted on boot and bookmarks added to pcmanfm&lt;/li&gt;
-    &lt;li&gt;keyboard layout stays persistent&lt;/li&gt;
-    &lt;li&gt;screen resolution change is reimplemented to make it work better&lt;/li&gt;
-    &lt;li&gt;syslinux updated to newest version&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You may also proceed to read original &lt;a href=&quot;http://www.slax.org/blog/24578-Slax-9-3-is-here.html&quot;&gt;Slax 9.3 release announcement&lt;/a&gt; in project’s website.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mr Tomas M, developer of Slax has announced the release of Slax 9.3, the latest stable release of Debian based, live GNU/Linux distribution that follows a modular design approach. One of the major highlights of this release is the inclusion of various firmware drivers to provide better support for WiFi devices.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/slax93.jpg" /></entry></feed>
+&lt;p&gt;You can read &lt;a href=&quot;http://www.calculate-linux.org/blogs/en/681/show&quot;&gt;original Calculate Linux 17.12 release announcement&lt;/a&gt; in projects website.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mr Alexander Tratsevskiy on behalf of Calculate Linux team has announced the release of Calculate Linux 17.12. This release brings support for installation on the RAID (Redundant Array of Inexpensive Disks) without losing fine tuning between performance and resource consumption.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/cld-mini.jpg" /></entry></feed>
