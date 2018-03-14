@@ -7,11 +7,11 @@ permalink: /distribution/parsix
 type : Linux
 logo: parsix-logo.png
 preview: parsix preview.jpg
-home_page: http://www.parsix.org/
 desktops: [gnome]
 base: [debian]
+status : Discontinued
 
-description : "Parsix is a Debian stable based GNU/Linux distribution with the goal of providing a ready to use, easy to install, laptop and desktop optimized operating system"
+description : "Parsix was a Debian stable based GNU/Linux distribution with the goal of providing a ready to use, easy to install, laptop and desktop optimized operating system"
 
 stories:
   "Parsix GNU/Linux project is planning to shutdown" : "http://www.open-source-feed.com/2017/05/parsix-gnulinux-project-is-planning-to.html"
@@ -27,8 +27,8 @@ reviews:
   "Parsix 8.5 review" : "http://www.open-source-feed.com/2016/04/parsix-gnulinux-85-review.html"
 ---
 
-**Parsix** is a Debian stable based GNU/Linux distribution with the goal of providing a ready to use, easy to install, laptop and desktop optimized operating system. To accomplish this goal, Parsix is built on top of Debian stable branch in combination with latest stable release of GNOME shell.
+**Parsix** was a Debian stable based GNU/Linux distribution with the goal of providing a ready to use, easy to install, laptop and desktop optimized operating system. To accomplish this goal, Parsix was built on top of Debian stable branch in combination with the latest stable release of GNOME shell.
 
-Parsix delivers 2 major and 4 minor releases in every year and facilitate smooth upgrades between consequent releases. It also maintains 4 types of repositories. Official repositories contain packages maintained by Parsix project and built on Parsix server. Continent repository is a snapshot of Debian's stable branch. Wonderland repository includes multimedia related software packages and is a snapshot of Debian Multimedia repositories. Security repository contains security updates maintained by Parsix project.
+Parsix used to deliver 2 major and 4 minor releases in every year and facilitate smooth upgrades between consequent releases. It also used to maintain 4 types of repositories. Official Parsix repositories contained packages maintained by Parsix project and built on Parsix server. The continent repository was a snapshot of Debian's stable branch. Wonderland repository included multimedia related software packages and was a snapshot of Debian Multimedia repositories. Security repository contained security updates maintained by Parsix project.
 
-Parsix project is planning to shutdown after release of Debian 9.x stable.
+Parsix project has planned shutdown after the release of Debian 9.x stable.

@@ -2,14 +2,14 @@
 title: TrueOS 17.12 released with improved stability
 layout: post
 categories: trueos release
-image: http://localhost:4000/assets/images/post-images/trueos17.12.jpg
+image: /assets/images/post-images/trueos17.12.jpg
 ---
 
 **The** *TrueOS* team has announced the release of TrueOS 17.12, latest 6 monthly stable release of FreeBSD based desktop BSD operating system. This release comes with improved stability to provide a more reliable experience.
 
 There are dramatic improvements in various components & tasks such as OpenRC, boot speed, removable device management, SysAdm API integrations ..etc. The Lumina Desktop has also got several improvements since the previous release.
 
-![TrueOS 17.12 release banner](http://localhost:4000/assets/images/post-images/trueos17.12.jpg)
+![TrueOS 17.12 release banner](/assets/images/post-images/trueos17.12.jpg)
 
 In addition to the changes in the desktop release, the team was also working on TrueOS server edition. As a proof of this, the team has introduced a new text-based server image with support for Virtualization systems such as *bhyve*. This server image also takes advantage of various improvements in FreeBSD.
 
