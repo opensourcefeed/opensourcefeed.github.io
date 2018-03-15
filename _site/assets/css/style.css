@@ -16,7 +16,7 @@ nav.navbar{background:#4bb679;text-transform:uppercase;font-size:1rem;border-top
 .post-content{font-size:1em;line-height:1.7em;}
 .post-content img{max-width:100%;display:block;margin:auto}
 .post-content p{font-family:'Open Sans'; color: black}
-.post-content h3{font-size:20px;margin-top:2rem; text-decoration: underline}
+.post-content h3{font-size:1.3rem;margin-top:2rem; text-decoration: underline}
 .lastUpdated{font-size:16px;color:#777;}
 blockquote{position:relative;margin:0;font-weight:400;text-align:justify;padding:15px;color:#000;background:#f0f0f0;}
 .related h3{font-size:1.2rem;}

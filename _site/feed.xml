@@ -1,5 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-15T00:09:03+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
-</subtitle><entry><title type="html">Tails 3.6 released with Video Acceleration API driver, UI improvements and other updates</title><link href="http://localhost:4000/tails-3.6-released-with-video-acceleration-driver-api-and-other-updates/" rel="alternate" type="text/html" title="Tails 3.6 released with Video Acceleration API driver, UI improvements and other updates" /><published>2018-03-14T00:00:00+05:30</published><updated>2018-03-14T00:00:00+05:30</updated><id>http://localhost:4000/tails-3.6-released-with-video-acceleration-driver-api-and-other-updates</id><content type="html" xml:base="http://localhost:4000/tails-3.6-released-with-video-acceleration-driver-api-and-other-updates/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Tails team has announced the release of Tails 3.6, the latest stable snapshot of &lt;em&gt;the amnesic live incognito system&lt;/em&gt;. This release brings various user experience improvements, the driver for video acceleration, along with various updated tools and packages.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-15T23:06:36+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
+</subtitle><entry><title type="html">MX-17.1 is available now, includes LibreOffice 6, updated MX Apps and more</title><link href="http://localhost:4000/mx-linux-17.1-released-featuring-libreoffice-6-and-mx-apps-improvements/" rel="alternate" type="text/html" title="MX-17.1 is available now, includes LibreOffice 6, updated MX Apps and more" /><published>2018-03-15T00:00:00+05:30</published><updated>2018-03-15T00:00:00+05:30</updated><id>http://localhost:4000/mx-linux-17.1-released-featuring-libreoffice-6-and-mx-apps-improvements</id><content type="html" xml:base="http://localhost:4000/mx-linux-17.1-released-featuring-libreoffice-6-and-mx-apps-improvements/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Dolphin Oracle&lt;/em&gt; on behalf of MX team has announced the release of MX-17.1, the latest stable snapshot of Debian based GNU/Linux distribution striving to provide a robust desktop experience with highly customized Xfce Desktop environment. This release includes various updated packages from the base distribution, along with some bleeding edge applications and improved MX applications.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/mx-17.1_0.jpg&quot; alt=&quot;A preview of MX-17.1 Desktop&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-mx-linux-or-mx&quot;&gt;What is MX Linux or MX?&lt;/h3&gt;
+&lt;p&gt;MX Linux is a Debian &lt;em&gt;stable&lt;/em&gt; based operating system providing solid desktop experience. This project is inspired by the ideas established by antiX and MEPIS operating systems. It provides a stable, reliable and consistent computing ecosystem without consuming much of system resources. You can find &lt;a href=&quot;http://theopensourcefeed.com/distribution/mx&quot;&gt;more about MX Linux&lt;/a&gt; in our gallery.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-new-in-mx-171&quot;&gt;What is new in MX-17.1?&lt;/h3&gt;
+&lt;p&gt;MX-17.1 is an updated snapshot in MX-17.x series. It includes all changes occurred in the base distribution, ie, Debian &lt;em&gt;stretch&lt;/em&gt; since it’s initial release. Additionally, MX-17.1 includes some bleeding edge applications and some updated applications developed by the MX project itself.&lt;/p&gt;
+
+&lt;p&gt;The main highlights of MX-17.1 release can be summarized as:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Includes Linux Kernel 4.15.0 in both 64 bit and 32-bit flavors. The 64-bit flavor includes patches for meltdown and spectre issues. While 4.15.0 is the default Kernel, users can easily switch between the latest liquorix kernel or Debian Stable Kernel (4.9) using MX package installer.&lt;/li&gt;
+  &lt;li&gt;Includes latest updates from Debian 9.4, antiX and MX repositories.&lt;/li&gt;
+  &lt;li&gt;Various updated packages like
+    &lt;ul&gt;
+      &lt;li&gt;Browser: Firefox 58.0.2 (59 hitting repo soon via update)&lt;/li&gt;
+      &lt;li&gt;Video Player: VLC 2.2.8-2 (3.0 in test repo)&lt;/li&gt;
+      &lt;li&gt;Music Manager/Player: Clementine 1.3.1&lt;/li&gt;
+      &lt;li&gt;Email client: Thunderbird 52.6&lt;/li&gt;
+      &lt;li&gt;Office suite: LibreOffice 6.0.1&lt;/li&gt;
+      &lt;li&gt;Backup: LuckyBackup 0.4.9-1&lt;/li&gt;
+      &lt;li&gt;Security: Passwords and Keys 3.20.0-3.1&lt;/li&gt;
+      &lt;li&gt;Terminal: Xfce4 Terminal 0.8.3-1&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The MX-Updater tools now includes an &lt;em&gt;auto update&lt;/em&gt; feature which enables background update operation without user intervention.&lt;/li&gt;
+  &lt;li&gt;Includes MX-Live-USB-Maker which is a functional front end to antiX live usb maker utility and &lt;em&gt;dd&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;MX-Tweaks includes a &lt;em&gt;Config Options&lt;/em&gt; tab to reset lightdm customizations and thunar actions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;where-can-i-download-mx-171-images&quot;&gt;Where can I download MX-17.1 images?&lt;/h3&gt;
+&lt;p&gt;MX-17.1 images can be downloaded from following links&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sourceforge.net/projects/mx-linux/files/Final/MX-17.1/&quot;&gt;Download MX-17.1 images from sourceforge&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://linuxtracker.org/download.php?id=c677c0156c605eb0633ae1587360eb7d6653f1bd&amp;amp;f=MX-17.1_386.iso.torrent&amp;amp;key=0&quot;&gt;MX-17.1 TORRENT 32 BIT&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://linuxtracker.org/download.php?id=b3891c6a6036f85444e6fa26b823f28657e7cd76&amp;amp;f=MX-17.1_x64.iso.torrent&amp;amp;key=0&quot;&gt;MX-17.1 TORRENT 64 BIT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;REFERENCES&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mxlinux.org/mx-171-released&quot;&gt;MX-17.1 release announcement&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Mr Dolphin Oracle on behalf of MX team has announced the release of MX-17.1, the latest stable snapshot of Debian based GNU/Linux distribution striving to provide a robust desktop experience with highly customized Xfce Desktop environment. This release includes various updated packages from the base distribution, along with some bleeding edge applications and improved MX applications.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/mx-17.1_0.jpg" /></entry><entry><title type="html">Tails 3.6 released with Video Acceleration API driver, UI improvements and other updates</title><link href="http://localhost:4000/tails-3.6-released-with-video-acceleration-driver-api-and-other-updates/" rel="alternate" type="text/html" title="Tails 3.6 released with Video Acceleration API driver, UI improvements and other updates" /><published>2018-03-14T00:00:00+05:30</published><updated>2018-03-14T00:00:00+05:30</updated><id>http://localhost:4000/tails-3.6-released-with-video-acceleration-driver-api-and-other-updates</id><content type="html" xml:base="http://localhost:4000/tails-3.6-released-with-video-acceleration-driver-api-and-other-updates/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Tails team has announced the release of Tails 3.6, the latest stable snapshot of &lt;em&gt;the amnesic live incognito system&lt;/em&gt;. This release brings various user experience improvements, the driver for video acceleration, along with various updated tools and packages.&lt;/p&gt;
 
 &lt;p&gt;Since each Tails release fixes various security loop holes and vulnerabilities, it is highly recommended to use the latest version of Tails always. Tails 3.6 is not an exception from this generalization.&lt;/p&gt;
 
@@ -196,37 +238,4 @@ MATE and LXDE are largely unmaintained. If no one steps up to keep them in a rel
 
   &lt;p&gt;This release comes with the name “patience 2018.1.0”. How we deal with
 this in the future is unclear. The next release, which might be there in March, in advance of CLT 2018, will ship whatever we come up with. Maybe it’ll be just numbered…&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">The Siduction community has released Siduction 2018.1.0, the first release of Debian unstable based GNU/Linux distribution in 2018. This release is built on top of Debian unstable snapshot from 29th December 2017 with some enhancements like a brand new installer, various useful scripts &amp;amp; packages, and a patched Linux Kernel.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/siduction201810.png" /></entry><entry><title type="html">Calculate Linux 17.12 released with support for RAID</title><link href="http://localhost:4000/calculate-linux-1712-released-with-support-for-raid/" rel="alternate" type="text/html" title="Calculate Linux 17.12 released with support for RAID" /><published>2018-01-01T00:00:00+05:30</published><updated>2018-01-01T00:00:00+05:30</updated><id>http://localhost:4000/calculate-linux-1712-released-with-support-for-raid</id><content type="html" xml:base="http://localhost:4000/calculate-linux-1712-released-with-support-for-raid/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; Alexander Tratsevskiy on behalf of Calculate Linux team has announced the release of Calculate Linux 17.12. This release brings support for installation on the RAID (Redundant Array of Inexpensive Disks) without losing fine tuning between performance and resource consumption.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/cld-mini.jpg&quot; alt=&quot;File picture of Calculate Linux 17.0&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Calculate Linux 17.12 is available in 8 different flavors. The Calculate Linux Desktop (CLD) comes with KDE Plasma. There are other alternative desktop flavors featuring Cinnamon, MATE &amp;amp; XFCE. In addition to desktop flavors, it includes Calculate Directory Server (CDS), Calculate Linux Scratch (CLS), Calculate Scratch Server (CSS) and Calculate Container Scratch (CCS).&lt;/p&gt;
-
-&lt;p&gt;Some of the notable highlights in Calculate Linux 17.12 can be summarized as follows:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Installation&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;SoftRaid support added.&lt;/li&gt;
-    &lt;li&gt;Fixed autopartitioning problems.&lt;/li&gt;
-    &lt;li&gt;Third-party overlays supported.&lt;/li&gt;
-  &lt;/ul&gt;
-
-  &lt;p&gt;&lt;strong&gt;Performance&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;The Calculate Utilities server does not run in the background. Instead, it is launched by D-Bus.&lt;/li&gt;
-    &lt;li&gt;The MuQSS patch was included in the kernel configuration for better application task scheduling.&lt;/li&gt;
-    &lt;li&gt;The UKSM patch was included in the kernel configuration for less memory load.&lt;/li&gt;
-    &lt;li&gt;PAE binary kernel supported for 32-bit systems.&lt;/li&gt;
-    &lt;li&gt;All server kernel settings optimized.&lt;/li&gt;
-  &lt;/ul&gt;
-
-  &lt;p&gt;&lt;strong&gt;Miscellaneous&lt;/strong&gt;&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;GCC completely updated to v6.4 and the kernel updated to v 4.14.&lt;/li&gt;
-    &lt;li&gt;In CLDC, CLDM and CLDX Pidgin were replaced by Gajim. The “httpupload, “image” and “URL image preview” come included.&lt;/li&gt;
-    &lt;li&gt;The LXC/LXD container version was renamed to Calculate Container Scratch (CCS).&lt;/li&gt;
-    &lt;li&gt;11 493 binary packages are available.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You can read &lt;a href=&quot;http://www.calculate-linux.org/blogs/en/681/show&quot;&gt;original Calculate Linux 17.12 release announcement&lt;/a&gt; in projects website.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mr Alexander Tratsevskiy on behalf of Calculate Linux team has announced the release of Calculate Linux 17.12. This release brings support for installation on the RAID (Redundant Array of Inexpensive Disks) without losing fine tuning between performance and resource consumption.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/cld-mini.jpg" /></entry></feed>
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">The Siduction community has released Siduction 2018.1.0, the first release of Debian unstable based GNU/Linux distribution in 2018. This release is built on top of Debian unstable snapshot from 29th December 2017 with some enhancements like a brand new installer, various useful scripts &amp;amp; packages, and a patched Linux Kernel.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/siduction201810.png" /></entry></feed>
