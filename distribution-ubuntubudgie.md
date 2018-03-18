@@ -16,6 +16,7 @@ purchase:
 description : Ubuntu Budgie is an official flavor of Ubuntu combining solid Ubuntu core with elegant, efficient and productive budgie desktop, developed by Solus project.
 
 screenshots:
+  Ubuntu Budgie 18.04 LTS (daily build) : "http://www.distroscreens.com/2018/03/ubuntu-budgie-1804-bionic-beaver.html"
   Ubuntu Budgie 17.10 : "http://www.distroscreens.com/2017/10/ubuntu-budgie-1710-artful-aardvark.html"
   Ubuntu Budgie 17.04 : "http://www.distroscreens.com/2017/04/ubuntu-budgie-1704-zesty-zapus.html"
   budgie remix 16.10 : "http://www.distroscreens.com/2016/11/ubuntu-budgie-remix-1610-screenshots.html"
