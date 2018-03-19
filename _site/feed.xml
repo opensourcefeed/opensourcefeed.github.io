@@ -1,5 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-18T20:06:50+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
-</subtitle><entry><title type="html">Zorin OS 12.3 comes with improved user experience and better windows application support</title><link href="http://localhost:4000/Zorin-OS-12.3-release-includes-better-windows-application-support-and-visual-improvements/" rel="alternate" type="text/html" title="Zorin OS 12.3 comes with improved user experience and better windows application support" /><published>2018-03-16T00:00:00+05:30</published><updated>2018-03-16T00:00:00+05:30</updated><id>http://localhost:4000/Zorin-OS-12.3-release-includes-better-windows-application-support-and-visual-improvements</id><content type="html" xml:base="http://localhost:4000/Zorin-OS-12.3-release-includes-better-windows-application-support-and-visual-improvements/">&lt;p&gt;&lt;strong&gt;Following&lt;/strong&gt; the release of Ubuntu 16.04.4, the Zorin Group has announced the immediate availability of Zorin OS 12.3, latest stable snapshot in projects 12.x LTS (Long Term Support) series. This release brings various package updates and bug fixes from the base distribution. It also includes several refinements to Zorin Desktop components to provide a better user experience. The windows application support is also improved with Wine 3.0.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-19T22:47:39+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
+</subtitle><entry><title type="html">NetBSD 7.1.2 released with critical security and stability patches</title><link href="http://localhost:4000/NetBSD-7.1.2-released-with-security-fixes/" rel="alternate" type="text/html" title="NetBSD 7.1.2 released with critical security and stability patches" /><published>2018-03-19T00:00:00+05:30</published><updated>2018-03-19T00:00:00+05:30</updated><id>http://localhost:4000/NetBSD-7.1.2-released-with-security-fixes</id><content type="html" xml:base="http://localhost:4000/NetBSD-7.1.2-released-with-security-fixes/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; NetBSD foundation has announced the release of NetBSD 7.1.2, the second security update in NetBSD 7.1.x series. This release brings various security fixes and other stability related patches.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/netbsd.png&quot; alt=&quot;NetBSD banner&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-netbsd&quot;&gt;What is NetBSD?&lt;/h3&gt;
+&lt;p&gt;NetBSD is UNIX like operating system developed by the collaborative effort of a large group of people. It also includes a variety of other free software like 4.4BSD Lite2 developed at UC Berkeley.&lt;/p&gt;
+
+&lt;p&gt;NetBSD implements several standard APIs and network protocols which makes it interoperable with other systems. One of the founding principles of NetBSD is to be highly portable. Towards this goal, the project has been ported to a wide range of platforms.&lt;/p&gt;
+
+&lt;p&gt;You can find &lt;a href=&quot;http://theopensourcefeed.com/distribution/netbsd&quot;&gt;more details on NetBSD&lt;/a&gt; in our gallery.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-changed-between-netbsd-711-and-712&quot;&gt;What changed between NetBSD 7.1.1 and 7.1.2?&lt;/h3&gt;
+&lt;p&gt;NetBSD 7.1.2 is a bug fix cum stability improvement update in 7.1.x series. Citing from &lt;a href=&quot;https://netbsd.org/releases/formal-7/NetBSD-7.1.2.html&quot;&gt;NetBSD 7.1.2 release announcement&lt;/a&gt; published on project’s website, following are some of the issues fixed in this release.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Fixed Remote DoS in IPsec (IPv6) and remote memory corruption in IPv6&lt;/li&gt;
+    &lt;li&gt;Disable compat_svr4 and compat_svr4_32 by default on all ports.&lt;/li&gt;
+    &lt;li&gt;Disable compat_ibcs2 everywhere but on Vax.&lt;/li&gt;
+    &lt;li&gt;Remove svr4/svr4_32/ibcs2/freebsd from the module autoload list.&lt;/li&gt;
+    &lt;li&gt;Disable LSRR (loose source and record route) and SSRR (strict source and record route) by default.&lt;/li&gt;
+    &lt;li&gt;amd64: Make the direct map non-executable.&lt;/li&gt;
+    &lt;li&gt;BIND: update bind.keys.&lt;/li&gt;
+    &lt;li&gt;bozohttpd(8): Fix issue where bozohttpd would fail to exec scripts via the -C mechanism.&lt;/li&gt;
+    &lt;li&gt;drm2: Fix issues preventing the use of more than one graphics device.&lt;/li&gt;
+    &lt;li&gt;Fix detection of duplicate symbols in kernel modules.&lt;/li&gt;
+    &lt;li&gt;ipfilter: Fix a kernel panic when altering the ipf state table size at runtime.&lt;/li&gt;
+    &lt;li&gt;IPsec:
+      &lt;ul&gt;
+        &lt;li&gt;Fix a couple use-after-free issues.&lt;/li&gt;
+        &lt;li&gt;Fix IPv6-IPsec-AH tunnels.&lt;/li&gt;
+        &lt;li&gt;Fix inverted logic that could crash the kernel.&lt;/li&gt;
+        &lt;li&gt;Fix out-of-bounds read.&lt;/li&gt;
+        &lt;li&gt;Strengthen sanity checks (AH/ESP).&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;IPv6:
+      &lt;ul&gt;
+        &lt;li&gt;Kick nested IPv6 fragments.&lt;/li&gt;
+        &lt;li&gt;Fix a couple use-after-free issues.&lt;/li&gt;
+        &lt;li&gt;Fix memory leak in nd6_na_input().&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;ksh: Create HISTFILE with mode 0600, not 777.&lt;/li&gt;
+    &lt;li&gt;MPLS: Fix several memory corruptions and inconsistencies.&lt;/li&gt;
+    &lt;li&gt;pf: Fix signedness bug.&lt;/li&gt;
+    &lt;li&gt;sparc:
+      &lt;ul&gt;
+        &lt;li&gt;Fix time goes backward problems.&lt;/li&gt;
+        &lt;li&gt;Fix problem using the ps command in ddb.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;tlp(4): Fix timeout using the Legacy Network Adapter in Microsoft Windows Server Hyper-V VMs.&lt;/li&gt;
+    &lt;li&gt;ypserv(8): Avoid returning stale request data to the client.&lt;/li&gt;
+    &lt;li&gt;Xen: Prevent unrestricted userland access to I/O ports.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;download-netbsd-712&quot;&gt;Download NetBSD 7.1.2&lt;/h3&gt;
+&lt;p&gt;Being a popular project, NetBSD 7.1.2 is hosted in several locations. You can find these servers in &lt;a href=&quot;https://www.netbsd.org/mirrors/&quot;&gt;NetBSD mirror listing page&lt;/a&gt;. Alternatively, you can choose a bit torrent file from &lt;a href=&quot;https://netbsd.org/mirrors/torrents/&quot;&gt;NetBSD torrent listing page&lt;/a&gt;. When downloading, please make sure that you are downloading an image compatible with your system.&lt;/p&gt;</content><author><name></name></author><summary type="html">The NetBSD foundation has announced the release of NetBSD 7.1.2, the second security update in NetBSD 7.1.x series. This release brings various security fixes and other stability related patches.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/netbsd.png" /></entry><entry><title type="html">Zorin OS 12.3 comes with improved user experience and better windows application support</title><link href="http://localhost:4000/Zorin-OS-12.3-release-includes-better-windows-application-support-and-visual-improvements/" rel="alternate" type="text/html" title="Zorin OS 12.3 comes with improved user experience and better windows application support" /><published>2018-03-16T00:00:00+05:30</published><updated>2018-03-16T00:00:00+05:30</updated><id>http://localhost:4000/Zorin-OS-12.3-release-includes-better-windows-application-support-and-visual-improvements</id><content type="html" xml:base="http://localhost:4000/Zorin-OS-12.3-release-includes-better-windows-application-support-and-visual-improvements/">&lt;p&gt;&lt;strong&gt;Following&lt;/strong&gt; the release of Ubuntu 16.04.4, the Zorin Group has announced the immediate availability of Zorin OS 12.3, latest stable snapshot in projects 12.x LTS (Long Term Support) series. This release brings various package updates and bug fixes from the base distribution. It also includes several refinements to Zorin Desktop components to provide a better user experience. The windows application support is also improved with Wine 3.0.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/post-images/zorin123folders.jpg&quot; alt=&quot;A demo of individual folder styling in Zorin OS 12.3&quot; /&gt;&lt;/p&gt;
 
@@ -229,24 +287,4 @@ Nice! Well done Jacob 😁&lt;/p&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;For more information on feren OS 2018.1 and future plans, you may refer &lt;a href=&quot;https://ferenos.weebly.com/blog/2018-kicking-off-with-yet-another-new-snapshot-changes&quot;&gt;official release announcement&lt;/a&gt; published in projects’ website.&lt;/p&gt;</content><author><name></name></author><summary type="html">The feren OS team has kick started their activities in 2018 by launching an updated snapshot. This snapshot brings various updated packages, bug fixes and enhancements over the previous release.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/ferenOS18.1.jpg" /></entry><entry><title type="html">Uruk 2.0 Xfce edition is available now</title><link href="http://localhost:4000/uruk-20-xfce-edition-is-available-now/" rel="alternate" type="text/html" title="Uruk 2.0 Xfce edition is available now" /><published>2018-01-01T00:00:00+05:30</published><updated>2018-01-01T00:00:00+05:30</updated><id>http://localhost:4000/uruk-20-xfce-edition-is-available-now</id><content type="html" xml:base="http://localhost:4000/uruk-20-xfce-edition-is-available-now/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Uruk GNU/Linux has gained a lot of popularity with its 1.0 release. Now, after Uruk 2.0 release, it is time to work on diversity. As a beginning of diversification effort, Mr &lt;em&gt;Hayder Ctee&lt;/em&gt; on behalf of Uruk team has announced the availability of Uruk 2.0 Xfce edition.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/uruk-software-center.jpg&quot; alt=&quot;A preview of Uruk Software Center in Uruk 2.0&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This release brings a 100% libre operating system with Xfce desktop tweaked with Uruk look &amp;amp; feel. It also includes various Uruk tools like Uruk Cleaner, Uruk Package Manager Simulator (UPMS), ..etc.&lt;/p&gt;
-
-&lt;p&gt;Following are some of the key highlights of Uruk 2.0 Xfce release:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Xfce 4.12 as window manager with Uruk 2.0 Customization&lt;/li&gt;
-    &lt;li&gt;Some default xfce4 apps like (mousepad, thunar file manager, xfburn ….)&lt;/li&gt;
-    &lt;li&gt;Some Uruk project apps like Uruk cleaner, RoseCrypt and AIA&lt;/li&gt;
-    &lt;li&gt;Upms (Uruk package manager simulator)&lt;/li&gt;
-    &lt;li&gt;UCC (Uruk control center)&lt;/li&gt;
-    &lt;li&gt;Software center with Synaptic Package Manager&lt;/li&gt;
-    &lt;li&gt;Some Extra apps like (ffmulticonverter, deluge, vlc, engrampa archive manager, Abrowser, Libreoffice5, Rhythmbox, …. )&lt;/li&gt;
-    &lt;li&gt;Lightdm as a display manager&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You can read &lt;a href=&quot;https://blog.urukproject.org/en/index.php/welcome/20-xfce&quot;&gt;Uruk 2.0 Xfce edition official release announcement&lt;/a&gt; in projects blog, and download installation image &lt;a href=&quot;https://sourceforge.net/projects/urukos/files/2.0/xfce/uruk_2.0-xfce-amd64.iso/download&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Uruk GNU/Linux has gained a lot of popularity with its 1.0 release. Now, after Uruk 2.0 release, it is time to work on diversity. As a beginning of diversification effort, Mr Hayder Ctee on behalf of Uruk team has announced the availability of Uruk 2.0 Xfce edition.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/uruk-software-center.jpg" /></entry></feed>
+&lt;p&gt;For more information on feren OS 2018.1 and future plans, you may refer &lt;a href=&quot;https://ferenos.weebly.com/blog/2018-kicking-off-with-yet-another-new-snapshot-changes&quot;&gt;official release announcement&lt;/a&gt; published in projects’ website.&lt;/p&gt;</content><author><name></name></author><summary type="html">The feren OS team has kick started their activities in 2018 by launching an updated snapshot. This snapshot brings various updated packages, bug fixes and enhancements over the previous release.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/ferenOS18.1.jpg" /></entry></feed>
