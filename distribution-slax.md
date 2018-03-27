@@ -10,18 +10,21 @@ preview: slax.jpg
 home_page: https://www.slax.org/
 desktops: [fluxbox]
 base: [debian]
+purchase:
+  OSDisc : "https://www.osdisc.com/products/slax"
 
 description : "Slax is a Debian based, Live GNU/Linux distribution that follows a modular design approach. It comes with minimal tools required to run a desktop system"
 
 releases:
+  Slax 9.4.0 : "/Slax-9.4-released-with-extra-applications/"
   Slax 9.3.0 : "/slax-93-released-with-improved-wifi-support/"
   
 screenshots:
   Slax 9.3.0 : "http://www.distroscreens.com/2017/12/slax-930-screenshots.html"
 ---
 
-**Slax** is a live GNU/Linux distribution following modular design approach. It can be booted from any portable storage media without installing the operating system.
+**Slax** is a live GNU/Linux distribution following modular and minimalistic design approach. It can be booted from any portable storage media without installing the operating system.
 
-Despite of being a small sized GNU/Linux distribution, Slax provides a well configured *Fluxbox* window manager with a minimal set of applications. This application set includes a command line tool and web browser.
+Despite being a small sized GNU/Linux distribution, Slax provides a well configured *Fluxbox* window manager with a minimal set of applications. This application set includes a command line tool and web browser.
 
-Slax is built on top of Debian GNU/Linux and hence can take advantage of thousands of precompiled packages from Debian ecosystem. All these packages can be managed using *apt* command.
+Slax is built on top of Debian GNU/Linux and hence can take advantage of thousands of precompiled packages from Debian ecosystem. All these packages can be managed using the *apt* command.

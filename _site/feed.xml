@@ -1,5 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-26T21:57:29+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
-</subtitle><entry><title type="html">KDE Neon 5.12 is a cool release with a lot of potential and hope</title><link href="http://localhost:4000/KDE-neon-5.12-is-a-cool-distribution-with-a-lot-of-potential-and-hope/" rel="alternate" type="text/html" title="KDE Neon 5.12 is a cool release with a lot of potential and hope" /><published>2018-03-21T00:00:00+05:30</published><updated>2018-03-21T00:00:00+05:30</updated><id>http://localhost:4000/KDE-neon-5.12-is-a-cool-distribution-with-a-lot-of-potential-and-hope</id><content type="html" xml:base="http://localhost:4000/KDE-neon-5.12-is-a-cool-distribution-with-a-lot-of-potential-and-hope/">&lt;p&gt;&lt;strong&gt;KDE Neon&lt;/strong&gt; is a distribution developed to showcase the real potential of Plasma Desktop. It is built on top of solid Ubuntu base and brings latest and greatest applications from KDE world. It helps users to experience latest features from Plasma desktop environment and other related applications without worrying about the stability of the underlying operating system. Also, the Plasma developers can show the &lt;em&gt;real&lt;/em&gt; Plasma to the end users by avoiding &lt;em&gt;unnecessary&lt;/em&gt; customization shipped by various distribution developers.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-27T23:31:34+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
+</subtitle><entry><title type="html">Slax 9.4 Final released with single click installation launchers</title><link href="http://localhost:4000/Slax-9.4-released-with-extra-applications/" rel="alternate" type="text/html" title="Slax 9.4 Final released with single click installation launchers" /><published>2018-03-27T00:00:00+05:30</published><updated>2018-03-27T00:00:00+05:30</updated><id>http://localhost:4000/Slax-9.4-released-with-extra-applications</id><content type="html" xml:base="http://localhost:4000/Slax-9.4-released-with-extra-applications/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Slax team has announced the release of Slax 9.4 &lt;em&gt;Final&lt;/em&gt;, the latest stable release of GNU/Linux distribution that follows a minimalistic and fully modular approach. This release includes package updates from base distribution, numerous bug fixes and single click installation launchers for various applications.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-slax&quot;&gt;What is Slax?&lt;/h3&gt;
+&lt;p&gt;Slax is a live GNU/Linux distribution based on Debian &lt;em&gt;stable&lt;/em&gt; branch that can be directly booted from any storage media. Despite being a small sized distribution, Slax provides a full-fledged &lt;em&gt;Fluxbox&lt;/em&gt; desktop with essential applications like command line emulator and web browser.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/slax94.jpg&quot; alt=&quot;Preview of application launcher in Slax 9.4&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-new-in-slax-94&quot;&gt;What is new in Slax 9.4?&lt;/h3&gt;
+&lt;p&gt;One of the key highlights of Slax 9.4 release is the inclusion of shortcuts for various popular applications like VLC, VoteCoin ..etc. These applications are not included in Slax by default. But, when you try to open these applications for the first time, it will be downloaded and installed automatically. If this approach really works, then the team will try to include more application launchers in upcoming releases. You can also get in touch with Slax team to include your favorite applications in this manner.&lt;/p&gt;
+
+&lt;p&gt;Slax 9.4 also includes package updates from current Debian &lt;em&gt;stable&lt;/em&gt; branch, along with numerous bug fixes. The file manager is improved to understand various file types. So, it is now easier for users to open files like images and documents.&lt;/p&gt;
+
+&lt;p&gt;Quoting from &lt;a href=&quot;http://www.slax.org/next.php&quot;&gt;Slax 9.4 road map&lt;/a&gt;, following are other changes in this release:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;add rfkill so users can switch on/off their wifi devices&lt;/li&gt;
+  &lt;li&gt;make xlunch in Slax search for icons in /usr/share/pixmaps too, else many apps won’t show up in the list&lt;/li&gt;
+  &lt;li&gt;if there are more rows with icons in xLunch, next row is displayed at the bottom of the screen, should be on top&lt;/li&gt;
+  &lt;li&gt;include libdrm-intel1, libgl1-mesa-dri, libglu1-mesa packages in Slax for direct rendering. Adds 8 MB :(&lt;/li&gt;
+  &lt;li&gt;alright, add /usr/share/games to PATH&lt;/li&gt;
+  &lt;li&gt;enable hotkeys in alsa config (enabling volumeUp/Dn/mute buttons)&lt;/li&gt;
+  &lt;li&gt;if the filesystem is not known, do not add partition to fstab, else it fails miserably&lt;/li&gt;
+  &lt;li&gt;add xarchiver&lt;/li&gt;
+  &lt;li&gt;remove unneeded packages grub* vim* debconf-i18n installation-report&lt;/li&gt;
+  &lt;li&gt;consider cbatticon as a battery monitor&lt;/li&gt;
+  &lt;li&gt;Setup file associations in the file manager, as per this suggestion&lt;/li&gt;
+  &lt;li&gt;add shortcuts to apps which will auto-install and then run&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;download-slax-94&quot;&gt;Download Slax 9.4&lt;/h3&gt;
+&lt;h4 id=&quot;download-slax-94-64-bit-iso-260-mb&quot;&gt;&lt;a href=&quot;http://ftp.sh.cvut.cz/slax/Slax-9.x/slax-64bit-9.4.0.iso&quot;&gt;Download Slax 9.4 64 BIT ISO&lt;/a&gt; (260 MB)&lt;/h4&gt;
+&lt;h4 id=&quot;download-slax-94-32-bit-iso-265-mb&quot;&gt;&lt;a href=&quot;http://ftp.sh.cvut.cz/slax/Slax-9.x/slax-32bit-9.4.0.iso&quot;&gt;Download Slax 9.4 32 BIT ISO&lt;/a&gt; (265 MB)&lt;/h4&gt;
+&lt;h4 id=&quot;download-slax-94-ipxe-image-09-mb&quot;&gt;&lt;a href=&quot;http://ftp.sh.cvut.cz/slax/Slax-9.x/slax-ipxe.iso&quot;&gt;Download Slax 9.4 IPXE Image&lt;/a&gt; (0.9 MB)&lt;/h4&gt;</content><author><name></name></author><summary type="html">The Slax team has announced the release of Slax 9.4 Final, the latest stable release of GNU/Linux distribution that follows a minimalistic and fully modular approach. This release includes package updates from base distribution, numerous bug fixes and single click installation launchers for various applications.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/slax94.jpg" /></entry><entry><title type="html">KDE Neon 5.12 is a cool release with a lot of potential and hope</title><link href="http://localhost:4000/KDE-neon-5.12-is-a-cool-distribution-with-a-lot-of-potential-and-hope/" rel="alternate" type="text/html" title="KDE Neon 5.12 is a cool release with a lot of potential and hope" /><published>2018-03-21T00:00:00+05:30</published><updated>2018-03-21T00:00:00+05:30</updated><id>http://localhost:4000/KDE-neon-5.12-is-a-cool-distribution-with-a-lot-of-potential-and-hope</id><content type="html" xml:base="http://localhost:4000/KDE-neon-5.12-is-a-cool-distribution-with-a-lot-of-potential-and-hope/">&lt;p&gt;&lt;strong&gt;KDE Neon&lt;/strong&gt; is a distribution developed to showcase the real potential of Plasma Desktop. It is built on top of solid Ubuntu base and brings latest and greatest applications from KDE world. It helps users to experience latest features from Plasma desktop environment and other related applications without worrying about the stability of the underlying operating system. Also, the Plasma developers can show the &lt;em&gt;real&lt;/em&gt; Plasma to the end users by avoiding &lt;em&gt;unnecessary&lt;/em&gt; customization shipped by various distribution developers.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/post-images/kde-neon-5.10.jpg&quot; alt=&quot;A file picture of KDE Neon 5.10 User Edition&quot; /&gt;
 &lt;em&gt;A preview of KDE Neon 5.10 User Edition. You can find Neon 5.12 screenshots on original post&lt;/em&gt;&lt;/p&gt;
@@ -257,35 +288,4 @@
 
   &lt;p&gt;This release is no different in terms of features from the 17.10 release and is comparable to an LTS point release in that all updates since the 17.10 release have been rolled into this ISO.
 The original &lt;a href=&quot;http://lubuntu.me/lubuntu-artful-atque-vale-released/&quot;&gt;release announcement of Lubuntu 17.10.1&lt;/a&gt; is available on project’s website.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Bringing an end to the long standing uncertainty, Lubuntu team has published an updated Lubuntu 17.10 ISO which fixes BIOS issue reported in various Lenovo laptops. This issue was a hot discussion topic in Linux communities for past few days and it has raised a serious question on the credibility of Ubuntu and it’s derivatives.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/lubuntu17101.png" /></entry><entry><title type="html">Ubuntu Budgie team member Jacob creates Budgie Applet to manage USB devices</title><link href="http://localhost:4000/ubuntu-budgie-team-member-jacob-creates-budgie-applet-to-manage-usb-devices/" rel="alternate" type="text/html" title="Ubuntu Budgie team member Jacob creates Budgie Applet to manage USB devices" /><published>2018-01-10T00:00:00+05:30</published><updated>2018-01-10T00:00:00+05:30</updated><id>http://localhost:4000/ubuntu-budgie-team-member-jacob-creates-budgie-applet-to-manage-usb-devices</id><content type="html" xml:base="http://localhost:4000/ubuntu-budgie-team-member-jacob-creates-budgie-applet-to-manage-usb-devices/">&lt;p&gt;&lt;strong&gt;Today&lt;/strong&gt; Ubuntu Budgie team has announced the immediate availability of a new budgie applet for managing USB storage devices. This applet is named as &lt;em&gt;DropBy&lt;/em&gt; and is a part of &lt;em&gt;budgie-extras&lt;/em&gt; applet collection developed by Ubuntu Budgie team.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/dropby.jpg&quot; alt=&quot;First preview of DropBy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The &lt;em&gt;DropBy&lt;/em&gt; applet will pop-up when a USB storage devices are connected to the system. It provides various options to manage connected devices, which includes the ability to mount/unmount devices, copy contents, open devices using default file manager ..etc.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;DropBy&lt;/em&gt; is expected to find it’s first release with a few more polishing activities. Once it’s ready, it will be made available through Ubuntu Budgie 17.10 backport repositories. It can also be installed using &lt;em&gt;Budgie Welcome&lt;/em&gt;, a multipurpose app created by Ubuntu Budgie team.&lt;/p&gt;
-
-&lt;p&gt;Mr. Jacob joined Ubuntu Budgie team, a few months back. Since then, he was working on &lt;em&gt;budgie-extras&lt;/em&gt;, a handy collection of budgie applets to serve various purposes. So far, it includes applets like&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Window Previews&lt;/li&gt;
-  &lt;li&gt;Hotcorners&lt;/li&gt;
-  &lt;li&gt;Quicknote&lt;/li&gt;
-  &lt;li&gt;Workspace Switcher Overview&lt;/li&gt;
-  &lt;li&gt;Wallpaper Switcher&lt;/li&gt;
-  &lt;li&gt;Workspace Mover&lt;/li&gt;
-  &lt;li&gt;ShowTime&lt;/li&gt;
-  &lt;li&gt;CountDown&lt;/li&gt;
-  &lt;li&gt;Automatic Keyboard Layout Switcher&lt;/li&gt;
-  &lt;li&gt;Screen Rotation Lock&lt;/li&gt;
-  &lt;li&gt;ClockWorks&lt;/li&gt;
-  &lt;li&gt;and now DropBy&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Citing from original text shared by &lt;a href=&quot;https://www.facebook.com/UbuntuBudgie/posts/529310910785686&quot;&gt;Ubuntu Budgie in their facebook page&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Team member Jacob has been busy again - another optional applet you may wish to use called “DropBy”. This one automatically pops up whenever a USB device is added. You can mount/unmount, copy the USB device contents and open in Files all from the popup.
-Nice! Well done Jacob 😁&lt;/p&gt;
-
-  &lt;p&gt;Will be polishing in the next few days and will release to the 17.10 backports PPA and you can use budgie-welcome to install.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Today Ubuntu Budgie team has announced the immediate availability of a new budgie applet for managing USB storage devices. This applet is named as DropBy and is a part of budgie-extras applet collection developed by Ubuntu Budgie team.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/dropby.jpg" /></entry></feed>
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Bringing an end to the long standing uncertainty, Lubuntu team has published an updated Lubuntu 17.10 ISO which fixes BIOS issue reported in various Lenovo laptops. This issue was a hot discussion topic in Linux communities for past few days and it has raised a serious question on the credibility of Ubuntu and it’s derivatives.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/lubuntu17101.png" /></entry></feed>
