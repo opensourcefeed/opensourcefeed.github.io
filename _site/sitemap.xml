@@ -201,6 +201,10 @@
 <lastmod>2018-03-27T00:00:00+05:30</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/qubes-os-4.0-released-with-security-and-functionality-improvements/</loc>
+<lastmod>2018-03-30T00:00:00+05:30</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -442,6 +446,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/blog/5/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/6/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/google9aba68154c5cb9a6.html</loc>
