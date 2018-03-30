@@ -10,6 +10,8 @@ preview: uruk1.0.jpg
 home_page: https://urukproject.org/dist/en.html
 desktops: [mate]
 base : [trisquel]
+purchase:
+  OSDisc : "https://www.osdisc.com/products/uruk"
 
 description : "Uruk GNU/Linux is a 100% libre OS with the objective of providing an easy to use, modern, general-purpose OS that is easy to configure and customize"
 
