@@ -69,45 +69,53 @@ layout: default
 
 </div>
 <div class="col-md-3 pull-md-6">
-	<aside class="sidebar">
-		<h2>Operating System</h2>
-		<ul>
-			{% for page in site.pages %} {% if page.Category == 'Distribution' %}
-			<a href="{{page.url}}">
-				<li>{{page.title}}</li>
-			</a>
-			{% endif %} {% endfor %}
-		</ul>
-	</aside>
-</div>
-<div class="col-md-3">
-	<aside class="sidebar">
-		<h2>Desktop Environments</h2>
-		<ul>
-			{% for page in site.pages %} {% if page.Category == 'Desktop' %}
-			<a href="{{page.url}}">
-				<li>{{page.title}}</li>
-			</a>
-			{% endif %} {% endfor %}
-		</ul>
-		<hr>
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- post body2 -->
-		<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6380671811722843" data-ad-slot="9117305104" data-ad-format="auto">
-		</ins>
-		<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-		<hr>
-		<h2>Independent Distributions</h2>
-		<ul>
-			{% for page in site.pages %} {% if page.Category == 'Distribution' and page.base == 'Independent' %}
-			<a href="{{page.url}}">
-				<li>{{page.title}}</li>
-			</a>
-			{% endif %} {% endfor %}
-		</ul>
-	</aside>
+        <aside class="sidebar">
+            <h2>GNU/Linux Distributions</h2>
+            <ul>
+                {% for page in site.pages %} {% if page.Category == 'Distribution' and page.type != 'BSD' %}
+                <a href="{{page.url}}">
+                    <li>{{page.title}}</li>
+                </a>
+                {% endif %} {% endfor %}
+            </ul>
+        </aside>
+    </div>
+    <div class="col-md-3">
+        <aside class="sidebar">
+            <h2>BSD Distributions</h2>
+            <ul>
+                {% for page in site.pages %} {% if page.Category == 'Distribution' and page.type == 'BSD' %}
+                <a href="{{page.url}}">
+                    <li>{{page.title}}</li>
+                </a>
+                {% endif %} {% endfor %}
+            </ul>
+            <hr>
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- post body2 -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6380671811722843" data-ad-slot="9117305104" data-ad-format="auto">
+            </ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            <hr>
+            <h2>Desktop Environments</h2>
+            <ul>
+                {% for page in site.pages %} {% if page.Category == 'Desktop' %}
+                <a href="{{page.url}}">
+                    <li>{{page.title}}</li>
+                </a>
+                {% endif %} {% endfor %}
+            </ul>
+            <h2>Independent Distributions</h2>
+            <ul>
+                {% for page in site.pages %} {% if page.Category == 'Distribution' and page.base == 'Independent' %}
+                <a href="{{page.url}}">
+                    <li>{{page.title}}</li>
+                </a>
+                {% endif %} {% endfor %}
+            </ul>
+        </aside>
 
-</div>
+    </div>
 </div>

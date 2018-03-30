@@ -208,9 +208,9 @@
     </div>
     <div class="col-md-3 pull-md-6">
         <aside class="sidebar">
-            <h2>Operating System</h2>
+            <h2>GNU/Linux Distributions</h2>
             <ul>
-                {% for page in site.pages %} {% if page.Category == 'Distribution' %}
+                {% for page in site.pages %} {% if page.Category == 'Distribution' and page.type != 'BSD' %}
                 <a href="{{page.url}}">
                     <li>{{page.title}}</li>
                 </a>
@@ -220,9 +220,9 @@
     </div>
     <div class="col-md-3">
         <aside class="sidebar">
-            <h2>Desktop Environments</h2>
+            <h2>BSD Distributions</h2>
             <ul>
-                {% for page in site.pages %} {% if page.Category == 'Desktop' %}
+                {% for page in site.pages %} {% if page.Category == 'Distribution' and page.type == 'BSD' %}
                 <a href="{{page.url}}">
                     <li>{{page.title}}</li>
                 </a>
@@ -237,6 +237,14 @@
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
             <hr>
+            <h2>Desktop Environments</h2>
+            <ul>
+                {% for page in site.pages %} {% if page.Category == 'Desktop' %}
+                <a href="{{page.url}}">
+                    <li>{{page.title}}</li>
+                </a>
+                {% endif %} {% endfor %}
+            </ul>
             <h2>Independent Distributions</h2>
             <ul>
                 {% for page in site.pages %} {% if page.Category == 'Distribution' and page.base == 'Independent' %}
