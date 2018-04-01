@@ -410,6 +410,9 @@
 <loc>http://localhost:4000/distribution/trisquel</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/trueos</loc>
+</url>
+<url>
 <loc>http://localhost:4000/distribution/ubuntu</loc>
 </url>
 <url>
