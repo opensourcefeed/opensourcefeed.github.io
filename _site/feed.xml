@@ -1,5 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-01T10:19:45+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
-</subtitle><entry><title type="html">TrueOS 18.03 released with Spectre &amp;amp; Meltdown fixes</title><link href="http://localhost:4000/TrueOS-2018.03-STABLE-released-with-updated-ecosystem-to-fight-meltdown-and-spectre-issues/" rel="alternate" type="text/html" title="TrueOS 18.03 released with Spectre &amp; Meltdown fixes" /><published>2018-03-31T00:00:00+05:30</published><updated>2018-03-31T00:00:00+05:30</updated><id>http://localhost:4000/TrueOS-2018.03-STABLE-released-with-updated-ecosystem-to-fight-meltdown-and-spectre-issues</id><content type="html" xml:base="http://localhost:4000/TrueOS-2018.03-STABLE-released-with-updated-ecosystem-to-fight-meltdown-and-spectre-issues/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Ken Moore&lt;/em&gt;, on behalf of TrueOS team, has announced the availability of TrueOS 18.03, a special release from the TrueOS project. This release was essential to address various issues spread in computing world since the beginning of 2018, which includes Meltdown and Spectre issues. The entire package ecosystem of TrueOS has been updated to address this issues.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-01T21:47:52+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
+</subtitle><entry><title type="html">Nitrux 1.0.10 released with package updates from Bionic</title><link href="http://localhost:4000/Nitrux-1.0.10-released-with-package-updates-from-bionic/" rel="alternate" type="text/html" title="Nitrux 1.0.10 released with package updates from Bionic" /><published>2018-04-01T00:00:00+05:30</published><updated>2018-04-01T00:00:00+05:30</updated><id>http://localhost:4000/Nitrux-1.0.10-released-with-package-updates-from-bionic</id><content type="html" xml:base="http://localhost:4000/Nitrux-1.0.10-released-with-package-updates-from-bionic/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; &lt;em&gt;Nitrux&lt;/em&gt; team has announced the immediate availability of Nitrux 1.0.10, the latest stable release of Ubuntu based GNU/Linux distribution featuring Nomad desktop. This release includes various package updates from Ubuntu 18.04 Bionic Beaver, along with some look and feels improvements.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/nomad-menu-2-620x349.jpg&quot; alt=&quot;Nitrux 1.0.10 banner&quot; /&gt;
+&lt;em&gt;Image Courtesy : OCSMag&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-nitrux-os&quot;&gt;What is Nitrux OS?&lt;/h3&gt;
+&lt;p&gt;Nitrux is an Ubuntu based GNU/Linux distribution targeting mainly desktop and laptop users. In addition to all the benefits from Ubuntu, it also promotes portable applications formats like AppImage.&lt;/p&gt;
+
+&lt;p&gt;While using the Ubuntu core to perform essential operating system functionalities, Nitrux is planning to develop a clean desktop experience. Nitrux makes use of Plasma Desktop and KDE Applications to provide a better user experience. It also provides an in-house developed software suite called &lt;em&gt;Nomad Desktop&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-new-in-nitrux-1010&quot;&gt;What is new in Nitrux 1.0.10?&lt;/h3&gt;
+&lt;p&gt;Unlike many other mainstream distributions, Nitrux does n’t publish a detailed blog post for each release. Instead, they make a brief release announcement on social media accounts like twitter, google plus and facebook.&lt;/p&gt;
+
+&lt;p&gt;Quoting from the &lt;a href=&quot;https://plus.google.com/+NitruxInside/posts/BUEKoJ7RPvG&quot;&gt;Nitrux 1.0.10 release announcement&lt;/a&gt; published in project’s google plus account, following are some highlights in Nitrux 1.0.10 release.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Updated packages from bionic.&lt;/li&gt;
+    &lt;li&gt;Updated Nomad Software Center.&lt;/li&gt;
+    &lt;li&gt;Updated Software Updater.&lt;/li&gt;
+    &lt;li&gt;Updated kernel to version 4.15.14.&lt;/li&gt;
+    &lt;li&gt;Latest version of Plasma 5 (5.12.80), KDE Apps (18.07.70), KF5 (5.45.0) and Qt 5 (5.10.0).&lt;/li&gt;
+    &lt;li&gt;Updated Look and Feel.&lt;/li&gt;
+    &lt;li&gt;Added X11 userland driver support for: VMware.&lt;/li&gt;
+    &lt;li&gt;Added character support for Chinese and Japanese.&lt;/li&gt;
+    &lt;li&gt;Added AppImage Integration Tool.&lt;/li&gt;
+    &lt;li&gt;Added support for EFI mode.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can read &lt;a href=&quot;https://nxos.org/compendium/#get-started&quot;&gt;more about Nitrux&lt;/a&gt; in project’s getting started section.&lt;/p&gt;
+
+&lt;h3 id=&quot;download-nitrux-1010&quot;&gt;Download Nitrux 1.0.10&lt;/h3&gt;
+&lt;p&gt;The Nitrux installation images can be downloaded from OpenDesktop hosting or as a torrent file. The installation image is of size 1.39 GB and it supports AMD64/Intelx64 systems.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.opendesktop.org/p/1188112/startdownload?file_id=1522477880&amp;amp;file_name=nitrux_release_1.0.10-4.iso&amp;amp;file_type=application/octet-stream&amp;amp;file_size=1421885440&amp;amp;url=https%3A%2F%2Fdl.opendesktop.org%2Fapi%2Ffiles%2Fdownloadfile%2Fid%2F1522477880%2Fs%2F5d9e8cbf938291415be8bbbbe95aa7a9%2Ft%2F1522602626%2Fu%2F247731%2Fnitrux_release_1.0.10-4.iso&quot;&gt;Download Nitrux 1.0.10 ISO&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.opendesktop.org/p/1188112/startdownload?file_id=1522479564&amp;amp;file_name=nitrux_release_1.0.10-4.torrent&amp;amp;file_type=application/x-bittorrent&amp;amp;file_size=54771&amp;amp;url=https%3A%2F%2Fdl.opendesktop.org%2Fapi%2Ffiles%2Fdownloadfile%2Fid%2F1522479564%2Fs%2F5d9e8cbf938291415be8bbbbe95aa7a9%2Ft%2F1522602626%2Fu%2F247731%2Fnitrux_release_1.0.10-4.torrent&quot;&gt;Download Nitrux 1.0.10 TORRENT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">The Nitrux team has announced the immediate availability of Nitrux 1.0.10, the latest stable release of Ubuntu based GNU/Linux distribution featuring Nomad desktop. This release includes various package updates from Ubuntu 18.04 Bionic Beaver, along with some look and feels improvements.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/nomad-menu-2-620x349.jpg" /></entry><entry><title type="html">TrueOS 18.03 released with Spectre &amp;amp; Meltdown fixes</title><link href="http://localhost:4000/TrueOS-2018.03-STABLE-released-with-updated-ecosystem-to-fight-meltdown-and-spectre-issues/" rel="alternate" type="text/html" title="TrueOS 18.03 released with Spectre &amp; Meltdown fixes" /><published>2018-03-31T00:00:00+05:30</published><updated>2018-03-31T00:00:00+05:30</updated><id>http://localhost:4000/TrueOS-2018.03-STABLE-released-with-updated-ecosystem-to-fight-meltdown-and-spectre-issues</id><content type="html" xml:base="http://localhost:4000/TrueOS-2018.03-STABLE-released-with-updated-ecosystem-to-fight-meltdown-and-spectre-issues/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Ken Moore&lt;/em&gt;, on behalf of TrueOS team, has announced the availability of TrueOS 18.03, a special release from the TrueOS project. This release was essential to address various issues spread in computing world since the beginning of 2018, which includes Meltdown and Spectre issues. The entire package ecosystem of TrueOS has been updated to address this issues.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/post-images/trueoslogo.jpg&quot; alt=&quot;TrueOS 18.03 banner&quot; /&gt;&lt;/p&gt;
 
@@ -273,35 +310,4 @@
   &lt;li&gt;Updated packages like LibreOffice 6, Chromium 64, Thunderbird 52.6, Amarok 2.9, VLC 2.2 ..etc.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;For more information and queries, see official &lt;a href=&quot;https://neptuneos.com/en/news-reader/neptune-5-release.html&quot;&gt;Neptune 5.0 ‘Refresh’ release announcement&lt;/a&gt; published on project’s website.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mr Leszek, on behalf of Neptune OS project, has announced the release of Neptune 5 ‘Refresh’, the latest release of Debian stable based, GNU/Linux distribution striving to provide a robust desktop experience with Plasma Desktop. This release has been rebased to Debian Stretch current stable release. It includes several updated packages and implementation of several strategical decisions taken by the team.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/neptune5.0.jpg" /></entry><entry><title type="html">Netrunner 18.03 Idolon released with a set of redesigned artworks</title><link href="http://localhost:4000/netrunner-1803-idolon-released-with-a-set-of-redesigned-artworks/" rel="alternate" type="text/html" title="Netrunner 18.03 Idolon released with a set of redesigned artworks" /><published>2018-03-12T00:00:00+05:30</published><updated>2018-03-12T00:00:00+05:30</updated><id>http://localhost:4000/netrunner-1803-idolon-released-with-a-set-of-redesigned-artworks</id><content type="html" xml:base="http://localhost:4000/netrunner-1803-idolon-released-with-a-set-of-redesigned-artworks/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Netrunner team has announced the release of Netrunner 18.03 &lt;em&gt;Idolon&lt;/em&gt;, the latest stable snapshot of Debian testing based GNU/Linux distribution featuring latest plasma desktop environment. This release includes various updates from upstream distribution, along with a set of redesigned visual effects, theme and wallpapers.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/netrunner%2018.03.jpg&quot; alt=&quot;A preview of Netrunner 18.03&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;what-are-highlights-of-netrunner-1803-snapshot&quot;&gt;What are highlights of Netrunner 18.03 snapshot?&lt;/h3&gt;
-&lt;p&gt;In addition to various package updates and bug fixes from Debian testing branch, following are important highlights of Netrunner 18.03 snapshot.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Beginning from 18.03 snapshot, Netrunner will be including more packages from upstream directly. This will help the project to maintain better compatibility with base distribution while continuously updating the testing repository.&lt;/li&gt;
-  &lt;li&gt;Just like in rolling edition, Netrunner 18.03 also includes &lt;em&gt;Yarock&lt;/em&gt;, a Qt-based music player which supports a wide range of online streaming networks.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Discover&lt;/em&gt;, the plasma software center is back in Netrunner desktop edition. Also, there is firefox with plasma integration and suse image writer. &lt;em&gt;MintUpdate&lt;/em&gt; is still available in this release to enable update in a classical way.&lt;/li&gt;
-  &lt;li&gt;Netrunner 18.03 features settings window with sidebar layout. All UI related customization options can be found under &lt;em&gt;Plasma Tweaks&lt;/em&gt; tab.&lt;/li&gt;
-  &lt;li&gt;Various updated packages like
-    &lt;ul&gt;
-      &lt;li&gt;KDE Plasma 5.12.2&lt;/li&gt;
-      &lt;li&gt;KDE Frameworks 5.42&lt;/li&gt;
-      &lt;li&gt;KDE Applications 17.08.3&lt;/li&gt;
-      &lt;li&gt;Qt 5.9.2&lt;/li&gt;
-      &lt;li&gt;Linux Kernel 4.14&lt;/li&gt;
-      &lt;li&gt;Firefox Quantum 58.0.1&lt;/li&gt;
-      &lt;li&gt;Thunderbird 52.6.0&lt;/li&gt;
-      &lt;li&gt;LibreOffice 6.0.2&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;where-can-i-download-netrunner-1803&quot;&gt;Where can I download Netrunner 18.03?&lt;/h3&gt;
-&lt;p&gt;Netrunner 18.03 is only available for 64-bit architectures. The installation image has a size of 2.4 GiB and can be downloaded using following links.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sourceforge.net/projects/netrunneros/files/netrunner-1803/netrunner-1803-64bit.iso&quot;&gt;Netrunner 18.03 ISO&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://sourceforge.net/projects/netrunneros/files/netrunner-1803/netrunner-1803-64bit.iso.torrent&quot;&gt;Netrunner 18.03 Torrent&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">The Netrunner team has announced the release of Netrunner 18.03 Idolon, the latest stable snapshot of Debian testing based GNU/Linux distribution featuring latest plasma desktop environment. This release includes various updates from upstream distribution, along with a set of redesigned visual effects, theme and wallpapers.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/netrunner%2018.03.jpg" /></entry></feed>
+&lt;p&gt;For more information and queries, see official &lt;a href=&quot;https://neptuneos.com/en/news-reader/neptune-5-release.html&quot;&gt;Neptune 5.0 ‘Refresh’ release announcement&lt;/a&gt; published on project’s website.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mr Leszek, on behalf of Neptune OS project, has announced the release of Neptune 5 ‘Refresh’, the latest release of Debian stable based, GNU/Linux distribution striving to provide a robust desktop experience with Plasma Desktop. This release has been rebased to Debian Stretch current stable release. It includes several updated packages and implementation of several strategical decisions taken by the team.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/neptune5.0.jpg" /></entry></feed>
