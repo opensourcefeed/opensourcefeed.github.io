@@ -367,6 +367,9 @@
 <loc>http://localhost:4000/distribution/netrunner</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/nitrux</loc>
+</url>
+<url>
 <loc>http://localhost:4000/distribution/opensuse</loc>
 </url>
 <url>
