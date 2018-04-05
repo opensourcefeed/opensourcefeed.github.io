@@ -13,12 +13,16 @@ base : [arch]
 purchase:
   OSDisc : "https://www.osdisc.com/products/antergos"
 
-description : "Antergos (formerly Cinnarch) is an Arch based distribution with the goal of delivering a modern, elegant and powerful operating system to all levels of users."
+description : "Antergos (earlier Cinnarch) is an Arch based distribution with the aim of delivering a modern, elegant and powerful operating system to all levels of users"
 
 screenshots:
   Antergos 2016.04.22 : "http://www.distroscreens.com/2016/04/antergos-22042016-screenshots.html"
 
 releases:
+  Antergos 18.4 : "https://antergos.com/blog/iso-refresh-antergos-18-4/"
+  Antergos 18.3 : "https://antergos.com/blog/iso-refresh-antergos-18-3/"
+  Antergos 18.2 : "https://antergos.com/blog/iso-refresh-antergos-18-2/"
+  Antergos 18.1 : "https://antergos.com/blog/iso-refresh-antergos-18-1/"
   Antergos 17.12 : "https://antergos.com/blog/iso-refresh-antergos-17-12/"
   Antergos 17.11 : "https://antergos.com/blog/iso-refresh-antergos-17-11/"
   Antergos 17.9 : "https://antergos.com/blog/iso-refresh-antergos-17-9/"
@@ -40,6 +44,6 @@ stories:
   Antergos ships MATE 1.18 : "https://antergos.com/blog/mate-1-18-now-available/"
 ---
 
-**Antergos** (formerly Cinnarch) is an Arch based distribution with the goal of delivering a modern, elegant and powerful operating system to all levels of users. Antergos simplifies OS installation and configuration and it makes Arch Linux accessible for the mass.
+**Antergos** (earlier Cinnarch) is an Arch based distribution with the goal of delivering a modern, elegant and powerful operating system to all levels of users. Antergos simplifies OS installation and configuration and it makes Arch Linux accessible for the mass.
 
 Initially, Antergos project was started with the name Cinnarch, and it was only shipping one desktop environment, Cinnamon. Currently, Antergos offers 6 desktop environments from which users can choose during installation.
