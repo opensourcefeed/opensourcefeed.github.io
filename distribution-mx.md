@@ -10,6 +10,8 @@ preview: mx-preview.jpg
 home_page: https://mxlinux.org/
 desktops: [xfce]
 base: [debian]
+purchase:
+  OSDisc : "https://www.osdisc.com/products/mx"
 
 description : "MX Linux is a cooperative venture between the antiX and former MEPIS communities, using the best tools and talents from each distributions."
 
