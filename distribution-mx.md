@@ -10,6 +10,8 @@ preview: mx-preview.jpg
 home_page: https://mxlinux.org/
 desktops: [xfce]
 base: [debian]
+purchase:
+  OSDisc : "https://www.osdisc.com/products/mx"
 
 description : "MX Linux is a cooperative venture between the antiX and former MEPIS communities, using the best tools and talents from each distributions."
 
@@ -22,6 +24,7 @@ screenshots:
   MX Linux 17.0 : "https://goo.gl/F1oHqe"
 
 reviews:
+  "MX Linux 17.1 delivers what it promises, simplicity" : "../mx-linux-17.1-is-a-success-in-delivering-a-simple-os/"
   MX Linux 16 is a wind of change : "https://www.dedoimedo.com/computers/mx-16.html"
   MX Linux 16 is lightweight and effective, but not for newbies : "http://distrowatch.com/weekly.php?issue=20170109#mx"
   MX Linux 16 is very close to an ideal OS: "http://www.open-source-feed.com/2017/02/mx-linux-16-is-very-close-to-ideal.html"
