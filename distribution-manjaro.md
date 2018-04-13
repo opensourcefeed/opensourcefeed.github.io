@@ -8,7 +8,7 @@ permalink: /distribution/manjaro
 logo: Manjaro-logo.svg
 preview: manjaro-xfce.jpg
 home_page: https://manjaro.org/
-desktops: [plasma, xfce, mate, gnome, cinnamon, budgie, lxqt, i3, lxde]
+desktops: [plasma, xfce, mate, gnome, cinnamon, budgie, lxqt, i3, lxde, awesome, bspwm, deepin]
 base : [arch]
 
 description : Manjaro is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly scripts and installers to make it usable for newbies and professionals alike. Stories and updates on Manjaro GNU/Linux.
@@ -49,7 +49,8 @@ screenshots:
   Manjaro Cinnamon 16.02 : http://www.distroscreens.com/2016/04/manjaro-cinnamon-1602-screenshots.html
 
 stories:
-  Splitfire introduces Manjaro powered Station X laptops : "http://www.open-source-feed.com/2017/09/station-x-introduces-manjaro-powered.html"
+  Manjaro 17.1.7 celebrates diversity with 12 editions : "https://www.open-source-feed.com/2018/04/manjaro-1717-celebrates-diversity-with.html"
+  Splitfire introduces Manjaro powered Station X laptops : "https://www.open-source-feed.com/2017/09/station-x-introduces-manjaro-powered.html"
 ---
 
 **Manjaro** is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly scripts and installers to make it usable for newbies and professionals alike. Official Manjaro ships KDE and Xfce flavors. Additionally, there are community flavors featuring other desktop environments also.
