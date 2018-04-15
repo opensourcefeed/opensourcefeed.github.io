@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-15T17:38:01+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
+</subtitle><entry><title type="html">MX Linux 17.1 stands out because of simplicity</title><link href="http://localhost:4000/mx-linux-17.1-is-a-success-in-delivering-a-simple-os/" rel="alternate" type="text/html" title="MX Linux 17.1 stands out because of simplicity" /><published>2018-04-08T00:00:00+05:30</published><updated>2018-04-08T00:00:00+05:30</updated><id>http://localhost:4000/mx-linux-17.1-is-a-success-in-delivering-a-simple-os</id><content type="html" xml:base="http://localhost:4000/mx-linux-17.1-is-a-success-in-delivering-a-simple-os/">&lt;p&gt;&lt;strong&gt;MX Linux 17.1&lt;/strong&gt; is a stable release of Debian based GNU/Linux distribution featuring Xfce desktop environment. The main purpose of this distribution is to provide a simple user experience to all kind of users, say from absolute beginners to experts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/mx-171-preview.jpg&quot; alt=&quot;A preview of MX Linux 17.0 - Courtesy distroscreens&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mr &lt;em&gt;Jack Wallen&lt;/em&gt; has written a review on MX Linux 17.1 and it is published on &lt;em&gt;linux.com&lt;/em&gt; portal. At the very beginning of this review, &lt;em&gt;Jack&lt;/em&gt; was wondering what is the need for another distribution when there are hundreds of distributions which are getting actively developed. He was also curious to see what can we expect from a blend of antiX and MEPIS when they stand out in their own ways.&lt;/p&gt;
+
+&lt;p&gt;Towards the end of the review, the impression changes gradually, and he reaches in a conclusion that, though MX Linux 17.1 is not among the most elegant distributions, it delivers what it promises, ie, simplicity. Quoting from his own concluding words,&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;MX Linux makes transitioning from just about any desktop operating system simple. Although some might find the desktop interface to be a bit less-than-modern, the distribution’s primary focus isn’t on beauty, but simplicity. To that end, MX Linux succeeds in stellar fashion. This flavor of Linux can make anyone feel right at home on Linux. Spin up this mid-weight distribution and see if it can’t serve as your daily driver.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can read the &lt;a href=&quot;https://www.linux.com/learn/intro-to-linux/2018/4/mx-linux-mid-weight-distro-focused-simplicity&quot;&gt;complete review on MX Linux 17.1&lt;/a&gt; in &lt;em&gt;linux.com&lt;/em&gt; portal.&lt;/p&gt;</content><author><name></name></author><summary type="html">MX Linux 17.1 is a stable release of Debian based GNU/Linux distribution featuring Xfce desktop environment. The main purpose of this distribution is to provide a simple user experience to all kind of users, say from absolute beginners to experts.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/mx-171-preview.jpg" /></entry><entry><title type="html">Ubuntu 18.04 final beta images are availabe now</title><link href="http://localhost:4000/00-ubuntu-18.04-final-beta-images-are-available-now/" rel="alternate" type="text/html" title="Ubuntu 18.04 final beta images are availabe now" /><published>2018-04-08T00:00:00+05:30</published><updated>2018-04-08T00:00:00+05:30</updated><id>http://localhost:4000/00-ubuntu-18.04-final-beta-images-are-available-now</id><content type="html" xml:base="http://localhost:4000/00-ubuntu-18.04-final-beta-images-are-available-now/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Steve Langasek&lt;/em&gt; on behalf of Ubuntu team has announced the availability of Ubuntu 18.04 final beta images. This the second beta image release in this series and gives a near complete idea of features that can be expected from the final releases scheduled for 26th April 2018.&lt;/p&gt;
+
+&lt;p&gt;Following the project’s release strategy, Ubuntu 18.04 will be a long term supported release and will provide support for 5 years. Taking the tradition of Ubuntu releases, Ubuntu 18.04 will also bring the latest and greatest open source technologies ready to deploy in enterprise environments. The team is working towards introducing new features and fixing critical bugs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/ubuntu1804b2.jpg&quot; alt=&quot;Ubuntu 18.04 beta2 banner&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;release-announcement-from-ubuntu&quot;&gt;Release announcement from Ubuntu&lt;/h3&gt;
+&lt;p&gt;The release announcement shared by &lt;em&gt;Steve Langasek&lt;/em&gt;, an Ubuntu developer, in official mailing list can be read as:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The Ubuntu team is pleased to announce the final beta release of the Ubuntu 18.04 LTS Desktop, Server, and Cloud products. Codenamed “Bionic Beaver”, 18.04 LTS continues Ubuntu’s proud tradition of integrating the latest and greatest open source technologies into a high-quality, easy-to-use Linux distribution.  The team has been hard at work through this cycle, introducing new features and fixing bugs.&lt;/p&gt;
+
+  &lt;p&gt;This beta release includes images from not only the Ubuntu Desktop, Server, and Cloud products, but also the Kubuntu, Lubuntu, Ubuntu Budgie, UbuntuKylin, Ubuntu MATE, Ubuntu Studio, and Xubuntu flavours.&lt;/p&gt;
+
+  &lt;p&gt;The beta images are known to be reasonably free of showstopper CD build or installer bugs, while representing a very recent snapshot of 18.04 that should be representative of the features intended to ship with the final release expected on April 26th, 2018.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;applicability--availability&quot;&gt;Applicability &amp;amp; Availability&lt;/h3&gt;
+&lt;p&gt;The final beta release announcement of Ubuntu 18.04 covers various flavors like Ubuntu Desktop, Server, Cloud products and also other official community flavors including Ubuntu Budgie, Kubuntu, Ubuntu MATE, Xubuntu, Lubuntu, Ubuntu Kylin and Ubuntu Studio.&lt;/p&gt;
+
+&lt;p&gt;These release images can be downloaded from following sources&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cdimage.ubuntu.com/releases/18.04/beta-2/&quot;&gt;Download Ubuntu 18.04 beta 2 images&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cdimage.ubuntu.com/kubuntu/releases/18.04/beta-2/&quot;&gt;Download Kubuntu 18.04 beta 2 images&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cdimage.ubuntu.com/lubuntu/releases/18.04/beta-2/&quot;&gt;Download Lubuntu 18.04 beta 2 images&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cdimage.ubuntu.com/ubuntu-budgie/releases/18.04/beta-2/&quot;&gt;Download Ubuntu Budgie 18.04 beta 2 images&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;For more links, see original &lt;a href=&quot;https://lists.ubuntu.com/archives/ubuntu-announce/2018-April/000230.html&quot;&gt;release announcement&lt;/a&gt; published in Ubuntu mailing list.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Mr Steve Langasek on behalf of Ubuntu team has announced the availability of Ubuntu 18.04 final beta images. This the second beta image release in this series and gives a near complete idea of features that can be expected from the final releases scheduled for 26th April 2018.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/ubuntu1804b2.jpg" /></entry><entry><title type="html">Fedora 28 beta released with initial support for modular repositories</title><link href="http://localhost:4000/fedora-28-beta-released-with-initial-support-for-module-repositories/" rel="alternate" type="text/html" title="Fedora 28 beta released with initial support for modular repositories" /><published>2018-04-03T00:00:00+05:30</published><updated>2018-04-03T00:00:00+05:30</updated><id>http://localhost:4000/fedora-28-beta-released-with-initial-support-for-module-repositories</id><content type="html" xml:base="http://localhost:4000/fedora-28-beta-released-with-initial-support-for-module-repositories/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Eduard Lucena&lt;/em&gt;, on behalf of Fedora Project, has announced the release of Fedora 28 beta, a development release of upcoming Fedora 28 which is scheduled to release in May 2018. This release will give a brief idea of features expected in the upcoming release and will enable beta testing around the world. Fedora 28 includes several package updates and design changes including the introduction of modular repositories.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/fedora-28-beta.jpg&quot; alt=&quot;Fedora 28 beta banner&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-new-in-fedora-28&quot;&gt;What is new in Fedora 28?&lt;/h3&gt;
+&lt;p&gt;It has been around 6 months since the release of Fedora 27. Fedora 28 includes all updated packages since the release of Fedora 27. Other notable highlights in Fedora 28 beta release includes -&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Modular Repository&lt;/strong&gt; - The idea of the modular repository was around for a while. Fedora 28 brings initial support for modular repositories. Fedora 28 beta server edition will be getting a few modular repositories immediately. The support for other variations will be implemented in near future.&lt;/p&gt;
+
+&lt;p&gt;On end-user perspective, there will be two set of repositories. One will be traditional fedora repositories. The other set of repositories will provide alternative and supplementary modules.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;64-bit ARM is now a primary architecture&lt;/strong&gt; - In addition to the existing &lt;em&gt;AAarch64&lt;/em&gt;, the 64-bit ARM also becomes a primary architecture of Fedora server edition.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GNOME 3.28&lt;/strong&gt; - Fedora 28 Workstation beta improves the desktop experience with GNOME 3.28, which comes with plenty of features and improvements. It will also include the power saving features enabled by default.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VirtualBox Guest Additions&lt;/strong&gt; - Fedora 28 installation images will include VirtualBox guest additions to provide better performance in virtualization environments.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kubernetes 1.9&lt;/strong&gt; - Fedora Atomic Host includes Kubernetes 1.9, which includes several features to deploy and manage your containerized applications in a modular way.&lt;/p&gt;
+
+&lt;h3 id=&quot;download-fedora-28-beta&quot;&gt;Download Fedora 28 beta&lt;/h3&gt;
+
+&lt;p&gt;Fedora 28 beta release is available in different variations and can be downloaded by following links given below.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://download.fedoraproject.org/pub/fedora/linux/releases/test/28_Beta/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-28_Beta-1.3.iso&quot;&gt;Download Fedora 28 beta workstation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://download.fedoraproject.org/pub/fedora/linux/releases/test/28_Beta/Server/x86_64/iso/Fedora-Server-dvd-x86_64-28_Beta-1.3.iso&quot;&gt;Download Fedora 28 beta server&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://getfedora.org/atomic/prerelease/&quot;&gt;Download Fedora 28 beta atomic host&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition to these variations, there is official community spins with different desktop environments and targeting a different audience.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://spins.fedoraproject.org/prerelease&quot;&gt;Download Fedora 28 beta spins&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://labs.fedoraproject.org/prerelease&quot;&gt;Download Fedora 28 beta labs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://arm.fedoraproject.org/prerelease&quot;&gt;Download Fedora 28 beta ARM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fedoramagazine.org/announcing-fedora-28-beta/&quot;&gt;Fedora 28 beta release announcement on Fedora Magazine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://communityblog.fedoraproject.org/modularity-dead-long-live-modularity/&quot;&gt;Modularity is dead, long live modularity - Article on modularity&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Mr Eduard Lucena, on behalf of Fedora Project, has announced the release of Fedora 28 beta, a development release of upcoming Fedora 28 which is scheduled to release in May 2018. This release will give a brief idea of features expected in the upcoming release and will enable beta testing around the world. Fedora 28 includes several package updates and design changes including the introduction of modular repositories.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/fedora-28-beta.jpg" /></entry><entry><title type="html">Nitrux 1.0.10 released with package updates from Bionic</title><link href="http://localhost:4000/Nitrux-1.0.10-released-with-package-updates-from-bionic/" rel="alternate" type="text/html" title="Nitrux 1.0.10 released with package updates from Bionic" /><published>2018-04-01T00:00:00+05:30</published><updated>2018-04-01T00:00:00+05:30</updated><id>http://localhost:4000/Nitrux-1.0.10-released-with-package-updates-from-bionic</id><content type="html" xml:base="http://localhost:4000/Nitrux-1.0.10-released-with-package-updates-from-bionic/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; &lt;em&gt;Nitrux&lt;/em&gt; team has announced the immediate availability of Nitrux 1.0.10, the latest stable release of Ubuntu based GNU/Linux distribution featuring Nomad desktop. This release includes various package updates from Ubuntu 18.04 Bionic Beaver, along with some look and feels improvements.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/nomad-menu-2-620x349.jpg&quot; alt=&quot;Nitrux 1.0.10 banner&quot; /&gt;
+&lt;em&gt;Image Courtesy : OCSMag&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-nitrux-os&quot;&gt;What is Nitrux OS?&lt;/h3&gt;
+&lt;p&gt;Nitrux is an Ubuntu based GNU/Linux distribution targeting mainly desktop and laptop users. In addition to all the benefits from Ubuntu, it also promotes portable applications formats like AppImage.&lt;/p&gt;
+
+&lt;p&gt;While using the Ubuntu core to perform essential operating system functionalities, Nitrux is planning to develop a clean desktop experience. Nitrux makes use of Plasma Desktop and KDE Applications to provide a better user experience. It also provides an in-house developed software suite called &lt;em&gt;Nomad Desktop&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-new-in-nitrux-1010&quot;&gt;What is new in Nitrux 1.0.10?&lt;/h3&gt;
+&lt;p&gt;Unlike many other mainstream distributions, Nitrux does n’t publish a detailed blog post for each release. Instead, they make a brief release announcement on social media accounts like twitter, google plus and facebook.&lt;/p&gt;
+
+&lt;p&gt;Quoting from the &lt;a href=&quot;https://plus.google.com/+NitruxInside/posts/BUEKoJ7RPvG&quot;&gt;Nitrux 1.0.10 release announcement&lt;/a&gt; published in project’s google plus account, following are some highlights in Nitrux 1.0.10 release.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Updated packages from bionic.&lt;/li&gt;
+    &lt;li&gt;Updated Nomad Software Center.&lt;/li&gt;
+    &lt;li&gt;Updated Software Updater.&lt;/li&gt;
+    &lt;li&gt;Updated kernel to version 4.15.14.&lt;/li&gt;
+    &lt;li&gt;Latest version of Plasma 5 (5.12.80), KDE Apps (18.07.70), KF5 (5.45.0) and Qt 5 (5.10.0).&lt;/li&gt;
+    &lt;li&gt;Updated Look and Feel.&lt;/li&gt;
+    &lt;li&gt;Added X11 userland driver support for: VMware.&lt;/li&gt;
+    &lt;li&gt;Added character support for Chinese and Japanese.&lt;/li&gt;
+    &lt;li&gt;Added AppImage Integration Tool.&lt;/li&gt;
+    &lt;li&gt;Added support for EFI mode.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can read &lt;a href=&quot;https://nxos.org/compendium/#get-started&quot;&gt;more about Nitrux&lt;/a&gt; in project’s getting started section.&lt;/p&gt;
+
+&lt;h3 id=&quot;download-nitrux-1010&quot;&gt;Download Nitrux 1.0.10&lt;/h3&gt;
+&lt;p&gt;The Nitrux installation images can be downloaded from OpenDesktop hosting or as a torrent file. The installation image is of size 1.39 GB and it supports AMD64/Intelx64 systems.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.opendesktop.org/p/1188112/startdownload?file_id=1522477880&amp;amp;file_name=nitrux_release_1.0.10-4.iso&amp;amp;file_type=application/octet-stream&amp;amp;file_size=1421885440&amp;amp;url=https%3A%2F%2Fdl.opendesktop.org%2Fapi%2Ffiles%2Fdownloadfile%2Fid%2F1522477880%2Fs%2F5d9e8cbf938291415be8bbbbe95aa7a9%2Ft%2F1522602626%2Fu%2F247731%2Fnitrux_release_1.0.10-4.iso&quot;&gt;Download Nitrux 1.0.10 ISO&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.opendesktop.org/p/1188112/startdownload?file_id=1522479564&amp;amp;file_name=nitrux_release_1.0.10-4.torrent&amp;amp;file_type=application/x-bittorrent&amp;amp;file_size=54771&amp;amp;url=https%3A%2F%2Fdl.opendesktop.org%2Fapi%2Ffiles%2Fdownloadfile%2Fid%2F1522479564%2Fs%2F5d9e8cbf938291415be8bbbbe95aa7a9%2Ft%2F1522602626%2Fu%2F247731%2Fnitrux_release_1.0.10-4.torrent&quot;&gt;Download Nitrux 1.0.10 TORRENT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">The Nitrux team has announced the immediate availability of Nitrux 1.0.10, the latest stable release of Ubuntu based GNU/Linux distribution featuring Nomad desktop. This release includes various package updates from Ubuntu 18.04 Bionic Beaver, along with some look and feels improvements.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/nomad-menu-2-620x349.jpg" /></entry><entry><title type="html">TrueOS 18.03 released with Spectre &amp;amp; Meltdown fixes</title><link href="http://localhost:4000/TrueOS-2018.03-STABLE-released-with-updated-ecosystem-to-fight-meltdown-and-spectre-issues/" rel="alternate" type="text/html" title="TrueOS 18.03 released with Spectre &amp; Meltdown fixes" /><published>2018-03-31T00:00:00+05:30</published><updated>2018-03-31T00:00:00+05:30</updated><id>http://localhost:4000/TrueOS-2018.03-STABLE-released-with-updated-ecosystem-to-fight-meltdown-and-spectre-issues</id><content type="html" xml:base="http://localhost:4000/TrueOS-2018.03-STABLE-released-with-updated-ecosystem-to-fight-meltdown-and-spectre-issues/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Ken Moore&lt;/em&gt;, on behalf of TrueOS team, has announced the availability of TrueOS 18.03, a special release from the TrueOS project. This release was essential to address various issues spread in computing world since the beginning of 2018, which includes Meltdown and Spectre issues. The entire package ecosystem of TrueOS has been updated to address this issues.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/trueoslogo.jpg&quot; alt=&quot;TrueOS 18.03 banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;TrueOS 18.03 won’t affect the next planned release which is scheduled to launch in June 2018. The 18.03 release is an expected, security update in current stable series.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-new-in-trueos-1803&quot;&gt;What is new in TrueOS 18.03?&lt;/h3&gt;
+&lt;p&gt;As mentioned earlier, the main purpose of TrueOS 18.03 is to provide necessary security updates. It addresses well-known issues like Meltdown and Spectre.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Meltdown fix&lt;/strong&gt;: The current TrueOS release includes all meltdown fixes included in the upstream project, FreeBSD. It will help to address the security issues affecting systems that utilize Intel-based processors when running virtual machines such as FreeBSD jails.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Spectre fix&lt;/strong&gt;: TrueOS 18.03 includes all spectre related mitigations from FreeBSD stable head. All the 3rd-party packages for this release are also compiled with LLVM/Clang 6 (the “retpoline” mitigation strategy). It fixes many memory allocation issues and enforces stricter requirements for code completeness and memory usage within applications.&lt;/li&gt;
+  &lt;li&gt;Important security package updates like libssl 2.6.4, updated web browsers like Firefox 58.0.2 and chromium 63.x.&lt;/li&gt;
+  &lt;li&gt;All the precompiled packages have been compiled with LLVM/Clang, except some packages having an inherent dependency on GCC. Building with LLVM will help to fix various memory access related issues.&lt;/li&gt;
+  &lt;li&gt;And more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For a complete list of changes, read &lt;a href=&quot;https://www.trueos.org/blog/trueos-stable-18-03-release/&quot;&gt;TrueOS 18.03 release announement&lt;/a&gt; published in projects blog.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://download.trueos.org/master/amd64/TrueOS-Desktop-18.03-x64-DVD.iso&quot;&gt;Download TrueOS 18.03 Desktop ISO&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.trueos.org/downloads/&quot;&gt;See more TrueOS 18.03 Download options&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Mr Ken Moore, on behalf of TrueOS team, has announced the availability of TrueOS 18.03, a special release from the TrueOS project. This release was essential to address various issues spread in computing world since the beginning of 2018, which includes Meltdown and Spectre issues. The entire package ecosystem of TrueOS has been updated to address this issues.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/trueoslogo.jpg" /></entry><entry><title type="html">Qubes OS 4.0 released with security &amp;amp; functionality improvements</title><link href="http://localhost:4000/qubes-os-4.0-released-with-security-and-functionality-improvements/" rel="alternate" type="text/html" title="Qubes OS 4.0 released with security &amp; functionality improvements" /><published>2018-03-30T00:00:00+05:30</published><updated>2018-03-30T00:00:00+05:30</updated><id>http://localhost:4000/qubes-os-4.0-released-with-security-and-functionality-improvements</id><content type="html" xml:base="http://localhost:4000/qubes-os-4.0-released-with-security-and-functionality-improvements/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Andrew Wong&lt;/em&gt; on behalf of Qubes OS team has announced the release of Qubes OS 4.0, the latest stable release of a security-oriented operating system that runs applications in isolation. This release is a result of 2 years of continuous development and testing activities. It brings various fundamental improvements to provide better stability and functionality.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/QubesOS-banner.png&quot; alt=&quot;Qubes OS 4.0 banner&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-new-in-qubes-os-40&quot;&gt;What is new in Qubes OS 4.0?&lt;/h3&gt;
+&lt;p&gt;Qubes OS 4.0 is the first most release in Qubes OS 4.x series. It includes various functionality and security enhancements. More features will be introduced in upcoming point releases.&lt;/p&gt;
+
+&lt;p&gt;The main highlights of Qubes OS 4.0 include the following&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;The Qubes Admin API&lt;/em&gt;, which will allow the &lt;em&gt;select&lt;/em&gt; VMs to perform various administrative tasks on Qubes OS.&lt;/li&gt;
+  &lt;li&gt;Qubes Core Stack version 3&lt;/li&gt;
+  &lt;li&gt;Fully virtualized VMs for enhanced security.&lt;/li&gt;
+  &lt;li&gt;Multiple flexible, disposable VM templates&lt;/li&gt;
+  &lt;li&gt;A more expressive and user-friendly Qubes RPC system.&lt;/li&gt;
+  &lt;li&gt;A powerful new VM volume manager that makes it easy to keep VMs on external drives&lt;/li&gt;
+  &lt;li&gt;Enhanced TemplateVM security via split packages and network interface removal&lt;/li&gt;
+  &lt;li&gt;More secure backups with script for stronger key derivation and enforced encryption&lt;/li&gt;
+  &lt;li&gt;Rewritten command-line tools with new options&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition to the planned features, there are some additional improvements like migration from HVM to PVH for most of the VMs in response to Meltdown and Spectre issues. A complete list of features and improvements can be read in &lt;a href=&quot;https://www.qubes-os.org/doc/releases/4.0/release-notes/&quot;&gt;official release notes for Qubes OS 4.0&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-get-qubes-os-40&quot;&gt;How to get Qubes OS 4.0?&lt;/h3&gt;
+&lt;p&gt;The Qubes OS 4.0 installation image can be downloaded using following links&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mirrors.edge.kernel.org/qubes/iso/Qubes-R4.0-x86_64.iso&quot;&gt;Download Qubes OS 4.0 ISO&lt;/a&gt; (4.27 GiB)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mirrors.edge.kernel.org/qubes/iso/Qubes-R4.0-x86_64.torrent&quot;&gt;Download Qubes OS 4.0 TORRENT&lt;/a&gt; (85.88 KiB)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Mr Andrew Wong on behalf of Qubes OS team has announced the release of Qubes OS 4.0, the latest stable release of a security-oriented operating system that runs applications in isolation. This release is a result of 2 years of continuous development and testing activities. It brings various fundamental improvements to provide better stability and functionality.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/QubesOS-banner.png" /></entry><entry><title type="html">Slax 9.4 Final released with single click installation launchers</title><link href="http://localhost:4000/Slax-9.4-released-with-extra-applications/" rel="alternate" type="text/html" title="Slax 9.4 Final released with single click installation launchers" /><published>2018-03-27T00:00:00+05:30</published><updated>2018-03-27T00:00:00+05:30</updated><id>http://localhost:4000/Slax-9.4-released-with-extra-applications</id><content type="html" xml:base="http://localhost:4000/Slax-9.4-released-with-extra-applications/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Slax team has announced the release of Slax 9.4 &lt;em&gt;Final&lt;/em&gt;, the latest stable release of GNU/Linux distribution that follows a minimalistic and fully modular approach. This release includes package updates from base distribution, numerous bug fixes and single click installation launchers for various applications.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-slax&quot;&gt;What is Slax?&lt;/h3&gt;
+&lt;p&gt;Slax is a live GNU/Linux distribution based on Debian &lt;em&gt;stable&lt;/em&gt; branch that can be directly booted from any storage media. Despite being a small sized distribution, Slax provides a full-fledged &lt;em&gt;Fluxbox&lt;/em&gt; desktop with essential applications like command line emulator and web browser.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/slax94.jpg&quot; alt=&quot;Preview of application launcher in Slax 9.4&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-new-in-slax-94&quot;&gt;What is new in Slax 9.4?&lt;/h3&gt;
+&lt;p&gt;One of the key highlights of Slax 9.4 release is the inclusion of shortcuts for various popular applications like VLC, VoteCoin ..etc. These applications are not included in Slax by default. But, when you try to open these applications for the first time, it will be downloaded and installed automatically. If this approach really works, then the team will try to include more application launchers in upcoming releases. You can also get in touch with Slax team to include your favorite applications in this manner.&lt;/p&gt;
+
+&lt;p&gt;Slax 9.4 also includes package updates from current Debian &lt;em&gt;stable&lt;/em&gt; branch, along with numerous bug fixes. The file manager is improved to understand various file types. So, it is now easier for users to open files like images and documents.&lt;/p&gt;
+
+&lt;p&gt;Quoting from &lt;a href=&quot;http://www.slax.org/next.php&quot;&gt;Slax 9.4 road map&lt;/a&gt;, following are other changes in this release:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;add rfkill so users can switch on/off their wifi devices&lt;/li&gt;
+  &lt;li&gt;make xlunch in Slax search for icons in /usr/share/pixmaps too, else many apps won’t show up in the list&lt;/li&gt;
+  &lt;li&gt;if there are more rows with icons in xLunch, next row is displayed at the bottom of the screen, should be on top&lt;/li&gt;
+  &lt;li&gt;include libdrm-intel1, libgl1-mesa-dri, libglu1-mesa packages in Slax for direct rendering. Adds 8 MB :(&lt;/li&gt;
+  &lt;li&gt;alright, add /usr/share/games to PATH&lt;/li&gt;
+  &lt;li&gt;enable hotkeys in alsa config (enabling volumeUp/Dn/mute buttons)&lt;/li&gt;
+  &lt;li&gt;if the filesystem is not known, do not add partition to fstab, else it fails miserably&lt;/li&gt;
+  &lt;li&gt;add xarchiver&lt;/li&gt;
+  &lt;li&gt;remove unneeded packages grub* vim* debconf-i18n installation-report&lt;/li&gt;
+  &lt;li&gt;consider cbatticon as a battery monitor&lt;/li&gt;
+  &lt;li&gt;Setup file associations in the file manager, as per this suggestion&lt;/li&gt;
+  &lt;li&gt;add shortcuts to apps which will auto-install and then run&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;download-slax-94&quot;&gt;Download Slax 9.4&lt;/h3&gt;
+&lt;h4 id=&quot;download-slax-94-64-bit-iso-260-mb&quot;&gt;&lt;a href=&quot;http://ftp.sh.cvut.cz/slax/Slax-9.x/slax-64bit-9.4.0.iso&quot;&gt;Download Slax 9.4 64 BIT ISO&lt;/a&gt; (260 MB)&lt;/h4&gt;
+&lt;h4 id=&quot;download-slax-94-32-bit-iso-265-mb&quot;&gt;&lt;a href=&quot;http://ftp.sh.cvut.cz/slax/Slax-9.x/slax-32bit-9.4.0.iso&quot;&gt;Download Slax 9.4 32 BIT ISO&lt;/a&gt; (265 MB)&lt;/h4&gt;
+&lt;h4 id=&quot;download-slax-94-ipxe-image-09-mb&quot;&gt;&lt;a href=&quot;http://ftp.sh.cvut.cz/slax/Slax-9.x/slax-ipxe.iso&quot;&gt;Download Slax 9.4 IPXE Image&lt;/a&gt; (0.9 MB)&lt;/h4&gt;</content><author><name></name></author><summary type="html">The Slax team has announced the release of Slax 9.4 Final, the latest stable release of GNU/Linux distribution that follows a minimalistic and fully modular approach. This release includes package updates from base distribution, numerous bug fixes and single click installation launchers for various applications.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/slax94.jpg" /></entry><entry><title type="html">KDE Neon 5.12 is a cool release with a lot of potential and hope</title><link href="http://localhost:4000/KDE-neon-5.12-is-a-cool-distribution-with-a-lot-of-potential-and-hope/" rel="alternate" type="text/html" title="KDE Neon 5.12 is a cool release with a lot of potential and hope" /><published>2018-03-21T00:00:00+05:30</published><updated>2018-03-21T00:00:00+05:30</updated><id>http://localhost:4000/KDE-neon-5.12-is-a-cool-distribution-with-a-lot-of-potential-and-hope</id><content type="html" xml:base="http://localhost:4000/KDE-neon-5.12-is-a-cool-distribution-with-a-lot-of-potential-and-hope/">&lt;p&gt;&lt;strong&gt;KDE Neon&lt;/strong&gt; is a distribution developed to showcase the real potential of Plasma Desktop. It is built on top of solid Ubuntu base and brings latest and greatest applications from KDE world. It helps users to experience latest features from Plasma desktop environment and other related applications without worrying about the stability of the underlying operating system. Also, the Plasma developers can show the &lt;em&gt;real&lt;/em&gt; Plasma to the end users by avoiding &lt;em&gt;unnecessary&lt;/em&gt; customization shipped by various distribution developers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/kde-neon-5.10.jpg&quot; alt=&quot;A file picture of KDE Neon 5.10 User Edition&quot; /&gt;
+&lt;em&gt;A preview of KDE Neon 5.10 User Edition. You can find Neon 5.12 screenshots on original post&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.dedoimedo.com/&quot;&gt;&lt;em&gt;dedoimedo&lt;/em&gt;&lt;/a&gt; portal has published a review on KDE Neon 5.12, a release featuring Plasma 5.12 LTS. There are numerous distributions featuring KDE Plasma Desktop. However, the review suggests KDE Neon is an ideal choice for people who fancy about Plasma Desktop and likes to experience the latest updates from Plasma World.&lt;/p&gt;
+
+&lt;p&gt;In this review, various aspects of the distributions are being examined. The over all visual appearance is consistent, elegant and looks like a well-planned distribution. The defaults font configuration is not good enough and users are expected to enable anti-aliasing to have a better look. Despite being a lean distribution, Neon provides VLC in default installation it supports most of the multimedia files. The windows and android phones can be easily connected to the system, however, there is an issue with iPhones.&lt;/p&gt;
+
+&lt;p&gt;The default installation of Neon ships only a few applications like Firefox, Okular, VLC, GwenView..etc. The &lt;em&gt;Discover&lt;/em&gt; package manager is not mature it. It misses a lot of expected features and better to stick with &lt;em&gt;apt&lt;/em&gt; if you are okey with it.&lt;/p&gt;
+
+&lt;p&gt;KDE Neon has an impressive resource usage graph. On idle state, it takes around 400 MB of RAM and 1-2% of CPU. This is the impact of the optimizations and improvements on Plasma 5.x release. This resource is even less than some so-called lightweight distributions.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, the reviewer puts a remark that KDE Neon 5.12 is better than many other distributions featuring Plasma Desktop. However, it lacks hardware support to the decision to stick with a stable and long-term supported Ubuntu base. It does a fair balancing between stability and latest Plasma releases.&lt;/p&gt;
+&lt;blockquote&gt;
+    It can do better, and we have the most splendid Kubuntu 17.04 as the golden benchmark from now on until the end of times, we few, we happy few, we band of geeks, for he who tests with me together, shall be my code brother, may his git ne'er be so vile, and the persons of all genders now in bed shall feel themselves accursed, and hold their VR sets cheap ... I think you get the idea. I got carried away. Let's summarize. KDE neon 5.12, fresh, cool, sleek, needs more apps, better package management, better overall peripheral support. But there's a lot of potential and hope, and I think we will see cool things in Plasma this year. 7.5/10. Worth checking.
+&lt;/blockquote&gt;
+&lt;p&gt;You can read complete &lt;a href=&quot;https://www.dedoimedo.com/computers/kde-neon-5-12.html&quot;&gt;KDE Neon 5.12 review in dedoimedo portal&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">KDE Neon is a distribution developed to showcase the real potential of Plasma Desktop. It is built on top of solid Ubuntu base and brings latest and greatest applications from KDE world. It helps users to experience latest features from Plasma desktop environment and other related applications without worrying about the stability of the underlying operating system. Also, the Plasma developers can show the real Plasma to the end users by avoiding unnecessary customization shipped by various distribution developers.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/kde-neon-5.10.jpg" /></entry><entry><title type="html">NetBSD 7.1.2 released with critical security and stability patches</title><link href="http://localhost:4000/NetBSD-7.1.2-released-with-security-fixes/" rel="alternate" type="text/html" title="NetBSD 7.1.2 released with critical security and stability patches" /><published>2018-03-19T00:00:00+05:30</published><updated>2018-03-19T00:00:00+05:30</updated><id>http://localhost:4000/NetBSD-7.1.2-released-with-security-fixes</id><content type="html" xml:base="http://localhost:4000/NetBSD-7.1.2-released-with-security-fixes/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; NetBSD foundation has announced the release of NetBSD 7.1.2, the second security update in NetBSD 7.1.x series. This release brings various security fixes and other stability related patches.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/netbsd.png&quot; alt=&quot;NetBSD banner&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-netbsd&quot;&gt;What is NetBSD?&lt;/h3&gt;
+&lt;p&gt;NetBSD is UNIX like operating system developed by the collaborative effort of a large group of people. It also includes a variety of other free software like 4.4BSD Lite2 developed at UC Berkeley.&lt;/p&gt;
+
+&lt;p&gt;NetBSD implements several standard APIs and network protocols which makes it interoperable with other systems. One of the founding principles of NetBSD is to be highly portable. Towards this goal, the project has been ported to a wide range of platforms.&lt;/p&gt;
+
+&lt;p&gt;You can find &lt;a href=&quot;http://theopensourcefeed.com/distribution/netbsd&quot;&gt;more details on NetBSD&lt;/a&gt; in our gallery.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-changed-between-netbsd-711-and-712&quot;&gt;What changed between NetBSD 7.1.1 and 7.1.2?&lt;/h3&gt;
+&lt;p&gt;NetBSD 7.1.2 is a bug fix cum stability improvement update in 7.1.x series. Citing from &lt;a href=&quot;https://netbsd.org/releases/formal-7/NetBSD-7.1.2.html&quot;&gt;NetBSD 7.1.2 release announcement&lt;/a&gt; published on project’s website, following are some of the issues fixed in this release.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Fixed Remote DoS in IPsec (IPv6) and remote memory corruption in IPv6&lt;/li&gt;
+    &lt;li&gt;Disable compat_svr4 and compat_svr4_32 by default on all ports.&lt;/li&gt;
+    &lt;li&gt;Disable compat_ibcs2 everywhere but on Vax.&lt;/li&gt;
+    &lt;li&gt;Remove svr4/svr4_32/ibcs2/freebsd from the module autoload list.&lt;/li&gt;
+    &lt;li&gt;Disable LSRR (loose source and record route) and SSRR (strict source and record route) by default.&lt;/li&gt;
+    &lt;li&gt;amd64: Make the direct map non-executable.&lt;/li&gt;
+    &lt;li&gt;BIND: update bind.keys.&lt;/li&gt;
+    &lt;li&gt;bozohttpd(8): Fix issue where bozohttpd would fail to exec scripts via the -C mechanism.&lt;/li&gt;
+    &lt;li&gt;drm2: Fix issues preventing the use of more than one graphics device.&lt;/li&gt;
+    &lt;li&gt;Fix detection of duplicate symbols in kernel modules.&lt;/li&gt;
+    &lt;li&gt;ipfilter: Fix a kernel panic when altering the ipf state table size at runtime.&lt;/li&gt;
+    &lt;li&gt;IPsec:
+      &lt;ul&gt;
+        &lt;li&gt;Fix a couple use-after-free issues.&lt;/li&gt;
+        &lt;li&gt;Fix IPv6-IPsec-AH tunnels.&lt;/li&gt;
+        &lt;li&gt;Fix inverted logic that could crash the kernel.&lt;/li&gt;
+        &lt;li&gt;Fix out-of-bounds read.&lt;/li&gt;
+        &lt;li&gt;Strengthen sanity checks (AH/ESP).&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;IPv6:
+      &lt;ul&gt;
+        &lt;li&gt;Kick nested IPv6 fragments.&lt;/li&gt;
+        &lt;li&gt;Fix a couple use-after-free issues.&lt;/li&gt;
+        &lt;li&gt;Fix memory leak in nd6_na_input().&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;ksh: Create HISTFILE with mode 0600, not 777.&lt;/li&gt;
+    &lt;li&gt;MPLS: Fix several memory corruptions and inconsistencies.&lt;/li&gt;
+    &lt;li&gt;pf: Fix signedness bug.&lt;/li&gt;
+    &lt;li&gt;sparc:
+      &lt;ul&gt;
+        &lt;li&gt;Fix time goes backward problems.&lt;/li&gt;
+        &lt;li&gt;Fix problem using the ps command in ddb.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;tlp(4): Fix timeout using the Legacy Network Adapter in Microsoft Windows Server Hyper-V VMs.&lt;/li&gt;
+    &lt;li&gt;ypserv(8): Avoid returning stale request data to the client.&lt;/li&gt;
+    &lt;li&gt;Xen: Prevent unrestricted userland access to I/O ports.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;download-netbsd-712&quot;&gt;Download NetBSD 7.1.2&lt;/h3&gt;
+&lt;p&gt;Being a popular project, NetBSD 7.1.2 is hosted in several locations. You can find these servers in &lt;a href=&quot;https://www.netbsd.org/mirrors/&quot;&gt;NetBSD mirror listing page&lt;/a&gt;. Alternatively, you can choose a bit torrent file from &lt;a href=&quot;https://netbsd.org/mirrors/torrents/&quot;&gt;NetBSD torrent listing page&lt;/a&gt;. When downloading, please make sure that you are downloading an image compatible with your system.&lt;/p&gt;</content><author><name></name></author><summary type="html">The NetBSD foundation has announced the release of NetBSD 7.1.2, the second security update in NetBSD 7.1.x series. This release brings various security fixes and other stability related patches.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/netbsd.png" /></entry><entry><title type="html">Zorin OS 12.3 comes with improved user experience and better windows application support</title><link href="http://localhost:4000/Zorin-OS-12.3-release-includes-better-windows-application-support-and-visual-improvements/" rel="alternate" type="text/html" title="Zorin OS 12.3 comes with improved user experience and better windows application support" /><published>2018-03-16T00:00:00+05:30</published><updated>2018-03-16T00:00:00+05:30</updated><id>http://localhost:4000/Zorin-OS-12.3-release-includes-better-windows-application-support-and-visual-improvements</id><content type="html" xml:base="http://localhost:4000/Zorin-OS-12.3-release-includes-better-windows-application-support-and-visual-improvements/">&lt;p&gt;&lt;strong&gt;Following&lt;/strong&gt; the release of Ubuntu 16.04.4, the Zorin Group has announced the immediate availability of Zorin OS 12.3, latest stable snapshot in projects 12.x LTS (Long Term Support) series. This release brings various package updates and bug fixes from the base distribution. It also includes several refinements to Zorin Desktop components to provide a better user experience. The windows application support is also improved with Wine 3.0.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/zorin123folders.jpg&quot; alt=&quot;A demo of individual folder styling in Zorin OS 12.3&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-new-in-zorin-os-123-release&quot;&gt;What is new in Zorin OS 12.3 release?&lt;/h3&gt;
+&lt;p&gt;As a snapshot update in Zorin 12.x series, Zorin OS 12.3 brings most of the updated from base release, ie, Ubuntu 16.04.4 LTS. Providing a more recent version of packages will help to ensure users have to spend less amount of time and bandwidth on updating their system after the first installation.&lt;/p&gt;
+
+&lt;p&gt;Zorin OS 12.3 includes Wine 3.0, latest stable version of windows compatibility layer for POSIX like systems. This will help the system to run windows application in a faster and reliable way. Another main highlight of Wine 3.0 is the improvement in the gaming experience. By introducing Direct3D 10 &amp;amp; 11 support, Wine 3.0 enables access to a wider range of gaming libraries.&lt;/p&gt;
+
+&lt;p&gt;There have been multiple improvements to the Zorin Desktop based on user feedback. This will provide users a better and smooth desktop experience. Some of the notable changes in Zorin Desktop includes the ability to give custom colors and emblems to each individual folders, new printer job indicator which will appear automatically when a job is initiated, ability to pin and launch applications on panel, a quick preview of applications residing on the panel ..etc.&lt;/p&gt;
+
+&lt;p&gt;Zorin OS 12.3 Linux Kernel 4.13 which will provide better compatibility with modern hardware components. This Kernel also fixes various vulnerabilities like meltdown and spectre which were a hot discussion topic on open source communities.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-long-zorin-os-123-will-be-supported&quot;&gt;How long Zorin OS 12.3 will be supported?&lt;/h3&gt;
+&lt;p&gt;Zorin OS 12.x is based on Ubuntu 16.04.x LTS series. Hence, it will provide minor software updates and security patches till 2021.&lt;/p&gt;
+
+&lt;h3 id=&quot;where-can-i-get-zorin-os-123&quot;&gt;Where can I get Zorin OS 12.3?&lt;/h3&gt;
+&lt;p&gt;If you are already using Zorin OS 12.x, there is no need to download a new installation unless you are planning for a fresh installation. You can run a regular system update operation to enjoy updates from Zorin OS 12.3 snapshot.&lt;/p&gt;
+
+&lt;p&gt;Zorin OS installation images can be downloaded from following links.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://10gbps-io.dl.sourceforge.net/project/zorin-os/12/Zorin-OS-12.3-Core-64.iso&quot;&gt;Download Zorin OS 12.3 Core 64 bit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://10gbps-io.dl.sourceforge.net/project/zorin-os/12/Zorin-OS-12.3-Core-32.iso&quot;&gt;Download Zorin OS 12.3 Core 32 bit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;If you are looking to download the ultimate edition, or lite edition, proceed to &lt;a href=&quot;https://zorinos.com/download/&quot;&gt;Zorin OS download page&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For further information, see &lt;a href=&quot;https://zoringroup.com/blog/2018/03/15/zorin-os-12-3-released-a-stronger-more-versatile-system/&quot;&gt;Zorin OS 12.3 release announcement&lt;/a&gt; published in projects blog.&lt;/p&gt;</content><author><name></name></author><summary type="html">Following the release of Ubuntu 16.04.4, the Zorin Group has announced the immediate availability of Zorin OS 12.3, latest stable snapshot in projects 12.x LTS (Long Term Support) series. This release brings various package updates and bug fixes from the base distribution. It also includes several refinements to Zorin Desktop components to provide a better user experience. The windows application support is also improved with Wine 3.0.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/zorin123folders.jpg" /></entry></feed>

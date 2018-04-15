@@ -1,0 +1,66 @@
+*{font-family:'Roboto', sans-serif}
+header{padding:20px 0 0;background:#173f4f;font-weight:500;max-height:200px;font-family:'Roboto Condensed', sans-serif}
+header a, header a:hover{color:white;text-decoration:none;}
+header h2, header h1{font-size:180%;margin:0}
+header p{font-size:100%;font-family:'Roboto Condensed', sans-serif;font-weight:400;color:#eee;}
+.navbar{border-radius:0;font-family:'Roboto Condensed', sans-serif;z-index: 2;box-shadow:.2rem .2rem rgba(75, 176, 100, 0.2);}
+nav.navbar{background:#4bb679;text-transform:uppercase;font-size:1rem;border-top:1px solid #555}
+.nav-item a:hover{color:white;transition:color 0.5s ease;}
+.dropdown-item:hover {background:#173f4f}
+.navbar .navbar-nav .nav-link{color:#fff}
+.social-icons img{height:35px;}
+.social-icons li{display:inline;}
+.post-header h1{font-size:1.6rem;padding-top:20px;text-align:center}
+.post-header .category{border:1px solid #ddd;padding:5px;}
+.post-header a:hover{text-decoration:none;}
+.post-content{font-size:1em;line-height:1.7em;}
+.post-content img{max-width:100%;display:block;margin:auto}
+.post-content p{font-family:'Open Sans'; color: black}
+.post-content h3{font-size:1.3rem;margin-top:2rem; text-decoration: underline}
+.lastUpdated{font-size:16px;color:#777;}
+blockquote{position:relative;margin:0;font-weight:400;text-align:justify;padding:15px;color:#000;background:#f0f0f0;}
+.related h3{font-size:1.2rem;}
+.content{background:white;}
+.sidebar{padding-top:20px;border:1px solid #eee;font-family:'Roboto Condensed', sans-serif;background:#fff;}
+.sidebar h2 {overflow:hidden;position:relative;font-size:16px;font-weight:600;padding:10px 10px;margin:0;text-transform:uppercase;display:block;border-bottom:1px solid #888;background:#4bb679;color:white;}
+.sidebar ul{list-style-type:none;padding-left:0;}
+.sidebar li{padding:10px;transition:background 0.5s ease;cursor:pointer;background:#fff;}
+.sidebar a{color:black;}
+.sidebar a:hover, .sidebar a:focus{text-decoration:none;}
+.sidebar li:hover{background:#eee;}
+.sidbar .ad{max-height:400px;}
+.logo{max-width:240px;text-align:center;margin:auto;margin-bottom:20px;}
+.preview{width:100%;text-align:center;margin:auto;}
+.story-listing h3{font-size:1.3rem;}
+.story-listing h4{font-size:1.0rem;color:black}
+table ul{list-style-type:none;padding-left:0}
+.status-active{color:green;}
+.status-discontinued{color:red;}
+footer{text-align:center;background:#173f4f;color:white;padding:10px 0 10px 0;}
+.heading {
+  margin-top: 1rem;
+}
+.listing {
+  text-align: center;
+}
+.listing a {color: black}
+.item {border: 1px solid #ddd;display: ruby; padding: 10px; line-height: 45px; transition:background 0.5s ease;cursor:pointer;background:#ECEFF1;}
+.item:hover {background: #CFD8DC}
+.item a{color:black;}
+.item a:hover, .item a:focus{text-decoration:none;}
+.hidden{display:none}
+.center{text-align:center}
+.blog {padding-top: 20px}
+.blog h2{margin:0;text-transform:uppercase;border-bottom:1px solid #888;margin-bottom:1rem;font-family:'Roboto Condensed', sans-serif}
+.blog h3 a{font-size: 20px; color:#069}
+.blog h3 a:hover {text-decoration: none; color:#6da741}
+.blog .date {text-align: right;font-size: 12px}
+.page-link, .page-link:focus, .page-link:hover {color: #607D8B}
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {background:#607D8B;border-color:#607D8B;}
+.blog .page-nav {text-align: center}
+.comment-area h3 {font-size: 1.3rem;}
+main h2 {font-size: 1.4rem; color: #173f4f}
+main h3 {font-size: 1rem;}
+main .recent-stories ul{list-style-type: none; padding-left: 0}
+.recent-stories a {color: #069}
+.recent-stories a:hover {color: #6da741}
