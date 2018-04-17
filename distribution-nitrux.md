@@ -18,6 +18,9 @@ description : "Nitrux is a beginner friendly GNU/Linux distribution that ships a
 releases:
   Nitrux 1.0.10 : "../Nitrux-1.0.10-released-with-package-updates-from-bionic/"
 
+screenshots:
+  Nitrux 1.0.10 : "https://www.distroscreens.com/2018/04/nitrux-1010-screenshots.html"
+
 ---
 
 **Nitrux** is a beginner friendly GNU/Linux distribution based on Ubuntu. With the stable Ubuntu core and well-customized Plasma desktop environment, Nitrux stands out as an ideal choice for laptops and desktop computers.
