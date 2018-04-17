@@ -22,6 +22,7 @@ releases:
   "Neptune OS 4.5.1" : "http://www.open-source-feed.com/2016/05/neptune-os-451-is-available-now.html"
 
 reviews:
+  "Neptune 5 is a solid release with a few rough edges (DistroWatch)": "https://distrowatch.com/weekly.php?issue=20180416#neptune"
   "Taking a journey through Neptune 4.4" : "http://www.open-source-feed.com/2015/09/taking-journey-through-neptune-44.html"
 
 screenshots:
