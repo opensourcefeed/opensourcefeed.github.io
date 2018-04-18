@@ -19,6 +19,7 @@ screenshots:
   "Trisquel 8 Flidas" : "https://www.distroscreens.com/2018/03/trisquel-8-flidas-screenshots.html"
 
 releases:
+  Trisquel 8 Flidas: "http://www.open-source-feed.com/2018/04/finally-trisquel-80-flidas-is-here-with.html"
   Trisquel 8 Flidas Alpha 1 : "https://www.open-source-feed.com/2016/12/trisquel-80-flidas-alpha1-is-available.html"
 ---
 
