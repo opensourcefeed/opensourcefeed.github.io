@@ -14,6 +14,7 @@ purchase:
 description: NetBSD is a free, high performing, secure and portable open-source operating system supporting a wide range of platforms.
 
 releases:
+  NetBSD 8.0 RC1: "https://www.open-source-feed.com/2018/04/netbsd-80-rc1-is-available-now.html"
   NetBSD 7.1.2 : "../NetBSD-7.1.2-released-with-security-fixes/"
   NetBSD 7.1.1 : "http://www.netbsd.org/releases/formal-7/NetBSD-7.1.1.html"
   NetBSD 7.1 : "http://www.open-source-feed.com/2017/03/netbsd-71-released-with-raspberry-pi.html"

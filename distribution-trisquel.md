@@ -16,6 +16,7 @@ purchase:
 description : "Trisquel an Ubuntu based GNU/Linux distribution that strictly follows the guidelines established by Free Software Foundation for 100% free operating system."
 
 screenshots:
+  "Trisquel 8 Flidas Mini (LXDE)" : "https://www.distroscreens.com/2018/04/trisquel-8-flidas-mini-edition.html"
   "Trisquel 8 Flidas" : "https://www.distroscreens.com/2018/03/trisquel-8-flidas-screenshots.html"
 
 releases:
