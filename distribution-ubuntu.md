@@ -13,9 +13,10 @@ base : [debian]
 purchase:
   OSDisc : "https://www.osdisc.com/products/ubuntu"
 
-description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a range of hardware platforms like server computers, cloud systems, desktops, tablets and mobiles. Stories and reviews on Ubuntu
+description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a range of hardware platforms like desktop, server, clouds and IoT.
 
 releases :
+  Ubuntu 18.04 Bionic Beaver : "http://www.open-source-feed.com/2018/04/ubuntu-1804-lts-released-with-better.html"
   Ubuntu 17.10 Artful Aardvark : "https://lists.ubuntu.com/archives/ubuntu-announce/2017-October/000226.html"
   Ubuntu 17.04 : "http://www.open-source-feed.com/2017/04/ubuntu-1704-released-with-support-for.html"
   Ubuntu 16.10 : "#"
