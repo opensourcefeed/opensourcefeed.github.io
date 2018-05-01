@@ -10,10 +10,13 @@ preview: linuxlite.jpg
 home_page: https://www.linuxliteos.com
 desktops: [xfce]
 base : [ubuntu]
+purchase:
+  OSDisc : "https://www.osdisc.com/products/linuxlite"
 
 description: Linux Lite is a lightweight, fully functional operating system built on top of Ubuntu. It includes a good collection of applications to serve your day to day needs.
 
 releases:
+  Linux Lite 4.0 beta : "https://www.open-source-feed.com/2018/04/linux-lite-40-beta-released-with-new.html"
   Linux Lite 3.8 : "http://www.open-source-feed.com/2018/02/linux-lite-38-released-based-on-ubuntu.html"
   Linux Lite 3.6 beta : "http://www.open-source-feed.com/2017/07/linux-lite-36-beta-announced-with.html"
   Linux Lite 3.4 : "http://www.open-source-feed.com/2017/03/linux-lite-34-released-with-easily.html"
