@@ -23,7 +23,7 @@ review:
   "Distrowatch review on Korora 23" : "https://www.open-source-feed.com/2016/03/korora-23-review.html"
   "Korora 23 is Fedora on steroids" : "https://www.open-source-feed.com/2016/06/korora-23-is-fedora-on-steroids-review.html"
   "Korora 23 Xfce review" : "https://www.open-source-feed.com/2016/03/korora-23-xfce-review.html"
-  "Korora 22 is Fedora that works out of the box":"https://www.open-source-feed.com/2015/08/korora-22-fedora-that-works-right-out.html"
+  "Korora 22 is Fedora that works out of the box" : "https://www.open-source-feed.com/2015/08/korora-22-fedora-that-works-right-out.html"
   "Korora 21 review" : "https://www.open-source-feed.com/2015/03/korora-21-darla-review.html"
 
 release:
