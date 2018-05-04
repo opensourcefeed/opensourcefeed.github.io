@@ -13,7 +13,7 @@ base : Independent
 purchase:
   OSDisc : "https://www.osdisc.com/products/fedora"
 
-description: Fedora is an independently developed GNU/Linux distribution supported by Red Hat Inc, and a group of volunteers. Fedora is a cutting edge distribution that ships new releases in a rough period of 6 months. Stories, reviews and updates on Fedora.
+description: Fedora is an independently developed, cutting-edge, popular GNU/Linux distribution supported by Red Hat Inc, and a group of volunteers
 
 reviews :
   "Fedora 27 makes desktop operating system less relevant with too many bugs & crashes - Dedoimedo" : "https://www.dedoimedo.com/computers/fedora-27-gnome.html"
@@ -21,6 +21,7 @@ reviews :
   Fedora 25 is not something worth to recommend: "http://www.open-source-feed.com/2017/02/fedora-25-is-not-something-worth-to.html"
 
 screenshots :
+  Fedora 28 Workstation : "https://www.distroscreens.com/2018/05/fedora-28-workstation-screenshots.html"
   Fedora 28 Workstation beta : "https://goo.gl/r6qUR8"
   Fedora 27 LXQt spin : "http://www.distroscreens.com/2018/02/fedora-27-lxqt-spin-screenshots.html"
   Fedora 27 Workstation : "http://www.distroscreens.com/2017/11/fedora-27-workstation-screenshots.html"
@@ -33,6 +34,7 @@ screenshots :
   Fedora 24 Alpha : "http://www.distroscreens.com/2016/04/fedora-24-alpha-gnome-320-screenshots.html"
 
 releases:
+  Fedora 28 : "https://www.open-source-feed.com/2018/05/fedora-28-released-with-modular.html"
   Fedora 28 Beta: "../fedora-28-beta-released-with-initial-support-for-module-repositories/"
   Fedora 27 : "../fedora-27-released/"
   Fedora 27 Beta : "https://fedoramagazine.org/fedora-27-beta-released/"
@@ -45,9 +47,9 @@ stories:
   Fedora 24 reaches end of life : "http://www.open-source-feed.com/2017/08/fedora-24-reaches-end-of-life.html"
 ---
 
-**Fedora** is an independently developed GNU/Linux distribution backed by open source giant Red Hat. Fedora is a cutting edge distribution that ships new releases in a rough period of 6 months.
+**Fedora** is an independently developed GNU/Linux distribution backed by open source giant Red Hat. Fedora is a cutting-edge distribution that ships new releases in a rough period of 6 months.
 
-Fedora is often referred as an experimental bed for Red Hat Enterprise Linux. Most of the innovative technologies will be experimented with Fedora, and once it become stable, same technology will be adopted in Enterprise Linux as well.
+Fedora is often referred as an experimental bed for Red Hat Enterprise Linux. Most of the bleed edge technologies will be introduced in Fedora first, and once it becomes stable, the same technology will be adopted in Enterprise Linux as well.
 
-Fedora comes in different variations, which includes Fedora Workstation, Fedora spins, Fedora labs, Fedora server edition, Fedora cloud edition and ARM variations. Fedora spins showcases different desktop environments, while Fedora labs are distributions oriented towards different fields such as security, robotics, electronics, games ..etc.
+Fedora comes in different variations, which includes Fedora Workstation, Fedora spins Fedora labs, Fedora server edition, Fedora cloud edition and ARM variations. Fedora spins showcase different desktop environments, while Fedora labs are distributions oriented towards different fields such as security, robotics, electronics, games ..etc.
 
