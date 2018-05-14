@@ -12,6 +12,7 @@ desktops: [openbox]
 base : [arch]
 
 releases:
+  ArchLabs 2018.05 : "http://www.open-source-feed.com/2018/05/archlabs-201805-released-with-more.html"
   ArchLabs 2018.02 : "http://www.open-source-feed.com/2018/02/archlabs-201802-released-with.html"
   ArchLabs 2017.12 : "../archlabs-201712-released-with-various-look-feel-improvements/"
   ArchLabs 2017.10 : "https://archlabslinux.com/2017/10/24/archlabs-2017-10-release/"

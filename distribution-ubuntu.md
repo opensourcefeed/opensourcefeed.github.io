@@ -31,6 +31,7 @@ screenshots:
   Ubuntu 16.04 : "http://www.distroscreens.com/2016/04/ubuntu-1604-lts-xenial-xerus-screenshots.html"
 
 stories:
+  Ubuntu 18.10 will be named as Cosmic Cuttlerfish : "http://www.open-source-feed.com/2018/05/ubuntu-1810-will-be-name-as-cosmic.html"
   GNOME Shell 3.25.91 lands in Artful, final release will ship with 3.26 : "http://www.open-source-feed.com/2017/09/gnome-shell-32591-lands-in-artful-final.html"
   Ubuntu 16.04 is now available in Windows Store : "http://www.open-source-feed.com/2017/07/ubuntu-1604-is-now-available-in-windows.html"
   Kubernetes 1.7 is now available for Ubuntu : "http://www.open-source-feed.com/2017/07/kubernetes-17-is-now-available-in-ubuntu.html"

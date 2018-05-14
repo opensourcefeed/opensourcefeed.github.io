@@ -17,6 +17,7 @@ purchase:
 description: Fedora is an independently developed, cutting-edge, popular GNU/Linux distribution supported by Red Hat Inc, and a group of volunteers
 
 reviews :
+  "Fedora 28 is another solid release, though vanilla gnome looks somewhat dull" : "https://distrowatch.com/weekly.php?issue=20180514#fedora"
   "Fedora 27 makes desktop operating system less relevant with too many bugs & crashes - Dedoimedo" : "https://www.dedoimedo.com/computers/fedora-27-gnome.html"
   "Fedora 27 is more like a testing ground and provides less polished user experience - DistroWatch" : "http://distrowatch.com/weekly.php?issue=20171120#fedora"
   Fedora 25 is not something worth to recommend: "http://www.open-source-feed.com/2017/02/fedora-25-is-not-something-worth-to.html"
