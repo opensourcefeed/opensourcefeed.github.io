@@ -16,6 +16,7 @@ purchase :
 description : "openSUSE is an independently developed, enterprise quality distribution backed by SUSE Foundation. Reviews, updates and other stories on openSUSE"
 
 releases :
+  openSUSE Leap 15 : "http://www.open-source-feed.com/2018/05/opensuse-leap-15-released-based-on-suse.html"
   openSUSE Leap 15.0 beta : "https://goo.gl/9QC5AX"
   openSUSE Leap 42.3 : "http://www.open-source-feed.com/2017/07/opensuse-leap-423-released-with-better.html"
 
