@@ -16,6 +16,7 @@ purchase:
 description: Linux Lite is a lightweight, fully functional operating system built on top of Ubuntu. It includes a good collection of applications to serve your day to day needs.
 
 releases:
+  Linux Lite 4.0 Diamond : "http://www.open-source-feed.com/2018/06/linux-lite-40-diamond-released-with.html"
   Linux Lite 4.0 beta : "https://www.open-source-feed.com/2018/04/linux-lite-40-beta-released-with-new.html"
   Linux Lite 3.8 : "http://www.open-source-feed.com/2018/02/linux-lite-38-released-based-on-ubuntu.html"
   Linux Lite 3.6 beta : "http://www.open-source-feed.com/2017/07/linux-lite-36-beta-announced-with.html"
