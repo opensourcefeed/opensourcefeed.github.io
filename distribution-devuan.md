@@ -17,10 +17,14 @@ description: Devuan is a fork of Debian that tries to eliminate the unnecessary 
 
 
 releases:
+  Devuan 2.0 ASCII : "http://www.open-source-feed.com/2018/06/devuan-20-ascii-released-with-multiple.html"
   Devuan 2.0 ASCII RC: "http://www.open-source-feed.com/2018/05/devuan-20-ascii-release-candidate-is.html"
   Devuan 2.0 ASCII Beta : "http://www.open-source-feed.com/2018/02/devuan-20-ascii-beta-released-for.html"
   Devuan 1.0.0 Jessy : "http://www.open-source-feed.com/2017/05/devuan-jessy-100-released-fork-of.html"
   Devuan 1.0.0 Jessy RC2 : "http://www.open-source-feed.com/2017/05/devuan-jessie-100-rc2-released-with.html"
+
+screenshots:
+  Devuan 2.0 ASCII : "http://www.distroscreens.com/2018/06/devuan-20-ascii-xfce-screenshots.html"
 
 reviews:
   "Devuan 1.0 does what it claims, but is outdated a little - Distrowatch" : "https://distrowatch.com/weekly.php?issue=20170605#devuan"

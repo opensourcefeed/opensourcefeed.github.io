@@ -12,6 +12,7 @@ base : [ubuntu]
 description : Xubuntu is a full featured, yet lightweight and resource efficient GNU/Linux distribution. Stories and updates on Xubuntu.
 
 releases:
+  Xubuntu 18.04 : "https://xubuntu.org/news/xubuntu-18-04-release/"
   Xubuntu 17.10.1 : "https://xubuntu.org/news/xubuntu-17-10-1-release"
   Xubuntu 17.10 Artful Aardvark : "https://xubuntu.org/news/xubuntu-17-10-release/"
   Xubuntu 17.04 : "https://xubuntu.org/news/xubuntu-17-04-release/"
@@ -23,6 +24,7 @@ stories:
   "SRU for 16.04: Intel cursor bug fix released" : "https://xubuntu.org/news/sru-16-04-intel-cursor-bug-fix-released/"
 
 screenshots :
+  Xubuntu 18.04 Bionic Beaver screenshots : "https://www.distroscreens.com/2018/06/xubuntu-1804-bionic-beaver-screenshots.html"
   Xubuntu 17.10 Artful Aardvark screenshots : "http://www.distroscreens.com/2017/11/xubuntu-1710-artful-aardvark-screenshots.html"
   Xubuntu 17.04 Zesty Zapus screenshots : "http://www.distroscreens.com/2017/04/xubuntu-1704-zesty-zapus-screenshots.html"
   Xubuntu 16.04 Xenial Xerus screenshots : "http://www.distroscreens.com/2016/04/xubuntu-1604-lts-xenial-xerus.html"

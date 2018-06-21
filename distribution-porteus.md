@@ -16,6 +16,7 @@ purchase:
 description: Porteus is a small and live GNU/Linux distribution based on Slackware. Stories on Porteus GNU/Linux
 
 releases:
+  Porteus Kiosk 4.7.0 : "http://www.open-source-feed.com/2018/06/porteus-kiosk-470-released.html"
   Porteus v4.0 rc4 : "http://www.open-source-feed.com/2018/02/porteus-v40-rc4-released-with-added.html"
   Porteus KIOSK 4.5.0 : "http://www.open-source-feed.com/2017/09/porteus-kiosk-450-released-with-linux.html"
   Porteus KIOSK 4.4.0 : "http://porteus-kiosk.org/news.html#170601"

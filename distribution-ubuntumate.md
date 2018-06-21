@@ -9,6 +9,8 @@ preview: ubuntumate.jpg
 home_page: https://ubuntu-mate.org/
 desktops: [mate]
 base : [ubuntu]
+purchase :
+  OSDisc : "https://www.osdisc.com/products/ubuntumate"
 
 description : Ubuntu MATE is one of the popular community flavor of Ubuntu delivering, classical yet productive and mdoern desktop experience. Stories, updates and reviews of Ubuntu MATE.
 
@@ -24,6 +26,7 @@ reviews:
   Ubuntu MATE 15.10 : "http://www.open-source-feed.com/2015/11/ubuntu-mate-1510-review.html"
 
 screenshots:
+  Ubuntu MATE 18.04 Bionic Beaver : "http://www.distroscreens.com/2018/05/ubuntu-mate-1804-bionic-beaver.html"
   Ubuntu MATE 17.10 Artful Aardvark : "https://goo.gl/fuyVeB"
   Ubuntu MATE 17.04 : "http://www.distroscreens.com/2017/04/ubuntu-mate-1704-zesty-zapus-screenshots.html"
   Ubuntu MATE 16.10 Alpha 1 : "http://www.distroscreens.com/2016/07/ubuntu-mate-1610-alpha-1-screenshots.html"
@@ -33,10 +36,10 @@ stories:
   Solus project is introducing a brisk menu in collaboration with Ubuntu MATE : "http://www.open-source-feed.com/2016/12/solus-project-is-introducing-brisk-menu.html"
 ---
 
-**Ubuntu MATE** is one of the popular official community flavor of Ubuntu featuring [MATE Desktop](http://theopensourcefeed.com/desktop/mate). The project delivers a modern yet traditional looking and productive desktop experience to the users.
+**Ubuntu MATE** is a community of Ubuntu featuring [MATE Desktop](http://theopensourcefeed.com/desktop/mate). The project delivers a modern yet traditional looking and productive desktop experience to the users.
 
 Ubuntu MATE retains the classical Ubuntu experience with MATE Desktop, a successor of GNOME 2.x, which was used in earlier versions of Ubuntu.
 
-The Ubuntu MATE project was started as an unofficial derivative of Ubuntu, beginning from Ubuntu 14.10, a 14.04 LTS released shortly. By February 2015, Ubuntu MATE gained the official Ubuntu flavour status.
+The Ubuntu MATE project was started as an unofficial derivative of Ubuntu, beginning from Ubuntu 14.10, a 14.04 LTS released shortly. By February 2015, Ubuntu MATE gained the official Ubuntu flavor status.
 
-Comparing to other flavors of Ubuntu, Ubuntu MATE supports a wider range of platforms. In addition to IA-32 and x86-64 which were the initial supported platforms, Ubuntu MATE also supports PowerPC and ARMv7 (on the Raspberry Pi 2 and 3).
+Comparing to other flavors of Ubuntu, Ubuntu MATE supports a wider range of platforms. In addition to IA-32 and x86-64 which were the initially supported platforms, Ubuntu MATE also supports PowerPC and ARMv7 (on the Raspberry Pi 2 and 3).
