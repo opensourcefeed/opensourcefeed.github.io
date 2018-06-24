@@ -13,6 +13,7 @@ base : [ubuntu]
 description : Peppermint OS is a Lubuntu based, GNU/Linux distribution that tries to integrate cloud based applications with a desktop operating system.
 
 releases:
+  Peppermint 9 : "http://www.open-source-feed.com/2018/06/peppermint-os-9-released-with-ubuntu.html"
   Peppermint 8 Respin : "../peppermint-8-respin-released-with-slick-greeter-updated-themes-more/"
   Peppermint 8 : "http://www.open-source-feed.com/2017/05/peppermint-os-8-released-with-linux.html"
   Peppermint 7 Respin : "http://www.open-source-feed.com/2016/12/peppermint-7-respin-released.html"
