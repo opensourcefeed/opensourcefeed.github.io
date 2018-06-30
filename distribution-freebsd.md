@@ -14,6 +14,7 @@ purchase:
 description: "FreeBSD is an open-source operating system that supports a variety of platforms with the key focus on features, speed, and stability"
 
 releases:
+  FreeBSD 11.2 : "http://www.open-source-feed.com/2018/06/freebsd-112-released-with-updated-gnome.html"
   FreeBSD 11.1 : "http://www.open-source-feed.com/2017/07/freebsd-111-released-with-support-for.html"
   FreeBSD 11.0 : "http://www.open-source-feed.com/2016/10/freebsd-110-release-is-available-now.html"
   FreeBSD 11.0-RC3 : "http://www.open-source-feed.com/2016/09/freebsd-110-rc3-released.html"

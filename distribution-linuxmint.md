@@ -36,6 +36,7 @@ reviews:
   "Linux Mint 17.3 - May be the best distribution so far" : "http://www.open-source-feed.com/2015/12/linux-mint-173-may-be-best-linux-distro.html"
   
 releases:
+  "Linux Mint 19 Xfce, MATE & Cinnamon" : "http://www.open-source-feed.com/2018/06/linux-mint-19-cinnamon-xfce-mate.html"
   "Linux Mint 19 Xfce, MATE & Cinnamon BETA" : "http://www.open-source-feed.com/2018/06/linux-mint-19-xfce-mate-cinnamon-beta.html"
   "Linux Mint 18.3 KDE" : "https://blog.linuxmint.com/?p=3481"
   "Linux Mint 18.3 Xfce" : "https://blog.linuxmint.com/?p=3480"
