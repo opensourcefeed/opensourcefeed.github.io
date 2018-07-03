@@ -26,6 +26,7 @@ stories:
   "Five reasons for using Linux Mint" : "http://www.open-source-feed.com/2015/11/5-reasons-for-using-liinux-mint.html"
 
 screenshots:
+  Linux Mint 19 Xfce : "http://www.distroscreens.com/2018/07/linux-mint-19-xfce-edition-screenshots.html"
   Linux Mint 18 Cinnamon : "http://www.distroscreens.com/2016/07/linux-mint-18-cinnamon-screenshots.html"
   Linux Mint 18 Cinnamon beta : "http://www.distroscreens.com/2016/06/linux-mint-18-cinnamon-beta-screenshots.html"
 
