@@ -10,6 +10,8 @@ home_page: http://ubuntugnome.org/
 desktops: [gnome]
 base : [ubuntu]
 description : Ubuntu GNOME is an official community flavor of Ubuntu featuring GNOME Desktop Environment. Stories, reviews and screenshots of Ubuntu GNOME
+status : Discontinued
+
 releases:
   Ubuntu GNOME 17.04 : "http://www.open-source-feed.com/2017/04/ubuntu-gnome-1704-released-with-latest.html"
   Ubuntu GNOME 16.10 : "#"
@@ -22,4 +24,4 @@ screenshots:
 
 **Ubuntu GNOME** is an official community flavor of Ubuntu featuring GNOME Desktop Environment. This project was started when Ubuntu decided to go with Unity shell development, and a lot of users were not happy with that. The first unofficial release of Ubuntu GNOME was Ubuntu GNOME Remix 12.10, sooner it was accpeted as an official flavor and first official release was Ubuntu GNOME 13.04.
 
-Ubuntu GNOME delivers a vanilla GNOME experience instead of customizing it as per developers fantacies. The future of Ubuntu GNOME is in uncertainty and may be dissolved with vanilla Ubuntu, as Canonical has decided to stop investing on Unity, it's own shell and to proceed with GNOME Shell.
+In late 2016, Canonical decided to stop investing on Unity shell and to integrated GNOME as default desktop environment. With this, Ubuntu GNOME project lost it's scope and was retired. The final stable release of Ubuntu GNOME is Ubuntu GNOME 17.04.
