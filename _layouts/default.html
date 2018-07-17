@@ -11,9 +11,9 @@ layout: compress
 
     <meta name="google-site-verification" content="8-DkVd0YN5zpN1NpF6X4SMnRckVNQgEu4O8Uk9cU_2c" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <link rel="stylesheet" href={{ "assets/style/main.css" | relative_url }}>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" defer></script>
+    <link rel="stylesheet" href={{ "assets/style/bootstrap.min.css" | relative_url }} defer>
+    <link rel="stylesheet" href={{ "assets/style/main.css" | relative_url }} defer>
+    <script src={{ "assets/script/jquery-3.2.1.slim.min.js" | relative_url }} defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" defer></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" defer></script>
     <script src={{ "assets/script/main.js" | relative_url }} defer></script>
@@ -123,6 +123,16 @@ layout: compress
 <footer>
     &copy; OpenSourceFeed 2015 - 2018
 </footer>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89970640-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-89970640-1');
+</script>
+
 </body>
 
 </html>
