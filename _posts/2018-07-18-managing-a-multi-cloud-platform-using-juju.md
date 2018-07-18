@@ -1,5 +1,5 @@
 ---
-title: "Managing multi-cloud platforms using Juju"
+title: "Managing multi-cloud services using Juju"
 layout: post
 categories: cloud juju
 image: "/assets/images/post-images/mojo-brand-gray.png"
