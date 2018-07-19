@@ -26,6 +26,7 @@ releases:
   Linux Lite 3.0 : "http://www.open-source-feed.com/2016/06/linux-lite-30-final-released-with-new.html"
 
 screenshots:
+  Linux Lite 4.0 screenshots : "https://www.distroscreens.com/2018/07/linux-lite-40-diamond-screenshots.html"
   Linux Lite 3.8 screenshots : "http://www.distroscreens.com/2018/02/linux-lite-38-final-screenshots.html"
   Linux Lite 3.4 screenshots : "http://www.distroscreens.com/2017/04/linux-lite-34-screenshots.html"
   Linux Lite 3.0 beta : "http://www.distroscreens.com/2016/05/linux-lite-30-beta-screenshots.html"
