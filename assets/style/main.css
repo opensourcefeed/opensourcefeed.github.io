@@ -90,6 +90,7 @@ a {color: teal}
 .stories .story {
     padding-bottom: 1rem;
 }
+.story p{font-size:16px; line-height: 1.5rem}
 
 /**old styles**/
 .social-icons img{height:35px;}

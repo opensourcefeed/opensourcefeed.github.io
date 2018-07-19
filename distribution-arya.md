@@ -5,17 +5,17 @@ title: 'Arya Linux'
 Category: Distribution
 permalink: /distribution/arya
 logo: arya-logo.png
-preview: aryalinux-2017.jpg
+preview: arya-app-menu.jpg
 home_page: http://aryalinux.org/
-desktops: [mate, xfce]
+desktops: [mate, xfce, gnome]
 base: [lfs]
+description: Arya Linux is a collection of tools and scripts to build your own GNU/Linux distribution. It is composed from the instructions provided in LFS and BLFS.
+
+releases:
+  Arya Linux 1.0 Xfce beta : "../arya-linux-1.0-xfce-beta-released/"
 ---
 
-**Arya Linux** is collection of build tools and scripts to build your own GNU/Linux distribution
-from scratch. These build scripts have been composed from the instructions provided in the LFS 
+**Arya Linux** is a collection of build tools and scripts to build your own GNU/Linux distribution from scratch. These build scripts have been composed of the instructions provided in the LFS 
 and BLFS books.
 
-AryaLinux comes in two flavours Mate and XFCE and supports the x86_64(Intel 64-bit) platform. 
-Apart from the basic Mate Desktop Environment, AryaLinux also comes with applications for Office 
-productivity, simple graphics packages, browser and network utilities and System tools. A lot of 
-packages other than the ones that are shipped by default, can be installed using alps in AryaLinux.
+AryaLinux comes in multiple platforms including GNOME, MATE, and Xfce. It is available only for 64-bit platforms. In addition to the default applications coming with MATE Desktop, Arya Linux ships office suite, web browser and other network utilities. More packages can be installed using *alps* package manager.

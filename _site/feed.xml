@@ -1,5 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-18T22:29:38+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
-</subtitle><entry><title type="html">Managing multi-cloud services using Juju</title><link href="http://localhost:4000/managing-a-multi-cloud-platform-using-juju/" rel="alternate" type="text/html" title="Managing multi-cloud services using Juju" /><published>2018-07-18T00:00:00+05:30</published><updated>2018-07-18T00:00:00+05:30</updated><id>http://localhost:4000/managing-a-multi-cloud-platform-using-juju</id><content type="html" xml:base="http://localhost:4000/managing-a-multi-cloud-platform-using-juju/">&lt;p&gt;&lt;strong&gt;Deploying&lt;/strong&gt; an application to a single cloud platform is not a very difficult task. But, it can be very challenging when we are dealing with multiple public clouds. It becomes quite difficult to handle the scalability and to troubleshoot deployment issues.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-19T22:20:20+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
+</subtitle><entry><title type="html">Arya Linux 1.0 Xfce spin beta released</title><link href="http://localhost:4000/arya-linux-1.0-xfce-beta-released/" rel="alternate" type="text/html" title="Arya Linux 1.0 Xfce spin beta released" /><published>2018-07-19T00:00:00+05:30</published><updated>2018-07-19T00:00:00+05:30</updated><id>http://localhost:4000/arya-linux-1.0-xfce-beta-released</id><content type="html" xml:base="http://localhost:4000/arya-linux-1.0-xfce-beta-released/">&lt;p&gt;The Arya Linux team has announced the release of Arya Linux 1.0 Xfce spin beta. It is the latest development release of from scratch GNU/Linux distribution.&lt;/p&gt;
+
+&lt;p&gt;The Arya Linux 1.0 Xfce code-named Aryana brings a fresh look and feel with Adapta Nokto GTK theme and Flat Remix Icon theme. This release features &lt;em&gt;Parole&lt;/em&gt; and &lt;em&gt;Exaile&lt;/em&gt; as default video and audio players. With this release, Midori browser is replaced with chromium owing to the self-certification issue in the former.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/arya-linux-xfce.jpg&quot; alt=&quot;A preview of Arya Linux 1.0 Xfce spin&quot; /&gt;
+&lt;em&gt;Arya Linux 1.0 Xfce spin&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+Just released the beta version of AryaLinux 1.0 XFCE Spin. The UI is refreshed (Adapta Nokto GTK theme and Flat Remix Icon theme). The default audio and video applications are exaile and parole respectively. LibreOffice works out of the box and is the default Office suite and Chromium is the default browser. We chose Chromium over Midori(even thought Midori was our first choice) because of the self-signed certificate issue of Midori. We are currently working on it. Apart from that rest of the application stack is similar to the Gnome release. We also rebuilt the kernel to fix some startup issues associated with some models of HP laptops.
+&lt;/blockquote&gt;
+&lt;p&gt;You can read the &lt;a href=&quot;http://aryalinux.org/&quot;&gt;Arya Linux 1.0 Xfce beta release announcement&lt;/a&gt; in projects official website.&lt;/p&gt;
+
+&lt;h3 id=&quot;download-arya-linux-10-xfce-spin&quot;&gt;Download Arya Linux 1.0 Xfce spin&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sourceforge.net/projects/aryalinux/files/releases/1.0/aryalinux-xfce-1.0-x86_64.iso&quot;&gt;Arya Linux 1.0 Xfce 64 bit ISO&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://aryalinux.org/files/1.0/aryalinux-xfce-1.0-x86_64.iso.torrent&quot;&gt;Arya Linux 1.0 Xfce 64 bit torrent&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">The Arya Linux team has announced the release of Arya Linux 1.0 Xfce spin beta. It is the latest development release of from scratch GNU/Linux distribution.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/arya-linux-xfce.jpg" /></entry><entry><title type="html">Managing multi-cloud services using Juju</title><link href="http://localhost:4000/managing-a-multi-cloud-platform-using-juju/" rel="alternate" type="text/html" title="Managing multi-cloud services using Juju" /><published>2018-07-18T00:00:00+05:30</published><updated>2018-07-18T00:00:00+05:30</updated><id>http://localhost:4000/managing-a-multi-cloud-platform-using-juju</id><content type="html" xml:base="http://localhost:4000/managing-a-multi-cloud-platform-using-juju/">&lt;p&gt;&lt;strong&gt;Deploying&lt;/strong&gt; an application to a single cloud platform is not a very difficult task. But, it can be very challenging when we are dealing with multiple public clouds. It becomes quite difficult to handle the scalability and to troubleshoot deployment issues.&lt;/p&gt;
 
 &lt;p&gt;There should be some kind of robust automation for managing applications on multi-cloud platforms. This automation mechanism should be highly flexible. It should permit to do a one-time configuration and allow to deploy applications on any platform. Let it be a bare metal or a cloud container.&lt;/p&gt;
 
@@ -223,62 +239,4 @@ The Ubuntu Archive Mirror service itself is modeled as a Mojo specification. Moj
 &lt;blockquote&gt;
     It can do better, and we have the most splendid Kubuntu 17.04 as the golden benchmark from now on until the end of times, we few, we happy few, we band of geeks, for he who tests with me together, shall be my code brother, may his git ne'er be so vile, and the persons of all genders now in bed shall feel themselves accursed, and hold their VR sets cheap ... I think you get the idea. I got carried away. Let's summarize. KDE neon 5.12, fresh, cool, sleek, needs more apps, better package management, better overall peripheral support. But there's a lot of potential and hope, and I think we will see cool things in Plasma this year. 7.5/10. Worth checking.
 &lt;/blockquote&gt;
-&lt;p&gt;You can read complete &lt;a href=&quot;https://www.dedoimedo.com/computers/kde-neon-5-12.html&quot;&gt;KDE Neon 5.12 review in dedoimedo portal&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">KDE Neon is a distribution developed to showcase the real potential of Plasma Desktop. It is built on top of solid Ubuntu base and brings latest and greatest applications from KDE world. It helps users to experience latest features from Plasma desktop environment and other related applications without worrying about the stability of the underlying operating system. Also, the Plasma developers can show the real Plasma to the end users by avoiding unnecessary customization shipped by various distribution developers.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/kde-neon-5.10.jpg" /></entry><entry><title type="html">NetBSD 7.1.2 released with critical security and stability patches</title><link href="http://localhost:4000/NetBSD-7.1.2-released-with-security-fixes/" rel="alternate" type="text/html" title="NetBSD 7.1.2 released with critical security and stability patches" /><published>2018-03-19T00:00:00+05:30</published><updated>2018-03-19T00:00:00+05:30</updated><id>http://localhost:4000/NetBSD-7.1.2-released-with-security-fixes</id><content type="html" xml:base="http://localhost:4000/NetBSD-7.1.2-released-with-security-fixes/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; NetBSD foundation has announced the release of NetBSD 7.1.2, the second security update in NetBSD 7.1.x series. This release brings various security fixes and other stability related patches.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/netbsd.png&quot; alt=&quot;NetBSD banner&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;what-is-netbsd&quot;&gt;What is NetBSD?&lt;/h3&gt;
-&lt;p&gt;NetBSD is UNIX like operating system developed by the collaborative effort of a large group of people. It also includes a variety of other free software like 4.4BSD Lite2 developed at UC Berkeley.&lt;/p&gt;
-
-&lt;p&gt;NetBSD implements several standard APIs and network protocols which makes it interoperable with other systems. One of the founding principles of NetBSD is to be highly portable. Towards this goal, the project has been ported to a wide range of platforms.&lt;/p&gt;
-
-&lt;p&gt;You can find &lt;a href=&quot;http://theopensourcefeed.com/distribution/netbsd&quot;&gt;more details on NetBSD&lt;/a&gt; in our gallery.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-changed-between-netbsd-711-and-712&quot;&gt;What changed between NetBSD 7.1.1 and 7.1.2?&lt;/h3&gt;
-&lt;p&gt;NetBSD 7.1.2 is a bug fix cum stability improvement update in 7.1.x series. Citing from &lt;a href=&quot;https://netbsd.org/releases/formal-7/NetBSD-7.1.2.html&quot;&gt;NetBSD 7.1.2 release announcement&lt;/a&gt; published on project’s website, following are some of the issues fixed in this release.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Fixed Remote DoS in IPsec (IPv6) and remote memory corruption in IPv6&lt;/li&gt;
-    &lt;li&gt;Disable compat_svr4 and compat_svr4_32 by default on all ports.&lt;/li&gt;
-    &lt;li&gt;Disable compat_ibcs2 everywhere but on Vax.&lt;/li&gt;
-    &lt;li&gt;Remove svr4/svr4_32/ibcs2/freebsd from the module autoload list.&lt;/li&gt;
-    &lt;li&gt;Disable LSRR (loose source and record route) and SSRR (strict source and record route) by default.&lt;/li&gt;
-    &lt;li&gt;amd64: Make the direct map non-executable.&lt;/li&gt;
-    &lt;li&gt;BIND: update bind.keys.&lt;/li&gt;
-    &lt;li&gt;bozohttpd(8): Fix issue where bozohttpd would fail to exec scripts via the -C mechanism.&lt;/li&gt;
-    &lt;li&gt;drm2: Fix issues preventing the use of more than one graphics device.&lt;/li&gt;
-    &lt;li&gt;Fix detection of duplicate symbols in kernel modules.&lt;/li&gt;
-    &lt;li&gt;ipfilter: Fix a kernel panic when altering the ipf state table size at runtime.&lt;/li&gt;
-    &lt;li&gt;IPsec:
-      &lt;ul&gt;
-        &lt;li&gt;Fix a couple use-after-free issues.&lt;/li&gt;
-        &lt;li&gt;Fix IPv6-IPsec-AH tunnels.&lt;/li&gt;
-        &lt;li&gt;Fix inverted logic that could crash the kernel.&lt;/li&gt;
-        &lt;li&gt;Fix out-of-bounds read.&lt;/li&gt;
-        &lt;li&gt;Strengthen sanity checks (AH/ESP).&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;IPv6:
-      &lt;ul&gt;
-        &lt;li&gt;Kick nested IPv6 fragments.&lt;/li&gt;
-        &lt;li&gt;Fix a couple use-after-free issues.&lt;/li&gt;
-        &lt;li&gt;Fix memory leak in nd6_na_input().&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;ksh: Create HISTFILE with mode 0600, not 777.&lt;/li&gt;
-    &lt;li&gt;MPLS: Fix several memory corruptions and inconsistencies.&lt;/li&gt;
-    &lt;li&gt;pf: Fix signedness bug.&lt;/li&gt;
-    &lt;li&gt;sparc:
-      &lt;ul&gt;
-        &lt;li&gt;Fix time goes backward problems.&lt;/li&gt;
-        &lt;li&gt;Fix problem using the ps command in ddb.&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;tlp(4): Fix timeout using the Legacy Network Adapter in Microsoft Windows Server Hyper-V VMs.&lt;/li&gt;
-    &lt;li&gt;ypserv(8): Avoid returning stale request data to the client.&lt;/li&gt;
-    &lt;li&gt;Xen: Prevent unrestricted userland access to I/O ports.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;download-netbsd-712&quot;&gt;Download NetBSD 7.1.2&lt;/h3&gt;
-&lt;p&gt;Being a popular project, NetBSD 7.1.2 is hosted in several locations. You can find these servers in &lt;a href=&quot;https://www.netbsd.org/mirrors/&quot;&gt;NetBSD mirror listing page&lt;/a&gt;. Alternatively, you can choose a bit torrent file from &lt;a href=&quot;https://netbsd.org/mirrors/torrents/&quot;&gt;NetBSD torrent listing page&lt;/a&gt;. When downloading, please make sure that you are downloading an image compatible with your system.&lt;/p&gt;</content><author><name></name></author><summary type="html">The NetBSD foundation has announced the release of NetBSD 7.1.2, the second security update in NetBSD 7.1.x series. This release brings various security fixes and other stability related patches.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/netbsd.png" /></entry></feed>
+&lt;p&gt;You can read complete &lt;a href=&quot;https://www.dedoimedo.com/computers/kde-neon-5-12.html&quot;&gt;KDE Neon 5.12 review in dedoimedo portal&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">KDE Neon is a distribution developed to showcase the real potential of Plasma Desktop. It is built on top of solid Ubuntu base and brings latest and greatest applications from KDE world. It helps users to experience latest features from Plasma desktop environment and other related applications without worrying about the stability of the underlying operating system. Also, the Plasma developers can show the real Plasma to the end users by avoiding unnecessary customization shipped by various distribution developers.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/kde-neon-5.10.jpg" /></entry></feed>
