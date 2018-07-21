@@ -26,11 +26,14 @@ stories:
   "Five reasons for using Linux Mint" : "http://www.open-source-feed.com/2015/11/5-reasons-for-using-liinux-mint.html"
 
 screenshots:
+  Linux Mint 19 MATE : "https://www.distroscreens.com/2018/07/linux-mint-19-mate-screenshots.html"
+  Linux Mint 19 Cinnamon : "https://www.distroscreens.com/2018/07/linux-mint-19-tara-cinnamon-edition.html"
   Linux Mint 19 Xfce : "http://www.distroscreens.com/2018/07/linux-mint-19-xfce-edition-screenshots.html"
   Linux Mint 18 Cinnamon : "http://www.distroscreens.com/2016/07/linux-mint-18-cinnamon-screenshots.html"
   Linux Mint 18 Cinnamon beta : "http://www.distroscreens.com/2016/06/linux-mint-18-cinnamon-beta-screenshots.html"
 
 reviews:
+  "Linux Mint 19 provides an above average performance with friendly interface" : "https://www.open-source-feed.com/2018/07/linux-mint-19-provides-above-average.html"
   "Linux Mint 18.2 stands out as best desktop linux" : "http://www.open-source-feed.com/2017/08/linux-mint-182-stands-out-as-best.html"
   "Linux Mint KDE flavor is beautiful and easy to use" : "http://www.open-source-feed.com/2017/03/linux-mint-kde-flavor-is-beautiful-and.html"
   "Linux Mint 17.3 Rosa - A wilted flower" : "http://www.open-source-feed.com/2016/01/linux-mint-173-rosa-wilted-flower-review.html"
