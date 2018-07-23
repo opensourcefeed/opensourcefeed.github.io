@@ -13,9 +13,10 @@ base: [debian]
 purchase:
   OSDisc : "https://www.osdisc.com/products/slax"
 
-description : "Slax is a Debian based, Live GNU/Linux distribution that follows a modular design approach. It comes with minimal tools required to run a desktop system"
+description : "Slax is a Debian based, live GNU/Linux distribution that follows a modular design approach. It comes with minimal tools required to run a desktop system"
 
 releases:
+  Slax 9.5.0 : "http://www.slax.org/blog/24886-Slax-9-5-0-released.html"
   Slax 9.4.0 : "/Slax-9.4-released-with-extra-applications/"
   Slax 9.3.0 : "/slax-93-released-with-improved-wifi-support/"
   
