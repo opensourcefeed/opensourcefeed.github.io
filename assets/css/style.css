@@ -56,7 +56,7 @@ footer{text-align:center;background:#173f4f;color:white;padding:10px 0 10px 0;}
 .blog h3 a:hover {text-decoration: none; color:#6da741}
 .blog .date {text-align: right;font-size: 12px}
 .page-link, .page-link:focus, .page-link:hover {color: #607D8B}
-.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {background:#607D8B;border-color:#607D8B;}
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {background:teal;border-color:teal}
 .blog .page-nav {text-align: center}
 .comment-area h3 {font-size: 1.3rem;}
 main h2 {font-size: 1.4rem; color: #173f4f}

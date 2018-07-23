@@ -26,7 +26,7 @@ description: Stories of free & open source operating systems and desktop environ
    {% if page == paginator.page %}
    <li class="page-item active"><a class="page-link">{{ page | pnumber }}</a></li>
    {% elsif page == 1 %}
-   <li class="page-item"><a class="page-link" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page | pnumber }}</a></li>
+   <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page | pnumber }}</a></li>
    {% else %}
    <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page | pnumber }}</a></li>
    {% endif %}
