@@ -1,5 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-23T22:38:04+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
-</subtitle><entry><title type="html">ReactOS 0.4.9 released with stability &amp;amp; usability improvements</title><link href="http://localhost:4000/reactos-4.9-released-with-stability-and-usability-improvements/" rel="alternate" type="text/html" title="ReactOS 0.4.9 released with stability &amp; usability improvements" /><published>2018-07-23T00:00:00+05:30</published><updated>2018-07-23T00:00:00+05:30</updated><id>http://localhost:4000/reactos-4.9-released-with-stability-and-usability-improvements</id><content type="html" xml:base="http://localhost:4000/reactos-4.9-released-with-stability-and-usability-improvements/">&lt;p&gt;&lt;strong&gt;Mr.&lt;/strong&gt; Colin Finck on behalf of ReactOS project has announced the release of ReactOS 0.4.9. It is the latest stable release in ReactOS tri-monthly release series.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-24T09:50:06+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
+</subtitle><entry><title type="html">Neptune 5.4 released with a fresh look and feel</title><link href="http://localhost:4000/neptune-5.4-released-with-better-dark-theme-and-icon-theme/" rel="alternate" type="text/html" title="Neptune 5.4 released with a fresh look and feel" /><published>2018-07-24T00:00:00+05:30</published><updated>2018-07-24T00:00:00+05:30</updated><id>http://localhost:4000/neptune-5.4-released-with-better-dark-theme-and-icon-theme</id><content type="html" xml:base="http://localhost:4000/neptune-5.4-released-with-better-dark-theme-and-icon-theme/">&lt;p&gt;&lt;strong&gt;Mr.&lt;/strong&gt; &lt;em&gt;Leszek&lt;/em&gt; of the Neptune project has announced the release of Neptune 5.4. It is the latest updated snapshot in Neptune 5.x series. It brings a set of updated packages and applications and avoids the need for the bulk package update after installing the operating system.&lt;/p&gt;
+
+&lt;p&gt;In addition to package updates and critical bug fixes, Neptune 5.4 brings a fresh look and feel with an improved dark theme.  This dark theme also includes a modified version of &lt;em&gt;Faenza&lt;/em&gt; icon theme. Neptune 5.4 also brings Linux Kernel 5.16.x. It ensures better hardware support.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/preview/neptune5.0.jpg&quot; alt=&quot;A file picture of Neptune 5.0&quot; /&gt;
+&lt;em&gt;A file picture of Neptune 5.0&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Other highlights from Neptune 5.4 include,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;the update of KDE Frameworks to version 5.48  and KDE Applications to version 18.04.3. As the new KF5 version is not compatible with Qt 5.7 anymore we had to backport its patches to version 5.45.&lt;/li&gt;
+    &lt;li&gt;VLC has been updated to 3.0.3 to provide more speed and lots of bugfixes.&lt;/li&gt;
+    &lt;li&gt;Thunderbird 52.9 fixes issues with encrypted HTML e-mails. The Excalibur menu is now available in version 2.7 which provides some bugfixes in regards to multiple activities and moving favorites around.&lt;/li&gt;
+    &lt;li&gt;KWin the default window manager for Plasma got an update to version 5.12.5.  This offers some nice speed improvements as well as some updated effects and better hardware support.&lt;/li&gt;
+    &lt;li&gt;LibreOffice is now available in version 6.0.6. We fixed an issue with MTP causing issues to share files with Android devices.&lt;/li&gt;
+    &lt;li&gt;Enlightenment 22 is now available in Version 0.22.3 together with Terminology 1.2.1.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can find further information in &lt;a href=&quot;https://neptuneos.com/en/news-reader/neptune-5-4-159.html&quot;&gt;Neptune 5.4 release announcement&lt;/a&gt; and &lt;a href=&quot;https://neptuneos.com/en/changelog.html&quot;&gt;Neptune 5.4 changelogs&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mr. Leszek of the Neptune project has announced the release of Neptune 5.4. It is the latest updated snapshot in Neptune 5.x series. It brings a set of updated packages and applications and avoids the need for the bulk package update after installing the operating system.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/preview/neptune5.0.jpg" /></entry><entry><title type="html">ReactOS 0.4.9 released with stability &amp;amp; usability improvements</title><link href="http://localhost:4000/reactos-4.9-released-with-stability-and-usability-improvements/" rel="alternate" type="text/html" title="ReactOS 0.4.9 released with stability &amp; usability improvements" /><published>2018-07-23T00:00:00+05:30</published><updated>2018-07-23T00:00:00+05:30</updated><id>http://localhost:4000/reactos-4.9-released-with-stability-and-usability-improvements</id><content type="html" xml:base="http://localhost:4000/reactos-4.9-released-with-stability-and-usability-improvements/">&lt;p&gt;&lt;strong&gt;Mr.&lt;/strong&gt; Colin Finck on behalf of ReactOS project has announced the release of ReactOS 0.4.9. It is the latest stable release in ReactOS tri-monthly release series.&lt;/p&gt;
 
 &lt;p&gt;The ReactOS tri-monthly release series has reduced the number of changes in each cycle. Rather, it provides improved workflow and ensures the work is moving in the right way.&lt;/p&gt;
 
@@ -210,31 +230,4 @@ The Ubuntu Archive Mirror service itself is modeled as a Mojo specification. Moj
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://download.trueos.org/master/amd64/TrueOS-Desktop-18.03-x64-DVD.iso&quot;&gt;Download TrueOS 18.03 Desktop ISO&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.trueos.org/downloads/&quot;&gt;See more TrueOS 18.03 Download options&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Mr Ken Moore, on behalf of TrueOS team, has announced the availability of TrueOS 18.03, a special release from the TrueOS project. This release was essential to address various issues spread in computing world since the beginning of 2018, which includes Meltdown and Spectre issues. The entire package ecosystem of TrueOS has been updated to address this issues.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/trueoslogo.jpg" /></entry><entry><title type="html">Qubes OS 4.0 released with security &amp;amp; functionality improvements</title><link href="http://localhost:4000/qubes-os-4.0-released-with-security-and-functionality-improvements/" rel="alternate" type="text/html" title="Qubes OS 4.0 released with security &amp; functionality improvements" /><published>2018-03-30T00:00:00+05:30</published><updated>2018-03-30T00:00:00+05:30</updated><id>http://localhost:4000/qubes-os-4.0-released-with-security-and-functionality-improvements</id><content type="html" xml:base="http://localhost:4000/qubes-os-4.0-released-with-security-and-functionality-improvements/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Andrew Wong&lt;/em&gt; on behalf of Qubes OS team has announced the release of Qubes OS 4.0, the latest stable release of a security-oriented operating system that runs applications in isolation. This release is a result of 2 years of continuous development and testing activities. It brings various fundamental improvements to provide better stability and functionality.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/QubesOS-banner.png&quot; alt=&quot;Qubes OS 4.0 banner&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;what-is-new-in-qubes-os-40&quot;&gt;What is new in Qubes OS 4.0?&lt;/h3&gt;
-&lt;p&gt;Qubes OS 4.0 is the first most release in Qubes OS 4.x series. It includes various functionality and security enhancements. More features will be introduced in upcoming point releases.&lt;/p&gt;
-
-&lt;p&gt;The main highlights of Qubes OS 4.0 include the following&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;The Qubes Admin API&lt;/em&gt;, which will allow the &lt;em&gt;select&lt;/em&gt; VMs to perform various administrative tasks on Qubes OS.&lt;/li&gt;
-  &lt;li&gt;Qubes Core Stack version 3&lt;/li&gt;
-  &lt;li&gt;Fully virtualized VMs for enhanced security.&lt;/li&gt;
-  &lt;li&gt;Multiple flexible, disposable VM templates&lt;/li&gt;
-  &lt;li&gt;A more expressive and user-friendly Qubes RPC system.&lt;/li&gt;
-  &lt;li&gt;A powerful new VM volume manager that makes it easy to keep VMs on external drives&lt;/li&gt;
-  &lt;li&gt;Enhanced TemplateVM security via split packages and network interface removal&lt;/li&gt;
-  &lt;li&gt;More secure backups with script for stronger key derivation and enforced encryption&lt;/li&gt;
-  &lt;li&gt;Rewritten command-line tools with new options&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In addition to the planned features, there are some additional improvements like migration from HVM to PVH for most of the VMs in response to Meltdown and Spectre issues. A complete list of features and improvements can be read in &lt;a href=&quot;https://www.qubes-os.org/doc/releases/4.0/release-notes/&quot;&gt;official release notes for Qubes OS 4.0&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-to-get-qubes-os-40&quot;&gt;How to get Qubes OS 4.0?&lt;/h3&gt;
-&lt;p&gt;The Qubes OS 4.0 installation image can be downloaded using following links&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mirrors.edge.kernel.org/qubes/iso/Qubes-R4.0-x86_64.iso&quot;&gt;Download Qubes OS 4.0 ISO&lt;/a&gt; (4.27 GiB)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mirrors.edge.kernel.org/qubes/iso/Qubes-R4.0-x86_64.torrent&quot;&gt;Download Qubes OS 4.0 TORRENT&lt;/a&gt; (85.88 KiB)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Mr Andrew Wong on behalf of Qubes OS team has announced the release of Qubes OS 4.0, the latest stable release of a security-oriented operating system that runs applications in isolation. This release is a result of 2 years of continuous development and testing activities. It brings various fundamental improvements to provide better stability and functionality.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/QubesOS-banner.png" /></entry></feed>
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.trueos.org/downloads/&quot;&gt;See more TrueOS 18.03 Download options&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Mr Ken Moore, on behalf of TrueOS team, has announced the availability of TrueOS 18.03, a special release from the TrueOS project. This release was essential to address various issues spread in computing world since the beginning of 2018, which includes Meltdown and Spectre issues. The entire package ecosystem of TrueOS has been updated to address this issues.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/trueoslogo.jpg" /></entry></feed>

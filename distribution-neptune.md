@@ -16,6 +16,7 @@ purchase:
 description : "Neptune is a Debian stable based distribution which ships all packages from the base distribution, along with a recent version of Linux kernel and some additional drivers."
 
 releases:
+  "Neptune 5.4" : "../neptune-5.4-released-with-better-dark-theme-and-icon-theme/"
   "Neptune 5 'Refresh'" : "../neptune-os-5.0-refresh-released-with-updated-debian-base/"
   "Neptune 5" : "http://www.open-source-feed.com/2017/05/neptune-plasma-5-edition-gets-another.html"
   "Neptune OS 4.5.4" : "http://www.open-source-feed.com/2017/04/neptune-os-454-announced-with-linux.html"
