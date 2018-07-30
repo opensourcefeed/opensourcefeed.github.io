@@ -1,5 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-24T20:11:47+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
-</subtitle><entry><title type="html">Neptune 5.4 released with a fresh look and feel</title><link href="http://localhost:4000/neptune-5.4-released-with-better-dark-theme-and-icon-theme/" rel="alternate" type="text/html" title="Neptune 5.4 released with a fresh look and feel" /><published>2018-07-24T00:00:00+05:30</published><updated>2018-07-24T00:00:00+05:30</updated><id>http://localhost:4000/neptune-5.4-released-with-better-dark-theme-and-icon-theme</id><content type="html" xml:base="http://localhost:4000/neptune-5.4-released-with-better-dark-theme-and-icon-theme/">&lt;p&gt;&lt;strong&gt;Mr.&lt;/strong&gt; &lt;em&gt;Leszek&lt;/em&gt; of the Neptune project has announced the release of Neptune 5.4. It is the latest updated snapshot in Neptune 5.x series. It brings a set of updated packages and applications and avoids the need for the bulk package update after installing the operating system.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-30T21:59:56+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Database of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
+</subtitle><entry><title type="html">ArchLabs Linux 2018.07 released with a brand new dark theme</title><link href="http://localhost:4000/00-archlabs-linux-2018.07-released-with-brand-new-dark-theme/" rel="alternate" type="text/html" title="ArchLabs Linux 2018.07 released with a brand new dark theme" /><published>2018-07-30T00:00:00+05:30</published><updated>2018-07-30T00:00:00+05:30</updated><id>http://localhost:4000/00-archlabs-linux-2018.07-released-with-brand-new-dark-theme</id><content type="html" xml:base="http://localhost:4000/00-archlabs-linux-2018.07-released-with-brand-new-dark-theme/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; ArchLabs team has announced the release of ArchLabs 2018.07. It is the latest stable release of Arch-based GNU/Linux distribution inspired by the design principles of &lt;em&gt;Bunsenlabs&lt;/em&gt;. The main focus of this release on stability improvement, performance and usability improvements and other optimizations.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/ArchLabs_2018-02-07-18_1920x1080.jpg&quot; alt=&quot;A preview of ArchLabs 2018.07&quot; /&gt;
+&lt;em&gt;A preview of ArchLabs Linux 2018.07&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the visible change with ArchLabs is the introduction of a brand new dark theme which works well the default light icon theme shipped with ArchLabs. Last week, ArchLabs team had shared some updates on with a discussion thread on ArchLabs forums.&lt;/p&gt;
+
+&lt;p&gt;Other main highlights in ArchLabs Linux 2018.07 includes,&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;The ArchLabs installer finally has it’s own name, presenting, AL-Installer.  Originally forked from ABIF, it has been completely re-written for use with ArchLabs and only vaguely resembles the original product.&lt;/li&gt;
+    &lt;li&gt;A lot of changes have been made to keep your install simple.  Sorting of mirrors has been added as well as a page to create your user.&lt;/li&gt;
+    &lt;li&gt;A brand new default theme, ArchLabs-dARK.  This works nicely with the current icon theme, ArchLabs-Light.&lt;/li&gt;
+    &lt;li&gt;New default wallpaper.&lt;/li&gt;
+    &lt;li&gt;Aurman has replaced Yaourt as our AUR helper.  This helper works nicely with Pacman.&lt;/li&gt;
+    &lt;li&gt;Neofetch has been replaced quite some time ago with our lightweight homemade info script, AL-Info.&lt;/li&gt;
+    &lt;li&gt;With the help from Oddproton and Karl Schneider, we have our very own dynamic wallpaper script (à la MacOS Mojave/Gnome) called Dynpaper.  With custom walls created by the ever talented Karl.  Dynpaper isn’t installed or enabled by default.  If you’d like to get this up and running on your system, check out our thread at the forum.&lt;/li&gt;
+    &lt;li&gt;Polybar has been updated to the latest version and has undergone a tidy up.&lt;/li&gt;
+    &lt;li&gt;Vim and Ranger’s configs have been added and updated.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can find the original &lt;a href=&quot;https://archlabslinux.com/2018/07/29/archlabs-linux-2018-07/&quot;&gt;ArchLabs 2018.07 release announcement&lt;/a&gt; in projects website.&lt;/p&gt;</content><author><name></name></author><summary type="html">The ArchLabs team has announced the release of ArchLabs 2018.07. It is the latest stable release of Arch-based GNU/Linux distribution inspired by the design principles of Bunsenlabs. The main focus of this release on stability improvement, performance and usability improvements and other optimizations.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/ArchLabs_2018-02-07-18_1920x1080.jpg" /></entry><entry><title type="html">Neptune 5.4 released with a fresh look and feel</title><link href="http://localhost:4000/neptune-5.4-released-with-better-dark-theme-and-icon-theme/" rel="alternate" type="text/html" title="Neptune 5.4 released with a fresh look and feel" /><published>2018-07-24T00:00:00+05:30</published><updated>2018-07-24T00:00:00+05:30</updated><id>http://localhost:4000/neptune-5.4-released-with-better-dark-theme-and-icon-theme</id><content type="html" xml:base="http://localhost:4000/neptune-5.4-released-with-better-dark-theme-and-icon-theme/">&lt;p&gt;&lt;strong&gt;Mr.&lt;/strong&gt; &lt;em&gt;Leszek&lt;/em&gt; of the Neptune project has announced the release of Neptune 5.4. It is the latest updated snapshot in Neptune 5.x series. It brings a set of updated packages and applications and avoids the need for the bulk package update after installing the operating system.&lt;/p&gt;
 
 &lt;p&gt;In addition to package updates and critical bug fixes, Neptune 5.4 brings a fresh look and feel with an improved dark theme.  This dark theme also includes a modified version of &lt;em&gt;Faenza&lt;/em&gt; icon theme. Neptune 5.4 also brings Linux Kernel 5.16.x. It ensures better hardware support.&lt;/p&gt;
 
@@ -196,41 +218,4 @@ The Ubuntu Archive Mirror service itself is modeled as a Mojo specification. Moj
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://fedoramagazine.org/announcing-fedora-28-beta/&quot;&gt;Fedora 28 beta release announcement on Fedora Magazine&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://communityblog.fedoraproject.org/modularity-dead-long-live-modularity/&quot;&gt;Modularity is dead, long live modularity - Article on modularity&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Mr Eduard Lucena, on behalf of Fedora Project, has announced the release of Fedora 28 beta, a development release of upcoming Fedora 28 which is scheduled to release in May 2018. This release will give a brief idea of features expected in the upcoming release and will enable beta testing around the world. Fedora 28 includes several package updates and design changes including the introduction of modular repositories.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/fedora-28-beta.jpg" /></entry><entry><title type="html">Nitrux 1.0.10 released with package updates from Bionic</title><link href="http://localhost:4000/Nitrux-1.0.10-released-with-package-updates-from-bionic/" rel="alternate" type="text/html" title="Nitrux 1.0.10 released with package updates from Bionic" /><published>2018-04-01T00:00:00+05:30</published><updated>2018-04-01T00:00:00+05:30</updated><id>http://localhost:4000/Nitrux-1.0.10-released-with-package-updates-from-bionic</id><content type="html" xml:base="http://localhost:4000/Nitrux-1.0.10-released-with-package-updates-from-bionic/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; &lt;em&gt;Nitrux&lt;/em&gt; team has announced the immediate availability of Nitrux 1.0.10, the latest stable release of Ubuntu based GNU/Linux distribution featuring Nomad desktop. This release includes various package updates from Ubuntu 18.04 Bionic Beaver, along with some look and feels improvements.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/nomad-menu-2-620x349.jpg&quot; alt=&quot;Nitrux 1.0.10 banner&quot; /&gt;
-&lt;em&gt;Image Courtesy : OCSMag&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;what-is-nitrux-os&quot;&gt;What is Nitrux OS?&lt;/h3&gt;
-&lt;p&gt;Nitrux is an Ubuntu based GNU/Linux distribution targeting mainly desktop and laptop users. In addition to all the benefits from Ubuntu, it also promotes portable applications formats like AppImage.&lt;/p&gt;
-
-&lt;p&gt;While using the Ubuntu core to perform essential operating system functionalities, Nitrux is planning to develop a clean desktop experience. Nitrux makes use of Plasma Desktop and KDE Applications to provide a better user experience. It also provides an in-house developed software suite called &lt;em&gt;Nomad Desktop&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;what-is-new-in-nitrux-1010&quot;&gt;What is new in Nitrux 1.0.10?&lt;/h3&gt;
-&lt;p&gt;Unlike many other mainstream distributions, Nitrux does n’t publish a detailed blog post for each release. Instead, they make a brief release announcement on social media accounts like twitter, google plus and facebook.&lt;/p&gt;
-
-&lt;p&gt;Quoting from the &lt;a href=&quot;https://plus.google.com/+NitruxInside/posts/BUEKoJ7RPvG&quot;&gt;Nitrux 1.0.10 release announcement&lt;/a&gt; published in project’s google plus account, following are some highlights in Nitrux 1.0.10 release.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Updated packages from bionic.&lt;/li&gt;
-    &lt;li&gt;Updated Nomad Software Center.&lt;/li&gt;
-    &lt;li&gt;Updated Software Updater.&lt;/li&gt;
-    &lt;li&gt;Updated kernel to version 4.15.14.&lt;/li&gt;
-    &lt;li&gt;Latest version of Plasma 5 (5.12.80), KDE Apps (18.07.70), KF5 (5.45.0) and Qt 5 (5.10.0).&lt;/li&gt;
-    &lt;li&gt;Updated Look and Feel.&lt;/li&gt;
-    &lt;li&gt;Added X11 userland driver support for: VMware.&lt;/li&gt;
-    &lt;li&gt;Added character support for Chinese and Japanese.&lt;/li&gt;
-    &lt;li&gt;Added AppImage Integration Tool.&lt;/li&gt;
-    &lt;li&gt;Added support for EFI mode.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You can read &lt;a href=&quot;https://nxos.org/compendium/#get-started&quot;&gt;more about Nitrux&lt;/a&gt; in project’s getting started section.&lt;/p&gt;
-
-&lt;h3 id=&quot;download-nitrux-1010&quot;&gt;Download Nitrux 1.0.10&lt;/h3&gt;
-&lt;p&gt;The Nitrux installation images can be downloaded from OpenDesktop hosting or as a torrent file. The installation image is of size 1.39 GB and it supports AMD64/Intelx64 systems.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.opendesktop.org/p/1188112/startdownload?file_id=1522477880&amp;amp;file_name=nitrux_release_1.0.10-4.iso&amp;amp;file_type=application/octet-stream&amp;amp;file_size=1421885440&amp;amp;url=https%3A%2F%2Fdl.opendesktop.org%2Fapi%2Ffiles%2Fdownloadfile%2Fid%2F1522477880%2Fs%2F5d9e8cbf938291415be8bbbbe95aa7a9%2Ft%2F1522602626%2Fu%2F247731%2Fnitrux_release_1.0.10-4.iso&quot;&gt;Download Nitrux 1.0.10 ISO&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.opendesktop.org/p/1188112/startdownload?file_id=1522479564&amp;amp;file_name=nitrux_release_1.0.10-4.torrent&amp;amp;file_type=application/x-bittorrent&amp;amp;file_size=54771&amp;amp;url=https%3A%2F%2Fdl.opendesktop.org%2Fapi%2Ffiles%2Fdownloadfile%2Fid%2F1522479564%2Fs%2F5d9e8cbf938291415be8bbbbe95aa7a9%2Ft%2F1522602626%2Fu%2F247731%2Fnitrux_release_1.0.10-4.torrent&quot;&gt;Download Nitrux 1.0.10 TORRENT&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">The Nitrux team has announced the immediate availability of Nitrux 1.0.10, the latest stable release of Ubuntu based GNU/Linux distribution featuring Nomad desktop. This release includes various package updates from Ubuntu 18.04 Bionic Beaver, along with some look and feels improvements.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/nomad-menu-2-620x349.jpg" /></entry></feed>
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Mr Eduard Lucena, on behalf of Fedora Project, has announced the release of Fedora 28 beta, a development release of upcoming Fedora 28 which is scheduled to release in May 2018. This release will give a brief idea of features expected in the upcoming release and will enable beta testing around the world. Fedora 28 includes several package updates and design changes including the introduction of modular repositories.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/fedora-28-beta.jpg" /></entry></feed>
