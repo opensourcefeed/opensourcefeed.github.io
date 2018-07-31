@@ -20,6 +20,9 @@ releases:
   ArchLabs 2017.12 : "../archlabs-201712-released-with-various-look-feel-improvements/"
   ArchLabs 2017.10 : "https://archlabslinux.com/2017/10/24/archlabs-2017-10-release/"
 
+screenshots:
+  ArchLabs Linux 2018.07 : "http://www.distroscreens.com/2018/07/archlabs-linux-201807-screenshots.html"
+
 description : "ArchLabs is a rolling distribution inspired by the simplicity and look and feel of Busenlab, another operating system based on Debian with Openbox window manager"
 
 
