@@ -22,11 +22,12 @@ layout: default
                     <ul>
                         {% for page in site.pages %}
                         {% if page.Category == 'Distribution' or page.Category == 'Desktop'%}
-                        <li data-link="{{page.url}}">
-                            {{page.title}}
+                        <li>
+                            <a href="{{page.url}}">{{page.title}}</a>
                         </li>
                         {% endif %}
                         {% endfor %}
+                        <li id="no-result"><a>No matching result...</a></li>
                     </ul>
                 </ul>
             </div>

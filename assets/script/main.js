@@ -21,8 +21,9 @@ $(function () {
 
         var query = $(this).val();
         var entryParent = $('#result-list');
-        var entries = $(entryParent).find('li');
+        var entries = $(entryParent).find('li').not('#no-result');
         var hasResult = false;
+        var noResult = $('#no-result');
 
         if (query != undefined && query != '') {
             $(entries).each(function () {
@@ -33,19 +34,30 @@ $(function () {
                     $(this).show();
                 }
             });
+            if (hasResult) {
+                $(noResult).hide();
+            } else {
+                $(noResult.show());
+                hasResult = true;
+            }
         }
 
         if (hasResult) {
             $(entryParent).width($(this).outerWidth())
-                .css('left', $('#search-btn').parent().width())
-                .show();
+            .css('left', $('#search-btn').parent().width())
+            .show();
         } else {
             $(entryParent).hide();
         }
     });
 
-    // Redirect to desktop page/distribution page on click
-    $('#result-list li').on('click', function() {
-        location = $(this).data('link');
-    });
+    // Control size of navbar on scrolling
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 50) {
+          $('.navbar').addClass('navbar-small');
+      }
+      else {
+          $('.navbar').removeClass('navbar-small');
+      }
+  });
 });
