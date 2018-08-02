@@ -104,7 +104,7 @@ a {color: teal}
 /**old styles**/
 .social-icons img{height:35px;}
 .social-icons, .social-icons li{display:inline;}
-.post-header h1{font-size:1.6rem;padding-top:20px;text-align:center}
+.post-header h1{font-size:1.6rem;padding-top:40px;text-align:center}
 .post-header .category{border:1px solid #ddd;padding:5px}
 .post-header a:hover{text-decoration:none;}
 .post-content{font-size:1em;line-height:1.7em;}
@@ -153,7 +153,7 @@ footer{text-align:center;background:teal;color:white;padding:10px 0 10px 0;}
 .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {background:#607D8B;border-color:#607D8B;}
 .blog .page-nav {text-align: center}
 .comment-area h3 {font-size: 1.3rem;}
-main {padding-top: 100px}
+main {padding-top: 60px}
 main h2 {font-size: 1.4rem; color: #173f4f}
 main h3 {font-size: 1rem;}
 main .recent-stories ul{list-style-type: none; padding-left: 0}
