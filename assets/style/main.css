@@ -57,10 +57,11 @@ a {color: teal}
   position: relative;
   z-index: 2;
   display: none;
+  overflow-y: auto;
+  max-height: 200px;
+  border: 1px solid #ddd;
 }
-#result-list ul {
-  padding-left: 0
-}
+#result-list ul { padding-left: 0; margin-bottom: 0}
 #result-list li{
   list-style: none;
 }
