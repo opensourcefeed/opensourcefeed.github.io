@@ -18,12 +18,9 @@ layout: compress
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" defer></script>
     <script src={{ "assets/script/main.js" | relative_url }} defer></script>
 
-
+    <!-- {{page.url}} -->
     {% if page.url == '/' %}
     <title>OpenSourceFeed | Gallery of Free & Open Source Distributions & Desktops</title>
-    {% seo title=false %}
-    {% else if page.url == '/blog' %}
-    <title>OpenSourceFeed | Stories and updates on Free and Open Source technologies.
     {% seo title=false %}
     {% else %}
     {% seo %}
