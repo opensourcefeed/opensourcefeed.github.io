@@ -20,7 +20,13 @@ layout: compress
 
     <!-- {{page.url}} -->
     {% if page.url == '/' %}
-    <title>OpenSourceFeed | Gallery of Free & Open Source Distributions & Desktops</title>
+    <title>Gallery of Free & Open Source Distributions & Desktops | OpenSourceFeed</title>
+    {% seo title=false %}
+    {% elsif page.url == '/distribution/' %}
+    <title>Exclusive list of Free and Open Source operating systems | OpenSourceFeed</title>
+    {% seo title=false %}
+    {% else if page.url == '/blog/' %}
+    <title>Stories on Free and Open Source distributions, desktops and technologies | OpenSourceFeed</title>
     {% seo title=false %}
     {% else %}
     {% seo %}
@@ -39,77 +45,35 @@ layout: compress
         <div class="collapse navbar-collapse" id="osfnavbar">
 
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="osdropdownlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Operating System
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="osdropdownlink">
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item dropdown-toggle" href="#">GNU/Linux</a>
-                            <ul class="dropdown-menu">
-                                {% for page in site.pages %}
-                                {% if page.Category == 'Distribution' and page.type == 'Linux' or page.type == '' %}
-                                <li>
-                                    <a class="dropdown-item" href="{{page.url}}">{{page.title}}</a>
-                                </li>
-                                {% endif %}
-                                {% endfor %}
-                            </ul>
-                        </li>
-
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-item dropdown-toggle" href="#">BSD</a>
-                            <ul class="dropdown-menu">
-                             {% for page in site.pages %}
-                             {% if page.Category == 'Distribution' and page.type == 'BSD' %}
-                             <li>
-                                <a class="dropdown-item" href="{{page.url}}">{{page.title}}</a>
-                            </li>
-                            {% endif %}
-                            {% endfor %}
-                        </ul>
+               <li class="nav-item">
+                <a class="nav-link" href="/distribution">Operating System</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="desktopdropdownlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Desktop Environment
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="desktopdropdownlink">
+                    {% for page in site.pages %}
+                    {% if page.Category == 'Desktop' %}
+                    <li>
+                        <a class="dropdown-item" href="{{page.url}}">{{page.title}}</a>
                     </li>
+                    {% endif %}
+                    {% endfor %}
 
-                    <li class="dropdown-submenu">
-                        <a class="dropdown-item dropdown-toggle" href="#">Others</a>
-                        <ul class="dropdown-menu">
-                         {% for page in site.pages %}
-                         {% if page.Category == 'Distribution' and page.type == 'Other' %}
-                         <li>
-                            <a class="dropdown-item" href="{{page.url}}">{{page.title}}</a>
-                        </li>
-                        {% endif %}
-                        {% endfor %}
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="desktopdropdownlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Desktop Environment
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="desktopdropdownlink">
-                {% for page in site.pages %}
-                {% if page.Category == 'Desktop' %}
-                <li>
-                    <a class="dropdown-item" href="{{page.url}}">{{page.title}}</a>
-                </li>
-                {% endif %}
-                {% endfor %}
-
-            </ul>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="https://www.distroscreens.com/">Screenshots
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/blog">Blog
-            </a>
-        </li>
-    </ul>
-    <ul class="navbar-nav social-icons"> <li> <a rel="nofollow" title="Like us on facebook" target="_blank" href="https://www.facebook.com/opensourcefeed/"> <img alt="FB Link" src="/assets/images/meta/facebook.png"> </a> </li> <li> <a rel="nofollow" title="Follow us on Google+" target="_blank" href="https://plus.google.com/b/114426521113195641057/"> <img alt="G+ Link" src="/assets/images/meta/google-plus.png"> </a> </li> <li> <a rel="nofollow" title="Follow us on Twitter" target="_blank" href="https://twitter.com/opensourcefeed"> <img alt="Twitter Link" src="/assets/images/meta/twitter.png"> </a> </li> <li> <a rel="nofollow" title="Subscribe us on Telegram" target="_blank" href="https://t.me/opensourcefeed"> <img alt="Telegram Link" src="/assets/images/meta/telegram.png"> </a> </li> <li> <a rel="nofollow" title="Subscribe for our RSS" target="_blank" href="/feed.xml"> <img alt="RSS Link" src="/assets/images/meta/rss.png"> </a> </li> </ul>
-</div>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.distroscreens.com/">Screenshots
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/blog">Blog
+                </a>
+            </li>
+        </ul>
+        <ul class="navbar-nav social-icons"> <li> <a rel="nofollow" title="Like us on facebook" target="_blank" href="https://www.facebook.com/opensourcefeed/"> <img alt="FB Link" src="/assets/images/meta/facebook.png"> </a> </li> <li> <a rel="nofollow" title="Follow us on Google+" target="_blank" href="https://plus.google.com/b/114426521113195641057/"> <img alt="G+ Link" src="/assets/images/meta/google-plus.png"> </a> </li> <li> <a rel="nofollow" title="Follow us on Twitter" target="_blank" href="https://twitter.com/opensourcefeed"> <img alt="Twitter Link" src="/assets/images/meta/twitter.png"> </a> </li> <li> <a rel="nofollow" title="Subscribe us on Telegram" target="_blank" href="https://t.me/opensourcefeed"> <img alt="Telegram Link" src="/assets/images/meta/telegram.png"> </a> </li> <li> <a rel="nofollow" title="Subscribe for our RSS" target="_blank" href="/feed.xml"> <img alt="RSS Link" src="/assets/images/meta/rss.png"> </a> </li> </ul>
+    </div>
 </nav>
 </header>
 <main class="container-fluid">

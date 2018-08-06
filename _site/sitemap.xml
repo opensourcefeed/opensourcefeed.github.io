@@ -503,6 +503,9 @@
 <loc>http://localhost:4000/distribution/zorin</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/index-old/</loc>
 </url>
 <url>
