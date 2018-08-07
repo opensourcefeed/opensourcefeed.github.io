@@ -19,18 +19,7 @@ layout: compress
     <script src={{ "assets/script/main.js" | relative_url }} defer></script>
 
     <!-- {{page.url}} -->
-    {% if page.url == '/' %}
-    <title>Gallery of Free & Open Source Distributions & Desktops | OpenSourceFeed</title>
-    {% seo title=false %}
-    {% elsif page.url == '/distribution/' %}
-    <title>Exclusive list of Free and Open Source operating systems | OpenSourceFeed</title>
-    {% seo title=false %}
-    {% else if page.url == '/blog/' %}
-    <title>Stories on Free and Open Source distributions, desktops and technologies | OpenSourceFeed</title>
-    {% seo title=false %}
-    {% else %}
     {% seo %}
-    {% endif %}
 
 </head>
 

@@ -1,6 +1,6 @@
 --- 
 layout: default
-description: Exclusive list of Free and Open Source operating systems
+title: Exclusive list of Free and Open Source operating systems
 ---
 <div class="distribution">
     <h1>OPEN SOURCE OPERATING SYSTEM</h1>

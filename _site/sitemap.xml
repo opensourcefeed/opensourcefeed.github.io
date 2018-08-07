@@ -272,9 +272,6 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/blog/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/desktop/budgie</loc>
 </url>
 <url>
@@ -522,15 +519,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/blog/4/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/blog/5/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/blog/6/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/blog/7/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/google9aba68154c5cb9a6.html</loc>

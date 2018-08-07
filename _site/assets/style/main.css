@@ -171,3 +171,9 @@ main .recent-stories ul{list-style-type: none; padding-left: 0}
 
 .distribution h1 {font-size:  1.5rem; margin-top: 1rem; text-align: center}
 .distribution h2 {border-bottom: 1px solid #eee; margin-top: 2rem; margin-bottom: 1rem}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
