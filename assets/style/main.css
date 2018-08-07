@@ -172,8 +172,21 @@ main .recent-stories ul{list-style-type: none; padding-left: 0}
 .distribution h1 {font-size:  1.5rem; margin-top: 1rem; text-align: center}
 .distribution h2 {border-bottom: 1px solid #eee; margin-top: 2rem; margin-bottom: 1rem}
 
+@media (max-width: 430px) {
+  #search-field {
+    font-size: 0.8rem;
+    font-weight: normal;
+    text-align: center;
+  }
+  #search-btn {display: none}
+}
+
 @media (max-width: 360px) {
   h1 {
     font-size: 1.5rem;
+  }
+  .description {
+    font-size: 1rem;
+    line-height: 1.2rem;
   }
 }
