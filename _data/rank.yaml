@@ -1,0 +1,228 @@
+- name: archlabs
+  rank: 1
+  count: 16
+
+- name: slax
+  rank: 2
+  count: 14
+
+- name: arya
+  rank: 3
+  count: 13
+
+- name: elementary
+  rank: 4
+  count: 11
+
+- name: linuxmint
+  rank: 5
+  count: 11
+
+- name: lite
+  rank: 6
+  count: 9
+
+- name: lubuntu
+  rank: 7
+  count: 9
+
+- name: peppermint
+  rank: 8
+  count: 9
+
+- name: ubuntubudgie
+  rank: 9
+  count: 9
+
+- name: arch
+  rank: 10
+  count: 8
+
+- name: rosa
+  rank: 11
+  count: 8
+
+- name: manjaro
+  rank: 12
+  count: 7
+
+- name: netrunner
+  rank: 13
+  count: 7
+
+- name: nitrux
+  rank: 14
+  count: 7
+
+- name: reactos
+  rank: 15
+  count: 7
+
+- name: ubuntu
+  rank: 16
+  count: 7
+
+- name: zorin
+  rank: 17
+  count: 7
+
+- name: elive
+  rank: 18
+  count: 6
+
+- name: fedora
+  rank: 19
+  count: 6
+
+- name: arco
+  rank: 20
+  count: 5
+
+- name: deepin
+  rank: 21
+  count: 5
+
+- name: mx
+  rank: 22
+  count: 5
+
+- name: neptune
+  rank: 23
+  count: 5
+
+- name: pclinuxos
+  rank: 24
+  count: 5
+
+- name: trueos
+  rank: 25
+  count: 5
+
+- name: ubuntugnome
+  rank: 26
+  count: 5
+
+- name: debian
+  rank: 27
+  count: 4
+
+- name: kaos
+  rank: 28
+  count: 4
+
+- name: korora
+  rank: 29
+  count: 4
+
+- name: solydxk
+  rank: 30
+  count: 4
+
+- name: trisquel
+  rank: 31
+  count: 4
+
+- name: uruk
+  rank: 32
+  count: 4
+
+- name: 4mlinux
+  rank: 33
+  count: 3
+
+- name: antergos
+  rank: 34
+  count: 3
+
+- name: lfs
+  rank: 35
+  count: 3
+
+- name: maui
+  rank: 36
+  count: 3
+
+- name: sabayon
+  rank: 37
+  count: 3
+
+- name: sparky
+  rank: 38
+  count: 3
+
+- name: tails
+  rank: 39
+  count: 3
+
+- name: apricity
+  rank: 40
+  count: 2
+
+- name: bodhi
+  rank: 41
+  count: 2
+
+- name: ferenos
+  rank: 42
+  count: 2
+
+- name: freebsd
+  rank: 43
+  count: 2
+
+- name: kodachi
+  rank: 44
+  count: 2
+
+- name: kubuntu
+  rank: 45
+  count: 2
+
+- name: parsix
+  rank: 46
+  count: 2
+
+- name: porteus
+  rank: 47
+  count: 2
+
+- name: redhat
+  rank: 48
+  count: 2
+
+- name: solus
+  rank: 49
+  count: 2
+
+- name: ultimate
+  rank: 50
+  count: 2
+
+- name: xubuntu
+  rank: 51
+  count: 2
+
+- name: chakra
+  rank: 52
+  count: 1
+
+- name: devuan
+  rank: 53
+  count: 1
+
+- name: dragonfly
+  rank: 54
+  count: 1
+
+- name: opensuse
+  rank: 55
+  count: 1
+
+- name: q4os
+  rank: 56
+  count: 1
+
+- name: ubuntumate
+  rank: 57
+  count: 1
+
