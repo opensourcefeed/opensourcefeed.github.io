@@ -1,228 +1,232 @@
-- name: archlabs
+- url: /distribution/archlabs
   rank: 1
-  count: 16
+  count: 17
 
-- name: slax
+- url: /distribution/slax
   rank: 2
   count: 14
 
-- name: arya
+- url: /distribution/arya
   rank: 3
-  count: 13
+  count: 12
 
-- name: elementary
+- url: /distribution/linuxmint
   rank: 4
   count: 11
 
-- name: linuxmint
+- url: /distribution/arch
   rank: 5
-  count: 11
+  count: 9
 
-- name: lite
+- url: /distribution/elementary
   rank: 6
   count: 9
 
-- name: lubuntu
+- url: /distribution/lite
   rank: 7
   count: 9
 
-- name: peppermint
+- url: /distribution/lubuntu
   rank: 8
   count: 9
 
-- name: ubuntubudgie
+- url: /distribution/peppermint
   rank: 9
   count: 9
 
-- name: arch
+- url: /distribution/ubuntubudgie
   rank: 10
-  count: 8
+  count: 9
 
-- name: rosa
+- url: /distribution/manjaro
   rank: 11
   count: 8
 
-- name: manjaro
+- url: /distribution/nitrux
   rank: 12
-  count: 7
+  count: 8
 
-- name: netrunner
+- url: /distribution/netrunner
   rank: 13
   count: 7
 
-- name: nitrux
+- url: /distribution/reactos
   rank: 14
   count: 7
 
-- name: reactos
+- url: /distribution/rosa
   rank: 15
   count: 7
 
-- name: ubuntu
+- url: /distribution/ubuntu
   rank: 16
   count: 7
 
-- name: zorin
+- url: /distribution/zorin
   rank: 17
   count: 7
 
-- name: elive
+- url: /distribution/elive
   rank: 18
   count: 6
 
-- name: fedora
+- url: /distribution/fedora
   rank: 19
   count: 6
 
-- name: arco
+- url: /distribution/mx
   rank: 20
-  count: 5
+  count: 6
 
-- name: deepin
+- url: /distribution/deepin
   rank: 21
   count: 5
 
-- name: mx
+- url: /distribution/neptune
   rank: 22
   count: 5
 
-- name: neptune
+- url: /distribution/pclinuxos
   rank: 23
   count: 5
 
-- name: pclinuxos
+- url: /distribution/trueos
   rank: 24
   count: 5
 
-- name: trueos
+- url: /distribution/arco
   rank: 25
-  count: 5
+  count: 4
 
-- name: ubuntugnome
+- url: /distribution/debian
   rank: 26
-  count: 5
+  count: 4
 
-- name: debian
+- url: /distribution/kaos
   rank: 27
   count: 4
 
-- name: kaos
+- url: /distribution/korora
   rank: 28
   count: 4
 
-- name: korora
+- url: /distribution/solydxk
   rank: 29
   count: 4
 
-- name: solydxk
+- url: /distribution/trisquel
   rank: 30
   count: 4
 
-- name: trisquel
+- url: /distribution/ubuntugnome
   rank: 31
   count: 4
 
-- name: uruk
+- url: /distribution/ultimate
   rank: 32
   count: 4
 
-- name: 4mlinux
+- url: /distribution/uruk
   rank: 33
-  count: 3
+  count: 4
 
-- name: antergos
+- url: /distribution/4mlinux
   rank: 34
   count: 3
 
-- name: lfs
+- url: /distribution/antergos
   rank: 35
   count: 3
 
-- name: maui
+- url: /distribution/lfs
   rank: 36
   count: 3
 
-- name: sabayon
+- url: /distribution/maui
   rank: 37
   count: 3
 
-- name: sparky
+- url: /distribution/sabayon
   rank: 38
   count: 3
 
-- name: tails
+- url: /distribution/sparky
   rank: 39
   count: 3
 
-- name: apricity
+- url: /distribution/tails
   rank: 40
-  count: 2
+  count: 3
 
-- name: bodhi
+- url: /distribution/apricity
   rank: 41
   count: 2
 
-- name: ferenos
+- url: /distribution/bodhi
   rank: 42
   count: 2
 
-- name: freebsd
+- url: /distribution/devuan
   rank: 43
   count: 2
 
-- name: kodachi
+- url: /distribution/ferenos
   rank: 44
   count: 2
 
-- name: kubuntu
+- url: /distribution/freebsd
   rank: 45
   count: 2
 
-- name: parsix
+- url: /distribution/kodachi
   rank: 46
   count: 2
 
-- name: porteus
+- url: /distribution/kubuntu
   rank: 47
   count: 2
 
-- name: redhat
+- url: /distribution/parsix
   rank: 48
   count: 2
 
-- name: solus
+- url: /distribution/porteus
   rank: 49
   count: 2
 
-- name: ultimate
+- url: /distribution/redhat
   rank: 50
   count: 2
 
-- name: xubuntu
+- url: /distribution/shark
   rank: 51
   count: 2
 
-- name: chakra
+- url: /distribution/solus
   rank: 52
-  count: 1
+  count: 2
 
-- name: devuan
+- url: /distribution/ubuntumate
   rank: 53
-  count: 1
+  count: 2
 
-- name: dragonfly
+- url: /distribution/chakra
   rank: 54
   count: 1
 
-- name: opensuse
+- url: /distribution/dragonfly
   rank: 55
   count: 1
 
-- name: q4os
+- url: /distribution/opensuse
   rank: 56
   count: 1
 
-- name: ubuntumate
+- url: /distribution/q4os
   rank: 57
+  count: 1
+
+- url: /distribution/xubuntu
+  rank: 58
   count: 1
 

@@ -1,13 +1,13 @@
 --- 
 layout: default
 title: Page hit rank of free & open source operating systems
+description: A ranking of open source distributions based on the number of page hits each distribution received in prevoius month. This ranking is powered by google analytics.
 ---
 <div class="distribution">
     <h1>Page Hit Rank (Experimental)</h1>
-    <hr>
     <div class="row">
         <div class="col-md-8 order-md-1">
-            <table class="table">
+            <table class="table table-sm">
                 <thead>
                     <tr>
                         <th>Rank</th>
@@ -20,7 +20,12 @@ title: Page hit rank of free & open source operating systems
                     <tr>
                         <td>{{distribution.rank}}</td>
                         <td>
-                            <a href="/distribution/{{distribution.name}}">{{distribution.name}}</a>
+                            {% for page in site.pages %}
+                                {% if page.url == distribution.url %}
+                                    <a href="{{page.url}}">{{page.title}}</a>
+                                    {% break %}
+                                {% endif %}
+                            {% endfor %}
                         </td>
                         <td>{{distribution.count}}</td>
                     </tr>
@@ -30,5 +35,8 @@ title: Page hit rank of free & open source operating systems
         </div>
         <div class="col-md-2 order-md-0"></div>
         <div class="col-md-2 order-md-2"></div>
+    </div>
+    <div class="alert alert-info">
+        <strong>Disclaimer</strong> : The page hit count used in this page is retrieved using <a href="https://developers.google.com/analytics/">Google Analytics API</a>. It gives a vague idea about the distributions in which users are interested in. In no way, it is related to the quality or efficiency of the distribution. 
     </div>
 </div>

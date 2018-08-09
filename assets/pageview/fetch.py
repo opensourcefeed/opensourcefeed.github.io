@@ -2,7 +2,9 @@
 
 from apiclient.discovery import build
 from oauth2client.service_account import ServiceAccountCredentials
-from yaml import dump
+import re
+from collections import OrderedDict
+from operator import itemgetter
 
 def get_service(api_name, api_version, scopes, key_file_location):
     """Get a service that communicates to a Google API.
@@ -74,12 +76,23 @@ def save_results(results):
     if results:
         rows = results.get('rows')
         rank = 1
+        
+        map = {}
+        for row in rows:
+            url = re.sub(r'.*(/distribution/[a-z0-9]+).*', r"\1", row[0])
+            if url in map:
+                print 'adding for', url
+                map[url] = map[url] + int(row[1])
+            else:
+                map[url] = int(row[1])
+
+        map = OrderedDict(sorted(map.items(), key=itemgetter(0)))
+        map = OrderedDict(sorted(map.items(), key=itemgetter(1), reverse=True))
         with open("../../_data/rank.yaml", "w") as file:
-            for row in rows:
-                if '?' in row[0]: continue
-                file.write('- name: ' + row[0].replace('/distribution/', '') + '\n')
+            for url in map:
+                file.write('- url: ' + url + '\n')
                 file.write('  rank: ' + str(rank) + '\n')
-                file.write('  count: ' + row[1] + '\n\n')
+                file.write('  count: ' + str(map[url]) + '\n\n')
                 rank += 1
 
         print 'Done'

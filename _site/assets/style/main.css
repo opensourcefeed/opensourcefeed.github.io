@@ -1,11 +1,13 @@
 /* Nested navbar */
 body {font-size: 1.1rem; line-height: 2rem}
 a {color: teal}
+.navbar {border-bottom: 1px solid #ddd}
 .navbar-brand {color:teal !important;}
 .navbar-small {padding: 0rem 1rem; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3)}
 .navbar-small .navbar-brand {font-size: 1.1rem}
 .navbar-small .nav-link {font-size: 1rem}
 .navbar-small .social-icons img {height: 25px}
+.nvabar-toggler {border: none}
 .dropdown-submenu {
   position: relative;
 }
@@ -188,5 +190,11 @@ main .recent-stories ul{list-style-type: none; padding-left: 0}
   .description {
     font-size: 1rem;
     line-height: 1.2rem;
+  }
+}
+
+@media (max-width: 240px) {
+  .navbar {
+    padding: 0rem 0.2rem;
   }
 }

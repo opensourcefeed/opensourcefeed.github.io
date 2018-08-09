@@ -45,7 +45,25 @@
                         <td>Home Page</td>
                         <td><a href="{{ page.home_page }}">{{page.home_page}}</a></td>
                     </tr>
-                    {% endif %} {% if page.base %}
+                    {% endif %} 
+                    {% for rank in site.data.rank %}
+                        {% if rank.url == page.url %}
+                            {% assign dist_rank = rank %}
+                        {% endif %}
+                    {% endfor %}
+                    <tr>
+                        <td>Page Hit Rank (rank/views)</td>
+                        <td>
+                            <a href="/page-hit-rank">
+                            {% if dist_rank %}
+                                {{dist_rank.rank}}({{dist_rank.count}})
+                            {% else %}
+                                &infin;
+                            {% endif %}
+                            </a>
+                        </td>
+                    </tr>
+                    {% if page.base %}
                     <tr>
                         <td>Base distributions</td>
                         <td>
