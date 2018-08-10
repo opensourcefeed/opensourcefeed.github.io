@@ -1,84 +1,84 @@
 - url: /distribution/archlabs
   rank: 1
-  count: 17
+  count: 16
 
 - url: /distribution/slax
   rank: 2
-  count: 14
+  count: 15
 
 - url: /distribution/arya
   rank: 3
-  count: 12
-
-- url: /distribution/linuxmint
-  rank: 4
   count: 11
 
-- url: /distribution/arch
+- url: /distribution/elementary
+  rank: 4
+  count: 9
+
+- url: /distribution/linuxmint
   rank: 5
   count: 9
 
-- url: /distribution/elementary
+- url: /distribution/lite
   rank: 6
   count: 9
 
-- url: /distribution/lite
+- url: /distribution/nitrux
   rank: 7
   count: 9
 
-- url: /distribution/lubuntu
+- url: /distribution/peppermint
   rank: 8
   count: 9
 
-- url: /distribution/peppermint
+- url: /distribution/arch
   rank: 9
-  count: 9
-
-- url: /distribution/ubuntubudgie
-  rank: 10
-  count: 9
-
-- url: /distribution/manjaro
-  rank: 11
   count: 8
 
-- url: /distribution/nitrux
-  rank: 12
+- url: /distribution/lubuntu
+  rank: 10
   count: 8
 
 - url: /distribution/netrunner
-  rank: 13
-  count: 7
+  rank: 11
+  count: 8
 
-- url: /distribution/reactos
-  rank: 14
+- url: /distribution/manjaro
+  rank: 12
   count: 7
 
 - url: /distribution/rosa
-  rank: 15
-  count: 7
-
-- url: /distribution/ubuntu
-  rank: 16
+  rank: 13
   count: 7
 
 - url: /distribution/zorin
-  rank: 17
+  rank: 14
   count: 7
 
-- url: /distribution/elive
+- url: /distribution/fedora
+  rank: 15
+  count: 6
+
+- url: /distribution/reactos
+  rank: 16
+  count: 6
+
+- url: /distribution/ubuntu
+  rank: 17
+  count: 6
+
+- url: /distribution/ubuntubudgie
   rank: 18
   count: 6
 
-- url: /distribution/fedora
+- url: /distribution/deepin
   rank: 19
-  count: 6
+  count: 5
+
+- url: /distribution/elive
+  rank: 20
+  count: 5
 
 - url: /distribution/mx
-  rank: 20
-  count: 6
-
-- url: /distribution/deepin
   rank: 21
   count: 5
 
@@ -86,103 +86,103 @@
   rank: 22
   count: 5
 
-- url: /distribution/pclinuxos
-  rank: 23
-  count: 5
-
-- url: /distribution/trueos
-  rank: 24
-  count: 5
-
-- url: /distribution/arco
-  rank: 25
-  count: 4
-
 - url: /distribution/debian
-  rank: 26
-  count: 4
-
-- url: /distribution/kaos
-  rank: 27
+  rank: 23
   count: 4
 
 - url: /distribution/korora
-  rank: 28
-  count: 4
-
-- url: /distribution/solydxk
-  rank: 29
+  rank: 24
   count: 4
 
 - url: /distribution/trisquel
-  rank: 30
+  rank: 25
   count: 4
 
-- url: /distribution/ubuntugnome
-  rank: 31
+- url: /distribution/trueos
+  rank: 26
   count: 4
 
 - url: /distribution/ultimate
-  rank: 32
+  rank: 27
   count: 4
 
 - url: /distribution/uruk
-  rank: 33
+  rank: 28
   count: 4
 
-- url: /distribution/4mlinux
-  rank: 34
+- url: /distribution/antergos
+  rank: 29
   count: 3
 
-- url: /distribution/antergos
-  rank: 35
+- url: /distribution/arco
+  rank: 30
+  count: 3
+
+- url: /distribution/bodhi
+  rank: 31
   count: 3
 
 - url: /distribution/lfs
-  rank: 36
+  rank: 32
   count: 3
 
-- url: /distribution/maui
-  rank: 37
+- url: /distribution/pclinuxos
+  rank: 33
   count: 3
 
 - url: /distribution/sabayon
-  rank: 38
+  rank: 34
+  count: 3
+
+- url: /distribution/shark
+  rank: 35
   count: 3
 
 - url: /distribution/sparky
-  rank: 39
+  rank: 36
   count: 3
 
 - url: /distribution/tails
-  rank: 40
+  rank: 37
   count: 3
+
+- url: /distribution/ubuntugnome
+  rank: 38
+  count: 3
+
+- url: /distribution/ubuntumate
+  rank: 39
+  count: 3
+
+- url: /distribution/4mlinux
+  rank: 40
+  count: 2
 
 - url: /distribution/apricity
   rank: 41
   count: 2
 
-- url: /distribution/bodhi
+- url: /distribution/devuan
   rank: 42
   count: 2
 
-- url: /distribution/devuan
+- url: /distribution/ferenos
   rank: 43
   count: 2
 
-- url: /distribution/ferenos
+- url: /distribution/kaos
   rank: 44
   count: 2
 
-- url: /distribution/freebsd
+- url: /distribution/kodachi
   rank: 45
   count: 2
 
-- url: /distribution/kodachi
+- url: /distribution/kubuntu
   rank: 46
   count: 2
 
-- url: /distribution/kubuntu
+- url: /distribution/maui
   rank: 47
   count: 2
 
@@ -198,23 +198,23 @@
   rank: 50
   count: 2
 
-- url: /distribution/shark
+- url: /distribution/solus
   rank: 51
   count: 2
 
-- url: /distribution/solus
+- url: /distribution/solydxk
   rank: 52
   count: 2
 
-- url: /distribution/ubuntumate
-  rank: 53
-  count: 2
-
 - url: /distribution/chakra
-  rank: 54
+  rank: 53
   count: 1
 
 - url: /distribution/dragonfly
+  rank: 54
+  count: 1
+
+- url: /distribution/freebsd
   rank: 55
   count: 1
 
