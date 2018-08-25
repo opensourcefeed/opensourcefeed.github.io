@@ -13,6 +13,7 @@ base : [debian]
 description : deepin is a stunning GNU/Linux distribution based on Debian. It brings a beautiful desktop environment called deepin. Stories, updates and other highlights on deepin.
 
 releases :
+  deepin 15.7 : "/00-deepin-15.7-brings-power-consumption-and-performance-improvements/"
   deepin 15.5 : "../deepin-155-released-with-complete-hidpi-compatiblity/"
   deepin 15.5 beta : "../deepin-155-beta-released-with-small-yet-useful-features/"
   deepin 15.4.1 : "http://www.open-source-feed.com/2017/07/deepin-1541-unveiled-with-launcher-mini.html"

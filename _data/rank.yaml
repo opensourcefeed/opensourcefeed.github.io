@@ -1,10 +1,10 @@
 - url: /distribution/archlabs
   rank: 1
-  count: 15
+  count: 16
 
 - url: /distribution/zorin
   rank: 2
-  count: 12
+  count: 14
 
 - url: /distribution/netrunner
   rank: 3
@@ -14,11 +14,11 @@
   rank: 4
   count: 9
 
-- url: /distribution/elive
-  rank: 5
-  count: 8
-
 - url: /distribution/ubuntubudgie
+  rank: 5
+  count: 9
+
+- url: /distribution/elive
   rank: 6
   count: 8
 
