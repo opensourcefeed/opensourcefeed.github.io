@@ -177,8 +177,7 @@ main .recent-stories ul{list-style-type: none; padding-left: 0}
 @media (max-width: 430px) {
   #search-field {
     font-size: 0.8rem;
-    font-weight: normal;
-    text-align: center;
+    font-weight: normal
   }
   #search-btn {display: none}
 }
