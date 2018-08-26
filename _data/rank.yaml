@@ -6,15 +6,15 @@
   rank: 2
   count: 14
 
-- url: /distribution/netrunner
+- url: /distribution/ubuntubudgie
   rank: 3
-  count: 9
+  count: 10
 
-- url: /distribution/rosa
+- url: /distribution/netrunner
   rank: 4
   count: 9
 
-- url: /distribution/ubuntubudgie
+- url: /distribution/rosa
   rank: 5
   count: 9
 
@@ -22,15 +22,15 @@
   rank: 6
   count: 8
 
-- url: /distribution/arch
+- url: /distribution/lubuntu
   rank: 7
-  count: 7
+  count: 8
 
-- url: /distribution/arco
+- url: /distribution/arch
   rank: 8
   count: 7
 
-- url: /distribution/lubuntu
+- url: /distribution/arco
   rank: 9
   count: 7
 
@@ -40,7 +40,7 @@
 
 - url: /distribution/elementary
   rank: 11
-  count: 5
+  count: 6
 
 - url: /distribution/nitrux
   rank: 12
@@ -54,23 +54,23 @@
   rank: 14
   count: 5
 
-- url: /distribution/devuan
+- url: /distribution/bodhi
   rank: 15
   count: 4
 
-- url: /distribution/peppermint
+- url: /distribution/devuan
   rank: 16
   count: 4
 
-- url: /distribution/antergos
+- url: /distribution/peppermint
   rank: 17
-  count: 3
+  count: 4
 
-- url: /distribution/apricity
+- url: /distribution/antergos
   rank: 18
   count: 3
 
-- url: /distribution/bodhi
+- url: /distribution/apricity
   rank: 19
   count: 3
 
