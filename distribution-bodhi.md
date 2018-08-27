@@ -21,6 +21,7 @@ releases:
   Bodhi Linux 4.4.0 : "http://www.bodhilinux.com/2017/12/08/bodhi-linux-4-4-0-released-november-donation-totals/"
 
 screenshots :
+  Bodhi Linux 5.0.0 : "http://www.distroscreens.com/2018/08/bodhi-linux-500-screenshots.html"
   Bodhi Linux 4.1.0 : "http://www.distroscreens.com/2017/01/bodhi-linux-410-screenshots.html"
   Bodhi Linux 3.2.0 : "http://www.distroscreens.com/2016/04/bodhi-linux-32-screenshots.html"
 ---
