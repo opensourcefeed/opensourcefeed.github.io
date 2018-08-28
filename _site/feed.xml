@@ -1,5 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-27T22:01:33+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Gallery of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
-</subtitle><entry><title type="html">Bodhi Linux 5.0.0 released based on Ubuntu 18.04</title><link href="http://localhost:4000/00-bodhi-linux-5.0.0-released-with-ubuntu-18.04-base/" rel="alternate" type="text/html" title="Bodhi Linux 5.0.0 released based on Ubuntu 18.04" /><published>2018-08-22T00:00:00+05:30</published><updated>2018-08-22T00:00:00+05:30</updated><id>http://localhost:4000/00-bodhi-linux-5.0.0-released-with-ubuntu-18.04-base</id><content type="html" xml:base="http://localhost:4000/00-bodhi-linux-5.0.0-released-with-ubuntu-18.04-base/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Jeff Hoogland&lt;/em&gt; of Bodhi Linux project has announced the immediate availability of Bodhi Linux 5.0.0, the fifth major release of Ubuntu-based GNU/Linux distribution serving simple and fast desktop experience. It has been more than 7 years since the inception of Bodhi Linux 1.x, the first stable release from the project. Over the years, the project has evolved a lot in terms of user experience and stability.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-28T23:03:48+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Gallery of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
+</subtitle><entry><title type="html">Kali Linux 2018.3 released with Linux Kernel 4.17</title><link href="http://localhost:4000/00-kali-linux-2018.03-released-with-linux-4.17/" rel="alternate" type="text/html" title="Kali Linux 2018.3 released with Linux Kernel 4.17" /><published>2018-08-28T00:00:00+05:30</published><updated>2018-08-28T00:00:00+05:30</updated><id>http://localhost:4000/00-kali-linux-2018.03-released-with-linux-4.17</id><content type="html" xml:base="http://localhost:4000/00-kali-linux-2018.03-released-with-linux-4.17/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Kali Linux team has announced the release of Kali Linux 2018.03. It is the 3rd minor release in Kali Linux 2018.3 release. The main highlight of Kali Linux 2018.3 is the inclusion of Linux Kernel 4.17, which includes Intel/AMD graphics driver improvements, improved power consumption on idle state, improved file system handling and better compatibility with modern hardware.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/kali-release.png&quot; alt=&quot;Kali Linux Release banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition to the Linux Kernel update, Kali Linux 2018.3 also includes several fixes and package updates. It includes updated tools like aircrack-ng, burpsuite, openvas, wifite, and wpscan.&lt;/p&gt;
+
+&lt;p&gt;Kali Linux 2018.3 has also introduced a number of tools in the default installation.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;idb&lt;/strong&gt; – An iOS research / penetration testing tool&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;gdb-peda&lt;/strong&gt; – Python Exploit Development Assistance for GDB&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;datasploit&lt;/strong&gt; – OSINT Framework to perform various recon techniques&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;kerberoast&lt;/strong&gt; – Kerberos assessment tools&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For &lt;a href=&quot;https://www.kali.org/releases/kali-linux-2018-3-release/&quot;&gt;more information on Kali Linux 2018.3&lt;/a&gt;, see release announcement published on Kali blog.&lt;/p&gt;
+
+&lt;h3 id=&quot;getting-kali-linux-201803&quot;&gt;Getting Kali Linux 2018.03&lt;/h3&gt;
+&lt;p&gt;Kali Linux 2018.03 ISO for different platforms can be downloaded using the following links.&lt;/p&gt;
+&lt;table class=&quot;footable&quot; width=&quot;100%&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Image Name&lt;/td&gt;
+&lt;td&gt;Download&lt;/td&gt;
+&lt;td&gt;Size&lt;/td&gt;
+&lt;td&gt;Version&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kali Linux Light 32 Bit&lt;/td&gt;
+&lt;td&gt;&lt;a title=&quot;Download Kali Linux Light 32 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-light-2018.3-i386.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux Light 32 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-light-2018.3-i386.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;851M&lt;/td&gt;
+&lt;td&gt;2018.3&lt;/td&gt;
+
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kali Linux Lxde 64 Bit&lt;/td&gt;
+&lt;td&gt;&lt;a title=&quot;Download Kali Linux Lxde 64 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-lxde-2018.3-amd64.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux Lxde 64 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-lxde-2018.3-amd64.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2.9G&lt;/td&gt;
+&lt;td&gt;2018.3&lt;/td&gt;
+
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kali Linux 32 Bit&lt;/td&gt;
+&lt;td&gt;&lt;a title=&quot;Download Kali Linux 32 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-2018.3-i386.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux 32 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-2018.3-i386.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;3.1G&lt;/td&gt;
+&lt;td&gt;2018.3&lt;/td&gt;
+
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kali Linux Kde 64 Bit&lt;/td&gt;
+&lt;td&gt;&lt;a title=&quot;Download Kali Linux Kde 64 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-kde-2018.3-amd64.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux Kde 64 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-kde-2018.3-amd64.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;3.1G&lt;/td&gt;
+&lt;td&gt;2018.3&lt;/td&gt;
+
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kali Linux Xfce 64 Bit&lt;/td&gt;
+&lt;td&gt;&lt;a title=&quot;Download Kali Linux Xfce 64 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-xfce-2018.3-amd64.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux Xfce 64 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-xfce-2018.3-amd64.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2.8G&lt;/td&gt;
+&lt;td&gt;2018.3&lt;/td&gt;
+
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kali Linux Light 64 Bit&lt;/td&gt;
+&lt;td&gt;&lt;a title=&quot;Download Kali Linux Light 64 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-light-2018.3-amd64.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux Light 64 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-light-2018.3-amd64.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;854M&lt;/td&gt;
+&lt;td&gt;2018.3&lt;/td&gt;
+
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kali Linux Light Armhf&lt;/td&gt;
+&lt;td&gt;&lt;a title=&quot;Download Kali Linux Light Armhf&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-light-2018.3-armhf.img.xz&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux Light Armhf&quot; href=&quot;https://images.offensive-security.com/kali-linux-light-2018.3-armhf.img.xz.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;557M&lt;/td&gt;
+&lt;td&gt;2018.3&lt;/td&gt;
+
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kali Linux E17 64 Bit&lt;/td&gt;
+&lt;td&gt;&lt;a title=&quot;Download Kali Linux E17 64 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-e17-2018.3-amd64.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux E17 64 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-e17-2018.3-amd64.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2.8G&lt;/td&gt;
+&lt;td&gt;2018.3&lt;/td&gt;
+
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kali Linux Mate 64 Bit&lt;/td&gt;
+&lt;td&gt;&lt;a title=&quot;Download Kali Linux Mate 64 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-mate-2018.3-amd64.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux Mate 64 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-mate-2018.3-amd64.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;3.0G&lt;/td&gt;
+&lt;td&gt;2018.3&lt;/td&gt;
+
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kali Linux 64 Bit&lt;/td&gt;
+&lt;td&gt;&lt;a title=&quot;Download Kali Linux 64 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-2018.3-amd64.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux 64 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-2018.3-amd64.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;3.0G&lt;/td&gt;
+&lt;td&gt;2018.3&lt;/td&gt;
+
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">The Kali Linux team has announced the release of Kali Linux 2018.03. It is the 3rd minor release in Kali Linux 2018.3 release. The main highlight of Kali Linux 2018.3 is the inclusion of Linux Kernel 4.17, which includes Intel/AMD graphics driver improvements, improved power consumption on idle state, improved file system handling and better compatibility with modern hardware.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/kali-release.png" /></entry><entry><title type="html">Bodhi Linux 5.0.0 released based on Ubuntu 18.04</title><link href="http://localhost:4000/00-bodhi-linux-5.0.0-released-with-ubuntu-18.04-base/" rel="alternate" type="text/html" title="Bodhi Linux 5.0.0 released based on Ubuntu 18.04" /><published>2018-08-22T00:00:00+05:30</published><updated>2018-08-22T00:00:00+05:30</updated><id>http://localhost:4000/00-bodhi-linux-5.0.0-released-with-ubuntu-18.04-base</id><content type="html" xml:base="http://localhost:4000/00-bodhi-linux-5.0.0-released-with-ubuntu-18.04-base/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Jeff Hoogland&lt;/em&gt; of Bodhi Linux project has announced the immediate availability of Bodhi Linux 5.0.0, the fifth major release of Ubuntu-based GNU/Linux distribution serving simple and fast desktop experience. It has been more than 7 years since the inception of Bodhi Linux 1.x, the first stable release from the project. Over the years, the project has evolved a lot in terms of user experience and stability.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/post-images/bodhilinux5.0.0.jpg&quot; alt=&quot;A preview of Bodhi Linux 5.0.0 clean desktop&quot; /&gt;
 &lt;em&gt;A preview of Bodhi Linux 5.0.0 boot screen&lt;/em&gt;&lt;/p&gt;
@@ -160,24 +259,4 @@ There are plans to produce ISOs of the other desktops once Xfce is sorted. So ev
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;You can find the original &lt;a href=&quot;https://archlabslinux.com/2018/07/29/archlabs-linux-2018-07/&quot;&gt;ArchLabs 2018.07 release announcement&lt;/a&gt; in projects website.&lt;/p&gt;</content><author><name></name></author><summary type="html">The ArchLabs team has announced the release of ArchLabs 2018.07. It is the latest stable release of Arch-based GNU/Linux distribution inspired by the design principles of Bunsenlabs. The main focus of this release on stability improvement, performance and usability improvements and other optimizations.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/ArchLabs_2018-02-07-18_1920x1080.jpg" /></entry><entry><title type="html">Neptune 5.4 released with a fresh look and feel</title><link href="http://localhost:4000/neptune-5.4-released-with-better-dark-theme-and-icon-theme/" rel="alternate" type="text/html" title="Neptune 5.4 released with a fresh look and feel" /><published>2018-07-24T00:00:00+05:30</published><updated>2018-07-24T00:00:00+05:30</updated><id>http://localhost:4000/neptune-5.4-released-with-better-dark-theme-and-icon-theme</id><content type="html" xml:base="http://localhost:4000/neptune-5.4-released-with-better-dark-theme-and-icon-theme/">&lt;p&gt;&lt;strong&gt;Mr.&lt;/strong&gt; &lt;em&gt;Leszek&lt;/em&gt; of the Neptune project has announced the release of Neptune 5.4. It is the latest updated snapshot in Neptune 5.x series. It brings a set of updated packages and applications and avoids the need for the bulk package update after installing the operating system.&lt;/p&gt;
-
-&lt;p&gt;In addition to package updates and critical bug fixes, Neptune 5.4 brings a fresh look and feel with an improved dark theme.  This dark theme also includes a modified version of &lt;em&gt;Faenza&lt;/em&gt; icon theme. Neptune 5.4 also brings Linux Kernel 5.16.x. It ensures better hardware support.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/preview/neptune5.0.jpg&quot; alt=&quot;A file picture of Neptune 5.0&quot; /&gt;
-&lt;em&gt;A file picture of Neptune 5.0&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Other highlights from Neptune 5.4 include,&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;the update of KDE Frameworks to version 5.48  and KDE Applications to version 18.04.3. As the new KF5 version is not compatible with Qt 5.7 anymore we had to backport its patches to version 5.45.&lt;/li&gt;
-    &lt;li&gt;VLC has been updated to 3.0.3 to provide more speed and lots of bugfixes.&lt;/li&gt;
-    &lt;li&gt;Thunderbird 52.9 fixes issues with encrypted HTML e-mails. The Excalibur menu is now available in version 2.7 which provides some bugfixes in regards to multiple activities and moving favorites around.&lt;/li&gt;
-    &lt;li&gt;KWin the default window manager for Plasma got an update to version 5.12.5.  This offers some nice speed improvements as well as some updated effects and better hardware support.&lt;/li&gt;
-    &lt;li&gt;LibreOffice is now available in version 6.0.6. We fixed an issue with MTP causing issues to share files with Android devices.&lt;/li&gt;
-    &lt;li&gt;Enlightenment 22 is now available in Version 0.22.3 together with Terminology 1.2.1.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You can find further information in &lt;a href=&quot;https://neptuneos.com/en/news-reader/neptune-5-4-159.html&quot;&gt;Neptune 5.4 release announcement&lt;/a&gt; and &lt;a href=&quot;https://neptuneos.com/en/changelog.html&quot;&gt;Neptune 5.4 changelogs&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mr. Leszek of the Neptune project has announced the release of Neptune 5.4. It is the latest updated snapshot in Neptune 5.x series. It brings a set of updated packages and applications and avoids the need for the bulk package update after installing the operating system.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/preview/neptune5.0.jpg" /></entry></feed>
+&lt;p&gt;You can find the original &lt;a href=&quot;https://archlabslinux.com/2018/07/29/archlabs-linux-2018-07/&quot;&gt;ArchLabs 2018.07 release announcement&lt;/a&gt; in projects website.&lt;/p&gt;</content><author><name></name></author><summary type="html">The ArchLabs team has announced the release of ArchLabs 2018.07. It is the latest stable release of Arch-based GNU/Linux distribution inspired by the design principles of Bunsenlabs. The main focus of this release on stability improvement, performance and usability improvements and other optimizations.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/ArchLabs_2018-02-07-18_1920x1080.jpg" /></entry></feed>

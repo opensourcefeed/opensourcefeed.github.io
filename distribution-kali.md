@@ -15,6 +15,7 @@ purchase :
 description : "Kali Linux is a Debian (testing) based GNU/Linux distribution designed for digital forensic and peneteration testing. Stories and updates on Kali Linux"
 
 releases:
+  Kali Linux 2018.3 : "/00-kali-linux-2018.03-released-with-linux-4.17/"
   Kali Linux 2018.1 : "http://www.open-source-feed.com/2018/02/kali-linux-20181-released-with-amd.html"
   Kali Linux 2017.03 : "http://theopensourcefeed.com/kali-linux-201703-released/"
   Kali linux 2017.02 : "https://www.kali.org/news/kali-linux-2017-2-release/"
