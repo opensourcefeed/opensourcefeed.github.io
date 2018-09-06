@@ -14,6 +14,7 @@ base : Independent
 description : 4MLinux is an independent, mini GNU/Linux distribution with main focus on maintenance, multimedia, minserver & mystery. Stories and updates on 4MLinux
 
 releases:
+  4MLinux 26.0 STABLE : "/01-4MLinux-26.0-released-with-updated-packages-and-features/"
   4MLinux 25.0 STABLE : "http://www.open-source-feed.com/2018/06/4mlinux-250-stable-release-is-available.html"
   4MLinux 22.1 STABLE : "http://www.open-source-feed.com/2017/08/4mlinux-221-stable-released-with-better.html"
   4MLinux 22.0 STABLE : "http://www.open-source-feed.com/2017/07/4mlinux-220-stable-released-with.html"
