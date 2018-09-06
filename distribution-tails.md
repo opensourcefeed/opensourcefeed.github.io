@@ -14,6 +14,7 @@ base : [debian]
 description : "Tails - is a Debian based operating system which offers provision for secure, anonymous and private browsing. Stories, updates and reviews on Tails GNU/Linux."
 
 releases:
+  Tails 3.9 : "/00-Tails-3.9-released-with-additional-automated-software-installation/"
   Tails 3.6 : "../tails-3.6-released-with-video-acceleration-driver-api-and-other-updates/"
   Tails 3.1 : "http://www.open-source-feed.com/2017/08/tails-31-released-with-important.html"
   Tails 3.0.1 : "http://www.open-source-feed.com/2017/07/ubuntu-1610-yakkety-yak-reaches-end-of.html"
