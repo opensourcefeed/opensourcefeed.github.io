@@ -31,25 +31,12 @@ layout: compress
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="osfnavbar">
-
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-               <li class="nav-item">
-                <a class="nav-link" href="/distribution">Operating System</a>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/distribution/">Operating System</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="desktopdropdownlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Desktop Environment
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="desktopdropdownlink">
-                    {% for page in site.pages %}
-                    {% if page.Category == 'Desktop' %}
-                    <li>
-                        <a class="dropdown-item" href="{{page.url}}">{{page.title}}</a>
-                    </li>
-                    {% endif %}
-                    {% endfor %}
-
-                </ul>
+            <li class="nav-item">
+                <a class="nav-link" href="/desktop/">Desktop Environment</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://www.distroscreens.com/">Screenshots
