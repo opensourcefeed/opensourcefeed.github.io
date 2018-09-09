@@ -16,18 +16,23 @@ description: A ranking of open source distributions based on the number of page 
                     </tr>
                 </thead>
                 <tbody>
-                    {% for distribution in site.data.rank %}
+                    {% for distribution in site.data.rank.distributions %}
                     <tr>
-                        <td>{{distribution.rank}}</td>
+                        <td>{{distribution.current.rank}}</td>
                         <td>
                             {% for page in site.pages %}
                                 {% if page.url == distribution.url %}
                                     <a href="{{page.url}}">{{page.title}}</a>
+                                    {% if distribution.current.rank < distribution.previous.rank %}
+                                        <span title="Previous rank {{distribution.previous.rank}}" class="text-success"> &uarr;</span>
+                                    {% elsif distribution.previous.rank < distribution.current.rank %}
+                                        <span title="Previous rank {{distribution.previous.rank}}" class="text-danger"> &darr;</span>
+                                    {% endif %}
                                     {% break %}
                                 {% endif %}
                             {% endfor %}
                         </td>
-                        <td>{{distribution.count}}</td>
+                        <td>{{distribution.current.count}}</td>
                     </tr>
                     {% endfor %}
                 </tbody>

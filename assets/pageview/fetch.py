@@ -6,6 +6,9 @@ import re
 from collections import OrderedDict
 from operator import itemgetter
 
+import yaml
+import datetime
+
 def get_service(api_name, api_version, scopes, key_file_location):
     """Get a service that communicates to a Google API.
 
@@ -88,12 +91,49 @@ def save_results(results):
 
         map = OrderedDict(sorted(map.items(), key=itemgetter(0)))
         map = OrderedDict(sorted(map.items(), key=itemgetter(1), reverse=True))
+
+        with open("../../_data/rank.yaml", "r") as file:
+            final_result = yaml.load(file.read())
+
+        if not final_result:
+            print "No previous record found"
+            final_result = {
+                'meta': {
+                    'previous_date': None,
+                    'current_date': datetime.date.today().isoformat()
+                },
+                'distributions': []
+            }
+        else:
+            final_result['meta']['previous_date'] = final_result['meta']['current_date']
+            final_result['meta']['current_date'] = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
+
+        
+        for url in map:
+            distribution = None
+            for d in final_result['distributions']:
+                if d['url'] == url:
+                    distribution = d
+                    break
+
+            if not distribution:
+                distribution = {
+                    'url': url,
+                    'previous': None
+                }
+                final_result['distributions'].append(distribution)
+
+            distribution['previous'] = distribution['current']
+            distribution['current'] = {
+                'rank': rank,
+                'count': map[url]
+            }
+
+            rank += 1
+
         with open("../../_data/rank.yaml", "w") as file:
-            for url in map:
-                file.write('- url: ' + url + '\n')
-                file.write('  rank: ' + str(rank) + '\n')
-                file.write('  count: ' + str(map[url]) + '\n\n')
-                rank += 1
+            file.write(yaml.safe_dump(final_result, default_flow_style=False))
+
 
         print 'Done'
 
