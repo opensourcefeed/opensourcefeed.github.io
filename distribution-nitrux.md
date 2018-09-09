@@ -22,6 +22,7 @@ releases:
   Nitrux 1.0.10 : "../Nitrux-1.0.10-released-with-package-updates-from-bionic/"
 
 screenshots:
+  Niturx 1.0.15 : "http://www.distroscreens.com/2018/09/nitrux-os-1015-screenshots.html"
   Nitrux 1.0.10 : "https://www.distroscreens.com/2018/04/nitrux-1010-screenshots.html"
 
 ---
