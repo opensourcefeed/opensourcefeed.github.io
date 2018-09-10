@@ -119,7 +119,8 @@ def save_results(results):
             if not distribution:
                 distribution = {
                     'url': url,
-                    'previous': None
+                    'previous': None,
+                    'current': None
                 }
                 final_result['distributions'].append(distribution)
 
@@ -130,6 +131,9 @@ def save_results(results):
             }
 
             rank += 1
+
+        # ut.sort(key=lambda x: x.count, reverse=True)
+        final_result['distributions'].sort(key = lambda x: x['current']['rank'])
 
         with open("../../_data/rank.yaml", "w") as file:
             file.write(yaml.safe_dump(final_result, default_flow_style=False))
