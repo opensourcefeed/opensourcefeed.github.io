@@ -1,6 +1,6 @@
 distributions:
 - current:
-    count: 24
+    count: 25
     rank: 1
   previous:
     count: 24
@@ -11,14 +11,14 @@ distributions:
     rank: 2
   previous:
     count: 14
-    rank: 3
+    rank: 2
   url: /distribution/arch
 - current:
     count: 14
     rank: 3
   previous:
-    count: 15
-    rank: 2
+    count: 14
+    rank: 3
   url: /distribution/nitrux
 - current:
     count: 12
@@ -32,15 +32,15 @@ distributions:
     rank: 5
   previous:
     count: 10
-    rank: 5
-  url: /distribution/archlabs
+    rank: 6
+  url: /distribution/elive
 - current:
     count: 10
     rank: 6
   previous:
-    count: 10
-    rank: 6
-  url: /distribution/elive
+    count: 11
+    rank: 5
+  url: /distribution/archlabs
 - current:
     count: 9
     rank: 7
@@ -52,15 +52,15 @@ distributions:
     count: 9
     rank: 8
   previous:
-    count: 7
-    rank: 9
+    count: 9
+    rank: 8
   url: /distribution/trisquel
 - current:
     count: 7
     rank: 9
   previous:
     count: 7
-    rank: 8
+    rank: 9
   url: /distribution/deepin
 - current:
     count: 6
@@ -73,93 +73,93 @@ distributions:
     count: 6
     rank: 11
   previous:
+    count: 5
+    rank: 13
+  url: /distribution/elementary
+- current:
+    count: 6
+    rank: 12
+  previous:
     count: 6
     rank: 11
   url: /distribution/kali
 - current:
+    count: 6
+    rank: 13
+  previous:
     count: 5
-    rank: 12
+    rank: 15
+  url: /distribution/solydxk
+- current:
+    count: 5
+    rank: 14
+  previous:
+    count: 4
+    rank: 18
+  url: /distribution/debian
+- current:
+    count: 5
+    rank: 15
   previous:
     count: 5
     rank: 12
   url: /distribution/devuan
 - current:
     count: 5
-    rank: 13
+    rank: 16
   previous:
-    count: 5
-    rank: 13
-  url: /distribution/elementary
+    count: 4
+    rank: 19
+  url: /distribution/linuxmint
 - current:
     count: 5
-    rank: 14
+    rank: 17
   previous:
     count: 5
-    rank: 16
+    rank: 14
   url: /distribution/rosa
 - current:
     count: 5
-    rank: 15
+    rank: 18
   previous:
     count: 4
     rank: 23
-  url: /distribution/solydxk
+  url: /distribution/shark
 - current:
     count: 4
-    rank: 16
+    rank: 19
   previous:
     count: 4
-    rank: 17
+    rank: 16
   url: /distribution/apricity
 - current:
     count: 4
-    rank: 17
+    rank: 20
   previous:
     count: 4
-    rank: 18
+    rank: 17
   url: /distribution/arya
 - current:
     count: 4
-    rank: 18
-  previous:
-    count: 4
-    rank: 19
-  url: /distribution/debian
-- current:
-    count: 4
-    rank: 19
-  previous:
-    count: 5
-    rank: 14
-  url: /distribution/linuxmint
-- current:
-    count: 4
-    rank: 20
+    rank: 21
   previous:
     count: 4
     rank: 20
   url: /distribution/lubuntu
 - current:
     count: 4
-    rank: 21
-  previous:
-    count: 5
-    rank: 15
-  url: /distribution/netrunner
-- current:
-    count: 4
     rank: 22
   previous:
     count: 4
     rank: 21
-  url: /distribution/porteus
+  url: /distribution/netrunner
 - current:
     count: 4
     rank: 23
   previous:
     count: 4
     rank: 22
-  url: /distribution/shark
+  url: /distribution/porteus
 - current:
     count: 4
     rank: 24
@@ -255,147 +255,149 @@ distributions:
     count: 2
     rank: 37
   previous:
+    count: 1
+    rank: 48
+  url: /distribution/chakra
+- current:
+    count: 2
+    rank: 38
+  previous:
     count: 2
     rank: 37
   url: /distribution/freebsd
 - current:
     count: 2
-    rank: 38
+    rank: 39
   previous:
     count: 2
     rank: 38
   url: /distribution/kdeneon
 - current:
     count: 2
-    rank: 39
+    rank: 40
   previous:
     count: 2
     rank: 39
   url: /distribution/korora
 - current:
     count: 2
-    rank: 40
+    rank: 41
   previous:
     count: 2
     rank: 40
   url: /distribution/mx
 - current:
     count: 2
-    rank: 41
+    rank: 42
   previous:
     count: 2
     rank: 41
   url: /distribution/peppermint
 - current:
     count: 2
-    rank: 42
+    rank: 43
   previous:
     count: 2
     rank: 42
   url: /distribution/puppy
 - current:
     count: 2
-    rank: 43
+    rank: 44
   previous:
     count: 2
     rank: 43
   url: /distribution/sabayon
 - current:
     count: 2
-    rank: 44
+    rank: 45
   previous:
     count: 2
     rank: 44
   url: /distribution/solus
 - current:
     count: 2
-    rank: 45
+    rank: 46
+  previous:
+    count: 1
+    rank: 55
+  url: /distribution/sparky
+- current:
+    count: 2
+    rank: 47
   previous:
     count: 2
     rank: 45
   url: /distribution/tails
 - current:
     count: 2
-    rank: 46
+    rank: 48
   previous:
     count: 2
     rank: 46
   url: /distribution/trueos
 - current:
     count: 2
-    rank: 47
+    rank: 49
+  previous:
+    count: 1
+    rank: 57
+  url: /distribution/ultimate
+- current:
+    count: 2
+    rank: 50
   previous:
     count: 2
     rank: 47
   url: /distribution/xubuntu
 - current:
     count: 1
-    rank: 48
-  previous:
-    count: 1
-    rank: 48
-  url: /distribution/chakra
-- current:
-    count: 1
-    rank: 49
+    rank: 51
   previous:
     count: 1
     rank: 49
   url: /distribution/fedora
 - current:
     count: 1
-    rank: 50
+    rank: 52
   previous:
     count: 1
     rank: 50
   url: /distribution/ferenos
 - current:
     count: 1
-    rank: 51
+    rank: 53
   previous:
     count: 1
     rank: 51
   url: /distribution/kodachi
 - current:
     count: 1
-    rank: 52
+    rank: 54
   previous:
     count: 1
     rank: 52
   url: /distribution/lfs
 - current:
     count: 1
-    rank: 53
+    rank: 55
   previous:
     count: 1
     rank: 53
   url: /distribution/neptune
 - current:
     count: 1
-    rank: 54
+    rank: 56
   previous:
     count: 1
     rank: 54
   url: /distribution/opensuse
 - current:
     count: 1
-    rank: 55
-  previous:
-    count: 1
-    rank: 55
-  url: /distribution/sparky
-- current:
-    count: 1
-    rank: 56
+    rank: 57
   previous:
     count: 1
     rank: 56
   url: /distribution/ubuntugnome
-- current:
-    count: 1
-    rank: 57
-  previous: null
-  url: /distribution/ultimate
 meta:
-  current_date: 2018-09-10 20:59
-  previous_date: 2018-09-09 21:10
+  current_date: 2018-09-11 23:48
+  previous_date: 2018-09-10 20:59
