@@ -46,9 +46,9 @@
                         <td><a href="{{ page.home_page }}">{{page.home_page}}</a></td>
                     </tr>
                     {% endif %} 
-                    {% for rank in site.data.rank %}
-                        {% if rank.url == page.url %}
-                            {% assign dist_rank = rank %}
+                    {% for distribution in site.data.rank.distributions %}
+                        {% if distribution.url == page.url %}
+                            {% assign dist_rank = distribution.current %}
                         {% endif %}
                     {% endfor %}
                     <tr>
