@@ -7,7 +7,7 @@ permalink: /distribution/trident
 type: BSD
 logo: trident-logo.png
 home_page: http://www.project-trident.org
-desktops: [lumina, lxqt]
+desktops: [lumina]
 base : [trueos]
 telegram : "https://t.me/ProjectTrident"
 
@@ -22,4 +22,4 @@ stories:
 
 Project Trident can be considered as a continuation of the TrueOS desktop edition. This project took birth when the TrueOS project decided to become a core distribution. ie, a distribution that acts as a base for other distributions. The Trident project is lead by some of the TrueOS project members and they also invite the contributions from open source community.
 
-As per the available information, Project Trident will be using LXQt as default desktop environment. It will also provide the option to use Lumina Desktop, a native desktop developed by the TrueOS team.
+Project Trident will be using Lumina as default desktop environment. It a simple and functional desktop environment developed by TrueOS team.
