@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-15T10:20:41+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Gallery of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
-</subtitle><entry><title type="html">LibreOffice 6.1.1 released with over 120 bug fixes</title><link href="http://localhost:4000/00-libreoffice-6.1.1-released-with-120-bug-fixes/" rel="alternate" type="text/html" title="LibreOffice 6.1.1 released with over 120 bug fixes" /><published>2018-09-13T00:00:00+05:30</published><updated>2018-09-13T00:00:00+05:30</updated><id>http://localhost:4000/00-libreoffice-6.1.1-released-with-120-bug-fixes</id><content type="html" xml:base="http://localhost:4000/00-libreoffice-6.1.1-released-with-120-bug-fixes/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Document Foundation has released LibreOffice 6.1.1, a maintenance cum bug fix release in LibreOffice 6.1.x. It brings fixes for over 120 bugs and regression issues reported on &lt;a href=&quot;http://theopensourcefeed.com/01-libreoffice-6.1-proclaims-the-power-of-large-and-diverse-community-contributors/&quot;&gt;LibreOffice 6.1&lt;/a&gt;. The main audience of this release is power users, early technology adopters and enthusiasts who are curious to try the latest and greatest technologies.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-19T09:12:18+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Gallery of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
+</subtitle><entry><title type="html">Sparky Linux 5.5 Nibiru released with GCC8 and Linux 4.18.6</title><link href="http://localhost:4000/00-sparky-linux-5.5-released-with-gcc8-linux4.18.6-and-more/" rel="alternate" type="text/html" title="Sparky Linux 5.5 &lt;em&gt;Nibiru&lt;/em&gt; released with GCC8 and Linux 4.18.6" /><published>2018-09-18T00:00:00+05:30</published><updated>2018-09-18T00:00:00+05:30</updated><id>http://localhost:4000/00-sparky-linux-5.5-released-with-gcc8-linux4.18.6-and-more</id><content type="html" xml:base="http://localhost:4000/00-sparky-linux-5.5-released-with-gcc8-linux4.18.6-and-more/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Sparky Linux team has released Sparky Linux 5.5. It brings a set of updated packages including GCC 8 and Linux Kernel 4.18.6. It also contains some minor bug fixes.&lt;/p&gt;
+
+&lt;p&gt;Sparky Linux 5.5 with codename &lt;em&gt;Nibiru&lt;/em&gt; is a stable snapshot in distribution’s 5.x series. This series is based on Debian &lt;em&gt;Buster&lt;/em&gt; branch and follows a rolling release model.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/preview/sparky-lxqt-5.jpg&quot; alt=&quot;An older version of Sparky Linux Plasma Edition&quot; /&gt;
+&lt;em&gt;An older version of Sparky Linux Plasma Edition&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The main highlights of Sparky Linux 5.5 release can be summarized as,&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;system updated from Debian testing repos as of September 17, 2018&lt;/li&gt;
+    &lt;li&gt;Linux kernel 4.18.6 (4.18.8- &amp;amp; 4.19-rc4-sparky are available at Sparky “unstable” repos)&lt;/li&gt;
+    &lt;li&gt;the Calamares installer updated up to version 3.2.1&lt;/li&gt;
+    &lt;li&gt;Thunar daemon is deactivated in the MinimalGUI Live (Openbox), due to a problem of automounting new partitions created by Calamares&lt;/li&gt;
+    &lt;li&gt;GCC 7 compiler has been removed, the system uses GCC 8 as default&lt;/li&gt;
+    &lt;li&gt;removed packages: libpam-gnome-keyring, vim, imagemagick, systemd-ui, sparky-gexec, xterm (Openbox)&lt;/li&gt;
+    &lt;li&gt;also removed from LXQt media: lxtask, leafpad, notepqdqq&lt;/li&gt;
+    &lt;li&gt;added new packages: seahorse, rxvt-unicode (Openbox), qps (LXQt), featherpad (LXQt)&lt;/li&gt;
+    &lt;li&gt;the Calamares and Advanced Installer remove Cryptsetup packages now (Calamares removes the packages if the system is not installed on an encrypted disk/partition)&lt;/li&gt;
+    &lt;li&gt;a terminal emulator used by Sparky tools has been changed from xterm to rxvt-unicode with pseudo-transparency (Openbox)&lt;/li&gt;
+    &lt;li&gt;small fixes&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can also read &lt;a href=&quot;https://sparkylinux.org/sparky-5-5/&quot;&gt;Sparky Linux 5.5 release announcement&lt;/a&gt; in projects official website.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Sparky Linux team has released Sparky Linux 5.5. It brings a set of updated packages including GCC 8 and Linux Kernel 4.18.6. It also contains some minor bug fixes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/preview/sparky-lxqt-5.jpg" /></entry><entry><title type="html">LibreOffice 6.1.1 released with over 120 bug fixes</title><link href="http://localhost:4000/00-libreoffice-6.1.1-released-with-120-bug-fixes/" rel="alternate" type="text/html" title="LibreOffice 6.1.1 released with over 120 bug fixes" /><published>2018-09-13T00:00:00+05:30</published><updated>2018-09-13T00:00:00+05:30</updated><id>http://localhost:4000/00-libreoffice-6.1.1-released-with-120-bug-fixes</id><content type="html" xml:base="http://localhost:4000/00-libreoffice-6.1.1-released-with-120-bug-fixes/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Document Foundation has released LibreOffice 6.1.1, a maintenance cum bug fix release in LibreOffice 6.1.x. It brings fixes for over 120 bugs and regression issues reported on &lt;a href=&quot;http://theopensourcefeed.com/01-libreoffice-6.1-proclaims-the-power-of-large-and-diverse-community-contributors/&quot;&gt;LibreOffice 6.1&lt;/a&gt;. The main audience of this release is power users, early technology adopters and enthusiasts who are curious to try the latest and greatest technologies.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/post-images/libreoffice.png&quot; alt=&quot;LibreOffice banner&quot; /&gt;&lt;/p&gt;
 
@@ -169,103 +193,4 @@ For a &lt;a href=&quot;https://help.gnome.org/misc/release-notes/3.30/&quot;&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;For further information and detailed change logs, you can proceed to the &lt;a href=&quot;https://www.netbsd.org/releases/formal-7/NetBSD-7.2.html&quot;&gt;NetBSD 7.2 release announcement&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">The NetBSD project has announced the release of NetBSD 7.2, the second feature update in NetBSD 7.x series. NetBSD 7.2 brings a set of critical security updates and bug fixes along with some minor feature improvements.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/netbsd.png" /></entry><entry><title type="html">Kali Linux 2018.3 released with Linux Kernel 4.17</title><link href="http://localhost:4000/00-kali-linux-2018.03-released-with-linux-4.17/" rel="alternate" type="text/html" title="Kali Linux 2018.3 released with Linux Kernel 4.17" /><published>2018-08-28T00:00:00+05:30</published><updated>2018-08-28T00:00:00+05:30</updated><id>http://localhost:4000/00-kali-linux-2018.03-released-with-linux-4.17</id><content type="html" xml:base="http://localhost:4000/00-kali-linux-2018.03-released-with-linux-4.17/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Kali Linux team has announced the release of Kali Linux 2018.03. It is the 3rd minor release in Kali Linux 2018.3 release. The main highlight of Kali Linux 2018.3 is the inclusion of Linux Kernel 4.17, which includes Intel/AMD graphics driver improvements, improved power consumption on idle state, improved file system handling and better compatibility with modern hardware.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/kali-release.png&quot; alt=&quot;Kali Linux Release banner&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In addition to the Linux Kernel update, Kali Linux 2018.3 also includes several fixes and package updates. It includes updated tools like aircrack-ng, burpsuite, openvas, wifite, and wpscan.&lt;/p&gt;
-
-&lt;p&gt;Kali Linux 2018.3 has also introduced a number of tools in the default installation.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;strong&gt;idb&lt;/strong&gt; – An iOS research / penetration testing tool&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;gdb-peda&lt;/strong&gt; – Python Exploit Development Assistance for GDB&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;datasploit&lt;/strong&gt; – OSINT Framework to perform various recon techniques&lt;/li&gt;
-    &lt;li&gt;&lt;strong&gt;kerberoast&lt;/strong&gt; – Kerberos assessment tools&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For &lt;a href=&quot;https://www.kali.org/releases/kali-linux-2018-3-release/&quot;&gt;more information on Kali Linux 2018.3&lt;/a&gt;, see release announcement published on Kali blog.&lt;/p&gt;
-
-&lt;h3 id=&quot;getting-kali-linux-201803&quot;&gt;Getting Kali Linux 2018.03&lt;/h3&gt;
-&lt;p&gt;Kali Linux 2018.03 ISO for different platforms can be downloaded using the following links.&lt;/p&gt;
-&lt;table class=&quot;footable&quot; width=&quot;100%&quot;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Image Name&lt;/td&gt;
-&lt;td&gt;Download&lt;/td&gt;
-&lt;td&gt;Size&lt;/td&gt;
-&lt;td&gt;Version&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kali Linux Light 32 Bit&lt;/td&gt;
-&lt;td&gt;&lt;a title=&quot;Download Kali Linux Light 32 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-light-2018.3-i386.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux Light 32 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-light-2018.3-i386.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;851M&lt;/td&gt;
-&lt;td&gt;2018.3&lt;/td&gt;
-
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kali Linux Lxde 64 Bit&lt;/td&gt;
-&lt;td&gt;&lt;a title=&quot;Download Kali Linux Lxde 64 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-lxde-2018.3-amd64.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux Lxde 64 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-lxde-2018.3-amd64.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2.9G&lt;/td&gt;
-&lt;td&gt;2018.3&lt;/td&gt;
-
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kali Linux 32 Bit&lt;/td&gt;
-&lt;td&gt;&lt;a title=&quot;Download Kali Linux 32 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-2018.3-i386.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux 32 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-2018.3-i386.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;3.1G&lt;/td&gt;
-&lt;td&gt;2018.3&lt;/td&gt;
-
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kali Linux Kde 64 Bit&lt;/td&gt;
-&lt;td&gt;&lt;a title=&quot;Download Kali Linux Kde 64 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-kde-2018.3-amd64.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux Kde 64 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-kde-2018.3-amd64.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;3.1G&lt;/td&gt;
-&lt;td&gt;2018.3&lt;/td&gt;
-
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kali Linux Xfce 64 Bit&lt;/td&gt;
-&lt;td&gt;&lt;a title=&quot;Download Kali Linux Xfce 64 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-xfce-2018.3-amd64.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux Xfce 64 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-xfce-2018.3-amd64.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2.8G&lt;/td&gt;
-&lt;td&gt;2018.3&lt;/td&gt;
-
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kali Linux Light 64 Bit&lt;/td&gt;
-&lt;td&gt;&lt;a title=&quot;Download Kali Linux Light 64 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-light-2018.3-amd64.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux Light 64 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-light-2018.3-amd64.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;854M&lt;/td&gt;
-&lt;td&gt;2018.3&lt;/td&gt;
-
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kali Linux Light Armhf&lt;/td&gt;
-&lt;td&gt;&lt;a title=&quot;Download Kali Linux Light Armhf&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-light-2018.3-armhf.img.xz&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux Light Armhf&quot; href=&quot;https://images.offensive-security.com/kali-linux-light-2018.3-armhf.img.xz.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;557M&lt;/td&gt;
-&lt;td&gt;2018.3&lt;/td&gt;
-
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kali Linux E17 64 Bit&lt;/td&gt;
-&lt;td&gt;&lt;a title=&quot;Download Kali Linux E17 64 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-e17-2018.3-amd64.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux E17 64 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-e17-2018.3-amd64.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2.8G&lt;/td&gt;
-&lt;td&gt;2018.3&lt;/td&gt;
-
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kali Linux Mate 64 Bit&lt;/td&gt;
-&lt;td&gt;&lt;a title=&quot;Download Kali Linux Mate 64 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-mate-2018.3-amd64.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux Mate 64 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-mate-2018.3-amd64.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;3.0G&lt;/td&gt;
-&lt;td&gt;2018.3&lt;/td&gt;
-
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kali Linux 64 Bit&lt;/td&gt;
-&lt;td&gt;&lt;a title=&quot;Download Kali Linux 64 Bit&quot; href=&quot;http://cdimage.kali.org/kali-2018.3/kali-linux-2018.3-amd64.iso&quot;&gt;HTTP&lt;/a&gt; | &lt;a title=&quot;Download Kali Linux 64 Bit&quot; href=&quot;https://images.offensive-security.com/kali-linux-2018.3-amd64.iso.torrent&quot; class=&quot;external&quot; rel=&quot;nofollow&quot;&gt;Torrent&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;3.0G&lt;/td&gt;
-&lt;td&gt;2018.3&lt;/td&gt;
-
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><summary type="html">The Kali Linux team has announced the release of Kali Linux 2018.03. It is the 3rd minor release in Kali Linux 2018.3 release. The main highlight of Kali Linux 2018.3 is the inclusion of Linux Kernel 4.17, which includes Intel/AMD graphics driver improvements, improved power consumption on idle state, improved file system handling and better compatibility with modern hardware.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/kali-release.png" /></entry></feed>
+&lt;p&gt;For further information and detailed change logs, you can proceed to the &lt;a href=&quot;https://www.netbsd.org/releases/formal-7/NetBSD-7.2.html&quot;&gt;NetBSD 7.2 release announcement&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">The NetBSD project has announced the release of NetBSD 7.2, the second feature update in NetBSD 7.x series. NetBSD 7.2 brings a set of critical security updates and bug fixes along with some minor feature improvements.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/netbsd.png" /></entry></feed>

@@ -6,7 +6,7 @@ Category: Distribution
 permalink: /distribution/sparky
 type : Linux
 logo: sparky-logo.png
-preview: sparky5-lxqt.jpg
+preview: sparky-lxqt-5.jpg
 home_page: https://sparkylinux.org/
 desktops: [lxqt, mate, lxde, openbox, enlightenment, jwm, plasma, xfce]
 base: [debian]
@@ -16,6 +16,7 @@ purchase :
 description : "Sparky Linux is a Debian based GNU/Linux distribution offering a ready to use, out of the box operating system. Stories, reviews and updates on Sparky Linux project."
 
 releases:
+  Sparky Linux 5.5: "/00-sparky-linux-5.5-released-with-gcc8-linux4.18.6-and-more/"
   Sparky Linux 4.8: "http://www.open-source-feed.com/2018/05/sparky-linux-48-released-with-updated.html"
   Sparky Linux 4.8 RC : "https://goo.gl/RU1Fii"
   Sparky Linux 4.7 Tyche : "https://sparkylinux.org/sparky-4-7/"
