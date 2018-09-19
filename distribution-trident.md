@@ -22,4 +22,4 @@ stories:
 
 Project Trident can be considered as a continuation of the TrueOS desktop edition. This project took birth when the TrueOS project decided to become a core distribution. ie, a distribution that acts as a base for other distributions. The Trident project is lead by some of the TrueOS project members and they also invite the contributions from open source community.
 
-Project Trident will be using Lumina as default desktop environment. It a simple and functional desktop environment developed by TrueOS team.
+Project Trident will be using Lumina as default desktop environment. It is a simple and functional desktop environment developed by TrueOS team.
