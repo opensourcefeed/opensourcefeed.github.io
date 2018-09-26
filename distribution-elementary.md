@@ -40,6 +40,7 @@ stories:
   elementary OS introduces cross desktop compatible System Settings App(Switchboard) : "http://www.open-source-feed.com/2016/12/elementary-os-introduces-cross-desktop.html"
 
 screenshots:
+  elementary Juno beta 2: "https://www.distroscreens.com/2018/09/elementary-juno-beta-2-screenshots.html"
   elementary OS 0.4.1 Loki : "http://www.distroscreens.com/2017/05/elementary-os-041-loki-screenshots.html"
   "elementary OS 0.4 Loki" : "http://www.distroscreens.com/2016/09/elementary-os-04-loki-screenshots.html"
   "elementary OS 0.4 Loki beta" : "http://www.distroscreens.com/2016/06/elementary-os-04-loki-beta-screenshots.html"

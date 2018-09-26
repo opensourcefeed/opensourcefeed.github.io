@@ -1,5 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-25T08:54:37+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Gallery of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
-</subtitle><entry><title type="html">Solus 3 ISO refresh released with better hardware support and improved artwork</title><link href="http://localhost:4000/01-Solus-3-ISO-refresh-released-with-better-hardware-supported-improved-theming/" rel="alternate" type="text/html" title="Solus 3 ISO refresh released with better hardware support and improved artwork" /><published>2018-09-21T00:00:00+05:30</published><updated>2018-09-21T00:00:00+05:30</updated><id>http://localhost:4000/01-Solus-3-ISO-refresh-released-with-better-hardware-supported-improved-theming</id><content type="html" xml:base="http://localhost:4000/01-Solus-3-ISO-refresh-released-with-better-hardware-supported-improved-theming/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Joshua Strobl&lt;/em&gt; has announced the availability Solus 3 ISO refresh, a stable snapshot of independently evolved, rolling GNU/Linux distribution. This release comes with updated Linux Kernel and other applications. It also includes more consistent user experience with improved theming and other artworks.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-26T08:42:37+05:30</updated><id>http://localhost:4000/</id><title type="html">OpenSourceFeed</title><subtitle>Gallery of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
+</subtitle><entry><title type="html">Linux Lite 4.2 beta released</title><link href="http://localhost:4000/00-linux-lite-4.2-beta-released/" rel="alternate" type="text/html" title="Linux Lite 4.2 beta released" /><published>2018-09-24T00:00:00+05:30</published><updated>2018-09-24T00:00:00+05:30</updated><id>http://localhost:4000/00-linux-lite-4.2-beta-released</id><content type="html" xml:base="http://localhost:4000/00-linux-lite-4.2-beta-released/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Jerry&lt;/em&gt;, lead at Linux Lite project has announced the immediate availability of Linux Lite 4.2 beta for testing. This is a minor update in Linux Lite 4.x &lt;em&gt;Diamond&lt;/em&gt; series. It includes some improved artworks, extra tweaks, and updated packages.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/linux lite 4.2 beta.png&quot; alt=&quot;A preview of Linux Lite 4.2 installer&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;it-is-a-development-release-not-ready-for-production&quot;&gt;It is a development release, not ready for production&lt;/h3&gt;
+&lt;p&gt;Linux Lite 4.2 beta is a development release meant to showcase the features in the upcoming stable release. It also gives community contributors to involve in the regression testing and to provide their feedback. As a development release, there could be critical issues with this release. A known issue is slow booting in some issues. This issue should be tested on multiple hardware configurations and need to be analyzed.&lt;/p&gt;
+
+&lt;p&gt;Also, Linux Lite provides no direct update path from development release to stable release. So, it recommended to not install Linux Lite 4.2 beta on production systems in hope, it will become eventually stable.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-new-in-linux-lite-42-beta&quot;&gt;What is new in Linux Lite 4.2 beta?&lt;/h3&gt;
+&lt;p&gt;Already told, Linux Lite 4.2 is a minor release. So, there won’t be any long list of features. Some noticeable changes include,&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Minor tweaks and improvements in Lite Welcome&lt;/li&gt;
+    &lt;li&gt;A set of new wallpapers&lt;/li&gt;
+    &lt;li&gt;Linux Kernel: 4.15.0-34.37 (Custom Kernels with versions 3.13 - 4.18 can be installed from Lite repositories)&lt;/li&gt;
+    &lt;li&gt;Firefox: 62.0.2 Quantum&lt;/li&gt;
+    &lt;li&gt;Thunderbird: 52.9.1&lt;/li&gt;
+    &lt;li&gt;LibreOffice: 6.0.6.2&lt;/li&gt;
+    &lt;li&gt;VLC: 3.0.3&lt;/li&gt;
+    &lt;li&gt;Gimp: 2.10.6&lt;/li&gt;
+    &lt;li&gt;Base: 18.04.1&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For &lt;a href=&quot;https://www.linuxliteos.com/forums/release-announcements/linux-lite-4-2-beta-released&quot;&gt;Linux Lite 4.2 beta release announcement and related discussions&lt;/a&gt;, see Linux Lite forums.&lt;/p&gt;</content><author><name></name></author><summary type="html">Mr Jerry, lead at Linux Lite project has announced the immediate availability of Linux Lite 4.2 beta for testing. This is a minor update in Linux Lite 4.x Diamond series. It includes some improved artworks, extra tweaks, and updated packages.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/linux%20lite%204.2%20beta.png" /></entry><entry><title type="html">Solus 3 ISO refresh released with better hardware support and improved artwork</title><link href="http://localhost:4000/01-Solus-3-ISO-refresh-released-with-better-hardware-supported-improved-theming/" rel="alternate" type="text/html" title="Solus 3 ISO refresh released with better hardware support and improved artwork" /><published>2018-09-21T00:00:00+05:30</published><updated>2018-09-21T00:00:00+05:30</updated><id>http://localhost:4000/01-Solus-3-ISO-refresh-released-with-better-hardware-supported-improved-theming</id><content type="html" xml:base="http://localhost:4000/01-Solus-3-ISO-refresh-released-with-better-hardware-supported-improved-theming/">&lt;p&gt;&lt;strong&gt;Mr&lt;/strong&gt; &lt;em&gt;Joshua Strobl&lt;/em&gt; has announced the availability Solus 3 ISO refresh, a stable snapshot of independently evolved, rolling GNU/Linux distribution. This release comes with updated Linux Kernel and other applications. It also includes more consistent user experience with improved theming and other artworks.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/post-images/solus-3-iso-refresh.jpg&quot; alt=&quot;Solus 3 ISO refresh, a snap of different editions&quot; /&gt;&lt;/p&gt;
 
@@ -188,26 +213,4 @@ For a &lt;a href=&quot;https://help.gnome.org/misc/release-notes/3.30/&quot;&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;You may also read the &lt;a href=&quot;http://4mlinux-releases.blogspot.com/2018/09/4mlinux-260-stable-released_1.html&quot;&gt;4MLinux 26.0 release announcement&lt;/a&gt; in projects blog.&lt;/p&gt;</content><author><name></name></author><summary type="html">The 4MLinux team has announced the release of 4MLinux 26.0, the latest stable release of independent GNU/Linux distribution with JWM. This release brings a set of updated packages including LibreOffice 6.1 and Firefox 61.0.2.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/4MLinux26.jpg" /></entry><entry><title type="html">Nitrux 1.0.15 released with Linux Kernel 4.18.5</title><link href="http://localhost:4000/00-Nitrux-1.0.15-released-with-updated-hardware-and-graphics-stack/" rel="alternate" type="text/html" title="Nitrux 1.0.15 released with Linux Kernel 4.18.5" /><published>2018-09-01T00:00:00+05:30</published><updated>2018-09-01T00:00:00+05:30</updated><id>http://localhost:4000/00-Nitrux-1.0.15-released-with-updated-hardware-and-graphics-stack</id><content type="html" xml:base="http://localhost:4000/00-Nitrux-1.0.15-released-with-updated-hardware-and-graphics-stack/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Nitrux team has announced the immediate availability of Nitrux 1.0.15. This is a stable update of Ubuntu-based GNU/Linux distribution that offers a simplified Plasma experience.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/nitrux1.0.15.jpg&quot; alt=&quot;A preview of Nitrux 1.0.15&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The Nitrux 1.0.15 brings improved hardware support and updated graphics stack with Linux Kernel 4.18.5.  It also includes package updates from the base distribution, bug fixes, and performance improvement tweaks. Nitrux 1.0.15 ships fixe for several vulnerabilities found in previous releases.&lt;/p&gt;
-
-&lt;p&gt;The main highlights of Niturx 1.0.15 release can be summarized as,&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Updated packages from Ubuntu/cosmic.&lt;/li&gt;
-    &lt;li&gt;Updated kernel to version 4.18.5.&lt;/li&gt;
-    &lt;li&gt;Updated Plasma 5 (5.13.4), KDE Apps (18.08), KF5 (5.50.0) and Qt 5 (5.11.1).&lt;/li&gt;
-    &lt;li&gt;Updated Kvantum to version 0.10.9.&lt;/li&gt;
-    &lt;li&gt;Added Mesa (18.1.5) drivers for Vulkan, VDPAU, and support for VP-API.&lt;/li&gt;
-    &lt;li&gt;Added microcode updates for Intel (3.20180807a.1) and AMD (3.20180524.1) processors.&lt;/li&gt;
-    &lt;li&gt;Added support for exFAT drives.&lt;/li&gt;
-    &lt;li&gt;Added support for btrfs partitions in Calamares (default is ext4).&lt;/li&gt;
-    &lt;li&gt;Added Kcalc.&lt;/li&gt;
-    &lt;li&gt;Disabled KDE Wallet subsystem.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You can read &lt;a href=&quot;https://plus.google.com/+NitruxInside/posts/Jx2Dgeai8gF&quot;&gt;more about Nitrux 1.0.15&lt;/a&gt; in a release announcement published in projects Google Plus community.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Nitrux team has announced the immediate availability of Nitrux 1.0.15. This is a stable update of Ubuntu-based GNU/Linux distribution that offers a simplified Plasma experience.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/nitrux1.0.15.jpg" /></entry></feed>
+&lt;p&gt;You may also read the &lt;a href=&quot;http://4mlinux-releases.blogspot.com/2018/09/4mlinux-260-stable-released_1.html&quot;&gt;4MLinux 26.0 release announcement&lt;/a&gt; in projects blog.&lt;/p&gt;</content><author><name></name></author><summary type="html">The 4MLinux team has announced the release of 4MLinux 26.0, the latest stable release of independent GNU/Linux distribution with JWM. This release brings a set of updated packages including LibreOffice 6.1 and Firefox 61.0.2.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/4MLinux26.jpg" /></entry></feed>

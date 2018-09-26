@@ -5,7 +5,7 @@ title: 'Linux Lite'
 Category: Distribution
 type : Linux
 permalink: /distribution/lite
-logo: linux-lite.jpeg
+logo: lite-logo.jpg
 preview: linuxlite.jpg
 home_page: https://www.linuxliteos.com
 desktops: [xfce]
@@ -16,6 +16,7 @@ purchase:
 description: Linux Lite is a lightweight, fully functional operating system built on top of Ubuntu. It includes a good collection of applications to serve your day to day needs.
 
 releases:
+  Linux Lite 4.2 beta : "/00-linux-lite-4.2-beta-released/"
   Linux Lite 4.0 Diamond : "http://www.open-source-feed.com/2018/06/linux-lite-40-diamond-released-with.html"
   Linux Lite 4.0 beta : "https://www.open-source-feed.com/2018/04/linux-lite-40-beta-released-with-new.html"
   Linux Lite 3.8 : "http://www.open-source-feed.com/2018/02/linux-lite-38-released-based-on-ubuntu.html"
@@ -38,6 +39,8 @@ reviews:
   Linux Lite 3.0 is a powerful distribution : "http://www.open-source-feed.com/2016/06/linux-lite-30-is-powerful-distribution.html"
 ---
 
-**Linux Lite** is a lightweight operating system based on Ubuntu Long Term Supported (LTS) releases. This distribution features a highly customized Xfce desktop environment that comes with a fresh look & feel.
+**Linux Lite** is a lightweight operating system based on Ubuntu Long Term Supported (LTS) releases. This distribution features a highly customized Xfce desktop environment with a fresh look & feel.
 
-Unlike many other GNU/Linux distributions, Linux Lite is not bloated with many packages and tools, instead, it includes a single software for a specific purpose. Linux Lite includes tools like *Lite Tweaks*, *Lite Software*, *Lite User*, *Lite Configuration Center* ..etc to provide a better desktop experience.
+Unlike many other GNU/Linux distributions, Linux Lite is not bloated with many packages and tools. Instead, it includes a single software for a specific purpose. 
+
+In order to provide a better desktop experience, Linux Lite ships a collection of custom made tools. These tools includes Lite Welcome, Lite Users, Lite Software, Lite Notification ..etc
