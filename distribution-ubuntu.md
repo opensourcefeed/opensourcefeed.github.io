@@ -8,7 +8,7 @@ permalink: /distribution/ubuntu
 logo: ubuntu-logo32.png
 preview: ubuntu-preview.jpg
 home_page: https://www.ubuntu.com/
-desktops: [unity]
+desktops: [unity, gnome]
 base : [debian]
 purchase:
   OSDisc : "https://www.osdisc.com/products/ubuntu"
@@ -16,6 +16,7 @@ purchase:
 description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a range of hardware platforms like desktop, server, clouds and IoT.
 
 releases :
+  Ubuntu 18.10 Cosmic Cutlet Beta: "/00-ubuntu-18.10-cosmic-cutlet-beta-release/"
   Ubuntu 18.04 Bionic Beaver : "http://www.open-source-feed.com/2018/04/ubuntu-1804-lts-released-with-better.html"
   Ubuntu 17.10 Artful Aardvark : "https://lists.ubuntu.com/archives/ubuntu-announce/2017-October/000226.html"
   Ubuntu 17.04 : "http://www.open-source-feed.com/2017/04/ubuntu-1704-released-with-support-for.html"
@@ -24,6 +25,7 @@ releases :
   Ubuntu 16.04.2 : http://www.open-source-feed.com/2017/02/ubuntu-16042-released-with-improved.html
 
 screenshots:
+  Ubuntu 18.10 Beta: "https://www.distroscreens.com/2018/09/ubuntu-1810-cosmic-cutlet-beta.html"
   Ubuntu 18.04: "https://www.distroscreens.com/2018/04/ubuntu-1804-bionic-beaver-screenshots.html"
   Ubuntu 17.10 : "http://www.distroscreens.com/2017/10/ubuntu-1710-artful-aardvark-screenshots.html"
   Ubuntu 17.04 : "http://www.distroscreens.com/2017/04/ubuntu-1704-zesty-zapus-screenshots.html"
@@ -49,12 +51,12 @@ reviews:
   Why Ubuntu 16.04 LTS is most secure distribution out of the box? : http://www.open-source-feed.com/2016/12/why-ubuntu-1604-lts-is-most-secure.html
 ---
 
-**Ubuntu** is a popular GNU/Linux distribution backed by **Canonical**. It is capable of supporting
-different hardware platforms like server computers, cloud systems, desktops, tablets and mobiles.
+**Ubuntu** is a popular GNU/Linux distribution backed by **Canonical**. It is capable of supporting different hardware platforms like server computers, cloud systems, desktops, tablets, and mobiles.
 
-Ubuntu was started back in 2004 and over the years it has grown to become most popular open source operating system. Presently Ubuntu most used open source cloud solution and it acts as a stable base for other solutions offered by Canonical such as OpenStack.
+Ubuntu was started back in 2004 and over the years it has grown to become the most popular open source operating system. Presently Ubuntu most used open source cloud solution and it acts as a stable base for other solutions offered by Canonical such as OpenStack.
 
 When the project was started back in 2004, Ubuntu was using GNOME 2.x as default desktop environment. Later when GNOME 2.x development was discontinued in favor of GNOME 3.x / GNOME shell, Ubuntu started developing their own shell named Unity.
 
-Unity is the default desktop environment of Ubuntu and it is a cross device compatible shell. the
-main motive of unity is to offer a uniform user experience in different platforms. Beginning from Ubuntu 17.10, the project will be moving away from Unity in favor of GNOME. The idea of convergence was discontinued by Canonical due to poor appreciation from the market.
+Unity served as default desktop environment of Ubuntu for 7 years. The main motive of unity was to offer a uniform user experience across the devices.  This *idea of convergence* was discontinued by Canonical owing to poor reception in the market.
+
+Beginning from Ubuntu 17.10, the default desktop environment is GNOME shell. Instead of shipping the Vanilla GNOME shell, Canonical does a decent amount customization on top of GNOME to retain the user experience established by Unity over the years.
