@@ -6,7 +6,7 @@ Category: Distribution
 permalink: /distribution/lubuntu
 type: Linux
 logo: lubuntu.png
-preview: lxde-preview.jpg
+preview: lubuntu-preview.jpg
 home_page: http://lubuntu.me/
 desktops: [lxde, lxqt]
 base : [ubuntu]
@@ -14,7 +14,7 @@ telegram : "https://t.me/lubuntudevel"
 purchase:
   OSDisc : "https://www.osdisc.com/products/lubuntu"
 
-description : Lubuntu is one of the oldest official community flavors of Ubuntu. It provides a lightweight desktop experience with LXDE desktop environment.
+description : Lubuntu is one of the oldest official community flavors of Ubuntu. It provides a lightweight desktop experience with LXQt desktop environment.
 
 releases:
   Lubuntu 18.10 Cosmic Beta: "/01-Lubuntu-18.10-beta-released-with-lxqt-for-the-first-time/"
@@ -25,6 +25,7 @@ releases:
   Lubuntu 16.04.2 : "http://lubuntu.me/lubuntu-16-04-2-released/"
 
 screenshots :
+  Lubuntu 18.10 Cosmic Cutlet Beta : "http://www.distroscreens.com/2018/10/lubuntu-1810-cosmic-cutlet-lxqt-beta.html"
   Lubuntu 17.10 Artful Aardvark : "http://www.distroscreens.com/2017/10/lubuntu-1710-artful-aardvark-screenshots.html"
   Lubuntu 17.04 Zesty Zapus : "http://www.distroscreens.com/2017/04/lubuntu-1704-zesty-zapus-screenshots.html"
   Lubuntu 16.04 Xenial Xerus : "http://www.distroscreens.com/2016/04/lubuntu-1604-lts-xenial-xerus.html"
@@ -36,8 +37,9 @@ stories:
 
 ---
 
-**Lubuntu** is a lightweight GNU/Linux distribution built on top of Ubuntu. It integrates lightweight and less resource hungry [LXDE desktop](/desktop/lxde) environment with solid Ubuntu base.
+**Lubuntu** is a lightweight GNU/Linux distribution built on top of Ubuntu. It integrates lightweight and less resource hungry [LXQt desktop](/desktop/lxqt) environment with solid Ubuntu base.
 
 Lubuntu mainly targets old computers and netbooks where resources less comparing to modern laptops and desktop computers.
 
-Currently, Lubuntu makes use of LXDE, in near future, LXDE may be replaced with [LXQt](/desktop/lxqt), a Qt based implementation of LXDE. Lubuntu also provides an experimental release called Lubuntu-Next to test LXQt desktop.
+LXDE was the default desktop environment in Lubuntu, till version 18.04. Later releases use
+ [LXQt](/desktop/lxqt) as default desktop. It is a merge of Razor-Qt and LXDE-Qt port.
