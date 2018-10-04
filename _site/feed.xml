@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-04T00:06:52+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">OpenSourceFeed</title><subtitle>Gallery of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-04T09:14:12+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">OpenSourceFeed</title><subtitle>Gallery of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates &amp; stories on each.
 </subtitle><entry><title type="html">Nitrux 1.0.16 released with package updates from Ubuntu Cosmic</title><link href="http://localhost:4000/00-Nitrux-1.0.16-released-with-package-updates-from-Ubuntu-Cosmic/" rel="alternate" type="text/html" title="Nitrux 1.0.16 released with package updates from Ubuntu Cosmic" /><published>2018-09-29T00:00:00+05:30</published><updated>2018-09-29T00:00:00+05:30</updated><id>http://localhost:4000/00-Nitrux-1.0.16-released-with-package-updates-from-Ubuntu-Cosmic</id><content type="html" xml:base="http://localhost:4000/00-Nitrux-1.0.16-released-with-package-updates-from-Ubuntu-Cosmic/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Nitrux community has announced the release of Nitrux 1.0.16. It is an incremental release that provides package updates from Ubuntu &lt;em&gt;Cosmic Cutlet&lt;/em&gt; branch. It also includes various bug fixes, performance improvements, and better hardware support.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/post-images/Nitrux-nomad-menu.jpg&quot; alt=&quot;Nitrux - Nomad Menu&quot; /&gt;&lt;/p&gt;
@@ -30,7 +30,41 @@
 &lt;p&gt;Nitrux 1.0.16 installation images can be downloaded using the links given below.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.opendesktop.org/p/1188112/startdownload?file_id=1538255140&amp;amp;file_name=nitrux_release_1.0.16-1.iso&amp;amp;file_type=application/octet-stream&amp;amp;file_size=1411383296&amp;amp;url=https%3A%2F%2Fdl.opendesktop.org%2Fapi%2Ffiles%2Fdownload%2Fid%2F1538255140%2Fs%2Fce8e46720db6df163dcc93ad87f4d19c%2Ft%2F1538325806%2Fu%2F%2Fnitrux_release_1.0.16-1.iso&quot;&gt;Nitrux 1.0.16 ISO&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">The Nitrux community has announced the release of Nitrux 1.0.16. It is an incremental release that provides package updates from Ubuntu Cosmic Cutlet branch. It also includes various bug fixes, performance improvements, and better hardware support.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/Nitrux-nomad-menu.jpg" /></entry><entry><title type="html">Ubuntu 18.10 Cosmic Cutlet beta released</title><link href="http://localhost:4000/00-ubuntu-18.10-cosmic-cutlet-beta-release/" rel="alternate" type="text/html" title="Ubuntu 18.10 &lt;em&gt;Cosmic Cutlet&lt;/em&gt; beta released" /><published>2018-09-28T00:00:00+05:30</published><updated>2018-09-28T00:00:00+05:30</updated><id>http://localhost:4000/00-ubuntu-18.10-cosmic-cutlet-beta-release</id><content type="html" xml:base="http://localhost:4000/00-ubuntu-18.10-cosmic-cutlet-beta-release/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Ubuntu team has announced the availability of Ubuntu 18.10 &lt;em&gt;Cosmic Cutlet&lt;/em&gt; beta for testing. This is the only development release prior to upcoming 18.10 stable release scheduled to release on October 2018.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">The Nitrux community has announced the release of Nitrux 1.0.16. It is an incremental release that provides package updates from Ubuntu Cosmic Cutlet branch. It also includes various bug fixes, performance improvements, and better hardware support.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/Nitrux-nomad-menu.jpg" /></entry><entry><title type="html">Audacity Music Editor 2.3.0 released with a handful of features</title><link href="http://localhost:4000/01-audacity-music-editor-2.3.0-released-with-handful-of-features/" rel="alternate" type="text/html" title="Audacity Music Editor 2.3.0 released with a handful of features" /><published>2018-09-29T00:00:00+05:30</published><updated>2018-09-29T00:00:00+05:30</updated><id>http://localhost:4000/01-audacity-music-editor-2.3.0-released-with-handful-of-features</id><content type="html" xml:base="http://localhost:4000/01-audacity-music-editor-2.3.0-released-with-handful-of-features/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Audacity team has announced the release of Audacity 2.3.0, the latest stable release of open source, multi-tracking audio recording, and editing tool. This release is currently available for Windows only. For the Linux, Audacity 2.3.0 will continue as an experimental release.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/audacity-banner.png&quot; alt=&quot;Audacity Generic Banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Audacity 2.3.0 brings over 90 bug fixes and other features additions comparing to its predecessor 2.2.0. New features include the usability and also functionality improvements. Quoting from the official release announcement, Audacity 2.3.0 features are,&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Punch and Roll Recording feature&lt;/li&gt;
+    &lt;li&gt;Pinned-play-head can now be repositioned by dragging&lt;/li&gt;
+    &lt;li&gt;Play-at-speed now can be adjusted whilst playing.&lt;/li&gt;
+    &lt;li&gt;Toolbars controlling volume and speed can now be resized for greater precision&lt;/li&gt;
+    &lt;li&gt;Macros (formerly ‘Chains’) substantially extended&lt;/li&gt;
+    &lt;li&gt;New Macro palette&lt;/li&gt;
+    &lt;li&gt;Macros can be bound to keyboard keys&lt;/li&gt;
+    &lt;li&gt;New commands&lt;/li&gt;
+    &lt;li&gt;New ‘Tools’ menu&lt;/li&gt;
+    &lt;li&gt;New ‘Scriptables’ commands&lt;/li&gt;
+    &lt;li&gt;Nyquist gains AUD-DO command&lt;/li&gt;
+    &lt;li&gt;Nyquist effects are now translatable and translated&lt;/li&gt;
+    &lt;li&gt;More dialogs have help buttons now&lt;/li&gt;
+    &lt;li&gt;Increased legibility of track name display&lt;/li&gt;
+    &lt;li&gt;Half-wave option for collapsed tracks&lt;/li&gt;
+    &lt;li&gt;Sliding Stretch&lt;/li&gt;
+    &lt;li&gt;Dialog (option) for entering labels&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;its-still-32-bit-only&quot;&gt;Its still 32 BIT only&lt;/h3&gt;
+&lt;p&gt;Presently, Audacity is compiled against 32-bit libraries. This will work for all platforms including macOS. However, macOS prefers applications compiled against 64-bit libraries. In order to tackle this, the next minor release, Audacity 2.3.1, will be having a 64-bit installer for macOS.&lt;/p&gt;
+
+&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.audacityteam.org/audacity-2-3-0-released/&quot;&gt;Audacity 2.3.0 release announcement&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.audacityteam.org/wiki/Release_Notes_2.3.0&quot;&gt;Audacity 2.3.0 release notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">The Audacity team has announced the release of Audacity 2.3.0, the latest stable release of open source, multi-tracking audio recording, and editing tool. This release is currently available for Windows only. For the Linux, Audacity 2.3.0 will continue as an experimental release.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/audacity-banner.png" /></entry><entry><title type="html">Ubuntu 18.10 Cosmic Cutlet beta released</title><link href="http://localhost:4000/00-ubuntu-18.10-cosmic-cutlet-beta-release/" rel="alternate" type="text/html" title="Ubuntu 18.10 &lt;em&gt;Cosmic Cutlet&lt;/em&gt; beta released" /><published>2018-09-28T00:00:00+05:30</published><updated>2018-09-28T00:00:00+05:30</updated><id>http://localhost:4000/00-ubuntu-18.10-cosmic-cutlet-beta-release</id><content type="html" xml:base="http://localhost:4000/00-ubuntu-18.10-cosmic-cutlet-beta-release/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Ubuntu team has announced the availability of Ubuntu 18.10 &lt;em&gt;Cosmic Cutlet&lt;/em&gt; beta for testing. This is the only development release prior to upcoming 18.10 stable release scheduled to release on October 2018.&lt;/p&gt;
 
 &lt;p&gt;Ubuntu 18.10 beta release announcement includes Ubuntu Desktop, Server, Cloud and also the Kubuntu, Lubuntu, Ubuntu
 Budgie, UbuntuKylin, Ubuntu MATE, Ubuntu Studio, and Xubuntu flavors.&lt;/p&gt;
@@ -230,19 +264,4 @@ Budgie, UbuntuKylin, Ubuntu MATE, Ubuntu Studio, and Xubuntu flavors.&lt;/p&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;You can also read &lt;a href=&quot;https://sparkylinux.org/sparky-5-5/&quot;&gt;Sparky Linux 5.5 release announcement&lt;/a&gt; in projects official website.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Sparky Linux team has released Sparky Linux 5.5. It brings a set of updated packages including GCC 8 and Linux Kernel 4.18.6. It also contains some minor bug fixes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/preview/sparky-lxqt-5.jpg" /></entry><entry><title type="html">LibreOffice 6.1.1 released with over 120 bug fixes</title><link href="http://localhost:4000/00-libreoffice-6.1.1-released-with-120-bug-fixes/" rel="alternate" type="text/html" title="LibreOffice 6.1.1 released with over 120 bug fixes" /><published>2018-09-13T00:00:00+05:30</published><updated>2018-09-13T00:00:00+05:30</updated><id>http://localhost:4000/00-libreoffice-6.1.1-released-with-120-bug-fixes</id><content type="html" xml:base="http://localhost:4000/00-libreoffice-6.1.1-released-with-120-bug-fixes/">&lt;p&gt;&lt;strong&gt;The&lt;/strong&gt; Document Foundation has released LibreOffice 6.1.1, a maintenance cum bug fix release in LibreOffice 6.1.x. It brings fixes for over 120 bugs and regression issues reported on &lt;a href=&quot;http://theopensourcefeed.com/01-libreoffice-6.1-proclaims-the-power-of-large-and-diverse-community-contributors/&quot;&gt;LibreOffice 6.1&lt;/a&gt;. The main audience of this release is power users, early technology adopters and enthusiasts who are curious to try the latest and greatest technologies.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/post-images/libreoffice.png&quot; alt=&quot;LibreOffice banner&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The main features of LibreOffice 6.1.1 release includes improvement in image handling module, reorganized draw menu, brand new icon theme, ..etc. These highlights can be summarized as,&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Colibre, the new icon theme for Windows based on Microsoft’s icon design guidelines;&lt;/li&gt;
-    &lt;li&gt;The reworked image handling feature, which is significantly faster and smoother thanks to a new graphic manager and an improved image lifecycle;&lt;/li&gt;
-    &lt;li&gt;The reorganization of Draw menus with the addition of a new Page menu;&lt;/li&gt;
-    &lt;li&gt;The new Online Help pages enriched with text and example files to guide the users through features;&lt;/li&gt;
-    &lt;li&gt;Several improvements to all modules of LibreOffice Online, with changes to the user interface to make it more appealing.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You can &lt;a href=&quot;https://blog.documentfoundation.org/blog/2018/09/13/libreoffice-6-1-1/&quot;&gt;read more about LibreOffice 6.1.1&lt;/a&gt; and find the download links in original release announcement published by &lt;em&gt;The Document Foundation&lt;/em&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Document Foundation has released LibreOffice 6.1.1, a maintenance cum bug fix release in LibreOffice 6.1.x. It brings fixes for over 120 bugs and regression issues reported on LibreOffice 6.1. The main audience of this release is power users, early technology adopters and enthusiasts who are curious to try the latest and greatest technologies.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post-images/libreoffice.png" /></entry></feed>
+&lt;p&gt;You can also read &lt;a href=&quot;https://sparkylinux.org/sparky-5-5/&quot;&gt;Sparky Linux 5.5 release announcement&lt;/a&gt; in projects official website.&lt;/p&gt;</content><author><name></name></author><summary type="html">The Sparky Linux team has released Sparky Linux 5.5. It brings a set of updated packages including GCC 8 and Linux Kernel 4.18.6. It also contains some minor bug fixes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/preview/sparky-lxqt-5.jpg" /></entry></feed>
