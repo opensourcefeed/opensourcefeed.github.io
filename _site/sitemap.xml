@@ -464,6 +464,9 @@
 <loc>http://localhost:4000/distribution/freebsd</loc>
 </url>
 <url>
+<loc>http://localhost:4000/distribution/gentoo</loc>
+</url>
+<url>
 <loc>http://localhost:4000/distribution/kali</loc>
 </url>
 <url>
