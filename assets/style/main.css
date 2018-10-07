@@ -77,16 +77,10 @@ a {color: teal}
   color: white;
   text-decoration: none;
 }
-.links {
-  padding: 0;
-  display: none;
-}
-.links .link {
-  font-size: 1.2rem;
-  color: white;
-  text-decoration: underline;
-  font-weight: normal;
-}
+.recent-additions {color: white; text-align: center;}
+.recent-additions h2 {font-size: 18px; color: white; text-align: left}
+.recent-additions a {width: 100%; padding: 1rem; border: 1px solid rgba(0,0,0,0.2); display: grid; color: #ddd}
+.recent-additions a:hover {text-decoration: none; background: rgba(0,0, 0, 0.2); transition:background 0.2s ease}
 /* Stories*/
 .stories h2 {
   font-size: 1.5rem;
@@ -118,14 +112,6 @@ a {color: teal}
 blockquote{position:relative;margin:0;font-weight:400;text-align:justify;padding:15px;color:#000;background:#f0f0f0;}
 .related h3{font-size:1.2rem;}
 .content{background:white;}
-.sidebar{padding-top:20px;border:1px solid #eee;background:#fff;}
-.sidebar h2 {overflow:hidden;position:relative;font-size:16px;font-weight:600;padding:10px 10px;margin:0;text-transform:uppercase;display:block;border-bottom:1px solid #888;background:#f8f9fa;color:teal}
-.sidebar ul{list-style-type:none;padding-left:0;}
-.sidebar li{padding:10px;transition:background 0.5s ease;cursor:pointer;background:#fff;}
-.sidebar a{color:black;}
-.sidebar a:hover, .sidebar a:focus{text-decoration:none;}
-.sidebar li:hover{background:#eee;}
-.sidbar .ad{max-height:400px;}
 .logo{max-width:240px;text-align:center;margin:auto;margin-bottom:20px;}
 .preview{width:100%;text-align:center;margin:auto;}
 .story-listing h3{font-size:1.3rem;}

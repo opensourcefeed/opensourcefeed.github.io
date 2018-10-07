@@ -33,20 +33,20 @@ title: Gallery of Free & Open Source Distributions & Desktops
                 </ul>
             </div>
         </div>
-
-        <div class="container-fluid links">
-            <div class="row">
-                <div class="col-md-6 text-md-left">
-                    <a href="#">
-                        <h3 class="link">Operating System</h3>
-                    </a>
+    </div>
+    <div class="container-fluid recent-additions">
+        <hr>
+        <h2>Recent Additions</h2>
+        <div class="row">
+           {% for recent in site.data.recent %}
+            {% for page in site.pages %}
+              {% if page.uid == recent %}
+                <div class="col-md-4">
+                    <a href="{{page.url}}">{{page.title}}</a>
                 </div>
-                <div class="col-md-6 text-md-right">
-                    <a href="#">
-                        <h3 class="link">Desktop Environment</h3>
-                    </a>
-                </div>
-            </div>
+              {% endif %}
+            {% endfor %}
+           {% endfor %}
         </div>
     </div>
 </div>
