@@ -78,7 +78,7 @@ a {color: teal}
   text-decoration: none;
 }
 .recent-additions {color: white; text-align: center;}
-.recent-additions h2 {font-size: 18px; color: white; text-align: left}
+.recent-additions h2 {font-size: 16px; color: #ddd; text-align: left}
 .recent-additions a {width: 100%; padding: 1rem; border: 1px solid rgba(0,0,0,0.2); display: grid; color: #ddd}
 .recent-additions a:hover {text-decoration: none; background: rgba(0,0, 0, 0.2); transition:background 0.2s ease}
 /* Stories*/
