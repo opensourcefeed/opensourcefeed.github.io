@@ -9,6 +9,9 @@ preview: plasma-preview.jpg
 home_page: https://www.kde.org/workspaces/plasmadesktop/
 description: Plasma is a modern desktop environment developed by KDE community. With plenty of customization options, KDE Plasma offers a traditional look & feel and with several productivity improvement add-ons.
 
+releases:
+  Plasma 5.14: "/00-plasma-5.14-brings-major-improvements/"
+
 stories:
   "KDE Frameworks 5.40.0 released" : "https://www.kde.org/announcements/kde-frameworks-5.40.0.php"
   "Plasma 5.11 beta is available now" : "http://www.open-source-feed.com/2017/09/plasma-511-beta-is-available-now.html"
