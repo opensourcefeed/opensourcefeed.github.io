@@ -7,14 +7,14 @@ distributions:
     rank: 1
   url: /distribution/antix
 - current:
-    count: 34
+    count: 22
     rank: 2
   previous:
     count: 34
     rank: 2
   url: /distribution/elive
 - current:
-    count: 22
+    count: 21
     rank: 3
   previous:
     count: 22
@@ -35,17 +35,17 @@ distributions:
     rank: 5
   url: /distribution/gentoo
 - current:
-    count: 17
+    count: 18
     rank: 6
   previous:
-    count: 16
+    count: 17
     rank: 6
   url: /distribution/ubuntu
 - current:
-    count: 15
+    count: 14
     rank: 7
   previous:
-    count: 14
+    count: 15
     rank: 7
   url: /distribution/elementary
 - current:
@@ -63,21 +63,21 @@ distributions:
     rank: 9
   url: /distribution/archlabs
 - current:
-    count: 13
+    count: 12
     rank: 10
   previous:
     count: 13
     rank: 10
   url: /distribution/debian
 - current:
-    count: 13
+    count: 12
     rank: 11
   previous:
     count: 13
     rank: 11
   url: /distribution/zorin
 - current:
-    count: 12
+    count: 11
     rank: 12
   previous:
     count: 12
@@ -109,372 +109,377 @@ distributions:
     rank: 16
   previous:
     count: 9
-    rank: 16
-  url: /distribution/linuxmint
-- current:
-    count: 9
-    rank: 17
-  previous:
-    count: 9
     rank: 17
   url: /distribution/pentoo
+- current:
+    count: 8
+    rank: 17
+  previous:
+    count: 8
+    rank: 18
+  url: /distribution/fedora
 - current:
     count: 8
     rank: 18
   previous:
     count: 8
     rank: 19
-  url: /distribution/fedora
+  url: /distribution/kali
 - current:
     count: 8
     rank: 19
   previous:
-    count: 5
-    rank: 29
-  url: /distribution/kali
+    count: 9
+    rank: 16
+  url: /distribution/linuxmint
 - current:
-    count: 8
+    count: 7
     rank: 20
   previous:
     count: 8
     rank: 20
   url: /distribution/rosa
 - current:
-    count: 8
-    rank: 21
-  previous:
-    count: 9
-    rank: 18
-  url: /distribution/ultimate
-- current:
-    count: 7
-    rank: 22
-  previous:
     count: 7
     rank: 21
-  url: /distribution/antergos
-- current:
-    count: 6
-    rank: 23
-  previous:
-    count: 6
-    rank: 22
-  url: /distribution/arco
-- current:
-    count: 6
-    rank: 24
-  previous:
-    count: 6
-    rank: 23
-  url: /distribution/opensuse
-- current:
-    count: 6
-    rank: 25
-  previous:
-    count: 6
-    rank: 24
-  url: /distribution/solus
-- current:
-    count: 6
-    rank: 26
-  previous:
-    count: 6
-    rank: 26
-  url: /distribution/sparky
-- current:
-    count: 6
-    rank: 27
   previous:
     count: 6
     rank: 27
   url: /distribution/ubuntubudgie
 - current:
+    count: 7
+    rank: 22
+  previous:
+    count: 8
+    rank: 21
+  url: /distribution/ultimate
+- current:
+    count: 6
+    rank: 23
+  previous:
+    count: 7
+    rank: 22
+  url: /distribution/antergos
+- current:
+    count: 6
+    rank: 24
+  previous:
+    count: 6
+    rank: 23
+  url: /distribution/arco
+- current:
+    count: 6
+    rank: 25
+  previous:
+    count: 6
+    rank: 24
+  url: /distribution/opensuse
+- current:
+    count: 6
+    rank: 26
+  previous:
     count: 5
+    rank: 29
+  url: /distribution/q4os
+- current:
+    count: 6
+    rank: 27
+  previous:
+    count: 5
+    rank: 30
+  url: /distribution/reactos
+- current:
+    count: 6
     rank: 28
+  previous:
+    count: 6
+    rank: 25
+  url: /distribution/solus
+- current:
+    count: 5
+    rank: 29
+  previous:
+    count: 4
+    rank: 36
+  url: /distribution/bodhi
+- current:
+    count: 5
+    rank: 30
+  previous:
+    count: 4
+    rank: 38
+  url: /distribution/deepin
+- current:
+    count: 5
+    rank: 31
   previous:
     count: 5
     rank: 28
   url: /distribution/devuan
 - current:
-    count: 5
-    rank: 29
-  previous:
-    count: 5
-    rank: 30
-  url: /distribution/q4os
-- current:
-    count: 5
-    rank: 30
-  previous:
-    count: 5
-    rank: 31
-  url: /distribution/reactos
-- current:
-    count: 5
-    rank: 31
-  previous:
-    count: 5
-    rank: 32
-  url: /distribution/shark
-- current:
-    count: 5
-    rank: 32
-  previous:
-    count: 5
-    rank: 33
-  url: /distribution/slax
-- current:
-    count: 5
-    rank: 33
-  previous:
-    count: 6
-    rank: 25
-  url: /distribution/solydxk
-- current:
     count: 4
-    rank: 34
+    rank: 32
   previous:
     count: 4
     rank: 34
   url: /distribution/apricity
 - current:
     count: 4
-    rank: 35
+    rank: 33
   previous:
     count: 4
     rank: 35
   url: /distribution/arya
 - current:
     count: 4
-    rank: 36
-  previous:
-    count: 4
-    rank: 36
-  url: /distribution/bodhi
-- current:
-    count: 4
-    rank: 37
+    rank: 34
   previous:
     count: 4
     rank: 37
   url: /distribution/clover
 - current:
     count: 4
-    rank: 38
-  previous:
-    count: 4
-    rank: 38
-  url: /distribution/deepin
-- current:
-    count: 4
-    rank: 39
+    rank: 35
   previous:
     count: 4
     rank: 39
   url: /distribution/korora
 - current:
     count: 4
-    rank: 40
+    rank: 36
   previous:
     count: 4
     rank: 40
   url: /distribution/kubuntu
 - current:
     count: 4
-    rank: 41
+    rank: 37
   previous:
     count: 4
     rank: 41
   url: /distribution/mageia
 - current:
     count: 4
-    rank: 42
+    rank: 38
   previous:
     count: 4
     rank: 42
   url: /distribution/porteus
 - current:
     count: 4
-    rank: 43
+    rank: 39
   previous:
     count: 4
     rank: 43
   url: /distribution/redhat
 - current:
     count: 4
-    rank: 44
+    rank: 40
   previous:
     count: 4
     rank: 44
   url: /distribution/sabayon
 - current:
     count: 4
-    rank: 45
+    rank: 41
+  previous:
+    count: 5
+    rank: 31
+  url: /distribution/shark
+- current:
+    count: 4
+    rank: 42
+  previous:
+    count: 5
+    rank: 32
+  url: /distribution/slax
+- current:
+    count: 4
+    rank: 43
+  previous:
+    count: 6
+    rank: 26
+  url: /distribution/sparky
+- current:
+    count: 4
+    rank: 44
   previous:
     count: 4
     rank: 45
   url: /distribution/trueos
 - current:
     count: 4
-    rank: 46
+    rank: 45
   previous:
     count: 4
     rank: 46
   url: /distribution/uruk
 - current:
     count: 3
-    rank: 47
+    rank: 46
   previous:
     count: 3
     rank: 47
   url: /distribution/4mlinux
 - current:
     count: 3
-    rank: 48
-  previous:
-    count: 3
-    rank: 48
-  url: /distribution/chakra
-- current:
-    count: 3
-    rank: 49
+    rank: 47
   previous:
     count: 3
     rank: 49
   url: /distribution/freebsd
 - current:
     count: 3
-    rank: 50
+    rank: 48
   previous:
     count: 3
     rank: 50
   url: /distribution/kaos
 - current:
     count: 3
-    rank: 51
+    rank: 49
   previous:
     count: 3
     rank: 51
   url: /distribution/lfs
 - current:
     count: 3
-    rank: 52
+    rank: 50
   previous:
     count: 3
     rank: 52
   url: /distribution/nitrux
 - current:
+    count: 3
+    rank: 51
+  previous:
+    count: 5
+    rank: 33
+  url: /distribution/solydxk
+- current:
+    count: 2
+    rank: 52
+  previous:
+    count: 3
+    rank: 48
+  url: /distribution/chakra
+- current:
     count: 2
     rank: 53
   previous:
     count: 2
-    rank: 54
+    rank: 53
   url: /distribution/ferenos
 - current:
     count: 2
     rank: 54
   previous:
     count: 2
-    rank: 55
+    rank: 54
   url: /distribution/kodachi
 - current:
     count: 2
     rank: 55
   previous:
     count: 2
-    rank: 56
+    rank: 55
   url: /distribution/maui
 - current:
     count: 2
     rank: 56
   previous:
     count: 2
-    rank: 57
+    rank: 56
   url: /distribution/netrunner
 - current:
     count: 2
     rank: 57
   previous:
     count: 2
-    rank: 58
+    rank: 57
   url: /distribution/parsix
 - current:
     count: 2
     rank: 58
   previous:
     count: 2
-    rank: 59
+    rank: 58
   url: /distribution/peppermint
 - current:
     count: 2
     rank: 59
   previous:
     count: 2
-    rank: 60
+    rank: 59
   url: /distribution/puppy
 - current:
     count: 2
     rank: 60
   previous:
     count: 2
-    rank: 61
+    rank: 60
   url: /distribution/tails
 - current:
     count: 2
     rank: 61
   previous:
     count: 2
-    rank: 62
+    rank: 61
   url: /distribution/xubuntu
 - current:
     count: 1
     rank: 62
   previous:
     count: 1
-    rank: 63
+    rank: 62
   url: /distribution/dragonfly
 - current:
     count: 1
     rank: 63
-  previous:
+  previous: null
+  url: /distribution/midnight
+- current:
     count: 1
     rank: 64
+  previous:
+    count: 1
+    rank: 63
   url: /distribution/neptune
 - current:
     count: 1
-    rank: 64
+    rank: 65
   previous:
     count: 1
-    rank: 65
+    rank: 64
   url: /distribution/netbsd
 - current:
     count: 1
-    rank: 65
+    rank: 66
   previous:
     count: 1
-    rank: 66
+    rank: 65
   url: /distribution/pclinuxos
 - current:
     count: 1
-    rank: 66
+    rank: 67
   previous:
-    count: 3
-    rank: 53
+    count: 1
+    rank: 66
   url: /distribution/trisquel
 - current:
     count: 1
-    rank: 67
+    rank: 68
   previous:
     count: 1
     rank: 67
   url: /distribution/ubuntugnome
 - current:
     count: 1
-    rank: 68
+    rank: 69
   previous:
     count: 1
     rank: 68
   url: /distribution/ubuntumate
 meta:
-  current_date: 2018-10-11 21:41
-  previous_date: 2018-10-10 21:09
+  current_date: 2018-10-13 09:34
+  previous_date: 2018-10-11 21:41
