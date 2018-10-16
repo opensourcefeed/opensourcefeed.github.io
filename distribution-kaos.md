@@ -16,6 +16,7 @@ purchase :
 description : KaOS is a desktop operating system offering a cutting-edge Plasma experience. It follows a rolling release model and helps users to stay updated.
 
 releases:
+  KaOS 2018.10 : "/00-kaos-2018.10-released-with-plasma-5.14/"
   KaOS 2018.06 : "http://www.open-source-feed.com/2018/06/kaos-201806-released-with-plasma-5131.html"
   KaOS 2017.09 : "http://www.open-source-feed.com/2017/09/kaos-201709-snapshot-released-with.html"
   KaOS 2017.02 : "https://www.open-source-feed.com/2017/02/kaos-201702-snapshot-released-with.html"

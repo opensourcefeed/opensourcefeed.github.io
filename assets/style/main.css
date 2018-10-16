@@ -107,7 +107,7 @@ a {color: teal}
 .post-content img{max-width:100%;display:block;margin:auto}
 .post-content p{font-size: 1.1rem;line-height:2rem}
 .post-content h3{font-size:1.5rem;margin-top:2rem; margin-bottom: 1.5rem}
-.post-content h4{font-size: 1.3rem; margin-top: 1.5rem; margin-bottom: 1.5rem}
+.post-content h4{font-size: 1.3rem; margin-top: 1.5rem; margin-bottom: .8rem}
 .lastUpdated{font-size:16px;color:#777;}
 blockquote{position:relative;margin:0;font-weight:400;text-align:justify;padding:15px;color:#000;background:#f0f0f0;}
 .related h3{font-size:1.2rem;}
