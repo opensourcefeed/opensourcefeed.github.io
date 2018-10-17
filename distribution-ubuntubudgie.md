@@ -5,8 +5,8 @@ title: 'Ubuntu Budgie'
 Category: Distribution
 type: Linux
 permalink: /distribution/ubuntubudgie
-logo: ubuntubudgie.svg
-preview: ubuntu-budgie-preview.jpg
+logo: ubuntubudgie.png
+preview: ubuntu-budgie.jpg
 home_page: http://ubuntubudgie.org/
 desktops: [budgie]
 base : [ubuntu]
@@ -16,6 +16,7 @@ purchase:
 description : Ubuntu Budgie is an official flavor of Ubuntu combining solid Ubuntu core with elegant, efficient and productive budgie desktop, developed by Solus project.
 
 screenshots:
+  Ubuntu Budgie 18.10 Cosmic Cuttlefish: "https://www.distroscreens.com/2018/10/ubuntu-budgie-1810-cosmic-cuttlefish.html"
   Ubuntu Budgie 18.04 LTS (daily build) : "http://www.distroscreens.com/2018/03/ubuntu-budgie-1804-bionic-beaver.html"
   Ubuntu Budgie 17.10 : "http://www.distroscreens.com/2017/10/ubuntu-budgie-1710-artful-aardvark.html"
   Ubuntu Budgie 17.04 : "http://www.distroscreens.com/2017/04/ubuntu-budgie-1704-zesty-zapus.html"
