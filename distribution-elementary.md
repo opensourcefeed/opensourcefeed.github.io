@@ -18,6 +18,7 @@ purchase :
 description : elementary OS (eOS) is fast and simple GNU/Linux distribution built on top of Ubuntu LTS releases. Stories and updates on elementary OS.
 
 releases:
+  elementary OS Juno: "/00-elementary-os-juno-brings-major-improvements/"
   elementary OS Juno beta 2 : "/00-elementary-juno-beta2-released/"
   elementary OS Juno beta 1 : "https://www.open-source-feed.com/2018/07/elementary-os-juno-beta-1-is-available.html"
   elementary OS 0.4.1 Loki : "http://www.open-source-feed.com/2017/05/elementary-os-041-loki-released-based.html"
