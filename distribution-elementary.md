@@ -6,7 +6,7 @@ Category: Distribution
 permalink: /distribution/elementary
 type : Linux
 logo: elementary-logo.png
-preview: elementary.png
+preview: elementary.jpg
 home_page: https://elementary.io/
 desktops: [pantheon]
 base : [ubuntu]
