@@ -12,6 +12,7 @@ base : [ubuntu]
 description : Xubuntu is a full featured, yet lightweight and resource efficient GNU/Linux distribution. Stories and updates on Xubuntu.
 
 releases:
+  Xubuntu 18.10 Cosmic Cuttlefish: "/00-xubuntu-18.10-cosmic-cuttlefish-brings-initial-preview-of-xfce-4.13/"
   Xubuntu 18.04 : "https://xubuntu.org/news/xubuntu-18-04-release/"
   Xubuntu 17.10.1 : "https://xubuntu.org/news/xubuntu-17-10-1-release"
   Xubuntu 17.10 Artful Aardvark : "https://xubuntu.org/news/xubuntu-17-10-release/"
