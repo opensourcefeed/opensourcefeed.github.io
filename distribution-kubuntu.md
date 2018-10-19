@@ -21,6 +21,7 @@ screenshots:
   Kubuntu 16.04 : "http://www.distroscreens.com/2016/04/kubuntu-1604-xenial-xerus-screenshots.html"
 
 releases:
+  Kubuntu 18.10 Cosmic Cuttlefish: "/01-kubuntu-18.10-integrates-beatuful-plasma-5.13.5/"
   Kubuntu 18.04 Bionic Beaver : "https://kubuntu.org/news/kubuntu-18-04-has-been-released/"
   Kubuntu 17.10 Artful Aardvark : "https://kubuntu.org/news/kubuntu-17-10-artful-aardvark-is-released/"
   Kubuntu 17.10 Alpha 1 : "http://www.open-source-feed.com/2017/06/kubuntu-1710-alpha-1-is-available-now.html"
