@@ -1,8 +1,10 @@
 /* Nested navbar */
 body {font-size: 1.1rem; line-height: 2rem}
-a {color: teal}
+a {color: #0079C1}
 .navbar {border-bottom: 1px solid #ddd}
-.navbar-brand {color:teal !important;}
+.bg-dark {background-color: #0079C1 !important}
+.navbar-dark .navbar-nav .nav-link {color: #eee}
+.navbar-brand {color:white !important;}
 .navbar-small {padding: 0rem 1rem; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); border-bottom: none}
 .navbar-small .navbar-brand {font-size: 1.1rem}
 .navbar-small .nav-link {font-size: 1rem}
@@ -28,7 +30,7 @@ a {color: teal}
 /* end of navbar */
 
 #master-section {
-  background-color: teal;
+  background-color: #0079C1;
   text-align: center;
   padding: 20vh 0 10vh 0;
 }
@@ -73,7 +75,7 @@ a {color: teal}
   padding: 0.5rem 0.8rem;
 }
 #result-list a:hover {
-  background: #79a7a7;
+  background: #4479C1;
   color: white;
   text-decoration: none;
 }
@@ -90,7 +92,7 @@ a {color: teal}
   font-weight: normal;
 }
 .stories a{
-  color: teal;
+  color: #0079C1;
 }
 .stories .story {
   padding-bottom: 1rem;
@@ -119,14 +121,14 @@ blockquote{position:relative;margin:0;font-weight:400;text-align:justify;padding
 table ul{list-style-type:none;padding-left:0}
 .status-active{color:green;}
 .status-discontinued{color:red;}
-footer{text-align:center;background:teal;color:white;padding:10px 0 10px 0;}
+footer{text-align:center;background:#0079C1;color:white;padding:10px 0 10px 0;}
 .heading {
   margin-top: 1rem;
 }
 .listing {
   text-align: center;
 }
-.listing a {color: black}
+.listing a {color: #0079C1}
 .item {border: 1px solid #ddd;display: ruby; padding: 10px; line-height: 45px; transition:background 0.5s ease;cursor:pointer;background:#ECEFF1;}
 .item:hover {background: #CFD8DC}
 .item a{color:black;}
@@ -135,7 +137,7 @@ footer{text-align:center;background:teal;color:white;padding:10px 0 10px 0;}
 .center{text-align:center}
 .blog {padding-top: 20px}
 .blog h2{margin:0;text-transform:uppercase;border-bottom:1px solid #888;margin-bottom:1rem;}
-.blog h3 a{font-size: 20px; color:teal}
+.blog h3 a{font-size: 20px; color:#0079C1}
 .blog h3 a:hover {text-decoration: none}
 .blog .date {text-align: right;font-size: 12px}
 .page-link, .page-link:focus, .page-link:hover {color: #607D8B}
