@@ -1,8 +1,8 @@
 /* Nested navbar */
 body {font-size: 1.1rem; line-height: 2rem}
-a {color: #0079C1}
-.navbar {border-bottom: 1px solid #ddd}
-.bg-dark {background-color: #0079C1 !important}
+a {color: #164b78}
+a:hover {color: #35b9ab}
+.bg-dark {background-color: #173f4f !important}
 .navbar-dark .navbar-nav .nav-link {color: #eee}
 .navbar-brand {color:white !important;}
 .navbar-small {padding: 0rem 1rem; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); border-bottom: none}
@@ -30,13 +30,12 @@ a {color: #0079C1}
 /* end of navbar */
 
 #master-section {
-  background-color: #0079C1;
+  background-color: #173f4f;
   text-align: center;
   padding: 20vh 0 10vh 0;
 }
 #master-section h1 {
-
-  color: white;
+  color: #35b9ab;
 }
 .description {
   color: #dddddd;
@@ -75,13 +74,10 @@ a {color: #0079C1}
   padding: 0.5rem 0.8rem;
 }
 #result-list a:hover {
-  background: #4479C1;
+  background: #35b9ab;
   color: white;
   text-decoration: none;
 }
-.recent-additions {color: white; text-align: center;}
-.recent-additions a {width: 100%; border: 1px solid rgba(0,0,0,0.1); display: grid; color: #ddd}
-.recent-additions a:hover {text-decoration: none; background: rgba(0,0, 0, 0.1); transition:background 0.2s ease}
 /* Stories*/
 .stories h2 {
   font-size: 1.5rem;
@@ -91,9 +87,7 @@ a {color: #0079C1}
   font-size: 1.1rem;
   font-weight: normal;
 }
-.stories a{
-  color: #0079C1;
-}
+
 .stories .story {
   padding-bottom: 1rem;
 }
@@ -104,10 +98,9 @@ a {color: #0079C1}
 .social-icons, .social-icons li{display:inline;}
 .post-header h1{font-size:1.6rem;padding-top:40px;text-align:center}
 .post-header .category{border:1px solid #ddd;padding:5px}
+.post-header .post-meta {font-size: 0.9rem}
 .post-header a:hover{text-decoration:none;}
-.post-content{font-size:1em;line-height:1.7em;}
 .post-content img{max-width:100%;display:block;margin:auto}
-.post-content p{font-size: 1.1rem;line-height:2rem}
 .post-content h3{font-size:1.5rem;margin-top:2rem; margin-bottom: 1.5rem}
 .post-content h4{font-size: 1.3rem; margin-top: 1.5rem; margin-bottom: .8rem}
 .lastUpdated{font-size:16px;color:#777;}
@@ -121,7 +114,7 @@ blockquote{position:relative;margin:0;font-weight:400;text-align:justify;padding
 table ul{list-style-type:none;padding-left:0}
 .status-active{color:green;}
 .status-discontinued{color:red;}
-footer{text-align:center;background:#0079C1;color:white;padding:10px 0 10px 0;}
+footer{text-align:center;background:#173f4f;color:white;padding:10px 0 10px 0;}
 .heading {
   margin-top: 1rem;
 }
@@ -144,12 +137,12 @@ footer{text-align:center;background:#0079C1;color:white;padding:10px 0 10px 0;}
 .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {background:#607D8B;border-color:#607D8B;}
 .blog .page-nav {text-align: center}
 .comment-area h3 {font-size: 1.3rem;}
-main {padding-top: 60px}
+main {padding-top: 55px}
 main h2 {font-size: 1.4rem; color: #173f4f}
 main h3 {font-size: 1rem;}
 main .recent-stories ul{list-style-type: none; padding-left: 0}
 .recent-stories a {color: #069}
-.recent-stories a:hover {color: #6da741}
+.recent-stories a:hover {color: #35b9ab}
 
 /* Override bootstrap defaults */
 .form-control {
@@ -169,6 +162,9 @@ main .recent-stories ul{list-style-type: none; padding-left: 0}
     font-weight: normal
   }
   #search-btn {display: none}
+  body {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 360px) {

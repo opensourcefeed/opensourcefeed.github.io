@@ -51,6 +51,18 @@ $(function () {
         }
     });
 
+    var closeSearch = function() {
+        $('#search-field').val('');
+        $('#search-field').trigger('keyup');
+    }
+    // Close the search result, when clicking outside
+    $(':not("#search-area")').on('click', closeSearch);
+    $(document).keyup(function(e) {
+        if (e.key === 'Escape') {
+            closeSearch();
+        }
+    });
+
     // Control size of navbar on scrolling
     $(window).scroll(function () {
         if ($(document).scrollTop() > 50) {
