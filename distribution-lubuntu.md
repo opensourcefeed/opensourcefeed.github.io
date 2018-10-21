@@ -17,6 +17,7 @@ purchase:
 description : Lubuntu is one of the oldest official community flavors of Ubuntu. It provides a lightweight desktop experience with LXQt desktop environment.
 
 releases:
+  Lubuntu 18.10 Cosmic Cuttlefish: "/00-lubuntu-cosmic-first-release-lxqt/"
   Lubuntu 18.10 Cosmic Beta: "/01-Lubuntu-18.10-beta-released-with-lxqt-for-the-first-time/"
   Lubuntu 17.10 Artful Aardvark : "http://lubuntu.me/artful-released/"
   Lubuntu 17.10 Alpha 2 : "http://lubuntu.me/lubuntu-artful-aardvark-alpha-2-has-been-released/"
