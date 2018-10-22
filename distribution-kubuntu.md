@@ -15,6 +15,7 @@ purchase :
 description : Kubuntu is one of the oldest, official community flavor of Ubuntu featuring modern Plasma desktop. Stories and updates on Kubuntu
 
 screenshots:
+  Kubuntu 18.10 Cosmic Cuttlefish: "https://www.distroscreens.com/2018/10/kubuntu-1810-cosmic-cuttlefish.html"
   Kubuntu 18.04 Bionic Beaver screenshots: "http://www.distroscreens.com/2018/06/kubuntu-1804-lts-bionic-beaver.html"
   Kubuntu 17.10 Artful Aardvark : "http://www.distroscreens.com/2017/11/kubuntu-1710-artful-aardvark-screenshots.html"
   Kubuntu 17.04 : "http://www.distroscreens.com/2017/04/kubuntu-1704-zesty-zapus-screenshots.html"
