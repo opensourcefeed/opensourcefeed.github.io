@@ -1,5 +1,5 @@
 ---
-title: "Feren OS October snapshot major improvements"
+title: "Feren OS October snapshot brings major improvements"
 layout: post
 categories: ferenos release
 tags: ferenos release
