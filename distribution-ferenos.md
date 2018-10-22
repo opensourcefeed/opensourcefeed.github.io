@@ -12,6 +12,7 @@ base : [linuxmint]
 description : feren OS is a traditional looking, modern desktop environment built on top of Linux Mint. It offers a well tweaked desktop environment to attract the masses.
   
 releases:
+  feren OS 2018.10: "/00-ferenos-october-snapshot-brings-significant-improvements/"
   feren OS 2018.1 : "../feren-os-launches-a-new-snapshot-to-welcome-2018/"
   feren OS 2017.0 Murdock : "http://www.open-source-feed.com/2017/05/feren-os-20170-murdock-released-based.html"
   feren OS 2017.0 RC : "http://ferenos.weebly.com/blog/feren-os-20170-release-candidate-released-buckle-your-belts-and-get-ready-stables-on-its-way"
