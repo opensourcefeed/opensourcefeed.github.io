@@ -26,6 +26,7 @@ releases:
   Lubuntu 16.04.2 : "http://lubuntu.me/lubuntu-16-04-2-released/"
 
 screenshots :
+  Lubuntu 18.10 Cosmic Cuttlefish: "https://www.distroscreens.com/2018/10/lubuntu-1810-cosmic-cuttlefish-lxqt.html"
   Lubuntu 18.10 Cosmic Cuttlefish Beta : "http://www.distroscreens.com/2018/10/lubuntu-1810-cosmic-cutlet-lxqt-beta.html"
   Lubuntu 17.10 Artful Aardvark : "http://www.distroscreens.com/2017/10/lubuntu-1710-artful-aardvark-screenshots.html"
   Lubuntu 17.04 Zesty Zapus : "http://www.distroscreens.com/2017/04/lubuntu-1704-zesty-zapus-screenshots.html"
