@@ -10,10 +10,13 @@ preview: tails-preview.jpg
 home_page: https://tails.boum.org/
 desktops: [gnome]
 base : [debian]
+purchase:
+  OSDisc : "https://www.osdisc.com/products/tails"
 
 description : "Tails - is a Debian based operating system which offers provision for secure, anonymous and private browsing. Stories, updates and reviews on Tails GNU/Linux."
 
 releases:
+  Tails 3.10.1: "/00-tails-3.10.1-patch-security-issues/"
   Tails 3.9 : "/00-Tails-3.9-released-with-additional-automated-software-installation/"
   Tails 3.6 : "../tails-3.6-released-with-video-acceleration-driver-api-and-other-updates/"
   Tails 3.1 : "http://www.open-source-feed.com/2017/08/tails-31-released-with-important.html"
