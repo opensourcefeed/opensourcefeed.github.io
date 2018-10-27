@@ -156,6 +156,8 @@ main .recent-stories ul{list-style-type: none; padding-left: 0}
 .distribution h2 {border-bottom: 1px solid #eee; margin-top: 2rem; margin-bottom: 1rem}
 .desktop {height: fill-available; height: -moz-available; height: -webkit-fill-available}
 
+pre.highlight {background: #173f4f; color: white; padding: 1rem}
+
 @media (max-width: 430px) {
   #search-field {
     font-size: 0.8rem;
