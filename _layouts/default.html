@@ -18,7 +18,12 @@ layout: compress
     <script src={{"/assets/script/bootstrap.min.js" | relative_url}} defer></script>
     <script src={{"assets/script/main.js" | relative_url }} defer></script>
     <!-- {{page.url}} -->
-    {% seo %}
+    {% if page.tagline %}
+      {% seo title=false %}
+      <title>{{page.title}} - {{page.tagline}} | {{site.title}}</title>
+    {% else %}
+      {% seo %}
+    {% endif %}
 </head>
 
 <body>

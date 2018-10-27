@@ -2,6 +2,7 @@
 layout: distribution
 uid: solus
 title: 'Solus'
+tagline: 'OS Designed for everyone'
 Category: Distribution
 type : Linux
 permalink: /distribution/solus

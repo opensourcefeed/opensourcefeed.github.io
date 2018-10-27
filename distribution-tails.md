@@ -2,6 +2,7 @@
 layout: distribution
 uid: tails
 title: 'Tails'
+tagline: 'the amnesic live incognito system'
 Category: Distribution
 type : Linux
 permalink: /distribution/tails
