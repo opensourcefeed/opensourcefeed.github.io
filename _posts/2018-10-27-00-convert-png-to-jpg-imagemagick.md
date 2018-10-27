@@ -36,7 +36,7 @@ Now, we are familiar with PNG, JPG and ImageMagick. So, it is time to talk about
 
 ImageMagick provides a set of command-line tools for performing image manipulation operations. **convert** is one such tool in ImageMagick tool suite, that facilitate the conversion of images between various formats. It also provides options to resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.
 
-You can the complete `convert` tool documentation using the man pages. The man page for `convert` can be read using the following commands:
+You can read the complete `convert` tool documentation using the man pages. The man page for `convert` can be read using the following commands:
 ```
 $ convert --help
    OR
