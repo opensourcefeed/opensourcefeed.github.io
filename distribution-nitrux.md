@@ -2,6 +2,7 @@
 layout: distribution
 uid: nitrux
 title: 'Nitrux'
+tagline: 'Innovation Our Motivation'
 Category: Distribution
 type : Linux
 permalink: /distribution/nitrux
@@ -17,6 +18,7 @@ purchase :
 description : "Nitrux is a beginner friendly GNU/Linux distribution that ships a well-tweaked Plasma desktop on top of stable Ubuntu core and delivers a clean user experience"
 
 releases:
+  Nitrux 1.1.0: "/1-nitrux-1.1.0-innovative-znx-mauikit/"
   Nitrux 1.0.16 : "/00-Nitrux-1.0.16-released-with-package-updates-from-Ubuntu-Cosmic/"
   Nitrux 1.0.15 : "/00-Nitrux-1.0.15-released-with-updated-hardware-and-graphics-stack/"
   Nitrux 1.0.13 : "http://www.open-source-feed.com/2018/06/nitrux-1013-released-with-improved.html"
