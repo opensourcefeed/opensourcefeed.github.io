@@ -26,6 +26,7 @@ releases :
   Ubuntu 16.04.2 : http://www.open-source-feed.com/2017/02/ubuntu-16042-released-with-improved.html
 
 screenshots:
+  Ubuntu 18.10 Cosmic Cuttlefish: "https://www.distroscreens.com/2018/10/ubuntu-1810-cosmic-cuttlefish.html"
   Ubuntu 18.10 Beta: "https://www.distroscreens.com/2018/09/ubuntu-1810-cosmic-cutlet-beta.html"
   Ubuntu 18.04: "https://www.distroscreens.com/2018/04/ubuntu-1804-bionic-beaver-screenshots.html"
   Ubuntu 17.10 : "http://www.distroscreens.com/2017/10/ubuntu-1710-artful-aardvark-screenshots.html"
