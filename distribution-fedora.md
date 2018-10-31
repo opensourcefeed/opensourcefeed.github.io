@@ -2,6 +2,7 @@
 layout: distribution
 uid: fedora
 title: 'Fedora'
+tagline: "Choose Freedom, Choose Fedora"
 Category: Distribution
 type : Linux
 permalink: /distribution/fedora
@@ -37,6 +38,7 @@ screenshots :
   Fedora 24 Alpha : "http://www.distroscreens.com/2016/04/fedora-24-alpha-gnome-320-screenshots.html"
 
 releases:
+  Fedora 29: "/1-fedora-celeberates-birthday-fedora29-release/"
   Fedora 29 Beta: "/00-fedora-29-beta-released-with-GNOME-3.30/"
   Fedora 28 : "https://www.open-source-feed.com/2018/05/fedora-28-released-with-modular.html"
   Fedora 28 Beta: "../fedora-28-beta-released-with-initial-support-for-module-repositories/"
