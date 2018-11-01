@@ -157,7 +157,7 @@ main .recent-stories ul{list-style-type: none; padding-left: 0}
 .desktop {height: fill-available; height: -moz-available; height: -webkit-fill-available}
 
 pre.highlight {background: #173f4f; color: white; padding: 1rem}
-p img+em {display: block;text-align: center; border-bottom: 1px dashed #eee}
+p img+em {display: block;text-align: center; border-bottom: 1px dashed #eee; font-style: normal; font-size: 15px}
 
 @media (max-width: 430px) {
   #search-field {
