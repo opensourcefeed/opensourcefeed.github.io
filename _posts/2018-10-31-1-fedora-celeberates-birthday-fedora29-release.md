@@ -2,7 +2,7 @@
 title: "Fedora celebrates 15th birthday with Fedora 29 release"
 layout: post
 categories: fedora release
-tags: release release
+tags: release fedora
 image: "/assets/images/post-images/fedora-29-preview.jpg"
 ---
 
