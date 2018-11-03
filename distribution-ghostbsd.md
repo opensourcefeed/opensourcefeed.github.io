@@ -30,4 +30,4 @@ stories:
 
 GhostBSD includes a simple installer, a desktop environment,  and user-friendly package management. It also provides out-of-the-box multimedia support with pre-installed codecs.
 
-GhostBSD is an ideal choice for modern workstations and single board computers with 64-bit hardware.
+Previously, the GhostBSD was based on FreeBSD. On May 2018, the team decided to switch the base in favor of TrueOS. The trasition was initially implemented in GhostBSD 18.10 release.
