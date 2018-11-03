@@ -24,6 +24,7 @@ reviews :
   Fedora 25 is not something worth to recommend: "http://www.open-source-feed.com/2017/02/fedora-25-is-not-something-worth-to.html"
 
 screenshots :
+  Fedora 29 Workstation: "https://www.distroscreens.com/2018/11/fedora-29-workstation-screenshots.html"
   Fedora 29 Workstation Beta: "http://www.distroscreens.com/2018/10/fedora-29-workstation-beta-gnome-330.html"
   Fedora 28 Workstation : "https://www.distroscreens.com/2018/05/fedora-28-workstation-screenshots.html"
   Fedora 28 Workstation beta : "https://goo.gl/r6qUR8"
