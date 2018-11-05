@@ -2,6 +2,7 @@
 layout: distribution
 uid: ubuntumate
 title: 'Ubuntu MATE'
+tagline: 'For a retrospective future.'
 Category: Distribution
 permalink: /distribution/ubuntumate
 logo: ubuntumate.png
@@ -27,6 +28,7 @@ reviews:
   Ubuntu MATE 15.10 : "http://www.open-source-feed.com/2015/11/ubuntu-mate-1510-review.html"
 
 screenshots:
+  Ubuntu MATE 18.10 Cosmic Cuttlefish: "https://www.distroscreens.com/2018/11/ubuntu-mate-1810-cosmic-cuttlefish.html"
   Ubuntu MATE 18.04 Bionic Beaver : "http://www.distroscreens.com/2018/05/ubuntu-mate-1804-bionic-beaver.html"
   Ubuntu MATE 17.10 Artful Aardvark : "https://goo.gl/fuyVeB"
   Ubuntu MATE 17.04 : "http://www.distroscreens.com/2017/04/ubuntu-mate-1704-zesty-zapus-screenshots.html"
