@@ -14,6 +14,7 @@ purchase:
   OSDisc : "https://www.osdisc.com/products/reactos"
 
 releases:
+  ReactOS 0.4.10: "/1-reactos-0.4.10-btrfs-support/"
   ReactOS 0.4.9 : "../reactos-4.9-released-with-stability-and-usability-improvements/"
   ReactOS 0.4.8 : "https://www.open-source-feed.com/2018/04/reactos-048-released-with-improved-user.html"
   ReactOS 0.4.7 : "http://www.reactos.org/project-news/reactos-047-released"
