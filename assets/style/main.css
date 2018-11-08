@@ -86,6 +86,8 @@ a:hover {color: #35b9ab}
 .stories h3 {
   font-size: 1.1rem;
   font-weight: normal;
+  margin: auto;
+  margin-bottom: .5rem
 }
 
 .stories .story {
@@ -101,10 +103,8 @@ a:hover {color: #35b9ab}
 .post-header .post-meta {font-size: 0.9rem}
 .post-header a:hover{text-decoration:none;}
 .post-content img{max-width:100%;display:block;margin:auto}
-.post-content h3{font-size:1.5rem;margin-top:2rem; margin-bottom: 1.5rem}
-.post-content h4{font-size: 1.3rem; margin-top: 1.5rem; margin-bottom: .8rem}
 .lastUpdated{font-size:16px;color:#777;}
-blockquote{position:relative;margin:0;font-weight:400;text-align:justify;padding:1rem;background:#f0f0f0;}
+blockquote{border-left: 5px solid #ccc; padding: 1rem; background: #eee}
 .related h3{font-size:1.2rem;}
 .logo{max-width:240px;text-align:center;margin:auto;margin-bottom:20px;}
 .preview{width:100%;text-align:center;margin:auto;}
@@ -128,8 +128,9 @@ footer{text-align:center;background:#173f4f;color:white;padding:10px 0 10px 0;}
 .hidden{display:none}
 .center{text-align:center}
 .blog {padding-top: 20px}
+.blog h3, .blog h2{font-weight: normal;margin: 1rem 0 .5rem}
 .blog h2{margin:0;text-transform:uppercase;border-bottom:1px solid #888;margin-bottom:1rem;}
-.blog h3 a{font-size: 20px;}
+.blog h3 a{font-size: 20px; margin: 1rem 0 .5rem}
 .blog h3 a:hover {text-decoration: none}
 .blog .date {text-align: right;font-size: 12px}
 .page-link, .page-link:focus, .page-link:hover {color: #607D8B}
@@ -137,8 +138,10 @@ footer{text-align:center;background:#173f4f;color:white;padding:10px 0 10px 0;}
 .blog .page-nav {text-align: center}
 .comment-area h3 {font-size: 1.3rem;}
 main {padding-top: 55px}
-main h2 {font-size: 1.4rem; color: #173f4f}
-main h3 {font-size: 1rem;}
+h2, h2, h3, h4 {font-weight: bold}
+main h2 {font-size: 1.4em; color: #173f4f}
+main h3 {font-size: 1.2em; margin: 1.8em 0 1rem}
+main h4 {font-size: 1rem; margin: 1em 0}
 main .recent-stories ul{list-style-type: none; padding-left: 0}
 .recent-stories a {color: #069}
 .recent-stories a:hover {color: #35b9ab}
