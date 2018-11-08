@@ -8,8 +8,8 @@ image: "/assets/images/post-images/manjaro-18.10-illyria.jpg"
 
 **Mr.** *Philip Müller* of Manjaro team has announced the availability of Manjaro 18.10 Illyria. This a stable snapshot of beginner-friendly Arch-based GNU/Linux distribution. Manjaro *Illyria* brings a set of updated packages and refined user experience. It includes the latest cutting-edge technologies like Xfce 4.13 and Plasma 5.14.
 
-![Manjaro 18.10 Illyria File Picture](/assets/images/post-images/manjaro-18.10-illyria.jpg)
-*Manjaro 18.10 Illyria File Picture*
+![Manjaro 18.0 Illyria File Picture](/assets/images/post-images/manjaro-18.10-illyria.jpg)
+*Manjaro 18.0 Illyria File Picture*
 
 ### What is interesting with Manjaro Illyria?
 Well. The interesting part about every distribution release is the features and changes it brings. If a release is coming with less number of changes and improvements, then it is not considered as interesting at all.
