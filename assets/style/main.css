@@ -140,8 +140,8 @@ footer{text-align:center;background:#173f4f;color:white;padding:10px 0 10px 0;}
 main {padding-top: 55px}
 h2, h2, h3, h4 {font-weight: bold}
 main h2 {font-size: 1.4em; color: #173f4f}
-main h3 {font-size: 1.2em; margin: 1.8em 0 1rem}
-main h4 {font-size: 1rem; margin: 1em 0}
+main h3 {font-size: 1.2em; margin: 2em 0 1rem}
+main h4 {font-size: 1rem; margin: 1.5em 0}
 main .recent-stories ul{list-style-type: none; padding-left: 0}
 .recent-stories a {color: #069}
 .recent-stories a:hover {color: #35b9ab}
