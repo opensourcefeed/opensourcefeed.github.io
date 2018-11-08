@@ -5,7 +5,7 @@ title: 'Xubuntu'
 Category: Distribution
 permalink: /distribution/xubuntu
 logo: xubuntu.png
-preview: xubuntu.png
+preview: xubuntu.jpg
 home_page: https://xubuntu.org/
 desktops: [xfce]
 base : [ubuntu]
@@ -25,6 +25,7 @@ stories:
   "SRU for 16.04: Intel cursor bug fix released" : "https://xubuntu.org/news/sru-16-04-intel-cursor-bug-fix-released/"
 
 screenshots :
+  Xubuntu 18.10 Cosmic Cuttlefish: "https://www.distroscreens.com/2018/11/xubuntu-1810-cosmic-cuttlefish.html"
   Xubuntu 18.04 Bionic Beaver screenshots : "https://www.distroscreens.com/2018/06/xubuntu-1804-bionic-beaver-screenshots.html"
   Xubuntu 17.10 Artful Aardvark screenshots : "http://www.distroscreens.com/2017/11/xubuntu-1710-artful-aardvark-screenshots.html"
   Xubuntu 17.04 Zesty Zapus screenshots : "http://www.distroscreens.com/2017/04/xubuntu-1704-zesty-zapus-screenshots.html"
@@ -35,10 +36,10 @@ reviews:
   Xubuntu 15.10 Wily Werewolf - not a silver bullet : "http://www.open-source-feed.com/2015/11/xubuntu-1510-wily-werewolf-not-silver.html"
 ---
 
-**Xubuntu** is a full featured, yet lightweight and resource efficient GNU/Linux distribution. Built on top of Ubuntu core, it provides a reliable, stable and secure platform along with Xfce Desktop environment.
+**Xubuntu** is a full-featured, yet lightweight and resource efficient GNU/Linux distribution. Built on top of Ubuntu core, it provides a reliable, stable and secure platform along with Xfce Desktop environment.
 
-Xubuntu is one among the early members of official community flavors of Ubuntu and has a fair amount of user base. It is mainly choosen by people having older systems, notebooks or who don't like the *complexities* of other main stream desktop environments.
+Xubuntu is one among the early members of official community flavors of Ubuntu and has a fair amount of user base. It is mainly chosen by people having older systems, notebooks or who don't like the *complexities* of other mainstream desktop environments.
 
-Instead of providing vanilla Xfce Desktop, Xubuntu ships a fairly custmoized version of Xfce. These customizations includes, but not limited to, a professional looking icon and Gtk theme, Whisker application menu, and a set of beautiful wallpapers.
+Instead of providing vanilla Xfce Desktop, Xubuntu ships a fairly customized version of Xfce. These customizations include, but not limited to, a professional looking icon and Gtk theme, Whisker application menu, and a set of beautiful wallpapers.
 
-There is another variation of Xubuntu called, Xubuntu Core. It is a minimal version of Xubuntu with vanilla Xfce desktop
+There is another variation of Xubuntu called, Xubuntu Core. It is a minimal version of Xubuntu with vanilla Xfce desktop.

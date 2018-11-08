@@ -2,6 +2,7 @@
 layout: distribution
 uid: zorin
 title: 'Zorin OS'
+tagline: 'Secure, faster and powerful alternative for Windows and macOS'
 Category: Distribution
 type : Linux
 permalink: /distribution/zorin
@@ -39,6 +40,6 @@ screenshots:
   Zorin OS 12 Core : "http://www.distroscreens.com/2016/12/zorin-os-12-core-screenshots.html"
 ---
 
-**Zorin OS** is a good choice for people migrating from other proprietary operating systems like Microsoft Windows and macOS. It combines solid Ubuntu base with a custom desktop environment called Zorin Desktop which can be customized to mimic the looks of a range of other desktop environments and operating systems like GNOME 2, GNOME 3, macOS, Windows classic, Windows 7 ..etc.
+**Zorin OS** is a good choice for people migrating from other proprietary operating systems like Microsoft Windows and macOS. It combines solid Ubuntu base with a custom desktop environment called Zorin Desktop. The Zorin Desktop can be customized to mimic the looks of a range of other desktop environments and operating systems like GNOME 2, GNOME 3, macOS, Windows classic, Windows 7 ..etc.
 
-Zorin OS also ships a nice collection of themes which resembles other properietary operating systems and easy customization tools which will allow to choose between web browsers, desktop looks and feel ..etc.
+Zorin OS also ships a nice collection of themes which resembles other proprietary operating systems. It provides tools to easily switch between different layouts, browsers, and themes.
