@@ -1,5 +1,5 @@
 ---
-title: "Oracle Linux 7 Update 6 enable auditing for RPM managed packages"
+title: "Oracle Linux 7 Update 6 enables auditing for RPM managed packages"
 layout: post
 categories: oraclelinux release
 tags: oraclelinux release
