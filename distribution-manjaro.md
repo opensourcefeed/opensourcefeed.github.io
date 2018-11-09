@@ -32,6 +32,7 @@ releases:
   Manjaro 17.0-rc1 Xfce & KDE : http://www.open-source-feed.com/2017/02/manjaro-170-rc1-xfce-kde-flavors.html
 
 screenshots:
+  Manjaro 18.0 Xfce: "https://goo.gl/ZmaJJW"
   Manjaro 17.0.2 LXQt : "http://www.distroscreens.com/2017/07/manjaro-lxqt-1702-screenshots.html"
   Manjaro 17.0 MATE : "http://www.distroscreens.com/2017/04/manjaro-mate-170-screenshots.html"
   Manjaro 17.0 Cinnamon : http://www.distroscreens.com/2017/03/manjaro-170-gellivara-cinnamon.html
