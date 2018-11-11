@@ -1,8 +1,8 @@
 ---
 title: "Oracle Linux 7 Update 6 enables auditing for RPM managed packages"
 layout: post
-categories: oraclelinux release
-tags: oraclelinux release
+categories: oracle release
+tags: oracle release
 image: "/assets/images/post-images/OracleLinux-banner.jpg"
 ---
 
