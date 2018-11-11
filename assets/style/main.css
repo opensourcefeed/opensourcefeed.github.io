@@ -138,6 +138,7 @@ footer{text-align:center;background:#173f4f;color:white;padding:10px 0 10px 0;}
 .blog .page-nav {text-align: center}
 .comment-area h3 {font-size: 1.3rem;}
 main {padding-top: 55px}
+main h2, main h3 {font-weight: bold;}
 main h2 {font-size: 1.4em; color: #173f4f}
 main h3 {font-size: 1.2em; margin: 2em 0 1rem}
 main h4 {font-size: 1em; margin: 1em 0}
