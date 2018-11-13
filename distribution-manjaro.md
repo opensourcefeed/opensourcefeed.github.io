@@ -2,11 +2,12 @@
 layout: distribution
 uid: manjaro
 title: 'Manjaro Linux'
+tagline: 'Enjoy the simplicity'
 Category: Distribution
 type : Linux
 permalink: /distribution/manjaro
 logo: Manjaro-logo.svg
-preview: manjaro-xfce.jpg
+preview: manjaro-preview.jpg
 home_page: https://manjaro.org/
 desktops: [plasma, xfce, mate, gnome, cinnamon, budgie, lxqt, i3, lxde, awesome, bspwm, deepin]
 base : [arch]
@@ -32,6 +33,8 @@ releases:
   Manjaro 17.0-rc1 Xfce & KDE : http://www.open-source-feed.com/2017/02/manjaro-170-rc1-xfce-kde-flavors.html
 
 screenshots:
+  Manjaro 18.0 GNOME: "https://www.distroscreens.com/2018/11/manjaro-180-illyria-gnome-edition.html"
+  Manjaro 18.0 KDE: "https://www.distroscreens.com/2018/11/manjaro-180-illyria-kde-plasma-edition.html"
   Manjaro 18.0 Xfce: "https://goo.gl/ZmaJJW"
   Manjaro 17.0.2 LXQt : "http://www.distroscreens.com/2017/07/manjaro-lxqt-1702-screenshots.html"
   Manjaro 17.0 MATE : "http://www.distroscreens.com/2017/04/manjaro-mate-170-screenshots.html"
