@@ -16,9 +16,9 @@
 title: OpenSourceFeed
 email: niyasmonc@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Gallery of various GNU/Linux, BSD and other open source distributions and different open source desktop environments with updates & stories on each.
+  Gallery of GNU/Linux, BSD and other open source distributions and open source desktop environments with updates & stories on each.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://theopensourcefeed.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://theopensourcefeed.com" # the base hostname & protocol for your site, e.g. http://example.com
 caption: Free Operating Systems & Desktop Environments
 twitter_username: opensourcefeed
 github_username:  opensourcefeed
