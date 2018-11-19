@@ -22,6 +22,7 @@ releases :
   deepin 15.4 beta : "http://www.open-source-feed.com/2017/03/deepin-154-beta-released-with.html"
 
 screenshots :
+  deepin 15.8: "https://goo.gl/uHz4Bz"
   deepin 15.4.1 : "http://www.distroscreens.com/2017/08/deepin-1541-screenshots.html"
   deepin 15.2 : "http://www.distroscreens.com/2016/06/deepin-152-screenshots.html"
 

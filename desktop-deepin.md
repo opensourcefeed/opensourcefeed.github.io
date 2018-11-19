@@ -4,7 +4,7 @@ uid: deepindesktop
 title: 'Deepin Desktop'
 Category: Desktop
 permalink: /desktop/deepin
-preview: deepin-preview.jpg
+preview: deepin-desktop.jpg
 home_page: https://www.deepin.org/en/dde/
 
 description : Deepin Desktop is a beautiful and fully functional desktop environment, initially developed for deepin, later grown to work on different distributions.
