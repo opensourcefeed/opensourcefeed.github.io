@@ -2,6 +2,7 @@
 layout: distribution
 uid: slax
 title: 'Slax Linux'
+tagline: 'Your pocket operating system'
 Category: Distribution
 permalink: /distribution/slax
 type : Linux
@@ -16,6 +17,7 @@ purchase:
 description : "Slax is a Debian based, live GNU/Linux distribution that follows a modular design approach. It comes with minimal tools required to run a desktop system"
 
 releases:
+  Slax 9.6.4 : "/1-slax-9.6.4-release/"
   Slax 9.5.0 : "http://www.slax.org/blog/24886-Slax-9-5-0-released.html"
   Slax 9.4.0 : "/Slax-9.4-released-with-extra-applications/"
   Slax 9.3.0 : "/slax-93-released-with-improved-wifi-support/"
