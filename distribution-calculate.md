@@ -17,6 +17,7 @@ screenshots:
   Calculate Linux 15.17 Xfce (CLDX): "https://www.distroscreens.com/2016/05/calculate-linux-1517-xfce-cldx.html"
 
 releases:
+  Calculate Linux 18 LXQt: "/1-calculate-linux-lxqt-18-release/"
   Calculate Linux 17.12: "/calculate-linux-1712-released-with-support-for-raid/"
   Calculate Linux 17.12.2: "https://www.open-source-feed.com/2018/02/calculate-linux-17122-released-with.html"
   Calculate Linux 17.6: "https://www.open-source-feed.com/2017/07/celeberating-10th-anniversary-calulate.html"
