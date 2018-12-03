@@ -1,7 +1,8 @@
 ---
 layout: distribution
 uid: dragonfly
-title: 'DragonFly BSD'
+title: 'DragonFly'
+tagline: 'BSD with a unique direction'
 Category: Distribution
 type : BSD
 permalink: /distribution/dragonfly
@@ -17,6 +18,7 @@ description:
   DragonFly BSD an operating system makes use of same Unix ideals and APIs and shares code with other BSD distributions but takes it in a different direction.
 
 releases:
+  DragonFly 5.4.0: "/1-dragonfly-5.4.0-released/"
   DragonFly 5.0.0 : "https://www.dragonflybsd.org/release50"
   DragonFly BSD 4.4.3 : "http://www.open-source-feed.com/2016/04/dragonflybsd-443-released.html"
   DragonFly BSD 4.4.1 : "http://www.open-source-feed.com/2015/12/dragonflybsd-441-released.html"
