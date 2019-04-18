@@ -22,4 +22,4 @@ Calamares is a universal, distribution agonistic system installer that aims to b
 
 The Lubuntu team was able to get most of the features working on Calamares, however, there are still some issues with EFI systems and encrypted LUKS systems setting up GRUB correctly. These issues will be fixed in proceeding releases.
 
-For [more information on Lubuntu 18.10 Cosmic Cuttlefish](https://lubuntu.me/cosmic-released/), see release announcement in Lubuntu blog. You may also check out [Lubuntu 18.10 beta screenshots](https://www.distroscreens.com/2018/10/lubuntu-1810-cosmic-cutlet-lxqt-beta.html) in DistroScreens.
+For [more information on Lubuntu 18.10 Cosmic Cuttlefish](https://lubuntu.me/cosmic-released/), see release announcement in Lubuntu blog. You may also check out [Lubuntu 18.10 beta screenshots](https://distroscreens.blogspot.com/2018/10/lubuntu-1810-cosmic-cutlet-lxqt-beta.html) in DistroScreens.

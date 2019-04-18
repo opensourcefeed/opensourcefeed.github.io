@@ -14,14 +14,14 @@ base : Independent
 description : "Red Hat Enterprise Linux is an enterprise quality GNU/Linux distribution developed by Red Hat Inc, one of the biggest open source giant in the world. Learn more about Red Hat Enterprise Linux"
 
 releases :
-  Red Hat Enterprise Linux 7.4 : "http://www.open-source-feed.com/2017/08/red-hat-enterprise-linux-74-released.html"
-  Red Hat Enterprise Linux 7.3 : "http://www.open-source-feed.com/2016/11/red-hat-el-73-released-with-enhanced.html"
-  Red Hat Enterprise Linux 6.9 : "http://www.open-source-feed.com/2017/03/red-hat-enterprise-linux-69-released.html"
-  Red Hat Enterprise Linux 6.8 : "http://www.open-source-feed.com/2016/05/red-hat-enterprise-linux-68-released.html"
+  Red Hat Enterprise Linux 7.4 : "http://open-source-feed.blogspot.com/2017/08/red-hat-enterprise-linux-74-released.html"
+  Red Hat Enterprise Linux 7.3 : "http://open-source-feed.blogspot.com/2016/11/red-hat-el-73-released-with-enhanced.html"
+  Red Hat Enterprise Linux 6.9 : "http://open-source-feed.blogspot.com/2017/03/red-hat-enterprise-linux-69-released.html"
+  Red Hat Enterprise Linux 6.8 : "http://open-source-feed.blogspot.com/2016/05/red-hat-enterprise-linux-68-released.html"
 
 stories:
   Red Hat introduces ARM server support for Enterprise Linux : "https://www.redhat.com/en/blog/red-hat-introduces-arm-server-support-red-hat-enterprise-linux"
-  Red Hat donates two new servers to GNOME project : "http://www.open-source-feed.com/2016/05/red-hat-donates-two-new-servers-to.html"
+  Red Hat donates two new servers to GNOME project : "http://open-source-feed.blogspot.com/2016/05/red-hat-donates-two-new-servers-to.html"
 ---
 
 **Red Hat Enterprise Linux**(RHEL in short) is an enterprise quality GNU/Linux distribution developed by Red Hat Inc, one of the biggest open source giant in the world. Red Hat Enterprise Linux is one of the oldest GNU/Linux distribution and it is model for succesful monetization of GNU/Linux operating system and related resources.

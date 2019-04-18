@@ -16,12 +16,12 @@ purchase:
 releases:
   ReactOS 0.4.10: "/1-reactos-0.4.10-btrfs-support/"
   ReactOS 0.4.9 : "../reactos-4.9-released-with-stability-and-usability-improvements/"
-  ReactOS 0.4.8 : "https://www.open-source-feed.com/2018/04/reactos-048-released-with-improved-user.html"
+  ReactOS 0.4.8 : "https://open-source-feed.blogspot.com/2018/04/reactos-048-released-with-improved-user.html"
   ReactOS 0.4.7 : "http://www.reactos.org/project-news/reactos-047-released"
 
 screenshots:
-  ReactOS 0.4.6 : "http://www.distroscreens.com/2017/09/windows-binary-compatible-reactos-046.html"
-  ReactOS 0.4.1 : "http://www.distroscreens.com/2016/05/reactos-041-screenshots.html"
+  ReactOS 0.4.6 : "http://distroscreens.blogspot.com/2017/09/windows-binary-compatible-reactos-046.html"
+  ReactOS 0.4.1 : "http://distroscreens.blogspot.com/2016/05/reactos-041-screenshots.html"
 
 description : ReactOS is an independently developed, open source operating system inspired by Windows 9x architecture.
 ---

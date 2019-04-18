@@ -15,19 +15,19 @@ purchase :
 description : Kubuntu is one of the oldest, official community flavor of Ubuntu featuring modern Plasma desktop. Stories and updates on Kubuntu
 
 screenshots:
-  Kubuntu 18.10 Cosmic Cuttlefish: "https://www.distroscreens.com/2018/10/kubuntu-1810-cosmic-cuttlefish.html"
-  Kubuntu 18.04 Bionic Beaver screenshots: "http://www.distroscreens.com/2018/06/kubuntu-1804-lts-bionic-beaver.html"
-  Kubuntu 17.10 Artful Aardvark : "http://www.distroscreens.com/2017/11/kubuntu-1710-artful-aardvark-screenshots.html"
-  Kubuntu 17.04 : "http://www.distroscreens.com/2017/04/kubuntu-1704-zesty-zapus-screenshots.html"
-  Kubuntu 16.04 : "http://www.distroscreens.com/2016/04/kubuntu-1604-xenial-xerus-screenshots.html"
+  Kubuntu 18.10 Cosmic Cuttlefish: "https://distroscreens.blogspot.com/2018/10/kubuntu-1810-cosmic-cuttlefish.html"
+  Kubuntu 18.04 Bionic Beaver screenshots: "http://distroscreens.blogspot.com/2018/06/kubuntu-1804-lts-bionic-beaver.html"
+  Kubuntu 17.10 Artful Aardvark : "http://distroscreens.blogspot.com/2017/11/kubuntu-1710-artful-aardvark-screenshots.html"
+  Kubuntu 17.04 : "http://distroscreens.blogspot.com/2017/04/kubuntu-1704-zesty-zapus-screenshots.html"
+  Kubuntu 16.04 : "http://distroscreens.blogspot.com/2016/04/kubuntu-1604-xenial-xerus-screenshots.html"
 
 releases:
   Kubuntu 18.10 Cosmic Cuttlefish: "/01-kubuntu-18.10-integrates-beatuful-plasma-5.13.5/"
   Kubuntu 18.04 Bionic Beaver : "https://kubuntu.org/news/kubuntu-18-04-has-been-released/"
   Kubuntu 17.10 Artful Aardvark : "https://kubuntu.org/news/kubuntu-17-10-artful-aardvark-is-released/"
-  Kubuntu 17.10 Alpha 1 : "http://www.open-source-feed.com/2017/06/kubuntu-1710-alpha-1-is-available-now.html"
+  Kubuntu 17.10 Alpha 1 : "http://open-source-feed.blogspot.com/2017/06/kubuntu-1710-alpha-1-is-available-now.html"
   Kubuntu 17.04 : "http://kubuntu.org/news/kubuntu-17-04-released/"
-  Kubuntu 17.04 Beta 1 : "http://www.open-source-feed.com/2017/02/kubuntu-1704-beta-1-released-with.html"
+  Kubuntu 17.04 Beta 1 : "http://open-source-feed.blogspot.com/2017/02/kubuntu-1704-beta-1-released-with.html"
 
 stories:
   Plasma 5.8.5 bugfix release in Xenial and Yakkety Backports now : "http://kubuntu.org/news/plasma-5-8-5-bugfix-release-in-xenial-and-yakkety-backports-now/"

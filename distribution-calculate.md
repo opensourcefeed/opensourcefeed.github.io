@@ -14,17 +14,17 @@ base : [gentoo]
 description : "Calculate Linux is a Gentoo based GNU/Linux distribution optimized work on both laptops and servers. It enables easy deployment in corporate environments."
 
 screenshots:
-  Calculate Linux 15.17 Xfce (CLDX): "https://www.distroscreens.com/2016/05/calculate-linux-1517-xfce-cldx.html"
+  Calculate Linux 15.17 Xfce (CLDX): "https://distroscreens.blogspot.com/2016/05/calculate-linux-1517-xfce-cldx.html"
 
 releases:
   Calculate Linux 18 LXQt: "/1-calculate-linux-lxqt-18-release/"
   Calculate Linux 17.12: "/calculate-linux-1712-released-with-support-for-raid/"
-  Calculate Linux 17.12.2: "https://www.open-source-feed.com/2018/02/calculate-linux-17122-released-with.html"
-  Calculate Linux 17.6: "https://www.open-source-feed.com/2017/07/celeberating-10th-anniversary-calulate.html"
-  Calculate Linux 17: "https://www.open-source-feed.com/2016/12/calculate-linux-17-released.html"
-  Calculate Linux 15.17 KDE: "https://www.open-source-feed.com/2016/05/calculate-linux-1517-released-with-kde-5.html"
-  Calculate Linux 15.12: "https://www.open-source-feed.com/2015/12/calculate-linux-1512-released.html"
-  Calculate Linux 15: "https://www.open-source-feed.com/2015/09/calculate-linux-15-released.html"
+  Calculate Linux 17.12.2: "https://open-source-feed.blogspot.com/2018/02/calculate-linux-17122-released-with.html"
+  Calculate Linux 17.6: "https://open-source-feed.blogspot.com/2017/07/celeberating-10th-anniversary-calulate.html"
+  Calculate Linux 17: "https://open-source-feed.blogspot.com/2016/12/calculate-linux-17-released.html"
+  Calculate Linux 15.17 KDE: "https://open-source-feed.blogspot.com/2016/05/calculate-linux-1517-released-with-kde-5.html"
+  Calculate Linux 15.12: "https://open-source-feed.blogspot.com/2015/12/calculate-linux-1512-released.html"
+  Calculate Linux 15: "https://open-source-feed.blogspot.com/2015/09/calculate-linux-15-released.html"
 
 ---
 

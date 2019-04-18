@@ -22,7 +22,7 @@ releases:
   GhostBSD 18.10 RC1: "http://localhost:4000/01-ghostbsd-18.10-rc1-released-trueos-base/"
 
 stories:
-  "GhostBSD is switching base system from FreeBSD to TrueOS": "https://www.open-source-feed.com/2018/05/ghostbsd-is-switching-base-system-from.html"
+  "GhostBSD is switching base system from FreeBSD to TrueOS": "https://open-source-feed.blogspot.com/2018/05/ghostbsd-is-switching-base-system-from.html"
 
 ---
 

@@ -15,8 +15,8 @@ releases:
 
 stories:
   "KDE Frameworks 5.40.0 released" : "https://www.kde.org/announcements/kde-frameworks-5.40.0.php"
-  "Plasma 5.11 beta is available now" : "http://www.open-source-feed.com/2017/09/plasma-511-beta-is-available-now.html"
-  "KDE Frameworks 5.38.0 released" : "http://www.open-source-feed.com/2017/09/kde-frameworks-5380-released-with.html"
+  "Plasma 5.11 beta is available now" : "http://open-source-feed.blogspot.com/2017/09/plasma-511-beta-is-available-now.html"
+  "KDE Frameworks 5.38.0 released" : "http://open-source-feed.blogspot.com/2017/09/kde-frameworks-5380-released-with.html"
 ---
 
 Plasma is a modern desktop environment developed by the KDE community. With plenty of customization options, KDE Plasma offers a traditional look & feel and with several productivity improvement add-ons. Despite having several options and cool effects, Plasma is lighter in terms of resource usage. It takes almost one 3rd of memory used by its main competitor, ie, GNOME Desktop.

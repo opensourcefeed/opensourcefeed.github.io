@@ -25,15 +25,15 @@ stories:
   "SRU for 16.04: Intel cursor bug fix released" : "https://xubuntu.org/news/sru-16-04-intel-cursor-bug-fix-released/"
 
 screenshots :
-  Xubuntu 18.10 Cosmic Cuttlefish: "https://www.distroscreens.com/2018/11/xubuntu-1810-cosmic-cuttlefish.html"
-  Xubuntu 18.04 Bionic Beaver screenshots : "https://www.distroscreens.com/2018/06/xubuntu-1804-bionic-beaver-screenshots.html"
-  Xubuntu 17.10 Artful Aardvark screenshots : "http://www.distroscreens.com/2017/11/xubuntu-1710-artful-aardvark-screenshots.html"
-  Xubuntu 17.04 Zesty Zapus screenshots : "http://www.distroscreens.com/2017/04/xubuntu-1704-zesty-zapus-screenshots.html"
-  Xubuntu 16.04 Xenial Xerus screenshots : "http://www.distroscreens.com/2016/04/xubuntu-1604-lts-xenial-xerus.html"
+  Xubuntu 18.10 Cosmic Cuttlefish: "https://distroscreens.blogspot.com/2018/11/xubuntu-1810-cosmic-cuttlefish.html"
+  Xubuntu 18.04 Bionic Beaver screenshots : "https://distroscreens.blogspot.com/2018/06/xubuntu-1804-bionic-beaver-screenshots.html"
+  Xubuntu 17.10 Artful Aardvark screenshots : "http://distroscreens.blogspot.com/2017/11/xubuntu-1710-artful-aardvark-screenshots.html"
+  Xubuntu 17.04 Zesty Zapus screenshots : "http://distroscreens.blogspot.com/2017/04/xubuntu-1704-zesty-zapus-screenshots.html"
+  Xubuntu 16.04 Xenial Xerus screenshots : "http://distroscreens.blogspot.com/2016/04/xubuntu-1604-lts-xenial-xerus.html"
 
 reviews:
   "Xubuntu 17.04, neither too good nor too bad" : "http://www.dedoimedo.com/computers/xubuntu-zesty.html"
-  Xubuntu 15.10 Wily Werewolf - not a silver bullet : "http://www.open-source-feed.com/2015/11/xubuntu-1510-wily-werewolf-not-silver.html"
+  Xubuntu 15.10 Wily Werewolf - not a silver bullet : "http://open-source-feed.blogspot.com/2015/11/xubuntu-1510-wily-werewolf-not-silver.html"
 ---
 
 **Xubuntu** is a full-featured, yet lightweight and resource efficient GNU/Linux distribution. Built on top of Ubuntu core, it provides a reliable, stable and secure platform along with Xfce Desktop environment.

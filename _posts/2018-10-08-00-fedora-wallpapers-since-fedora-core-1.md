@@ -134,4 +134,4 @@ Fedora 21 was released on 9th December 2014. With this release, Fedora stopped t
 ### Reference
 1. Fedora Core 1 to Fedora 27 wallpapers are taken from [Fedora Project Wiki](https://fedoraproject.org/wiki/Wallpapers).
 2. Fedora 28 Wallpaper is from [Fedora 28 Artwork Wiki](https://fedoraproject.org/wiki/F28_Artwork)
-3. Fedora 29 Wallpaper is from [DistroScreens](https://distroscreens.com)
+3. Fedora 29 Wallpaper is from [DistroScreens](https://distroscreens.blogspot.com)

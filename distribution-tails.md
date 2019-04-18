@@ -20,9 +20,9 @@ releases:
   Tails 3.10.1: "/00-tails-3.10.1-patch-security-issues/"
   Tails 3.9 : "/00-Tails-3.9-released-with-additional-automated-software-installation/"
   Tails 3.6 : "../tails-3.6-released-with-video-acceleration-driver-api-and-other-updates/"
-  Tails 3.1 : "http://www.open-source-feed.com/2017/08/tails-31-released-with-important.html"
-  Tails 3.0.1 : "http://www.open-source-feed.com/2017/07/ubuntu-1610-yakkety-yak-reaches-end-of.html"
-  Tails 3.0 : "http://www.open-source-feed.com/2017/06/tails-30-released-first-release-based.html"
+  Tails 3.1 : "http://open-source-feed.blogspot.com/2017/08/tails-31-released-with-important.html"
+  Tails 3.0.1 : "http://open-source-feed.blogspot.com/2017/07/ubuntu-1610-yakkety-yak-reaches-end-of.html"
+  Tails 3.0 : "http://open-source-feed.blogspot.com/2017/06/tails-30-released-first-release-based.html"
 ---
 
 **Tails** - *the amnesic live incognito system* is a live GNU/Linux distribution based on [Debian](/distribution/debian) that offers provision for secure, anonymous and private browsing.

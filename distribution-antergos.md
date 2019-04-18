@@ -16,7 +16,7 @@ purchase:
 description : "Antergos (earlier Cinnarch) is an Arch based distribution with the aim of delivering a modern, elegant and powerful operating system to all levels of users"
 
 screenshots:
-  Antergos 2016.04.22 : "http://www.distroscreens.com/2016/04/antergos-22042016-screenshots.html"
+  Antergos 2016.04.22 : "http://distroscreens.blogspot.com/2016/04/antergos-22042016-screenshots.html"
 
 releases:
   Antergos 18.4 : "https://antergos.com/blog/iso-refresh-antergos-18-4/"
@@ -36,9 +36,9 @@ releases:
   Antergos 17.1 : "https://antergos.com/blog/iso-refresh-antergos-17-1/"
 
 reviews:
-  Antergos makes Arch accessible for the mass : "http://www.open-source-feed.com/2017/07/antergos-makes-arch-accessible-for-mass.html"
-  Antergos - a decent distribuiton that worth a try : "http://www.open-source-feed.com/2016/08/antergos-decent-distribution-that-worth.html"
-  Antergos 2016.02.21 review : "http://www.open-source-feed.com/2016/03/antergos-20160221-review.html"
+  Antergos makes Arch accessible for the mass : "http://open-source-feed.blogspot.com/2017/07/antergos-makes-arch-accessible-for-mass.html"
+  Antergos - a decent distribuiton that worth a try : "http://open-source-feed.blogspot.com/2016/08/antergos-decent-distribution-that-worth.html"
+  Antergos 2016.02.21 review : "http://open-source-feed.blogspot.com/2016/03/antergos-20160221-review.html"
 
 stories:
   Antergos ships MATE 1.18 : "https://antergos.com/blog/mate-1-18-now-available/"

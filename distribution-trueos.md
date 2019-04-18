@@ -19,20 +19,20 @@ description:
 releases:
   TrueOS 18.03: "../TrueOS-2018.03-STABLE-released-with-updated-ecosystem-to-fight-meltdown-and-spectre-issues/"
   TrueOS 17.12: "../trueos-1712-released-with-improved-stability/"
-  TrueOS 2017.04.24 : "https://www.open-source-feed.com/2017/04/trueos-stable-update-20170424-is.html"
-  PC-BSD 10.3: "https://www.open-source-feed.com/2016/04/pc-bsd-103-release-announced.html"
-  PC-BSD 10.2: "https://www.open-source-feed.com/2016/03/pc-bsd-102-release-screenshot-tour.html"
-  PC-BSD 10.1.2: "https://www.open-source-feed.com/2015/05/pc-bsd-1012-released.html"
+  TrueOS 2017.04.24 : "https://open-source-feed.blogspot.com/2017/04/trueos-stable-update-20170424-is.html"
+  PC-BSD 10.3: "https://open-source-feed.blogspot.com/2016/04/pc-bsd-103-release-announced.html"
+  PC-BSD 10.2: "https://open-source-feed.blogspot.com/2016/03/pc-bsd-102-release-screenshot-tour.html"
+  PC-BSD 10.1.2: "https://open-source-feed.blogspot.com/2015/05/pc-bsd-1012-released.html"
 
 screenshots:
-  PC-BSD 10.3: "https://www.distroscreens.com/2016/04/pc-bsd-103-release-lumina-screenshots.html"
-  PC-BSD 10.2: "https://www.open-source-feed.com/2016/03/pc-bsd-102-release-screenshot-tour.html"
+  PC-BSD 10.3: "https://distroscreens.blogspot.com/2016/04/pc-bsd-103-release-lumina-screenshots.html"
+  PC-BSD 10.2: "https://open-source-feed.blogspot.com/2016/03/pc-bsd-102-release-screenshot-tour.html"
 
 reviews:
-  "PC-BSD is BSD for desktop users": "https://www.open-source-feed.com/2015/12/pc-bsd-bsd-for-desktop-user-review.html"
+  "PC-BSD is BSD for desktop users": "https://open-source-feed.blogspot.com/2015/12/pc-bsd-bsd-for-desktop-user-review.html"
 
 stories:
-  "TrueOS is becoming a Core Operating system" : "http://www.open-source-feed.com/2018/06/trueos-is-becoming-core-operating-system.html"
+  "TrueOS is becoming a Core Operating system" : "http://open-source-feed.blogspot.com/2018/06/trueos-is-becoming-core-operating-system.html"
 
 ---
 

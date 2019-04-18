@@ -16,17 +16,17 @@ purchase:
 description : Netrunner is a free operating system featuring a compact, yet fully functional desktop environment. Read reviews, updates and other stories on Netrunner operating system.
 
 screenshots:
-  Netrunner Rolling 2018.08 : "http://www.distroscreens.com/2018/09/netrunner-rolling-201808-plasma.html"
+  Netrunner Rolling 2018.08 : "http://distroscreens.blogspot.com/2018/09/netrunner-rolling-201808-plasma.html"
 
 releases:
   Netrunner Rolling 2018.08 : "/01-Netrunner-rolling-2018.07-released-with-seamless-gtk-integration/"
   Netrunner 18.03 Idolon : "/netrunner-1803-idolon-released-with-a-set-of-redesigned-artworks/"
-  Netrunner Rolling 2018.01 : "http://www.open-source-feed.com/2018/01/netrunner-rolling-201801-released-with.html"
-  Netrunner Rolling 17.07 : "http://www.open-source-feed.com/2017/07/netrunner-rolling-201707-snapshot-is.html"
-  Netrunner 17.06 : "http://www.open-source-feed.com/2017/07/netrunner-1706-daedalus-released-with.html"
-  Netrunner 17.03 : "http://www.open-source-feed.com/2017/03/netrunner-desktop-1703-cyclotron.html"
-  Netrunner 17.01 : "http://www.open-source-feed.com/2017/01/netrunner-desktop-1701-baryon-released.html"
-  Netrunner 16.09 : "http://www.open-source-feed.com/2016/11/netrunner-desktop-1609-released-for-x64.html"
+  Netrunner Rolling 2018.01 : "http://open-source-feed.blogspot.com/2018/01/netrunner-rolling-201801-released-with.html"
+  Netrunner Rolling 17.07 : "http://open-source-feed.blogspot.com/2017/07/netrunner-rolling-201707-snapshot-is.html"
+  Netrunner 17.06 : "http://open-source-feed.blogspot.com/2017/07/netrunner-1706-daedalus-released-with.html"
+  Netrunner 17.03 : "http://open-source-feed.blogspot.com/2017/03/netrunner-desktop-1703-cyclotron.html"
+  Netrunner 17.01 : "http://open-source-feed.blogspot.com/2017/01/netrunner-desktop-1701-baryon-released.html"
+  Netrunner 16.09 : "http://open-source-feed.blogspot.com/2016/11/netrunner-desktop-1609-released-for-x64.html"
   Netrunner Rolling 2016.01 : "http://www.netrunner.com/netrunner-rolling-2016-01-released/"
 
 ---

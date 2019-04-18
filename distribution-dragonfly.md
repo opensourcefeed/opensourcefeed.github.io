@@ -20,8 +20,8 @@ description:
 releases:
   DragonFly 5.4.0: "/1-dragonfly-5.4.0-released/"
   DragonFly 5.0.0 : "https://www.dragonflybsd.org/release50"
-  DragonFly BSD 4.4.3 : "http://www.open-source-feed.com/2016/04/dragonflybsd-443-released.html"
-  DragonFly BSD 4.4.1 : "http://www.open-source-feed.com/2015/12/dragonflybsd-441-released.html"
+  DragonFly BSD 4.4.3 : "http://open-source-feed.blogspot.com/2016/04/dragonflybsd-443-released.html"
+  DragonFly BSD 4.4.1 : "http://open-source-feed.blogspot.com/2015/12/dragonflybsd-441-released.html"
 ---
 
 **DragonFly BSD** is an operating system belonging to the family of BSD derived operating systems. It makes use of UNIX concepts and APIs used in other BSD derived operating system and is grown from same ancestor code base. However, it takes BSD in a completely different direction.

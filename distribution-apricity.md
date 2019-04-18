@@ -14,18 +14,18 @@ description : "Apricity was a beautiful, rolling GNU/Linux distribution based on
 status : Discontinued
 
 stories:
-  Arch based Apricity OS discontinued : "http://www.open-source-feed.com/2017/05/arch-based-apricity-os-is-discontinued.html"
+  Arch based Apricity OS discontinued : "http://open-source-feed.blogspot.com/2017/05/arch-based-apricity-os-is-discontinued.html"
 
 releases:
-  Apricity OS 09.2016 : "http://www.open-source-feed.com/2016/09/apricity-os-092016-released-ships-32.html"
-  Apricity OS 07.2016 : "http://www.open-source-feed.com/2016/08/apricity-os-072016-aspen-released.html"
-  Apricity OS 04.2016 beta : "http://www.open-source-feed.com/2016/05/apricity-os-042016-beta-rc1-released.html"
-  Apricity OS 02.2016 beta : "http://www.open-source-feed.com/2016/02/apricity-os-022016-beta-released.html"
-  Apricity OS 12.2015 beta : "http://www.open-source-feed.com/2015/12/apricity-os-122015-beta-released.html"
+  Apricity OS 09.2016 : "http://open-source-feed.blogspot.com/2016/09/apricity-os-092016-released-ships-32.html"
+  Apricity OS 07.2016 : "http://open-source-feed.blogspot.com/2016/08/apricity-os-072016-aspen-released.html"
+  Apricity OS 04.2016 beta : "http://open-source-feed.blogspot.com/2016/05/apricity-os-042016-beta-rc1-released.html"
+  Apricity OS 02.2016 beta : "http://open-source-feed.blogspot.com/2016/02/apricity-os-022016-beta-released.html"
+  Apricity OS 12.2015 beta : "http://open-source-feed.blogspot.com/2015/12/apricity-os-122015-beta-released.html"
   
 reviews :
-  "Apricity OS 07.2016, an easy to use rolling distribution" : "http://www.open-source-feed.com/2016/09/apricity-os-072016-easy-to-use-rolling.html"
-  "Apricity OS is clean and classy" : "http://www.open-source-feed.com/2016/03/apricity-os-is-clean-and-classy-review.html"
+  "Apricity OS 07.2016, an easy to use rolling distribution" : "http://open-source-feed.blogspot.com/2016/09/apricity-os-072016-easy-to-use-rolling.html"
+  "Apricity OS is clean and classy" : "http://open-source-feed.blogspot.com/2016/03/apricity-os-is-clean-and-classy-review.html"
   
 ---
 

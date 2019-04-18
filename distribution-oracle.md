@@ -17,10 +17,10 @@ description : "Oracle Linux is an enterprise quality GNU/Linux distribution comp
 
 releases:
   Oracle Linux 7.6: "/1-oracle-linux-7.6-rpm-auditing/"
-  Oracle Linux 7.4: "https://www.open-source-feed.com/2017/09/oracle-linux-74-update-is-available-for.html"
-  Oracle Linux 6.9: "https://www.open-source-feed.com/2017/03/oracle-linux-69-released-final-update.html"
-  Oracle Linux 7.3: "https://www.open-source-feed.com/2016/11/oracle-linux-73-released-with-uefi.html"
-  Oracle Linux 7.2: "https://www.open-source-feed.com/2015/11/oracle-linux-72-released.html"
+  Oracle Linux 7.4: "https://open-source-feed.blogspot.com/2017/09/oracle-linux-74-update-is-available-for.html"
+  Oracle Linux 6.9: "https://open-source-feed.blogspot.com/2017/03/oracle-linux-69-released-final-update.html"
+  Oracle Linux 7.3: "https://open-source-feed.blogspot.com/2016/11/oracle-linux-73-released-with-uefi.html"
+  Oracle Linux 7.2: "https://open-source-feed.blogspot.com/2015/11/oracle-linux-72-released.html"
 
 
 ---

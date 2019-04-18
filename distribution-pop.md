@@ -17,10 +17,10 @@ releases:
   'Pop!_OS 18.04': 'https://blog.system76.com/post/179217201328/see-what-changes-have-been-orbiting-popos'
 
 screenshots:
-  'Pop!_OS 18.10 screenshots': "https://www.distroscreens.com/2018/11/popos-1810-screenshots.html"
+  'Pop!_OS 18.10 screenshots': "https://distroscreens.blogspot.com/2018/11/popos-1810-screenshots.html"
 
 stories:
-  'elementary OS creates a brand new installer in collaboration with Pop!_OS': "https://www.open-source-feed.com/2018/02/elementary-os-creates-brand-new.html"
+  'elementary OS creates a brand new installer in collaboration with Pop!_OS': "https://open-source-feed.blogspot.com/2018/02/elementary-os-creates-brand-new.html"
     
     
 ---

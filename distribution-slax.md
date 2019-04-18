@@ -23,7 +23,7 @@ releases:
   Slax 9.3.0 : "/slax-93-released-with-improved-wifi-support/"
   
 screenshots:
-  Slax 9.3.0 : "http://www.distroscreens.com/2017/12/slax-930-screenshots.html"
+  Slax 9.3.0 : "http://distroscreens.blogspot.com/2017/12/slax-930-screenshots.html"
 ---
 
 **Slax** is a live GNU/Linux distribution following modular and minimalistic design approach. It can be booted from any portable storage media without installing the operating system.

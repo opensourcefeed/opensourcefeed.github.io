@@ -113,7 +113,7 @@ blockquote{border-left: 5px solid #ccc; padding: 1rem; background: #eee}
 table ul{list-style-type:none;padding-left:0}
 .status-active{color:green;}
 .status-discontinued{color:red;}
-footer{text-align:center;background:#173f4f;color:white;padding:10px 0 10px 0;}
+footer{text-align:center;background:#173f4f;color:white;padding:10px 0 10px 0}
 .heading {
   margin-top: 1rem;
 }
@@ -137,7 +137,6 @@ footer{text-align:center;background:#173f4f;color:white;padding:10px 0 10px 0;}
 .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {background:#607D8B;border-color:#607D8B;}
 .blog .page-nav {text-align: center}
 .comment-area h3 {font-size: 1.3rem;}
-main {padding-top: 55px}
 main h3, main h4 {font-weight: bold;}
 main h2 {font-size: 1.4em; color: #173f4f}
 main h3 {font-size: 1.2em; margin: 2em 0 1rem}

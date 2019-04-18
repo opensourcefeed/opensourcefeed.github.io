@@ -15,22 +15,22 @@ purchase:
   OSDisc : "https://www.osdisc.com/products/korora"
 
 stories:
-  "Korora team is taking a break, the future of project is uncertain" : "https://www.open-source-feed.com/2018/05/korora-team-is-taking-break-future-of.html"
+  "Korora team is taking a break, the future of project is uncertain" : "https://open-source-feed.blogspot.com/2018/05/korora-team-is-taking-break-future-of.html"
 
 review:
-  "Korora 24 is a farily solid distribution" : "https://www.open-source-feed.com/2016/08/korora-24-is-fairly-solid-operating.html"
-  "If you like Fedora, you'll love Korora too" : "https://www.open-source-feed.com/2016/03/if-you-like-fedora-you-will-like-korora.html"
-  "Distrowatch review on Korora 23" : "https://www.open-source-feed.com/2016/03/korora-23-review.html"
-  "Korora 23 is Fedora on steroids" : "https://www.open-source-feed.com/2016/06/korora-23-is-fedora-on-steroids-review.html"
-  "Korora 23 Xfce review" : "https://www.open-source-feed.com/2016/03/korora-23-xfce-review.html"
-  "Korora 22 is Fedora that works out of the box" : "https://www.open-source-feed.com/2015/08/korora-22-fedora-that-works-right-out.html"
-  "Korora 21 review" : "https://www.open-source-feed.com/2015/03/korora-21-darla-review.html"
+  "Korora 24 is a farily solid distribution" : "https://open-source-feed.blogspot.com/2016/08/korora-24-is-fairly-solid-operating.html"
+  "If you like Fedora, you'll love Korora too" : "https://open-source-feed.blogspot.com/2016/03/if-you-like-fedora-you-will-like-korora.html"
+  "Distrowatch review on Korora 23" : "https://open-source-feed.blogspot.com/2016/03/korora-23-review.html"
+  "Korora 23 is Fedora on steroids" : "https://open-source-feed.blogspot.com/2016/06/korora-23-is-fedora-on-steroids-review.html"
+  "Korora 23 Xfce review" : "https://open-source-feed.blogspot.com/2016/03/korora-23-xfce-review.html"
+  "Korora 22 is Fedora that works out of the box" : "https://open-source-feed.blogspot.com/2015/08/korora-22-fedora-that-works-right-out.html"
+  "Korora 21 review" : "https://open-source-feed.blogspot.com/2015/03/korora-21-darla-review.html"
 
 release:
-  Korora 25 : "https://www.open-source-feed.com/2016/12/korora-25-gurgle-released-in-5.html"
-  Korora 24 : "https://www.open-source-feed.com/2016/07/korora-24-released.html"
-  Korora 23 : "https://www.open-source-feed.com/2016/02/korora-23-corel-released.html"
-  Korora 22 : "https://www.open-source-feed.com/2015/08/korora-22-selina-released.html"
+  Korora 25 : "https://open-source-feed.blogspot.com/2016/12/korora-25-gurgle-released-in-5.html"
+  Korora 24 : "https://open-source-feed.blogspot.com/2016/07/korora-24-released.html"
+  Korora 23 : "https://open-source-feed.blogspot.com/2016/02/korora-23-corel-released.html"
+  Korora 22 : "https://open-source-feed.blogspot.com/2015/08/korora-22-selina-released.html"
 
 ---
 

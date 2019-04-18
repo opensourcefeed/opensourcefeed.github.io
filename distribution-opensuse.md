@@ -16,13 +16,13 @@ purchase :
 description : "openSUSE is an independently developed, enterprise quality distribution backed by SUSE Foundation. Reviews, updates and other stories on openSUSE"
 
 releases :
-  openSUSE Leap 15 : "http://www.open-source-feed.com/2018/05/opensuse-leap-15-released-based-on-suse.html"
+  openSUSE Leap 15 : "http://open-source-feed.blogspot.com/2018/05/opensuse-leap-15-released-based-on-suse.html"
   openSUSE Leap 15.0 beta : "https://goo.gl/9QC5AX"
-  openSUSE Leap 42.3 : "http://www.open-source-feed.com/2017/07/opensuse-leap-423-released-with-better.html"
+  openSUSE Leap 42.3 : "http://open-source-feed.blogspot.com/2017/07/opensuse-leap-423-released-with-better.html"
 
 reviews:
-  openSUSE Leap 42.2 : "http://www.open-source-feed.com/2017/02/opensuse-leap-422-is-extremely-stable.html"
-  openSUSE Leap 42.2 GNOME : "http://www.open-source-feed.com/2017/02/opensuse-leap-422-gnome-flavor-is.html"
+  openSUSE Leap 42.2 : "http://open-source-feed.blogspot.com/2017/02/opensuse-leap-422-is-extremely-stable.html"
+  openSUSE Leap 42.2 GNOME : "http://open-source-feed.blogspot.com/2017/02/opensuse-leap-422-gnome-flavor-is.html"
 
 faq:
   "How to install Budgie Desktop in OpenSUSE" : "For getting Budgie Desktop in OpenSUSE, you can either download GeckoLinux Budgie Edition (A OpenSUSE derivative) or enable Solus repositories on OpenSUSE Build Service. Further details are available in <a href='https://en.opensuse.org/Budgie' rel='nofollow'>OpenSUSE wiki pages for Budgie</a>"

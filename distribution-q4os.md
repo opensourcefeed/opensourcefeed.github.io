@@ -16,14 +16,14 @@ purchase:
 description : "Q4OS is a Debian based operating system featuring Trinity Desktop environment with purpose of providing a stable, reliable & familiar user experience."
 
 releases:
-  Q4OS 3.1 testing : "http://www.open-source-feed.com/2018/01/q4os-31-testing-image-released-based-on.html"
-  Q4OS 1.4.11 : "http://www.open-source-feed.com/2016/06/q4os-1411-released-with-improved-nvidia.html"
-  Q4OS 1.4.10 : "http://www.open-source-feed.com/2016/05/q4os-1410-orion-released-with-improved.html"
-  Q4OS 2.1 Scropion testing : "http://www.open-source-feed.com/2016/04/q4os-21-scorpion-testing-image-is.html"
-  Q4OS 1.4.9 Orion : "http://www.open-source-feed.com/2016/04/q4os-149-orion-released.html"
+  Q4OS 3.1 testing : "http://open-source-feed.blogspot.com/2018/01/q4os-31-testing-image-released-based-on.html"
+  Q4OS 1.4.11 : "http://open-source-feed.blogspot.com/2016/06/q4os-1411-released-with-improved-nvidia.html"
+  Q4OS 1.4.10 : "http://open-source-feed.blogspot.com/2016/05/q4os-1410-orion-released-with-improved.html"
+  Q4OS 2.1 Scropion testing : "http://open-source-feed.blogspot.com/2016/04/q4os-21-scorpion-testing-image-is.html"
+  Q4OS 1.4.9 Orion : "http://open-source-feed.blogspot.com/2016/04/q4os-149-orion-released.html"
 
 stories:
-  Converting Q4OS into a Windows XP clone using XPQ4 : "http://www.open-source-feed.com/2016/04/converting-q4os-into-windows-xp-clone.html"
+  Converting Q4OS into a Windows XP clone using XPQ4 : "http://open-source-feed.blogspot.com/2016/04/converting-q4os-into-windows-xp-clone.html"
 ---
 
 **Q4OS** is ought to be a powerful operating system providing a rock solid user experience with Trinity Desktop environment. Trinity Desktop environment, initially forked from KDE 3.x has shown its ability to work as a stable, reliable and familiar ecosystem for most of the users.

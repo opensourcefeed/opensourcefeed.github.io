@@ -17,7 +17,7 @@ releases:
   antiX 17.2 Helen Keller: "/01-antix-17.2-released-with-critical-bug-fixes/"
 
 screenshots:
-  antiX 17.2 Helen Keller: "https://www.distroscreens.com/2018/10/antix-172-helen-keller-screenshots.html"
+  antiX 17.2 Helen Keller: "https://distroscreens.blogspot.com/2018/10/antix-172-helen-keller-screenshots.html"
 ---
 
 **antiX** is a fast, lightweight and systemd-free live distribution based on Debian. It provides a *special* eco-system called *antiX Magic* to work with both old and new computers.

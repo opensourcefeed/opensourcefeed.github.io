@@ -16,41 +16,42 @@ purchase:
 description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a range of hardware platforms like desktop, server, clouds and IoT.
 
 releases :
+  Ubuntu 19.04 Disco Dingo: "https://lists.ubuntu.com/archives/ubuntu-announce/2019-April/000243.html"
   Ubuntu 18.10 Cosmic Cuttlefish: "/02-ubuntu-18.10-brings-fresh-desktop-theme-better-snap-support/"
   Ubuntu 18.10 Cosmic Cuttlefish Beta: "/00-ubuntu-18.10-cosmic-cutlet-beta-release/"
-  Ubuntu 18.04 Bionic Beaver : "http://www.open-source-feed.com/2018/04/ubuntu-1804-lts-released-with-better.html"
+  Ubuntu 18.04 Bionic Beaver : "http://open-source-feed.blogspot.com/2018/04/ubuntu-1804-lts-released-with-better.html"
   Ubuntu 17.10 Artful Aardvark : "https://lists.ubuntu.com/archives/ubuntu-announce/2017-October/000226.html"
-  Ubuntu 17.04 : "http://www.open-source-feed.com/2017/04/ubuntu-1704-released-with-support-for.html"
+  Ubuntu 17.04 : "http://open-source-feed.blogspot.com/2017/04/ubuntu-1704-released-with-support-for.html"
   Ubuntu 16.10 : "#"
-  Ubuntu 16.04.3 : "http://www.open-source-feed.com/2017/08/ubuntu-16043-released-with-hardware.html"
-  Ubuntu 16.04.2 : http://www.open-source-feed.com/2017/02/ubuntu-16042-released-with-improved.html
+  Ubuntu 16.04.3 : "http://open-source-feed.blogspot.com/2017/08/ubuntu-16043-released-with-hardware.html"
+  Ubuntu 16.04.2 : http://open-source-feed.blogspot.com/2017/02/ubuntu-16042-released-with-improved.html
 
 screenshots:
-  Ubuntu 18.10 Cosmic Cuttlefish: "https://www.distroscreens.com/2018/10/ubuntu-1810-cosmic-cuttlefish.html"
-  Ubuntu 18.10 Beta: "https://www.distroscreens.com/2018/09/ubuntu-1810-cosmic-cutlet-beta.html"
-  Ubuntu 18.04: "https://www.distroscreens.com/2018/04/ubuntu-1804-bionic-beaver-screenshots.html"
-  Ubuntu 17.10 : "http://www.distroscreens.com/2017/10/ubuntu-1710-artful-aardvark-screenshots.html"
-  Ubuntu 17.04 : "http://www.distroscreens.com/2017/04/ubuntu-1704-zesty-zapus-screenshots.html"
-  Ubuntu 16.10 : "http://www.distroscreens.com/2016/10/ubuntu-1610-yakkety-yak-screenshots.html"
-  Ubuntu 16.04 : "http://www.distroscreens.com/2016/04/ubuntu-1604-lts-xenial-xerus-screenshots.html"
+  Ubuntu 18.10 Cosmic Cuttlefish: "https://distroscreens.blogspot.com/2018/10/ubuntu-1810-cosmic-cuttlefish.html"
+  Ubuntu 18.10 Beta: "https://distroscreens.blogspot.com/2018/09/ubuntu-1810-cosmic-cutlet-beta.html"
+  Ubuntu 18.04: "https://distroscreens.blogspot.com/2018/04/ubuntu-1804-bionic-beaver-screenshots.html"
+  Ubuntu 17.10 : "http://distroscreens.blogspot.com/2017/10/ubuntu-1710-artful-aardvark-screenshots.html"
+  Ubuntu 17.04 : "http://distroscreens.blogspot.com/2017/04/ubuntu-1704-zesty-zapus-screenshots.html"
+  Ubuntu 16.10 : "http://distroscreens.blogspot.com/2016/10/ubuntu-1610-yakkety-yak-screenshots.html"
+  Ubuntu 16.04 : "http://distroscreens.blogspot.com/2016/04/ubuntu-1604-lts-xenial-xerus-screenshots.html"
 
 stories:
-  A cloud optimized, minimal Ubuntu image is available now : "https://www.open-source-feed.com/2018/07/a-cloud-optimized-minimal-ubuntu-image.html"
-  Ubuntu 18.10 will be named as Cosmic Cuttlerfish : "http://www.open-source-feed.com/2018/05/ubuntu-1810-will-be-name-as-cosmic.html"
-  GNOME Shell 3.25.91 lands in Artful, final release will ship with 3.26 : "http://www.open-source-feed.com/2017/09/gnome-shell-32591-lands-in-artful-final.html"
-  Ubuntu 16.04 is now available in Windows Store : "http://www.open-source-feed.com/2017/07/ubuntu-1604-is-now-available-in-windows.html"
-  Kubernetes 1.7 is now available for Ubuntu : "http://www.open-source-feed.com/2017/07/kubernetes-17-is-now-available-in-ubuntu.html"
-  Ubuntu 17.10 Yakkety Yak reaches end of life on 20th July 2017 : "http://www.open-source-feed.com/2017/07/ubuntu-1610-yakkety-yak-reaches-end-of.html"
-  Ubuntu on AWS gets better performance by AWS-tuned Kernel : "http://www.open-source-feed.com/2017/04/ubuntu-on-aws-gets-improved-performance.html"
-  Ubuntu 12.04 Precise Pangolin retires on 28th April 2017 : http://www.open-source-feed.com/2017/03/ubuntu-1204-precise-pangolin-retires-on.html
-  Microsoft SQL Server public preview is available for Ubuntu : http://www.open-source-feed.com/2016/11/microsoft-sql-server-public-preview-is.html
+  A cloud optimized, minimal Ubuntu image is available now : "https://open-source-feed.blogspot.com/2018/07/a-cloud-optimized-minimal-ubuntu-image.html"
+  Ubuntu 18.10 will be named as Cosmic Cuttlerfish : "http://open-source-feed.blogspot.com/2018/05/ubuntu-1810-will-be-name-as-cosmic.html"
+  GNOME Shell 3.25.91 lands in Artful, final release will ship with 3.26 : "http://open-source-feed.blogspot.com/2017/09/gnome-shell-32591-lands-in-artful-final.html"
+  Ubuntu 16.04 is now available in Windows Store : "http://open-source-feed.blogspot.com/2017/07/ubuntu-1604-is-now-available-in-windows.html"
+  Kubernetes 1.7 is now available for Ubuntu : "http://open-source-feed.blogspot.com/2017/07/kubernetes-17-is-now-available-in-ubuntu.html"
+  Ubuntu 17.10 Yakkety Yak reaches end of life on 20th July 2017 : "http://open-source-feed.blogspot.com/2017/07/ubuntu-1610-yakkety-yak-reaches-end-of.html"
+  Ubuntu on AWS gets better performance by AWS-tuned Kernel : "http://open-source-feed.blogspot.com/2017/04/ubuntu-on-aws-gets-improved-performance.html"
+  Ubuntu 12.04 Precise Pangolin retires on 28th April 2017 : http://open-source-feed.blogspot.com/2017/03/ubuntu-1204-precise-pangolin-retires-on.html
+  Microsoft SQL Server public preview is available for Ubuntu : http://open-source-feed.blogspot.com/2016/11/microsoft-sql-server-public-preview-is.html
   
 reviews:
-  "Ubuntu 17.04 is fairly solid, though does not offer anything significant" : "http://www.open-source-feed.com/2017/04/ubuntu-1704-is-fairly-solid-though-does.html"
+  "Ubuntu 17.04 is fairly solid, though does not offer anything significant" : "http://open-source-feed.blogspot.com/2017/04/ubuntu-1704-is-fairly-solid-though-does.html"
   "Ubuntu 17.04 Zesty Zapata - Viva la revolucion!" : "http://www.dedoimedo.com/computers/ubuntu-zesty.html"
   "Ubuntu 17.04 is a good release, except the Horrible DNS Issue (now ‘fixed’)" : "http://www.hecticgeek.com/2017/04/ubuntu-17-04-review/"
-  "Comparing Ubuntu 16.10 flavors : Ubuntu, Ubuntu GNOME, Kubuntu and Xubuntu" : http://www.open-source-feed.com/2016/11/comparing-ubuntu-1610-flavors-ubuntu.html
-  Why Ubuntu 16.04 LTS is most secure distribution out of the box? : http://www.open-source-feed.com/2016/12/why-ubuntu-1604-lts-is-most-secure.html
+  "Comparing Ubuntu 16.10 flavors : Ubuntu, Ubuntu GNOME, Kubuntu and Xubuntu" : http://open-source-feed.blogspot.com/2016/11/comparing-ubuntu-1610-flavors-ubuntu.html
+  Why Ubuntu 16.04 LTS is most secure distribution out of the box? : http://open-source-feed.blogspot.com/2016/12/why-ubuntu-1604-lts-is-most-secure.html
 ---
 
 **Ubuntu** is a popular GNU/Linux distribution backed by **Canonical**. It is capable of supporting different hardware platforms like server computers, cloud systems, desktops, tablets, and mobiles.

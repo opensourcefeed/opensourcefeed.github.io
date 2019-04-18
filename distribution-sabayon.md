@@ -15,17 +15,17 @@ purchase:
 description : "Sabayon is a Gentoo based, rolling GNU/Linux distribution that promises an out of the box experience for beginners and experienced Linux users"
 
 releases:
-  Sabayon 18.05 : "https://www.open-source-feed.com/2018/04/sabayon-1805-is-available-now-brings.html"
-  Sabayon 16.04 : "https://www.open-source-feed.com/2016/03/sabayon-1604-released.html"
-  Sabayon 16.03 : "https://www.open-source-feed.com/2016/02/sabayon-1603-released.html"
-  Sabayon 15.10 : "https://www.open-source-feed.com/2015/09/sabayon-1510-released.html"
+  Sabayon 18.05 : "https://open-source-feed.blogspot.com/2018/04/sabayon-1805-is-available-now-brings.html"
+  Sabayon 16.04 : "https://open-source-feed.blogspot.com/2016/03/sabayon-1604-released.html"
+  Sabayon 16.03 : "https://open-source-feed.blogspot.com/2016/02/sabayon-1603-released.html"
+  Sabayon 15.10 : "https://open-source-feed.blogspot.com/2015/09/sabayon-1510-released.html"
 
 reviews:
-  "Sabayon 16.05, is a good idea but poor quality" : "https://www.open-source-feed.com/2016/06/sabayon-1605-great-ideas-but-poor.html"
-  "Sabayon 15.11 KDE: hot, hotter and burnt" : "https://www.open-source-feed.com/2015/12/sabayon-1511-kde-hot-hotter-and-burnt.html"
+  "Sabayon 16.05, is a good idea but poor quality" : "https://open-source-feed.blogspot.com/2016/06/sabayon-1605-great-ideas-but-poor.html"
+  "Sabayon 15.11 KDE: hot, hotter and burnt" : "https://open-source-feed.blogspot.com/2015/12/sabayon-1511-kde-hot-hotter-and-burnt.html"
 
 screenshots:
-  Sabayon 16.04 GNOME : "https://www.distroscreens.com/2016/04/sabayon-1604-gnome-screenshots.html"
+  Sabayon 16.04 GNOME : "https://distroscreens.blogspot.com/2016/04/sabayon-1604-gnome-screenshots.html"
 
 
 ---

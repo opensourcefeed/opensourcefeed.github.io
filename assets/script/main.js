@@ -43,7 +43,7 @@ $(function () {
         }
 
         if (hasResult) {
-            $(entryParent).width($(this).outerWidth())
+            $(entryParent).width($(this).innerWidth())
             .css('left', $('#search-btn').parent().width())
             .show();
         } else {

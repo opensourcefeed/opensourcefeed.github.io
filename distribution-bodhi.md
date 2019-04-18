@@ -17,13 +17,13 @@ description: Bodhi Linux is minimal and resources efficient operating system bas
 
 releases:
   Bodhi Linux 5.0.0 : "/00-bodhi-linux-5.0.0-released-with-ubuntu-18.04-base/"
-  Bodhi Linux 5.0.0 RC : "http://www.open-source-feed.com/2018/07/bodhi-linux-500-release-candidate.html"
+  Bodhi Linux 5.0.0 RC : "http://open-source-feed.blogspot.com/2018/07/bodhi-linux-500-release-candidate.html"
   Bodhi Linux 4.4.0 : "http://www.bodhilinux.com/2017/12/08/bodhi-linux-4-4-0-released-november-donation-totals/"
 
 screenshots :
-  Bodhi Linux 5.0.0 : "http://www.distroscreens.com/2018/08/bodhi-linux-500-screenshots.html"
-  Bodhi Linux 4.1.0 : "http://www.distroscreens.com/2017/01/bodhi-linux-410-screenshots.html"
-  Bodhi Linux 3.2.0 : "http://www.distroscreens.com/2016/04/bodhi-linux-32-screenshots.html"
+  Bodhi Linux 5.0.0 : "http://distroscreens.blogspot.com/2018/08/bodhi-linux-500-screenshots.html"
+  Bodhi Linux 4.1.0 : "http://distroscreens.blogspot.com/2017/01/bodhi-linux-410-screenshots.html"
+  Bodhi Linux 3.2.0 : "http://distroscreens.blogspot.com/2016/04/bodhi-linux-32-screenshots.html"
 ---
 
 **Bodhi Linux** is a *enlightened* distribution based on Ubuntu LTS releases. The main purpose of the project is to develop a minimal and resource efficient operating system. This distribution comes with a few essential applications and leaves the users with the choice to select their preferred applications.

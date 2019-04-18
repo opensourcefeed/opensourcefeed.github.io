@@ -14,12 +14,12 @@ description : Elive Linux is a Debian based, fast and beautiful operating system
 
 releases:
   Elive 3.0 : "/00-elive-3.0-stable-released-with-added-stability-and-visual-improvements/"
-  Elive 2.9.5 beta : "http://www.open-source-feed.com/2017/07/elive-295-beta-released-with-various.html"
-  Elive 2.8.6 beta : "http://www.open-source-feed.com/2017/03/elive-286-beta-released-with-improved.html"
-  Elive 2.7.2 beta : "http://www.open-source-feed.com/2016/08/elive-272-beta-released-with-improved.html"
-  Elive 2.7.1 beta : "http://www.open-source-feed.com/2016/07/elive-271-beta-released.html"
-  Elive 2.6.18 beta  : "http://www.open-source-feed.com/2016/03/elive-2618-beta-released.html"
-  Elive 2.6.12 : "http://www.open-source-feed.com/2015/11/elive-linux-2612-beta-released.html"
+  Elive 2.9.5 beta : "http://open-source-feed.blogspot.com/2017/07/elive-295-beta-released-with-various.html"
+  Elive 2.8.6 beta : "http://open-source-feed.blogspot.com/2017/03/elive-286-beta-released-with-improved.html"
+  Elive 2.7.2 beta : "http://open-source-feed.blogspot.com/2016/08/elive-272-beta-released-with-improved.html"
+  Elive 2.7.1 beta : "http://open-source-feed.blogspot.com/2016/07/elive-271-beta-released.html"
+  Elive 2.6.18 beta  : "http://open-source-feed.blogspot.com/2016/03/elive-2618-beta-released.html"
+  Elive 2.6.12 : "http://open-source-feed.blogspot.com/2015/11/elive-linux-2612-beta-released.html"
 ---
 
 **Elive Linux** is a Debian based, fast and beautiful operating system featuring fairly customized enlightenment window manager. The tagline of this distribution itself is Where Debian meets Enlightenment.
