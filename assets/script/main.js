@@ -66,10 +66,10 @@ $(function () {
     // Control size of navbar on scrolling
     $(window).scroll(function () {
         if ($(document).scrollTop() > 50) {
-          $('.navbar').addClass('navbar-small');
+          $('.navbar').addClass('navbar-small').removeClass('container');
       }
       else {
-          $('.navbar').removeClass('navbar-small');
+          $('.navbar').removeClass('navbar-small').addClass('container');
       }
   });
 });
