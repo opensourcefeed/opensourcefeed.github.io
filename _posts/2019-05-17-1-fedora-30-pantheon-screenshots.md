@@ -1,8 +1,8 @@
 ---
 title: "Fedora 30 Workstation with Pantheon Shell"
 layout: post
-categories: fedora release
-tags: fedora release
+categories: fedora pantheon
+tags: fedora pantheon
 image: "/screenshots/Fedora 30 Pantheon/03 Slingshot-1.png"
 ---
 
