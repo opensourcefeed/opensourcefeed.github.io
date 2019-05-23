@@ -20,10 +20,11 @@ a:hover {color: #35b9ab}
 }
 #master-section h1 {
   color: #35b9ab;
+  font-weight: none;
 }
 .description {
   color: #dddddd;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 #search-btn {
   height: 100%;
@@ -33,7 +34,6 @@ a:hover {color: #35b9ab}
   margin: 2rem 0 2rem 0;
 }
 #search-field {
-  font-weight: bold;
   border-radius: 0px;
 }
 #result-list {
