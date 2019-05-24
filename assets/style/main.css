@@ -20,7 +20,7 @@ a:hover {color: #35b9ab}
 }
 #master-section h1 {
   color: #35b9ab;
-  font-weight: none;
+  font-weight: normal;
 }
 .description {
   color: #dddddd;
