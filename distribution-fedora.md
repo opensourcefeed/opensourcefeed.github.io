@@ -11,7 +11,8 @@ preview: Fedora25-preview.jpg
 home_page: https://getfedora.org/
 desktops: [gnome, plasma, mate, xfce, lxde]
 base : Independent
-telegram : "https://t.me/fedora"
+telegram : 
+  Fedora: "https://t.me/fedora"
 purchase:
   OSDisc : "https://www.osdisc.com/products/fedora"
 

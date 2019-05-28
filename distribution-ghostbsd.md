@@ -11,7 +11,8 @@ preview: ghostbsd.jpg
 home_page: https://www.ghostbsd.org/
 desktops: [mate]
 base : [trueos]
-telegram : "https://t.me/ghostbsd"
+telegram : 
+  GhostBSD: "https://t.me/ghostbsd"
 purchase:
   OSDisc : "https://www.osdisc.com/products/ghostbsd"
 

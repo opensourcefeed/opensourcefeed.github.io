@@ -10,7 +10,8 @@ preview: lubuntu-preview.jpg
 home_page: http://lubuntu.me/
 desktops: [lxde, lxqt]
 base : [ubuntu]
-telegram : "https://t.me/lubuntudevel"
+telegram : 
+  Development: "https://t.me/lubuntudevel"
 purchase:
   OSDisc : "https://www.osdisc.com/products/lubuntu"
 

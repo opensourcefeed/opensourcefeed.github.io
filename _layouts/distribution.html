@@ -152,9 +152,13 @@
                         {% endif %}
                         {% if page.telegram %}
                         <tr>
-                            <td>Telegram Channel</td>
+                            <td>Telegram Channel(s)</td>
                             <td>
-                                <a href="{{page.telegram}}" target="_blank">{{page.telegram}}</a>
+                                <ul>
+                                {% for channel in page.telegram %}
+                                    <li><a href="{{channel[1]}}" target="_blank">{{channel[0]}} - {{channel[1]}}</a></li>
+                                {% endfor %}
+                                </ul>
                             </td>
                         </tr>
                         {% endif %}

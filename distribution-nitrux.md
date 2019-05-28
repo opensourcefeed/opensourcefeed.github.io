@@ -11,7 +11,8 @@ preview: nitrux-preview.jpg
 home_page: https://nxos.org/
 desktops: [plasma]
 base : [ubuntu]
-telegram: "https://t.me/nitrux"
+telegram: 
+  Nitrux: "https://t.me/nitrux"
 purchase : 
   OSDisc : https://www.osdisc.com/products/nitrux
 

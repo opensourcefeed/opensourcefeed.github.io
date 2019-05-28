@@ -11,13 +11,15 @@ preview: solus-preview.jpg
 home_page: https://getsol.us
 desktops: [budgie, mate, gnome]
 base : Independent
-telegram : "https://t.me/solusproject"
+telegram : 
+  Unofficial: "https://t.me/solusproject"
 purchase:
   OSDisc : "https://www.osdisc.com/products/solus"
 
 description : Solus is an independent GNU/Linux distribution designed for modern personal computers, every tweak enabling us to deliver a singular, cohesive desktop experience.
 
 releases :
+  Solus 4.0 Fortitude: "https://getsol.us/2019/03/17/solus-4-released/"
   Solus 3 ISO refresh (3.9999): "/01-Solus-3-ISO-refresh-released-with-better-hardware-supported-improved-theming/"
   Solus 3 : "http://open-source-feed.blogspot.com/2017/08/solus-3-released-with-budgie-desktop.html"
   Solus 2017.04.18.0 : "http://open-source-feed.blogspot.com/2017/04/solus-201704180-snapshot-released.html"
@@ -33,6 +35,7 @@ reviews:
   Solus 2017.01.01.0 is an impressive new comer : "http://open-source-feed.blogspot.com/2017/02/solus-201701010-is-impressive-new-comer.html"
 
 stories :
+  "Solus weekly roundup #12 - GNOME of thrones": "https://getsol.us/2019/04/25/gnome-of-thrones/"
   "In Full Sail - Solus team talks about the plan for and future of Solus": "https://getsol.us/2018/10/27/in-full-sail/"
   "Solus weekly roundup #9" : "https://solus-project.com/2018/08/25/a-bigger-toolbox/"
   "Solus 4 won't ship snapd-software center integration in initial release" : "http://open-source-feed.blogspot.com/2018/02/solus-4-wont-ship-snapd-support-in.html"
@@ -49,3 +52,5 @@ computing devices, every tweak enabling us to deliver a singular, cohesive deskt
 
 Solus is built from scratch and supported by the community, providing us the freedom to provide the 
 best experience without being beholden to the interests of other projects or corporate agendas.
+
+Budgie is the flagship desktop environment of Solus. It also provides GNOME and MATE editions.
