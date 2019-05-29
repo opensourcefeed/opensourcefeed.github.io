@@ -4,6 +4,7 @@ layout: post
 categories: fedora pantheon
 tags: fedora pantheon
 image: "/screenshots/Fedora 30 Pantheon/03 Slingshot-1.png"
+video: https://www.youtube.com/embed/2L7Tl63Xquk
 ---
 
 **In** addition to popular DEs like GNOME, MATE, Xfce & LXQt, Fedora 30 introduces support for Pantheon shell and Deepin desktop environment. There on official spins available featuring these desktop environments. Still, we can install Pantheon shell and Deepin desktop from official repositories.

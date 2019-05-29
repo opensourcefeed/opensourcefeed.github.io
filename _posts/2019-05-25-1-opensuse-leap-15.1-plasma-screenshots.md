@@ -4,6 +4,7 @@ layout: post
 categories: opensuse plasma
 tags: opensuse plasma
 image: "/screenshots/openSUSE Leap 15.1 Plasma/01 Loading Desktop.jpg"
+video: https://www.youtube.com/embed/fdPzZghAFVk
 ---
 
 **openSUSE Leap 15.1** is an incremental release in openSUSE Leap family. The Leap family provides a kind of *hybrid* operating system that combines the solid packages from SEL (Suse Enterprise Linux) and the effort of community.

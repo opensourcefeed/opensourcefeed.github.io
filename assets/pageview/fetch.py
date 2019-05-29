@@ -108,7 +108,8 @@ def save_results(results):
             final_result['meta']['previous_date'] = final_result['meta']['current_date']
             final_result['meta']['current_date'] = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
 
-        
+        processed = []
+
         for url in map:
             distribution = None
             for d in final_result['distributions']:
@@ -129,7 +130,16 @@ def save_results(results):
                 'rank': rank,
                 'count': map[url]
             }
+            processed.append(url);
+            rank += 1
 
+        for d in final_result['distributions']:
+            if d['url'] not in processed:
+                d['previous'] = d['current']
+                d['current'] = {
+                    'rank': rank,
+                    'count': 0
+                }
             rank += 1
 
         # ut.sort(key=lambda x: x.count, reverse=True)

@@ -4,6 +4,7 @@ layout: post
 categories: peppermint xfce
 tags: peppermint xfce
 image: "/screenshots/Peppermint OS 10/07 Multitasking Overview in Peppermint 10.jpg"
+video: https://www.youtube.com/embed/t3uG9uNEi6A
 ---
 
 **Peppermint OS** 10 is a stable release from Peppermint OS family. It is based on Ubuntu 18.04 LTS and inherits all positives from the parent.

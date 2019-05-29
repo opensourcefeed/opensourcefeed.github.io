@@ -1,5 +1,5 @@
 /* Nested navbar */
-body {font-size: 1.1rem; line-height: 2rem; background: #ccc}
+body {font-size: 1.1rem; line-height: 2rem; background: #f7f7f7}
 main.container {background: white}
 a {color: #164b78}
 a:hover {color: #35b9ab}
@@ -144,6 +144,19 @@ main .recent-stories ul{list-style-type: none; padding-left: 0}
 
 pre.highlight {background: #173f4f; color: white; padding: 1rem}
 p img+em {display: block;text-align: center; border-bottom: 1px dashed #eee; font-style: normal; font-size: 15px}
+.video-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.video-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
 
 @media (max-width: 430px) {
   #search-field {
