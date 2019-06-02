@@ -14,6 +14,7 @@ releases:
   Plasma 5.14: "/00-plasma-5.14-brings-major-improvements/"
 
 stories:
+  "Plasma 5.16 default wallpaper is selected": "https://community.kde.org/KDE_Visual_Design_Group/Plasma_5.16_Wallpaper_Competition#We_have_a_Winner.21"
   "KDE Frameworks 5.40.0 released" : "https://www.kde.org/announcements/kde-frameworks-5.40.0.php"
   "Plasma 5.11 beta is available now" : "http://open-source-feed.blogspot.com/2017/09/plasma-511-beta-is-available-now.html"
   "KDE Frameworks 5.38.0 released" : "http://open-source-feed.blogspot.com/2017/09/kde-frameworks-5380-released-with.html"
