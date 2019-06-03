@@ -158,6 +158,28 @@ p img+em {display: block;text-align: center; border-bottom: 1px dashed #eee; fon
   position:absolute;
 }
 
+footer p {
+  float: right;
+  padding-right: 1rem;
+}
+
+.footer-links {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  display: inline;
+  float: left;
+  padding-left: 1rem;
+}
+
+.footer-links li{
+  display: inline;
+}
+
+.footer-links a {
+  color: white;
+}
+
 @media (max-width: 430px) {
   #search-field {
     font-size: 0.8rem;
@@ -166,6 +188,14 @@ p img+em {display: block;text-align: center; border-bottom: 1px dashed #eee; fon
   #search-btn {display: none}
   body {
     font-size: 1rem;
+  }
+  .footer-links {
+    display: block;
+    border-bottom: 1px dotted #111;
+  }
+  footer p, .footer-links {
+    padding: auto;
+    float: none;
   }
 }
 
