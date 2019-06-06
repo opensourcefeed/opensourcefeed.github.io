@@ -39,8 +39,9 @@ layout: default
 
 			<article class="post-content">
 				{{ content }}
-				<h4>Video Preview</h4>
+				
 				{% if page.video %}
+				<h4>Video Preview</h4>
 				<div class="video-responsive">
 				<iframe width="100%" src="{{page.video}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
