@@ -1,20 +1,4 @@
 $(function () {
-    // Custom code to handle nested navigation menu
-    $('.dropdown-menu a.dropdown-toggle').on('click', function () {
-        if (!$(this).next().hasClass('show')) {
-            $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
-        }
-        var $subMenu = $(this).next(".dropdown-menu");
-        $subMenu.toggleClass('show');
-
-
-        $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function () {
-            $('.dropdown-submenu .show').removeClass("show");
-        });
-
-
-        return false;
-    });
 
     // Filter the results on keyup
     $('#search-field').on('keyup', function () {
@@ -66,11 +50,11 @@ $(function () {
     // Control size of navbar on scrolling
     $(window).scroll(function () {
         if ($(document).scrollTop() > 50) {
-          $('.navbar').addClass('navbar-small').removeClass('container');
+          $('.navbar').addClass('navbar-small');
           $('main').css('margin-top', '100px');
       }
       else {
-          $('.navbar').removeClass('navbar-small').addClass('container');
+          $('.navbar').removeClass('navbar-small');
           $('main').removeAttr('style');
       }
   });

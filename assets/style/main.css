@@ -5,7 +5,7 @@ a {color: #164b78}
 a:hover {color: #35b9ab}
 .bg-dark {background-color: #173f4f !important}
 .navbar-dark .navbar-nav .nav-link {color: #eee}
-.navbar-brand {color:white !important;}
+.navbar-brand img {width: 24px; margin-right: .5rem}
 .navbar-small {padding: 0rem 1rem; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); border-bottom: none; position: fixed; top: 0; width: 100%; z-index: 100}
 .navbar-small .navbar-brand {font-size: 1.1rem}
 .navbar-small .nav-link {font-size: 1rem}
@@ -121,7 +121,7 @@ footer{text-align:center;background:#173f4f;color:white;padding:5px 0 5px 0; wid
 .page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {background:#607D8B;border-color:#607D8B;}
 .blog .page-nav {text-align: center}
 .comment-area h3 {font-size: 1.3rem;}
-main {border: 1px solid #eee; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);}
+main {border: 1px solid #eee}
 main h3, main h4 {font-weight: bold;}
 main h2 {font-size: 1.4em; color: #173f4f}
 main h3 {font-size: 1.2em; margin: 2em 0 1rem}
