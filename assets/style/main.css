@@ -63,6 +63,10 @@ a:hover {color: #35b9ab}
   text-decoration: none;
 }
 /* Stories*/
+.stories {
+  padding: 1rem;
+  background: white;
+}
 .stories h2 {
   font-size: 1.5rem;
   margin-top: 1rem;
