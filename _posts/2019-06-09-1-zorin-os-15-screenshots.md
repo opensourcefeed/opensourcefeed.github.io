@@ -4,7 +4,7 @@ layout: post
 categories: zorin gnome
 tags: zorin gnome
 image: "/screenshots/Zorin 15/01 Zorin Desktop.jpg"
-video: "https://www.youtube.com/embed/r1rdcmZh0jo"
+video: "https://www.youtube.com/embed/rmKs9YRU4-4"
 ---
 
 **On** 5th June 2019, Zorin Group has announced the availability of Zorin 15. It is a stable release from the project featuring beautiful Zorin Desktiop. The Zorin has put at most effort to make this distribution much better & smoother. With the updated GNOME shell, Zorin 15 is able to provide a smoother and better user expeience.
