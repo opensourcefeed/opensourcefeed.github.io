@@ -24,6 +24,9 @@ releases:
   4MLinux 17.0 STABLE : "http://open-source-feed.blogspot.com/2016/05/4mlinux-170-stable-released.html"
   4MLinux 16.0 BETA : "http://open-source-feed.blogspot.com/2016/01/4m-linux-160-beta-released.html"
   4MLinux 15.0 STABLE : "http://open-source-feed.blogspot.com/2016/01/4mlinux-150-stable-released.html"
+
+screenshots:
+  4MLinux 29.0 : "/1-4mlinux-29.0-stable-screenshots/"
 ---
 
 4MLinux is an independently evolved, minimal GNU/Linux distribution that mainly focuses on four features: maintenance (by using it as a system rescue live CD), multimedia (for example, for playing video DVDs), miniserver (using the inetd daemon), and mystery (meaning small Linux games).

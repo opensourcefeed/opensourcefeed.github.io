@@ -25,6 +25,7 @@ reviews:
   "Sabayon 15.11 KDE: hot, hotter and burnt" : "https://open-source-feed.blogspot.com/2015/12/sabayon-1511-kde-hot-hotter-and-burnt.html"
 
 screenshots:
+  Sabayon 19.03 GNOME: "/1-sabayon-19.03-screenshots/"
   Sabayon 16.04 GNOME : "https://distroscreens.blogspot.com/2016/04/sabayon-1604-gnome-screenshots.html"
 
 

@@ -36,6 +36,7 @@ reviews :
   Review of Windows like Zorin OS Core 11 : "http://open-source-feed.blogspot.com/2016/02/review-of-windows-like-zorin-os-core-11.html"
 
 screenshots:
+  Zorin OS 15: "/1-zorin-os-15-screenshots/"
   Zorin OS 12.2 : "https://distroscreens.blogspot.com/2017/09/zorin-os-122-screenshots.html"
   Zorin OS 12 Core : "http://distroscreens.blogspot.com/2016/12/zorin-os-12-core-screenshots.html"
 ---

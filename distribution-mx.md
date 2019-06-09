@@ -21,6 +21,7 @@ releases:
   MX Linux 17 Beta 1 : "https://mxlinux.org/mx-17-beta-1"
 
 screenshots:
+  MX Linux 18.3: "/1-mx-linux-18.3-screenshots/"
   MX Linux 17.0 : "https://goo.gl/F1oHqe"
 
 reviews:

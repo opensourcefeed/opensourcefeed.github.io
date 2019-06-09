@@ -21,6 +21,7 @@ releases:
   Peppermint 7 : "http://open-source-feed.blogspot.com/2016/12/peppermint-7-respin-released.html"
 
 screenshots :
+  Peppermint 10: "/1-peppermintos-10-screenshots/"
   Peppermint 9 : "http://distroscreens.blogspot.com/2018/08/peppermint-os-9-screenshots.html"
   Peppermint 8 : "http://distroscreens.blogspot.com/2017/06/peppermint-os-8-screenshots.html"
   Peppermint 7 : "http://distroscreens.blogspot.com/2016/06/peppermint-os-7-screenshots.html"
