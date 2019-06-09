@@ -7,7 +7,8 @@ permalink: /desktop/moksha
 logo: icon_moksha.png
 preview: moksha-preview.jpg
 home_page: http://www.bodhilinux.com/moksha-desktop/
-
+window_manager: true
+description: Moksha is a continuation of all good features from Enlightenment 17.x series.
 ---
 
  **Moksha** is a continuation of the Enlightenment 17 desktop. It consists of the back porting of bug fixes and features from future Enlightenment releases, as well as the removal of half finished / broken things E17 contained.

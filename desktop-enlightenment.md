@@ -1,12 +1,13 @@
 ---
 layout: desktop
 uid: enlightenment
-title: 'Enlightenment Window Manager'
+title: 'Enlightenment'
 Category: Desktop
 permalink: /desktop/enlightenment
 logo: e-logo-title.png
 preview: enlightenment-preview.jpg
 home_page: https://www.enlightenment.org/
+window_manager: true
 
 description: "Enlightenment is a lightweight & configurable window manager cum desktop environment targeting a wide range of devices."
 ---
