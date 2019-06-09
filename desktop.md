@@ -1,6 +1,7 @@
 --- 
 layout: default
-title: Collection of free and open source desktop environments & window managers.
+title: Collection of free and open source desktop environments & window managers
+description: Collection of free and open source desktop environments and window managers
 ---
 <div class="desktop">
     <h1>OPEN SOURCE DESKTOP ENVIRONMENTS & WINDOW MANAGERS</h1>

@@ -1,6 +1,7 @@
 --- 
 layout: default
-title: Exclusive list of Free and Open Source operating systems
+title: Collection of Free and Open Source operating systems
+description: Collection of Free and Open Source operating systems including GNU/Linux and BSD distributions.
 ---
 <div class="distribution">
     <h1>OPEN SOURCE OPERATING SYSTEM</h1>
