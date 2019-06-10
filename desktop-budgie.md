@@ -5,8 +5,8 @@ title: 'Budgie Desktop'
 Category: Desktop
 permalink: /desktop/budgie
 logo: budgie-logo.png
-preview: budgie-preview.jpeg
-home_page: http://budgie-desktop.org/
+preview: budgie-preview.jpg
+home_page: https://getsol.us/budgie
 description: Budgie is a modern desktop environment captured mind of people due to it's elgance, simplicty and productive nature. News and updates on budgie desktop.
 
 stories:
