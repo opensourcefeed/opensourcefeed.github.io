@@ -40,7 +40,7 @@ stories:
   Solus project is introducing a brisk menu in collaboration with Ubuntu MATE : "http://open-source-feed.blogspot.com/2016/12/solus-project-is-introducing-brisk-menu.html"
 ---
 
-**Ubuntu MATE** is a community of Ubuntu featuring [MATE Desktop](http://theopensourcefeed.com/desktop/mate). The project delivers a modern yet traditional looking and productive desktop experience to the users.
+**Ubuntu MATE** is a community of Ubuntu featuring [MATE Desktop](/desktop/mate). The project delivers a modern yet traditional looking and productive desktop experience to the users.
 
 Ubuntu MATE retains the classical Ubuntu experience with MATE Desktop, a successor of GNOME 2.x, which was used in earlier versions of Ubuntu.
 

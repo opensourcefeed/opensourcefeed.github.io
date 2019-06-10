@@ -17,7 +17,7 @@ description : "Kali Linux is a Debian (testing) based GNU/Linux distribution des
 releases:
   Kali Linux 2018.3 : "/00-kali-linux-2018.03-released-with-linux-4.17/"
   Kali Linux 2018.1 : "http://open-source-feed.blogspot.com/2018/02/kali-linux-20181-released-with-amd.html"
-  Kali Linux 2017.03 : "http://theopensourcefeed.com/kali-linux-201703-released/"
+  Kali Linux 2017.03 : "/kali-linux-201703-released/"
   Kali linux 2017.02 : "https://www.kali.org/news/kali-linux-2017-2-release/"
   Kali Linux 2017.01 : "http://open-source-feed.blogspot.com/2017/04/kali-linux-20171-released-with-cool.html"
 ---

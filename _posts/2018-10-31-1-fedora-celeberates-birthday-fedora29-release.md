@@ -18,7 +18,7 @@ Other notable changes include the introduction of GNOME 3.30 on Fedora Workstati
 Fedora Workstation is the laptop and PC flavor of Fedora. The Fedora 29 brings a handful of features and improvements. Let's have a peek through the Fedora 29 highlights.
 
 #### GNOME 3.30
-Fedora 29 Workstation is coming with GNOME 3.30. GNOME 3.30 includes some critical performance improvements on GJS (GNOME JS). This will provide a better experience with GNOME shell and other GJS based applications. GNOME 3.30 also brings enhanced core applications. A [complete list of GNOME 3.30 features](http://theopensourcefeed.com/00-gnome-3.30-almeria-released-with-improved-performance-and-more/) can be read on our previous post.
+Fedora 29 Workstation is coming with GNOME 3.30. GNOME 3.30 includes some critical performance improvements on GJS (GNOME JS). This will provide a better experience with GNOME shell and other GJS based applications. GNOME 3.30 also brings enhanced core applications. A [complete list of GNOME 3.30 features](/00-gnome-3.30-almeria-released-with-improved-performance-and-more/) can be read on our previous post.
 
 #### Automatic Updates
 With improved Flatpak support, Fedora 29 enables the automatic update of applications. Flatpak is a distribution independent application packaging method. It helps the developers to make their application compatible with multiple applications at once.

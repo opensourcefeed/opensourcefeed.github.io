@@ -2,4 +2,4 @@
 
 Free & Open Source Software Showcase.
 
-Hosted at http://theopensourcefeed.com
+Hosted at https://www.opensourcefeed.org
