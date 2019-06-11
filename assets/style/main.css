@@ -79,6 +79,7 @@ a:hover {color: #35b9ab}
   margin-bottom: 1.5rem;
   box-shadow: 0 1px 5px 1px rgba(17,17,17,0.2);
   padding: 1rem;
+  height: 95%;
 }
 .stories .story img{
   width: 100%;
@@ -150,7 +151,7 @@ main .recent-stories ul{list-style-type: none; padding-left: 0}
 
 .distribution h1, .desktop h1 {font-size:  1.5rem; margin-top: 1rem; text-align: center}
 .distribution h2 {border-bottom: 1px solid #eee; margin-top: 2rem; margin-bottom: 1rem}
-.desktop {height: 100%}
+.desktop {height: 100vh}
 
 pre.highlight {background: #173f4f; color: white; padding: 1rem}
 p img+em {display: block;text-align: center; border-bottom: 1px dashed #eee; font-style: normal; font-size: 15px}
