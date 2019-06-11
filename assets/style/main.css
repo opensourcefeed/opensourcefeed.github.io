@@ -1,9 +1,9 @@
 /* Nested navbar */
 body {font-size: 1.1rem; line-height: 2rem; background: #f7f7f7}
 main {background: white}
-a {color: #164b78}
+a {color: #0d5777}
 a:hover {color: #35b9ab}
-.bg-dark {background-color: #173f4f !important}
+.bg-dark {background-color: #0d5777 !important}
 .navbar-dark .navbar-nav .nav-link {color: #eee}
 .navbar-brand img {width: 24px; margin-right: .5rem}
 .navbar-small {padding: 0rem 1rem; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); border-bottom: none; position: fixed; top: 0; width: 100%; z-index: 100}
@@ -14,7 +14,8 @@ a:hover {color: #35b9ab}
 /* end of navbar */
 
 #master-section {
-  background-color: #173f4f;
+  background-color: #0d5777;
+  background-image: linear-gradient(30deg, #0d5777 0%, #47929d 90%, #47929d 100%);
   text-align: center;
   padding: 20vh 0 10vh 0;
 }
@@ -42,7 +43,7 @@ a:hover {color: #35b9ab}
   list-style: none;
   font-size: 1.2rem;
   position: relative;
-  z-index: 2;
+  z-index: 0;
   display: none;
   overflow-y: auto;
   max-height: 200px;
@@ -75,7 +76,14 @@ a:hover {color: #35b9ab}
 }
 
 .stories .story {
-  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #eee;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.stories .story img{
+  height: 300px;
+  overflow: hidden;
 }
 .story p{font-size:16px; line-height: 1.5rem}
 
@@ -97,7 +105,7 @@ blockquote{border-left: 5px solid #ccc; padding: 1rem; background: #eee}
 table ul{list-style-type:none;padding-left:0}
 .status-active{color:green;}
 .status-discontinued{color:red;}
-footer{text-align:center;background:#173f4f;color:white;padding:5px 0 5px 0; width: 100%}
+footer{text-align:center;background:#0d5777;color:white;padding:5px 0 5px 0; width: 100%}
 .heading {
   margin-top: 1rem;
 }
@@ -140,7 +148,7 @@ main .recent-stories ul{list-style-type: none; padding-left: 0}
 
 .distribution h1, .desktop h1 {font-size:  1.5rem; margin-top: 1rem; text-align: center}
 .distribution h2 {border-bottom: 1px solid #eee; margin-top: 2rem; margin-bottom: 1rem}
-.desktop {height: fill-available; height: -moz-available; height: -webkit-fill-available}
+.desktop {height: 100%}
 
 pre.highlight {background: #173f4f; color: white; padding: 1rem}
 p img+em {display: block;text-align: center; border-bottom: 1px dashed #eee; font-style: normal; font-size: 15px}
