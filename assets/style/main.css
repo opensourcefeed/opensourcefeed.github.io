@@ -17,7 +17,7 @@ a:hover {color: #35b9ab}
   background-color: #0d5777;
   background-image: linear-gradient(30deg, #0d5777 0%, #47929d 90%, #47929d 100%);
   text-align: center;
-  padding: 20vh 0 10vh 0;
+  padding: 10vh 0 10vh 0;
 }
 #master-section h1 {
   color: #35b9ab;
@@ -76,7 +76,7 @@ a:hover {color: #35b9ab}
 }
 
 .stories .story {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   box-shadow: 0 1px 5px 1px rgba(17,17,17,0.2);
   padding: 1rem;
 }
