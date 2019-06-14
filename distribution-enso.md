@@ -11,6 +11,7 @@ home_page: https://www.enso-os.site
 desktops: [xfce]
 base : [ubuntu]
 description : Enso OS in an interesting GNU/Linux distribution with Gala Window Manager, Plank dock and other inventions from elementary OS.
+tagline: Xfce with elementary innovations
 
 releases:
   Enso 0.3.1 Dancing Daisy: "https://blog.enso-os.site/post/185406287939/enso-031-dancing-daisy-release"
