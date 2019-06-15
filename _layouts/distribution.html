@@ -129,6 +129,12 @@
                             </td>
                         </tr>
                         {% endif %}
+                        {% if page.technologies %}
+                        <tr>
+                            <td>Underlying technologies</td>
+                            <td>{{ page.technologies }}
+                        </tr>
+                        {% endif %}
                         {% if page.purchase %}
                         <tr>
                             <td>Buy {{page.title}}</td>
