@@ -79,9 +79,11 @@ def save_results(results):
     if results:
         rows = results.get('rows')
         rank = 1
-        
+        prog = re.compile(r'\/distribution\/[a-z]+')
         map = {}
         for row in rows:
+            if not prog.search(row[0]): continue
+            
             url = re.sub(r'.*(/distribution/[a-z0-9]+).*', r"\1", row[0])
             if url in map:
                 print 'adding for', url
@@ -140,7 +142,7 @@ def save_results(results):
                     'rank': rank,
                     'count': 0
                 }
-            rank += 1
+                rank += 1
 
         # ut.sort(key=lambda x: x.count, reverse=True)
         final_result['distributions'].sort(key = lambda x: x['current']['rank'])
