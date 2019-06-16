@@ -9,6 +9,7 @@ home_page: https://www.openmandriva.org/
 desktops: [plasma]
 base : Independent
 technologies: rpm
+preview: openmandriva.jpg
 purchase:
   OSDisc : "https://www.osdisc.com/products/openmandriva"
 
@@ -16,6 +17,9 @@ description: "OpenMandriva is a community for of old *Mandriva* Linux. Just like
 
 releases:
   OpenMandriva Lx 4.0: "https://www.openmandriva.org/en/news/article/the-best-until-openmandriva-does-better-released-omlx-4-0"
+
+screenshots:
+  OpenMandriva Lx 4.0: "/1-openmandriva-lx4-release-screenshots/"
 
 ---
 
