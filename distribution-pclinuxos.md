@@ -4,7 +4,7 @@ uid: pclinuxos
 title: 'PCLinuxOS'
 Category: Distribution
 permalink: /distribution/pclinuxos
-logo: 500px-PCLinuxOS_logo.svg
+logo: pclinuxos.png
 preview: pclinuxos.jpg
 home_page: http://www.pclinuxos.com
 desktops: [xfce, plasma, mate]
