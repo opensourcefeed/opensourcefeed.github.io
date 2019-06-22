@@ -10,6 +10,7 @@ home_page: https://crux.nu/
 desktops: [Openbox]
 base : Independent
 tagline: keep it simple with all the complexities
+image: "/assets/images/preview/crux-preview.png"
 
 description : CRUX is an independent distribution which makes use of tar.gz-based package system, BSD-style initscripts, and a relatively small collection of trimmed packages
 
