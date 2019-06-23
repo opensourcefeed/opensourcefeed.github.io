@@ -51,24 +51,25 @@ title: Gallery of Free & Open Source Distributions & Desktops
     </div>
     {% endcomment %}
 </div>
-<div class="stories container">
+<div class="stories">
     <h2>Recent Stories</h2>
     <hr>
     <div class="row">
         {% for post in site.posts limit:9 %}
         <div class="col-md-4">
+            <a href="{{post.url}}">
             <div class="story">
                 {% if post.image %}
                   <img src="//images.weserv.nl/?url={{site.url}}{{post.image | replace: 'http://','' | replace: 'https://','' }}&w=420&output=jpg" alt="{{ post.title }}" title="{{ post.title }}" />
                 {% else %}
                   <img src="/assets/images/meta/placeholder.png"/>
                 {% endif %}
-                <a href="{{post.url}}">
-                    <h3>{{post.title}}</h3>
-                </a>
+                
+                <h3>{{post.title}}</h3>
                 <p>{{post.content | strip_html | truncatewords: 30, '...'}}</p>
                 <p>Posted on <em>{{post.date | date_to_string}}</em></p>
             </div>
+            </a>
         </div>
         {% endfor%}
     </div>

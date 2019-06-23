@@ -69,12 +69,17 @@ a:hover {color: #35b9ab}
   margin-top: 1rem;
 }
 .stories h3 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: normal;
   margin: auto;
   margin-bottom: .5rem
 }
-
+.stories a:hover {
+  text-decoration: none;
+}
+.stories p {
+  color: #111;
+}
 .stories .story {
   margin-bottom: 1.5rem;
   box-shadow: 0 1px 5px 1px rgba(17,17,17,0.2);
