@@ -8,6 +8,7 @@ logo: raspbian_logo.png
 home_page: http://raspbian.org
 base : [debian]
 tagline: "Raspberry + Debian"
+preview: raspbian-preview.jpg
 description : Raspbian is a Debian based, free operating system optimized for Raspberry Pi hardware. It inherits thousands of packages from Debian ecosystem.
 
 ---
