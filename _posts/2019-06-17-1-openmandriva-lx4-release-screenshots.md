@@ -4,6 +4,7 @@ layout: post
 categories: openmandriva screenshots
 tags: openmandriva
 image: "/screenshots/OpenMandriva Lx4/00 Loading OpenMandriva Desktop.jpg"
+video: "https://www.youtube.com/embed/OPJalZvvijc"
 ---
 **The** *OpenMandriva Association* has announced the release of OpenMandriva Lx 4.0. It includes several visible changes and under the hood improvements.
 
