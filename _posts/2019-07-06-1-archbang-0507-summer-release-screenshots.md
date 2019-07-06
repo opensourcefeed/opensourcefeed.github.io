@@ -3,7 +3,7 @@ title: "Exploring ArchBang 0507 Summer - Yet another OpenBox implementation"
 layout: post
 categories: archbang screenshots
 tags: archbang screenshots
-image: "/screenshots/Mageia 7.0/08 Multitasking Overview.jpg"
+image: "/screenshots/ArchBang 0507/08 Multitasking Overview.jpg"
 ---
 
 **ArchBang** is a distribution inspired from *CrunchBang*, a Debian based distribution providing a simple OpenBox window manager. ArchBang is designed to provide high performance in lower-end computers by taking a minimum amount of resources. As a rolling release, ArchBang provides updated media every few months, so that new users can get all the updates without spending a lot of bandwidth.
