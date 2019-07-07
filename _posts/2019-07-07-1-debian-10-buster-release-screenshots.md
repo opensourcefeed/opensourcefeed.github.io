@@ -8,6 +8,9 @@ image: "/screenshots/Debian 10 GNOME/02 About Debian Buster.jpg"
 
 **The** Debian team has announced the release of Debian 10 *buster*, latest stable release of *Universal Operating System*. Debian 10 will provide security updates and critical bug fixes for the coming 5 years.
 
+![About Dialog in Debian 10 Buster](/screenshots/Debian 10 GNOME/02 About Debian Buster.jpg)
+*About Dialog in Debian 10 Buster*
+
 Debian 10 is a result of 25 months of development effort, by the dedicated project members and community contributors around the world. It includes a wide range of desktop environments such as GNOME, Plasma, Cinnamon, MATE, XFCE, LXQt, and LXDE.
 
 Following are remarkable features of Debian 10 release, highlighted in [the official release announcement for Debian 10](https://www.debian.org/News/2019/20190706).
