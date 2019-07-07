@@ -4,6 +4,7 @@ layout: post
 categories: debian screenshots
 tags: debian screenshots
 image: "/screenshots/Debian 10 GNOME/02 About Debian Buster.jpg"
+video: "https://www.youtube.com/embed/8Uf128SBE5M"
 ---
 
 **The** Debian team has announced the release of Debian 10 *buster*, latest stable release of *Universal Operating System*. Debian 10 will provide security updates and critical bug fixes for the coming 5 years.
