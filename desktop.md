@@ -27,6 +27,7 @@ description: Collection of free and open source desktop environments and window 
             {% endif %}
         {% endfor %}
     </div>
+    <hr>
     <h2>Propose a Desktop Environment</h2>
     <p>If you are able to see a desktop environment of your interest, please suggest it in below comment box. We'll update it here</p>
     <div id="disqus_thread"></div>

@@ -38,6 +38,7 @@ description: Collection of Free and Open Source operating systems including GNU/
             {% endif %}
         {% endfor %}
     </div>
+    <hr>
     <h2>Propose a Distribution</div>
     <p>If you are able to see a distribution of your interest, please suggest it in below comment box. We'll update it here</p>
     <div id="disqus_thread"></div>
