@@ -4,6 +4,7 @@ layout: post
 categories: raspbian screenshots
 tags: raspbian screenshots
 image: "/screenshots/Raspbian 2019.04/01 Getting Started With Raspbian.jpg"
+video: "https://www.youtube.com/embed/IHAudo777MU"
 ---
 
 **Raspbian** is a popular name since the evolution of Raspberry Pi. It is a free operating system based on Debian, optimized for Raspberry Pi hardware. Rather than providing a mere operating system, Raspbian ships around 35000 packages compiled for Raspberry Pi.
