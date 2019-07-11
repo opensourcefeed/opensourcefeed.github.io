@@ -4,6 +4,7 @@ layout: post
 categories: mageia screenshots
 tags: mageia screenshots
 image: "/screenshots/Mageia 7.0/05 Mageia Desktop - First impression.jpg"
+video: "https://www.youtube.com/embed/EzY_Jyz25j8"
 ---
 
 **The** Mageia community has announced the release of Mageia 7, latest stable release of independent GNU/Linux distribution carrying the legacy of old Mandriva Linux. This release includes several enhancements, improved features, and updated packages.
