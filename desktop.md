@@ -28,6 +28,15 @@ description: Collection of free and open source desktop environments and window 
         {% endfor %}
     </div>
     <hr>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- Feed sidebar -->
+	<div class="ad">
+		<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6380671811722843" data-ad-slot="8487642304" data-ad-format="auto"></ins>
+	</div>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</hr>
     <h2>Propose a Desktop Environment</h2>
     <p>If you are able to see a desktop environment of your interest, please suggest it in below comment box. We'll update it here</p>
     <div id="disqus_thread"></div>
