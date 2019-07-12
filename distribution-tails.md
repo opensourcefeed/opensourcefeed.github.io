@@ -7,7 +7,7 @@ Category: Distribution
 type : Linux
 permalink: /distribution/tails
 logo: tails-logo-square.png
-preview: tails-preview.jpg
+preview: tails-preview.png
 home_page: https://tails.boum.org/
 desktops: [gnome]
 base : [debian]
