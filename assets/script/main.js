@@ -27,8 +27,8 @@ $(function () {
         }
 
         if (hasResult) {
-            $(entryParent).width($(this).innerWidth())
-            .css('left', $('#search-btn').parent().width())
+            $(entryParent).width($(this).innerWidth() - 1)
+            .css('margin-left', $('#search-btn').parent().width())
             .show();
         } else {
             $(entryParent).hide();

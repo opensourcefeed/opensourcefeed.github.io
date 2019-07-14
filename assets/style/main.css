@@ -41,8 +41,8 @@ a:hover {color: #35b9ab}
   text-align: left;
   list-style: none;
   font-size: 1.2rem;
-  position: relative;
-  z-index: 0;
+  position: absolute;
+  z-index: 1;
   display: none;
   overflow-y: auto;
   max-height: 200px;
