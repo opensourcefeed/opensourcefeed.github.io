@@ -9,6 +9,7 @@ preview: ferenos.jpg
 home_page: http://ferenos.weebly.com
 desktops: [cinnamon]
 base : [linuxmint]
+tagline: Make things simpler for todays and tomorrows generations
 description : feren OS is a traditional looking, modern desktop environment built on top of Linux Mint. It offers a well tweaked desktop environment to attract the masses.
   
 releases:
