@@ -13,6 +13,7 @@ tagline: Make things simpler for todays and tomorrows generations
 description : feren OS is a traditional looking, modern desktop environment built on top of Linux Mint. It offers a well tweaked desktop environment to attract the masses.
   
 releases:
+  feren OS 2019.07: "/ferenos-2019.07-snapshot-screenshots/"
   feren OS 2019.04: "http://ferenos.weebly.com/news/a-new-snapshot-is-now-here-for-feren-os-64-bit-and-32-bit-cinnamon"
   feren OS 2018.10: "/00-ferenos-october-snapshot-brings-significant-improvements/"
   feren OS 2018.1 : "../feren-os-launches-a-new-snapshot-to-welcome-2018/"
@@ -21,6 +22,9 @@ releases:
   feren OS August 2017 : "http://open-source-feed.blogspot.com/2017/08/feren-os-becomes-rolling-distribution.html"
   feren OS 2016.2 Update 2 : "http://ferenos.weebly.com/blog/feren-os-20162-update-2-has-been-released"
   feren OS 2016.2 Update 1 : "http://ferenos.weebly.com/blog/feren-os-20162-update-1-has-been-released"
+
+screenshots:
+  feren OS 2019.07: "/ferenos-2019.07-snapshot-screenshots/"
 ---
 
 **feren OS** is a traditional looking, modern desktop environment built on top Linux Mint. It offers a well customized Cinnamon Desktop without compromising productivity.
