@@ -7,8 +7,8 @@ Category: Distribution
 type : Linux
 permalink: /distribution/linuxmint
 logo: linuxmint-logo.png
-image: linuxmint18.1plasma.jpg
-preview: linuxmint18.1plasma.jpg
+image: linuxmint-preview.jpg
+preview: linuxmint-preview.jpg
 home_page: https://www.linuxmint.com
 desktops: [mate, cinnamon, xfce, plasma]
 base : [ubuntu, debian]
@@ -28,6 +28,7 @@ stories:
   "Five reasons for using Linux Mint" : "http://open-source-feed.blogspot.com/2015/11/5-reasons-for-using-liinux-mint.html"
 
 screenshots:
+  Linux Mint 19.2 Cinnamon: "/1-linux-mint-19.2-beta-cinnamon/"
   Linux Mint 19 MATE : "https://distroscreens.blogspot.com/2018/07/linux-mint-19-mate-screenshots.html"
   Linux Mint 19 Cinnamon : "https://distroscreens.blogspot.com/2018/07/linux-mint-19-tara-cinnamon-edition.html"
   Linux Mint 19 Xfce : "http://distroscreens.blogspot.com/2018/07/linux-mint-19-xfce-edition-screenshots.html"
@@ -42,6 +43,7 @@ reviews:
   "Linux Mint 17.3 - May be the best distribution so far" : "http://open-source-feed.blogspot.com/2015/12/linux-mint-173-may-be-best-linux-distro.html"
   
 releases:
+  "Linux Mint 19.2": "/1-linux-mint-19.2-beta-cinnamon/"
   "LMDE 3 'Cindy' Cinnamon" : "/00-linux-mint-debia-edition-3-cindy-released/"
   "Linux Mint 19 Xfce, MATE & Cinnamon" : "http://open-source-feed.blogspot.com/2018/06/linux-mint-19-cinnamon-xfce-mate.html"
   "Linux Mint 19 Xfce, MATE & Cinnamon BETA" : "http://open-source-feed.blogspot.com/2018/06/linux-mint-19-xfce-mate-cinnamon-beta.html"
