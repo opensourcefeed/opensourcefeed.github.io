@@ -2,10 +2,12 @@
 layout: distribution
 uid: linuxmint
 title: 'Linux Mint'
+tagline: Modern Distribution with traditional experience
 Category: Distribution
 type : Linux
 permalink: /distribution/linuxmint
 logo: linuxmint-logo.png
+image: linuxmint18.1plasma.jpg
 preview: linuxmint18.1plasma.jpg
 home_page: https://www.linuxmint.com
 desktops: [mate, cinnamon, xfce, plasma]
