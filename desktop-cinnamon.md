@@ -4,7 +4,7 @@ uid: cinnamon
 title: 'Cinnamon Desktop'
 Category: Desktop
 permalink: /desktop/cinnamon
-logo: cinnamon.svg
+logo: cinnamon.png
 preview: cinnamon-desktop.jpg
 home_page: http://developer.linuxmint.com/projects/cinnamon-projects.html
 description: Cinnamon is a free desktop environment developed by Linux Mint team. It is derived from GNOME shell and adopts various under the hood components from GNOME.
