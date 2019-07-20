@@ -111,6 +111,7 @@ blockquote{border-left: 5px solid #ccc; padding: 1rem; background: #eee}
 .story-listing h3{font-size:1.3rem;}
 .story-listing h4{font-size:1.0rem;color:black}
 table ul{list-style-type:none;padding-left:0}
+table td + td {word-break: break-word}
 .status-active{color:green;}
 .status-discontinued{color:red;}
 footer{text-align:center;background:#0d5777;color:white;padding:5px 0 5px 0; width: 100%}
