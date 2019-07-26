@@ -56,6 +56,11 @@ do
 done
 ```
 
+In one line, it can be written like,
+```
+$ for image in *.png ;  do convert "$image" "${image%.*}.jpg" ; done
+```
+
 That's all for now. This post is inspired by an [answer given in superuser - an affiliate of StackExange](https://superuser.com/questions/71028/batch-converting-png-to-jpg-in-linux).
 
 In case of any issues, or clarification please let me know via the comment box below.
