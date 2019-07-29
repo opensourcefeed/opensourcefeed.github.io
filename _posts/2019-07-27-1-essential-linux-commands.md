@@ -27,6 +27,11 @@ The `grep` command can be used find a particular text in a set of files. By defa
 ```
 $ grep "text" "file name pattern"
 ```
+If you want to search recursively inside directories, you can use `-r` with grep command.
+```
+$ grep -r "text" "directory name"
+```
+
 Following options can be used with grep command.
 - `G` - basic regular expression
 - `i` - ignore case
