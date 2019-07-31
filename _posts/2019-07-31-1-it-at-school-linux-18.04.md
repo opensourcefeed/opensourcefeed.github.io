@@ -1,5 +1,5 @@
 ---
-title: "IT @ School GNU/Linux 18.04 - Kerala model of open source education"
+title: "IT@School GNU/Linux 18.04 - Kerala model of open source education"
 layout: post
 categories: itatschool screenshots
 tags: itatschool
