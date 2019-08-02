@@ -28,9 +28,9 @@ stories:
   "Five reasons for using Linux Mint" : "http://open-source-feed.blogspot.com/2015/11/5-reasons-for-using-liinux-mint.html"
 
 screenshots:
-  Linux Mint 19.2 BETA Xfce: "/1-linux-mint-19.2-beta-xfce-screenshots/"
-  Linux Mint 19.2 BETA MATE: "/2-linux-mint-19.2-beta-mate-screens/"
-  Linux Mint 19.2 BETA Cinnamon: "/1-linux-mint-19.2-beta-cinnamon/"
+  Linux Mint 19.2 Xfce: "/1-linux-mint-19.2-beta-xfce-screenshots/"
+  Linux Mint 19.2 MATE: "/2-linux-mint-19.2-beta-mate-screens/"
+  Linux Mint 19.2 Cinnamon: "/1-linux-mint-19.2-beta-cinnamon/"
   Linux Mint 19 MATE : "https://distroscreens.blogspot.com/2018/07/linux-mint-19-mate-screenshots.html"
   Linux Mint 19 Cinnamon : "https://distroscreens.blogspot.com/2018/07/linux-mint-19-tara-cinnamon-edition.html"
   Linux Mint 19 Xfce : "http://distroscreens.blogspot.com/2018/07/linux-mint-19-xfce-edition-screenshots.html"
