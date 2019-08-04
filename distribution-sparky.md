@@ -17,6 +17,7 @@ purchase :
 description : "Sparky Linux is a Debian based GNU/Linux distribution offering a ready to use, out of the box operating system. Stories, reviews and updates on Sparky Linux project."
 
 releases:
+  Sparky Linux 2019.08: "/1-sparky-linux-2019.08-screenshots/"
   Sparky Linux 4.9: "/2-sparkylinux-4.9-release/"
   Sparky Linux 5.5: "/00-sparky-linux-5.5-released-with-gcc8-linux4.18.6-and-more/"
   Sparky Linux 4.8: "http://open-source-feed.blogspot.com/2018/05/sparky-linux-48-released-with-updated.html"
@@ -31,6 +32,9 @@ releases:
   Sparky Linux 4.2 Special editions : "http://open-source-feed.blogspot.com/2015/12/sparkylinux-42-special-editions-released.html"
   Sparky Linux 4.2 : "http://open-source-feed.blogspot.com/2015/12/sparkylinux-42-tyche-released.html"
   Sparky Linux 4.0 RC : "http://open-source-feed.blogspot.com/2015/04/sparkylinux-40-rc-released.html"
+
+screenshots:
+  Sparky Linux 2019.08: ""/1-sparky-linux-2019.08-screenshots/""
   
 review :
   Sparky Linux provides a fully functioaning & lightweight OS with some glitches (Distrowatch) : "http://distrowatch.com/weekly.php?issue=20171113#sparky"
