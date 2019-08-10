@@ -101,8 +101,8 @@ a:hover {color: #35b9ab}
 .post-header h1{font-size:1.6rem;padding-top:40px;text-align:center}
 .post-header .category{border:1px solid #ddd;padding:5px}
 .post-header .post-meta {font-size: 0.9rem}
+.post-header .ad {max-height: 128px}
 .post-header a:hover{text-decoration:none}
-.post-content {margin-top: 2rem}
 .post-content img{max-width:100%;display:block;margin:auto}
 .lastUpdated{font-size:16px;color:#777;}
 blockquote{border-left: 5px solid #ccc; padding: 1rem; background: #eee}
