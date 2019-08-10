@@ -12,14 +12,20 @@ base : [debian, ubuntu]
 description : Ubuntu based GNU/Linux distribution from France. It includes several extensions and tools to provide improved productivity.
 
 releases:
+  "Voyager 10": "/voyager-10-with-screenshots/"
   "Voyager - GE 18.10": "/1-voyager-ge-18.10-brings-gnome-shell/"
   "Voyager Live 16.04 LTS": "https://open-source-feed.blogspot.com/2016/04/voyager-live-1604-lts-released.html"
+
+screenshots:
+  "Voyager 10": "/voyager-10-with-screenshots/"
 
 review:
   "Voyager 16.04 offers a smooth Linux adventure": "https://open-source-feed.blogspot.com/2016/06/voyager-live-1604-offers-smooth-linux.html"
 
 ---
 
-**Voyager Live** is an Ubuntu based GNU/Linux distribution from France. With dozens of extensions and tools, it provides improved productivity and decent look and feel.
+**Voyager Live** is an Ubuntu and Debian based GNU/Linux distribution from France. With dozens of extensions and tools, it provides improved productivity and decent look and feel.
 
 Initially, the Voyager releases were using the Xfce as default desktop environment. Beginning from 18.10 release, Voyager is using GNOME shell.
+
+The main idea of Voyager is to provde a set of scripts, extensions and applications together to expediate the productivity.
