@@ -4,6 +4,7 @@ layout: post
 categories: voyager screenshots
 tags: voyager gnome screenshots
 image: "/screenshots/Voyager 10/01 Voyager 10 GNOME Desktop.jpg"
+video: "https://www.youtube.com/embed/wBLToY3pYO8"
 ---
 
 **Mr**. Rodolphe has announced the release of Voyager 10. It is a major release of Voyager with Debian *Buster* base. In this release, the Voyager team has replaced Xfce Desktop with a customized version of GNOME shell. 
