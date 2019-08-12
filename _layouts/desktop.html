@@ -43,6 +43,18 @@ layout: default
                             <td><a href="{{ page.home_page }}" target="_blank">{{page.home_page}}</a></td>
                         </tr>
                         {% endif %}
+                         {% if page.releases %}
+                        <tr>
+                            <td>Releases</td>
+                            <td>
+                                <ul>
+                                    {% for release in page.releases %}
+                                    <li><a href="{{release[1]}}">{{release[0]}}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </td>
+                        </tr>
+                        {% endif %}
                         {% assign distributions = '' | split: '' %}
                         {% for candidate in site.pages %}
                             {% if candidate.Category == 'Distribution' and candidate.desktops contains page.uid %}
@@ -63,40 +75,49 @@ layout: default
                         </tr>
                         {% endif %}
                     </table>
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- Feed sidebar -->
-                    <div class="ad">
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6380671811722843" data-ad-slot="8487642304" data-ad-format="auto">
-                    </ins>
-                    </div>
-                    <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                    {% if page.releases%}
-                        <hr>
-                        <div class="story-listing">
-                            <h3>{{page.title}} releases</h3>
-                            <ul>
-                            {% for release in page.releases %}
-                                <li><a href="{{release[1]}}">{{release[0]}}</a></li>
-                            {% endfor %}
-                            </ul>
-                        </div>
-                    {% endif %}
-                    {% if page.stories%}
-                        <hr>
-                        <div class="story-listing">
-                            <h3>Stories on {{page.title}}</h3>
-                            <ul>
-                            {% for story in page.stories %}
-                                <li><a href="{{story[1]}}">{{story[0]}}</a></li>
-                            {% endfor %}
-                            </ul>
-                        </div>
-                    {% endif %}
                 </article>
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Feed sidebar -->
+                <div class="ad">
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6380671811722843" data-ad-slot="8487642304" data-ad-format="auto">
+                </ins>
+                </div>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+                {% if site.categories[page.uid] or page.stories%}
+                <hr>
+                <div class="story-listing">
+                    <h3>Other stories on {{page.title}}</h3>
+                    <ul>
+                        {% for story in page.stories %}
+                        <li><a href="{{story[1]}}">{{story[0]}}</a></li>
+                        {% endfor %} {% for story in site.categories[page.uid] %}
+                        <li><a href="{{story.url}}">{{story.title}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+                <hr/>
+                <!--Disqus comment box-->
+                <div class="comment-area">
+                    <h3>What do you think about {{page.title}}?</h3>
+                    <div id="disqus_thread"></div>
+                    <script>
+                        (function() {
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://theopensourcefeed.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    <!—- ShareThis BEGIN -—>
+                    <script async src="https://platform-api.sharethis.com/js/sharethis.js#property=5d14f9cbf55c0f00125670fb&product="sticky-share-buttons"></script>
+                    <!—- ShareThis END -—>
+                </div
+                <!-- End of comment box -->
             </div>
-            
     </div>
     <div class="col-md-2 order-md-0"></div>
     <div class="col-md-2 order-md-2"></div>
