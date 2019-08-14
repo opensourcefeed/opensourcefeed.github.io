@@ -12,6 +12,13 @@ base : Independent
 description : PCLinuxOS is an indpendently evolved, rolling GNU/Linux distribution started back in 2004. Initially, it was started as a fork of Mandriva Linux. Stories and reviews of PCLinuxOS.
 reviews:
   PCLinuxOS is conservative in appeal, latest and greatest in applications : http://open-source-feed.blogspot.com/2017/04/pclinuxos-is-conservative-in-appeal.html
+
+releases:
+  PCLinuxOS 2019.08: "/pclinuxos-2019.08-release/"
+  PCLinuxOS 2019.06: "/1-pclinuxos-2019.06-facing-jealous-ice-cubes/"
+
+screenshots:
+  PCLinuxOS 2019.06: "/1-pclinuxos-2019.06-facing-jealous-ice-cubes/"
 ---
 
 **PCLinuxOS** is an indpendently evolved, rolling GNU/Linux distribution started back in 2004. Initially, it was started as a fork of Mandriva Linux. Over the years, it has become a full fledged GNU/Linux distribution rolling it's own packages and has secured a significant position among well known GNU/Linux distributions.
