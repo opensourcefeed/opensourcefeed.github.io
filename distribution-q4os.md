@@ -8,10 +8,8 @@ type : Linux
 logo: q4os.png
 preview: q4os.jpg
 home_page: http://q4os.org/
-desktops: [trinity]
+desktops: [trinity, plasma]
 base: [debian]
-purchase:
-  OSDisc : "https://www.osdisc.com/products/q4os"
 
 description : "Q4OS is a Debian based operating system featuring Trinity Desktop environment with purpose of providing a stable, reliable & familiar user experience."
 
@@ -21,6 +19,9 @@ releases:
   Q4OS 1.4.10 : "http://open-source-feed.blogspot.com/2016/05/q4os-1410-orion-released-with-improved.html"
   Q4OS 2.1 Scropion testing : "http://open-source-feed.blogspot.com/2016/04/q4os-21-scorpion-testing-image-is.html"
   Q4OS 1.4.9 Orion : "http://open-source-feed.blogspot.com/2016/04/q4os-149-orion-released.html"
+
+screenshots:
+  Q4OS 3.8: "/windows-xp-days-q4os-3.8/"
 
 stories:
   Converting Q4OS into a Windows XP clone using XPQ4 : "http://open-source-feed.blogspot.com/2016/04/converting-q4os-into-windows-xp-clone.html"
