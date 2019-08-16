@@ -4,6 +4,7 @@ layout: post
 categories: q4os trinity screenshots
 tags: q4os trinity screenshots
 image: "/screenshots/Q4OS 3.8/18 Spring look and feel.png"
+video: "https://www.youtube.com/embed/ksx9an06w0M"
 ---
 
 **Q4OS** is a Debian based operating system that resembles Windows XP. It uses Trinity Desktop and Plasma Desktop to provide a classic user experience of 20th century.
