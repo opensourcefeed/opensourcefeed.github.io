@@ -10,8 +10,6 @@ preview: netrunner.jpg
 home_page: http://www.netrunner.com
 desktops: [plasma]
 base : [arch, manjaro, debian]
-purchase:
-  OSDisc : "https://www.osdisc.com/products/netrunner"
 
 description : Netrunner is a free operating system featuring a compact, yet fully functional desktop environment. Read reviews, updates and other stories on Netrunner operating system.
 
@@ -19,6 +17,7 @@ screenshots:
   Netrunner Rolling 2018.08 : "http://distroscreens.blogspot.com/2018/09/netrunner-rolling-201808-plasma.html"
 
 releases:
+  Netrunner 2019.08 Indigo: "/netrunner-2019.08-release/"
   Netrunner Rolling 2018.08 : "/01-Netrunner-rolling-2018.07-released-with-seamless-gtk-integration/"
   Netrunner 18.03 Idolon : "/netrunner-1803-idolon-released-with-a-set-of-redesigned-artworks/"
   Netrunner Rolling 2018.01 : "http://open-source-feed.blogspot.com/2018/01/netrunner-rolling-201801-released-with.html"
