@@ -13,6 +13,12 @@ base : [arch]
 
 description : "Archman is an Arch-based GNU/Linux distribution intended to make the computing easier for beginners and advanced developers. Stories and updates on Archman"
 
+releases:
+  Archman 2019.09 Xfce: "/1-archman-2019.09-release-screens/"
+
+screenshots:
+  Archman 2019.09 Xfce: "/1-archman-2019.09-release-screens/"
+
 ---
 
 **Archman** is an Arch-based GNU/Linux distribution intended to make the computing easier for beginners and advanced developers. The project descriptions states, it makes things easier but keeps the gate open for all range of users.
