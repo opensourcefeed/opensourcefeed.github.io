@@ -10,17 +10,17 @@ preview: mx-preview.jpg
 home_page: https://mxlinux.org/
 desktops: [xfce]
 base: [debian]
-purchase:
-  OSDisc : "https://www.osdisc.com/products/mx"
 
 description : "MX Linux is a cooperative venture between the antiX and former MEPIS communities, using the best tools and talents from each distributions."
 
 releases:
+  MX-19 BETA 2.1: "/1-mx-19beta2.1-release/"
   MX-17.1 : "../mx-linux-17.1-released-featuring-libreoffice-6-and-mx-apps-improvements/"
   MX Linux 17 : "https://mxlinux.org/mx-17-released-december-15-2017"
   MX Linux 17 Beta 1 : "https://mxlinux.org/mx-17-beta-1"
 
 screenshots:
+  MX-19 BETA 2.1: "/1-mx-19beta2.1-release/"
   MX Linux 18.3: "/1-mx-linux-18.3-screenshots/"
   MX Linux 17.0 : "https://goo.gl/F1oHqe"
 
