@@ -11,6 +11,7 @@ home_page: https://www.gnome.org/
 description: GNOME (originally an acronym for GNU Network Object Model) is a modern desktop environment mainly developed for GNU/Linux operating systems, but also works on most of the BSD systems. Stories & updates on GNOME Desktop.
 
 releases:
+  GNOME 3.34: "/gnome-3.34-release/"
   GNOME 3.30 released with improved performance : "/00-gnome-3.30-almeria-released-with-improved-performance-and-more/"
   GNOME 3.26 released with redesigned control center : "http://open-source-feed.blogspot.com/2017/09/gnome-326-released-with-redesigned.html"
   GNOME 3.24 released with numerous cool features : http://open-source-feed.blogspot.com/2017/03/gnome-324-released-with-numerous-cool.html
