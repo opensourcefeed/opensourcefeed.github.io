@@ -13,14 +13,13 @@ desktops: [mate]
 base : [trueos]
 telegram : 
   GhostBSD: "https://t.me/ghostbsd"
-purchase:
-  OSDisc : "https://www.osdisc.com/products/ghostbsd"
 
 description : GhostBSD is a simple and easy to use desktop BSD based on TrueOS. With pre-installed application and GUI it is suitable for beginners and advanced users.
 
 releases:
-  GhostBSD 18.10: "http://localhost:4000/0-GhostBSD-18.10-release/"
-  GhostBSD 18.10 RC1: "http://localhost:4000/01-ghostbsd-18.10-rc1-released-trueos-base/"
+  GhostBSD 19.09: "/ghostbsd-19.09-release/"
+  GhostBSD 18.10: "/0-GhostBSD-18.10-release/"
+  GhostBSD 18.10 RC1: "/01-ghostbsd-18.10-rc1-released-trueos-base/"
 
 stories:
   "GhostBSD is switching base system from FreeBSD to TrueOS": "https://open-source-feed.blogspot.com/2018/05/ghostbsd-is-switching-base-system-from.html"
