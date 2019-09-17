@@ -4,6 +4,7 @@ layout: post
 categories: fedora release
 tags: fedora release
 image: "/screenshots/Fedora 31 BETA/02 About Fedora 31 BETA.jpg"
+video: "https://www.youtube.com/embed/pmU7ZdtgQCw"
 ---
 
 **The** Fedora Project has announced the release of Fedora 31 BETA, a development release before the forthcoming Fedora 31 release planned for October 2019. This release includes Fedora Workstation, IoT Edition, CoreOS, and other updated packages.

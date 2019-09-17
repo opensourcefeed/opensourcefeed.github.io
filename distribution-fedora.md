@@ -13,8 +13,6 @@ desktops: [gnome, plasma, mate, xfce, lxde]
 base : Independent
 telegram : 
   Fedora: "https://t.me/fedora"
-purchase:
-  OSDisc : "https://www.osdisc.com/products/fedora"
 
 description: Fedora is an independently developed, cutting-edge, popular GNU/Linux distribution supported by Red Hat Inc, and a group of volunteers
 
@@ -25,6 +23,7 @@ reviews :
   Fedora 25 is not something worth to recommend: "http://open-source-feed.blogspot.com/2017/02/fedora-25-is-not-something-worth-to.html"
 
 screenshots :
+  Fedora 31 BETA: "/fedora-31-beta-release/"
   Fedora 30 Pantheon: "/1-fedora-30-pantheon-screenshots/"
   Fedora 29 Workstation: "https://distroscreens.blogspot.com/2018/11/fedora-29-workstation-screenshots.html"
   Fedora 29 Workstation Beta: "http://distroscreens.blogspot.com/2018/10/fedora-29-workstation-beta-gnome-330.html"
@@ -41,6 +40,7 @@ screenshots :
   Fedora 24 Alpha : "http://distroscreens.blogspot.com/2016/04/fedora-24-alpha-gnome-320-screenshots.html"
 
 releases:
+  Fedora 31 BETA: "/fedora-31-beta-release/"
   Fedora 29: "/1-fedora-celeberates-birthday-fedora29-release/"
   Fedora 29 Beta: "/00-fedora-29-beta-released-with-GNOME-3.30/"
   Fedora 28 : "https://open-source-feed.blogspot.com/2018/05/fedora-28-released-with-modular.html"
