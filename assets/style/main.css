@@ -166,9 +166,11 @@ main .recent-stories ul{list-style-type: none; padding-left: 0}
   box-shadow: none;
 }
 
-.distribution h1, .desktop h1 {font-size:  1.5rem; margin-top: 1rem; text-align: center}
+.distribution h1, .desktop h1, .screenshots h1 {font-size:  1.5rem; margin-top: 1rem; text-align: center}
 .distribution h2 {border-bottom: 1px solid #eee; margin-top: 2rem; margin-bottom: 1rem}
-
+.screenshots h2 {font-weight: normal; font-size: 1.3em; border-bottom: 1px solid #eee}
+.screenshots ul {list-style-type: none; padding-left: 0}
+.screenshots a {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 100%; display: inline-block;}
 pre.highlight {background: #173f4f; color: white; padding: 1rem}
 p img+em {display: block;text-align: center; border-bottom: 1px dashed #eee; font-style: normal; font-size: 15px}
 .video-responsive{
