@@ -18,8 +18,8 @@ The BETA images are mainly for QA volunteers and curious users. If QA volunteers
 ## What is new in Ubuntu 19.10 Eoan Ermine?
 As a non-LTS release, Ubuntu 19.10 Eoan Ermine brings some drastic changes. Some notworthy highlights in Ubuntu 19.10 BETA are summarized below.
 
-> - GNOME 3.34 - The latest stable release from the GNOME project. This includes some user experience improvements with smooth transitions and animations.  The release also brings some changes in UI, especially background selection in the control panel. The ability to create custom groups of applications in the application menu is also a part of this release.
-- Ubuntu introduced the Yaru theme as part of Ubuntu 18.10 release. It was coming with a dark shade like the tradition of Ubuntu. In 19.10, a light variation of Yaru theme will be used as default.
+> - **GNOME 3.34**: The latest stable release from the GNOME project. This includes some user experience improvements with smooth transitions and animations.  The release also brings some changes in UI, especially background selection in the control panel. The ability to create custom groups of applications in the application menu is also a part of this release.
+- **Light Yaru theme**: Ubuntu introduced the Yaru theme as part of Ubuntu 18.10 release. It was coming with a dark shade like the tradition of Ubuntu. In 19.10, a light variation of Yaru theme will be used as default.
 - Linux Kernel 5.3.x series
 - Ubuntu Eoan Ermine will support theming snap applications.
 - Updated toolchain with  glibc 2.30, OpenJDK 11, rustc 1.37, GCC 8.3, optional GCC 9, Python 3.7.3 as default, ruby 2.5.5, php 7.2.15, perl 5.28.1, golang 1.10.4. ..etc
