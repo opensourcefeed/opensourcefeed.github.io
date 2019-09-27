@@ -10,12 +10,11 @@ preview: ubuntu-preview.jpg
 home_page: https://www.ubuntu.com/
 desktops: [unity, gnome]
 base : [debian]
-purchase:
-  OSDisc : "https://www.osdisc.com/products/ubuntu"
 
 description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a range of hardware platforms like desktop, server, clouds and IoT.
 
 releases :
+  Ubuntu 19.10 Eoan Ermine BETA: "/ubuntu-eoan-ermine-beta-release/"
   Ubuntu 19.04 Disco Dingo: "https://lists.ubuntu.com/archives/ubuntu-announce/2019-April/000243.html"
   Ubuntu 18.10 Cosmic Cuttlefish: "/02-ubuntu-18.10-brings-fresh-desktop-theme-better-snap-support/"
   Ubuntu 18.10 Cosmic Cuttlefish Beta: "/00-ubuntu-18.10-cosmic-cutlet-beta-release/"
