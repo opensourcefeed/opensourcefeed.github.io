@@ -4,6 +4,7 @@ layout: post
 categories: ubuntubudgie screenshots
 tags: ubuntubudgie screenshots
 image: "/screenshots/Ubuntu Budgie 19.10 BETA/14 LibreOffice Impress.jpg"
+video: "https://www.youtube.com/embed/5ZnKyFdGg3U"
 ---
 
 Ubuntu Budgie 19.10 *Eoan Ermine* is an upcoming regular release of Ubuntu Budgie. It includes a bunch of improvements from Ubuntu and Budgie Desktop project. With updated packages and tweaks, Ubuntu Budgie* Eoan Ermine* offers a better user experience.
