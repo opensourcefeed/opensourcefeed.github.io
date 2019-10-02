@@ -1,28 +1,26 @@
 ---
-title: "Ubuntu Budgie 19.10 BETA screenshots"
+title: "SolydXK 10 released with Debian Buster Foundation"
 layout: post
-categories: ubuntubudgie screenshots
-tags: ubuntubudgie screenshots
-image: "/screenshots/Ubuntu Budgie 19.10 BETA/14 LibreOffice Impress.jpg"
-video: "https://www.youtube.com/embed/5ZnKyFdGg3U"
+categories: solydxk screenshots
+tags: solydxk screenshots
+image: "/screenshots/SolydK 10/13 Gwenview Image Viewer.png"
 ---
 
-Ubuntu Budgie 19.10 *Eoan Ermine* is an upcoming regular release of Ubuntu Budgie. It includes a bunch of improvements from Ubuntu and Budgie Desktop project. With updated packages and tweaks, Ubuntu Budgie* Eoan Ermine* offers a better user experience.
+**The** SolydXK project has announced the release of SolydXK 10, the latest stable release of Debian based GNU/Linux distribution. This release has its foundation laying on Debian 10.1 Buster.
 
-## What is new in Ubuntu Budgie 19.10 Eoan Ermine?
+The main highlights of SolydXK 10 are summarized below.
 
-The main highlights of Ubuntu Budgie 19.10 are briefed below.
+> - All updated packages from the Debian Buster branch. The packages are up-to-date with Debian 10.1 release.
+- The distribution now supports localization from the boot menu itself. Hence the locale-specific images have been removed.
+- Brand new Grub theme
+- The image writer tool is redesigned to deliver a faster, smoother and consistent user experience.
+- The Firefox browser is patched with an additional distribution-specific package, to provide better privacy.
+- All unnecessary packages have been removed from the installation image. This ensures, proper usage of space.
 
-> - The Budgie Desktop is integrated with latest GNOME 3.34 stack. Also, the team has made some noteworthy contributions in making the overall desktop experience better and the same ported 
-- Ubuntu Budgie 19.10 includes NVidia proprietary drivers in the default image. This can be installed with a single click if it is required for the hardware
-- The Budgie Applets have been improved for better performance and user experience
-- Linux Kernel 5.3
-- Redesigned background selection from GNOME 3.34 stack
-- LibreOffice 6.3.x.
+For more updates from the SolydXK project, read [SolydXK 10 release announcement](https://solydxk.com/news/solydxk-10-released-based-on-debian-buster-1) on the project's website.
 
-## Ubuntu Budgie 19.10 Eoan Ermine screenshots
-The following section showcases some screenshots captured on Ubuntu Budgie 19.10 BETA release.
+## SolydK 10 screenshots
 
-{% include image-gallery.html folder="/screenshots/Ubuntu Budgie 19.10 BETA" %}
+{% include image-gallery.html folder="/screenshots/SolydK 10" %}
 
  
