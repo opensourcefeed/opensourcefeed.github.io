@@ -9,6 +9,8 @@ video: "https://www.youtube.com/embed/5ZnKyFdGg3U"
 
 **Ubuntu Budgie** 19.10 *Eoan Ermine* is an upcoming regular release of Ubuntu Budgie. It includes a bunch of improvements from Ubuntu and Budgie Desktop project. With updated packages and tweaks, Ubuntu Budgie *Eoan Ermine* offers a better user experience.
 
+![Ubuntu Budgie 19.10 Preview](/screenshots/Ubuntu Budgie 19.10 BETA/14 LibreOffice Impress.jpg)
+
 ## What is new in Ubuntu Budgie 19.10 Eoan Ermine?
 
 The main highlights of Ubuntu Budgie 19.10 are briefed below.

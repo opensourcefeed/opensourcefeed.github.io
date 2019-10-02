@@ -8,6 +8,8 @@ image: "/screenshots/SolydK 10/13 Gwenview Image Viewer.png"
 
 **The** SolydXK project has announced the release of SolydXK 10, the latest stable release of Debian based GNU/Linux distribution. This release has its foundation laying on Debian 10.1 Buster.
 
+![SolydK 10 Preview](/screenshots/SolydK 10/13 Gwenview Image Viewer.png)
+
 The main highlights of SolydXK 10 are summarized below.
 
 > - All updated packages from the Debian Buster branch. The packages are up-to-date with Debian 10.1 release.
