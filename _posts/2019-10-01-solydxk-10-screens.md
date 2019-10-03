@@ -4,6 +4,7 @@ layout: post
 categories: solydxk screenshots
 tags: solydxk screenshots
 image: "/screenshots/SolydK 10/13 Gwenview Image Viewer.png"
+video: https://www.youtube.com/embed/akMwwV9Chjo
 ---
 
 **The** SolydXK project has announced the release of SolydXK 10, the latest stable release of Debian based GNU/Linux distribution. This release has its foundation laying on Debian 10.1 Buster.
