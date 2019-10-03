@@ -109,7 +109,7 @@ p {
 /**old styles**/
 .social-icons img{height:35px;}
 .social-icons, .social-icons li{display:inline;}
-.post-header h1{font-size:1.6rem;padding-top:40px;text-align:center}
+.post-header h1{font-size:2rem;padding-top:40px;text-align:center}
 .post-header .category{border:1px solid #ddd;padding:5px}
 .post-header .post-meta {font-size: 0.9rem}
 .post-header a:hover{text-decoration:none}
