@@ -2,6 +2,7 @@
 layout: default
 title: Page hit rank of free & open source operating systems
 description: A ranking of open source distributions based on the number of page hits each distribution received in prevoius month. This ranking is powered by google analytics.
+image: "/assets/images/meta/logo-collage.png"
 ---
 <div class="distribution">
     <h1>Page Hit Rank (Experimental)</h1>
