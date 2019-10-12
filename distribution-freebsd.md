@@ -8,8 +8,7 @@ permalink: /distribution/freebsd
 logo: freebsd-logo.png
 home_page: https://www.freebsd.org
 base : Independent
-purchase:
-  OSDisc : "https://www.osdisc.com/products/freebsd"
+tagline: Powering servers, desktops and embedded systems
 
 description: "FreeBSD is an open-source operating system that supports a variety of platforms with the key focus on features, speed, and stability"
 
