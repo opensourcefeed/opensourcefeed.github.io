@@ -24,6 +24,8 @@ As a non-LTS release, Ubuntu 19.10 Eoan Ermine brings some drastic changes. Some
 - Ubuntu Eoan Ermine will support theming snap applications.
 - Updated toolchain with  glibc 2.30, OpenJDK 11, rustc 1.37, GCC 8.3, optional GCC 9, Python 3.7.3 as default, ruby 2.5.5, php 7.2.15, perl 5.28.1, golang 1.10.4. ..etc
 
+
+## Ubuntu 19.10 Eoan Ermine screenshots
 The Following section showcases some of the screenshots captured on Ubuntu 19.10 Eoan Erime BETA.
 {% include image-gallery.html folder="/screenshots/Ubuntu 19.10 Daily" %}
 
