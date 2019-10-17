@@ -27,6 +27,8 @@ The main highlights of Ubuntu Budgie 19.10 are briefed below.
 
 For a [complete list of feature in Ubuntu Budgie 19.10 Eoan Ermine](https://ubuntubudgie.org/blog/2019/09/26/19-10-release-notes), read release notes published on projects official website.
 
+<a href="http://cdimage.ubuntu.com/ubuntu-budgie/releases/eoan/release/" target="_blank" class="download">Download Ubuntu Budgie 19.10 Eoan Ermine</a>
+
 ## Ubuntu Budgie 19.10 Eoan Ermine screenshots
 The following section showcases some screenshots captured on Ubuntu Budgie 19.10 BETA release.
 

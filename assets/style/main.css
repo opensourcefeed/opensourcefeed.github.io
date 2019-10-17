@@ -209,6 +209,26 @@ footer p {
   color: white;
 }
 
+/* Download link starts */
+a.download {
+    background: #0d5777;
+    color: white;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: .5rem;
+    border-radius: 1rem;
+    width:fit-content;
+    transition: 1s background ease;
+    font-size: 1.2rem;
+}
+a.download:hover {
+    text-decoration: none;
+    background: #0d5777dd;
+
+}
+/* Download link ends */
+
 @media (max-width: 430px) {
   #search-field {
     font-size: 0.8rem;
