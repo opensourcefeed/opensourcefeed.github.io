@@ -4,6 +4,7 @@ layout: post
 categories: kubuntu screenshots
 tags: kubuntu screenshots
 image: "/screenshots/Kubuntu 19.10/02 About Kubuntu Eoan.jpg"
+video: "https://www.youtube.com/embed/eZusxSK8VSI"
 ---
 
 **The** Kubuntu team has released Kubuntu 19.10 *Eoan Ermine*, a regular release of Kubuntu. In addition to all improvements from the Ubuntu Eoan branch, Kubuntu brings KDE Plasma 5.16. It provides a smoother and better user experience with the advancement in open source technologies.
