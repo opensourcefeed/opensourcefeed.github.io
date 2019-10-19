@@ -8,6 +8,8 @@ image: "/assets/images/post-images/xubuntu-19.10.jpg"
 
 **The** Xubuntu project has unveiled Xubuntu 19.10, the latest stable release from the project. The main highlight of this release is Xfce 4.14, a stable release of projects flagship desktop environment.
 
+![Xubuntu Eoan Preview](/screenshots/Xubuntu 19.10/05 Firefox Browser.jpg)
+
 Xfce 4.14 is empowered with Gtk 3.x and other modern technologies and continues to provide a solid user experience. This release of Xfce is a result of 4.5 years of development effort.
 
 As usual conventions of Ubuntu life span, Xubuntu *Eoan Ermine* will be having a lifetime of 9 months. This is a very short period for people who are looking for a long term stable system. For such users, it is better to use Xubuntu 18.04 LTS release.
