@@ -9,9 +9,11 @@ preview: xubuntu.jpg
 home_page: https://xubuntu.org/
 desktops: [xfce]
 base : [ubuntu]
+tagline: Faster and productive with Xfce
 description : Xubuntu is a full featured, yet lightweight and resource efficient GNU/Linux distribution. Stories and updates on Xubuntu.
 
 releases:
+  Xubuntu 19.10 Eoan Ermine: "/1-xubuntu-eoan-release/"
   Xubuntu 18.10 Cosmic Cuttlefish: "/00-xubuntu-18.10-cosmic-cuttlefish-brings-initial-preview-of-xfce-4.13/"
   Xubuntu 18.04 : "https://xubuntu.org/news/xubuntu-18-04-release/"
   Xubuntu 17.10.1 : "https://xubuntu.org/news/xubuntu-17-10-1-release"
@@ -25,6 +27,7 @@ stories:
   "SRU for 16.04: Intel cursor bug fix released" : "https://xubuntu.org/news/sru-16-04-intel-cursor-bug-fix-released/"
 
 screenshots :
+  Xubuntu 19.10 Eoan Ermine: "/1-xubuntu-eoan-release/"
   Xubuntu 18.10 Cosmic Cuttlefish: "https://distroscreens.blogspot.com/2018/11/xubuntu-1810-cosmic-cuttlefish.html"
   Xubuntu 18.04 Bionic Beaver screenshots : "https://distroscreens.blogspot.com/2018/06/xubuntu-1804-bionic-beaver-screenshots.html"
   Xubuntu 17.10 Artful Aardvark screenshots : "http://distroscreens.blogspot.com/2017/11/xubuntu-1710-artful-aardvark-screenshots.html"

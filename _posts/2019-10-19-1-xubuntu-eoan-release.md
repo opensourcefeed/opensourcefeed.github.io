@@ -4,6 +4,7 @@ layout: post
 categories: xubuntu screenshots
 tags: xubuntu screenshots
 image: "/assets/images/post-images/xubuntu-19.10.jpg"
+video: "https://www.youtube.com/embed/66biJP6ZT1s"
 ---
 
 **The** Xubuntu project has unveiled Xubuntu 19.10, the latest stable release from the project. The main highlight of this release is Xfce 4.14, a stable release of projects flagship desktop environment.
