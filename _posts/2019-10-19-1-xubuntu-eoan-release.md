@@ -15,9 +15,10 @@ As usual conventions of Ubuntu life span, Xubuntu *Eoan Ermine* will be having a
 ## What is different in Xubuntu 19.10?
 The main highlights of Xubuntu 19.10 Eoan Ermine are summarized below.
 > - Xfce 4.14 - It comes with Gtk 3.x compatibility, better HiDPI screen support and more. Read [Xfce 4.14 release news](https://www.opensourcefeed.org/xfce-4.14-release-gtk3/) to understand more on this
-The long-standing Xfce screensaver has been replaced with Light Locker. Light Locker is a result of years of development effort by GNOME and MATE communities. It works well with Xfce Desktop also.
-Included additional desktop shortcuts to make it familiar for people migrating from other desktops.
-From the Ubuntu Eoan roots, Xubuntu brings support for installing on ZFS file system. This is still an experimental feature. So should be used with caution.
+- The long-standing Xfce screensaver has been replaced with Light Locker. Light Locker is a result of years of development effort by GNOME and MATE communities. It works well with Xfce Desktop also.
+- Included additional desktop shortcuts to make it familiar for people migrating from other desktops.
+- From the Ubuntu Eoan roots, Xubuntu brings support for installing on ZFS file system. This is still an experimental feature. So should be used with caution.
+
 For further details, read the [Xubuntu 19.10 release announcement](https://xubuntu.org/news/xubuntu-19-10-released/).
 
 <a class="download" target="_blank" href="http://cdimage.ubuntu.com/xubuntu/releases/19.10/release/">Download Xubuntu 19.10</a>
