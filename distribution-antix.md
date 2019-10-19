@@ -10,13 +10,16 @@ preview: antix-preview.jpg
 home_page: https://antixlinux.com
 desktops: [icewm, fluxbox, jwm, herbstluftwm]
 base: [debian]
+tagline: Debian with no sin of systemd
 
 description : "antiX is a fast, lightweight and systemd-free live distribution based on Debian. It provides a special eco-system called *antiX Magic* to work with both old and new computers"
 
 releases:
+  antiX 19 Marielle Franco: "/2-antiX-19-release/"
   antiX 17.2 Helen Keller: "/01-antix-17.2-released-with-critical-bug-fixes/"
 
 screenshots:
+  antiX 19 Marielle Franco: "/2-antiX-19-release/"
   antiX 17.2 Helen Keller: "https://distroscreens.blogspot.com/2018/10/antix-172-helen-keller-screenshots.html"
 ---
 
