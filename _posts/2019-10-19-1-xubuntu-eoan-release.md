@@ -20,7 +20,7 @@ Included additional desktop shortcuts to make it familiar for people migrating f
 From the Ubuntu Eoan roots, Xubuntu brings support for installing on ZFS file system. This is still an experimental feature. So should be used with caution.
 For further details, read the [Xubuntu 19.10 release announcement](https://xubuntu.org/news/xubuntu-19-10-released/).
 
-<a class="download" target="_blank" href="http://cdimage.ubuntu.com/xubuntu/releases/19.10/release/">
+<a class="download" target="_blank" href="http://cdimage.ubuntu.com/xubuntu/releases/19.10/release/">Download Xubuntu 19.10</a>
 
 ## Xubuntu 19.10 Eoan Ermine screenshots
 {% include image-gallery.html folder="/screenshots/Xubuntu 19.10" %}
