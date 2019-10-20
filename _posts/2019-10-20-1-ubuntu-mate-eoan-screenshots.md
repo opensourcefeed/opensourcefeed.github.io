@@ -4,6 +4,7 @@ layout: post
 categories: ubuntumate screenshots
 tags: ubuntumate screenshots
 image: "/assets/images/post-images/ubuntu-mate/ubuntu-eoan.jpg"
+video: "https://www.youtube.com/embed/RJuiq11xBtM"
 ---
 
 **Mr**. *Martin Wimpress* has announced the release of Ubuntu MATE 19.10, latest stable release of popular Ubuntu flavor featuring MATE Desktop. The main focus of this release was on fixing many of the long-standing user experience and visual experience issues.
