@@ -10,12 +10,11 @@ preview: ubuntumate.jpg
 home_page: https://ubuntu-mate.org/
 desktops: [mate]
 base : [ubuntu]
-purchase :
-  OSDisc : "https://www.osdisc.com/products/ubuntumate"
 
 description : Ubuntu MATE is one of the popular community flavor of Ubuntu delivering, classical yet productive and mdoern desktop experience. Stories, updates and reviews of Ubuntu MATE.
 
 releases:
+  Ubuntu MATE 19.10 Eoan Ermine: "/1-ubuntu-mate-eoan-screenshots/"
   Ubuntu MATE 19.04 Disco Dingo: "https://ubuntu-mate.org/blog/ubuntu-mate-disco-final-release/"
   Ubuntu MATE 18.10 Cosmic Cuttlefish: "/04-ubuntu-mate-18.10-cosmic-cuttlefish-ships-a-more-stable-mate-desktop/"
   Ubuntu MATE 17.10 Artful Aardvark : "http://ubuntu-mate.org/blog/ubuntu-mate-artful-final-release/"
@@ -29,6 +28,7 @@ reviews:
   Ubuntu MATE 15.10 : "http://open-source-feed.blogspot.com/2015/11/ubuntu-mate-1510-review.html"
 
 screenshots:
+  Ubuntu MATE 19.10 Eoan Ermine: "/1-ubuntu-mate-eoan-screenshots/"
   Ubuntu MATE 18.10 Cosmic Cuttlefish: "https://distroscreens.blogspot.com/2018/11/ubuntu-mate-1810-cosmic-cuttlefish.html"
   Ubuntu MATE 18.04 Bionic Beaver : "http://distroscreens.blogspot.com/2018/05/ubuntu-mate-1804-bionic-beaver.html"
   Ubuntu MATE 17.10 Artful Aardvark : "https://goo.gl/fuyVeB"
