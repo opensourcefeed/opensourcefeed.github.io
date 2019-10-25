@@ -12,8 +12,7 @@ desktops: [lxde, lxqt]
 base : [ubuntu]
 telegram : 
   Development: "https://t.me/lubuntudevel"
-purchase:
-  OSDisc : "https://www.osdisc.com/products/lubuntu"
+tagline: Ubuntu lightweight with LXQt
 
 description : Lubuntu is one of the oldest official community flavors of Ubuntu. It provides a lightweight desktop experience with LXQt desktop environment.
 
