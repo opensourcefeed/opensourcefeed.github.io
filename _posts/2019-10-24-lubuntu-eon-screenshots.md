@@ -4,6 +4,7 @@ layout: post
 categories: lubuntu screenshots
 tags: lubuntu screenshots
 image: "/screenshots/Lubuntu 19.10/01 Lubuntu Desktop.jpg"
+video: "https://www.youtube.com/embed/eUm62E-lGZ4"
 ---
 
 **Lubuntu** 19.10 Eoan Ermine is a stable release of Lubuntu. It provides a recent version of the LXQt Desktop along with all the core features from the Ubuntu Eoan foundation.
