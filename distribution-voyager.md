@@ -9,9 +9,11 @@ preview: voyager-preview.jpg
 home_page: https://voyagerlive.org/
 desktops: [gnome, xfce]
 base : [debian, ubuntu]
+tagline: "Adventure in Digital World!"
 description : Ubuntu based GNU/Linux distribution from France. It includes several extensions and tools to provide improved productivity.
 
 releases:
+  Voyager GE 19.10: "/2-voyager-19.10-release/"
   "Voyager 10": "/voyager-10-with-screenshots/"
   "Voyager - GE 18.10": "/1-voyager-ge-18.10-brings-gnome-shell/"
   "Voyager Live 16.04 LTS": "https://open-source-feed.blogspot.com/2016/04/voyager-live-1604-lts-released.html"
