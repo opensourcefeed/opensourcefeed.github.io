@@ -9,7 +9,7 @@ image: "/assets/images/post-images/fedora/fedora-31.jpg"
 
 **The** Fedora team has announced the official release of Fedora 31. This release includes Fedora Workstation, Official spins, server edition, Fedora Core OS and Lab editions. All of these varieties showcases the power and caliber of the latest open source technologies.
 
-![Fedora 31 Preview](/screenshots/Fedora 31/06 GNOME Terminal.jpg)
+![Fedora 31 Preview](/screenshots/Fedora 31 Workstation/06 GNOME Terminal.jpg)
 
 ## What's new in Fedora 31?
 There are several noteworthy highlights in Fedora 31 release. Here we are briefing some of the handpicked updates.
@@ -29,4 +29,4 @@ Fedora 31 brings the most recent updates from various libraries and development 
 Finally, the Fedora project has decided to drop support for i386 architecture. Beginning from Fedora 31, there would not be any Fedora release that supports i386 hardware.
 
 ## Fedora 31 Workstation screenshots
-{% include image-gallery.html folder="/screenshots/Fedora 31" %}
+{% include image-gallery.html folder="/screenshots/Fedora 31 Workstation" %}
