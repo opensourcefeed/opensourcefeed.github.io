@@ -10,10 +10,10 @@ preview: ArchLabs-preview.jpg
 home_page: https://archlabslinux.com/
 desktops: [openbox]
 base : [arch]
-purchase:
-  OSDisc : "https://www.osdisc.com/products/archlabs"
+tagline: Arch linux inspired by Bunsenlabs
 
 releases:
+  Archlabs 2019.10 : "/archlabs-20191028-release/"
   ArchLabs 2018.07 : "../00-archlabs-linux-2018.07-released-with-brand-new-dark-theme/"
   ArchLabs 2018.05 : "http://open-source-feed.blogspot.com/2018/05/archlabs-201805-released-with-more.html"
   ArchLabs 2018.02 : "http://open-source-feed.blogspot.com/2018/02/archlabs-201802-released-with.html"
