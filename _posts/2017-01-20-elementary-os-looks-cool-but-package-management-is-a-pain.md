@@ -2,12 +2,12 @@
 layout: post
 title: 'elementary OS looks cool but package management is a pain : Review'
 categories: elementary review
-image: "/assets/images/preview/elementary.png"
+image: "/assets/images/preview/elementary.jpg"
 ---
 
 **elementary OS** has received a lot of visibility within a relatively small span of time and introducing elementary OS will be redundant for an average GNU/Linux user. If someone does not have heard about elementary, it is an Ubuntu LTS based GNU/Linux distribution shipping a simple, elegant & responsive user interface which is called as Pantheon. Pantheon features some cool components like Slingshot application menu, switchboard configuration app, a cool dock ..etc.
 
-![elementary OS](/assets/images/preview/elementary.png)
+![elementary OS](/assets/images/preview/elementary.jpg)
 *Source : DistroScreens*
 
 Keeping the habit of writing reviews on GNU/Linux distributions, Mr Garry Nevell, author of Everday Linux user portal has published a review of elementary 0.4 Freya, latest stable release of elementary available till date. This detailed review examines different aspects of operating system and reaches in a conclusion that, elementary is good looking distribution, though as Ubuntu and it's derivatives it lacks a good package management system. The default applications are not the application used by masses and applications that comes in use need to be installed explicitly which is not an easy task for a newbie. The elementary operating system is shipping a Software Center however, it does not include popular packages like google chrome.
