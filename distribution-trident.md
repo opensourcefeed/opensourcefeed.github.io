@@ -11,6 +11,7 @@ desktops: [lumina]
 base : [trueos]
 telegram : 
   Trident: "https://t.me/ProjectTrident"
+tagline: Desktop BSD with TrueOS Foundation
 
 description : Project Trident is a desktop operating system based on TrueOS. In addition to all capabilities from regular BSD releases, it provides a set of tools to make life easier.
 
