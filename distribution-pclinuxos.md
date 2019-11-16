@@ -13,6 +13,8 @@ description : PCLinuxOS is an indpendently evolved, rolling GNU/Linux distributi
 reviews:
   PCLinuxOS is conservative in appeal, latest and greatest in applications : http://open-source-feed.blogspot.com/2017/04/pclinuxos-is-conservative-in-appeal.html
 
+tagline: It's cool, so ice cubes are jealous
+
 releases:
   PCLinuxOS 2019.08: "/pclinuxos-2019.08-release/"
   PCLinuxOS 2019.06: "/1-pclinuxos-2019.06-facing-jealous-ice-cubes/"
