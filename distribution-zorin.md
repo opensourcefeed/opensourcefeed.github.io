@@ -12,12 +12,10 @@ home_page: https://zorinos.com
 desktops: [gnome, xfce]
 base : [ubuntu]
 
-purchase :
-  OSDisc : "https://www.osdisc.com/products/zorinos"
-
 description : Zorin OS is a good choice for people migrating from other proprietary operating systems like Microsoft Windows and macOS. Stories and reviews on Zorin OS
 
 releases:
+  Zorin OS 15 Lite: "/zorin-15-lite/"
   Zorin OS 12.4 : "/00-zorin-os-12.4-released-with-better-hardware-support/"
   Zorin OS 12.2 : "http://open-source-feed.blogspot.com/2017/09/zorin-os-122-released-with-performance.html"
   Zorin OS 12 Lite : "http://open-source-feed.blogspot.com/2017/07/zorin-os-12-lite-released-with.html"
@@ -36,6 +34,7 @@ reviews :
   Review of Windows like Zorin OS Core 11 : "http://open-source-feed.blogspot.com/2016/02/review-of-windows-like-zorin-os-core-11.html"
 
 screenshots:
+  Zorin OS 15 Lite: "/zorin-15-lite/"
   Zorin OS 15: "/1-zorin-os-15-screenshots/"
   Zorin OS 12.2 : "https://distroscreens.blogspot.com/2017/09/zorin-os-122-screenshots.html"
   Zorin OS 12 Core : "http://distroscreens.blogspot.com/2016/12/zorin-os-12-core-screenshots.html"

@@ -221,6 +221,7 @@ a.download {
     width:fit-content;
     transition: 1s background ease;
     font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 a.download:hover {
     text-decoration: none;
