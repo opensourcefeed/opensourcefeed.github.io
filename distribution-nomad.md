@@ -10,6 +10,7 @@ home_page: http://nomadbsd.org/
 desktops: [openbox]
 base : [freebsd]
 preview: nomadbsd-preview.jpg
+tagline: Persistent live distribution based on FreeBSD
 
 description : NomadBSD is a FreeBSD based, persistent live distribution. 
 
