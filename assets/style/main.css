@@ -127,6 +127,8 @@ table td + td {word-break: break-word}
 .status-active{color:green;}
 .status-discontinued{color:red;}
 footer{text-align:center;background:#0d5777;color:white;padding:5px 0 5px 0; width: 100%}
+footer .email {font-size: 1rem}
+footer .email img {height: 1em; margin-right: .5rem}
 .heading {
   margin-top: 1rem;
 }
@@ -187,28 +189,6 @@ p img+em {display: block;text-align: center; border-bottom: 1px dashed #eee; fon
   position:absolute;
 }
 
-footer p {
-  float: right;
-  padding-right: 1rem;
-}
-
-.footer-links {
-  padding: 0;
-  margin: 0;
-  font-size: 1rem;
-  display: inline;
-  float: left;
-  padding-left: 1rem;
-}
-
-.footer-links li{
-  display: inline;
-}
-
-.footer-links a {
-  color: white;
-}
-
 /* Download link starts */
 a.download {
     background: #0d5777;
@@ -238,14 +218,6 @@ a.download:hover {
   #search-btn {display: none}
   body {
     font-size: 1rem;
-  }
-  .footer-links {
-    display: block;
-    border-bottom: 1px dotted #111;
-  }
-  footer p, .footer-links {
-    padding: auto;
-    float: none;
   }
 }
 
