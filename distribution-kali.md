@@ -9,10 +9,12 @@ preview: Kali_Linux.jpg
 home_page: https://www.kali.org/
 desktops: [gnome]
 base : [debian]
+tagline: The ultimate hacking distribution
 
 description : "Kali Linux is a Debian (testing) based GNU/Linux distribution designed for digital forensic and peneteration testing. Stories and updates on Kali Linux"
 
 releases:
+  Kali Linux 2019.4: "/1-kali-2019.4-screens/"
   Kali Linux 2019.03: "/1-kali-linux-2019.03-release/"
   Kali Linux 2018.3 : "/00-kali-linux-2018.03-released-with-linux-4.17/"
   Kali Linux 2018.1 : "http://open-source-feed.blogspot.com/2018/02/kali-linux-20181-released-with-amd.html"
