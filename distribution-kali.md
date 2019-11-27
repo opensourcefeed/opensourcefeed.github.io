@@ -21,6 +21,9 @@ releases:
   Kali Linux 2017.03 : "/kali-linux-201703-released/"
   Kali linux 2017.02 : "https://www.kali.org/news/kali-linux-2017-2-release/"
   Kali Linux 2017.01 : "http://open-source-feed.blogspot.com/2017/04/kali-linux-20171-released-with-cool.html"
+
+screenshots:
+  Kali Linux 2019.4: "/1-kali-2019.4-screens/"
 ---
 
 Kali Linux (formerly known as BackTrack) is a Debian (testing) based GNU/Linux distribution designed for digital forensic and peneteration testing.
