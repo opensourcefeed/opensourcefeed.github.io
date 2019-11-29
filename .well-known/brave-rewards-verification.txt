@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: opensourcefeed.org
+Token: 0c38d24ca37975ab446fcbcb5b11e431c0279acadd3f86e3c1fc2ba030eae0c5
