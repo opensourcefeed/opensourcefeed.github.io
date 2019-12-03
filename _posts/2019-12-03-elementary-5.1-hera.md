@@ -42,6 +42,8 @@ After the release of Juno, the elementary team has worked on improving the overa
 ### Update & Improved applications.
 The elementary team has put extensive effort into updating and improving the in-house made applications such as Calendar, Camera, Photos, Music, Videos, Files, Code, and Terminal. You can read more about the [updated applications in elementary OS 5.1 Hera](https://blog.elementary.io/introducing-elementary-os-5-1-hera/) in the official release announcement.
 
+<a class="download" target="_blank" href="https://elementary.io/">Download elementary OS 5.1 Hera</a>
+
 ## elementary OS 5.1 Hera screenshots
 Following section showcases some screenshots captured on elementary OS 5.1 Hera - preview. Since it is a preview release shared with the press, it includes some references to Juno instead of Hera.
 {% include image-gallery.html folder="/screenshots/elementary 5.1" %}
