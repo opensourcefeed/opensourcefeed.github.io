@@ -20,4 +20,4 @@ The key highlights of Ubuntu Cinnamon Remix 19.10 are briefed below.
 You can read [more deatils about Ubuntu Cinnamon Remix 19.10](https://docs.google.com/document/d/15YYs3Q3bG0_MReVVxwzs28wr6iZ5mItiXKhiPDhcjz4/edit) in official release announcement.
 
 ## Ubuntu Cinnamon Remix 19.10 screenshots
-{% include image-gallery.html folder="/screenshots/Ubuntu Cinnamon 19.10/04 Nemo File Manager.jpg" %}
+{% include image-gallery.html folder="/screenshots/Ubuntu Cinnamon 19.10" %}
