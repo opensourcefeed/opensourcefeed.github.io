@@ -15,7 +15,7 @@ tagline: Persistent live distribution based on FreeBSD
 description : NomadBSD is a FreeBSD based, persistent live distribution. 
 
 releases:
-  NomadBSD 1.3RC1: "/nomadbsd-1.3rc1/"
+  NomadBSD 1.3: "/nomadbsd-1.3-release/"
 ---
 
 NomadBSD is a FreeBSD based, persistent live distribution. With automatic hardware detection, NomadBSD provides a full-featured system that can be used for system recovery, live testing or other general purposes.
