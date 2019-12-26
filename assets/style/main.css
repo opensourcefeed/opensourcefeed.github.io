@@ -115,7 +115,7 @@ p {
 .post-header a:hover{text-decoration:none}
 .post-content img{max-width:100%;display:block;margin:auto}
 .lastUpdated{font-size:16px;color:#777;}
-blockquote{border-left: 5px solid #ccc; padding: 1rem; background: #eee}
+blockquote{border-left: 5px solid #ccc; padding: 1rem; background: #eee; margin-top: -1.5rem;}
 blockquote li{margin-bottom: .25rem}
 .related h3{font-size:1.2rem;}
 .logo{max-width:240px;text-align:center;margin:auto;margin-bottom:20px;}
