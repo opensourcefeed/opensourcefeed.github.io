@@ -26,6 +26,7 @@ stories:
   "Five reasons for using Linux Mint" : "http://open-source-feed.blogspot.com/2015/11/5-reasons-for-using-liinux-mint.html"
 
 screenshots:
+  Linux Mint 19.3 Xfce: "/linuxmint-19.3-xfce/"
   Linux Mint 19.3 MATE: "/linuxmint-19.3-mate/"
   Linux Mint 19.3 Cinnamon: "/linuxmint-19.3-cinnamon-screenshots/"
   Linux Mint 19.2 Xfce: "/1-linux-mint-19.2-beta-xfce-screenshots/"
