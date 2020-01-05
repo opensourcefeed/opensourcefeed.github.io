@@ -23,6 +23,7 @@ releases:
   Q4OS 1.4.9 Orion : "http://open-source-feed.blogspot.com/2016/04/q4os-149-orion-released.html"
 
 screenshots:
+  Q4OS 3.10: "/q4os-3.10-release/"
   Q4OS 3.8: "/windows-xp-days-q4os-3.8/"
 
 stories:
