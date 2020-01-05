@@ -10,10 +10,12 @@ preview: q4os.jpg
 home_page: http://q4os.org/
 desktops: [trinity, plasma]
 base: [debian]
+tagline: Desktop OS with classic experience
 
 description : "Q4OS is a Debian based operating system featuring Trinity Desktop environment with purpose of providing a stable, reliable & familiar user experience."
 
 releases:
+  Q4OS 3.10: "/q4os-3.10-release/"
   Q4OS 3.1 testing : "http://open-source-feed.blogspot.com/2018/01/q4os-31-testing-image-released-based-on.html"
   Q4OS 1.4.11 : "http://open-source-feed.blogspot.com/2016/06/q4os-1411-released-with-improved-nvidia.html"
   Q4OS 1.4.10 : "http://open-source-feed.blogspot.com/2016/05/q4os-1410-orion-released-with-improved.html"
