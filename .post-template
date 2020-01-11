@@ -1,0 +1,10 @@
+---
+title: "Catch title"
+layout: post
+categories: q4os screenshots
+tags: [tag1, tag2]
+image: "img-path"
+video: "video-embed-link"
+---
+
+{% include image-gallery.html folder="screenshots folder" %}
