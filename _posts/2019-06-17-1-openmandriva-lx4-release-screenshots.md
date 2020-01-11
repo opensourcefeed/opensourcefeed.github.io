@@ -18,4 +18,4 @@ OpenMandriva is a GNU/Linux distribution compiled using optimization features of
 For a complete [list of changes included in OpenMandriva Lx 4.0](https://www.openmandriva.org/en/news/article/the-best-until-openmandriva-does-better-released-omlx-4-0), read the official release announcement.
 
 OpenMandriva Lx 4.0 screenshots are given below.
-{% include image-gallery.html folder="/screenshots/OpenMandriva Lx4" %}
+{% include image-gallery.html folder="/screenshots/OpenMandriva Lx4.0" %}
