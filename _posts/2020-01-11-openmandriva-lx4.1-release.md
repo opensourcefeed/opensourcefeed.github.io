@@ -24,4 +24,4 @@ You can read the [OpenMandriva Lx 4.1 BETA official release announcement](https:
 <a target="_blank" href="https://sourceforge.net/projects/openmandriva/files/release/4.1/" class="download">Download OpenMandriva Lx 4.1 BETA</a>
 
 ## OpenMandriva Lx 4.1 screenshots
-{% include image-gallery.html folder="/screenshots/OpenMandriva Lx  4.1 BETA" %}
+{% include image-gallery.html folder="/screenshots/OpenMandriva Lx 4.1 BETA" %}
