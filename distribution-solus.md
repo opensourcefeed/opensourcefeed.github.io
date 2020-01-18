@@ -13,8 +13,6 @@ desktops: [budgie, mate, gnome]
 base : Independent
 telegram : 
   Unofficial: "https://t.me/solusproject"
-purchase:
-  OSDisc : "https://www.osdisc.com/products/solus"
 
 description : Solus is an independent GNU/Linux distribution designed for modern personal computers, every tweak enabling us to deliver a singular, cohesive desktop experience.
 
@@ -25,6 +23,7 @@ releases :
   Solus 2017.04.18.0 : "http://open-source-feed.blogspot.com/2017/04/solus-201704180-snapshot-released.html"
 
 screenshots:
+  Solus 4.0 with GNOME 3.34.3: "/solus-4.0-gnome-3.34/"
   "Solus Budgie Edition 2017.04.18.0" : "http://distroscreens.blogspot.com/2017/04/solus-201704180-budgie-screenshots.html"
   "Solus GNOME Edition 2017.04.18.0" : "http://distroscreens.blogspot.com/2017/04/solus-gnome-edition-201704180.html"
   "Solus MATE 1.2.1" : "http://distroscreens.blogspot.com/2016/10/solus-mate-121-shannon-screenshots.html"
@@ -35,6 +34,7 @@ reviews:
   Solus 2017.01.01.0 is an impressive new comer : "http://open-source-feed.blogspot.com/2017/02/solus-201701010-is-impressive-new-comer.html"
 
 stories :
+  "New Updates For A New Decade | The Roundup #14": "https://getsol.us/2020/01/17/new-updates-for-a-new-decade/"
   "Solus weekly roundup #12 - GNOME of thrones": "https://getsol.us/2019/04/25/gnome-of-thrones/"
   "In Full Sail - Solus team talks about the plan for and future of Solus": "https://getsol.us/2018/10/27/in-full-sail/"
   "Solus weekly roundup #9" : "https://solus-project.com/2018/08/25/a-bigger-toolbox/"
