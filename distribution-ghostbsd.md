@@ -17,6 +17,7 @@ telegram :
 description : GhostBSD is a simple and easy to use desktop BSD based on TrueOS. With pre-installed application and GUI it is suitable for beginners and advanced users.
 
 releases:
+  GhostBSD 20.01: "/ghostbsd-20.01-relese/"
   GhostBSD 19.10: "/1-ghostbsd-19.10-release/"
   GhostBSD 19.09: "/ghostbsd-19.09-release/"
   GhostBSD 18.10: "/0-GhostBSD-18.10-release/"
