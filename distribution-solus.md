@@ -9,7 +9,7 @@ permalink: /distribution/solus
 logo: solus-logo.png
 preview: solus-preview.jpg
 home_page: https://getsol.us
-desktops: [budgie, mate, gnome]
+desktops: [budgie, mate, gnome, plasma]
 base : Independent
 telegram : 
   Unofficial: "https://t.me/solusproject"
@@ -17,6 +17,7 @@ telegram :
 description : Solus is an independent GNU/Linux distribution designed for modern personal computers, every tweak enabling us to deliver a singular, cohesive desktop experience.
 
 releases :
+  Solus 4.1 Fortitude: "/solus-4.1-release"
   Solus 4.0 Fortitude: "https://getsol.us/2019/03/17/solus-4-released/"
   Solus 3 ISO refresh (3.9999): "/01-Solus-3-ISO-refresh-released-with-better-hardware-supported-improved-theming/"
   Solus 3 : "http://open-source-feed.blogspot.com/2017/08/solus-3-released-with-budgie-desktop.html"
