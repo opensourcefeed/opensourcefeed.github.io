@@ -69,7 +69,7 @@ title: Gallery of Free & Open Source Distributions & Desktops
                   <img src="/assets/images/meta/placeholder.png"/>
                 {% endif %}
                 
-                <h3>{{post.title}}</h3>
+                <h3>{{post.title|html}}</h3>
                 <p>{{post.content | strip_html | truncatewords: 30, '...'}}</p>
                 <p>Posted on <em>{{post.date | date_to_string}}</em></p>
             </div>
