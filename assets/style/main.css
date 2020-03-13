@@ -1,9 +1,9 @@
 /* Nested navbar */
 body {font-size: 1.1rem; line-height: 2rem; background: #f7f7f7}
 main {background: white}
-a {color: #0d5777}
-a:hover {color: #35b9ab}
-.bg-dark {background-color: #0d5777 !important}
+a {color: #00407f}
+a:hover {color: #4a86cf}
+.bg-dark {background-color: #00407f !important}
 .navbar-dark .navbar-nav .nav-link {color: #eee}
 .navbar-brand img {width: 24px; margin-right: .5rem}
 .navbar-small {padding: 0rem 1rem; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); border-bottom: none; position: fixed; top: 0; width: 100%; z-index: 100}
@@ -25,12 +25,12 @@ p {
 /* From elementary blog - end*/
 
 #master-section {
-  background-color: #0d5777;
+  background-color: #00407f;
   text-align: center;
   padding: 10vh 0 10vh 0;
 }
 #master-section h1 {
-  color: #35b9ab;
+  color: #4a86cf;
   font-weight: normal;
 }
 .description {
@@ -69,7 +69,7 @@ p {
   padding: 0.5rem 0.8rem;
 }
 #result-list a:hover {
-  background: #35b9ab;
+  background: #4a86cf;
   color: white;
   text-decoration: none;
 }
@@ -107,7 +107,7 @@ p {
 .story p{font-size:16px; line-height: 1.5rem}
 
 /**old styles**/
-.social-icons img{height:35px;}
+.social-icons img{height:25px;}
 .social-icons, .social-icons li{display:inline;}
 .post-header h1{font-size:2rem;padding-top:40px;text-align:center}
 .post-header .category{border:1px solid #ddd;padding:5px}
@@ -126,7 +126,7 @@ table ul{list-style-type:none;padding-left:0}
 table td + td {word-break: break-word}
 .status-active{color:green;}
 .status-discontinued{color:red;}
-footer{text-align:center;background:#0d5777;color:white;padding:5px 0 5px 0; width: 100%}
+footer{text-align:center;background:#00407f;color:white;padding:5px 0 5px 0; width: 100%}
 footer .email {font-size: 1rem}
 footer .email img {height: 1em; margin-right: .5rem}
 .heading {
@@ -158,7 +158,7 @@ main h3 {font-size: 1.17em; opacity: 0.8}
 main h4 {font-size: 1em}
 main .recent-stories ul{list-style-type: none; padding-left: 0}
 .recent-stories a {color: #069}
-.recent-stories a:hover {color: #35b9ab}
+.recent-stories a:hover {color: #4a86cf}
 
 /* Override bootstrap defaults */
 .form-control {
@@ -191,7 +191,7 @@ p img+em {display: block;text-align: center; border-bottom: 1px dashed #eee; fon
 
 /* Download link starts */
 a.download {
-    background: #0d5777;
+    background: #00407f;
     color: white;
     display: block;
     margin: auto;
@@ -205,7 +205,7 @@ a.download {
 }
 a.download:hover {
     text-decoration: none;
-    background: #0d5777dd;
+    background: #00407fdd;
 
 }
 /* Download link ends */
