@@ -197,7 +197,7 @@ a.download {
     margin: auto;
     text-align: center;
     padding: .5rem;
-    border-radius: 1rem;
+    border-radius: .4rem;
     width:fit-content;
     transition: 1s background ease;
     font-size: 1.2rem;
