@@ -86,7 +86,7 @@ def save_results(results):
             
             url = re.sub(r'.*(/distribution/[a-z0-9]+).*', r"\1", row[0])
             if url in map:
-                print 'adding for', url
+                print('adding for', url)
                 map[url] = map[url] + int(row[1])
             else:
                 map[url] = int(row[1])
@@ -98,7 +98,7 @@ def save_results(results):
             final_result = yaml.load(file.read())
 
         if not final_result:
-            print "No previous record found"
+            print ("No previous record found")
             final_result = {
                 'meta': {
                     'previous_date': None,
@@ -151,10 +151,10 @@ def save_results(results):
             file.write(yaml.safe_dump(final_result, default_flow_style=False))
 
 
-        print 'Done'
+        print ('Done')
 
     else:
-        print 'No results found'
+        print ('No results found')
 
 
 def main():
