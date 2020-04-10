@@ -10,13 +10,12 @@ preview: lubuntu-preview.jpg
 home_page: http://lubuntu.me/
 desktops: [lxde, lxqt]
 base : [ubuntu]
-telegram : 
-  Development: "https://t.me/lubuntudevel"
 tagline: Ubuntu lightweight with LXQt
 
 description : Lubuntu is one of the oldest official community flavors of Ubuntu. It provides a lightweight desktop experience with LXQt desktop environment.
 
 releases:
+  Lubuntu 19.10 Eoan Ermine: "/lubuntu-eon-screenshots/"
   Lubuntu 18.10 Cosmic Cuttlefish: "/00-lubuntu-cosmic-first-release-lxqt/"
   Lubuntu 18.10 Cosmic Beta: "/01-Lubuntu-18.10-beta-released-with-lxqt-for-the-first-time/"
   Lubuntu 17.10 Artful Aardvark : "http://lubuntu.me/artful-released/"
@@ -26,6 +25,7 @@ releases:
   Lubuntu 16.04.2 : "http://lubuntu.me/lubuntu-16-04-2-released/"
 
 screenshots :
+  Lubuntu 19.10 Eoan Ermine: "/lubuntu-eon-screenshots/"
   Lubuntu 18.10 Cosmic Cuttlefish: "https://distroscreens.blogspot.com/2018/10/lubuntu-1810-cosmic-cuttlefish-lxqt.html"
   Lubuntu 18.10 Cosmic Cuttlefish Beta : "http://distroscreens.blogspot.com/2018/10/lubuntu-1810-cosmic-cutlet-lxqt-beta.html"
   Lubuntu 17.10 Artful Aardvark : "http://distroscreens.blogspot.com/2017/10/lubuntu-1710-artful-aardvark-screenshots.html"
