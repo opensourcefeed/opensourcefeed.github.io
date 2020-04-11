@@ -16,7 +16,10 @@ tagline: The Ubuntu power with most beautiful desktop
 description : UbuntuDDE Remix is a community flavour of Ubuntu with the beautiful deepin desktop environment.
 
 releases:
-  UbuntuDDE Remix 20.04 BETA: "https://ubuntudde.com/ubuntudde-beta-200410-release-note/"
+  UbuntuDDE Remix 20.04 BETA: "/ubuntudde-20.04-release/"
+
+screenshots:
+  UbuntuDDE Remix 20.04 BETA: "/ubuntudde-20.04-release/"
 ---
 
 **UbuntuDDE Remix** is a community flavour of Ubuntu with the beautiful[Deepin Desktop Environment(DDE)](/desktop/deepin).
