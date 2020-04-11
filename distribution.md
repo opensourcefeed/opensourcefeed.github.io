@@ -9,7 +9,7 @@ description: Collection of Free and Open Source operating systems including GNU/
     <h2>GNU/Linux</h2>
     <div class="row">
         {% for page in site.pages %}
-            {% if page.Category == 'Distribution' and page.type == 'Linux' %}
+            {% if page.Category == 'Distribution' and page.type != 'BSD' and page.type != 'Other' %}
                 <div class="col-md-3 col-sm-6">
                     <a href="{{page.url}}">{{page.title}}</a>
                 </div>

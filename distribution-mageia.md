@@ -9,8 +9,6 @@ preview: Mageia 6.jpg
 home_page: https://www.mageia.org
 desktops: [gnome, plasma, xfce]
 base : Independent
-purchase:
-  OSDisc : "https://www.osdisc.com/products/mageia"
 
 description: "Mageia is a community driven GNU/Linux operating system backed by a non-profit organization of elected contributors. Releases, reviews and other updates on Mageia."
 
