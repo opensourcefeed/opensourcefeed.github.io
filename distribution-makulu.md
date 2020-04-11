@@ -7,6 +7,7 @@ permalink: /distribution/makulu
 type : Linux
 logo: makulu.png
 preview: makulu.jpg
+image: /assets/images/preview/makulu.jpg
 home_page: http://www.makululinux.com/
 desktops: [xfce, cinnamon]
 base: [debian, custom-debian]
