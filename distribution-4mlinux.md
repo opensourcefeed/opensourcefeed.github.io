@@ -32,8 +32,8 @@ screenshots:
   4MLinux 29.0 : "/1-4mlinux-29.0-stable-screenshots/"
 ---
 
-4MLinux is an independently evolved, minimal GNU/Linux distribution that mainly focuses on four features: 
-1) maintenance - by using it as a system rescue live CD
-2) multimedia - for example, for playing video DVDs
-3) miniserver - using the inetd daemon
-4) mystery - meaning small Linux games
+4MLinux is an independently evolved, minimal GNU/Linux distribution that mainly focuses on four features:
+1. maintenance - by using it as a system rescue live CD
+2. multimedia - for example, for playing video DVDs
+3. miniserver - using the inetd daemon
+4. mystery - meaning small Linux games
