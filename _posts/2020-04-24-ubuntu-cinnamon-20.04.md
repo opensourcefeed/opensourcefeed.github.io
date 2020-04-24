@@ -4,6 +4,7 @@ layout: post
 categories: ubuntucinnamon release screenshots
 tags: [ubuntucinnamon, release, screenshots]
 image: "/assets/images/post-images/ubuntu-cinnamon/20.04.jpg"
+video: "https://www.youtube.com/embed/LoOS2mhTpHg"
 ---
 
 **Ubuntu Cinnamon Remix 20.04** *Focal Fossa* is a stable release from Ubuntu Cinnamon Remix project. It combines solid Ubuntu 20.04 LTS foundation with the highly productive Cinnamon Desktop Environment.
