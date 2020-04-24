@@ -10,14 +10,16 @@ preview: ubuntu-cinnamon.jpeg
 home_page: https://ubuntucinnamon.org
 desktops: [cinnamon]
 base : [ubuntu]
-tagline: Enjoy the stability of Ubuntu with the beauty of Cinnamon
+tagline: Stability of Ubuntu with the beauty of Cinnamon
 
 description : Ubuntu Cinnamon Remix is an unofficial flavor of Ubuntu with the Cinnamon Desktop environment. It is aims to deliver the stability and strengths of Ubuntu along with the Cinnamon Desktop.
 
 releases:
+  Ubuntu Cinnamon Remix 20.04: "/ubuntu-cinnamon-20.04/"
   Ubuntu Cinnamon Remix 19.10: "/1-ubuntu-cinnamon-19.10/"
 
 screenshots:
+  Ubuntu Cinnamon Remix 20.04: /ubuntu-cinnamon-20.04/
   Ubuntu Cinnamon Remix 19.10: "/1-ubuntu-cinnamon-19.10/"
 ---
 

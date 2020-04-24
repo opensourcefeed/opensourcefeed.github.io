@@ -14,6 +14,7 @@ base : [debian]
 description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a range of hardware platforms like desktop, server, clouds and IoT.
 
 releases :
+  Ubuntu 20.04 Focal Fossa: /ubuntu-20.04-release/
   Ubuntu 19.10 Eoan Ermine: /ubuntu-eoan-ermine-19.10-release/
   Ubuntu 19.04 Disco Dingo: "https://lists.ubuntu.com/archives/ubuntu-announce/2019-April/000243.html"
   Ubuntu 18.10 Cosmic Cuttlefish: "/02-ubuntu-18.10-brings-fresh-desktop-theme-better-snap-support/"
@@ -26,6 +27,7 @@ releases :
   Ubuntu 16.04.2 : http://open-source-feed.blogspot.com/2017/02/ubuntu-16042-released-with-improved.html
 
 screenshots:
+  Ubuntu 20.04 Focal Fossa: /ubuntu-20.04-release/
   Ubuntu 19.10 Eoan Ermine: "/ubuntu-eoan-ermine-19.10-release/"
   Ubuntu 18.10 Cosmic Cuttlefish: "https://distroscreens.blogspot.com/2018/10/ubuntu-1810-cosmic-cuttlefish.html"
   Ubuntu 18.10 Beta: "https://distroscreens.blogspot.com/2018/09/ubuntu-1810-cosmic-cutlet-beta.html"

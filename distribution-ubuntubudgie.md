@@ -15,6 +15,7 @@ tagline: You new favorite Ubuntu-based distro
 description : Ubuntu Budgie is an official flavor of Ubuntu combining solid Ubuntu core with elegant, efficient and productive budgie desktop, developed by Solus project.
 
 screenshots:
+  Ubuntu Budgie 20.04 Focal Fossa: "/ubuntu-budgie-20.04-release/"
   Ubuntu Budgie 19.10 Eoan Ermine: "/ubuntu-budgie-19.10-screenshots/"
   Ubuntu Budgie 18.10 Cosmic Cuttlefish: "https://distroscreens.blogspot.com/2018/10/ubuntu-budgie-1810-cosmic-cuttlefish.html"
   Ubuntu Budgie 18.04 LTS (daily build) : "http://distroscreens.blogspot.com/2018/03/ubuntu-budgie-1804-bionic-beaver.html"
@@ -24,6 +25,7 @@ screenshots:
   budgie remix 16.04 : "http://distroscreens.blogspot.com/2016/06/budgie-remix-1604-screenshots.html"
 
 releases:
+  Ubuntu Budgie 20.04 Focal Fossa: "/ubuntu-budgie-20.04-release/"
   Ubuntu Budgie 19.10 Eoan Ermine: "/ubuntu-budgie-19.10-screenshots/"
   Ubuntu Budgie 18.10 Cosmic Cuttlefish: "/03-ubuntu-budgie-18.10-brings-early-glimpse-budgie-10.5/"
   Ubuntu Budgie 18.04 Bionic Beaver: "http://open-source-feed.blogspot.com/2018/04/ubuntu-budgie-1804-lts-released-with.html"
