@@ -4,6 +4,7 @@ layout: post
 categories: fedora release screenshots
 tags: [fedora, release, screenshots]
 image: "/screenshots/Fedora 32 Final/02 About Fedora 32.jpg"
+video: "https://www.youtube.com/embed/u8eQ-hptzYM"
 ---
 
 **The** Fedora Project has announced the release of Fedora 32, latest stable release of enterprise quality open source operating system. Following the traditon of Fedora releases, this release also comes with several bleeding edge technologies.
