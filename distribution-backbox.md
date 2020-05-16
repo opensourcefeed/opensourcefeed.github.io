@@ -14,11 +14,12 @@ description : BackBox is a special purpose GNU/Linux distribution with security 
 tagline: Penetration testing distribution
 
 releases:
-  BackBox Linux 7: "backbox-7-release"
+  BackBox Linux 7: "/backbox-7-release"
   BackBox Linux 6: "/1-backbox-6.0-released-screenshots/"
   BackBox Linux 5.3: "https://blog.backbox.org/2019/02/18/backbox-linux-5-3-released/"
 
 screenshots:
+  BackBox Linux 7: "/backbox-7-release"
   BackBox Linux 6: "/1-backbox-6.0-released-screenshots/"
 ---
 **BackBox Linux** is a special purpose GNU/Linux distribution based on Ubuntu. It is crafted for security assessments and penetration testing.
