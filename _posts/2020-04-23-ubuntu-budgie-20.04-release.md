@@ -7,11 +7,12 @@ image: "/screenshots/Ubuntu Budgie 20.04/14 Busy Desktop.jpg"
 video: "https://www.youtube.com/embed/GPUs8JDU22o"
 ---
 
-**Ubuntu Budgie** 20.04 LTS is a long term supported release from Ubuntu Budgie. Ubuntu Budgie 20.04 with code name *Focal Fossa* is scheduled to release on 23rd April 2020 along with Ubuntu and other official community flavours. As an LTS release of Ubuntu flavour, Ubuntu Budgie 20.04 will be supported for next 3 years.
+**Ubuntu Budgie** 20.04 LTS is a long term supported release from Ubuntu Budgie. Ubuntu Budgie 20.04 with code name *Focal Fossa* was released on 23rd April 2020 along with Ubuntu and other official community flavours. As an LTS release of Ubuntu flavour, Ubuntu Budgie 20.04 will be supported for next 3 years.
 
 ![Ubuntu Budgie 20.04 LTS Preview](/screenshots/Ubuntu Budgie 20.04/14 Busy Desktop.jpg)
 
 ## Highlights & Changes
+In addition to inherting all the core improvements from Ubuntu 20.04 Foundation, Ubuntu Budgie 20.04 release is coming with following distribution specific enhancements.
 > - Budgie Desktop v10.5.1 on top of GNOME 3.36 stack.
 - Stylish Menu applet to replace existing application menu. It provides a smoother and faster experience and is comparable with slingshot launcher in the *elementary OS*.
 - Uses Celluloid as default media player - It is a successor of GNOME MPV.
