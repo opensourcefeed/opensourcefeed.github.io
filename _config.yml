@@ -39,7 +39,7 @@ plugins:
 twitter:
   username: opensourcefeed
 facebook:
-  publisher: https://www.facebook.com/opensourcefeed
+  publisher: opensourcefeed
 social:
   name: OpenSourceFeed
   links:
