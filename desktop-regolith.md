@@ -9,6 +9,7 @@ preview: regolith.jpg
 home_page: https://regolith-linux.org/
 image: /assets/images/preview/regolith.jpg
 window_manager: true
+tagline: Be productive with i3 and GNOME
 
 description: "Regolith is an innovative desktop environment that combines i3 with GNOME shell to provide a highly productive desktop experience."
 ---
