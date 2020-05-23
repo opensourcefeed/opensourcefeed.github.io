@@ -4,7 +4,7 @@ layout: post
 categories: regolith
 tags: [regolith]
 video: "https://www.youtube.com/embed/uo_-b02LFS4"
-image: "/assets/images/preview/regolith.png"
+image: "/assets/images/preview/regolith.jpg"
 ---
 
 **The** Regolith Linux provides an ideal i3 experience with Ubuntu. With a set of preconfigured shortcuts, and tools it makes the i3 friendly for majority of users.
