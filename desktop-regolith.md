@@ -9,12 +9,12 @@ preview: regolith.jpg
 home_page: https://regolith-linux.org/
 image: /assets/images/preview/regolith.jpg
 window_manager: true
-tagline: Be productive with i3 and GNOME
+tagline: Be productive with i3 and GNOME Fallback
 
-description: "Regolith is an innovative desktop environment that combines i3 with GNOME shell to provide a highly productive desktop experience."
+description: "Regolith is an innovative desktop environment that combines i3 with GNOME Fallback to provide a highly productive desktop experience."
 ---
 
-**Regolith** is an innovative desktop environment designed to improve productivity. With a highly customized i3 Window Manager on top of GNOME Shell, it provides everything you need and helps to focus on your work without too much clutter.
+**Regolith** is an innovative desktop environment designed to improve productivity. With a highly customized i3 Window Manager on top of GNOME Fallback, it provides everything you need and helps to focus on your work without too much clutter.
 
 Regolith is coming with a set of preconfigured keyboard shortcuts and tools, which makes it easier to open applications, arrange them, and navigating between opened applications.
 
