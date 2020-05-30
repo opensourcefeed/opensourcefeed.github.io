@@ -1,6 +1,6 @@
 --- 
 layout: default
-title: Page hit rank of free & open source operating systems
+title: Page hit rank of operating systems and desktop environments
 description: Ranking of open source distributions & desktop environments, based on the number of page hits each distribution & desktop environment received in prevoius month.
 image: "/assets/images/meta/logo-collage.png"
 ---
