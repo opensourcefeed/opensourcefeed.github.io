@@ -19,6 +19,7 @@ purchase :
 description : "Nitrux is a beginner friendly GNU/Linux distribution that ships a well-tweaked Plasma desktop on top of stable Ubuntu core and delivers a clean user experience"
 
 releases:
+  Nitrux 1.2.9: "/nitrux-1.2.9-release/"
   Nitrux 1.1.1: "/1-nitrux-1.1.1-release"
   Nitrux 1.1.0: "/1-nitrux-1.1.0-innovative-znx-mauikit/"
   Nitrux 1.0.16 : "/00-Nitrux-1.0.16-released-with-package-updates-from-Ubuntu-Cosmic/"
@@ -27,7 +28,8 @@ releases:
   Nitrux 1.0.10 : "../Nitrux-1.0.10-released-with-package-updates-from-bionic/"
 
 screenshots:
-  Niturx 1.0.15 : "http://distroscreens.blogspot.com/2018/09/nitrux-os-1015-screenshots.html"
+  Nitrux 1.2.9: "/nitrux-1.2.9-release/" 
+  Nitrux 1.0.15 : "http://distroscreens.blogspot.com/2018/09/nitrux-os-1015-screenshots.html"
   Nitrux 1.0.10 : "https://distroscreens.blogspot.com/2018/04/nitrux-1010-screenshots.html"
 
 ---
