@@ -1,20 +1,29 @@
 --- 
 layout: default
 title: Page hit rank of free & open source operating systems
-description: A ranking of open source distributions based on the number of page hits each distribution received in prevoius month. This ranking is powered by google analytics.
+description: Ranking of open source distributions & desktop environments, based on the number of page hits each distribution & desktop environment received in prevoius month.
 image: "/assets/images/meta/logo-collage.png"
 ---
 <div class="distribution">
     <h1>Page Hit Rank (Experimental)</h1>
     <div class="row">
         <div class="col-md-8 order-md-1">
-            <table class="table table-sm">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="distribution-tab" data-toggle="tab" href="#distribution" role="tab" aria-controls="nav-distribution" aria-selected="true">Distribution</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="desktop-tab" data-toggle="tab" href="#desktop" role="tab" aria-controls="nav-desktop" aria-selected="false">Desktop</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="nav-tabContent">
+            <table role="tabpanel" class="table table-sm tab-pane fade show active" id="distribution">
                 <thead>
                     <tr>
                         <th>Rank</th>
                         <th>Distribution</th>
                         <th>Status</th>
-                        <th>Page Views</th>
+                        <th class="text-right">Page Views</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -36,16 +45,72 @@ image: "/assets/images/meta/logo-collage.png"
                             <span title="Previous rank {{distribution.previous.rank}}" class="text-danger"> &darr;</span>
                             {% endif %}
                         </td>
-                        <td>{{distribution.current.count}}</td>
+                        <td class="text-right">{{distribution.current.count}}</td>
                     </tr>
                     {% endfor %}
                 </tbody>
             </table>
+            <table role="tabpanel" class="table table-sm tab-pane fade" id="desktop">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Desktop / WM</th>
+                        <th>Status</th>
+                        <th class="text-right">Page Views</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for desktop in site.data.rank.desktops %}
+                    <tr>
+                        <td>{{desktop.current.rank}}</td>
+                        <td>
+                            {% for page in site.pages %}
+                                {% if page.url == desktop.url %}
+                                    <a href="{{page.url}}">{{page.title}}</a>
+                                    {% break %}
+                                {% endif %}
+                            {% endfor %}
+                        </td>
+                        <td>
+                            {% if desktop.current.rank < desktop.previous.rank %}
+                            <span title="Previous rank {{distribution.previous.rank}}" class="text-success"> &uarr;</span>
+                            {% elsif desktop.previous.rank < desktop.current.rank %}
+                            <span title="Previous rank {{distribution.previous.rank}}" class="text-danger"> &darr;</span>
+                            {% endif %}
+                        </td>
+                        <td class="text-right">{{desktop.current.count}}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            </div>
         </div>
         <div class="col-md-2 order-md-0"></div>
         <div class="col-md-2 order-md-2"></div>
     </div>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- post body2 -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-6380671811722843"
+         data-ad-slot="9117305104"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
     <div class="alert alert-info">
         <strong>Disclaimer</strong> : The page hit count used in this page is retrieved using <a href="https://developers.google.com/analytics/">Google Analytics API</a>. It gives a vague idea about the distributions in which users are interested in. In no way, it is related to the quality or efficiency of the distribution. 
     </div>
+    <h2>Express your views on distributions & desktop environments.</h2>
+    <div id="disqus_thread"></div>
+        <script>
+            (function() {
+                var d = document, s = d.createElement('script');
+                s.src = 'https://theopensourcefeed.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>

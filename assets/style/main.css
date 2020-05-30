@@ -239,3 +239,8 @@ a.download:hover {
     padding: 0rem 0.2rem;
   }
 }
+
+/* Tab Display Fix */
+.tab-content>table.active {
+    display: inline-table;
+}

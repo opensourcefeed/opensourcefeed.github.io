@@ -43,6 +43,24 @@ layout: default
                             <td><a href="{{ page.home_page }}" target="_blank">{{page.home_page}}</a></td>
                         </tr>
                         {% endif %}
+                        {% assign dist_rank = nil %}
+                        {% for desktop in site.data.rank.desktops %}
+                            {% if desktop.url == page.url %}
+                                {% assign dist_rank = desktop.current %}
+                            {% endif %}
+                        {% endfor %}
+                        <tr>
+                            <td>Page Hit Rank (rank/views)</td>
+                            <td>
+                                <a href="/page-hit-rank">
+                                {% if dist_rank %}
+                                    {{dist_rank.rank}} ({{dist_rank.count}} hits per month)
+                                {% else %}
+                                    &infin;
+                                {% endif %}
+                                </a>
+                            </td>
+                        </tr>
                          {% if page.releases %}
                         <tr>
                             <td>Releases</td>

@@ -61,7 +61,7 @@ def get_first_profile_id(service):
     return None
 
 
-def get_results(service, profile_id):
+def get_results(service, profile_id, type):
     # Use the Analytics Service Object to query the Core Reporting API
     # for the number of sessions within the past seven days.
     return service.data().ga().get(
@@ -71,20 +71,23 @@ def get_results(service, profile_id):
             metrics='ga:uniquePageviews',
             dimensions='ga:pagePath',
             sort='-ga:uniquePageviews',
-            filters='ga:pagePath=~/distribution/.+').execute()
+            filters='ga:pagePath=~/' + type + '/.+').execute()
 
 
-def save_results(results):
+def save_results(service, profile_id, type):
+
+    results = get_results(service, profile_id, type)
+
     # Print data nicely for the user.
     if results:
         rows = results.get('rows')
         rank = 1
-        prog = re.compile(r'\/distribution\/[a-z]+')
+        prog = re.compile(r'\/'+type+'\/[a-z]+')
         map = {}
         for row in rows:
             if not prog.search(row[0]): continue
             
-            url = re.sub(r'.*(/distribution/[a-z0-9]+).*', r"\1", row[0])
+            url = re.sub(r'.*(/'+type+'/[a-z0-9]+).*', r"\1", row[0])
             if url in map:
                 print('adding for', url)
                 map[url] = map[url] + int(row[1])
@@ -104,8 +107,11 @@ def save_results(results):
                     'previous_date': None,
                     'current_date': datetime.date.today().isoformat()
                 },
-                'distributions': []
+                'distributions' : [],
+                'desktops': []
             }
+        elif not 'desktops' in final_result:
+            final_result['desktops'] = []
         else:
             final_result['meta']['previous_date'] = final_result['meta']['current_date']
             final_result['meta']['current_date'] = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
@@ -114,7 +120,7 @@ def save_results(results):
 
         for url in map:
             distribution = None
-            for d in final_result['distributions']:
+            for d in final_result['distributions' if type == 'distribution' else 'desktops']:
                 if d['url'] == url:
                     distribution = d
                     break
@@ -125,7 +131,7 @@ def save_results(results):
                     'previous': None,
                     'current': None
                 }
-                final_result['distributions'].append(distribution)
+                final_result['distributions' if type == 'distribution' else 'desktops'].append(distribution)
 
             distribution['previous'] = distribution['current']
             distribution['current'] = {
@@ -135,7 +141,7 @@ def save_results(results):
             processed.append(url);
             rank += 1
 
-        for d in final_result['distributions']:
+        for d in final_result['distributions' if type == 'distribution' else 'desktops']:
             if d['url'] not in processed:
                 d['previous'] = d['current']
                 d['current'] = {
@@ -145,7 +151,7 @@ def save_results(results):
                 rank += 1
 
         # ut.sort(key=lambda x: x.count, reverse=True)
-        final_result['distributions'].sort(key = lambda x: x['current']['rank'])
+        final_result['distributions' if type == 'distribution' else 'desktops'].sort(key = lambda x: x['current']['rank'])
 
         with open("../../_data/rank.yaml", "w") as file:
             file.write(yaml.safe_dump(final_result, default_flow_style=False))
@@ -170,7 +176,8 @@ def main():
             key_file_location=key_file_location)
 
     profile_id = get_first_profile_id(service)
-    save_results(get_results(service, profile_id))
+    save_results(service, profile_id, 'distribution')
+    save_results(service, profile_id, 'desktop')
 
 
 if __name__ == '__main__':
