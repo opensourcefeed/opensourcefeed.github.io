@@ -25,6 +25,7 @@ releases:
   Devuan 1.0.0 Jessy RC2 : "http://open-source-feed.blogspot.com/2017/05/devuan-jessie-100-rc2-released-with.html"
 
 screenshots:
+  Devuan 3.0 Beowulf: "/devuan-3.0-release/"
   Devuan 2.0 ASCII : "/devuan-ascii-2.1/"
 
 reviews:
