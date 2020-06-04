@@ -16,6 +16,7 @@ description: Devuan is a fork of Debian that tries to eliminate the unnecessary 
 
 
 releases:
+  Devuan 3.0 Beowulf: "/devuan-3.0-release/"
   Devuan 2.1 ASCII: "/devuan-ascii-2.1/"
   Devuan 2.0 ASCII : "http://open-source-feed.blogspot.com/2018/06/devuan-20-ascii-released-with-multiple.html"
   Devuan 2.0 ASCII RC: "http://open-source-feed.blogspot.com/2018/05/devuan-20-ascii-release-candidate-is.html"
