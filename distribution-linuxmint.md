@@ -26,6 +26,7 @@ stories:
   "Five reasons for using Linux Mint" : "http://open-source-feed.blogspot.com/2015/11/5-reasons-for-using-liinux-mint.html"
 
 screenshots:
+  Linux Mint 20 Xfce BETA: "/linuxmint-20-xfce/"
   LMDE 4.0 Debbie: "/lmde-4.0-release"
   Linux Mint 19.3 Xfce: "/linuxmint-19.3-xfce/"
   Linux Mint 19.3 MATE: "/linuxmint-19.3-mate/"
@@ -47,6 +48,7 @@ reviews:
   "Linux Mint 17.3 - May be the best distribution so far" : "http://open-source-feed.blogspot.com/2015/12/linux-mint-173-may-be-best-linux-distro.html"
   
 releases:
+  Linux Mint 20 BETA: "/linuxmint-20-release/"
   LMDE 4.0 Debbie: "/lmde-4.0-release"
   Linux Mint 19.3 Tricia: "/linuxmint-19.3-tricia/"
   "Linux Mint 19.2": "/1-linux-mint-19.2-beta-cinnamon/"
