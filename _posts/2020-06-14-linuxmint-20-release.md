@@ -26,7 +26,7 @@ The main highlights in Linux Mint 20 are listed below. For a detailed overview, 
 
 ## Linux Mint 20 Ulyana BETA screenshots (Coming Soon..)
 
-- Linux Mint 20 Cinnamon screenshots
+- [Linux Mint 20 Cinnamon screenshots](/linuxmint-20-xfce/)
 - Linux Mint 20 MATE screenshots
 - Linux Mint 20 Xfce screenshots
 
