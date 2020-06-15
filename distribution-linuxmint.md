@@ -26,6 +26,7 @@ stories:
   "Five reasons for using Linux Mint" : "http://open-source-feed.blogspot.com/2015/11/5-reasons-for-using-liinux-mint.html"
 
 screenshots:
+  Linux Mint 20 Cinnamon BETA: "/linuxmint-20-cinnamon/"
   Linux Mint 20 Xfce BETA: "/linuxmint-20-xfce/"
   LMDE 4.0 Debbie: "/lmde-4.0-release"
   Linux Mint 19.3 Xfce: "/linuxmint-19.3-xfce/"
