@@ -20,6 +20,7 @@ releases:
   MX Linux 17 Beta 1 : "https://mxlinux.org/mx-17-beta-1"
 
 screenshots:
+  MX Linux 19.2: "/mx-19.2-screenshots/"
   MX-19 Patito Feo: "/1-mx-19-release/"
   MX Linux 18.3: "/1-mx-linux-18.3-screenshots/"
   MX Linux 17.0 : "https://goo.gl/F1oHqe"
