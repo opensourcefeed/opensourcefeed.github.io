@@ -4,7 +4,7 @@ layout: post
 categories: opensuse xfce screenshots
 tags: [opensuse xfce screenshots]
 image: "/screenshots/OpenSUSE Tumbleweed Xfce/01 OpenSUE Welcome.jpg"
-video: https://youtu.be/gei9OvXj-eY
+video: "https://www.youtube.com/embed/gei9OvXj-eY"
 ---
 
 **OpenSUSE** Tumbleweed a rolling distribution that offers the latest stable packages in the OpenSUSE ecosystem. It includes several varieties including, desktop operating systems, container images, and virtual machine specific images.
