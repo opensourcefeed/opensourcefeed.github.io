@@ -10,9 +10,9 @@ preview: korora-laptop.png
 home_page: https://kororaproject.org/
 desktops: [gnome, plasma, mate, xfce, cinnamon]
 base : fedora
-description: Korora is a Fedora based GNU/Linux distribution with an aim of making GNU/Linux distributions accessible for freshers, without ignoring its expert users.
-purchase:
-  OSDisc : "https://www.osdisc.com/products/korora"
+status: Discontinued
+description: Korora was a Fedora based GNU/Linux distribution with an aim of making GNU/Linux distributions accessible for freshers, without ignoring its expert users.
+tagline: Making fedora usable for all
 
 stories:
   "Korora team is taking a break, the future of project is uncertain" : "https://open-source-feed.blogspot.com/2018/05/korora-team-is-taking-break-future-of.html"
@@ -34,8 +34,8 @@ release:
 
 ---
 
-**Korora** is a Fedora based GNU/Linux distribution with purpose of making GNU/Linux distributions accessible for freshers, without ignoring its expert users. In 2005, Korora was started as a Gentoo based distribution, and in 2010 it was rebased with Fedora.
+**Korora** was a Fedora based GNU/Linux distribution with purpose of making GNU/Linux distributions accessible for freshers, without ignoring its expert users. In 2005, Korora was started as a Gentoo based distribution, and in 2010 it was rebased with Fedora.
 
-Instead of shipping vanilla user experience from Fedora, Korora brings various tweaks and includes several addons and plugins to make it *work* out of the box. Korora also enables multiple 3rd party repositories to give various packages which Fedora does not include due to ideological reasons.
+Instead of shipping vanilla user experience from Fedora, Korora used to bring various tweaks and includes several addons and plugins to make it *work* out of the box. Korora also used to enable multiple 3rd party repositories to give various packages which Fedora does not include due to ideological reasons.
 
-In addition to various day-to-day applications, Korora brings proprietary components like Google Chrome, Adobe Flash, Google Earth, Google Talk ..etc. 
+In addition to various day-to-day applications, Korora used bring proprietary components like Google Chrome, Adobe Flash, Google Earth, Google Talk ..etc. 
