@@ -11,7 +11,7 @@ Linux Mint 20 is coming with Cinnamon 4.6 - The latest release of Cinnamon Deskt
 
 ![Linux Mint 20 Cinnamon Edition Preview](/screenshots/Linux Mint 20 Cinnamon BETA/26 Warpinator.jpg)
 
-<div class="alert alert-info">T
+<div class="alert alert-info">
 The below screenshots are captured from BETA release of Linux Mint 20 Cinnamon Edition. So, it may slightly vary from the final release.</div>
 {% include image-gallery.html folder="/screenshots/Linux Mint 20 Cinnamon BETA" %}
 
