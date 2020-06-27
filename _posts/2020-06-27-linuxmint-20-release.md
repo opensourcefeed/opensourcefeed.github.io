@@ -1,16 +1,16 @@
 ---
-title: "Linux Mint 20 <em>Ulyana</em> BETA released"
+title: "Linux Mint 20 <em>Ulyana</em> released"
 layout: post
 categories: linuxmint release
 tags: [linuxmint release]
 image: "/assets/images/post-images/linux-mint/20-xfce.jpg"
 ---
 
-**The** Linux Mint team has announced the release of Linux Mint 20 BETA with the code name *Ulyana*. Linux Mint 20 is an upcoming stable release of Linux Mint with the foundation of Ubuntu 20.04 LTS. Following the tradition of Ubuntu LTS releases, Linux Mint 20 will be supported till 2025.
+**The** Linux Mint team has announced the release of Linux Mint 20 with the code name *Ulyana*. It is a stable release of Linux Mint with the foundation on Ubuntu 20.04 LTS. Following the tradition of Ubuntu LTS releases, Linux Mint 20 will be supported till 2025.
 
 ![Linux Mint 20 Preview](/assets/images/post-images/linux-mint/20-xfce.jpg)
 
-Linux Mint 20 BETA release includes all 3 official variations, Cinnamon, MATE, and XFCE editions. All these editions bring the latest enhancements and improvements from the corresponding ecosystem to provide the best experience to the user.
+Linux Mint 20 release includes all 3 official variations, Cinnamon, MATE, and XFCE editions. All these editions bring the latest enhancements and improvements from the corresponding ecosystem to provide the best experience to the user.
 
 The main highlights in Linux Mint 20 are listed below. For a detailed overview, you may proceed to official release announcements and release notes in the [Linux Mint blog](https://blog.linuxmint.com).
 > - Introduces a new tool named Warpinator for sharing files between computers connected in a local network. It allows us to transfer files without any server configuration. Warpinator provides the same functionality as Giver which was available in Linux Mint years back.
