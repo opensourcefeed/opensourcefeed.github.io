@@ -24,10 +24,10 @@ The main highlights in Linux Mint 20 are listed below. For a detailed overview, 
 - MATE 1.24
 - Cinnamon 4.6
 
-## Linux Mint 20 Ulyana BETA screenshots
+## Linux Mint 20 Ulyana screenshots
 
 - [Linux Mint 20 Xfce screenshots](/linuxmint-20-xfce/)
-- Linux Mint 20 MATE screenshots
+- [Linux Mint 20 MATE screenshots](/linuxmint-20-mate/)
 - [Linux Mint 20 Cinnamon screenshots](/linuxmint-20-cinnamon/)
 
 
