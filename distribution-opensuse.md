@@ -8,19 +8,20 @@ permalink: /distribution/opensuse
 logo: openSUSE.svg
 preview: opensuse-laptop.jpg
 home_page: https://www.opensuse.org/
-desktops: [gnome, plasma]
+desktops: [gnome, plasma, xfce]
 base : Independent
-purchase :
-  OSDisc : "https://www.osdisc.com/products/suse"
+tagline: Community driven, enterprise linux with SEL foundation
 
 description : "openSUSE is an independently developed, enterprise quality distribution backed by SUSE Foundation. Reviews, updates and other stories on openSUSE"
 
 releases :
+  openSUSE Leap 15.2: "/opensuse-leap-15.2/"
   openSUSE Leap 15 : "http://open-source-feed.blogspot.com/2018/05/opensuse-leap-15-released-based-on-suse.html"
   openSUSE Leap 15.0 beta : "https://goo.gl/9QC5AX"
   openSUSE Leap 42.3 : "http://open-source-feed.blogspot.com/2017/07/opensuse-leap-423-released-with-better.html"
 
 reviews:
+  openSUSE Tumbleweed Xfce, Pros & Cons: "/opensuse-tumbleweed-review/"
   openSUSE Leap 42.2 : "http://open-source-feed.blogspot.com/2017/02/opensuse-leap-422-is-extremely-stable.html"
   openSUSE Leap 42.2 GNOME : "http://open-source-feed.blogspot.com/2017/02/opensuse-leap-422-gnome-flavor-is.html"
 
