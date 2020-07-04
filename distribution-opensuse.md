@@ -26,6 +26,7 @@ reviews:
   openSUSE Leap 42.2 GNOME : "http://open-source-feed.blogspot.com/2017/02/opensuse-leap-422-gnome-flavor-is.html"
 
 screenshots:
+  openSUSE Leap 15.2 Plasma: "/opensuse-leap-15.2-plasma"
   openSUSE Tumbleweed Xfce: "/opensuse-tumbleweed-review/"
   openSuse Leap 15.1 Plasma: "/1-opensuse-leap-15.1-plasma-screenshots/"
 

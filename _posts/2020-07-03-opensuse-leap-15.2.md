@@ -27,4 +27,5 @@ The main highlights of openSUSE Leap 15.2 are summarized below. For more detaile
 - & more advanced technologies.
 
 ## OpenSUSE Leap 15.2 screenshots
-Coming Soon..
+
+- [openSUSE Leap 15.2 Plasma Edition screenshots](/opensuse-leap-15.2-plasma)
