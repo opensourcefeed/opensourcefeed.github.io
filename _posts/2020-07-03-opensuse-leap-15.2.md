@@ -29,3 +29,4 @@ The main highlights of openSUSE Leap 15.2 are summarized below. For more detaile
 ## OpenSUSE Leap 15.2 screenshots
 
 - [openSUSE Leap 15.2 Plasma Edition screenshots](/opensuse-leap-15.2-plasma)
+- [openSUSE Leap 15.2 GNOME Edition screenshots](/opensuse-leap-15.2-gnome)
