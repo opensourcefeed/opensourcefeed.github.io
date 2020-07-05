@@ -27,7 +27,7 @@ p {
 #master-section {
   background-color: #00407f;
   text-align: center;
-  padding: 10vh 0 10vh 0;
+  padding: 10vh 0 12vh 0;
 }
 #master-section h1 {
   color: #4a86cf;
@@ -243,4 +243,15 @@ a.download:hover {
 /* Tab Display Fix */
 .tab-content>table.active {
     display: inline-table;
+}
+.donate {
+  background: #ffc439;
+  border-radius: 1rem;
+  border: none
+}
+.lead-link a.donate:hover {
+  background: #ffc439dd
+}
+.lead-link a.donate {
+  color: black
 }
