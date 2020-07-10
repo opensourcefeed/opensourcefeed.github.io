@@ -247,11 +247,11 @@ a.download:hover {
 .donate {
   background: #ffc439;
   border-radius: 1rem;
-  border: none
 }
 .lead-link a.donate:hover {
-  background: #ffc439dd
+  background: #ffc439dd;
 }
 .lead-link a.donate {
-  color: black
+  color: black;
+  border: none
 }
