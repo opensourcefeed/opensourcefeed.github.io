@@ -27,6 +27,7 @@ releases:
   KaOS 2015.11 : "https://open-source-feed.blogspot.com/2015/11/kaos-201511-is-available-now.html"
 
 screenshots:
+  KaOS 2020.07 : "/kaos-2020.07-release"
   KaOS 2018.04 : "http://distroscreens.blogspot.com/2018/05/kaos-201804-screenshots.html"
 
 ---
