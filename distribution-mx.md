@@ -14,14 +14,14 @@ tagline: The midweight and simple OS with Xfce
 description : "MX Linux is a cooperative venture between the antiX and former MEPIS communities, using the best tools and talents from each distributions."
 
 releases:
-  MX-19.2 KDE BETA1: "/mx19.2-kde/"
+  MX-19.2 KDE: "/mx19.2-kde/"
   MX-19: "/1-mx-19-release/"
   MX-17.1 : "../mx-linux-17.1-released-featuring-libreoffice-6-and-mx-apps-improvements/"
   MX Linux 17 : "https://mxlinux.org/mx-17-released-december-15-2017"
   MX Linux 17 Beta 1 : "https://mxlinux.org/mx-17-beta-1"
 
 screenshots:
-  MX-19.2 KDE BETA1: "/mx19.2-kde/"
+  MX-19.2 KDE: "/mx19.2-kde/"
   MX Linux 19.2: "/mx-19.2-screenshots/"
   MX-19 Patito Feo: "/1-mx-19-release/"
   MX Linux 18.3: "/1-mx-linux-18.3-screenshots/"
@@ -39,4 +39,4 @@ reviews:
 
 Being a Debian based distribution, MX Linux ships stable Kernel from latest stable Debian release and also provides latest Liquorix Kernel. The user can easily switch between these Kernels using MX Linux Installer.
 
-MX Linux ships [Xfce](/desktop/xfce) as default desktop environment. It is configured to be maximum productive without compromising performance & user experience.
+MX Linux includes 3 different ecosystems, featuring [Xfce](/desktop/xfce), Pasma, and Fluxbox desktop environments, respectively. It is configured to be maximum productive without compromising performance & user experience.

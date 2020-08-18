@@ -77,7 +77,7 @@ def get_results(service, profile_id, type):
 def save_results(service, profile_id, type):
 
     results = get_results(service, profile_id, type)
-
+    print(results)
     # Print data nicely for the user.
     if results:
         rows = results.get('rows')
