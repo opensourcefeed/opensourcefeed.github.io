@@ -14,7 +14,7 @@ tagline: The ultimate hacking distribution
 description : "Kali Linux is a Debian (testing) based GNU/Linux distribution designed for digital forensic and peneteration testing. Stories and updates on Kali Linux"
 
 releases:
-  Kali Linux 2020.3: "/kali-2020.2-release/"
+  Kali Linux 2020.3: "/kali-2020.3-release/"
   Kali Linux 2020.2: "/kali-2020.2-release/"
   Kali Linux 2019.4: "/1-kali-2019.4-screens/"
   Kali Linux 2019.03: "/1-kali-linux-2019.03-release/"
