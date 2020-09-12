@@ -4,6 +4,7 @@ layout: post
 categories: deepin deepindesktop release
 tags: [deepin deepindesktop release]
 image: /assets/images/post-images/deepin/20.png
+video: "https://www.youtube.com/embed/NZlbZQyRVL4"
 ---
 
 **The** deepin LLC has announced the release of deepin 20, the latest stable release of beautiful GNU/Linux distribution featuring an innovative deepin desktop environment.
