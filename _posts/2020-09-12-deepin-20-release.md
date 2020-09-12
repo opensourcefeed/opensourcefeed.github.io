@@ -23,3 +23,6 @@ This section briefly explains the [changes in deepin 20](https://www.deepin.org/
 - more..
 
 <a class="download" href="https://osdn.net/projects/deepin/storage/20/">Download deepin 20 (OSDN)</a>
+
+## deepin 20 screenshots
+{% include image-gallery.html folder="/screenshots/deepin 20" %}
