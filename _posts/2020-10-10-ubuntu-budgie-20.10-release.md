@@ -1,5 +1,5 @@
 ---
-title: "Ubuntu Budgie 21.10 <em>Groovy Gorilla</em>"
+title: "Ubuntu Budgie 20.10 <em>Groovy Gorilla</em>"
 layout: post
 categories: ubuntubudgie budgie release
 tags: [ubuntubudgie budgie release]
