@@ -11,6 +11,7 @@ home_page: https://ubuntuunity.org/
 desktops: [unity]
 base : [ubuntu]
 tagline: Taking the legendary of the Unity shell forward.
+image: /assets/images/preview/ubuntu-unity.jpg
 
 description : Ubuntu Unity is a community flavor of Ubuntu featuring the Unity shell, first introduced by Ubuntu as its flagship desktop environment.
 
