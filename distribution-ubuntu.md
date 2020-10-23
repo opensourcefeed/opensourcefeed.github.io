@@ -14,6 +14,7 @@ base : [debian]
 description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a range of hardware platforms like desktop, server, clouds and IoT.
 
 releases :
+  Ubuntu 20.10 Groovy Gorilla: /ubuntu-20.10-release/
   Ubuntu 20.04 Focal Fossa: /ubuntu-20.04-release/
   Ubuntu 19.10 Eoan Ermine: /ubuntu-eoan-ermine-19.10-release/
   Ubuntu 19.04 Disco Dingo: "https://lists.ubuntu.com/archives/ubuntu-announce/2019-April/000243.html"
