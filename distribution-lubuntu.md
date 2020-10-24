@@ -15,6 +15,7 @@ tagline: Ubuntu lightweight with LXQt
 description : Lubuntu is one of the oldest official community flavors of Ubuntu. It provides a lightweight desktop experience with LXQt desktop environment.
 
 releases:
+  Lubuntu 20.10 Groovy Gorilla: "/lubuntu-20.10-release/"
   Lubuntu 20.04 Focal Fossa: /lubuntu-20.04-release/
   Lubuntu 19.10 Eoan Ermine: "/lubuntu-eon-screenshots/"
   Lubuntu 18.10 Cosmic Cuttlefish: "/00-lubuntu-cosmic-first-release-lxqt/"
@@ -26,6 +27,7 @@ releases:
   Lubuntu 16.04.2 : "http://lubuntu.me/lubuntu-16-04-2-released/"
 
 screenshots :
+  Lubuntu 20.10 Groovy Gorilla: "/lubuntu-20.10-release/"
   Lubuntu 20.04 Focal Fossa: /lubuntu-20.04-release/
   Lubuntu 19.10 Eoan Ermine: "/lubuntu-eon-screenshots/"
   Lubuntu 18.10 Cosmic Cuttlefish: "https://distroscreens.blogspot.com/2018/10/lubuntu-1810-cosmic-cuttlefish-lxqt.html"
