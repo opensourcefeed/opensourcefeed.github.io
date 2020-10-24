@@ -14,7 +14,8 @@ tagline: Friendly computing with Plasma
 description : Kubuntu is one of the oldest, official community flavor of Ubuntu featuring modern Plasma desktop. Stories and updates on Kubuntu
 
 screenshots:
-  Kubuntu 20.04 Focal Fossa: "/kubuntu-18.04-release/"
+  Kubuntu 20.10 Groovy Gorilla: "/kubuntu-20.10-release/"
+  Kubuntu 20.04 Focal Fossa: "/kubuntu-20.04-release/"
   Kubuntu 19.10 Eoan Ermine: "/1-kubuntu-eoan-screenshots/"
   Kubuntu 18.10 Cosmic Cuttlefish: "https://distroscreens.blogspot.com/2018/10/kubuntu-1810-cosmic-cuttlefish.html"
   Kubuntu 18.04 Bionic Beaver screenshots: "http://distroscreens.blogspot.com/2018/06/kubuntu-1804-lts-bionic-beaver.html"
@@ -23,7 +24,8 @@ screenshots:
   Kubuntu 16.04 : "http://distroscreens.blogspot.com/2016/04/kubuntu-1604-xenial-xerus-screenshots.html"
 
 releases:
-  Kubuntu 20.04 Focal Fossa: "/kubuntu-18.04-release/"
+  Kubuntu 20.10 Groovy Gorilla: "/kubuntu-20.10-release/"
+  Kubuntu 20.04 Focal Fossa: "/kubuntu-20.04-release/"
   Kubuntu 19.10 Eoan Ermine: "/1-kubuntu-eoan-screenshots/"
   Kubuntu 18.10 Cosmic Cuttlefish: "/01-kubuntu-18.10-integrates-beatuful-plasma-5.13.5/"
   Kubuntu 18.04 Bionic Beaver : "https://kubuntu.org/news/kubuntu-18-04-has-been-released/"
