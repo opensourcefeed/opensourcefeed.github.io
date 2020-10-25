@@ -3,7 +3,7 @@ title: "Ubuntu Budgie 20.10 <em>Groovy Gorilla</em> released"
 layout: post
 categories: ubuntubudgie budgie release
 tags: [ubuntubudgie budgie release]
-image: /assets/images/post-images/ubuntu-budgie/groovy.jpg
+image: /screenshots/Ubuntu Budgie 20.10/07 mojave makeover.jpg
 video: "https://www.youtube.com/embed/wrO-CaCk5-Y"
 ---
 
@@ -12,6 +12,7 @@ video: "https://www.youtube.com/embed/wrO-CaCk5-Y"
 As a regular release of Ubuntu flavor, Ubuntu Budgie 20.10 has a lifespan of 9 months, ending in July 2021. After this period, users won't get any critical updates or security fixes for this release.
 
 ![Mojave makeover in Ubuntu Budgie 20.10](/screenshots/Ubuntu Budgie 20.10/07 mojave makeover.jpg)
+*Mojave makeover in Ubuntu Budgie 20.10*
 
 The major updates in Ubuntu Budgie 20.10 release are listed below. For further reading, proceed to [Ubuntu Budgie 20.10 official release notes](https://ubuntubudgie.org/2020/09/ubuntu-budgie-20-10-release-notes/).
 > - Budgie Desktop v10.5.1 release + all bug fixes till the Ubuntu code freeze deadline.
