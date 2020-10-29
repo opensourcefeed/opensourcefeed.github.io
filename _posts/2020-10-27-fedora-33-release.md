@@ -4,9 +4,8 @@ layout: post
 categories: fedora gnome release
 tags: [fedora gnome release]
 image: /assets/images/post-images/fedora/fedora-33-beta.jpg
-video: "https://www.youtube.com/embed/QptRzRtcFf8"
+video: "https://www.youtube.com/embed/r3o3iQ2C--s"
 ---
-
 **The** Fedora Project has announced the release of Fedora 33. Fedora 33 includes Fedora Workstation, Fedora Server, Fedora IoT, desktop spins, labs, and ARM Edition.
 
 Fedora 33 upholds the motto of Fedora, to provide the latest stable, robust, and free open source technologies for all.
