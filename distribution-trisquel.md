@@ -10,8 +10,6 @@ preview: trisquel-8-flidas.jpg
 home_page: https://trisquel.info/
 desktops: [mate]
 base : [ubuntu]
-purchase:
-  OSDisc : "https://www.osdisc.com/products/trisquel"
 
 description : "Trisquel an Ubuntu based GNU/Linux distribution that strictly follows the guidelines established by Free Software Foundation for 100% free operating system."
 

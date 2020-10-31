@@ -211,6 +211,12 @@ a.download:hover {
 }
 /* Download link ends */
 
+.more-stories {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
 @media (max-width: 430px) {
   #search-field {
     font-size: 0.8rem;

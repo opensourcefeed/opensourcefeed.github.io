@@ -4,6 +4,7 @@ layout: post
 categories: trisquel mate release
 tags: [trisquel mate release]
 image: /assets/images/post-images/trisquel/etiona-menu_0.jpg
+video: https://www.youtube.com/embed/dwx_B3S4kmc
 ---
 
 **After** a relatively long development period, the Trisquel project has announced the release of Trisquel 9.0 with code name *Etiona*. This release is based on Ubuntu 18.04 LTS, and eliminates all the *non-free* components from the upstream projects to adhere the with the *100% free software concept*.
