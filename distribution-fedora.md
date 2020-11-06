@@ -21,6 +21,7 @@ reviews :
   Fedora 25 is not something worth to recommend: "http://open-source-feed.blogspot.com/2017/02/fedora-25-is-not-something-worth-to.html"
 
 screenshots :
+  Fedora 33: "/fedora-33-release/"
   Fedora 32: "/fedora-32-release"
   Fedora 32 BETA: "/fedora-32-beta/"
   Fedora 31 Workstation: "/fedora-31-screens/"

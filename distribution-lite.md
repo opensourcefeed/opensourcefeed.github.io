@@ -15,6 +15,7 @@ tagline: "Simple, Fast & Free"
 description: Linux Lite is a lightweight, fully functional operating system built on top of Ubuntu. It includes a good collection of applications to serve your day to day needs.
 
 releases:
+  Linux Lite 5.2: "/linuxlite-5.2-release/"
   Linux Lite 5.0: "/linuxlite-5.0-release"
   Linux Lite 4.8: "/linux-lite-4.8-release/"
   Linux Lite 4.6: "/1-linux-lite-4.6-final-release/"
@@ -30,6 +31,7 @@ releases:
   Linux Lite 3.0 : "http://open-source-feed.blogspot.com/2016/06/linux-lite-30-final-released-with-new.html"
 
 screenshots:
+  Linux Lite 5.2: "/linuxlite-5.2-release/"
   Linux Lite 5.0 screenshots: "/linuxlite-5.0-release"
   Linux Lite 4.0 screenshots : "https://distroscreens.blogspot.com/2018/07/linux-lite-40-diamond-screenshots.html"
   Linux Lite 3.8 screenshots : "http://distroscreens.blogspot.com/2018/02/linux-lite-38-final-screenshots.html"
