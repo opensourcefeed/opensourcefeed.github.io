@@ -77,26 +77,23 @@ def get_results(service, profile_id, type):
 def save_results(service, profile_id, type):
 
     results = get_results(service, profile_id, type)
-    print(results)
     # Print data nicely for the user.
     if results:
         rows = results.get('rows')
         rank = 1
-        prog = re.compile(r'\/'+type+'\/[a-z]+')
+        prog = re.compile(r'\/'+type+'\/[a-z0-9]+')
         map = {}
         for row in rows:
             if not prog.search(row[0]): continue
-            
+
             url = re.sub(r'.*(/'+type+'/[a-z0-9]+).*', r"\1", row[0])
             if url in map:
-                print('adding for', url)
                 map[url] = map[url] + int(row[1])
             else:
                 map[url] = int(row[1])
 
         map = OrderedDict(sorted(map.items(), key=itemgetter(0)))
         map = OrderedDict(sorted(map.items(), key=itemgetter(1), reverse=True))
-
         with open("../../_data/rank.yaml", "r") as file:
             final_result = yaml.load(file.read())
 
