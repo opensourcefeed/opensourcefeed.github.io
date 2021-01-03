@@ -4,6 +4,7 @@ layout: post
 categories: openmandriva release
 tags: [openmandriva release]
 image: /assets/images/post-images/openmandriva/lx4.2-rc.jpg
+video: https://youtube.com/embed/y989BR1x4RM 
 ---
 
 **The** OpenMandriva community has announced the availability of OpenMandriva Lx 4.2 RC for testing. The release candidate fixes various issues reported on the BETA release. If there is no critical issue reported, the RC will become stable Lx 4.2 release very soon.
@@ -24,4 +25,4 @@ For further details and screenshots, read the official [release announcement pub
 <a href="https://sourceforge.net/projects/openmandriva/files/release/4.2/RC/OpenMandrivaLx.4.2-RC-plasma.x86_64.iso/download" class="download">Download OpenMandriva Lx 4.2</a>
 
 ## OpenMandriva Lx 4.2 screenshots & preview video
-Coming Soon...
+{% include image-gallery.html folder="/screenshots/OpenMandriva Lx 4.2" %}
