@@ -9,7 +9,7 @@ a:hover {color: #4a86cf}
 .navbar-small {padding: 0rem 1rem; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); border-bottom: none; position: fixed; top: 0; width: 100%; z-index: 100}
 .navbar-small .navbar-brand {font-size: 1.1rem}
 .navbar-small .nav-link {font-size: 1rem}
-.navbar-small .social-icons img {height: 25px}
+.navbar-small .social-icons img {height: 32px}
 .nvabar-toggler {border: none}
 /* end of navbar */
 
