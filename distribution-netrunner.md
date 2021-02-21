@@ -7,9 +7,10 @@ type : Linux
 permalink: /distribution/netrunner
 logo: netrunner.png
 preview: netrunner.jpg
-home_page: http://www.netrunner.com
+home_page: https://www.netrunner.com/
 desktops: [plasma]
 base : [arch, manjaro, debian]
+tagline: A KDE GNU/Linux Distribution
 
 description : Netrunner is a free operating system featuring a compact, yet fully functional desktop environment. Read reviews, updates and other stories on Netrunner operating system.
 
@@ -17,6 +18,7 @@ screenshots:
   Netrunner Rolling 2018.08 : "http://distroscreens.blogspot.com/2018/09/netrunner-rolling-201808-plasma.html"
 
 releases:
+  Netrunner 2021.01 XOXO: "/netrunner-21.01-release/"
   Netrunner 2019.08 Indigo: "/netrunner-2019.08-release/"
   Netrunner Rolling 2018.08 : "/01-Netrunner-rolling-2018.07-released-with-seamless-gtk-integration/"
   Netrunner 18.03 Idolon : "/netrunner-1803-idolon-released-with-a-set-of-redesigned-artworks/"
