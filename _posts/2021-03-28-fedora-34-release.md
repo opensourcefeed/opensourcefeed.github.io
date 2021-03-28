@@ -20,3 +20,6 @@ Fedora 34 BETA showcases the features and improvements planned for the final rel
 - Fedora Linux 34 BETA brings better handling for out-of-memory (OOM) situations by enabling systemd-oomd by default. 
 
 For [more highlights on Fedora 34 BETA release](https://fedoramagazine.org/announcing-fedora-34-beta/), see the official release announcement published on Fedora Magazine.
+
+## Fedora 34 BETA Workstation screenshots
+{% include image-gallery.html folder="/screenshots/Fedora 34 BETA" %}
