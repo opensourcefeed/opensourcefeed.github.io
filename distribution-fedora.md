@@ -42,6 +42,7 @@ screenshots :
   Fedora 24 Alpha : "http://distroscreens.blogspot.com/2016/04/fedora-24-alpha-gnome-320-screenshots.html"
 
 releases:
+  Fedora 34 BETA: "/fedora-34-release/"
   Fedora 33: "/fedora-33-release"
   Fedora 32: "/fedora-32-release"
   Fedora 32 BETA: "/fedora-32-beta/"
