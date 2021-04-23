@@ -10,6 +10,7 @@ home_page: https://amaroklinux.org/
 desktops: [xfce]
 base: [debian]
 preview: amarok.jpg
+image: /assets/images/preview/amarok.jpg
 
 description : "Amarok Linux is a Debian testing based GNU/Linux distribution featuring Xfce Desktop Environment"
 
