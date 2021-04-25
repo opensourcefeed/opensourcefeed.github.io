@@ -10,11 +10,12 @@ preview: ubuntu-budgie.jpg
 home_page: http://ubuntubudgie.org/
 desktops: [budgie]
 base : [ubuntu]
-tagline: You new favorite Ubuntu-based distro
+tagline: Budgie combined with Solid Ubuntu foundation
 
 description : Ubuntu Budgie is an official flavor of Ubuntu combining solid Ubuntu core with elegant, efficient and productive budgie desktop, developed by Solus project.
 
 screenshots:
+  Ubuntu Budgie 21.04 Hirsute Hippo: /ubuntubudgie-21.04-release/
   Ubuntu Budgie 20.10 Groovy Gorilla: /ubuntu-budgie-20.10-release/
   Ubuntu Budgie 20.04 Focal Fossa: "/ubuntu-budgie-20.04-release/"
   Ubuntu Budgie 19.10 Eoan Ermine: "/ubuntu-budgie-19.10-screenshots/"
@@ -26,6 +27,7 @@ screenshots:
   budgie remix 16.04 : "http://distroscreens.blogspot.com/2016/06/budgie-remix-1604-screenshots.html"
 
 releases:
+  Ubuntu Budgie 21.04 Hirsute Hippo: /ubuntubudgie-21.04-release/
   Ubuntu Budgie 20.10 Groovy Gorilla: /ubuntu-budgie-20.10-release/
   Ubuntu Budgie 20.04 Focal Fossa: "/ubuntu-budgie-20.04-release/"
   Ubuntu Budgie 19.10 Eoan Ermine: "/ubuntu-budgie-19.10-screenshots/"
