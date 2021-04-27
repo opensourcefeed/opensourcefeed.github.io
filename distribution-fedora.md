@@ -6,7 +6,7 @@ tagline: "Choose Freedom, Choose Fedora"
 Category: Distribution
 type : Linux
 permalink: /distribution/fedora
-logo: fedora-logo.png
+logo: fedora.png
 preview: Fedora25-preview.jpg
 home_page: https://getfedora.org/
 desktops: [gnome, plasma, mate, xfce, lxde]
@@ -21,6 +21,7 @@ reviews :
   Fedora 25 is not something worth to recommend: "http://open-source-feed.blogspot.com/2017/02/fedora-25-is-not-something-worth-to.html"
 
 screenshots :
+  Fedora 34 Workstation: "/fedora-34-release/"
   Fedora 33: "/fedora-33-release/"
   Fedora 32: "/fedora-32-release"
   Fedora 32 BETA: "/fedora-32-beta/"
@@ -42,7 +43,7 @@ screenshots :
   Fedora 24 Alpha : "http://distroscreens.blogspot.com/2016/04/fedora-24-alpha-gnome-320-screenshots.html"
 
 releases:
-  Fedora 34 BETA: "/fedora-34-release/"
+  Fedora 34 Workstation: "/fedora-34-release/"
   Fedora 33: "/fedora-33-release"
   Fedora 32: "/fedora-32-release"
   Fedora 32 BETA: "/fedora-32-beta/"
