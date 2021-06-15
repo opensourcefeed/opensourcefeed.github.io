@@ -9,6 +9,7 @@ preview: helloSystem.jpg
 home_page: https://hellosystem.github.io
 description: helloSystem a desktop system for creators looking for simplicity, elegance and usability.
 tagline: Simplicity, elegance & usability.
+image: /assets/images/preview/helloSystem.jpg
 
 screenshots:
   - helloSystem 0.5 screenshots: "/helloSystem-.05/"
