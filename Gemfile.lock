@@ -74,6 +74,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll (~> 4.1)
   jekyll-feed
   jekyll-paginate
   jekyll-redirect-from
