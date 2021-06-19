@@ -10,7 +10,7 @@ image: "/assets/images/post-images/png-eligible.webp"
 
 Before jumping to the details, let's get familiar with the terms used here, ie, JPG, PNG, and ImageMagick. If you are already familiar with these, you can directly skip to the conversion part.
 
-### PNG Image Format
+## PNG Image Format
 PNG (Portable Network Graphics) a raster image format. Raster images use a lossless image compression algorithm. In PNG format, the image will be represented as a collection of interconnected points. The quality of the image will remain unaffected on resizing.
 
 ![PNG format is good for simple images](/assets/images/post-images/png-eligible.webp)
@@ -18,7 +18,7 @@ PNG (Portable Network Graphics) a raster image format. Raster images use a lossl
 
 PNG format can be used for any image files. However, it is more suitable for icons, symbols, or small shapes which does not require a lot of points to represent. It will consume more space for complex images like photographs. So, it is better to convert complex images into other formats like JPE when we are using it on the Web.
 
-### JPG Image Format
+## JPG Image Format
 JPG or JPEG (Joint Photographic Experts Group) is a commonly used lossy compression approach for digital photographs. It allows adjusting the compression ratio with a tradeoff between compression and quality of the image.
 
 ![JPG format is suitable for complex images](/assets/images/post-images/kde-neon-5.10.jpg)
@@ -26,12 +26,12 @@ JPG or JPEG (Joint Photographic Experts Group) is a commonly used lossy compress
 
 With JPG format, the quality of the image reduces with compression ratio. More compression implies, less quality and less storage space requirement. This format is used for embedding photographs or complex images on websites.
 
-### ImageMagick
+## ImageMagick
 ImageMagick is an open-source tool that provides advanced image manipulation functionalities to create, edit and convert images. It supports more than 200 types of image formats. ImageMagick facilitates resize, flip, rotate, distort, shear, and transform images. It also helps to apply special effects.
 
 Commonly, ImageMagick is used as a command-line tool, which makes it suitable for batch operations. There are many GUI clients which use ImageMagick underhood for performing image manipulation operations.
 
-### How to perform PNG to JPG conversion using ImageMagick?
+## How to perform PNG to JPG conversion using ImageMagick?
 Now, we are familiar with PNG, JPG, and ImageMagick. So, it is time to talk about the actual topic. How to perform PNG to JPG conversion.
 
 ImageMagick provides a set of command-line tools for performing image manipulation operations. **convert** is one such tool in the ImageMagick tool suite, that facilitates the conversion of images between various formats. It also provides options to resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.
@@ -59,7 +59,7 @@ In one line, it can be written like,
 ```
 $ for image in *.png ;  do convert "$image" "${image%.*}.jpg" ; done
 ```
-### How to convert from any image format to any other image format?
+## How to convert from any image format to any other image format?
 The *convert* tool provided by ImageMagick can convert from any image format to any other image format. The above example showcases, how to convert a PNG image to a JPG image.
 
 In general, we can perform the image conversion like,
@@ -72,3 +72,5 @@ $ convert sample.png sample.webp
 That's all for now. This post is inspired by an [answer given in superuser - an affiliate of StackExange](https://superuser.com/questions/71028/batch-converting-png-to-jpg-in-linux).
 
 In case of any issues, or clarification please let me know via the comment box below.
+
+You may also read, [tutorial on converting jpg images to png](/convert-jpg-to-png-imagemagick/)
