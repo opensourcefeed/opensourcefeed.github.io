@@ -11,7 +11,7 @@ home_page: https://devuan.org/
 desktops: [xfce]
 base: [debian]
 tagline: Debian without the Sin of SystemD
-image: /screenshots/Devuan 3.0.0/01 Devuan3.0.0Desktop.png
+image: /screenshots/Devuan 3.0.0/01 Devuan 3.0.0 Desktop.png
 
 description: Devuan is a fork of Debian. The main goal of Devuan is to remove SystemD components. Devuan acts as a base distribution for many other distributions.
 
