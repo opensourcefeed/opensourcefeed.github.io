@@ -4,6 +4,7 @@ layout: post
 categories: elementary release
 tags: [elementary release]
 image: /assets/images/post-images/elementary/installer.gif
+redirect_to: https://blog.opensourcefeed.org/2021/06/elementary-os-6-0-beta-2-released/
 ---
 
 The elementary OS team has announced the release of elementary OS 6 Beta 2, the second public development release before the upcoming elementary OS 6. The biggest changes in this release include - improved system installer, more flatpak adopting, and changes with the online account management.

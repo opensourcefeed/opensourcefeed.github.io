@@ -4,6 +4,7 @@ layout: post
 categories: tutorial linux
 tags: imagemagick tutorial
 image: "/assets/images/post-images/png-eligible.webp"
+redirect_to: https://blog.opensourcefeed.org/2021/06/how-to-convert-jpg-images-to-png-using-imagemagick-in-linux/
 ---
 
 

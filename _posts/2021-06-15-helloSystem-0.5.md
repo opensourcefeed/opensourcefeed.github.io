@@ -5,6 +5,7 @@ categories: hello release
 tags: [hello release]
 image: /screenshots/helloSystem 0.5/03 About System.jpg
 video: https://youtube.com/embed/kPI6JcIqTd0  
+redirect_to: https://blog.opensourcefeed.org/2021/06/hellosystem-0-5-screenshots-of-mac-inspired-hellosystem-0-5/
 ---
 
 **helloSystem** is a mac inspired desktop system for BSD. It provides user experience similar to the mac in 90s, and follows the general design guidelines of macinthos systems.
