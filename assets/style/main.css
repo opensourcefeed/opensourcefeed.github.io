@@ -262,3 +262,66 @@ a.download:hover {
   color: black;
   border: none
 }
+
+/*Manjaro inspired design*/
+.blog .card-body {
+  font-size: 14px;
+  background-color: #2c2c2c;
+  padding: 1.25rem;
+}
+.blog a .card-text {
+  margin: 0;
+  color: #cecccc;
+  line-height: 1.5;
+  font-family: open sans,sans-serif;
+}
+
+.blog a.card {
+  color: #2c2c2c;
+  border: none;
+  margin: .5rem 0rem;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all .25s ease; /* Safari and Chrome */
+  -moz-transition: all .25s ease; /* Firefox */
+  -ms-transition: all .25s ease; /* IE 9 */
+  -o-transition: all .25s ease; /* Opera */
+  transition: all .25s ease;
+}
+
+.blog a.card:hover {
+  -webkit-transform:scale(1.05); /* Safari and Chrome */
+  -moz-transform:scale(1.05); /* Firefox */
+  -ms-transform:scale(1.05); /* IE 9 */
+  -o-transform:scale(1.05); /* Opera */
+  transform:scale(1.05);
+  z-index: 5;
+}
+
+.blog .card .card-title {
+  padding: 1.25rem;
+  margin-bottom: 0;
+  border-bottom: 3px solid #ffab00;
+  font-size: 16px;
+  font-family: open sans,sans-serif;
+}
+
+.blog .card .date-container {
+  text-align: right;
+  position: relative;
+  margin-top: -43px;
+}
+
+.blog .card .date {
+  padding: 2px 4px;
+  background-color: #e91e63;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 11px;
+  float: left;
+  border-radius: 2px;
+  width: auto;
+  line-height: 1.5;
+}
+.blog .card .mock {
+  height: 3rem;
+}
