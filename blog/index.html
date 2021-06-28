@@ -9,24 +9,26 @@ operating systems."
   <div class="row stories">
     {% for post in paginator.posts %}
     <div class="col-md-4">
-      <a class="card" href="{{post.url}}">
-        <img src="{{post.image}}" />
-        <h3 class="card-title">{{ post.title }}</h3>
-        <div class="card-body">
-          <div class="date-container">
-            <div class="date">{{ post.date | date_to_string}}</div>
-            <div class="mock"></div>
+      <a href="{{post.url}}">
+        <div class="card">
+          <img src="{{post.image}}" />
+          <h3 class="card-title">{{ post.title }}</h3>
+          <div class="card-body">
+            <div class="date-container">
+              <div class="date">{{ post.date | date_to_string}}</div>
+              <div class="mock"></div>
+            </div>
+            <div class="card-text">{{ post.content | strip_html | truncatewords: 30, '...'}}</div>
           </div>
-          <div class="card-text">{{ post.content | strip_html | truncatewords: 30, '...'}}</div>
         </div>
       </a>
     </div>
     {% endfor %}
   </div>
-
+  <hr>
   {% if paginator.total_pages > 1 %}
   <div class="page-nav">
-    <ul class="pagination">
+    <ul class="pagination justify-content-center pagination-sm flex-wrap">
       {% if paginator.previous_page %}
       <li class="page-item"><a class="page-link"
           href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a></li>
