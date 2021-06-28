@@ -32,5 +32,5 @@ social:
     - 'https://www.facebook.com/opensourcefeed'
 webmaster_verifications:
   google: 8-DkVd0YN5zpN1NpF6X4SMnRckVNQgEu4O8Uk9cU_2c
-paginate: 20
+paginate: 18
 paginate_path: '/blog/:num/'

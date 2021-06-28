@@ -4,7 +4,6 @@ layout: post
 categories: tutorial linux
 tags: imagemagick
 image: "/assets/images/post-images/png-eligible.webp"
-redirect_to: https://blog.opensourcefeed.org/2021/06/how-to-convert-png-images-to-jpg-using-imagemagick-in-linux/
 ---
 
 **When** dealing with images, we may have to do several format conversions. Depending on the situation, it can be a JPG to PNG conversion, PNG to SVG conversion, or anything. ImageMagick is a tool that supports most of these image format conversions along with the other operations like resizing, reducing the size, changing color scheme ..etc. In this tutorial, we will see how to convert a PNG file to a JPG file. Also, we'll check how to perform this image conversion as a batch job.
@@ -38,26 +37,26 @@ Now, we are familiar with PNG, JPG, and ImageMagick. So, it is time to talk abou
 ImageMagick provides a set of command-line tools for performing image manipulation operations. **convert** is one such tool in the ImageMagick tool suite, that facilitates the conversion of images between various formats. It also provides options to resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.
 
 You can read the complete `convert` tool documentation using the man pages. The man page for `convert` can be read using the following commands:
-```
+```bash
 $ convert --help
    OR
 $ man convert
 ```
 The image format conversion can be done using the following command:
-```
+```bash
 $ convert [original image] [converted image name]
 ```
 This command can be used to convert between any valid image formats.
 
 If we want to convert multiple jobs at once, we may use a simple batch job as follows:
-```
+```bash
 for image in *.png ; 
 do 
     convert "$image" "${image%.*}.jpg" ;
 done
 ```
 In one line, it can be written like,
-```
+```bash
 $ for image in *.png ;  do convert "$image" "${image%.*}.jpg" ; done
 ```
 ## How to convert from any image format to any other image format?
