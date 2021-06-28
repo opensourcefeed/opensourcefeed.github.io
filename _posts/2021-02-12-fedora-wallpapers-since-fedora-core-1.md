@@ -1,8 +1,14 @@
 ---
-title: "Fedora Wallpapers since Fedora Core 1"
+title: Fedora Wallpapers from Fedora Core 1 to Fedora 34 Workstation
 layout: post
-categories: fedora release
+categories:
+- fedora
+- release
 image: "/assets/images/post-images/fedora-wallpaper/Fedora 13.jpg"
+tags:
+- fedora
+- wallapapers
+- gallery
 ---
 
 **Wallpaper** is the first piece of artwork that catches the attention of an average computer user. For an operating system, it is important to have a good looking wallpaper if it is oriented towards beginners.
@@ -28,7 +34,7 @@ This release arrived on 8th November 2014. It was named as *Heidelberg*. This wa
 
 ### Fedora Core 4
 ![Fedora Core 04 wallpaper](/assets/images/post-images/fedora-wallpaper/Fedora Core 04.jpg)
-Fedora 24 had code name *Stentz*. It introduced a new clearlook theme inspired by Red Hat bluecurve theme.
+Fedora 4 had code name  Stentz. It introduced a new clearlook theme inspired by Red Hat bluecurve theme.
 
 ### Fedora Core 5
 ![Fedora Core 05 wallpaper](/assets/images/post-images/fedora-wallpaper/Fedora Core 05.jpg)
@@ -77,7 +83,7 @@ Fedora 7, codenamed Moonshine, was released on 31st May 2007. The biggest differ
 
 ### Fedora 15
 ![Fedora 15 wallpaper](/assets/images/post-images/fedora-wallpaper/Fedora 15.jpg)
-Fedora 15 code named *Lovelock* was released on 24th May 2011. This was the first Fedora release that included GNOME 3.x shell. It also replaced OpenOffice.org with *LibreOffice*.
+Fedora 15 code named "Lovelock" was released on 24th May 2011. This was the first Fedora release that included GNOME 3.x shell. It also replaced OpenOffice.org with "LibreOffice".
 
 ### Fedora 16
 ![Fedora 16 wallpaper](/assets/images/post-images/fedora-wallpaper/Fedora 16.jpg)
@@ -146,6 +152,8 @@ Fedora 21 was released on 9th December 2014. With this release, Fedora stopped t
 ### Fedora 33
 ![Fedora 33 wallpaper](/assets/images/post-images/fedora-wallpaper/Fedora 33.jpg)
 
+### Fedora 34
+![Fedora 34 wallpaper](/assets/images/post-images/fedora-wallpaper/Fedora 34.jpg)
 ### Reference
 1. Fedora Core 1 to Fedora 32 wallpapers are taken from [Fedora Project Wiki](https://fedoraproject.org/wiki/Wallpapers).
 3. Fedora 33 Wallpaper is from [OpenSourceFeed Gallery](https://www.opensourcefeed.org/fedora-33-release/)
