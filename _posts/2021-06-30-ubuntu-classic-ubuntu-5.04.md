@@ -8,6 +8,7 @@ tags:
 - ubuntu
 - ubuntuclassics
 image: "/assets/images/post-images/ubuntu-classic/5.04.jpg"
+video: https://www.youtube.com/embed/cO-CoH8jqZA
 ---
 
 **Ubuntu 5.04** was the second release of Ubuntu. Ubuntu 5.04 was released on 8th April 2005 and came with the code name *Hoary Hedgehog*.

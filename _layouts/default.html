@@ -96,9 +96,31 @@ layout: compress
     {{ content }}
 </main>
 {% else %}
-<main class="container">
-    {{ content }}
-</main>
+<div class="container-fluid">
+    <div class="row">
+        <main class="col-md-8 order-md-1">
+            {{ content }}
+        </main>
+        <aside class="col-md-2 order-md-0">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Org left side -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6380671811722843" data-ad-slot="5929980654"
+                data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </aside>
+        <aside class="col-md-2 order-md-2">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Org right side -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6380671811722843" data-ad-slot="9486082286"
+                data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </aside>
+    </div>
+</div>
 {% endif %}
 <footer class="bg-dark text-light">
     &copy; OpenSourceFeed 2015 - 2021
