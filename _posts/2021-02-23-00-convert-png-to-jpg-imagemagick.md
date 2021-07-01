@@ -1,8 +1,14 @@
 ---
-title: "How to convert PNG images to JPG using ImageMagick in Linux?"
+title: How to convert PNG images to JPG using ImageMagick in Linux?
 layout: post
-categories: tutorial linux
-tags: imagemagick
+categories:
+- tutorial
+- linux
+tags:
+- imagemagick
+- imagemagickconvertpng to jpg
+- imagemagickpngto jpg
+- imagemagickconvertto jpg
 image: "/assets/images/post-images/png-eligible.webp"
 ---
 

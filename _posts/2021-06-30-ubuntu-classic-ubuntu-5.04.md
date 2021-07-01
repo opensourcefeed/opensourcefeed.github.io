@@ -7,6 +7,8 @@ categories:
 tags:
 - ubuntu
 - ubuntuclassics
+- Ubuntu Classic Series
+- Ubuntu 5.04 Hoary Hedgehog
 image: "/assets/images/post-images/ubuntu-classic/5.04.jpg"
 video: https://www.youtube.com/embed/cO-CoH8jqZA
 ---

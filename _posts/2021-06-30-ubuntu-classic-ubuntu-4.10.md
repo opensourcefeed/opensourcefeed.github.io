@@ -7,6 +7,8 @@ categories:
 tags:
 - ubuntu
 - ubuntuclassics
+- Ubuntu Classic Series
+- Ubuntu 4.10 Warty Warthog
 image: "/assets/images/post-images/ubuntu-classic/4.10.jpg"
 video: https://www.youtube.com/embed/ObQnKSjnTDs
 ---
