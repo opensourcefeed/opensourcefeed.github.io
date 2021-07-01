@@ -1,5 +1,6 @@
 ---
 ---
+$primary-blue: #007bff;
 
 .navbar-small {
   padding: 0rem 1rem;
@@ -608,6 +609,20 @@ p img + em {
 }
 
 /* End of syntax highlight */
+
+a.download {
+  background: $primary-blue;
+  margin: auto;
+  display: block;
+  width: max-content;
+  color: white;
+  padding: .5rem 1rem;
+  font-weight: bold;
+  transition: .5s ease;
+  &:hover {
+    background-color: #007bffbf
+  }
+}
 
 $breakpoint-md: 768px;
 @media (min-width: $breakpoint-md) {
