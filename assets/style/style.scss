@@ -608,3 +608,11 @@ p img + em {
 }
 
 /* End of syntax highlight */
+
+$breakpoint-md: 768px;
+@media (min-width: $breakpoint-md) {
+  aside ins {
+    position: fixed;
+    margin-top: 5rem;
+  }
+}
