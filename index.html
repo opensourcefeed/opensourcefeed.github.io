@@ -65,12 +65,12 @@ title: Gallery of Free & Open Source Distributions & Desktops
     <h2>Recent Stories</h2>
     <hr>
     <div class="row">
-        {% for post in site.data.feed.entries limit:9%}
+        {% for post in site.posts limit:9%}
         <div class="col-md-4">
-            <a href="{{post.link}}">
+            <a href="{{post.url}}">
                 <div class="card">
-                    {% if post.img %}
-                    <img alt="{{post.title|strip_html}}" src="{{post.img}}?w=720" />
+                    {% if post.image %}
+                    <img alt="{{post.title|strip_html}}" src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ post.image }}&w=400&output=jpg" />
                     {% else %}
                     <img src="/assets/images/meta/placeholder.png" />
                     {% endif %}
@@ -81,7 +81,7 @@ title: Gallery of Free & Open Source Distributions & Desktops
                             <div class="date">{{ post.date | date_to_string}}</div>
                             <div class="mock"></div>
                         </div>
-                        <div class="card-text">{{ post.description | strip_html | truncatewords: 30, '...'}}</div>
+                        <div class="card-text">{{ post.content | strip_html | truncatewords: 30, '...'}}</div>
                     </div>
                 </div>
             </a>
