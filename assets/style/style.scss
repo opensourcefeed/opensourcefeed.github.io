@@ -1,6 +1,8 @@
 ---
 ---
+
 $primary-blue: #007bff;
+$--color-border-secondary: #ebedef;
 
 .navbar-small {
   padding: 0rem 1rem;
@@ -33,7 +35,6 @@ main {
   background: white;
   h2 {
     font-size: 1.5em;
-    color: #173f4f;
   }
   h3 {
     font-size: 1.17em;
@@ -224,10 +225,33 @@ footer {
 }
 
 /* Individual post styles */
-.post-content img {
-  max-width: 100%;
-  display: block;
-  margin: auto;
+.post-content {
+  img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  }
+  h2 {
+    border-bottom: 1px solid $--color-border-secondary;
+    padding-bottom: 0.3em;
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.25em;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 16px;
+    margin-top: 24px;
+  }
 }
 
 .post-header {
@@ -616,11 +640,11 @@ a.download {
   display: block;
   width: max-content;
   color: white;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-weight: bold;
-  transition: .5s ease;
+  transition: 0.5s ease;
   &:hover {
-    background-color: #007bffbf
+    background-color: #007bffbf;
   }
 }
 
