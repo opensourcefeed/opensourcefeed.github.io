@@ -1,4 +1,25 @@
 entries:
+- date: '2021-07-02'
+  description: The System76 team has announced the release of Pop!_OS 21.04. It is
+    the latest stable release of user-friendly GNU/Linux distribution created by System76
+    &#8211; A popular GNU/Linux hardware vendor. Pop!_OS 21.04 is coming with&#46;&#46;&#46;
+  img: https://i1.wp.com/blog.opensourcefeed.org/wp-content/uploads/2021/07/21.04.jpg?resize=720%2C340&ssl=1
+  link: https://blog.opensourcefeed.org/2021/07/pop_os-21-04-released-with-more-improvements-on-cosmic-desktop/
+  title: Pop!_OS 21.04 released with more improvements on Cosmic Desktop
+- date: '2021-07-02'
+  description: Ubuntu 5.04 was the second release of Ubuntu. Ubuntu 5.04 was released
+    on 8th April 2005 and came with the code name Hoary Hedgehog. Ubuntu 5.04 introduced
+    many of the features that we use&#46;&#46;&#46;
+  img: https://i0.wp.com/blog.opensourcefeed.org/wp-content/uploads/2021/07/5.04.jpg?resize=720%2C340&ssl=1
+  link: https://blog.opensourcefeed.org/2021/07/ubuntu-classic-series-ubuntu-5-04-hoary-hedgehog/
+  title: 'Ubuntu Classic Series: Ubuntu 5.04 Hoary Hedgehog'
+- date: '2021-07-02'
+  description: "Ubuntu 4.10 was Canonical\u2019s first release of Ubuntu. Ubuntu 5.04\
+    \ was released on 20 October 2004 and came with the code name Warty Warthog. Ubuntu\
+    \ 4.10 was a revolutionary footstep that changed the direction&#46;&#46;&#46;"
+  img: https://i0.wp.com/blog.opensourcefeed.org/wp-content/uploads/2021/07/4.10.jpg?resize=720%2C340&ssl=1
+  link: https://blog.opensourcefeed.org/2021/07/ubuntu-classic-series-ubuntu-4-10-warty-warthog/
+  title: 'Ubuntu Classic Series: Ubuntu 4.10 Warty Warthog'
 - date: '2021-06-26'
   description: An article briefly listing the common git commands that will come handy
     in some common use cases. As we know, Git is a free and open-source distributed
@@ -22,24 +43,3 @@ entries:
   link: https://blog.opensourcefeed.org/2021/06/suse-linux-enterprise-15sp3-release/
   title: SUSE Linux Enterprise 15 SP3 offers full binary compatibility with openSUSE
     Leap
-- date: '2021-06-23'
-  description: On 11th May 2021, the NomadBSD team has announced the release of Nomad
-    BSD 130R-20210508. Nomad BSD is a FreeBSD based live distribution, with automatic
-    hardware detection and installation scripts. Beginning from NomadBSD 130R-20210508,&#46;&#46;&#46;
-  img: https://i2.wp.com/www.opensourcefeed.org/assets/images/post-images/nomad/nomadbsd-1.3-RC1-ss1.jpg?ssl=1
-  link: https://blog.opensourcefeed.org/2021/06/nomadbsd-130r-20210508-released-beginning-of-a-new-versioning-scheme/
-  title: NomadBSD 130R-20210508 released; Beginning of a new versioning scheme
-- date: '2021-06-23'
-  description: The OpenMandriva Association has announced the release of OpenMandriva
-    Lx 4.3 RC. This unscheduled release of OpenMandriva allows the users to enjoy
-    a lot of features planned for the upcoming OMLx 5.0 release. The&#46;&#46;&#46;
-  img: https://i1.wp.com/www.opensourcefeed.org/assets/images/post-images/openmandriva/omlx.4.3rc-007.jpg?ssl=1
-  link: https://blog.opensourcefeed.org/2021/06/openmandriva-lx-4-3-rc-released/
-  title: OpenMandriva Lx 4.3 RC released
-- date: '2021-06-23'
-  description: helloSystem is a mac inspired desktop system for BSD. It provides user
-    experience similar to the mac in 90s, and follows the general design guidelines
-    of macinthos systems. The helloSystem 0.5 release is based&#46;&#46;&#46;
-  img: https://www.opensourcefeed.org/screenshots/helloSystem 0.5/03 About System.jpg
-  link: https://blog.opensourcefeed.org/2021/06/hellosystem-0-5-screenshots-of-mac-inspired-hellosystem-0-5/
-  title: helloSystem 0.5 &#8211; screenshots of mac inspired helloSystem 0.5

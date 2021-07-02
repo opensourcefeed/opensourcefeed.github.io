@@ -14,12 +14,13 @@ base : [ubuntu]
 description: "Pop!_OS is a powerful operating system developed by the System76, a reputed hardware company. It provides solutions for the challenging problems while using computers"
 
 releases:
-  Pop!_OS 21.04: "/popos-21.04-release/"
+  Pop!_OS 21.04: https://blog.opensourcefeed.org/2021/07/pop_os-21-04-released-with-more-improvements-on-cosmic-desktop/
   Pop!_OS 20.10: "https://blog.system76.com/post/632781631953027072/whats-new-in-popos-2010"
   'Pop!_OS 20.04': "/popos-20.04-release/"
   'Pop!_OS 18.04': 'https://blog.system76.com/post/179217201328/see-what-changes-have-been-orbiting-popos'
 
 screenshots:
+  Pop!_OS 21.04 screenshots: https://blog.opensourcefeed.org/2021/07/pop_os-21-04-released-with-more-improvements-on-cosmic-desktop/
   'Pop!_OS 20.04 screenshots': "/popos-20.04-release/"
   'Pop!_OS 18.10 screenshots': "https://distroscreens.blogspot.com/2018/11/popos-1810-screenshots.html"
 
