@@ -28,20 +28,20 @@ $(function () {
 
         if (hasResult) {
             $(entryParent).width($(this).innerWidth() - 1)
-            .css('margin-left', $('#search-btn').parent().width())
-            .show();
+                .css('margin-left', $('#search-btn').parent().width())
+                .show();
         } else {
             $(entryParent).hide();
         }
     });
 
-    var closeSearch = function() {
+    var closeSearch = function () {
         $('#search-field').val('');
         $('#search-field').trigger('keyup');
     }
     // Close the search result, when clicking outside
     $(':not("#search-area")').on('click', closeSearch);
-    $(document).keyup(function(e) {
+    $(document).keyup(function (e) {
         if (e.key === 'Escape') {
             closeSearch();
         }
@@ -50,12 +50,24 @@ $(function () {
     // Control size of navbar on scrolling
     $(window).scroll(function () {
         if ($(document).scrollTop() > 50) {
-          $('.navbar').addClass('navbar-small');
-          $('main').css('margin-top', '100px');
-      }
-      else {
-          $('.navbar').removeClass('navbar-small');
-          $('main').removeAttr('style');
-      }
-  });
+            $('.navbar').addClass('navbar-small');
+            $('main').css('margin-top', '100px');
+        }
+        else {
+            $('.navbar').removeClass('navbar-small');
+            $('main').removeAttr('style');
+        }
+
+        if ($(window).width() > 768) {
+            var elem = $('aside ins.adsbygoogle');
+            if (elem.length) {
+                if ($(document).scrollTop()) {
+                    elem.css('position', 'fixed');
+                    elem.css('top', 50);
+                } else {
+                    elem.css('position', 'relative');
+                }
+            }
+        }
+    });
 });

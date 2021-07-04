@@ -650,8 +650,7 @@ a.download {
 
 $breakpoint-md: 768px;
 @media (min-width: $breakpoint-md) {
-  aside ins {
-    position: fixed;
-    margin-top: 5rem;
+  aside ins.adsbygoogle {
+    margin-top: 50px;
   }
 }
