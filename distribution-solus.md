@@ -17,6 +17,7 @@ telegram :
 description : Solus is an independent GNU/Linux distribution designed for modern personal computers, every tweak enabling us to deliver a singular, cohesive desktop experience.
 
 releases :
+  Solus 4.3 Fortitude: "/solus-4.3-release/"
   Solus 4.2 Fortitude: "/solus-4.2-release/"
   Solus 4.1 Fortitude: "/solus-4.1-release"
   Solus 4.0 Fortitude: "https://getsol.us/2019/03/17/solus-4-released/"
