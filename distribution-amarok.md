@@ -15,6 +15,7 @@ image: /assets/images/preview/amarok.jpg
 description : "Amarok Linux is a Debian testing based GNU/Linux distribution featuring Xfce Desktop Environment"
 
 releases:
+  Amarok Linux 3.1.1: "/amarok-3.1.1-release/"
   Amarok Linux 3.1: "https://amaroklinux.org/amarok-linux-3-1-lancado/"
 ---
 
