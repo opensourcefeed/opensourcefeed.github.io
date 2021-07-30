@@ -13,6 +13,9 @@ base: [debian]
 tagline: Community based rolling distribution
 
 description : "Siduction is a rolling GNU/Linux distribution based on Debian"
+releases:
+  Siduction 2021.2.0: /siduction-2021.2.0-release/
+
 ---
 
 **Siduction** is a rolling GNU/Linux distribution based on Debian. The name Siduction is a combination of sid and seducing. Sid indicates its relation with the Debian Sid branch. Siduction is based on Debian sid - the unstable and rolling branch of Debian.
