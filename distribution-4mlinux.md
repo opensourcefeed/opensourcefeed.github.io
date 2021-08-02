@@ -15,6 +15,7 @@ tagline: maintenance, multimedia, minserver & mystery
 description : 4MLinux is an independent, mini GNU/Linux distribution with main focus on maintenance, multimedia, minserver & mystery. Stories and updates on 4MLinux
 
 releases:
+  4MLinux 37.0 STABLE: /4mlinux-37.0-release/
   4MLinux 35.0 STABLE: /4mlinux-35.0-release/
   4MLinux 32.0 STABLE: "https://4mlinux-releases.blogspot.com/2020/03/4mlinux-320-stable-released.html"
   4MLinux 31.0 STABLE: "https://4mlinux-releases.blogspot.com/2019/12/4mlinux-310-stable-released.html"
