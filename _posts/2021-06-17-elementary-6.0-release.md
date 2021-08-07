@@ -1,33 +1,26 @@
 ---
-title: "elementary OS 6.0 Beta 2 released"
+title: "elementary OS 6 <em>Odin</em> released"
 layout: post
 categories: elementary release
 tags: [elementary release]
-image: /assets/images/post-images/elementary/installer.gif
+image: /assets/images/post-images/elementary/odin.jpg
 ---
 
-The elementary OS team has announced the release of elementary OS 6 Beta 2, the second public development release before the upcoming elementary OS 6. The biggest changes in this release include - improved system installer, more flatpak adopting, and changes with the online account management.
+**Mr.** *Cassidy Blaede* has announced the release of elementary OS 6 with the code name *Odin*. elementary 6 is the biggest release in the history of elementary OS and brings a lot of improvements to user experience and performance.
 
-![Improved installer in elementary 6 Beta 2](/assets/images/post-images/elementary/installer.gif)
-*Improved installer in elementary 6 Beta 2*
+![elementary OS 6 Odin featured image](/assets/images/post-images/elementary/odin.jpg)
 
-## Improved system installer
-The elementary installer has received multiple improvements after the Beta 1 release. This includes more consistency between the views, smoother animation for installation progress, disk detection, and error handling in case of installation failures.
+The main highlights in the elementary OS 6 *Odin* release are briefly explained below. You can read through the [full release announcement](https://blog.elementary.io/elementary-os-6-odin-released/) in the elementary blog.
+> - elementary 6 introduces a dark theme. Users can choose the dark theme either from the welcome screen or from the system settings. It also offers 10 different accent colors, which will decide the major color component in the official theme. Also, elementary 6 can choose an automatic accent from the wallpaper.
+- In elementary 6, all AppCenter apps are now packaged and distributed as Flatpaks, a modern container format that keeps apps isolated away from each other—and your sensitive data. Also, you can control the permissions granted for each app from the system settings -> Applications view.
+- A key highlight in elementary 6 is the multitouch support. A three-finger swipe up smoothly opens the Multitasking View, exposing open apps and workspaces. A three-finger swipe left or right smoothly switches between the dynamic workspaces, making it even faster to jump between tasks. Also, multi-touch shortcuts are available in some of the built-in apps. Users can configure the multi-touch support from System Settings → Mouse & Touchpad → Gestures.
+- Redesigned notifications with rich information on the producer application, and the task status.
+- Introducing *Tasks* application which is a *TODO* application with online account sync support.
+- elementary OS 6 comes with built-in firmware updates, powered by the Linux Vendor Firmware Service. Firmware updates are provided for supported devices by hardware manufacturers like Star Labs, Dell, Lenovo, HP, Intel, Logitech, Wacom, 8bitdo, and many more. It can be accessed from System Settings → System → Firmware or by searching the Applications Menu for “Firmware.”
+- Improvements on elementary native apps like Web, Mail, Calendar, Camera, AppCenter, Files, Code, Terminal, and screenshot utility.
+- Updates & improvements on the top panel.
+- Improved user navigation.
 
-## Flatpak is the future
-The elementary team is continuing their effort to make flatpak applications first class. elementary OS 6 now comes with Calculator, Camera, Document Viewer, Screenshot, Tasks, and Web from the AppCenter Flatpak repository. From the user's perspective, they won't experience any difference. Apps launch and behave just as before—they just happen to be packaged in a different way under the hood. The team is also planning to migrate more applications from Debian repositories and put them in flatpak repositories.
+Read further on [the official elementary 6 release](https://blog.elementary.io/elementary-os-6-odin-released/) announcement.
 
-The elementary team is also working on the AppCenter process for building 3rd party applications.
-
-## Online Accounts
-Another noteworthy feature in Beta 2 is support for adding Online Accounts from System Settings. It supports adding both mail and calendar accounts that support the IMAP and CalDav standards. Once added, data from these accounts will show up across the system in apps like Mail, Calendar, and Tasks as well as in the Date & Time panel indicator.
-
-This feature is still under active development.
-
-## Notifications
-elementary OS 6 is coming with an improved Notifications system. It provides APIs to add icon badges and action buttons.
-
-## Others
-Other changes in elementary OS 6.0 Beta 2 reelase includes improved focus styles, border radius related bug fixes and updated documenation.
-
-<a href="https://builds.elementary.io/" class="download">Dowlnoad elementary OS 6 Beta 2</a>
+{% include image-gallery.html folder="/screenshots/elementary-6-features" %}
