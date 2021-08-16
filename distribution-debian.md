@@ -10,10 +10,9 @@ home_page: https://www.debian.org
 desktops: [gnome, plasma, xfce]
 base : Independent
 description : Debian is one of the biggest and oldest GNU/Linux distribution available in the market. It is often referred as The Universal Operating System.
-purchase :
-  OSDisc : "https://www.osdisc.com/products/debian"
 
 releases:
+  Debian 11 Bullseye: /debian-11-release/
   Debian 10 Buster: "/1-debian-10-buster-release-screenshots/"
   Debian 9.6 Stretch: "/1-debian-9.6-fixes-security-issues/"
   Debian 9.3 Stretch : "https://www.debian.org/News/2017/2017120902"
