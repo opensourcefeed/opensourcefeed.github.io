@@ -4,6 +4,7 @@ layout: post
 categories: zorin release
 tags: [zorin release]
 image: /assets/images/post-images/zorin/16-default-desktop.jpg
+video: https://youtube.com/embed/LlZsaIAHjQI
 ---
 
 **On** 17th August 2021, the Zorin Group has announced the release of Zorin 16. This release is coming after Zorin 15.x, which has crossed 3 million downloads since its initial release. According to the Zorin Group, they were closely following the user feedback since the release of Zorin 15. The creative suggestions are included in Zorin 16. Zorin 16 comes with a lot of design improvements and under the hood performance tweaks.

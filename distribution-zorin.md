@@ -15,6 +15,7 @@ base : [ubuntu]
 description : Zorin OS is a good choice for people migrating from other proprietary operating systems like Microsoft Windows and macOS. Stories and reviews on Zorin OS
 
 releases:
+  Zorin OS 16: /zorin-16-release/
   Zorin OS 15.3: "/zorin-15.3/"
   Zorin OS 15.1: "/zorinos-15.1/"
   Zorin OS 15 Lite: "/zorin-15-lite/"
