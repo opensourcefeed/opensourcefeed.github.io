@@ -15,6 +15,7 @@ base : [arch]
 description : Manjaro is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly scripts and installers to make it usable for newbies and professionals alike. Stories and updates on Manjaro GNU/Linux.
 
 releases:
+  Manjaro 21.1.0: "/manjaro-21.1.0-release/"
   "Manjaro 18.10": "/manjaro-18.10-release/"
   "Manjaro 17.1.11" : "https://manjaro.org/2018/07/02/manjaro-17-1-11/"
   "Manjaro 17.1.8 (K, X, G & Community editions)" : "https://manjaro.org/2018/04/17/manjaro-17-1-8/"
