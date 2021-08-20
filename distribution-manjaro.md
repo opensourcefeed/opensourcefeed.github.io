@@ -35,6 +35,7 @@ releases:
   Manjaro 17.0-rc1 Xfce & KDE : http://open-source-feed.blogspot.com/2017/02/manjaro-170-rc1-xfce-kde-flavors.html
 
 screenshots:
+  Manjaro 21.1.0 GNOME: "/manjaro-21.1.0-release/"
   Manjaro 18.10 Xfce: "/manjaro-18.10-release/"
   Manjaro 18.0 GNOME: "https://distroscreens.blogspot.com/2018/11/manjaro-180-illyria-gnome-edition.html"
   Manjaro 18.0 KDE: "https://distroscreens.blogspot.com/2018/11/manjaro-180-illyria-kde-plasma-edition.html"
