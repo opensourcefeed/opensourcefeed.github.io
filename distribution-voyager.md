@@ -13,6 +13,7 @@ tagline: "Adventure in Digital World!"
 description : Ubuntu based GNU/Linux distribution from France. It includes several extensions and tools to provide improved productivity.
 
 releases:
+  Voyager 11 Bullseye: "/voyager-11-release/"
   Voyager GE 19.10: "/2-voyager-19.10-release/"
   "Voyager 10": "/voyager-10-with-screenshots/"
   "Voyager - GE 18.10": "/1-voyager-ge-18.10-brings-gnome-shell/"
@@ -26,8 +27,8 @@ review:
 
 ---
 
-**Voyager Live** is an Ubuntu and Debian based GNU/Linux distribution from France. With dozens of extensions and tools, it provides improved productivity and decent look and feel.
+**Voyager Live** is an Ubuntu and Debian-based GNU/Linux distribution from France. With dozens of extensions and tools, it provides improved productivity and a decent look and feel.
 
-Initially, the Voyager releases were using the Xfce as default desktop environment. Beginning from 18.10 release, Voyager is using GNOME shell.
+Initially, the Voyager releases were using then Xfce as the default desktop environment. Beginning from the 18.10 release, Voyager is using GNOME shell.
 
-The main idea of Voyager is to provde a set of scripts, extensions and applications together to expediate the productivity.
+The main idea of Voyager is to provide a set of scripts, extensions, and applications together to expedite productivity.
