@@ -19,7 +19,7 @@ It was almost 10 years back when the Voyager project decided to discard the GNOM
 After several years, now the Voyager team understands that the GNOME shell has become mature enough to use the Voyager releases. It is also more responsive and flexible compared to its early days. Hence, the team decided to discard the Xfce, and completely focus their effort on the GNOME shell experience.
 
 ## What's new in Voyager 11?
-Apart from the switch to GNOME 11, Voyager 11 has the following salient features.
+Apart from the switch to GNOME 3.x, Voyager 11 has the following salient features.
 > - GNOME 3.38
 - Linux Kernel 5.10
 - Firefox-ESR 78.13
