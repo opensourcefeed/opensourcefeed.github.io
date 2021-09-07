@@ -11,12 +11,11 @@ preview: tails-preview.png
 home_page: https://tails.boum.org/
 desktops: [gnome]
 base : [debian]
-purchase:
-  OSDisc : "https://www.osdisc.com/products/tails"
 
-description : "Tails - is a Debian based operating system which offers provision for secure, anonymous and private browsing. Stories, updates and reviews on Tails GNU/Linux."
+description : "Tails - is a Debian-based operating system that offers provision for secure, anonymous, and private browsing. Stories, updates, and reviews on Tails GNU/Linux."
 
 releases:
+  Tails 4.22: "/tails-4.22-release/"
   Tails 3.16: "/1-tails-3.16-release/"
   Tails 3.15: "/tails-3.15-screenshots/"
   Tails 3.10.1: "/00-tails-3.10.1-patch-security-issues/"
@@ -27,6 +26,6 @@ releases:
   Tails 3.0 : "http://open-source-feed.blogspot.com/2017/06/tails-30-released-first-release-based.html"
 ---
 
-**Tails** - *the amnesic live incognito system* is a live GNU/Linux distribution based on [Debian](/distribution/debian) that offers provision for secure, anonymous and private browsing.
+**Tails** - *the amnesic live incognito system* is a live GNU/Linux distribution based on [Debian](/distribution/debian) that offers provision for secure, anonymous, and private browsing.
 
-It facilitate anonymous internet usage, and to overcome censorship by routing all traffics through the **Tor** network. It also includes several tools like file encryptor, anonymous web browser and secured email clients.
+It facilitates anonymous internet usage and overcomes censorship by routing all traffic through the **Tor** network. It also includes several tools like file encryptor, anonymous web browser, and secured email clients.
