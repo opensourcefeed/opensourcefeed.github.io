@@ -29,6 +29,7 @@ releases:
   Kali Linux 2017.01 : "http://open-source-feed.blogspot.com/2017/04/kali-linux-20171-released-with-cool.html"
 
 screenshots:
+  Kali Linux 2021.3: "/kali-2021.3-release/"
   Kali Linux 2020.2: "/kali-2020.2-release/"
   Kali Linux 2019.4: "/1-kali-2019.4-screens/"
 ---
