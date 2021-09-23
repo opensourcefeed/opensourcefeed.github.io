@@ -8,7 +8,7 @@ tags:
   - gnome desktop environment
   - gnome 41 release
 image: /screenshots/GNOME 41/preview.jpg
-video: https://www.youtube.com/embed/V5jP1ym7nhM
+video: https://www.youtube.com/embed/pUo6Ew4Pp4g
 ---
 
 **On** 22nd September 2021, the GNOME Foundation has announced the release of GNOME 41. GNOME 41 is a stable release of the GNOME project and is the second release after introducing the new versioning scheme. GNOME 41 is a result of 6 months of development effort by the GNOME members and the community contributors across the world.
