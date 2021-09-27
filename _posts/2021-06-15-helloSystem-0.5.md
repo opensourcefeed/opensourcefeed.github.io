@@ -13,5 +13,7 @@ video: https://youtube.com/embed/kPI6JcIqTd0
 
 The helloSystem 0.5 release is based on FreeBSD 12.2, and it is coming with several significant improvements and bug fixes. You can read further on these changes in [the project's Github release page](https://github.com/helloSystem/ISO/releases/tag/r0.5.0).
 
+> Also, read about [Cutefish  - Another mac inspired desktop for GNU/Linux](/manjaro-cutefish/)
+
 ## helloSystem 0.5 screenshots
 {% include image-gallery.html folder="/screenshots/helloSystem 0.5" %}

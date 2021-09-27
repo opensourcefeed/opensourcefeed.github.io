@@ -38,5 +38,7 @@ zip -s- manjaro-cutefish-21.08-development-unstable-minimal-210819-linux513.iso.
 ```
 5. Extract the combined.zip archive to get the .iso
 
+> Also read about [helloSystem - Another mac inspired desktop implementation for BSD](/helloSystem-0.5/)
+
 ## Manjaro Cutefish screenshots
 {% include image-gallery.html folder="/screenshots/Manjaro Cutefish Intro" %}
