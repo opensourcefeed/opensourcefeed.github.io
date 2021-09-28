@@ -12,9 +12,10 @@ desktops: [trinity, plasma]
 base: [debian]
 tagline: Desktop OS with classic experience
 
-description : "Q4OS is a Debian based operating system featuring Trinity Desktop environment with purpose of providing a stable, reliable & familiar user experience."
+description : "Q4OS is a Debian-based operating system with Trinity and Plasma Desktop environments. This distribution aims to provide a stable, reliable & familiar user experience."
 
 releases:
+  Q4OS 4.6 Gemini: /q4os-4.6-release/
   Q4OS 3.12: "/q4os-3.12/"
   Q4OS 3.10: "/q4os-3.10-release/"
   Q4OS 3.1 testing : "http://open-source-feed.blogspot.com/2018/01/q4os-31-testing-image-released-based-on.html"
@@ -31,8 +32,12 @@ stories:
   Converting Q4OS into a Windows XP clone using XPQ4 : "http://open-source-feed.blogspot.com/2016/04/converting-q4os-into-windows-xp-clone.html"
 ---
 
-**Q4OS** is ought to be a powerful operating system providing a rock solid user experience with Trinity Desktop environment. Trinity Desktop environment, initially forked from KDE 3.x has shown its ability to work as a stable, reliable and familiar ecosystem for most of the users.
+**Q4OS** is ought to be a powerful operating system providing a rock-solid user experience with the Trinity and Plasma desktop environments. Trinity Desktop environment, initially forked from KDE 3.x aims to work as a stable, reliable, and familiar ecosystem for most users.
 
- Q4OS includes some unique utilities and features. This includes the 'Desktop profiler' for profiling your computer into different professional working tools, 'Setup utility' for the smooth installation of third-party applications, a 'Welcome Screen' with several integrated shortcuts to make system configuration easier for novice users, KDE5, XFCE, LXQT, Cinnamon and LXDE alternative desktop environments options and many more.
+Q4OS includes some unique utilities and features. 
 
-Q4OS is designed to work seamlessly on the latest laptops and desktops as well as older computers, supports a range of different hardware. There is a native lightweight wireless networks manager integrated and many drivers and firmware received from the famous Debian base.
+- Desktop profiler -  for profiling your computer into different professional working tools
+- Setup utility for the smooth installation of third-party applications
+- Welcome Screen - An app with several shortcuts to making system configuration easier for novice users
+
+Q4OS is designed to work seamlessly on the latest laptops and desktops as well as older computers, and it supports a range of different hardware. 
