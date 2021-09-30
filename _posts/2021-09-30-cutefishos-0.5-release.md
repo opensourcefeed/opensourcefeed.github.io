@@ -3,7 +3,7 @@ title: "CutefishOS team rolls official ISO for the first time - CutefishOS 0.5 B
 layout: post
 categories: cutefish release
 tags: [cutefish release]
-image: /assets/images/post-images/fedora/fedora-35-beta.jpg
+image: /screenshots/Manjaro Cutefish Intro/09 Appearance Settings.jpg
 video: https://www.youtube.com/embed/bjhMvuetl6M 
 ---
 
