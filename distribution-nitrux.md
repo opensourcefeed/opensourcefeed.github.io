@@ -17,6 +17,7 @@ telegram:
 description : "Nitrux is a beginner friendly GNU/Linux distribution that ships a well-tweaked Plasma desktop on top of stable Ubuntu core and delivers a clean user experience"
 
 releases:
+  Nitrux 1.6.1: "/nitrux-1.6.1-release/"
   Nitrux 1.3.7: "/nitrux-1.3.7-release/"
   Nitrux 1.2.9: "/nitrux-1.2.9-release/"
   Nitrux 1.1.1: "/1-nitrux-1.1.1-release"
