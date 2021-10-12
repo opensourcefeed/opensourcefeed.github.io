@@ -1,5 +1,6 @@
-# Spring
-
+---
+title: Spring
+---
 ## Spring Beans
 - Objects manged by the Spring IoC container.
 - Created as per the configuration metadata user provided to the container.
