@@ -29,6 +29,7 @@ releases :
   Ubuntu 16.04.2 : http://open-source-feed.blogspot.com/2017/02/ubuntu-16042-released-with-improved.html
 
 screenshots:
+  Ubuntu 21.10 Impish Indri: "/ubuntu-21.10-impish-indri-release/"
   Ubuntu 20.10 Groovy Gorilla: /ubuntu-20.10-release/
   Ubuntu 20.04 Focal Fossa: /ubuntu-20.04-release/
   Ubuntu 19.10 Eoan Ermine: "/ubuntu-eoan-ermine-19.10-release/"
