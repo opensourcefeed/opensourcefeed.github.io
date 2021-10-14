@@ -15,6 +15,7 @@ tagline: Ubuntu lightweight with LXQt
 description : Lubuntu is one of the oldest official community flavors of Ubuntu. It provides a lightweight desktop experience with LXQt desktop environment.
 
 releases:
+  Lubuntu 21.10 Impish Indri: /lubuntu-21.10-release/
   Lubuntu 21.04 Hirsute Hippo: /lubuntu-21.04-release/
   Lubuntu 20.10 Groovy Gorilla: "/lubuntu-20.10-release/"
   Lubuntu 20.04 Focal Fossa: /lubuntu-20.04-release/
@@ -28,6 +29,7 @@ releases:
   Lubuntu 16.04.2 : "http://lubuntu.me/lubuntu-16-04-2-released/"
 
 screenshots :
+  Lubuntu 21.10 Impish Indri: /lubuntu-21.10-release/
   Lubuntu 21.04 Hirsute Hippo: /lubuntu-21.04-release/
   Lubuntu 20.10 Groovy Gorilla: "/lubuntu-20.10-release/"
   Lubuntu 20.04 Focal Fossa: /lubuntu-20.04-release/
