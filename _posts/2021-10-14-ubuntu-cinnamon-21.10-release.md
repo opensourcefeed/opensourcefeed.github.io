@@ -15,7 +15,7 @@ video: https://www.youtube.com/embed/5jlVa9Lw6Ic
 **Mr.** *Joshua Peisach* has announced the release of Ubuntu Cinnamon Remix 21.10 with the code name Impish Indri. The Ubuntu Cinnamon Remix 21.10 release inherits all the core improvements from the Ubuntu Impish base and ships with the Cinnamon Desktop. It helps the users to have a solid system with a traditional layout that enhances productivity.
 
 ![Ubuntu Cinnamon Remix 21.10 featured image](/screenshots/Ubuntu Cinnamon Remix 21.10/03 application menu.jpg)
-
+{% include ubuntu-impish.md %}
 ## What is new in Ubuntu Cinnamon Remix 21.10?
 
 Following are the key highlights in Ubuntu Cinnamon Remix 21.10 release.
