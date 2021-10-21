@@ -27,6 +27,8 @@ releases :
   Ubuntu 16.10 : "#"
   Ubuntu 16.04.3 : "http://open-source-feed.blogspot.com/2017/08/ubuntu-16043-released-with-hardware.html"
   Ubuntu 16.04.2 : http://open-source-feed.blogspot.com/2017/02/ubuntu-16042-released-with-improved.html
+  Ubuntu 5.04: /ubuntu-classic-ubuntu-5.04/
+  Ubuntu 4.10: "/ubuntu-classic-ubuntu-4.10/"
 
 screenshots:
   Ubuntu 21.10 Impish Indri: "/ubuntu-21.10-impish-indri-release/"
@@ -40,6 +42,8 @@ screenshots:
   Ubuntu 17.04 : "http://distroscreens.blogspot.com/2017/04/ubuntu-1704-zesty-zapus-screenshots.html"
   Ubuntu 16.10 : "http://distroscreens.blogspot.com/2016/10/ubuntu-1610-yakkety-yak-screenshots.html"
   Ubuntu 16.04 : "http://distroscreens.blogspot.com/2016/04/ubuntu-1604-lts-xenial-xerus-screenshots.html"
+  Ubuntu 5.04: /ubuntu-classic-ubuntu-5.04/
+  Ubuntu 4.10: "/ubuntu-classic-ubuntu-4.10/"
 
 stories:
   A cloud optimized, minimal Ubuntu image is available now : "https://open-source-feed.blogspot.com/2018/07/a-cloud-optimized-minimal-ubuntu-image.html"
