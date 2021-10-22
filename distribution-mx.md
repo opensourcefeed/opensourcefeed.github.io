@@ -14,6 +14,7 @@ tagline: The midweight and simple OS with Xfce
 description : "MX Linux is a cooperative venture between the antiX and former MEPIS communities, using the best tools and talents from each distributions."
 
 releases:
+  MX-21 Wildflower: /mx-21-wildflower-release/
   MX-19.2 KDE: "/mx19.2-kde/"
   MX-19: "/1-mx-19-release/"
   MX-17.1 : "../mx-linux-17.1-released-featuring-libreoffice-6-and-mx-apps-improvements/"
