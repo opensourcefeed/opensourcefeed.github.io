@@ -21,6 +21,7 @@ reviews :
   Fedora 25 is not something worth to recommend: "http://open-source-feed.blogspot.com/2017/02/fedora-25-is-not-something-worth-to.html"
 
 screenshots :
+  Fedora 35 Plasma Spin: /fedora-35-plasma-spin/
   Fedora 35 Workstation BETA: "/fedora-35-release"
   Fedora 34 Workstation: "/fedora-34-release/"
   Fedora 33: "/fedora-33-release/"
