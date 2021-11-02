@@ -22,7 +22,7 @@ reviews :
 
 screenshots :
   Fedora 35 Plasma Spin: /fedora-35-plasma-spin/
-  Fedora 35 Workstation BETA: "/fedora-35-release"
+  Fedora 35 Workstation: "/fedora-35-release"
   Fedora 34 Workstation: "/fedora-34-release/"
   Fedora 33: "/fedora-33-release/"
   Fedora 32: "/fedora-32-release"
@@ -45,7 +45,7 @@ screenshots :
   Fedora 24 Alpha : "http://distroscreens.blogspot.com/2016/04/fedora-24-alpha-gnome-320-screenshots.html"
 
 releases:
-  Fedora 35 Workstation BETA: "/fedora-35-release"
+  Fedora 35: "/fedora-35-release"
   Fedora 34 Workstation: "/fedora-34-release/"
   Fedora 33: "/fedora-33-release"
   Fedora 32: "/fedora-32-release"
