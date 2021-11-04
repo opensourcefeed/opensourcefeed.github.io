@@ -13,6 +13,7 @@ tagline: "Adventure in Digital World!"
 description : Ubuntu based GNU/Linux distribution from France. It includes several extensions and tools to provide improved productivity.
 
 releases:
+  Voyager 21.10: /voyager-21.10-ge-release/
   Voyager 11 Bullseye: "/voyager-11-release/"
   Voyager GE 19.10: "/2-voyager-19.10-release/"
   "Voyager 10": "/voyager-10-with-screenshots/"

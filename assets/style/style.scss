@@ -635,18 +635,19 @@ p img + em {
 /* End of syntax highlight */
 
 a.download {
-  background: $primary-blue;
+  background: #0693e3;
   margin: auto;
   display: block;
   width: max-content;
   color: white;
   padding: 0.5rem 1rem;
-  font-weight: bold;
   transition: 0.5s ease;
+  border-radius: 4px;
   &:hover {
     background-color: #007bffbf;
   }
   margin: 1em auto;
+  font-size: 1.125em;
 }
 
 $breakpoint-md: 768px;
