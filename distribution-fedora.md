@@ -9,7 +9,7 @@ permalink: /distribution/fedora
 logo: fedora.png
 preview: Fedora25-preview.jpg
 home_page: https://getfedora.org/
-desktops: [gnome, plasma, mate, xfce, lxde]
+desktops: [gnome, plasma, mate, xfce, lxde, lxqt]
 base : Independent
 
 description: Fedora is an independently developed, cutting-edge, popular GNU/Linux distribution supported by Red Hat Inc, and a group of volunteers
