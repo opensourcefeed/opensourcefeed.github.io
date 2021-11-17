@@ -14,6 +14,9 @@ tagline: Universal Operating System from Russia
 
 description : ROSA Linux is a Russian GNU/Linux distribution developed by LLC NTC IT ROSA, a software product development company. See the stories and updates on ROSA Linux.
 
+screenshots:
+  ROSA Desktop Fresh Plasma 12: /rosa-fresh-plasma-12/
+
 releases:
   ROSA Desktop Fresh R10 : "http://wiki.rosalab.ru/en/index.php/ROSA_Desktop_Fresh_R10"
   ROSA Fresh R9 LXQt: "http://open-source-feed.blogspot.com/2017/06/rosa-fresh-r9-lxqt-released-it-can.html"
