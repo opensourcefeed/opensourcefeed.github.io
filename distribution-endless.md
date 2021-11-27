@@ -15,6 +15,7 @@ technologies: flatpak, ostree
 description : Endless OS is a solid GNU/Linux distribution created from Debian base. It is powered by technologies like OSTree and Flatpak.
 
 screenshots:
+  Endless OS 4.0.0: "/endlessos-4.0.0-release/"
   Endless OS 3.6.0: "/1-endless-os-3.6-screenshots/"
 
 releases :
