@@ -19,7 +19,7 @@ As mentioned earlier, Devuan 2.1 ASCII is a point release in the project's 2.x s
 - Linux Kernel - 4.9.0-9 
 - Firefox Browser 60.8.0esr-1
 
-The [official release announcement for Devuan ASCII 2.1](https://devuan.org/os/debian-fork/ascii-point-release-announce-112119) is available on the project's website.
+The [official release announcement for Devuan ASCII 2.1 (Dead Link)](#) is available on the project's website.
 
 ## Devuan 2.0 ASCII Xfce screenshots
 {% include image-gallery.html folder="/screenshots/Devuan 2.0 ASCII" %}

@@ -18,8 +18,8 @@ releases:
   MX-19.2 KDE: "/mx19.2-kde/"
   MX-19: "/1-mx-19-release/"
   MX-17.1 : "../mx-linux-17.1-released-featuring-libreoffice-6-and-mx-apps-improvements/"
-  MX Linux 17 : "https://mxlinux.org/mx-17-released-december-15-2017"
-  MX Linux 17 Beta 1 : "https://mxlinux.org/mx-17-beta-1"
+  MX Linux 17 (Dead Link): "#"
+  MX Linux 17 Beta 1 (Dead Link) : "#"
 
 screenshots:
   MX-19.2 KDE: "/mx19.2-kde/"

@@ -27,7 +27,7 @@ releases :
 
 screenshots:
   Solus 4.1 Plasma Edition: "/solus-4.1-plasma-screens"
-  Solus 4.0 with GNOME 3.34.3: "/solus-4.0-gnome-3.34/"
+  Solus 4.0 with GNOME 3.34.3: "/solus-4.0-gnome-3.34.3-screenshots/"
   "Solus Budgie Edition 2017.04.18.0" : "http://distroscreens.blogspot.com/2017/04/solus-201704180-budgie-screenshots.html"
   "Solus GNOME Edition 2017.04.18.0" : "http://distroscreens.blogspot.com/2017/04/solus-gnome-edition-201704180.html"
   "Solus MATE 1.2.1" : "http://distroscreens.blogspot.com/2016/10/solus-mate-121-shannon-screenshots.html"
@@ -41,7 +41,7 @@ stories :
   "New Updates For A New Decade | The Roundup #14": "https://getsol.us/2020/01/17/new-updates-for-a-new-decade/"
   "Solus weekly roundup #12 - GNOME of thrones": "https://getsol.us/2019/04/25/gnome-of-thrones/"
   "In Full Sail - Solus team talks about the plan for and future of Solus": "https://getsol.us/2018/10/27/in-full-sail/"
-  "Solus weekly roundup #9" : "https://solus-project.com/2018/08/25/a-bigger-toolbox/"
+  "Solus weekly roundup #9 (Dead Link)" : "#"
   "Solus 4 won't ship snapd-software center integration in initial release" : "http://open-source-feed.blogspot.com/2018/02/solus-4-wont-ship-snapd-support-in.html"
   "Ikey Doherty leaves Intel and becomes full time Solus developer" : "http://open-source-feed.blogspot.com/2017/06/ikey-doherty-leaves-intel-and-becomes.html"
   "Solus gets support for Plasma Destkop; though not official at the moment" : "http://open-source-feed.blogspot.com/2017/05/solus-gets-support-for-plasma-destkop.html" 

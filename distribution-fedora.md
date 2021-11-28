@@ -33,7 +33,7 @@ screenshots :
   Fedora 29 Workstation: "https://distroscreens.blogspot.com/2018/11/fedora-29-workstation-screenshots.html"
   Fedora 29 Workstation Beta: "http://distroscreens.blogspot.com/2018/10/fedora-29-workstation-beta-gnome-330.html"
   Fedora 28 Workstation : "https://distroscreens.blogspot.com/2018/05/fedora-28-workstation-screenshots.html"
-  Fedora 28 Workstation beta : "https://goo.gl/r6qUR8"
+  Fedora 28 Workstation beta : "https://distroscreens.blogspot.com/2018/04/fedora-28-workstation-beta-screenshots.html"
   Fedora 27 LXQt spin : "http://distroscreens.blogspot.com/2018/02/fedora-27-lxqt-spin-screenshots.html"
   Fedora 27 Workstation : "http://distroscreens.blogspot.com/2017/11/fedora-27-workstation-screenshots.html"
   Fedora 27 Beta : "http://distroscreens.blogspot.com/2017/10/fedora-27-beta-screenshots.html"

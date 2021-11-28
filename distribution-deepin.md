@@ -28,7 +28,7 @@ releases :
 screenshots :
   deepin 20.1: "/deepin-20.1-release/"
   deepin 15.11: "/1-deepin-15.11-release/"
-  deepin 15.8: "https://goo.gl/uHz4Bz"
+  deepin 15.8: "https://distroscreens.blogspot.com/2018/11/deepin-158-screenshots.html"
   deepin 15.4.1 : "http://distroscreens.blogspot.com/2017/08/deepin-1541-screenshots.html"
   deepin 15.2 : "http://distroscreens.blogspot.com/2016/06/deepin-152-screenshots.html"
 

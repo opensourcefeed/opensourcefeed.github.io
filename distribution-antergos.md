@@ -7,7 +7,7 @@ type : Linux
 permalink: /distribution/antergos
 logo: antergos-logo.png
 preview: antergos-preivew.jpg
-home_page: https://antergos.com
+home_page (Dead Link): "#"
 desktops: [cinnamon, gnome, plasma, mate, openbox, xfce]
 base : [arch]
 status : Discontinued

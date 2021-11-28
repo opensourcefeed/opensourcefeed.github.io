@@ -39,4 +39,4 @@ Just like Debian, Devuan development is also carried out in 3 different branches
 
 Instead of being an ideal desktop operating system, Devuan is planned to be a generic operating system that acts as a base for several other distributions, just like Debian does. Within a few years, several projects have conceived Devuan as their base operating system.
 
-Some of the derivatives of Devuan include EterTICS, Exe GNU/Linux, Gnuinos, MIYO, Nelum-Dev1, Refracta, Star, heads, good-life-linux, Crowz ..etc. You can find the complete list of derivatives on [Devuan official website](https://devuan.org/os/partners/devuan-distros).
+Some of the derivatives of Devuan include EterTICS, Exe GNU/Linux, Gnuinos, MIYO, Nelum-Dev1, Refracta, Star, heads, good-life-linux, Crowz ..etc. You can find the complete list of derivatives on [Devuan official website](https://www.devuan.org/os/devuan-distros).

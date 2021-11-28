@@ -16,7 +16,7 @@ Kubuntu 19.10 as a regular release in the Ubuntu family, will be having a suppor
 Citing from Kubuntu 19.10 Eoan Ermine release announcement,
 > Under the hood, there have been updates to many core packages, including a new 5.3-based kernel, Qt 5.12.4, KDE Frameworks 5.62.0, Plasma 5.16.5 and KDE Applications 19.04.3. Firefox 69 is the default browser and LibreOffice 6.3 is provided by default in the full installation, along with updates and bugfixes to latte-dock, Elisa 0.4.2, Kdenlive, Yakuake, Krita, Kdevelop and Ktorrent.
 
-<a class="download" href="http://cdimage.ubuntu.com/kubuntu/releases/19.10/release/" target="_blank">Download Kubuntu 19.10 Eoan Ermine</a>
+<a class="download" href="#" target="_blank">Download Kubuntu 19.10 Eoan Ermine (Dead Link)</a>
 
 ## Kubuntu 19.10 Eoan Ermine screenshots
 {% include image-gallery.html folder="/screenshots/Kubuntu 19.10" %}

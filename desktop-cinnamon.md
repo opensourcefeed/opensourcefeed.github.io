@@ -6,14 +6,14 @@ Category: Desktop
 permalink: /desktop/cinnamon
 logo: cinnamon.png
 preview: cinnamon-desktop.jpg
-home_page: http://developer.linuxmint.com/projects/cinnamon-projects.html
+home_page: https://cinnamon-spices.linuxmint.com/
 description: Cinnamon is a free desktop environment developed by Linux Mint team. It is derived from GNOME shell and adopts various under the hood components from GNOME.
 
 releases:
-  Cinnamon 3.4 : "http://segfault.linuxmint.com/2017/05/cinnamon-3-4-released/"
+  Cinnamon 3.4 (Dead Link) : "#"
   
 stories:
-  Linux Mint team plans to introduce vertical panels in Cinnamon : "http://segfault.linuxmint.com/2016/09/vertical-panels/"
+  Linux Mint team plans to introduce vertical panels in Cinnamon (Dead Link) : "#"
 
 ---
 
