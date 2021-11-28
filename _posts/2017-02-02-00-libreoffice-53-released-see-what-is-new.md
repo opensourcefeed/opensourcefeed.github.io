@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'LibreOffice 5.3 released with a tons of new features'
-categories: LibreOffice Release
+categories: LibreOffice release
 image: "/assets/images/post-images/LibreOffice Impress - Notebookbar.jpg"
 ---
 **The Document Foundation** has announced release of LibreOffice 5.3, latest stable release of popular

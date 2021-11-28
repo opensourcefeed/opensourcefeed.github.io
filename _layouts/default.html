@@ -23,6 +23,13 @@ layout: compress
     {% if page.tagline %}
       {% seo title=false %}
       <title>{{page.title}} - {{page.tagline}} | {{site.title}}</title>
+    {% elsif page.url contains '/category/' %}
+      {% seo title=false %}
+      {% if paginator.previous_page != nil or paginator.next_page != nil %}
+        <title>Archives ➜ {{ page.title }} ({{ paginator.page }} / {{ paginator.total_pages }}) | {{site.title}}</title>
+      {% else %}
+        <title>Archives ➜ {{ page.title }} | {{site.title}}</title>
+      {% endif %}
     {% else %}
       {% seo %}
     {% endif %}

@@ -21,16 +21,21 @@ title: Gallery of Free & Open Source Distributions & Desktops
                     </span>
                 </div>
                 <input type="text" class="form-control" id="search-field"
-                    placeholder="Search for Desktop or Operating System" required>
+                    placeholder="Search for Desktop or Operating System or Categories" required>
             </div>
             <div id="result-list">
                 <ul>
                     {% for page in site.pages %}
                     {% if page.Category == 'Distribution' or page.Category == 'Desktop'%}
                     <li>
-                        <a href="{{page.url}}">{{page.title}}</a>
+                        <a href="{{page.url}}">{{page.Category}} ➜ {{page.title}}</a>
                     </li>
                     {% endif %}
+                    {% endfor %}
+                    {% for category in site.categories %}
+                      <li>
+                        <a href="/category/{{category[0] | slugify}}">Category ➜ {{category[0]}}</a>
+                      </li>
                     {% endfor %}
                     <li id="no-result"><a>No matching result...</a></li>
                 </ul>

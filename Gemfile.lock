@@ -34,6 +34,9 @@ GEM
       jekyll (>= 3.7, < 5.0)
       sinatra (~> 1.4)
       sinatra-contrib (~> 1.4)
+    jekyll-category-pages (1.1.2)
+      jekyll (~> 4.0)
+      jekyll-paginate (~> 1.1, >= 1.0.0)
     jekyll-feed (0.13.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
@@ -99,6 +102,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.1)
   jekyll-admin
+  jekyll-category-pages
   jekyll-feed
   jekyll-paginate
   jekyll-redirect-from

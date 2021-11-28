@@ -1,6 +1,6 @@
 ---
 title: Ultimate 5.0 Gamers Edition released
-categories: ultimate Release
+categories: ultimate release
 layout: post
 image: "/assets/images/post-images/ultimate-edition720x340.png"
 ---

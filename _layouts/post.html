@@ -26,7 +26,9 @@ layout: default
 							<span class="category">{{topage.title}}</span>
 						</a>
 						{% else %}
-						<span class="category">{{category}}</span>
+						<a href="/category/{{category | slugify}}">
+							<span class="category">{{category}}</span>
+						</a>
 						{% endif %}
 						{% endfor %}
 					</div>

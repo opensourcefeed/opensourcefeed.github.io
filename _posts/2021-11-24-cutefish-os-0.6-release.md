@@ -1,7 +1,7 @@
 ---
 title: "CutefishOS 0.6 Beta Released"
 layout: post
-categories: cutefishos release
+categories: cutefish release
 tags:
   - CutefishOS 0.6 release
   - CutefishOS 0.6 release announcement
