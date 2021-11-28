@@ -1,6 +1,6 @@
 ---
 title: Puppy Linux 7.5, Xenialpup released
-image: /assets/images/post-images/xenialpup.jpg
+image: http://localhost:4000/assets/images/post-images/xenialpup.jpg
 categories: puppy release
 layout: post
 ---

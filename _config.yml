@@ -20,7 +20,6 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
-  - jekyll-category-pages
 twitter:
   username: opensourcefeed
 facebook:

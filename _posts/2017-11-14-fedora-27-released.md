@@ -1,7 +1,7 @@
 ---
 title: Fedora 27  released
 layout: post
-categories: fedora release
+categories: fedora Release
 ---
 
 The Fedora Project has announced release of Fedora 27 , latest stable release of independently developed GNU/Linux operating system project backed by Red Hat Inc. This release announcement is applicable for Fedora Workstation and Fedora atomic editions.
