@@ -11,6 +11,8 @@ tags:
 - imagemagickconvertto jpg
 image: "/assets/images/post-images/png-eligible.webp"
 description: A brief tutorial explaining how to convert PNG images to JPG using the ImageMagick/convert tool. Also, learn the difference between PNG and JPG images.
+redirect_from:
+    - /2021/06/how-to-convert-png-images-to-jpg-using-imagemagick-in-linux/
 ---
 
 **When** dealing with images, we may have to do several format conversions. Depending on the situation, it can be a JPG to PNG conversion, PNG to SVG conversion, or anything. ImageMagick is a tool that supports most of these image format conversions along with the other operations like resizing, reducing the size, changing color scheme ..etc. In this tutorial, we will see how to convert a PNG file to a JPG file. Also, we'll check how to perform this image conversion as a batch job.

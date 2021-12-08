@@ -11,6 +11,9 @@ tags:
 - imagemagickjpgto png
 - imagickconvertpng to jpg
 image: "/assets/images/post-images/png-eligible.webp"
+redirect_from:
+    - /2021/06/how-to-convert-jpg-images-to-png-using-imagemagick-in-linux/
+description: An article briefly explaining how to convert jpg images into PNG using imagemagick - a command line tool for image processing in different platforms.
 ---
 
 **This** is a continuation of our [tutorial for converting png images to jpg using ImageMagick](/00-convert-png-to-jpg-imagemagick/). You may refer to the same article to learn about PNG and JPG image formats, and also about ImageMagick.

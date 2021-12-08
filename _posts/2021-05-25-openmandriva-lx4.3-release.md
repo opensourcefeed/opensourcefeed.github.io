@@ -5,6 +5,8 @@ categories: openmandriva release
 tags: [openmandriva release]
 image: /assets/images/post-images/openmandriva/omlx.4.3rc-007.jpg
 video: https://youtube.com/embed/y989BR1x4RM 
+redirect_from:
+  - /2021/06/openmandriva-lx-4-3-rc-released/
 ---
 
 **The** OpenMandriva Association has announced the release of OpenMandriva Lx 4.3 RC. This unscheduled release of OpenMandriva allows the users to enjoy a lot of features planned for the upcoming OMLx 5.0 release.

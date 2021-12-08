@@ -5,6 +5,8 @@ categories: elementary release
 tags: [elementary release]
 image: /assets/images/post-images/elementary/odin.jpg
 video: https://youtube.com/embed/01cBA1B43qk
+redirect_from:
+  - /2021/06/elementary-os-6-0-beta-2-released/
 ---
 
 **Mr.** *Cassidy Blaede* has announced the release of elementary OS 6 with the code name *Odin*. elementary 6 is the biggest release in the history of elementary OS and brings a lot of improvements to user experience and performance.
