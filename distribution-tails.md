@@ -15,6 +15,7 @@ base : [debian]
 description : "Tails - is a Debian-based operating system that offers provision for secure, anonymous, and private browsing. Stories, updates, and reviews on Tails GNU/Linux."
 
 releases:
+  Tails 4.25: "/tails-425-has-been-released/"
   Tails 4.22: "/tails-4.22-release/"
   Tails 3.16: "/1-tails-3.16-release/"
   Tails 3.15: "/tails-3.15-screenshots/"
