@@ -9,6 +9,8 @@ tags:
   - Download Zorin OS 16 Lite
 image: /assets/images/post-images/zorin/zorin-16-lite.jpg
 description: The Zorin OS project has announced the release of Zorin OS Lite 16 with improved look and feel and user experience.
+video: https://youtube.com/embed/LlZsaIAHjQI
+videoTitle: Zorin OS 16 Desktop Layouts
 ---
 
 **The** Zorin OS project has announced the release of Zorin OS Lite 16. A lightweight GNU/Linux distribution for older computers and netbooks. Zorin OS 16 Lite brings a fresh look and feels to provide a better user experience.

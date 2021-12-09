@@ -53,7 +53,9 @@ layout: default
 				{{ content }}
 				
 				{% if page.video %}
-				<h4>Video Preview</h4>
+				<h2>
+					{% if page.videoTitle %} {{page.videoTitle}} {% else %} Video Preview {% endif %}
+				</h2>
 				<div class="video-responsive">
 				<iframe width="100%" src="{{page.video}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
