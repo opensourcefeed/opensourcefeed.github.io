@@ -10,6 +10,7 @@ tags:
   - operating system supporting windows executable
   - windows like operating system
 image: /assets/images/post-images/reactos/reactos_0414.jpg
+video: https://www.youtube.com/embed/JTSednp-RqA 
 ---
 
 **The** ReactOS team has announced the release of ReactOS 0.4.14. ReactOS 0.4.14 brings several improvements and fixes in different components ranging from Freeloader (the bootloader) to the shell.
@@ -34,3 +35,6 @@ For [other changes in ReactOS 0.4.14 release](https://reactos.org/project-news/r
 You can download ReactOS 0.4.14 or the latest release from the offiical download page. The download page, follows a 'Pay What you Want' model. So, we are not providing the direct download link. Instead, you can find the link in the ReactOS download page.
 
 <a class="download" href="https://reactos.org/download/">Download ReactOS 0.4.14</a>
+
+## ReactOS 0.4.14 screenshots
+{% include image-gallery.html folder="/screenshots/ReactOS 0.4.14" %}
