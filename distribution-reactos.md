@@ -9,11 +9,11 @@ logo: ReactOS.png
 preview: ReactosThemedEverywhere.png
 home_page: http://reactos.org/
 desktops: [Windows 9x Inspired Desktop]
+tagline: A windows like distribution that is not windows.
 base : Independent
-purchase:
-  OSDisc : "https://www.osdisc.com/products/reactos"
 
 releases:
+  ReactOS 0.4.14: "/reactos-0414-released/"
   ReactOS 0.4.10: "/1-reactos-0.4.10-btrfs-support/"
   ReactOS 0.4.9 : "../reactos-4.9-released-with-stability-and-usability-improvements/"
   ReactOS 0.4.8 : "https://open-source-feed.blogspot.com/2018/04/reactos-048-released-with-improved-user.html"
