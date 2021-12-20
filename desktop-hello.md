@@ -7,7 +7,7 @@ permalink: /desktop/hello
 logo: hello.png
 preview: helloSystem.jpg
 home_page: https://hellosystem.github.io
-description: helloSystem a desktop system for creators looking for simplicity, elegance and usability.
+description: helloSystem a desktop system for creators looking for simplicity, elegance and usability.It follows the general design principles of mac from 90s.
 tagline: Simplicity, elegance & usability.
 image: /assets/images/preview/helloSystem.jpg
 
