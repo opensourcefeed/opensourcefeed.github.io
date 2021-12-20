@@ -15,6 +15,7 @@ description: elementary OS is an open source operating system with the motto of 
 description : elementary OS (eOS) is fast and simple GNU/Linux distribution built on top of Ubuntu LTS releases. Stories and updates on elementary OS.
 
 releases:
+  elementary OS 6.1: "/elementary-os-61-emjolnir-em-released-with-improved-user-experience/"
   elementary OS 6 Odin: "/elementary-6.0-release/"
   elementary OS 5.1 Hera: "/elementary-5.1-hera/"
   elementary OS Juno: "/00-elementary-os-juno-brings-major-improvements/"
@@ -40,6 +41,7 @@ stories:
   elementary OS introduces cross desktop compatible System Settings App(Switchboard) : "http://open-source-feed.blogspot.com/2016/12/elementary-os-introduces-cross-desktop.html"
 
 screenshots:
+  elementary OS 6.1: "/elementary-os-61-emjolnir-em-released-with-improved-user-experience/"
   elementary OS 6 Odin: "/elementary-6.0-release/"
   elementary OS 5.1 Hera: "/elementary-5.1-hera/"
   elementary OS 5 Juno: "https://distroscreens.blogspot.com/2018/10/elementary-os-5-juno-screenshots.html"
