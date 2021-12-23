@@ -20,6 +20,7 @@ releases:
   ReactOS 0.4.7 : "http://www.reactos.org/project-news/reactos-047-released"
 
 screenshots:
+  ReactOS 0.4.14: "/reactos-0414-released/"
   ReactOS 0.4.6 : "http://distroscreens.blogspot.com/2017/09/windows-binary-compatible-reactos-046.html"
   ReactOS 0.4.1 : "http://distroscreens.blogspot.com/2016/05/reactos-041-screenshots.html"
 
