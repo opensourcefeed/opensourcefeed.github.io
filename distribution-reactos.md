@@ -23,10 +23,10 @@ screenshots:
   ReactOS 0.4.6 : "http://distroscreens.blogspot.com/2017/09/windows-binary-compatible-reactos-046.html"
   ReactOS 0.4.1 : "http://distroscreens.blogspot.com/2016/05/reactos-041-screenshots.html"
 
-description : ReactOS is an independently developed, open source operating system inspired by Windows 9x architecture.
+description : ReactOS is an independently developed, open source operating system inspired by Windows NT architecture.
 ---
-**ReactOS** is a windows binary compatible operating system inspired by Windows 9x architecture. The purpose of this operating system is to give an open source & reliable alternative platform to execute various windows applications.
+**ReactOS** is a windows binary compatible operating system inspired by Windows NT architecture. The purpose of this operating system is to give an open source & reliable alternative platform to execute various windows applications.
 
-Being inspired from Windows 9x architecture, ReactOS provides a desktop experience similar to Windows 9x operating systems. However, under the hood, it is capable to handle modern hardware resources and applications. In addition to classic desktop environment, you can also switch to modern desktop layout.
+Being inspired from Windows NT architecture, ReactOS provides a desktop experience similar to Windows NT operating systems. However, under the hood, it is capable to handle modern hardware resources and applications. In addition to classic desktop environment, you can also switch to modern desktop layout.
 
 Comparing to modern GUI based operating systems, ReactOS is lightweight. It can run happily if there is 500 MB of disk space and 96 MB RAM.
