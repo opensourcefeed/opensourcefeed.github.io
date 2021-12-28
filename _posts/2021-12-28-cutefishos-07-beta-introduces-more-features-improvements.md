@@ -12,15 +12,15 @@ tags:
   - CutefishOS 0.7 Download
   - CutefishOS 0.7 screenshots
   - CutefishOS 0.7 Preview
-image: /screenshots/CutefishOS 0.6/02 Cutefish File Manager.jpg
-video: https://youtube.com/embed/4UPngM8Aj9E 
+image: /screenshots/CutefishOS 0.7/12 about system.jpg
+video: https://youtube.com/embed/m21wpu2vYDo 
 ---
 
 **The** CutefishOS team has announced the release of CutefishOS 0.7. CutefishOS is a GNU/Linux cum desktop project offering a user-friendly, efficient and beautiful desktop experience.
 
 The CutefishOS 0.7 Beta release introduces more functionalities and features. With this release, CutefishOS takes another step towards being a full-fledged desktop operating system.
 
-![CutefishOS 0.7 featured image](/screenshots/CutefishOS 0.6/02 Cutefish File Manager.jpg)
+![CutefishOS 0.7 featured image](/screenshots/CutefishOS 0.7/12 about system.jpg)
 
 ## What's new in CutefishOS 0.7 Beta?
 The following section briefly explains the noteworthy improvements in the CutefishOS 0.7 Beta release.
@@ -54,3 +54,6 @@ You can download CuteifishOS 0.7 Beta from the following direct links.
 
 <a href="https://drive.google.com/file/d/1JKyxKCclMSZBqtzETRdg1ul7y5zCQbJK/view?usp=sharing" class="download">Download CutefishOS 0.7 Beta (Google Drive)</a>
 <a href="https://mega.nz/file/26JClJ6B#8JMUN6xcRT53Q_TV6r5Co2wiIV3n2bMlMiKiqegqf9c" class="download">Download CutefishOS 0.7 Beta (MEGA)</a>
+
+## CutefishOS 0.7 Beta screenshots
+{% include image-gallery.html folder="/screenshots/CutefishOS 0.7" %}
