@@ -8,7 +8,6 @@ layout: post
 categories: solus budgie news
 tags:
   - Joshua Strobl resigns from Solus
-image: /screenshots/CutefishOS 0.7/12 about system.jpg
 ---
 
 **Mr.** *Joshua Strobl*, one of the key contributors in the Budgie Desktop and the Solus has announced his plan to resign from the Solus project. The decision is because of differences in opinion with some team members.
