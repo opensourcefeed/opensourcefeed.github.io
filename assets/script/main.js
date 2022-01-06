@@ -63,7 +63,7 @@ $(function () {
             if (elem.length) {
                 if ($(document).scrollTop()) {
                     elem.css('position', 'fixed');
-                    elem.css('top', 114);
+                    elem.css('top', 20);
                 } else {
                     elem.css('position', 'relative');
                 }
