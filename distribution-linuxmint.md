@@ -26,6 +26,7 @@ stories:
   "Five reasons for using Linux Mint" : "http://open-source-feed.blogspot.com/2015/11/5-reasons-for-using-liinux-mint.html"
 
 screenshots:
+  Linux Mint 20.3 Xfce: "/linux-mint-203-xfce-screenshots/"
   Linux Mint 20 MATE: "/linuxmint-20-mate/"
   Linux Mint 20 Cinnamon: "/linuxmint-20-cinnamon/"
   Linux Mint 20 Xfce: "/linuxmint-20-xfce/"
