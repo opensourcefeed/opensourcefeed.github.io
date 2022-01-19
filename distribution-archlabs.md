@@ -13,6 +13,7 @@ base : [arch]
 tagline: Arch linux inspired by Bunsenlabs
 
 releases:
+  ArchLabs 2022.01.18: /archlabs-linux-20220118-has-been-released/
   Archlabs 2019.10 : "/archlabs-20191028-release/"
   ArchLabs 2018.07 : "../00-archlabs-linux-2018.07-released-with-brand-new-dark-theme/"
   ArchLabs 2018.05 : "http://open-source-feed.blogspot.com/2018/05/archlabs-201805-released-with-more.html"
@@ -23,13 +24,13 @@ releases:
 screenshots:
   ArchLabs Linux 2018.07 : "http://distroscreens.blogspot.com/2018/07/archlabs-linux-201807-screenshots.html"
 
-description : "ArchLabs is a rolling distribution inspired by the simplicity and look and feel of Busenlab, another operating system based on Debian with Openbox window manager"
+description : "ArchLabs is a rolling distribution inspired by the simplicity and look and feel of Bunsenlabs, another operating system based on Debian with Openbox window manager"
 
 
 ---
 
-**ArchLabs** is a rolling GNU/Linux distribution featuring a well tweaked Openbox window manager. ArchLabs is inspired and influenced by the look and feel of Busenlabs.
+**ArchLabs** is a rolling GNU/Linux distribution featuring a well tweaked Openbox window manager. ArchLabs is inspired and influenced by the look and feel of BunsenLabs.
 
-At the initial stages of development, ArchLabs was following the look and feel established by the Busnelabs. In later phases, ArchLabs developed it's own style and feel and it is longer a *fork* (at least in style) of BusenLabs.
+At the initial stages of development, ArchLabs was following the look and feel established by the Busnelabs. In later phases, ArchLabs developed it's own style and feel and it is longer a *fork* (at least in style) of BunsenLabs.
 
-Another difference between ArchLabs and BusenLabs is base distribution. BusenLabs is based on Debian *stable* release, while ArchLabs is based on Arch and follows a rolling release model.
+Another difference between ArchLabs and BunsenLabs is base distribution. BunsenLabs is based on Debian *stable* release, while ArchLabs is based on Arch and follows a rolling release model.
