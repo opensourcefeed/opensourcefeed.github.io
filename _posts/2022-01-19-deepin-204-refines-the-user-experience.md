@@ -9,7 +9,7 @@ tags:
   - Most popular chinese Linux
   - release
 image: /assets/images/post-images/deepin/01-2.jpg
-video: https://youtube.com/embed/9uD1Hunvv9o 
+video: https://youtube.com/embed/qi9hfXx_nbI 
 ---
 
 **The** deepin LLC has announced the release of deepin 20.4, the latest stable release of beautiful GNU/Linux distribution from China. The deepin 20.4 release brings updated packages from the upstream projects and refines the deepin desktop to improve the user experience further.
@@ -36,3 +36,6 @@ You can download the deepin 20.4 images from the below links.
 
 <a href="http://cdimage.deepin.com/releases/20.4/deepin-desktop-community-20.4-amd64.iso" class="download">deepin 20.4 ISO (official)</a>
 <a href="https://osdn.net/projects/deepin/storage/20.4" class="download">deepin 20.4 ISO (OSDN)</a>
+
+## deepin 20.4 screenshots
+{% include image-gallery.html folder="/screenshots/deepin 20.4" %}
