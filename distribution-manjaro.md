@@ -9,7 +9,7 @@ permalink: /distribution/manjaro
 logo: Manjaro-logo.svg
 preview: manjaro-preview.jpg
 home_page: https://manjaro.org/
-desktops: [plasma, xfce, mate, gnome, cinnamon, budgie, lxqt, i3, lxde, awesome, bspwm, deepin]
+desktops: [plasma, xfce, mate, gnome, cinnamon, budgie, lxqt, i3, lxde, awesome, bspwm, deepin, cutefish]
 base : [arch]
 
 description : Manjaro is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly scripts and installers to make it usable for newbies and professionals alike. Stories and updates on Manjaro GNU/Linux.

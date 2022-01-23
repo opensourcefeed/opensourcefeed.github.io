@@ -4,7 +4,7 @@ description: CutefishOS 0.7 Beta is a development release of mac-like GNU/Linux 
   the Qt framework, it offers an efficient, user-friendly, and beautiful desktop experience.
   Read More
 layout: post
-categories: cutefishos release
+categories: cutefishos release cutefish
 tags:
   - CutefishOS 0.7 release
   - CutefishOS 0.7 release announcement

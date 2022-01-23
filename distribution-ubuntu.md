@@ -8,7 +8,7 @@ permalink: /distribution/ubuntu
 logo: ubuntu-logo32.png
 preview: ubuntu-preview.jpg
 home_page: https://www.ubuntu.com/
-desktops: [unity, gnome]
+desktops: [unity, gnome, cutefish]
 base : [debian]
 
 description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a range of hardware platforms like desktop, server, clouds and IoT.

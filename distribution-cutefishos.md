@@ -18,6 +18,7 @@ description : CutefishOS is an operating system project featuring the Cutefish D
 releases:
   CutefishOS 0.7: /cutefishos-07-beta-introduces-more-features-improvements/
   CutefishOS 0.6: /cutefish-os-0.6-release/
+  CutefishOS 0.5: /cutefishos-0.5-release/
 
 screenshots:
   CutefishOS 0.7: /cutefishos-07-beta-introduces-more-features-improvements/

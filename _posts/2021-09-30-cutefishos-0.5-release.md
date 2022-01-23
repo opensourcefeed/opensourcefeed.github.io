@@ -1,7 +1,7 @@
 ---
 title: "CutefishOS team rolls official ISO for the first time - CutefishOS 0.5 Beta."
 layout: post
-categories: cutefish release
+categories: cutefish release cutefishos
 tags: [cutefish release]
 image: /screenshots/Manjaro Cutefish Intro/09 Appearance Settings.jpg
 video: https://www.youtube.com/embed/bjhMvuetl6M 
