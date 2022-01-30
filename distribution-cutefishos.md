@@ -16,9 +16,10 @@ image: /assets/images/preview/cutefishos.jpg
 description : CutefishOS is an operating system project featuring the Cutefish Desktop on top of Debian. The Cutefish desktop offers a macOS-like user experience.
 
 releases:
-  CutefishOS 0.7: /cutefishos-07-beta-introduces-more-features-improvements/
-  CutefishOS 0.6: /cutefish-os-0.6-release/
-  CutefishOS 0.5: /cutefishos-0.5-release/
+  CutefishOS 0.8 Beta: /cutefishos-08-beta/
+  CutefishOS 0.7 Beta: /cutefishos-07-beta-introduces-more-features-improvements/
+  CutefishOS 0.6 Beta: /cutefish-os-0.6-release/
+  CutefishOS 0.5 Beta: /cutefishos-0.5-release/
 
 screenshots:
   CutefishOS 0.7: /cutefishos-07-beta-introduces-more-features-improvements/
