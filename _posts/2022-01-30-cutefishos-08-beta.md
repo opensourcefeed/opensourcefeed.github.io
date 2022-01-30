@@ -11,8 +11,7 @@ tags:
   - CutefishOS 0.8 Download
   - CutefishOS 0.8 screenshots
   - CutefishOS 0.8 Preview
-videoTitle: CutefishOS 0.7 Beta Desktop Tour
-video: https://youtube.com/embed/m21wpu2vYDo
+video: https://youtube.com/embed/I0IoJ_RrOsI 
 image: /assets/images/post-images/cutefishos/0.8-beta.jpeg
 ---
 
@@ -27,4 +26,4 @@ You can download CuteifishOS 0.8 Beta from the following direct links. The googl
 <a href="https://mega.nz/file/i2AmBLbS#KDHono5T6NV-tzcVAhOjeODdXrucxk94JIWbQfBUY08" class="download">Download CutefishOS 0.8 Beta (MEGA)</a>
 
 ## CutefishOS 0.8 Beta screenshots
-Work In Progress.... Please check after a while.
+{% include image-gallery.html folder="/screenshots/CutefishOS 0.8" %}
