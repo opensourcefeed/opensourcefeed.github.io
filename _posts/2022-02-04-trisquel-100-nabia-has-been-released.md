@@ -11,8 +11,7 @@ tags:
   - Trisquel 10.0 Download
   - Trisquel 10.0 screenshots
   - Trisquel 10.0 Preview
-videoTitle: Trisquel 9.0 Desktop Tour
-video: https://youtube.com/embed/dwx_B3S4kmc
+video: https://youtube.com/embed/xg95uGwIdag
 image: /assets/images/post-images/trisquel/t0-mate-desktop.jpg
 ---
 
@@ -40,3 +39,6 @@ The key highlights in the Trisquel 10.0 Nabia release are as follows.
 - Introduces support from ARM devices.
 
 For further reading and download links - see the official release announcement on the [Trisquel website](https://trisquel.info/en/trisquel-10-nabia-release-announcement).
+
+## Trisquel 10.0 Nabia screenshots
+{% include image-gallery.html folder="/screenshots/Trisquel 10.0" %}
