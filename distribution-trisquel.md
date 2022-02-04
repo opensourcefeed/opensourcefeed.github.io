@@ -18,6 +18,7 @@ screenshots:
   "Trisquel 8 Flidas" : "https://distroscreens.blogspot.com/2018/03/trisquel-8-flidas-screenshots.html"
 
 releases:
+  Trisquel 10.0 Nabia: "/trisquel-100-nabia-has-been-released/"
   Trisquel 9 Etiona: "/trisquel-9-release/"
   Trisquel 8 Flidas: "http://open-source-feed.blogspot.com/2018/04/finally-trisquel-80-flidas-is-here-with.html"
   Trisquel 8 Flidas Alpha 1 : "https://open-source-feed.blogspot.com/2016/12/trisquel-80-flidas-alpha1-is-available.html"
