@@ -45,6 +45,7 @@ screenshots :
   Fedora 24 Alpha : "http://distroscreens.blogspot.com/2016/04/fedora-24-alpha-gnome-320-screenshots.html"
 
 releases:
+  Fedora 36: "https://fedoramagazine.org/announcing-fedora-36/"
   Fedora 35: "/fedora-35-release"
   Fedora 34 Workstation: "/fedora-34-release/"
   Fedora 33: "/fedora-33-release"

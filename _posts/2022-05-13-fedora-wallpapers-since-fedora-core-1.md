@@ -1,5 +1,5 @@
 ---
-title: Fedora Wallpapers from Fedora Core 1 to Fedora 34 Workstation
+title: Fedora Wallpapers from Fedora Core 1 to Fedora 36 Workstation
 layout: post
 categories:
 - fedora
@@ -154,6 +154,21 @@ Fedora 21 was released on 9th December 2014. With this release, Fedora stopped t
 
 ### Fedora 34
 ![Fedora 34 wallpaper](/assets/images/post-images/fedora-wallpaper/Fedora 34.jpg)
+
+### Fedora 35
+![Fedora 35 Workstation - Day wallpaper](/assets/images/post-images/fedora-wallpaper/f35-01-day.jpg)
+*Fedora 35 Workstation - Day Wallpaper*
+
+![Fedora 35 Workstation - Night wallpaper](/assets/images/post-images/fedora-wallpaper/f35-02-night.jpg)
+*Fedora 35 Workstation - Night Wallpaper*
+
+### Fedora 36
+![Fedora 36 Workstation - Day wallpaper](/assets/images/post-images/fedora-wallpaper/f36-01-day.jpg)
+*Fedora 36 Workstation - Day Wallpaper*
+
+![Fedora 36 Workstation - Night wallpaper](/assets/images/post-images/fedora-wallpaper/f36-02-night.jpg)
+*Fedora 36 Workstation - Night Wallpaper*
+
 ### Reference
 1. Fedora Core 1 to Fedora 32 wallpapers are taken from [Fedora Project Wiki](https://fedoraproject.org/wiki/Wallpapers).
 3. Fedora 33 Wallpaper is from [OpenSourceFeed Gallery](https://www.opensourcefeed.org/fedora-33-release/)
