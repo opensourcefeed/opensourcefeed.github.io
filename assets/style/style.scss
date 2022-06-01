@@ -130,6 +130,7 @@ main {
 }
 
 a {
+  color: #0470e3;
   &:hover {
     text-decoration: none;
   }
@@ -379,6 +380,10 @@ p img + em {
 .navbar-brand img {
   width: 24px;
   margin-right: 0.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.616);
 }
 
 /* Syntax highlight */
@@ -635,7 +640,7 @@ p img + em {
 /* End of syntax highlight */
 
 a.download {
-  background: #0693e3;
+  background: #1777c9;
   margin: auto;
   display: block;
   width: fit-content;
