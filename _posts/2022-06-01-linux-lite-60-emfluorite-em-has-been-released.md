@@ -7,8 +7,10 @@ tags:
   - Linux Lite 6.0 release
   - Ubuntu based Xfce Distribution
   - Beautiful Xfce distribution
-image: /assets/images/post-images/linuxlite/6.0.png
-video: https://www.youtube.com/embed/9TX4Ew0k-jU
+  - Linux Lite 6.0 screenshots
+  - Linux Lite 6.0 preview video
+image: /screenshots/Linux Lite 6.0/07 Xfce Terminal.jpg
+video: https://www.youtube.com/embed/lw5bWtrlOLY
 ---
 
 **Mr.** Jerry Bezencon - the creator of the Linux Lite project, has announced the release of Linux Lite 6.0. With the Ubuntu 22.04 foundation, Linux Lite 6.0 offers a complete desktop experience. The theme of the Linux Lite 6.0 release is inclusion and freshness, and the release focuses on user experience enhancements and accessibility improvements.
@@ -34,3 +36,6 @@ For a [complete list of changes in Linux Lite 6.0](https://www.linuxliteos.com/f
 Linux Lite 6.0 can be downloaded from the official website. You can pay an amount if you want to, otherwise you can proceed to download for free.
 
 <a href="https://www.linuxliteos.com/download.php" class="download">Download Linux Lite 6.0</a>
+
+## Linux Lite 6.0 screenshots
+{% include image-gallery.html folder="/screenshots/Linux Lite 6.0" %}

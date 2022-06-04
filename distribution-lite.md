@@ -33,6 +33,7 @@ releases:
   Linux Lite 3.0 : "http://open-source-feed.blogspot.com/2016/06/linux-lite-30-final-released-with-new.html"
 
 screenshots:
+  Linux Lite 6.0: /linux-lite-60-emfluorite-em-has-been-released/
   Linux Lite 5.2: "/linuxlite-5.2-release/"
   Linux Lite 5.0 screenshots: "/linuxlite-5.0-release"
   Linux Lite 4.0 screenshots : "https://distroscreens.blogspot.com/2018/07/linux-lite-40-diamond-screenshots.html"
