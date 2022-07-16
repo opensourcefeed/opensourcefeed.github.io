@@ -8,6 +8,7 @@ tags:
   - Linux Mint 21 Vanessa XFCE BETA release
   - Linux Mint 21 Vanessa MATE BETA release
   - Linux Mint 21 Vanessa Cinnamon BETA release
+video: https://www.youtube.com/embed/zfQLFP9AUW8
 ---
 
 **The** Linux Mint team has announced the availability of Linux Mint 21 *Vanessa* BETA. This release includes all three official editions of Linux Mint - Xfce, Cinnamon, and MATE.

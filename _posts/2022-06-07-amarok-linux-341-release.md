@@ -9,6 +9,7 @@ tags:
   - Brazilian Linux Distribution
   - Download Amarok Linux 3.4.1
   - Portugese Linux distribution
+video: https://www.youtube.com/embed/rEkuwD-UTTs
 ---
 
 **On** 6th June 2022, the Amarok Linux team announced the release of Amarok Linux 3.4.1. The Amarok Linux 3.4.1 introduces two new flavors with KDE Plasma and LXQt desktop environment. Currently, Amarok offers GNOME, MATE, Cinnamon, and Xfce flavors.
