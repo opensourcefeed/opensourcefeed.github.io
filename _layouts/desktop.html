@@ -106,7 +106,7 @@ layout: default
                 {% if site.categories[page.uid] or page.stories%}
                 <hr>
                 <div class="story-listing">
-                    <h3>Other stories on {{page.title}}</h3>
+                    <h2>Other stories on {{page.title}}</h3>
                     <ul>
                         {% for story in page.stories %}
                         <li><a href="{{story[1]}}">{{story[0]}}</a></li>
@@ -119,7 +119,7 @@ layout: default
                 <hr/>
                 <!--Disqus comment box-->
                 <div class="comment-area">
-                    <h3>What do you think about {{page.title}}?</h3>
+                    <h2>What do you think about {{page.title}}?</h3>
                     <div id="disqus_thread"></div>
                     <script>
                         (function() {
