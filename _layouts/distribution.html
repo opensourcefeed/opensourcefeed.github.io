@@ -196,7 +196,7 @@
             {% if page.review %}
             <hr>
             <div class="story-listing">
-                <h3>Reviews of {{page.title}}</h3>
+                <h2>Reviews of {{page.title}}</h2>
                 <ul>
                     {% for review in page.reviews %}
                     <li><a href="{{review[1]}}">{{review[0]}}</a></li>
@@ -206,7 +206,7 @@
             {% endif %} {% if site.categories[page.uid] or page.stories%}
             <hr>
             <div class="story-listing">
-                <h3>Other stories on {{page.title}}</h3>
+                <h2>Other stories on {{page.title}}</h2>
                 <ul>
                     {% for story in page.stories %}
                     <li><a href="{{story[1]}}">{{story[0]}}</a></li>
@@ -219,7 +219,7 @@
             <hr/>
             {% if page.faq %}
             <div class="story-listing">
-                <h3>Frequently asked questions on {{page.title}}</h3>
+                <h2>Frequently asked questions on {{page.title}}</h2>
                 <ol>
                 {% for faq in page.faq %}
                 <li>
@@ -233,7 +233,7 @@
             <hr />
             <!--Disqus comment box-->
             <div class="comment-area">
-                <h3>What do you think about {{page.title}}?</h3>
+                <h2>What do you think about {{page.title}}?</h2>
                 <div id="disqus_thread"></div>
                 <script>
                     (function() {
