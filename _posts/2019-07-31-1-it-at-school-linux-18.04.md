@@ -16,6 +16,10 @@ tags:
 image: "/screenshots/IT at School 18.04/02 Application Menu.png"
 ---
 
+<div class="alert alert-warning">
+IT@School KITE Linux 18.04 is outdated now. You may need to check on <a href="/it-at-school-linux-20.04/">IT@School KITE Linux 20.04</a>
+</div>
+
 **The** Kerala State of India has done excellent work by including open-source education in its curriculum. Since 2006, the state is propagating the idea of open source technologies, by replacing many of the proprietary software used in public service sectors. This includes *ORUMA* Software used by state electricity board, free software migration in Khadi Board, and also the use of free software for IT operations of Kerala Legislative Assembly.
 
 ![IT @ School 18.04 Preview](/screenshots/IT at School 18.04/02 Application Menu.png)
@@ -33,3 +37,4 @@ In 2008, the first batch completed their 10th standard IT practical public exam 
 The following section showcases some screenshots captured in IT@School 18.04
 
 {% include image-gallery.html folder="/screenshots/IT at School 18.04" %}
+
