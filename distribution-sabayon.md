@@ -9,8 +9,6 @@ preview: sabayon-preview.jpg
 home_page: https://www.sabayon.org/
 desktops: [plasma, gnome, xfce, mate, fluxbox]
 base : [gentoo]
-purchase:
-  OSDisc : "https://www.osdisc.com/products/sabayon"
 
 description : "Sabayon is a Gentoo based, rolling GNU/Linux distribution that promises an out of the box experience for beginners and experienced Linux users"
 
