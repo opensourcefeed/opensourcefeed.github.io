@@ -7,15 +7,15 @@ type : Linux
 permalink: /distribution/neptune
 logo: neptune.png
 preview: neptune5.0.jpg
+image: /assets/images/preview/neptune5.0.jpg
 home_page: https://neptuneos.com
 desktops: [plasma]
 base : [debian, netrunner]
-purchase:
-  OSDisc : "https://www.osdisc.com/products/neptune"
 
-description : "Neptune is a Debian stable based distribution which ships all packages from the base distribution, along with a recent version of Linux kernel and some additional drivers."
+description : "Neptune is a Debian-based distribution that ships all packages from the base distribution, along with a recent version of the Linux kernel and some additional drivers."
 
 releases:
+  Neptune 7.5 Ada: /neptune-7.5-release/
   "Neptune 6.0": "/neptune-6.0-spike-release/"
   "Neptune 5.6": "/1-neptune-5.6-improved-gaming-experience/"
   "Neptune 5.4" : "../neptune-5.4-released-with-better-dark-theme-and-icon-theme/"
@@ -33,8 +33,8 @@ screenshots:
 
 ---
 
-**Neptune** is a GNU/Linux distribution based on Debian *stable* branch. Currently, it is based on Debian 9.x *stretch*. Neptune ships all packages from the Debian repositories except for Linux Kernel and some additional drivers. It provides a recent version of Linux Kernel and drivers for better hardware compatibility.
+**Neptune** is a GNU/Linux distribution based on Debian *stable* branch. Currently, it is based on Debian 11.x *Bullseye*. Neptune ships all packages from the Debian repositories except for Linux Kernel and some additional drivers. It provides a recent version of Linux Kernel and drivers for better hardware compatibility.
 
-The main aim of Neptune is delivering an elegant, out of the box desktop experience. Towards this goal, Neptune ships a simplified plasma desktop with a set of multimedia codecs, flash player, audio and video players.
+The main aim of Neptune is to deliver an elegant, out-of-the-box desktop experience. Towards this goal, Neptune ships a simplified plasma desktop with a set of multimedia codecs, a flash player, and audio and video players.
 
-Most of the packages in Neptune is inherited from Debian repositories itself. It also makes use of packages from Netrunner. Neptune also maintains their own repository to package some of the custom applications.
+Most of the packages in Neptune are inherited from Debian repositories themselves. It also makes use of packages from Netrunner. Neptune also maintains their repository to package some of the custom applications.
