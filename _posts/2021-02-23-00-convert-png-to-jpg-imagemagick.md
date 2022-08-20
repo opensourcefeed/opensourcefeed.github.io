@@ -68,6 +68,21 @@ In one line, it can be written like,
 ```bash
 $ for image in *.png ;  do convert "$image" "${image%.*}.jpg" ; done
 ```
+
+## How to convert PNG to JPG by specifying background color?
+
+In some scenarios, PNG images will be coming with transparent background. If we convert those images directly to JPG, it is likely to cause some unexpected results. In such cases, we can specify the background color, so that, the transparency will be replaced with the specific background color.
+
+For converting a single image with background color,
+```bash
+convert original-image.png -background white -flatten -alpha off new-image.jpg
+```
+
+For converting multiple image files with background color,
+```bash
+for image in *.png ;  do convert "$image" -background white -flatten -alpha off  "${image%.*}.jpg"
+```
+
 ## How to convert from any image format to any other image format?
 The *convert* tool provided by ImageMagick can convert from any image format to any other image format. The above example showcases, how to convert a PNG image to a JPG image.
 

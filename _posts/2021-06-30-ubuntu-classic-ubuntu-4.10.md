@@ -11,10 +11,7 @@ tags:
 - Ubuntu 4.10 Warty Warthog
 image: "/assets/images/post-images/ubuntu-classic/4.10.jpg"
 video: https://www.youtube.com/embed/ObQnKSjnTDs
-canonical_url: https://blog.opensourcefeed.org/2021/07/ubuntu-classic-series-ubuntu-4-10-warty-warthog/
 description: An article on Ubuntu 4.10 - the first most stable release of Ubuntu. The article also includes screenshots of Ubuntu 4.10 along with the preview video.
-redirect_from:
-  - /2021/07/ubuntu-classic-series-ubuntu-4-10-warty-warthog/
 ---
 
 **Ubuntu 4.10** was Canonical's first release of Ubuntu. Ubuntu 5.04 was released on 20 October 2004 and came with the code name *Warty Warthog*.
