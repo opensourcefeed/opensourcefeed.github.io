@@ -14,6 +14,7 @@ tags:
 - Open Source as part of Education
 - Download IT@School GNU/Linux 20.04
 image: "/screenshots/IT at School 18.04/02 Application Menu.png"
+description: A brief history of KITE GNU/Linux 20.04 - a GNU/Linux distribution prepared for educational institutions by Government of Kerala. Download KITE GNU/Linux 20.04.
 ---
 
 **The** Kerala State of India has done excellent work by implementing the computer learning with open source applications. The goverment body of Kerla started the migration into open source technologies in early 2006. The migration includes the use of *ORUMA* Software by the state electricity board, free software migration in Khadi Board, and the use of free software for IT operations of Kerala Legislative Assembly.

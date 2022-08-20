@@ -14,6 +14,7 @@ tags:
 - Open Source as part of Education
 - Download IT@School GNU/Linux 18.04
 image: "/screenshots/IT at School 18.04/02 Application Menu.png"
+description: "Evolution and screenshots of KITE GNU/Linux 18.04 - GNU/Linux distribution for educational institutions by Government of Kerala. Download KITE GNU/Linux 20.04."
 ---
 
 <div class="alert alert-warning">
