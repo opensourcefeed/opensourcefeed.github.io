@@ -1,5 +1,5 @@
 ---
-title: IT@School GNU/Linux 20.04 - Kerala model of open source education
+title: KITE GNU/Linux 20.04 - Kerala model of open source education
 layout: post
 categories:
 - itatschool
@@ -13,6 +13,7 @@ tags:
 - School Linux
 - Open Source as part of Education
 - Download IT@School GNU/Linux 20.04
+- Download KITE GNU/Linux 20.04
 image: "/screenshots/IT at School 18.04/02 Application Menu.png"
 description: A brief history of KITE GNU/Linux 20.04 - a GNU/Linux distribution prepared for educational institutions by Government of Kerala. Download KITE GNU/Linux 20.04.
 ---
