@@ -7,7 +7,7 @@ type : Linux
 permalink: /distribution/chakra
 logo: chakra.png
 preview: Goedel3_small.jpg
-home_page: https://chakralinux.org/
+home_page: https://web.archive.org/web/20210414220138/https://www.chakralinux.org/
 desktops: [plasma]
 base : Independent
 status : Discontinued
