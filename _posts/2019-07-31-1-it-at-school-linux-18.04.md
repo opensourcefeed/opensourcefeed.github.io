@@ -28,7 +28,7 @@ IT@School KITE Linux 18.04 is outdated now. You may need to check on <a href="/i
 ## Open Source in Education
 Kerala government's education curriculum includes computer education from the primary school itself. From the beginning itself, students are taught the idea of free software and the need for it. Also, the curriculum teaches the use of open-source software for performing day-to-day activities such as painting, listening to music, watching movies, browsing the internet, preparing office documents, etc. Also, python is part of the curriculum in the 10th standard. Students will be making their utility applications on python in the 10th standard. The inclusion of python will help them to identify their taste in programming from the early stages itself.
 
-## The evolution of IT@Schoo GNU/Linux
+## The evolution of IT@School GNU/Linux
 The idea of developing a custom GNU/Linux distribution was evolved in mid of the 2000s. This concept became a reality in 2006 when the first version of IT@School GNU/Linux was released. The first version of IT@School GNU/Linux was based on Debian and included a set of applications for education. It was developed in collaboration with a private agency. Later, the IT@School wing of the Kerala Education Department took control over this.
 
 In 2008, the first batch completed their 10th standard IT practical public exam in GNU/Linux. Later, there were multiple releases of IT@School with the Ubuntu LTS base. The latest one in this series is IT@School 18.04.

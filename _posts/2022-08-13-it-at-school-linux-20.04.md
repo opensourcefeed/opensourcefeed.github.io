@@ -24,12 +24,12 @@ description: A brief history of KITE GNU/Linux 20.04 - a GNU/Linux distribution 
 ## Open Source in Education
 Kerala government's education curriculum includes computer education from the primary school itself. From the beginning itself the students are encouraged to use open source applications. Also, the curriculum teaches the use of open-source software for performing day-to-day activities such as painting, listening to music, watching movies, browsing the internet, preparing office documents, etc. Also, python is part of the curriculum in the 10th standard. Students will be making their utility applications on python in the 10th standard. The inclusion of python will help them to identify their taste in programming from the early stages itself.
 
-## The evolution of IT@Schoo GNU/Linux
+## The evolution of KITE GNU/Linux
 In the mid of the 2000s, the goverment came up with the idea of developing a custom GNU/Linux distribution for the educational institutions. This concept became a reality in 2006 when the first version of IT@School GNU/Linux was released. The first version of IT@School GNU/Linux was based on Debian and included a set of applications for education. The first release of IT@School Linux was in collaboration with a private agency. Later, the IT@School wing of the Kerala Education Department took control over this. The project is now popularly known as KITE GNU/Linux.
 
 In 2008, the first batch completed their 10th standard IT practical public exam in GNU/Linux. 
 
-Later, there were multiple releases of IT@School with the Ubuntu LTS base. The latest one in this series is IT@School 20.04. Also there is one LITE edition for the computers with limited resources.
+Later, there were multiple releases of IT@School with the Ubuntu LTS base. The latest one in this series is KITE GNU/Linux 20.04. Also there is one LITE edition for the computers with limited resources.
 
 <a href="https://kite.kerala.gov.in/KITE/downloads/KITE_GNU-Linux_20_04_1-3.iso" class="download">Download KITE GNU/Linux 20.04 ISO</a>
 
