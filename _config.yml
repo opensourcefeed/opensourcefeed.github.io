@@ -35,3 +35,9 @@ webmaster_verifications:
 paginate: 18
 paginate_path: '/blog/:num/'
 future: true
+defaults:
+  - 
+    scope:
+      path: ""
+    values:
+      image: /assets/images/meta/logo-collage.jpg
