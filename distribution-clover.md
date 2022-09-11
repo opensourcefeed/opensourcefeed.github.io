@@ -1,7 +1,7 @@
 ---
 layout: distribution
 uid: clover
-title: 'Clover OS'
+title: 'Clover OS or CloverOS'
 Category: Distribution
 permalink: /distribution/clover
 logo: clover-logo.png
@@ -11,7 +11,7 @@ tagline: Performance tuned Gentoo
 desktops: [FVWM]
 base : [gentoo]
 image: /assets/images/preview/cloveros-preview.jpg
-description : "Clover OS is a performance-tuned, minimal GNU/Linux distribution that uses a set of scripts and a package repository to build the Clover OS from Gentoo core."
+description : "Clover OS is a performance-tuned, minimal, Gentoo based GNU/Linux distribution that uses a set of scripts and a package repository."
 
 ---
 
@@ -22,3 +22,5 @@ Instead of delivering a fully customized distribution, Clover OS keeps the Gento
 A CloverOS desktop comes with OpenRC, FVWM (F Virtual Window Manager), udev, agetty, dhcpcd, and wpa_supplicant running. This minimal configuration will help users to customize their system to match their requirements.
 
 Clover OS avoids packages like systemd, pulseaudio, dbus, avahi, and nls - which are often considered a *sin* to use. Clover OS offers better performance by removing *bloated* packages.
+
+Some people finds the legacy of Crunchbang in Clover OS. It offers a similar installation and configuration approach.
