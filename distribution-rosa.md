@@ -11,6 +11,7 @@ desktops: [gnome, xfce, plasma, mate, lxqt]
 type: Linux
 base : Independent
 tagline: Universal Operating System from Russia
+image: /assets/images/preview/rosa fresh r8.1.jpg
 
 description : ROSA Linux is a Russian GNU/Linux distribution developed by LLC NTC IT ROSA, a software product development company. See the stories and updates on ROSA Linux.
 
