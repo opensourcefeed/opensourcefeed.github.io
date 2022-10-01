@@ -14,6 +14,7 @@ tagline: Ubuntu with the Unity Shell
 image: /assets/images/preview/ubuntu-unity.jpg
 
 releases:
+  Ubuntu Unity 22.10 Beta: /ubuntu-unity-22.10-release/
   Ubuntu Unity 22.04: "https://ubuntuunity.org/blog/ubuntu-unity-22.04/"
   Ubuntu Unity 20.10: "/ubuntu-unity-20.10-release/"
 

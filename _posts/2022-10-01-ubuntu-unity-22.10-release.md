@@ -9,6 +9,7 @@ tags:
   - Ubuntu Unity 22.10 BETA screenshots
 image: /assets/images/post-images/ubuntu-unity/ubuntu-unity-22.10-beta-1.jpg
 description: A brief release announcement, screenshots and preview video of Ubuntu Unity 22.10 Beta, first official release as an Ubuntu community flavor.
+video: https://www.youtube.com/embed/3MhYmmXu4y8
 ---
 
 **Mr.** *Rudra Saraswat* has announced the release of Ubuntu Unity 22.10 Beta. This is the first official release from the Ubuntu Unity project after getting recognized as a community flavor of Ubuntu. The Ubuntu Unity project makes the legendary Unity desktop experience to the next level.
@@ -34,4 +35,8 @@ For further reading, see [the Ubuntu Unity 22.10 BETA's official release announc
 <a class="download" href="https://cdimage.ubuntu.com/ubuntu-unity/daily-live/current/">Download Ubuntu Unity 22.10 (Daily)</a>
 
 ## Ubuntu Unity 22.10 BETA screenshots
-Coming soon..
+The following section showcases some screenshots captured in Ubuntu Unity 22.10 BETA.
+
+{% include image-gallery.html folder="/screenshots/Ubuntu Unity 22.10" %}
+
+
