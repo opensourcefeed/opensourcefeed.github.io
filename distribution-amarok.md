@@ -15,6 +15,7 @@ image: /assets/images/preview/amarok.jpg
 description : "Amarok Linux is a Debian stable based GNU/Linux distribution of Brazilian origin"
 
 releases:
+  Amarok Linux 22.09: /amarok-linux-2209-release/
   Amarok Linux 3.4.1: /amarok-linux-341-release/
   Amarok Linux 3.2: "/amarok-3.2-release/"
   Amarok Linux 3.1.1: "/amarok-3.1.1-release/"
