@@ -33,7 +33,7 @@ Other than the listed changes above, most part of the Cinnamon Desktop remains i
 
 For further reading, see the [official Ubuntu Cinnamon Remix 21.10 release announcement](https://ubuntucinnamon.org/ubuntu-cinnamon-remix-21-10-impish-indri-released/) in the projects website.
 
-<a href="[https://cdimage.ubuntu.com/Ubuntu Cinnamon Remix/releases/21.10/release/](https://sourceforge.net/projects/ubuntu-cinnamon-remix/files/)" class="download">Download Ubuntu Cinnamon Remix 21.10 Impish Indri</a>
+<a href="https://sourceforge.net/projects/ubuntu-cinnamon-remix/files/" class="download">Download Ubuntu Cinnamon Remix 21.10 Impish Indri</a>
 
 ## Ubuntu Cinnamon Remix 21.10 Impish Indri screenshots
 {% include image-gallery.html folder="/screenshots/Ubuntu Cinnamon Remix 21.10" %}
