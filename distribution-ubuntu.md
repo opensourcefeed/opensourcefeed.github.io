@@ -14,6 +14,8 @@ base : [debian]
 description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a range of hardware platforms like desktop, server, clouds and IoT.
 
 releases :
+  Ubuntu 22.10 Kinetic Kudu: "/ubuntu-22.10-kinetic-kudu-release/"
+  Ubuntu 22.04: '#'
   Ubuntu 21.10 Impish Indri: "/ubuntu-21.10-impish-indri-release/"
   Ubuntu 20.10 Groovy Gorilla: /ubuntu-20.10-release/
   Ubuntu 20.04 Focal Fossa: /ubuntu-20.04-release/
@@ -31,6 +33,7 @@ releases :
   Ubuntu 4.10: "/ubuntu-classic-ubuntu-4.10/"
 
 screenshots:
+  Ubuntu 22.10 Kinetic Kudu: "/ubuntu-22.10-kinetic-kudu-release/"
   Ubuntu 21.10 Impish Indri: "/ubuntu-21.10-impish-indri-release/"
   Ubuntu 20.10 Groovy Gorilla: /ubuntu-20.10-release/
   Ubuntu 20.04 Focal Fossa: /ubuntu-20.04-release/
