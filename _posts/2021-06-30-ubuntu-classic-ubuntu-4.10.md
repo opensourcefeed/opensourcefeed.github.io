@@ -9,7 +9,7 @@ tags:
 - ubuntuclassics
 - Ubuntu Classic Series
 - Ubuntu 4.10 Warty Warthog
-image: "/assets/images/post-images/ubuntu-classic/4.10.jpg"
+image: /assets/images/post-images/ubuntu-classic/4.10.jpg
 video: https://www.youtube.com/embed/ObQnKSjnTDs
 description: An article on Ubuntu 4.10 - the first most stable release of Ubuntu. The article also includes screenshots of Ubuntu 4.10 along with the preview video.
 ---
