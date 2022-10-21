@@ -15,6 +15,7 @@ tagline: Budgie combined with Solid Ubuntu foundation
 description : Ubuntu Budgie is an official flavor of Ubuntu combining solid Ubuntu core with elegant, efficient and productive budgie desktop, developed by Solus project.
 
 screenshots:
+  Ubuntu Budgie 22.10 Kinetic Kudu: /ubuntu-budgie-22.10-kinetic-kudu-release/
   Ubuntu Budgie 21.10 Impish Indri: /ubuntubudgie-21.10-release/
   Ubuntu Budgie 21.04 Hirsute Hippo: /ubuntubudgie-21.04-release/
   Ubuntu Budgie 20.10 Groovy Gorilla: /ubuntu-budgie-20.10-release/
@@ -28,6 +29,8 @@ screenshots:
   budgie remix 16.04 : "http://distroscreens.blogspot.com/2016/06/budgie-remix-1604-screenshots.html"
 
 releases:
+  Ubuntu Budgie 22.10 Kinetic Kudu: /ubuntu-budgie-22.10-kinetic-kudu-release/
+  Ubuntu Budgie 22.04: '#'
   Ubuntu Budgie 21.10 Impish Indri: /ubuntubudgie-21.10-release/
   Ubuntu Budgie 21.04 Hirsute Hippo: /ubuntubudgie-21.04-release/
   Ubuntu Budgie 20.10 Groovy Gorilla: /ubuntu-budgie-20.10-release/
