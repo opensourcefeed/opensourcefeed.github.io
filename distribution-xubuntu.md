@@ -13,6 +13,8 @@ tagline: Faster and productive with Xfce
 description : Xubuntu is a full featured, yet lightweight and resource efficient GNU/Linux distribution. Stories and updates on Xubuntu.
 
 releases:
+  Xubuntu 22.10 Kinetic Kudu: /xubuntu-22.10-kinetic-kudu-release/
+  Xubuntu 22.04: '#'
   Xubuntu 21.10 Impish Indri: "/xubuntu-21.10-release/"
   Xubuntu 21.04 Hirsute Hippo: "/xubuntu-21.04-release/"
   Xubuntu 20.10 Groovy Gorilla: "/xubuntu-20.10-release/"
@@ -31,6 +33,7 @@ stories:
   "SRU for 16.04: Intel cursor bug fix released" : "https://xubuntu.org/news/sru-16-04-intel-cursor-bug-fix-released/"
 
 screenshots :
+  Xubuntu 22.10 Kinetic Kudu: /xubuntu-22.10-kinetic-kudu-release/
   Xubuntu 21.10 Impish Indri: "/xubuntu-21.10-release/"
   Xubuntu 21.04 Hirsute Hippo: "/xubuntu-21.04-release/"
   Xubuntu 20.10 Groovy Gorilla: "/xubuntu-20.10-release/"
