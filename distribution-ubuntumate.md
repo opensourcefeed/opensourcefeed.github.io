@@ -32,7 +32,6 @@ reviews:
   Ubuntu MATE 15.10 : "http://open-source-feed.blogspot.com/2015/11/ubuntu-mate-1510-review.html"
 
 screenshots:
-  Ubuntu MATE 22.10 Kinetic Kudu: /ubuntu-mate-22.10-kinetic-kudu-release/
   Ubuntu 20.04 Focal Fossa: "/ubuntu-mate-20.04/"
   Ubuntu MATE 19.10 Eoan Ermine: "/1-ubuntu-mate-eoan-screenshots/"
   Ubuntu MATE 18.10 Cosmic Cuttlefish: "https://distroscreens.blogspot.com/2018/11/ubuntu-mate-1810-cosmic-cuttlefish.html"
