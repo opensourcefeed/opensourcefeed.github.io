@@ -80,7 +80,7 @@ convert original-image.png -background white -flatten -alpha off new-image.jpg
 
 For converting multiple image files with background color,
 ```bash
-for image in *.png ;  do convert "$image" -background white -flatten -alpha off  "${image%.*}.jpg"
+for image in *.png ;  do convert "$image" -background white -flatten -alpha off  "${image%.*}.jpg"; done
 ```
 
 ## How to convert from any image format to any other image format?
