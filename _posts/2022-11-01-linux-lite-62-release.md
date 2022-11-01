@@ -10,7 +10,7 @@ tags:
   - Linux Lite 6.2 screenshots
   - Linux Lite 6.2 preview video
 image: /assets/images/post-images/linuxlite/6.2.jpg
-video: https://www.youtube.com/embed/lw5bWtrlOLY
+video: https://www.youtube.com/embed/ot5kKBdfzcw
 ---
 
 **The** Linux Lite project has announced the availability of Linux Lite 6.2, an incremental update in the Linux Lite 6.2 release. Linux Lite 6.2 includes UI improvements, software updates, and bug fixes.
