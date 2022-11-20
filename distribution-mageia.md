@@ -13,6 +13,7 @@ base : Independent
 description: "Mageia is a community driven GNU/Linux operating system backed by a non-profit organization of elected contributors. Releases, reviews and other updates on Mageia."
 
 releases:
+  Mageia 9 Alpha: "/mageia-9-release/"
   Mageia 8: "/mageia-8-release/"
   Mageia 7: "/1-mageia-7-release-screenshots/"
   Mageia 7 Beta 3 : "https://blog.mageia.org/en/2019/04/17/mageia-7-beta-3/"
