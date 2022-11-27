@@ -7,6 +7,7 @@ type : Linux
 permalink: /distribution/peppermint
 logo: peppermintos.png
 preview: peppermintos.jpg
+image: /assets/images/preview/peppermintos.jpg
 home_page: https://peppermintos.com
 desktops: [lxde]
 base : [debian, devuan]
