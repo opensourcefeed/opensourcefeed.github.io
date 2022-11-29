@@ -15,6 +15,7 @@ image: /assets/images/preview/salix.png
 description: Salix is a Slackware-based GNU/Linux distribution that inherits the core benefits of Slackware and offers a user-friendly experience.
 
 releases:
+  Salix Live Xfce 15.0: /salixlive-xfce-15/
   Salix 15.0: /salix-15.0-release/
 
 screenshots:

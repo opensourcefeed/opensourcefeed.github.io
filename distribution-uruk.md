@@ -30,6 +30,6 @@ screenshots:
 
 **Uruk GNU/Linux** is a 100% libre GNU/Linux distribution. The main objective of this distribution is to provide an easy-to-use, modern, general-purpose GNU/Linux distribution that is easy to configure and customize.  
 
-Uruk inhertis from *PureOS*, a distribution focusing on the idea of convergence. It is shipped with a MATE Desktop environment with some cool *Compiz* effect to provide a modern and highly productive desktop experience. The initial versions of Uruk were based on Trisquel.
+Uruk inherits from *PureOS*, a distribution focusing on the idea of convergence. It is shipped with a MATE Desktop environment with some cool *Compiz* effect to provide a modern and highly productive desktop experience. The initial versions of Uruk were based on Trisquel.
 
 In addition to all provisions from a Debian family distribution, Uruk provides a command line utility to install RPM (Redhat Package Manager) packages. It also includes a simulator for various package management tools so that you can use any package management tool command to install, uninstall and update packages.
