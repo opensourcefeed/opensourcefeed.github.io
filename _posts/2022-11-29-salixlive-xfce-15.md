@@ -10,6 +10,7 @@ tags:
   - Salix Live Xfce 15.0 screenshots
 image: /screenshots/Salix 15.0/01.0 Salix Desktop.png
 description: A brief release announcement and screenshots of Salix Live Xfce 15.0, a slackware based user friendly GNU/Linux distribution. This release offers a wider range of packages.
+video: https://www.youtube.com/embed/4CzL5Y7B5Ko
 ---
 
 **On** 28th November 2022, the Salix community announced the release of Salix Live Xfce 15.0. Salix Live Xfce 15.0 closely matches with Salix 15.0 standard release announced previously. On top, Salix Live 15.0 includes a graphical installer for installing the system. The live system also offers persistence - so you can either install the system on your disk or carry it as a portable system.
