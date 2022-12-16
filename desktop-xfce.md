@@ -9,8 +9,10 @@ preview: xfce-preview.jpg
 home_page: http://xfce.org/
 description: Xfce is a Gtk based, lightweight, yet modern desktop environment with a familiar user experience.
 tagline: Stay productive without sacrificing a lot of system resources
+image: /assets/images/preview/xfce-preview.jpg
 
 releases:
+  Xfce 4.18: /xfce-4.18-release/
   Xfce 4.14: "/xfce-4.14-release-gtk3/"
 ---
 
