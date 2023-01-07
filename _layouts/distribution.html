@@ -230,6 +230,16 @@
                 </ol>
             </div>
             {% endif %}
+            {% if page.related %}
+            <div class="story-listing">
+                <h2>Projects related to {{page.title}}</h2>
+                <ul>
+                {% for related in page.related %}
+                <li><a href="{{related[1]}}">{{related[0]}}</a></li>
+                {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
             <hr />
             <!--Disqus comment box-->
             <div class="comment-area">
