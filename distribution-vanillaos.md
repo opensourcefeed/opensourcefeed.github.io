@@ -6,6 +6,7 @@ Category: Distribution
 permalink: /distribution/vanillaos
 logo: vanilla-logo.png
 preview: vanilla.jpg
+image: /assets/images/preview/vanilla.jpg
 home_page: https://vanillaos.org/
 desktops: [gnome]
 base : [ubuntu]
