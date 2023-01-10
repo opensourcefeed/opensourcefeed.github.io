@@ -14,6 +14,7 @@ base : [debian]
 description : Pardus is a Debian based GNU/Linux distribution developed with the help of Turkish Goverment. It is mainly intended to use in government office in Turkey.
 
 releases:
+  Pardus 21.4 Education: /pardus-21.4-education-edition/
   Pardus 21.0: "/pardus-21.0-release/"
   Pardus 19.0: "/1-pardus-19.0-screenshots/"
 
