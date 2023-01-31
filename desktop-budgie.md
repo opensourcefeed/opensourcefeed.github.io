@@ -24,7 +24,7 @@ releases:
 
 **Budgie** is a modern desktop environment developed by Solus Project. The main focus of the budgie desktop is simplicity and elegance. It is independently developed from scratch to provide optimal performance and a traditional user experience without compromising productivity and user-friendliness.
 
-Currently, the Budgie desktop integrates closely with the GNOME stack, utilizing GNOME components wherever possible without adding its complexity. Future releases of Budgie Desktop, beginning from Budgie 11 based on C/C++ and Qt framework to make it more efficient and reliable.
+Currently, the Budgie desktop integrates closely with the GNOME stack, utilizing GNOME components wherever possible without adding its complexity.
 
 Though budgie is the flagship desktop for Solus, it is also available for other major GNU/Linux distributions like Ubuntu, Fedora, OpenSUSE, Arch, Cinnamon ..etc.
 
