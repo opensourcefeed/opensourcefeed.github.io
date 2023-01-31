@@ -1,7 +1,7 @@
 ---
 layout: distribution
 uid: elementary
-title: 'elementary OS (eOS)'
+title: 'elementary OS'
 Category: Distribution
 permalink: /distribution/elementary
 type : Linux
@@ -10,11 +10,11 @@ preview: elementary.jpg
 home_page: https://elementary.io/
 desktops: [pantheon]
 base : [ubuntu]
+image: /assets/images/preview/elementary.jpg
 description: elementary OS is an open source operating system with the motto of pay what you want. The elementary is a profit oriented project and presents a sustainable development ecosystem.
 
-description : elementary OS (eOS) is fast and simple GNU/Linux distribution built on top of Ubuntu LTS releases. Stories and updates on elementary OS.
-
 releases:
+  elementary OS 7: /elementary-7-release/
   elementary OS 6.1: "/elementary-os-61-emjolnir-em-released-with-improved-user-experience/"
   elementary OS 6 Odin: "/elementary-6.0-release/"
   elementary OS 5.1 Hera: "/elementary-5.1-hera/"
@@ -53,11 +53,19 @@ screenshots:
     
 ---
 
-**elementary OS (eOS)** is fast and simple GNU/Linux distribution built on top of Ubuntu LTS releases. The main highlight of elementary is a modern, easy to use & efficient desktop environment named *Pantheon*.
+**elementary OS** is a free and open-source operating system based on Ubuntu. It is designed with simplicity, speed, and efficiency in mind and is built on top of the long-term support (LTS) releases of Ubuntu, ensuring stability and security.
 
-Visually, elementary OS resembles with other properietary operating systems like macOS and the main 
-target of this distribution is to provide a familar user experience for people migrating from other
-platforms like MS Windows and macOS.
+The main highlight of elementary OS is its custom desktop environment named Pantheon, which is modern, easy to use, and highly efficient. The desktop environment has a visually appealing interface that resembles proprietary operating systems like macOS, making it a familiar choice for people who migrate from platforms like Windows and macOS.
 
-In addition to the custom desktop environment, elementary also offers in-house-built applications like
-AppCenter which is a lightweight, easy to use package manager.
+In addition to its custom desktop environment, elementary OS also features in-house-built applications, such as 
+
+- AppCenter - A lightweight and user-friendly package manager that makes installing, updating, and managing software a breeze.
+- Files - File Manager
+- Videos - Video Player
+- Music - Music Player
+- Photos - Image Manager
+- Mail - Email client.
+
+Overall, elementary OS is an excellent choice for anyone looking for a fast, simple, and visually appealing operating system that is built on a solid and reliable foundation. Whether you're a beginner or an experienced user, elementary OS offers a seamless and enjoyable computing experience.
+
+*Content is modified with the help of ChatGPT*
