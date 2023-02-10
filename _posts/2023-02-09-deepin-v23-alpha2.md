@@ -8,7 +8,7 @@ tags:
   - Beautiful Chinese GNU/Linux desktop
   - macOS like GNU/Linux desktop
 image: /assets/images/post-images/deepin/deepin23.jpg
-video: https://youtube.com/embed/UHfOZg3bcsw
+video: https://youtube.com/embed/QcucpLA0n5Y
 ---
 
 **The** deepin community has announced the release of Deepin OS V23 Alpha 2 - the second development release before the upcoming Deepin 23 release. The Deepin OS V23 Alpha 2 release further enhances the desktop experience to improve the user experience.
