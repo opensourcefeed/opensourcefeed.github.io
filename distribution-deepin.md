@@ -10,7 +10,7 @@ home_page: https://www.deepin.org/en/
 desktops: [deepindesktop]
 base : [debian]
 
-description : deepin is a stunning GNU/Linux distribution based on Debian. It brings a beautiful desktop environment called deepin. Stories, updates and other highlights on deepin.
+description : deepin is a stunning GNU/Linux distribution based on Debian. It brings a beautiful desktop environment called deepin. Read stories, updates, and reviews of deepin.
 
 releases :
   deepin 20.4: "/deepin-204-refines-the-user-experience/"
