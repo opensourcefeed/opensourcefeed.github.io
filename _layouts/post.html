@@ -51,7 +51,11 @@ layout: default
 
 			<article class="post-content">
 				{{ content }}
-				
+				{% if page.attribution %}
+				<div class="attribution">
+					Powered by {{page.attribution}}
+				</div>
+				{% endif %}
 				{% if page.video %}
 				<h2>
 					{% if page.videoTitle %} {{page.videoTitle}} {% else %} Video Preview {% endif %}

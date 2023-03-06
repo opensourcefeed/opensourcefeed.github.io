@@ -1,5 +1,5 @@
 ---
-title: 'Ubuntu 4.10 Warty Warthog: A Blast from the Past'
+title: 'Ubuntu 4.10 Warty Warthog: The first ever Ubuntu release'
 layout: post
 categories:
 - ubuntu
