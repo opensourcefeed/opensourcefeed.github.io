@@ -11,10 +11,12 @@ preview: tails-preview.png
 home_page: https://tails.boum.org/
 desktops: [gnome]
 base : [debian]
+image: /assets/images/preview/tails-preview.png
 
 description : "Tails - is a Debian-based operating system that offers provision for secure, anonymous, and private browsing. Stories, updates, and reviews on Tails GNU/Linux."
 
 releases:
+  Tails 5.11: "/tails-5.11-release/"
   Tails 4.25: "/tails-425-has-been-released/"
   Tails 4.22: "/tails-4.22-release/"
   Tails 3.16: "/1-tails-3.16-release/"
@@ -27,6 +29,8 @@ releases:
   Tails 3.0 : "http://open-source-feed.blogspot.com/2017/06/tails-30-released-first-release-based.html"
 ---
 
-**Tails** - *the amnesic live incognito system* is a live GNU/Linux distribution based on [Debian](/distribution/debian) that offers provision for secure, anonymous, and private browsing.
+**Tails** (The Amnesic Incognito Live System) is a Debian-based Linux distribution designed to provide privacy and anonymity while using the internet. Tails is a live operating system, which means that it runs from a USB stick or DVD without installing anything on the computer's hard drive. The system is designed to leave no trace of your activities on the computer you're using and automatically routes all internet traffic through the Tor network to conceal your IP address and location.
 
-It facilitates anonymous internet usage and overcomes censorship by routing all traffic through the **Tor** network. It also includes several tools like file encryptor, anonymous web browser, and secured email clients.
+Tails comes with a range of privacy and security tools, including the Tor Browser, encrypted email and chat clients, and secure file storage. It also includes a suite of tools for anonymizing and encrypting your communications and files, such as GnuPG encryption, Off-the-Record messaging, and a KeePassX password manager.
+
+Tails is often used by journalists, activists, whistleblowers, and anyone else who needs to communicate or access information securely and anonymously. However, it's important to note that using Tails alone is not enough to guarantee complete anonymity or security, and proper operational security practices are still essential.
