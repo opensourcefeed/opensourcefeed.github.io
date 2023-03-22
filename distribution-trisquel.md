@@ -10,7 +10,7 @@ preview: trisquel-8-flidas.jpg
 home_page: https://trisquel.info/
 desktops: [mate]
 base : [ubuntu]
-
+image: /assets/images/preview/trisquel-8-flidas.jpg
 description : "Trisquel an Ubuntu based GNU/Linux distribution that strictly follows the guidelines established by Free Software Foundation for 100% free operating system."
 
 screenshots:
@@ -18,6 +18,7 @@ screenshots:
   "Trisquel 8 Flidas" : "https://distroscreens.blogspot.com/2018/03/trisquel-8-flidas-screenshots.html"
 
 releases:
+  Trisquel 11 Aramo: /trisquel-11-release/
   Trisquel 10.0 Nabia: "/trisquel-100-nabia-has-been-released/"
   Trisquel 9 Etiona: "/trisquel-9-release/"
   Trisquel 8 Flidas: "http://open-source-feed.blogspot.com/2018/04/finally-trisquel-80-flidas-is-here-with.html"
