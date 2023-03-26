@@ -668,3 +668,9 @@ $breakpoint-md: 768px;
     margin-top: 50px;
   }
 }
+
+@media (max-width: $breakpoint-md) {
+  #master-section {
+    padding: 10rem 0 10rem 0;
+  }
+}
