@@ -15,6 +15,7 @@ tagline: "A pragmatic distribution for everyone"
 description: "OpenMandriva is a community for of old *Mandriva* Linux. Just like its ancestor, OpenMandriva is powered by RPM and Plasma Desktop"
 
 releases:
+  OpenMandriva ROME 23.03: /openmandriva-rome-2303-release/
   OpenMandriva Lx 4.2 RC: "/openmandriva-lx4.2-release/"
   OpenMandriva Lx 4.1: "/openmandriva-lx4.1-release/"
   OpenMandriva Lx 4.0: "https://www.openmandriva.org/en/news/article/the-best-until-openmandriva-does-better-released-omlx-4-0"
