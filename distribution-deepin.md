@@ -13,6 +13,7 @@ base : [debian]
 description : deepin is a stunning GNU/Linux distribution based on Debian. It brings a beautiful desktop environment called deepin. Read stories, updates, and reviews of deepin.
 
 releases :
+  deepin 20.9: /deepin-20.9-release/
   deepin 20.4: "/deepin-204-refines-the-user-experience/"
   deepin 20.2.2: /deepin-20.2.2-release/
   deepin 20.1: "/deepin-20.1-release/"
