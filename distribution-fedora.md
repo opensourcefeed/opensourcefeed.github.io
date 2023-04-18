@@ -21,6 +21,7 @@ reviews :
   Fedora 25 is not something worth to recommend: "http://open-source-feed.blogspot.com/2017/02/fedora-25-is-not-something-worth-to.html"
 
 screenshots :
+  Fedora 38 Workstation: /fedora-38-release/
   Fedora 37 Workstation: /fedora-37-release/
   Fedora 35 Plasma Spin: /fedora-35-plasma-spin/
   Fedora 35 Workstation: "/fedora-35-release"
@@ -46,6 +47,7 @@ screenshots :
   Fedora 24 Alpha : "http://distroscreens.blogspot.com/2016/04/fedora-24-alpha-gnome-320-screenshots.html"
 
 releases:
+  Fedora 38: /fedora-38-release/
   Fedora 38 Beta: /fedora-38-release/
   Fedora 37: /fedora-37-release/
   Fedora 36: "https://fedoramagazine.org/announcing-fedora-36/"
