@@ -5,7 +5,7 @@ categories: fedora release
 tags:
   - fedora
   - release
-image: /assets/images/post-images/deepin/deepin-20.9.jpg
+image: /assets/images/post-images/fedora/fedora-38.jpg
 description: The Fedora Project has announced the release of Fedora 38 - which includes the Workstation with GNOME 44, server editions, Fedora spins and other special editions.
 video: https://www.youtube.com/embed/62CfvGhSzzE
 ---
