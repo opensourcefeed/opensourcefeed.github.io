@@ -10,7 +10,7 @@ description: The Fedora Project has announced the release of Fedora 38 - which i
 video: https://www.youtube.com/embed/62CfvGhSzzE
 ---
 
-**Mr.** *Matthew * - Fedora project leader has announced the release of Fedora 38 - which includes the Workstation with GNOME 44, server editions, Fedora spins, Fedora labs and other special purpose images.
+**Mr.** *Matthew* - Fedora project leader has announced the release of Fedora 38 - which includes the Workstation with GNOME 44, server editions, Fedora spins, Fedora labs and other special purpose images.
 
 Fedora 38 introduces several new spins. Fedora spins are variants that promotes different desktop environments. The Fedora Budgie Spin offers a premiere Budgie Desktop experience on top of Fedora. While Fedora Sway window manager spin is for people who prefer tiling window manager. Sway is designed to function as a seamless alternative to the i3 window manager by utilizing the contemporary Wayland protocol. The Fedora 38 also Phosh image, which incorporates the Gnome-based Wayland shell specifically tailored for mobile devices.
 
