@@ -14,6 +14,7 @@ base : [debian]
 description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a range of hardware platforms like desktop, server, clouds and IoT.
 
 releases :
+  Ubuntu 23.04 Lunar Lobster: "/ubuntu-23.04-release/"
   Ubuntu 22.10 Kinetic Kudu: "/ubuntu-22.10-kinetic-kudu-release/"
   Ubuntu 22.04: '#'
   Ubuntu 21.10 Impish Indri: "/ubuntu-21.10-impish-indri-release/"
