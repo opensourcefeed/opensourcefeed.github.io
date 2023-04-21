@@ -1,7 +1,7 @@
 ---
 layout: distribution
 uid: ubuntucinnamon
-title: 'Ubuntu Cinnamon Remix'
+title: 'Ubuntu Cinnamon'
 Category: Distribution
 type: Linux
 permalink: /distribution/ubuntucinnamon
@@ -12,9 +12,10 @@ desktops: [cinnamon]
 base : [ubuntu]
 tagline: Stability of Ubuntu with the beauty of Cinnamon
 
-description : Ubuntu Cinnamon Remix is an unofficial flavor of Ubuntu with the Cinnamon Desktop environment. It is aims to deliver the stability and strengths of Ubuntu along with the Cinnamon Desktop.
+description : Ubuntu Cinnamon is an official flavor of Ubuntu with the Cinnamon Desktop environment. It combines solid Ubuntu foundation with the productive Cinnamon Desktop Environment.
 
 releases:
+  Ubuntu Cinnamon 23.04: /ubuntu-cinnamon-23.04-release/
   Ubuntu Cinnamon Remix 22.10: /ubuntu-cinnamon-remix-22.10-release/
   Ubuntu Cinnamon Remix 21.10: "/ubuntu-cinnamon-21.10-release/"
   Ubuntu Cinnamon Remix 21.04: "/ubuntucinnamon-21.04-release/"
@@ -23,6 +24,7 @@ releases:
   Ubuntu Cinnamon Remix 19.10: "/1-ubuntu-cinnamon-19.10/"
 
 screenshots:
+  Ubuntu Cinnamon 23.04: /ubuntu-cinnamon-23.04-release/
   Ubuntu Cinnamon Remix 22.10: /ubuntu-cinnamon-remix-22.10-release/
   Ubuntu Cinnamon Remix 21.10: "/ubuntu-cinnamon-21.10-release/"
   Ubuntu Cinnamon Remix 21.04: "/ubuntucinnamon-21.04-release/"
@@ -33,4 +35,6 @@ screenshots:
 
 **Ubuntu Cinnamon Remix** is a community flavor of Ubuntu with the Cinnamon Desktop. It fulfills long-standing demand for a Ubuntu flavor with the beautify and customizability of Cinnamon Desktop.
 
-The Cinnamon Remix project started in 2019 and the initial stable release was 19.10 Eoan Ermine. The project is seeking approval to call itself as an official community flavor of Ubuntu.
+The Cinnamon Remix project started in 2019 and the initial stable release was 19.10 Eoan Ermine.
+
+The Ubuntu Cinnamon got recognized as an official community flavor of Ubuntu prior the Ubuntu 23.04 release.
