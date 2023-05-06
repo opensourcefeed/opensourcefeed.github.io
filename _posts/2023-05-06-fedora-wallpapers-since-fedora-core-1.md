@@ -1,5 +1,5 @@
 ---
-title: Fedora Wallpapers from Fedora Core 1 to Fedora 37 Workstation
+title: Fedora Wallpapers from Fedora Core 1 to Fedora 38 Workstation
 layout: post
 categories:
 - fedora
@@ -9,7 +9,7 @@ tags:
 - fedora
 - wallapapers
 - gallery
-description: A Collection of default wallpapers from the Fedora 1 Core to Fedora 37 Workstation. Recent releases includes both night and day variations.
+description: A Collection of default wallpapers from the Fedora 1 Core to Fedora 38 Workstation. Recent releases includes both night and day variations.
 ---
 
 **Wallpaper** is the first piece of artwork that catches the attention of an average computer user. For an operating system, it is important to have a good looking wallpaper if it is oriented towards beginners.
@@ -171,13 +171,22 @@ Fedora 21 was released on 9th December 2014. With this release, Fedora stopped t
 *Fedora 36 Workstation - Night Wallpaper*
 
 ## Fedora 37 Workstation
-Fedora 37 Workstation wallpapers as in the BETA release image.
+Fedora 37 Workstation wallpapers.
 
 ![Fedora 37 Workstation - Day wallpaper](/assets/images/post-images/fedora-wallpaper/f37-01-day.jpg)
 *Fedora 37 Workstation - Day Wallpaper*
 
 ![Fedora 37 Workstation - Night wallpaper](/assets/images/post-images/fedora-wallpaper/f37-02-night.jpg)
 *Fedora 37 Workstation - Night Wallpaper*
+
+## Fedora 38 Workstation
+Fedora 38 Workstation released on 17th April 2023 features GNOME 44 as the default desktop environment.
+
+![Fedora 38 Workstation - Day wallpaper](/assets/images/post-images/fedora-wallpaper/f38-01-day.jpg)
+*Fedora 38 Workstation - Day Wallpaper*
+
+![Fedora 38 Workstation - Night wallpaper](/assets/images/post-images/fedora-wallpaper/f38-01-night.jpg)
+*Fedora 38 Workstation - Night Wallpaper*
 
 ## Reference
 1. Fedora Core 1 to Fedora 32 wallpapers are taken from [Fedora Project Wiki](https://fedoraproject.org/wiki/Wallpapers).
