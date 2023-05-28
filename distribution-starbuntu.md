@@ -42,4 +42,4 @@ Some key features of Starbuntu include the below.
 - a forum on its home page for questions and answers, suggestions and bug reports
 - with TinyCore a boot alternative to a small but efficient operating system to backup or repair Starbuntu
 
-With a recent update, Starubuntu offers a first-class experience for the Italian locale. In addition to English, the distribution and official website are now available in the Italian locale. Further details are available on [StarUbuntu Italian website](https://die-starfingers.de/Starbuntu/it/index.html).
+With a recent update, Starbuntu offers a first-class experience for the Italian locale. In addition to English, the distribution and official website are now available in the Italian locale. Further details are available on [StarUbuntu Italian website](https://die-starfingers.de/Starbuntu/it/index.html).
