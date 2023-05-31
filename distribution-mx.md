@@ -14,6 +14,7 @@ tagline: Popular distribution in distrowatch
 description : "MX Linux is a cooperative venture between the antiX and former MEPIS communities, using the best tools and talents from each distributions."
 
 releases:
+  MX-23 Beta 1: /mx-linux-23-beta1/
   MX-21.2: /mx-21.2-wildflower-release/
   MX-21 Wildflower: /mx-21-wildflower-release/
   MX-19.2 KDE: "/mx19.2-kde/"
@@ -37,8 +38,4 @@ reviews:
   MX 15 is fast, lean and works out of the box, but with some rough edges : "https://www.dedoimedo.com/computers/mx-15.html"
 ---
 
-**MX Linux** is a cooperative venture between the antiX and former MEPIS communities, using the best tools and talents from each distro. It is a midweight OS designed to combine an elegant and efficient desktop with simple configuration, high stability, solid performance and medium-sized footprint.
-
-Being a Debian based distribution, MX Linux ships stable Kernel from latest stable Debian release and also provides latest Liquorix Kernel. The user can easily switch between these Kernels using MX Linux Installer.
-
-MX Linux includes 3 different ecosystems, featuring [Xfce](/desktop/xfce), Pasma, and Fluxbox desktop environments, respectively. It is configured to be maximum productive without compromising performance & user experience.
+MX Linux is a cutting-edge, lightweight, and user-friendly Linux distribution designed to optimize your digital experience. With its emphasis on performance and stability, MX Linux offers a seamless operating system that combines the power of Debian with the convenience of a custom-tailored desktop environment. Whether you're a seasoned Linux user or a beginner, MX Linux provides a hassle-free environment with intuitive tools and a vast array of pre-installed software. From blazing-fast startup times to efficient resource management, MX Linux is optimized to deliver exceptional speed and responsiveness. Discover a truly versatile and customizable operating system that meets your needs with MX Linux.
