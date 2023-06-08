@@ -10,8 +10,7 @@ tags:
   - openSUSE Leap screenshots
 image: /assets/images/post-images/opensuse/leap-15.5.jpg
 description: The openSUSE community announces openSUSE Leap 15.5, an incremental update in Leap series offering latest security updates and critical bug fixes.
-video: https://youtube.com/embed/0OylM62cknA
-videoTitle: openSUSE Leap 15.2 Tour
+video: https://youtube.com/embed/0KANqIF-AP0
 ---
 
 **Mr.** *Douglas DeMaio* has announced the release of openSUSE Leap 15.5, an incremental update in the openSUSE Leap 15 series. Then openSUSE Leap 15.5 brings critical bug fixes, feature enhancements, and other technical updates in the Leap series.
@@ -39,3 +38,7 @@ For further reading, see the [official openSUSE 15.5 release announcement](https
 The openSUSE Leap 15.5 images are available with various desktop environments, for different architectures and different modes (net install, offline install and live). All the images are available for download from the openSUSE 15.5 website.
 
 <a href="https://get.opensuse.org/leap/" class="download">Download openSUSE Leap 15.5</a>
+
+## openSUSE Leap 15.5 Plasma screenshots
+
+{% include image-gallery.html folder="/screenshots/openSUSE Leap 15.5" %}
