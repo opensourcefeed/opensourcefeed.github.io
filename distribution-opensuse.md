@@ -10,11 +10,12 @@ preview: opensuse-laptop.jpg
 home_page: https://www.opensuse.org/
 desktops: [gnome, plasma, xfce]
 base : Independent
-tagline: Community driven, enterprise linux with SEL foundation
+tagline: Community driven, enterprise linux with SLE foundation
 
 description : "openSUSE is an independently developed, enterprise quality distribution backed by SUSE Foundation. Reviews, updates and other stories on openSUSE"
 
 releases :
+  openSUSE Leap 15.5: /opensuse-leap-155-release/
   openSUSE Leap 15.4: "/opensuse-leap-154-has-been-released/"
   openSUSE Leap 15.2: "/opensuse-leap-15.2/"
   openSUSE Leap 15 : "http://open-source-feed.blogspot.com/2018/05/opensuse-leap-15-released-based-on-suse.html"
@@ -38,4 +39,4 @@ faq:
 
 **openSUSE** is an independently developed, enterprise quality distribution backed by SUSE Foundation. In addition to all benefits of regular GNU/Linux distribution, it comes with powerful system administration and configuration tools like YaST - a comprehensive linux system configuration and installation, OBS - Open Build Service, build tool supporting builds for openSUSE itself and other main stream distributions like Fedora, Ubuntu, Debian ..etc.
 
-openSUSE comes in two different flavors. The *Leap* edition is an extremely stable, conservative, professional quality distribution. It shares core packages with SUSE Enterprise Linux(SEL) and enjoys support from dedicated community members. While, the *TumbleWeed* edition is a rolling edition with bleeding edge technologies.
+openSUSE comes in two different flavors. The *Leap* edition is an extremely stable, conservative, professional quality distribution. It shares core packages with SUSE Linux Enterprise(SLE) and enjoys support from dedicated community members. While, the *TumbleWeed* edition is a rolling edition with bleeding edge technologies.
