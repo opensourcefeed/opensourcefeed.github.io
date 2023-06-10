@@ -17,6 +17,8 @@ description: The Debian community announced release of Debian 12 Bookworm, the l
 
 Debian 12 *Bookworm* has a support period of 5 years. During this period, users will get critical bug fixes and security updates.
 
+<div class="alert alert-info">Debian adopts release codenames from Pixar Toy Story movie characters. <strong>Debian 13</strong> will be known by the code name <strong>Trixie</strong>.</div>
+
 ## What's new in Debian 12 <em>Bookworm</a>
 
 Debian 12 stable release is available with several desktop environments and updated packages. The noteworthy package updates avaiable in Debia 12 are as follows:
