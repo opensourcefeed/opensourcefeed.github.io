@@ -14,6 +14,7 @@ tagline: The universal operating system
 seo_title: Debian - The universal operating system
 
 releases:
+  Debian 12 Bookworm: /debian-12-bookworm/
   Debian 11 Bullseye: /debian-11-release/
   Debian 10 Buster: "/1-debian-10-buster-release-screenshots/"
   Debian 9.6 Stretch: "/1-debian-9.6-fixes-security-issues/"
