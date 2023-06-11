@@ -38,5 +38,5 @@ In addition to the desktop images, Debian 12 is available for nine architectures
 For [further information on Debian 12 *Bookworm*](https://www.debian.org/News/2023/20230610), see the official release announcement on project's website.
 
 ## Download Debian 12 *Bookworm*
-Debian 12 *Bookworm* images are not officially available yet. Once it is released, the images will be available on official download page.
+Debian 12 *Bookworm* images can be downloaded from the official download page.
 <a href="https://www.debian.org/CD/http-ftp/" class="download">Download Debian 12 <em>Bookworm</em>(official)</a>
