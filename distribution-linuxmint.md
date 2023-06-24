@@ -51,6 +51,7 @@ reviews:
   "Linux Mint 17.3 - May be the best distribution so far" : "http://open-source-feed.blogspot.com/2015/12/linux-mint-173-may-be-best-linux-distro.html"
   
 releases:
+  Linux Mint 21.2 BETA: /linuxmint-212-beta/
   Linux Mint 21 Vanessa: /linux-mint-21-vanessa-release/
   Linux Mint 20.3: "/linux-mint-203-emuna-em-released/"
   Linux Mint 20: "/linuxmint-20-release/"
