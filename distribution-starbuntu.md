@@ -19,7 +19,7 @@ description : Starbuntu is an Ubuntu based GNU/Linux distribution with Openbox w
 
 Starbuntu is an Ubuntu-based GNU/Linux distribution with the Openbox window manager. The Openbox in Starbuntu is customized to maximize the user experience.
 
-Starbuntu is offered in three languages: English, German and Italian which can be set during the boot process.
+Starbuntu is offered in four languages: English, German, Italian and Spanish which can be set during the boot process.
 
 The display manager is sddm, OpenBox serves as the window manager, Rox provides the desktop environment and the file manager and Tint2 offers the panel. Besides the collection of well-known software, it is enriched by many self-written applications which enable a harmonious, consistent, and very practical desktop environment. 
 
