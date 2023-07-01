@@ -15,6 +15,7 @@ tagline: Customize with your own ideas
 description : Peppermint OS is a Devuan or Debian-based GNU/Linux distribution that ships a bare minimum system with a custom theme and essential apps.
 
 releases:
+  Peppermint OS Debian Bookworm: /peppermintos-bookworm/
   Peppermint 10 Respin: "/peppermint-10-respin/"
   Peppermint 10 : "https://peppermintos.com/2019/05/peppermint-10-released/"
   Peppermint 9 : "http://open-source-feed.blogspot.com/2018/06/peppermint-os-9-released-with-ubuntu.html"
