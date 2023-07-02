@@ -9,6 +9,7 @@ tags:
   - universal operating system
 image: /assets/images/post-images/debian/debian-12.jpg
 description: The Debian community announced release of Debian 12 Bookworm, the latest stable release of oldest popular GNU/Linux distribution. Learn what's new and downlod now.
+video: https://youtube.com/embed/ovxw8C3R7A4
 ---
 
 **On** 10th June 2023, the Debian community announced the release of Debian 12 *Bookworm* - the latest stable release from the oldest popular GNU/Linux distribution. Debian 12 *Bookworm* includes several updated packages, bug fixes and user experience improvements.
@@ -40,3 +41,8 @@ For [further information on Debian 12 *Bookworm*](https://www.debian.org/News/20
 ## Download Debian 12 *Bookworm*
 Debian 12 *Bookworm* images can be downloaded from the official download page.
 <a href="https://www.debian.org/CD/http-ftp/" class="download">Download Debian 12 <em>Bookworm</em>(official)</a>
+
+
+## Debian 12 Bookworm Plasma screenshots
+
+{% include image-gallery.html folder="/screenshots/Debian 12 Plasma" %}
