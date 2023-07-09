@@ -4,6 +4,7 @@ layout: post
 categories: q4os release
 image: /assets/images/post-images/q4os/aquarius-5.2.jpg
 description: "Discover Q4OS 5.2 'Aquarius': A stable and lightweight Debian-based operating system with long-term support. Download now for free!"
+video: https://youtube.com/embed/snzjHZTDZcc
 ---
 
 **The** Q4OS team has announced the availability of Q4OS 5.2 'Aquarius' offering a stable and efficient operating system suitable for both production environments and personal use. With its long-term support (LTS) status, Q4OS Aquarius will receive security patches and software updates for at least five years. Based on Debian Bookworm 12 and featuring Plasma 5.27.5 (with an optional Trinity 14.1.1 desktop environment), Q4OS Aquarius is designed for 64-bit/x64 computers, while a 32-bit/i686pae edition for older systems will be released shortly. Plans are also underway to make Aquarius available for ARM devices.
@@ -36,3 +37,7 @@ Q4OS 5.2 *Aquarius* is available for download from the projects official website
 ## Conclusion
 
 Q4OS 5.2 'Aquarius' is a stable and lightweight Debian-based operating system offering long-term support and security updates for at least five years. With its unique Q4OS tools and the ability to switch between Plasma and Trinity desktop environments, Q4OS Aquarius provides flexibility and ease of use. Enjoy the reliability and benefits of this operating system, available for free download from the Q4OS website's Downloads section.
+
+## Q4OS 5.2 Plasma screenshots
+
+{% include image-gallery.html folder="/screenshots/Q4OS 5.2" %}
