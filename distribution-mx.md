@@ -14,6 +14,7 @@ tagline: Popular distribution in distrowatch
 description : "MX Linux is a cooperative venture between the antiX and former MEPIS communities, using the best tools and talents from each distributions."
 
 releases:
+  MX-23 RC2: /mx-linux-23-rc2/
   MX-23 Beta 1: /mx-linux-23-beta1/
   MX-21.2: /mx-21.2-wildflower-release/
   MX-21 Wildflower: /mx-21-wildflower-release/
