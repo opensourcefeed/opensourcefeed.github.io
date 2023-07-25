@@ -15,6 +15,7 @@ base : [debian, netrunner]
 description : "Neptune is a Debian-based distribution that ships all packages from the base distribution, along with a recent version of the Linux kernel and some additional drivers."
 
 releases:
+  Neptune 8.0 Juno: /neptuneos-80/
   Neptune 7.5 Ada: /neptune-7.5-release/
   "Neptune 6.0": "/neptune-6.0-spike-release/"
   "Neptune 5.6": "/1-neptune-5.6-improved-gaming-experience/"
