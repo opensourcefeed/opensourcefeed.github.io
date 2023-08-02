@@ -14,6 +14,7 @@ tagline: Popular distribution in distrowatch
 description : "MX Linux is a cooperative venture between the antiX and former MEPIS communities, using the best tools and talents from each distributions."
 
 releases:
+  MX-23 Libretto: /mx-23-libretto/
   MX-23 RC2: /mx-linux-23-rc2/
   MX-23 Beta 1: /mx-linux-23-beta1/
   MX-21.2: /mx-21.2-wildflower-release/
@@ -25,6 +26,7 @@ releases:
   MX Linux 17 Beta 1 (Dead Link) : "#"
 
 screenshots:
+  MX-23 Xfce: /mx-23-libretto/
   MX-19.2 KDE: "/mx19.2-kde/"
   MX Linux 19.2: "/mx-19.2-screenshots/"
   MX-19 Patito Feo: "/1-mx-19-release/"
