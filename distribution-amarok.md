@@ -15,6 +15,7 @@ image: /assets/images/preview/amarok.jpg
 description : "Amarok Linux is a Debian Testing-based GNU/Linux distribution of Brazilian origin. With a set of preconfigured applications, it makes computing easier."
 
 releases:
+  Amarok Linux 23.3: /amarok-233-release/
   Amarok Linux 23 Cinnamon: /amarok-linux-23-cinnamon/
   Amarok Linux 22.09: /amarok-linux-2209-release/
   Amarok Linux 3.4.1: /amarok-linux-341-release/
