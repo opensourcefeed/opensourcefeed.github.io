@@ -16,6 +16,7 @@ image: /screenshots/Devuan 3.0.0/01 Devuan 3.0.0 Desktop.png
 description: Devuan is a fork of Debian. The main goal of Devuan is to remove SystemD components. Devuan acts as a base distribution for many other distributions.
 
 releases:
+  Devuan 5.0 Daedalus: /devuan-50-release/
   Devuan 4.0 Chimaera: "https://www.mail-archive.com/dng@lists.dyne.org/msg30205.html"
   Devuan 3.0 Beowulf: "/devuan-3.0-release/"
   Devuan 2.1 ASCII: "/devuan-ascii-2.1/"
