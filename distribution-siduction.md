@@ -8,12 +8,13 @@ type : Linux
 logo: siduction.png
 preview: siduction-preview.png
 image: /assets/images/preview/siduction-preview.png
-home_page: https://siduction.site/
+home_page: https://siduction.org/
 base: [debian]
 tagline: Community based rolling distribution
 
 description : "Siduction is a rolling GNU/Linux distribution based on Debian"
 releases:
+  Siduction 2023.1.0: /202310-release/
   Siduction 2021.2.0: /siduction-2021.2.0-release/
 
 ---
