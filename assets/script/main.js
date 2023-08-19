@@ -70,18 +70,4 @@ $(function () {
             }
         }
     });
-
-    $('#myTab .nav-link').on('click', function (event) {
-        console.log("Clicked on " + this.id)
-        event.preventDefault();
-        $('#myTab .nav-link').removeClass('active');
-        $(this).addClass('active');
-        if (this.id === 'distribution-tab') {
-            $('#distribution').addClass('show active')
-            $('#desktop').removeClass('show active')
-        } else {
-            $('#distribution').removeClass('show active')
-            $('#desktop').addClass('show active')
-        }
-    })
 });
