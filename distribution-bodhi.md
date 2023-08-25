@@ -10,8 +10,6 @@ preview: bodhi linux.jpg
 home_page: http://www.bodhilinux.com/
 desktops: [moksha]
 base : [ubuntu]
-purchase:
-  OSDisc : "https://www.osdisc.com/products/bodhi"
 
 description: Bodhi Linux is minimal and resources efficient operating system based on Ubuntu LTS releases. It features Moksha desktop inspired by enlightenment 17 release.
 
