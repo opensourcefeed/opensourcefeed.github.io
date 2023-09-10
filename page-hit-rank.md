@@ -100,7 +100,11 @@ image: "/assets/images/meta/logo-collage.png"
          (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
     <div class="alert alert-info">
-        <strong>Disclaimer</strong> : The page hit count used in this page is retrieved using <a href="https://developers.google.com/analytics/">Google Analytics API</a>. It gives a vague idea about the distributions in which users are interested in. In no way, it is related to the quality or efficiency of the distribution. 
+        <h2>Disclaimer - Page Hit Count Information</h2>
+    <p><strong>Data Source:</strong> The page hit count displayed on this website is sourced from the <a href="https://developers.google.com/analytics/">Google Analytics API</a>. It serves as a general indicator of user interest and engagement with our content.</p>
+    <p><strong>Data Precision:</strong> Please note that the hit count provides a general overview and may not precisely reflect the quality or efficiency of the distribution or desktop environment. It is intended as a directional metric rather than an absolute measure.</p>
+    <p><strong>Data Update Frequency:</strong> Kindly be aware that the displayed data is not updated in real-time. It may take several days for changes to be accurately reflected due to the nature of data collection and processing.</p>
+    <p>We appreciate your understanding and patience as we work to provide you with insights into our website's performance.</p>
     </div>
     <h2>Express your views on distributions & desktop environments.</h2>
     <div id="disqus_thread"></div>

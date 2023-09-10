@@ -25,7 +25,7 @@ releases:
   Amarok Linux 3.1: "https://amaroklinux.org/amarok-linux-3-1-lancado/"
 ---
 
-**Mauna Linux ** (formerly Amarok Linux) is a GNU/Linux distribution based on Debian Testing. Besides the Debian repositories, Mauna has its software repository to offer newer versions of applications.
+**Mauna Linux** (formerly Amarok Linux) is a GNU/Linux distribution based on Debian Testing. Besides the Debian repositories, Mauna has its software repository to offer newer versions of applications.
 
 With the default installation, Mauna offers a set of commonly used applications to get started.
 
