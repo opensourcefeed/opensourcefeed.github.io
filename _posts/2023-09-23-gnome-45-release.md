@@ -2,7 +2,7 @@
 title: GNOME GNOME 45 <em>Rīga</em> is smoother and more efficient
 layout: post
 categories: gnome release
-image: /assets/images/post-images/fedora/fedora-39-beta.jpg
+image: /assets/images/post-images/gnome/gnome-45.jpg
 description: "Discover the latest enhancements in GNOME 45 Rīga – a smoother, more efficient desktop experience with improved search, privacy features, and stylish app upgrades. Explore what's new!"
 video: https://youtube.com/embed/47aZgF6xmS0
 videoTitle: GNOME 45 Trailer
