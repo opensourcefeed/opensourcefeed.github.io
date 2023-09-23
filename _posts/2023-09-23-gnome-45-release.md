@@ -1,5 +1,5 @@
 ---
-title: GNOME GNOME 45 <em>Rīga</em> is smoother and more efficient
+title: GNOME 45 <em>Rīga</em> is smoother and more efficient
 layout: post
 categories: gnome release
 image: /assets/images/post-images/gnome/gnome-45.jpg
