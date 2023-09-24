@@ -4,6 +4,7 @@ layout: post
 categories: fedora release
 image: /assets/images/post-images/fedora/fedora-39-beta.jpg
 description: "Discover the latest in Fedora's innovation journey with Fedora Linux 39 Beta. Explore notable updates, including GNOME 45 and LibreOffice 7.6. Join us in shaping the future of Fedora!" #FedoraLinux #BetaRelease #OpenSource
+video: https://youtube.com/embed/ilGyTrjKDWQ
 ---
 
 **The** Fedora Project has announced the release of Fedora Linux 39 Beta, marking a significant milestone on the path to the official Fedora Linux 39 release, scheduled for the end of October.
@@ -30,3 +31,7 @@ In certain respects, the Fedora 39 Beta release is notable for the absence of an
 🔧 Other Updates: Anticipate improvements in the GNU Toolchain, encompassing GCC 13.2, binutils 2.40, glibc 2.38, and gdb 13.2. These updates equip developers with cutting-edge tools and enhance security and performance for the entire Fedora Linux user community.
 
 For further reading, see the [Fedora 39 Beta release announcement](https://fedoramagazine.org/announcing-fedora-39-beta/) on projects blog.
+
+## Fedora 39 Workstation BETA screenshots
+
+{% include image-gallery.html folder="/screenshots/Fedora 39 BETA" %}
