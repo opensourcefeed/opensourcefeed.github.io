@@ -14,6 +14,7 @@ image: /assets/images/preview/elementary.jpg
 description: elementary OS is an open source operating system with the motto of pay what you want. The elementary is a profit oriented project and presents a sustainable development ecosystem.
 
 releases:
+  elementary OS 7.1: /elementaryos-71-release/
   elementary OS 7: /elementary-7-release/
   elementary OS 6.1: "/elementary-os-61-emjolnir-em-released-with-improved-user-experience/"
   elementary OS 6 Odin: "/elementary-6.0-release/"
