@@ -1,0 +1,2 @@
+export GOOGLE_APPLICATION_CREDENTIALS=credentials.json
+python3 fetch4.py
