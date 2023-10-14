@@ -311,6 +311,7 @@ blockquote {
   width: 100%;
   text-align: center;
   margin: auto;
+  margin-bottom: 1rem;
 }
 .story-listing {
   h3 {
@@ -646,7 +647,7 @@ p img + em {
 
 /* End of syntax highlight */
 
-a.download {
+a.download, .downloads a {
   background: #1777c9;
   margin: auto;
   display: block;

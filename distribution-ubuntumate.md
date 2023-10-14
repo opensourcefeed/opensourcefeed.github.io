@@ -15,6 +15,7 @@ image: /assets/images/preview/ubuntumate.jpg
 description : Ubuntu MATE is one of the popular community flavor of Ubuntu delivering, classical yet productive and mdoern desktop experience. Stories, updates and reviews of Ubuntu MATE.
 
 releases:
+  Ubuntu MATE 23.10 Mantic Minotaur: /ubuntu-2310-mantic-release/
   Ubuntu MATE 22.10 Kinetic Kudu: /ubuntu-mate-22.10-kinetic-kudu-release/
   Ubuntu MATE 20.10 Groovy Gorilla: "/ubuntu-mate-20.10-release/"
   Ubuntu 20.04 Focal Fossa: "/ubuntu-mate-20.04/"

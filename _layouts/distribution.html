@@ -17,11 +17,13 @@
                     </a>
                 </div>
                 {{ content }} {% if page.preview %}
+                {% for image in page.preview %}
                 <div class="preview">
-                    <a href="/assets/images/preview/{{ page.preview }}">
-                            <img src="/assets/images/preview/{{ page.preview }}" alt="{{ page.title}} featured image"/>
+                    <a href="/assets/images/preview/{{ image }}">
+                            <img src="/assets/images/preview/{{ image }}" alt="{{ page.title}} featured image"/>
                         </a>
                 </div>
+                {% endfor %}
                 {% endif %}
                 <hr>
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

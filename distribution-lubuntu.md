@@ -15,6 +15,7 @@ tagline: Ubuntu lightweight with LXQt
 description : Lubuntu is one of the oldest official community flavors of Ubuntu. It provides a lightweight desktop experience with LXQt desktop environment.
 
 releases:
+  Lbuntu 23.10 Mantic Minotaur: /ubuntu-2310-mantic-release/
   Lubuntu 23.04 Lunar Lobster: /lubuntu-23.04-release/
   Lubuntu 22.10 Kinetic Kudu: /lubuntu-22.10-kinetic-kudu-release
   Lubuntu 21.10 Impish Indri: /lubuntu-21.10-release/

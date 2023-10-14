@@ -15,6 +15,7 @@ tagline: Stability of Ubuntu with the beauty of Cinnamon
 description : Ubuntu Cinnamon is an official flavor of Ubuntu with the Cinnamon Desktop environment. It combines solid Ubuntu foundation with the productive Cinnamon Desktop Environment.
 
 releases:
+  Ubuntu Cinnamon 23.10 Mantic Minotaur: /ubuntu-2310-mantic-release/
   Ubuntu Cinnamon 23.04: /ubuntu-cinnamon-23.04-release/
   Ubuntu Cinnamon Remix 22.10: /ubuntu-cinnamon-remix-22.10-release/
   Ubuntu Cinnamon Remix 21.10: "/ubuntu-cinnamon-21.10-release/"

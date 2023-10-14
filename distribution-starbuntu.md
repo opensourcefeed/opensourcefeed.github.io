@@ -7,8 +7,10 @@ Category: Distribution
 type : Linux
 permalink: /distribution/starbuntu
 logo: starbuntu.png
-image: /assets/images/preview/starbuntu.jpg
-preview: starbuntu.jpg
+image: /assets/images/preview/starbuntu-1.jpg
+preview:
+  - starbuntu-1.jpg
+  - starbuntu-2.jpg
 home_page: https://die-starfingers.de/Starbuntu/en/index.html
 desktops: [Openbox]
 base : [ubuntu]

@@ -13,6 +13,7 @@ tagline: Faster and productive with Xfce
 description : Xubuntu is a full featured, yet lightweight and resource efficient GNU/Linux distribution. Stories and updates on Xubuntu.
 
 releases:
+  Xubuntu 23.10 Mantic Minotaur: /ubuntu-2310-mantic-release/
   Xubuntu 22.10 Kinetic Kudu: /xubuntu-22.10-kinetic-kudu-release/
   Xubuntu 22.04: '#'
   Xubuntu 21.10 Impish Indri: "/xubuntu-21.10-release/"

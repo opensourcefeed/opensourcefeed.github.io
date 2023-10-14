@@ -29,6 +29,7 @@ screenshots:
   budgie remix 16.04 : "http://distroscreens.blogspot.com/2016/06/budgie-remix-1604-screenshots.html"
 
 releases:
+  Ubuntu Budgie 23.10 Mantic Minotaur: /ubuntu-2310-mantic-release/
   Ubuntu Budgie 22.10 Kinetic Kudu: /ubuntu-budgie-22.10-kinetic-kudu-release/
   Ubuntu Budgie 22.04: '#'
   Ubuntu Budgie 21.10 Impish Indri: /ubuntubudgie-21.10-release/
