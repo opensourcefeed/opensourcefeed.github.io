@@ -32,7 +32,7 @@ screenshots:
   Ubuntu Cinnamon Remix 20.04: /ubuntu-cinnamon-20.04/
   Ubuntu Cinnamon Remix 19.10: "/1-ubuntu-cinnamon-19.10/"
 
-reviews:
+review:
   Ubuntu Cinnamon vs LMDE 6: https://distrowatch.com/weekly.php?issue=20231023#ubuntucinnamon
 ---
 
