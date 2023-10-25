@@ -10,9 +10,8 @@ preview: ubuntu-cinnamon.jpeg
 home_page: https://ubuntucinnamon.org
 desktops: [cinnamon]
 base : [ubuntu]
-tagline: Stability of Ubuntu with the beauty of Cinnamon
-
-description : Ubuntu Cinnamon is an official flavor of Ubuntu with the Cinnamon Desktop environment. It combines solid Ubuntu foundation with the productive Cinnamon Desktop Environment.
+tagline: Elegance Meets Efficiency
+description : "Experience Ubuntu Cinnamon: The perfect blend of elegance and efficiency with Cinnamon Desktop. Elevate your Ubuntu experience today!"
 
 releases:
   Ubuntu Cinnamon 23.10 Mantic Minotaur: /ubuntu-2310-mantic-release/
@@ -32,10 +31,15 @@ screenshots:
   Ubuntu Cinnamon Remix 20.10: "/ubuntu-cinnamon-20.10-release/"
   Ubuntu Cinnamon Remix 20.04: /ubuntu-cinnamon-20.04/
   Ubuntu Cinnamon Remix 19.10: "/1-ubuntu-cinnamon-19.10/"
+
+reviews:
+  Ubuntu Cinnamon vs LMDE 6: https://distrowatch.com/weekly.php?issue=20231023#ubuntucinnamon
 ---
 
-**Ubuntu Cinnamon Remix** is a community flavor of Ubuntu with the Cinnamon Desktop. It fulfills long-standing demand for a Ubuntu flavor with the beautify and customizability of Cinnamon Desktop.
+**Ubuntu Cinnamon** is an official community flavor of Ubuntu with the Cinnamon Desktop. It fulfills long-standing demand for a Ubuntu flavor with the beauty and flexibility of Cinnamon Desktop.
 
-The Cinnamon Remix project started in 2019 and the initial stable release was 19.10 Eoan Ermine.
+The Ubuntu Cinnamon started as a remix project in 2019, and the initial stable release was 19.10 Eoan Ermine.
 
-The Ubuntu Cinnamon got recognized as an official community flavor of Ubuntu prior the Ubuntu 23.04 release.
+The Ubuntu Cinnamon was recognized as an official community flavor of Ubuntu prior to the Ubuntu 23.04 release.
+
+In additon to the core benefits of Ubuntu and Cinnamon Desktop, Ubuntu Cinnamon offers a smooth brownish theme.
