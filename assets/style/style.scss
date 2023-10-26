@@ -57,7 +57,8 @@ main {
 
 #master-section {
   text-align: center;
-  padding: 10vh 0 12vh 0;
+  min-height: 50vh;
+  max-height: 512px;
   h1 {
     color: #4a86cf;
     font-weight: normal;
@@ -66,11 +67,14 @@ main {
     color: #dddddd;
     font-size: 1.1rem;
   }
+  .policy {
+    color: yellow;
+    font-size: 1rem;
+  }
   #search-btn {
     height: 100%;
   }
   #search-area {
-    height: 4rem;
     margin: 2rem 0 2rem 0;
   }
   #search-field {
@@ -667,12 +671,6 @@ $breakpoint-md: 768px;
 @media (min-width: $breakpoint-md) {
   aside ins.adsbygoogle {
     margin-top: 50px;
-  }
-}
-
-@media (max-width: $breakpoint-md) {
-  #master-section {
-    padding: 10rem 0 10rem 0;
   }
 }
 
