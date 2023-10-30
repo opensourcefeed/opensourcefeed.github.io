@@ -14,9 +14,10 @@ base : [trueos]
 telegram : 
   GhostBSD: "https://t.me/ghostbsd"
 
-description : GhostBSD is a simple and easy to use desktop BSD based on TrueOS. With pre-installed application and GUI it is suitable for beginners and advanced users.
+description : "Explore GhostBSD, a TrueOS-based distro with pre-installed GUI, user-friendly tools, and multimedia support. Make the switch today!"
 
 releases:
+  GhostBSD 23.10.1: /ghostbsd-23101-release/
   GhostBSD 22.01.12: "/ghostbsd-220112-iso-released/"
   GhostBSD 2021.09.06: "/ghostbsd-20210906-release/"
   GhostBSD 20.04: "/ghostbsd-20.04-release/"
@@ -31,8 +32,8 @@ stories:
 
 ---
 
-**GhostBSD** is a simple and elegant TrueOS based distribution. In addition to the core values of TrueOS, GhostBSD brings pre-installed GUI and applications to make things easier for desktop users.
+**GhostBSD** is a simple and elegant TrueOS-based distribution. In addition to the core values of TrueOS, GhostBSD brings pre-installed GUI and applications to make things easier for desktop users.
 
 GhostBSD includes a simple installer, a desktop environment,  and user-friendly package management. It also provides out-of-the-box multimedia support with pre-installed codecs.
 
-Previously, the GhostBSD was based on FreeBSD. On May 2018, the team decided to switch the base in favor of TrueOS. The trasition was initially implemented in GhostBSD 18.10 release.
+Previously, the GhostBSD was based on FreeBSD. In May 2018, the team decided to switch the base in favor of TrueOS. The transition was initially implemented in the GhostBSD 18.10 release.
