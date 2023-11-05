@@ -11,6 +11,7 @@ home_page: https://lxqt-project.org/
 description: LXQt is a Qt-based, modern desktop environment for GNU/Linux and other POSIX compatible systems. It implements a traditional desktop experience.
 
 releases:
+  LXQt 1.4.0: /lxqt-140-release/
   LXQt 1.3.0: "https://lxqt-project.org/release/2023/04/15/release-lxqt-1-3-0/"
   LXQt 1.0.0: "/lxqt-1.0-release/"
   LXQt 0.13.0 : "http://open-source-feed.blogspot.com/2018/05/lxqt-0130-released.html"
