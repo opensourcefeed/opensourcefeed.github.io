@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Jotto Digital - The Word Guessing Games</title>
+  <meta charset="UTF-8">
+  <meta name="Description"
+    CONTENT="Different variations of Wordle the word guessing game, we offers wordle and dordle, and reference to other implementations">
+  <meta name="title" content="Jotto Digital - The Word Guessing Games" />
+  <meta property="og:title" content="Jotto Digital - The Word Guessing Games" />
+  <meta property="og:url" content="https://www.opensourcefeed.org/puzzles/jotto-digital/" />
+  <meta property="og:image" content="https://www.opensourcefeed.org/puzzles/jotto-digital/preview.jpg" />
+  <meta name="image" content="https://www.opensourcefeed.org/puzzles/jotto-digital/preview.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="manifest.json">
+  <style>
+    html, body {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .common-bg {
+      background-color: #100575 !important;
+      background: linear-gradient(#072a2c, #064563);
+      font-family: sans-serif;
+    }
+
+    .menu-container {
+      max-width: 968px;
+      margin: auto;
+      text-align: center;
+      padding-top: 0;
+      color: white;
+    }
+
+    .intro {
+      color: white;
+      margin: auto;
+      margin-top: 3rem;
+      border-top: 1px solid #8882;
+      text-align: center;
+      background-color: #eee;
+      color: black;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    .intro .blocks {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+    }
+
+    .intro .blocks > div {
+      width: 300px;
+      border: 1px solid #0002;
+      margin: 1rem;
+      padding: 1rem;
+    }
+
+    .menu-container .external-buttons {
+      margin-top: 2rem;
+    }
+
+    .menu-container .external-buttons .button {
+      background-color: #f1c40f;
+    }
+
+    .logo {
+      font-size: 3rem;
+      padding-top: 1rem;
+      color: white;
+      font-weight: bold;
+    }
+
+    .button {
+      background-color: #07bc0c;
+      text-align: center;
+      margin: 1rem;
+      padding: 1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-radius: 5px;
+      color: black;
+      display: block;
+      text-decoration: none;
+      max-width: 512px;
+      margin: 1rem auto;
+    }
+
+    .button.special {
+      background-color: #1100ff;
+      color: white;
+    }
+
+    .menu-section p {
+      color: white;
+    }
+
+    .menu {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .sub {
+      font-weight: normal;
+      font-size: 0.8rem;
+    }
+
+    p a {
+      color: #fff;
+    }
+
+    .banner {
+      text-align: center;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 2px solid #fff8;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .games {
+      display: flex;
+      justify-content: center;
+    }
+
+    .game {
+      max-width: 320px;
+      box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
+      padding: 1rem;
+      background-color: #0008;
+      border-radius: 1rem;
+    }
+
+    .game h3 {
+      color: white;
+    }
+
+    .game p {
+      color: #eee;
+    }
+
+    a .game,
+    a:visited .game,
+    a:hover .game {
+      text-decoration: none;
+    }
+
+    .listing {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    figure {
+      padding: 1rem;
+      border-radius: 1rem;
+      position: relative;
+      width: 192px;
+    }
+
+    figure img {
+      border-radius: 1rem;
+      transition: opacity 0.2s;
+      width: 192px;
+      overflow: hidden;
+    }
+
+    figure img:hover {
+      opacity: 0.5;
+    }
+
+    figure h3 {
+      font-weight: normal;
+    }
+
+    figcaption {
+      background-color: #0008;
+      padding: 0rem 0.5rem;
+      line-height: 0.5rem;
+      color: white;
+      font-size: 1rem;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: max-content;
+    }
+
+    footer {
+      text-align: center;
+      height: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: #eee;
+      border-top: 1px solid #8882;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 720px) {
+      figure {
+        margin: 10px;
+      }
+      figure, figure img {
+        width: 128px;
+      }
+      figcaption {
+        width: 96px;
+        line-height: 0rem;
+      }
+    }
+
+  </style>
+</head>
+
+<body class="common-bg">
+  <div id="root">
+    <div class="menu-container">
+      <div class="logo-section">
+        <h1 class="logo">Jotto Digital</h1>
+      </div>
+      <div class="menu-section">
+        <p>Choose a game to proceed</p>
+        <div class="menu">
+          <a class="button" href="../wordle-unlimited">Wordle Unlimited<div class="sub">
+              One Word</div>
+          </a>
+          <a class="button" href="../jotto-daily">Wordle Daily<div class="sub">One Word
+            </div>
+          </a>
+          <a class="button" href="../dordle-unlimited">Dordle Unlimited<div class="sub">
+              Two Words
+            </div>
+          </a>
+          <a class="button" href="https://www.opensourcefeed.org/pentordle/">Pentordle<div class="sub">5 Words (Daily &
+            Unlimited)
+          </div>
+          <a class="button" href="https://www.opensourcefeed.org/decordle/">Decordle<div class="sub">10 Words (Daily &
+              Unlimited)
+            </div>
+          </a>
+          <a class="button" href="../word-gridle">Word Gridle<div class="sub">Form the
+              words & fill the
+              grid - Daily</div>
+          </a>
+          <a class="button" href="../gridle-unlimited">Word Gridle Unlimited<div class="sub">Form the
+              words
+              & fill the grid</div>
+          </a>
+          <div class="listing">
+            <a href="https://www.opensourcefeed.org/word-plant">
+              <figure>
+                <img src="assets/word-plant.jpg" alt="word plant featured image">
+                <figcaption>
+                  <h3>Word Plant</h3>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="https://www.opensourcefeed.org/word-gridle">
+              <figure>
+                <img src="assets/word-gridle.jpg" alt="word gridle featured image">
+                <figcaption>
+                  <h3>Word Gridle</h3>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy Me a Ko-fi', '#29abe0', 'J3J2Q47RJ');kofiwidget2.draw();</script> 
+          <div class="banner">
+            You may also get it on Google Play<br />
+            <a
+              href='https://play.google.com/store/apps/details?id=org.tahrik.wordle&utm_source=web&utm_campaign=bottom-banner&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
+                alt='Get it on Google Play' width="270" height="105"
+                src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' /></a>
+          </div>
+          <script async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6380671811722843"
+            crossorigin="anonymous"></script>
+          <!-- Jotto Digital Banner -->
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6380671811722843"
+            data-ad-slot="1829457969" data-ad-format="auto" data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+          <div class="external-buttons">
+            <h2>Original Implementations</h2>
+            <div class="listing">
+              <a href="https://foximax.com/">
+                <figure>
+                  <img src="assets/foximax.png" alt="Guess the letters to find hidden word. If the letter is not present in
+                            the word, you'll have to find one more word. Total 8 attempts will be available in this puzzle.">
+                  <figcaption>
+                    <h3>FoxiMax</h3>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="https://www.nytimes.com/games/wordle/index.html">
+                <figure>
+                  <img src="assets/wordle-icon.png" alt="The original wordle game currently owned by The Newyork Times">
+                  <figcaption>
+                    <h3>Wordle</h3>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <a class="button" target="_blank" href="https://zaratustra.itch.io/dordle">Dordle</a>
+            <a class="button" target="_blank" href="https://www.quordle.com/#/">Quordle</a>
+            <a class="button" target="_blank" href="https://octordle.com">Octordle</a>
+            <a class="button" target="_blank" href="https://www.opensourcefeed.org/decordle/">Decordle</a>
+            <a class="button" target="_blank" href="https://www.sedecordle.com/">Sedecordle</a>
+            <a class="button" target="_blank" href="https://duotrigordle.com/?">Duotrigordle</a>
+            <a class="button" target="_blank" href="https://worldle.teuteuf.fr/">Worldle</a>
+            <a class="button" target="_blank" href="https://www.mathler.com/">Mathler</a>
+            <a class="button" target="_blank" href="https://vegeta897.github.io/wordle-peaks">Wordle Peaks</a>
+          </div>
+          <p>If you like to have a new puzzle added in the above list, let us know <a
+              href="mail:contact.opensourcefeed@gmail.com">contact.opensourcefeed@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+    <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-format="autorelaxed"
+    data-ad-client="ca-pub-6380671811722843"
+    data-ad-slot="6568584607"></ins>
+  </div>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140248750-1"></script>
+  <script>function gtag() { dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-140248750-1")</script>
+  <script
+    type="text/javascript">!function (t, e, n, c, a, r, s) { t[n] = t[n] || function () { (t[n].q = t[n].q || []).push(arguments) }, (r = e.createElement(c)).async = 1, r.src = "https://www.clarity.ms/tag/57t32bv59c", (s = e.getElementsByTagName(c)[0]).parentNode.insertBefore(r, s) }(window, document, "clarity", "script")</script>
+
+    <div class="intro">
+      <h2>Key Benefits</h2>
+      <div class="blocks">
+        <div>
+          <h3>Enhanced Cognitive Skills</h3>
+          <p>Engage in our puzzle games to boost your analytical thinking, problem-solving abilities, and critical
+            reasoning.
+            Train your brain to think faster and more effectively.</p>
+        </div>
+        <div>
+          <h3>Expanded Vocabulary</h3>
+          <p>Word-based puzzles and challenges in our games will help you learn new words, improve your vocabulary, and
+            enhance your language skills. Have fun while you expand your lexicon!</p>
+        </div>
+        <div>
+          <h3>Memory Enhancement</h3>
+          <p>Playing memory-focused puzzles can sharpen your recall abilities and concentration. Watch your memory become
+            more
+            reliable and your attention span improve.</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      &copy; Tahrik Studio 2023
+    </footer>
+    </body>
+
+</html>
