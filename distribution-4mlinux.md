@@ -15,6 +15,7 @@ tagline: maintenance, multimedia, minserver & mystery
 description : 4MLinux is an independent, mini GNU/Linux distribution with main focus on maintenance, multimedia, minserver & mystery. Stories and updates on 4MLinux
 
 releases:
+  4MLinux 44.0 STABLE: /4mlinux-44-release/
   4MLinux 43.0 STABLE: /4mlinux-43-release/
   4MLinux 41.0 STABLE: /4mlinux-41.0-release/
   4MLinux 38.0 STABLE: /4mlinux-38.0-release/
