@@ -11,7 +11,7 @@ home_page: https://www.4mlinux.com/
 desktops: [JWM]
 base : Independent
 tagline: maintenance, multimedia, minserver & mystery
-
+image: /assets/images/preview/4MLinux.jpg
 description : 4MLinux is an independent, mini GNU/Linux distribution with main focus on maintenance, multimedia, minserver & mystery. Stories and updates on 4MLinux
 
 releases:
