@@ -1,3 +1,11 @@
+body {
+    margin: 0
+}
+
+#root {
+    padding: 1rem;
+}
+
 .common-bg {
     font-family: sans-serif;
 }
@@ -125,8 +133,17 @@ p.hint {
 footer {
     color: #dde6dd;
     border-top: 1px solid #555;
-    padding-top: 1rem;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
 }
+
+header, footer {
+    background: #3339;
+}
+
 
 h2 {
     font-weight: normal;
