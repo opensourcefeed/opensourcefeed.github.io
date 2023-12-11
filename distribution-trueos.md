@@ -7,14 +7,12 @@ type : BSD
 permalink: /distribution/trueos
 logo: trueos.png
 preview: trueos-preview.jpg
+image: /assets/images/preview/trueos-preview.jpg
 home_page: https://www.trueos.org/
 base: freebsd
 desktops: [lumina]
-purchase:
-  OSDisc : "https://www.osdisc.com/products/trueos"
-
-description: 
-  "TrueOS (formerly PC-BSD) is a BSD distribution that inherits the tradition of security and stability from FreeBSD with the latest drivers and security updates."
+description: "TrueOS (formerly known as PC-BSD or BSD) was a BSD distribution that inherited the legacy of security and stability from FreeBSD, an independent BSD distribution"
+status : Discontinued
 
 releases:
   TrueOS 18.03: "../TrueOS-2018.03-STABLE-released-with-updated-ecosystem-to-fight-meltdown-and-spectre-issues/"
@@ -36,12 +34,14 @@ stories:
 
 ---
 
-**TrueOS** (earlier, PC-BSD or BSD) is a BSD distribution that inherits the tradition of security and stability from FreeBSD, an independent BSD distribution. It also includes the latest drivers, security and package updates from the FreeBSD-CURRENT branch.
+**TrueOS** (formerly known as PC-BSD or BSD) was a BSD distribution that inherited the legacy of security and stability from FreeBSD, an independent BSD distribution. It incorporated the latest drivers, security updates, and package enhancements from the FreeBSD-CURRENT branch.
 
-The initial aim of TrueOS was to provide an ideal Desktop BSD operating system that is usable for both absolute beginners and advanced users. Later, the project decided to become a Core operating system that combines the power of FreeBSD and modern technologies like OpenRC and ZFS support to provide a stable base for other distributions to evolve from. Also, it was decided to take forward the idea of Desktop BSD under the title *Project Trident*.
+Initially conceived with the goal of offering an optimal Desktop BSD operating system suitable for both novices and advanced users, TrueOS underwent a transition. The project evolved into a Core operating system, merging the robustness of FreeBSD with contemporary technologies like OpenRC and ZFS support to establish a stable foundation for the development of other distributions. Additionally, the concept of Desktop BSD was carried forward under the new moniker Project Trident.
 
-The main highlights of TrueOS includes:
-- A brand new driver package shipped with TrueOS provides support for newer Intel graphics chipsets and hardware
-- *PersonalCrypt* allows to encrypt user home directory and to take it to other TrueOS machines.
-- GELI full disk encryption support which ensures the safety of data even in case of physical theft.
-- Full clang functionality built from ports
+Key features of TrueOS included:
+- A fresh driver package bundled with TrueOS that provided support for newer Intel graphics chipsets and hardware.
+- PersonalCrypt, enabling users to encrypt their home directories and seamlessly transfer them to other TrueOS machines.
+- GELI full disk encryption support, ensuring the security of data even in the event of physical theft.
+- Full clang functionality built from ports.
+
+It's important to note that TrueOS has since been discontinued, marking the end of its development and support.

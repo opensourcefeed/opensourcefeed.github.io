@@ -6,23 +6,26 @@ Category: Distribution
 permalink: /distribution/trident
 type: BSD
 logo: trident-logo.png
-home_page: http://www.project-trident.org
+home_page: https://www.project-trident.org
 desktops: [lumina]
 base : [trueos, void]
+preview: trident.jpg
+image: /assets/images/preview/trident.jpg
 telegram : 
   Trident: "https://t.me/ProjectTrident"
+status: Discontinued
 
-description : Project Trident is a desktop operating system based on TrueOS. In addition to all capabilities from regular BSD releases, it provides a set of tools to make life easier.
+description : Project Trident was a desktop operating system based initially on TrueOS, later on Void Linux. In addition to all capabilities from regular BSD releases, it provided a set of tools to make life easier.
 
 stories:
   "TrueOS becomes a core OS, the Desktop project will be continued as Trident" : "http://open-source-feed.blogspot.com/2018/06/trueos-is-becoming-core-operating-system.html"
 
 ---
 
-**Project Trident** or simple Trident is a desktop operating system based on TrueOS. In addition to all features of BSD distributions like security, stability, and reliability, Trident delivers a set of self-developed utilities to provide an easy-to-use system for beginners and advanced users.
+As of March 2022, Project Trident, a desktop operating system based on TrueOS, has been officially discontinued. The project, known for incorporating the security, stability, and reliability features of BSD distributions, provided a set of self-developed utilities to create an easy-to-use system for both beginners and advanced users.
 
-Project Trident can be considered as a continuation of the TrueOS desktop edition. This project took birth when the TrueOS project decided to become a core distribution. ie, a distribution that acts as a base for other distributions. The Trident project is lead by some of the TrueOS project members and they also invite the contributions from open source community.
+Initially conceived as a continuation of the TrueOS desktop edition, Project Trident emerged in response to TrueOS transitioning to a core distribution, serving as a foundational base for other distributions. Led by some of the TrueOS project members, the Trident project welcomed contributions from the open-source community.
 
-Project Trident will be using Lumina as default desktop environment. It is a simple and functional desktop environment developed by TrueOS team.
+Lumina served as the default desktop environment for Project Trident, offering a simple and functional desktop environment developed by the TrueOS team.
 
-On October 2019, the Project Trident team announced [the plan for switching the existing TrueOS foundation to Void Linux](https://project-trident.org/post/os_migration/). The team is working towards this objective and it expected that, the first Void Linux based release would be available by January 2020.
+In October 2019, the Project Trident team announced [their plan](https://project-trident.org/post/os_migration/) to switch the existing TrueOS foundation to Void Linux. This transition was completed in February of 2020 when the first official release using Void Linux was published. However, with the discontinuation of Project Trident in March 2022, these plans have been discontinued as well.
