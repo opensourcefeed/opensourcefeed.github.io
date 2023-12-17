@@ -8,6 +8,7 @@ type : Linux
 permalink: /distribution/manjaro
 logo: Manjaro-logo.svg
 preview: manjaro-preview.jpg
+image: /assets/images/preview/manjaro-preview.jpg
 home_page: https://manjaro.org/
 desktops: [plasma, xfce, mate, gnome, cinnamon, budgie, lxqt, i3, lxde, awesome, bspwm, deepin, cutefish]
 base : [arch]
@@ -15,7 +16,8 @@ base : [arch]
 description : Manjaro is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly scripts and installers to make it usable for newbies and professionals alike. Stories and updates on Manjaro GNU/Linux.
 
 releases:
-  Manjaro 23.0 Uranus: /manjaro-23-uranos-release/
+  Manjaro 23.1 Vulcan: /manjaro-231-volcano-release/
+  Manjaro 23.0 Uranos: /manjaro-23-uranos-release/
   Manjaro 21.1.0: "/manjaro-21.1.0-release/"
   "Manjaro 18.10": "/manjaro-18.10-release/"
   "Manjaro 17.1.11 (Dead Link)" : "#"
