@@ -7,10 +7,11 @@ type : Linux
 permalink: /distribution/archlabs
 logo: archlabs-logo.png
 preview: ArchLabs-preview.jpg
-home_page: https://archlabslinux.com/
+home_page: https://archlabs.github.io/
 desktops: [openbox]
 base : [arch]
 tagline: Arch linux inspired by Bunsenlabs
+status : Discontinued
 
 releases:
   ArchLabs 2022.01.18: /archlabs-linux-20220118-has-been-released/
@@ -24,13 +25,13 @@ releases:
 screenshots:
   ArchLabs Linux 2018.07 : "http://distroscreens.blogspot.com/2018/07/archlabs-linux-201807-screenshots.html"
 
-description : "ArchLabs is a rolling distribution inspired by the simplicity and look and feel of Bunsenlabs, another operating system based on Debian with Openbox window manager"
+description : "ArchLabs was a rolling distribution inspired by the simplicity and aesthetics of BunsenLabs, another Debian-based operating system featuring the Openbox window manager. As of 7th June 2023, the ArchLabs project has been discontinued."
 
 
 ---
 
-**ArchLabs** is a rolling GNU/Linux distribution featuring a well tweaked Openbox window manager. ArchLabs is inspired and influenced by the look and feel of BunsenLabs.
+**ArchLabs** was a rolling GNU/Linux distribution that featured a well-tweaked Openbox window manager. The project was inspired and influenced by the look and feel of BunsenLabs. However, it's important to note that as of 7th June 2023, the ArchLabs project has been discontinued.
 
-At the initial stages of development, ArchLabs was following the look and feel established by the Busnelabs. In later phases, ArchLabs developed it's own style and feel and it is longer a *fork* (at least in style) of BunsenLabs.
+In its early stages of development, ArchLabs closely followed the look and feel established by BunsenLabs. However, as the project progressed, ArchLabs developed its own distinctive style and feel, and it is no longer considered a *fork* (at least in style) of BunsenLabs.
 
-Another difference between ArchLabs and BunsenLabs is base distribution. BunsenLabs is based on Debian *stable* release, while ArchLabs is based on Arch and follows a rolling release model.
+One of the key distinctions between ArchLabs and BunsenLabs lies in their base distributions. While BunsenLabs is based on Debian's *stable* release, ArchLabs opted for a base built on Arch Linux, following a rolling release model. Despite its discontinuation, ArchLabs had carved out its niche as a rolling release distribution with a unique Openbox configuration. Users seeking a similar experience may explore alternative distributions that align with their preferences and requirements.
