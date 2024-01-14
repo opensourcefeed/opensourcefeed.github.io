@@ -377,12 +377,13 @@ pre.highlight {
   padding: 1rem;
   line-height: 1.5rem;
 }
-p img + em {
+p img + em, figcaption {
   display: block;
   text-align: center;
   border-bottom: 1px dashed #eee;
   font-style: normal;
   font-size: 15px;
+  color: initial;
 }
 /* Tab Display Fix */
 .tab-content > table.active {
