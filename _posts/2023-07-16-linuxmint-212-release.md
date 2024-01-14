@@ -15,7 +15,7 @@ Linux Mint 21.2 release includes all three official flavors, Xfce, Cinnamon, and
 
 ![Linux Mint 21.2 featured image](/assets/images/post-images/linux-mint/21.2-final.jpg)
 
-## Linux Mint 20.3 Victoria: New Features and Improvements
+## Linux Mint 21.2 Victoria: New Features and Improvements
 
 The following section briefly explains the noteworthy highlights of the Linux Mint 21.2 release.
 
