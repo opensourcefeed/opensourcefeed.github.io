@@ -73,9 +73,9 @@ image: "/assets/images/meta/logo-collage.png"
                         </td>
                         <td>
                             {% if desktop.current.rank < desktop.previous.rank %}
-                            <span title="Previous rank {{distribution.previous.rank}}" class="text-success"> &uarr;</span>
+                            <span title="Previous rank {{desktop.previous.rank}}" class="text-success"> &uarr;</span>
                             {% elsif desktop.previous.rank < desktop.current.rank %}
-                            <span title="Previous rank {{distribution.previous.rank}}" class="text-danger"> &darr;</span>
+                            <span title="Previous rank {{desktop.previous.rank}}" class="text-danger"> &darr;</span>
                             {% endif %}
                         </td>
                         <td class="text-right">{{desktop.current.count}}</td>
