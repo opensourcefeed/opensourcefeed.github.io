@@ -6,7 +6,7 @@ Category: Distribution
 type : BSD
 permalink: /distribution/netbsd
 logo: netbsd.png
-home_page: http://netbsd.org/
+home_page: https://netbsd.org/
 base : Independent
 purchase:
   OSDisc : "https://www.osdisc.com/products/netbsd"
@@ -17,8 +17,8 @@ releases:
   NetBSD 7.2 : "/00-netbsd-7.2-released-with-critical-security-updates-and-bug-fixes/"
   NetBSD 8.0 RC1: "https://open-source-feed.blogspot.com/2018/04/netbsd-80-rc1-is-available-now.html"
   NetBSD 7.1.2 : "../NetBSD-7.1.2-released-with-security-fixes/"
-  NetBSD 7.1.1 : "http://www.netbsd.org/releases/formal-7/NetBSD-7.1.1.html"
-  NetBSD 7.1 : "http://open-source-feed.blogspot.com/2017/03/netbsd-71-released-with-raspberry-pi.html"
+  NetBSD 7.1.1 : "https://www.netbsd.org/releases/formal-7/NetBSD-7.1.1.html"
+  NetBSD 7.1 : "https://open-source-feed.blogspot.com/2017/03/netbsd-71-released-with-raspberry-pi.html"
   
 ---
 

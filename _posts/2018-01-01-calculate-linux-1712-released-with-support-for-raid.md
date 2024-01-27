@@ -30,4 +30,4 @@ Some of the notable highlights in Calculate Linux 17.12 can be summarized as fol
 > * The LXC/LXD container version was renamed to Calculate Container Scratch (CCS).
 > * 11 493 binary packages are available.
 
-You can read [original Calculate Linux 17.12 release announcement](http://www.calculate-linux.org/blogs/en/681/show) in projects website.
+You can read [original Calculate Linux 17.12 release announcement](https://www.calculate-linux.org/blogs/en/681/show) in projects website.

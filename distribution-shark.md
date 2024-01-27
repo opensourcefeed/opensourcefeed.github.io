@@ -7,17 +7,17 @@ type: Linux
 permalink: /distribution/shark
 logo: Shark logo.png
 preview: sharklinux.jpg
-home_page: http://sharklinuxos.org
+home_page: https://sharklinuxos.org
 desktops: [mate]
 base: [debian, ubuntu]
 
 description : Shark Linux is a continuous release operating system based on Debian/Ubuntu. Unlike most of the operating systems, Shark Linux usually does not version its releases.
 
 releases:
-  Shark Linux 4.13.0-17 : "http://sharklinuxos.org/?page_id=7543"
+  Shark Linux 4.13.0-17 : "https://sharklinuxos.org/?page_id=7543"
 
 reviews:
-  Swimming with Shark Linux (Distrowatch) : "http://distrowatch.com/weekly.php?issue=20170619#sharklinux"
+  Swimming with Shark Linux (Distrowatch) : "https://distrowatch.com/weekly.php?issue=20170619#sharklinux"
 ---
 **Shark Linux** is a continuous release operating system based on Debian/Ubuntu. Unlike most of the operating systems, Shark Linux usually does not version its releases.
 

@@ -19,4 +19,4 @@ I like that while MX is light on resources, it provides a lot of popular softwar
 I ran into just a few rough edges, like the theme changer asking me to restart Firefox and the update manager not refreshing its package information before downloading new updates. Earlier I mentioned some frustration with the many overlapping configuration tools, but I acknowledge what I see as clutter could be another person's convenience. 
 </blockquote>
 
-You can read [complete review](http://distrowatch.com/weekly.php?issue=20170109#mx) and other open source related news in distrowatch weekly news letter.
+You can read [complete review](https://distrowatch.com/weekly.php?issue=20170109#mx) and other open source related news in distrowatch weekly news letter.

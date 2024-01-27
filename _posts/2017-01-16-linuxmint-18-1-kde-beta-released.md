@@ -23,6 +23,6 @@ Notable highlights of Linux Mint 18.1 KDE beta release includes:
 <li>Linux Mint 18.1 features a superb collection of backgrounds. </li>
 </ul>
 </blockquote>
-For more details, see [release notes](http://www.linuxmint.com/rel_serena_kde.php), 
-[release announcement](http://blog.linuxmint.com/?p=3197) and 
+For more details, see [release notes](https://www.linuxmint.com/rel_serena_kde.php), 
+[release announcement](https://blog.linuxmint.com/?p=3197) and 
 [feature list](https://www.linuxmint.com/rel_serena_kde_whatsnew.php) of Linux Mint 18.1 KDE beta.

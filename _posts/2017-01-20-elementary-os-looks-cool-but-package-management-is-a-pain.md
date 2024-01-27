@@ -19,4 +19,4 @@ Keeping the habit of writing reviews on GNU/Linux distributions, Mr Garry Nevell
 
     If you don't want to include it as part of the main package manager add a simple tool for installing this and many other applications including Steam.
 </blockquote>
-For [complete review and screenshots](http://dailylinuxuser.com/2017/01/an-everyday-linux-user-review-of-2.html), see original review published in Everyday Linux User portal. 
+For [complete review and screenshots](https://dailylinuxuser.com/2017/01/an-everyday-linux-user-review-of-2.html), see original review published in Everyday Linux User portal. 

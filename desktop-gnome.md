@@ -18,15 +18,15 @@ releases:
   GNOME 3.36: "/gnome-3.36-screenshots/"
   GNOME 3.34: "/gnome-3.34-release/"
   GNOME 3.30 released with improved performance : "/00-gnome-3.30-almeria-released-with-improved-performance-and-more/"
-  GNOME 3.26 released with redesigned control center : "http://open-source-feed.blogspot.com/2017/09/gnome-326-released-with-redesigned.html"
-  GNOME 3.24 released with numerous cool features : http://open-source-feed.blogspot.com/2017/03/gnome-324-released-with-numerous-cool.html
+  GNOME 3.26 released with redesigned control center : "https://open-source-feed.blogspot.com/2017/09/gnome-326-released-with-redesigned.html"
+  GNOME 3.24 released with numerous cool features : https://open-source-feed.blogspot.com/2017/03/gnome-324-released-with-numerous-cool.html
     
 
 stories:
   GNOME 3.30 screenshots : "https://distroscreens.blogspot.com/2018/09/gnome-330-almeria-screenshots.html"
-  GNOME 3.24 screenshots : "http://distroscreens.blogspot.com/2017/04/gnome-324-screenshots.html"
-  GNOME 3.24 is getting released on 22nd March, following are planned features : http://open-source-feed.blogspot.com/2017/03/gnome-324-is-getting-released-on-22nd.html
-  GNOME Control Center gets a redesigned WiFi settings  : "http://open-source-feed.blogspot.com/2017/07/gnome-control-center-gets-redesigned.html"
+  GNOME 3.24 screenshots : "https://distroscreens.blogspot.com/2017/04/gnome-324-screenshots.html"
+  GNOME 3.24 is getting released on 22nd March, following are planned features : https://open-source-feed.blogspot.com/2017/03/gnome-324-is-getting-released-on-22nd.html
+  GNOME Control Center gets a redesigned WiFi settings  : "https://open-source-feed.blogspot.com/2017/07/gnome-control-center-gets-redesigned.html"
 ---
 
 **GNOME** (originally an acronym for GNU Network Object Model) is a modern desktop environment mainly developed for GNU/Linux operating systems but also works on most of the BSD systems.

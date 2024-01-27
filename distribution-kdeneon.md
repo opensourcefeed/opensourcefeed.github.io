@@ -16,8 +16,8 @@ releases:
   KDE neon 5.11 : "https://blog.neon.kde.org/index.php/2017/10/10/kde-neon-5-11-is-out/"
 
 screenshots:
-  "KDE Neon User Edition 2017.04.27" : "http://distroscreens.blogspot.com/2017/04/kde-neon-user-edition-20170427.html"
-  "KDE Neon 14042016" : "http://distroscreens.blogspot.com/2016/04/kde-neon-1604-14-04-2016-screenshots.html"
+  "KDE Neon User Edition 2017.04.27" : "https://distroscreens.blogspot.com/2017/04/kde-neon-user-edition-20170427.html"
+  "KDE Neon 14042016" : "https://distroscreens.blogspot.com/2016/04/kde-neon-1604-14-04-2016-screenshots.html"
 ---
 
 **KDE neon** is a GNU/Linux distribution developed by KDE project. It combines stable Ubuntu LTS base 

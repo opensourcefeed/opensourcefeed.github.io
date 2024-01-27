@@ -12,4 +12,4 @@ For those who are not familiar with LMDE, it is a [Debian](/distribution/debian)
 
 Being a rolling distribution, LMDE 2 has got several major and minor updates over past two years. This includes updates MATE & Cinnamon desktops and updated linux kernels. All these updates will be available in new installation media.
 
-For original announcement and discussions on updated image of LMDE 2, see [projects blog](http://blog.linuxmint.com/?p=3212).
+For original announcement and discussions on updated image of LMDE 2, see [projects blog](https://blog.linuxmint.com/?p=3212).

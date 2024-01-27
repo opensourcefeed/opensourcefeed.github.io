@@ -25,12 +25,12 @@ releases:
   Nitrux 1.1.0: "/1-nitrux-1.1.0-innovative-znx-mauikit/"
   Nitrux 1.0.16 : "/00-Nitrux-1.0.16-released-with-package-updates-from-Ubuntu-Cosmic/"
   Nitrux 1.0.15 : "/00-Nitrux-1.0.15-released-with-updated-hardware-and-graphics-stack/"
-  Nitrux 1.0.13 : "http://open-source-feed.blogspot.com/2018/06/nitrux-1013-released-with-improved.html"
+  Nitrux 1.0.13 : "https://open-source-feed.blogspot.com/2018/06/nitrux-1013-released-with-improved.html"
   Nitrux 1.0.10 : "../Nitrux-1.0.10-released-with-package-updates-from-bionic/"
 
 screenshots:
   Nitrux 1.2.9: "/nitrux-1.2.9-release/" 
-  Nitrux 1.0.15 : "http://distroscreens.blogspot.com/2018/09/nitrux-os-1015-screenshots.html"
+  Nitrux 1.0.15 : "https://distroscreens.blogspot.com/2018/09/nitrux-os-1015-screenshots.html"
   Nitrux 1.0.10 : "https://distroscreens.blogspot.com/2018/04/nitrux-1010-screenshots.html"
 
 ---

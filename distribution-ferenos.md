@@ -6,7 +6,7 @@ Category: Distribution
 permalink: /distribution/ferenos
 logo: ferenos.png
 preview: ferenos.jpg
-home_page: http://ferenos.weebly.com
+home_page: https://ferenos.weebly.com
 desktops: [cinnamon]
 base : [linuxmint]
 tagline: Make things simpler for todays and tomorrows generations
@@ -17,12 +17,12 @@ releases:
   Feren OS 2020.11: "/feren-2020.11-release/"
   feren OS 2019.12: "/ferenos-dec2019-release/"
   feren OS 2019.07: "/ferenos-2019.07-snapshot-screenshots/"
-  feren OS 2019.04: "http://ferenos.weebly.com/news/a-new-snapshot-is-now-here-for-feren-os-64-bit-and-32-bit-cinnamon"
+  feren OS 2019.04: "https://ferenos.weebly.com/news/a-new-snapshot-is-now-here-for-feren-os-64-bit-and-32-bit-cinnamon"
   feren OS 2018.10: "/00-ferenos-october-snapshot-brings-significant-improvements/"
   feren OS 2018.1 : "../feren-os-launches-a-new-snapshot-to-welcome-2018/"
-  feren OS 2017.0 Murdock : "http://open-source-feed.blogspot.com/2017/05/feren-os-20170-murdock-released-based.html"
+  feren OS 2017.0 Murdock : "https://open-source-feed.blogspot.com/2017/05/feren-os-20170-murdock-released-based.html"
   feren OS 2017.0 RC (Dead Link): "#"
-  feren OS August 2017 : "http://open-source-feed.blogspot.com/2017/08/feren-os-becomes-rolling-distribution.html"
+  feren OS August 2017 : "https://open-source-feed.blogspot.com/2017/08/feren-os-becomes-rolling-distribution.html"
   feren OS 2016.2 Update 2 (Dead Link): "#"
   feren OS 2016.2 Update 1 (Dead Link): "#"
 

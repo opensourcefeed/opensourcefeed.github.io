@@ -18,7 +18,7 @@ status: Discontinued
 description : Project Trident was a desktop operating system based initially on TrueOS, later on Void Linux. In addition to all capabilities from regular BSD releases, it provided a set of tools to make life easier.
 
 stories:
-  "TrueOS becomes a core OS, the Desktop project will be continued as Trident" : "http://open-source-feed.blogspot.com/2018/06/trueos-is-becoming-core-operating-system.html"
+  "TrueOS becomes a core OS, the Desktop project will be continued as Trident" : "https://open-source-feed.blogspot.com/2018/06/trueos-is-becoming-core-operating-system.html"
 
 ---
 

@@ -15,12 +15,12 @@ status : Discontinued
 description : "Antergos (earlier Cinnarch) was an Arch based distribution that had an aim of delivering a modern, elegant and powerful operating system to all levels of users"
 
 screenshots:
-  Antergos 2016.04.22 : "http://distroscreens.blogspot.com/2016/04/antergos-22042016-screenshots.html"
+  Antergos 2016.04.22 : "https://distroscreens.blogspot.com/2016/04/antergos-22042016-screenshots.html"
 
 reviews:
-  Antergos makes Arch accessible for the mass : "http://open-source-feed.blogspot.com/2017/07/antergos-makes-arch-accessible-for-mass.html"
-  Antergos - a decent distribuiton that worth a try : "http://open-source-feed.blogspot.com/2016/08/antergos-decent-distribution-that-worth.html"
-  Antergos 2016.02.21 review : "http://open-source-feed.blogspot.com/2016/03/antergos-20160221-review.html"
+  Antergos makes Arch accessible for the mass : "https://open-source-feed.blogspot.com/2017/07/antergos-makes-arch-accessible-for-mass.html"
+  Antergos - a decent distribuiton that worth a try : "https://open-source-feed.blogspot.com/2016/08/antergos-decent-distribution-that-worth.html"
+  Antergos 2016.02.21 review : "https://open-source-feed.blogspot.com/2016/03/antergos-20160221-review.html"
 
 ---
 

@@ -17,13 +17,13 @@ releases:
   ArchLabs 2022.01.18: /archlabs-linux-20220118-has-been-released/
   Archlabs 2019.10 : "/archlabs-20191028-release/"
   ArchLabs 2018.07 : "../00-archlabs-linux-2018.07-released-with-brand-new-dark-theme/"
-  ArchLabs 2018.05 : "http://open-source-feed.blogspot.com/2018/05/archlabs-201805-released-with-more.html"
-  ArchLabs 2018.02 : "http://open-source-feed.blogspot.com/2018/02/archlabs-201802-released-with.html"
+  ArchLabs 2018.05 : "https://open-source-feed.blogspot.com/2018/05/archlabs-201805-released-with-more.html"
+  ArchLabs 2018.02 : "https://open-source-feed.blogspot.com/2018/02/archlabs-201802-released-with.html"
   ArchLabs 2017.12 : "../archlabs-201712-released-with-various-look-feel-improvements/"
   ArchLabs 2017.10 (Dead Link): "#"
 
 screenshots:
-  ArchLabs Linux 2018.07 : "http://distroscreens.blogspot.com/2018/07/archlabs-linux-201807-screenshots.html"
+  ArchLabs Linux 2018.07 : "https://distroscreens.blogspot.com/2018/07/archlabs-linux-201807-screenshots.html"
 
 description : "ArchLabs was a rolling distribution inspired by the simplicity and aesthetics of BunsenLabs, another Debian-based operating system featuring the Openbox window manager. As of 7th June 2023, the ArchLabs project has been discontinued."
 

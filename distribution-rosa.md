@@ -19,13 +19,13 @@ screenshots:
   ROSA Desktop Fresh Plasma 12: /rosa-fresh-plasma-12/
 
 releases:
-  ROSA Desktop Fresh R10 : "http://wiki.rosalab.ru/en/index.php/ROSA_Desktop_Fresh_R10"
-  ROSA Fresh R9 LXQt: "http://open-source-feed.blogspot.com/2017/06/rosa-fresh-r9-lxqt-released-it-can.html"
-  ROSA Fresh R9 : "http://open-source-feed.blogspot.com/2017/04/rosa-fresh-r9-released-it-will-be.html"
-  ROSA Fresh R8.1 : "http://open-source-feed.blogspot.com/2017/03/rosa-fresh-r81-released-latest.html"
+  ROSA Desktop Fresh R10 : "https://wiki.rosalab.ru/en/index.php/ROSA_Desktop_Fresh_R10"
+  ROSA Fresh R9 LXQt: "https://open-source-feed.blogspot.com/2017/06/rosa-fresh-r9-lxqt-released-it-can.html"
+  ROSA Fresh R9 : "https://open-source-feed.blogspot.com/2017/04/rosa-fresh-r9-released-it-will-be.html"
+  ROSA Fresh R8.1 : "https://open-source-feed.blogspot.com/2017/03/rosa-fresh-r81-released-latest.html"
   
 reviews:
-  ROSA Fresh R9 is appealing for new users : "http://open-source-feed.blogspot.com/2017/05/rosa-fresh-r9-is-good-operating-system.html"
+  ROSA Fresh R9 is appealing for new users : "https://open-source-feed.blogspot.com/2017/05/rosa-fresh-r9-is-good-operating-system.html"
 ---
 
 **ROSA Linux** is a Russian GNU/Linux distribution developed by LLC NTC IT ROSA, a software product development company. Initially, the ROSA Linux project was started by forking from Mandriva Linux. Over the years, it has grown into an independent GNU/Linux distribution.

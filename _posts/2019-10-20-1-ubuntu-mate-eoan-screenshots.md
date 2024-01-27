@@ -32,7 +32,7 @@ The main improvements in Ubuntu MATE 19.10 *Eoan Ermine* are listed below. For a
 - ISO optimizations to compensate increased size due to NVIDIA drivers.
 - ZFS installation feature.
 
-<a href="http://cdimage.ubuntu.com/ubuntu-mate/releases/eoan/release/" target="_blank" class="download">Download Ubuntu MATE 19.10</a>
+<a href="https://cdimage.ubuntu.com/ubuntu-mate/releases/eoan/release/" target="_blank" class="download">Download Ubuntu MATE 19.10</a>
 
 ## Ubuntu MATE 19.10 Eoan Ermine screenshots
 {% include image-gallery.html folder="/screenshots/Ubuntu MATE 19.10" %}

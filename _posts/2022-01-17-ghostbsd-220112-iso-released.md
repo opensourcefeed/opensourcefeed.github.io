@@ -26,5 +26,5 @@ The key highlights in GhostBSD 22.01.12 release are as follows:
 ## Download GhostBSD 22.01.12
 You can download GhostBSD 22.01.12 ISO and torrent files from the below links.
 
-<a href="http://download.us.ghostbsd.org/releases/amd64/22.01.12/GhostBSD-22.01.12.iso" class="download">Download GhostBSD 22.01.12 ISO</a>
+<a href="https://download.us.ghostbsd.org/releases/amd64/22.01.12/GhostBSD-22.01.12.iso" class="download">Download GhostBSD 22.01.12 ISO</a>
 <a href="https://download.ghostbsd.org/releases/amd64/22.01.12/GhostBSD-22.01.12.iso.torrent" class="download">Download GhostBSD 22.01.12 TORRENT</a>

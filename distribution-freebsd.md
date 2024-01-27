@@ -14,12 +14,12 @@ description: "FreeBSD is an open-source operating system that supports a variety
 
 releases:
   FreeBSD 12.3: "/freebsd-123-has-been-released/"
-  FreeBSD 11.2 : "http://open-source-feed.blogspot.com/2018/06/freebsd-112-released-with-updated-gnome.html"
-  FreeBSD 11.1 : "http://open-source-feed.blogspot.com/2017/07/freebsd-111-released-with-support-for.html"
-  FreeBSD 11.0 : "http://open-source-feed.blogspot.com/2016/10/freebsd-110-release-is-available-now.html"
-  FreeBSD 11.0-RC3 : "http://open-source-feed.blogspot.com/2016/09/freebsd-110-rc3-released.html"
-  FreeBSD 11.0-RC1 : "http://open-source-feed.blogspot.com/2016/08/freebsd-110-rc1-released.html"
-  FreeBSD 11.0 Alpha 4 : "http://open-source-feed.blogspot.com/2016/06/freebsd-110-alpha-4-is-available-now.html"
+  FreeBSD 11.2 : "https://open-source-feed.blogspot.com/2018/06/freebsd-112-released-with-updated-gnome.html"
+  FreeBSD 11.1 : "https://open-source-feed.blogspot.com/2017/07/freebsd-111-released-with-support-for.html"
+  FreeBSD 11.0 : "https://open-source-feed.blogspot.com/2016/10/freebsd-110-release-is-available-now.html"
+  FreeBSD 11.0-RC3 : "https://open-source-feed.blogspot.com/2016/09/freebsd-110-rc3-released.html"
+  FreeBSD 11.0-RC1 : "https://open-source-feed.blogspot.com/2016/08/freebsd-110-rc1-released.html"
+  FreeBSD 11.0 Alpha 4 : "https://open-source-feed.blogspot.com/2016/06/freebsd-110-alpha-4-is-available-now.html"
   
 ---
 

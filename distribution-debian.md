@@ -20,9 +20,9 @@ releases:
   Debian 9.6 Stretch: "/1-debian-9.6-fixes-security-issues/"
   Debian 9.3 Stretch : "https://www.debian.org/News/2017/2017120902"
   Debian 8.10 Jessy : "https://www.debian.org/News/2017/20171209"
-  Debian 9.1 Stretch : "http://open-source-feed.blogspot.com/2017/07/debian-91-stretch-released-with-various.html"
+  Debian 9.1 Stretch : "https://open-source-feed.blogspot.com/2017/07/debian-91-stretch-released-with-various.html"
   Debian 8.9 Jessy : "https://www.debian.org/News/2017/2017072202"
-  Debian 9 Stretch : "http://open-source-feed.blogspot.com/2017/06/debian-9-stretch-released-with-long.html"
+  Debian 9 Stretch : "https://open-source-feed.blogspot.com/2017/06/debian-9-stretch-released-with-long.html"
 
 screenshots:
   Debian 10 Buster: "/1-debian-10-buster-release-screenshots/"

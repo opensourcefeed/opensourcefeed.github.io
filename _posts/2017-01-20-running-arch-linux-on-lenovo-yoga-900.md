@@ -17,4 +17,4 @@ The keithcu has published an interesting article which takes us for a journey of
     Gnome Classic is one of the best GUIs, but there are a number of good ones and all are getting better. This machine is working quite well now and I’m just going to sit back and keep waiting for the HiDPI and other improvements! I’m looking forward to deep learning inside the grammar checker of LibreOffice.</p>
 </blockquote>
 
-Read full article on [keithcu's blog](http://keithcu.com/wordpress/?p=3739). 
+Read full article on [keithcu's blog](https://keithcu.com/wordpress/?p=3739). 

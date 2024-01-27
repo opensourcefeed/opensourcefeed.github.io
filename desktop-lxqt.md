@@ -14,7 +14,7 @@ releases:
   LXQt 1.4.0: /lxqt-140-release/
   LXQt 1.3.0: "https://lxqt-project.org/release/2023/04/15/release-lxqt-1-3-0/"
   LXQt 1.0.0: "/lxqt-1.0-release/"
-  LXQt 0.13.0 : "http://open-source-feed.blogspot.com/2018/05/lxqt-0130-released.html"
+  LXQt 0.13.0 : "https://open-source-feed.blogspot.com/2018/05/lxqt-0130-released.html"
   LXQt 0.12.0 : "https://lxqt-project.org/release/2017/10/21/lxqt-0120/"
 
 stories:

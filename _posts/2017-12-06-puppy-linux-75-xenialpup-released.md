@@ -1,6 +1,6 @@
 ---
 title: Puppy Linux 7.5, Xenialpup released
-image: http://localhost:4000/assets/images/post-images/xenialpup.jpg
+image: https://localhost:4000/assets/images/post-images/xenialpup.jpg
 categories: puppy release
 layout: post
 ---
@@ -22,4 +22,4 @@ In addition to Kernel updates, following are some highlights in Xenialpup 7.5 re
 > * Quickpet, a utility to easily install to the most popular additional applications, OS updates & bugfixes.
 > * Lots of in house puppy-specific applications such as Pburn, Uextract, Packit, Change_kernels, JWMdesk, YASSM, Pclock, SimpleGTKradio as well as a wide range of many other up to date programs and utilities.
 
-For more information, see [original release announcement of Puppylinux 7.5](http://blog.puppylinux.com/?viewDetailed=00047) published in project's blog.
+For more information, see [original release announcement of Puppylinux 7.5](https://blog.puppylinux.com/?viewDetailed=00047) published in project's blog.

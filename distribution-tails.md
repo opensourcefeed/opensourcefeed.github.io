@@ -24,9 +24,9 @@ releases:
   Tails 3.10.1: "/00-tails-3.10.1-patch-security-issues/"
   Tails 3.9 : "/00-Tails-3.9-released-with-additional-automated-software-installation/"
   Tails 3.6 : "../tails-3.6-released-with-video-acceleration-driver-api-and-other-updates/"
-  Tails 3.1 : "http://open-source-feed.blogspot.com/2017/08/tails-31-released-with-important.html"
-  Tails 3.0.1 : "http://open-source-feed.blogspot.com/2017/07/ubuntu-1610-yakkety-yak-reaches-end-of.html"
-  Tails 3.0 : "http://open-source-feed.blogspot.com/2017/06/tails-30-released-first-release-based.html"
+  Tails 3.1 : "https://open-source-feed.blogspot.com/2017/08/tails-31-released-with-important.html"
+  Tails 3.0.1 : "https://open-source-feed.blogspot.com/2017/07/ubuntu-1610-yakkety-yak-reaches-end-of.html"
+  Tails 3.0 : "https://open-source-feed.blogspot.com/2017/06/tails-30-released-first-release-based.html"
 ---
 
 **Tails** (The Amnesic Incognito Live System) is a Debian-based Linux distribution designed to provide privacy and anonymity while using the internet. Tails is a live operating system, which means that it runs from a USB stick or DVD without installing anything on the computer's hard drive. The system is designed to leave no trace of your activities on the computer you're using and automatically routes all internet traffic through the Tor network to conceal your IP address and location.

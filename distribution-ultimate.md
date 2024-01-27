@@ -6,18 +6,18 @@ Category: Distribution
 permalink: /distribution/ultimate
 logo: ultimate-edition-logo.png
 preview: ultimate-edition-preview.jpg
-home_page: http://ultimateedition.info/
+home_page: https://ultimateedition.info/
 desktops: [budgie, gnome, plasma, mate, xfce]
 base : [ubuntu]
 
 description: Ultimate Edition is an Ubuntu based, highly customized operating system trying to attract newbie users and experienced users alike. Stories and updates on Ultimate Edition.
 
 releases:
-  "Ultimate Edition 5.5" : "http://open-source-feed.blogspot.com/2017/06/ultimate-edition-55-released-based-on.html"
-  "Ultimate Edition 5.4" : "http://open-source-feed.blogspot.com/2017/04/ultimate-edition-54-released-based-on.html"
+  "Ultimate Edition 5.5" : "https://open-source-feed.blogspot.com/2017/06/ultimate-edition-55-released-based-on.html"
+  "Ultimate Edition 5.4" : "https://open-source-feed.blogspot.com/2017/04/ultimate-edition-54-released-based-on.html"
 
 reviews:
-  "Ultimate Edition 5.4 - A fair release with few rough edges" : "http://open-source-feed.blogspot.com/2017/05/ultimate-edition-54-fair-release-with.html"
+  "Ultimate Edition 5.4 - A fair release with few rough edges" : "https://open-source-feed.blogspot.com/2017/05/ultimate-edition-54-fair-release-with.html"
 ---
 
 **Ultimate Edition** is an Ubuntu based, highly customized operating system trying to attract

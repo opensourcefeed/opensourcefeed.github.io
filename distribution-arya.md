@@ -6,7 +6,7 @@ Category: Distribution
 permalink: /distribution/arya
 logo: arya-logo.png
 preview: arya-app-menu.jpg
-home_page: http://aryalinux.org/
+home_page: https://aryalinux.org/
 desktops: [mate, xfce, gnome]
 base: [lfs]
 description: Arya Linux is a collection of tools and scripts to build your own GNU/Linux distribution. It is composed from the instructions provided in LFS and BLFS.

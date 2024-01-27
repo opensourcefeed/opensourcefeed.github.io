@@ -21,16 +21,16 @@ releases:
   "Neptune 5.6": "/1-neptune-5.6-improved-gaming-experience/"
   "Neptune 5.4" : "../neptune-5.4-released-with-better-dark-theme-and-icon-theme/"
   "Neptune 5 'Refresh'" : "../neptune-os-5.0-refresh-released-with-updated-debian-base/"
-  "Neptune 5" : "http://open-source-feed.blogspot.com/2017/05/neptune-plasma-5-edition-gets-another.html"
-  "Neptune OS 4.5.4" : "http://open-source-feed.blogspot.com/2017/04/neptune-os-454-announced-with-linux.html"
-  "Neptune OS 4.5.1" : "http://open-source-feed.blogspot.com/2016/05/neptune-os-451-is-available-now.html"
+  "Neptune 5" : "https://open-source-feed.blogspot.com/2017/05/neptune-plasma-5-edition-gets-another.html"
+  "Neptune OS 4.5.4" : "https://open-source-feed.blogspot.com/2017/04/neptune-os-454-announced-with-linux.html"
+  "Neptune OS 4.5.1" : "https://open-source-feed.blogspot.com/2016/05/neptune-os-451-is-available-now.html"
 
 reviews:
   "Neptune 5 is a solid release with a few rough edges (DistroWatch)": "https://distrowatch.com/weekly.php?issue=20180416#neptune"
-  "Taking a journey through Neptune 4.4" : "http://open-source-feed.blogspot.com/2015/09/taking-journey-through-neptune-44.html"
+  "Taking a journey through Neptune 4.4" : "https://open-source-feed.blogspot.com/2015/09/taking-journey-through-neptune-44.html"
 
 screenshots:
-  "Neptune OS 4.5.1" : "http://distroscreens.blogspot.com/2016/05/neptune-os-451-screenshots.html"
+  "Neptune OS 4.5.1" : "https://distroscreens.blogspot.com/2016/05/neptune-os-451-screenshots.html"
 
 ---
 

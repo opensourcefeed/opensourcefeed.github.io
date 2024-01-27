@@ -16,4 +16,4 @@ An update for Kernel in (L)Ubuntu 17.10 with Intel SPI drivers enabled was causi
 > Please note that the Meltdown and Spectre vulnerabilities have not been fixed in this ISO, so we advise that if you install this ISO, update directly after.
 > 
 > This release is no different in terms of features from the 17.10 release and is comparable to an LTS point release in that all updates since the 17.10 release have been rolled into this ISO.
-The original [release announcement of Lubuntu 17.10.1](http://lubuntu.me/lubuntu-artful-atque-vale-released/) is available on project's website.
+The original [release announcement of Lubuntu 17.10.1](https://lubuntu.me/lubuntu-artful-atque-vale-released/) is available on project's website.

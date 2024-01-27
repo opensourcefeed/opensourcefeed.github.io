@@ -36,8 +36,8 @@ For further reading, see [the Salix Live Xfce 15.0's official release announceme
 
 The Salix Live 15.0 is available for download from the project's Sourceforge page.
 
-<a class="download" href="http://sourceforge.net/projects/salix/files/15.0/salixlive64-xfce-15.0.iso/download">Download Salix Live Xfce 15.0 Xfce 64 BIT</a>
-<a class="download" href="http://sourceforge.net/projects/salix/files/15.0/salixlive-xfce-15.0.iso/download">Download Salix Live Xfce 15.0 Xfce 32 BIT</a>
+<a class="download" href="https://sourceforge.net/projects/salix/files/15.0/salixlive64-xfce-15.0.iso/download">Download Salix Live Xfce 15.0 Xfce 64 BIT</a>
+<a class="download" href="https://sourceforge.net/projects/salix/files/15.0/salixlive-xfce-15.0.iso/download">Download Salix Live Xfce 15.0 Xfce 32 BIT</a>
 
 ## Salix 15.0 screenshots
 The following section showcases some screenshots captured in Salix 15.0 running on VirtualBox. It will be similar to the live release as well.

@@ -5,7 +5,7 @@ title: 'Pantheon Desktop'
 Category: Desktop
 permalink: /desktop/pantheon
 preview: elementary.jpg
-home_page: http://elementary.io/
+home_page: https://elementary.io/
 image: /assets/images/preview/elementary.jpg
 tagline: Improve your productivity
 description: Pantheon is flagship desktop environment of elementary OS, and it is being developed and maintained by elmentary project.

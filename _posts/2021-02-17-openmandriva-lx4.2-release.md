@@ -26,7 +26,7 @@ The main highlights of OpenMandriva Lx 4.2 are as follows.
 
 For further details and screenshots, read the official [release announcement published in OpenMandriva blog](https://www.openmandriva.org/en/news/article/openmandriva-lx-4-2-is-out-now).
 
-<a href="http://mirror.openmandriva.org/release_current/4.2/OpenMandrivaLx.4.2-plasma.x86_64/OpenMandrivaLx.4.2-final-plasma.x86_64.iso" class="download">Download OpenMandriva Lx 4.2</a>
+<a href="https://mirror.openmandriva.org/release_current/4.2/OpenMandrivaLx.4.2-plasma.x86_64/OpenMandrivaLx.4.2-final-plasma.x86_64.iso" class="download">Download OpenMandriva Lx 4.2</a>
 
 <a href="https://www.openmandriva.org/en/download" class="download">Other download options</a>
 

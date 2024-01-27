@@ -6,7 +6,7 @@ Category: Distribution
 permalink: /distribution/elive
 logo: elive.png
 preview: elive.jpg
-home_page: http://www.elivecd.org
+home_page: https://www.elivecd.org
 desktops: [enlightenment]
 base: [debian]
 tagline: Fast, beautiful & powerful with Englightenment
@@ -16,12 +16,12 @@ description : Elive Linux is a Debian based, fast and beautiful operating system
 releases:
   Elive 3.7.14 BETA: "/elive-3.7.14-release/"
   Elive 3.0 : "/00-elive-3.0-stable-released-with-added-stability-and-visual-improvements/"
-  Elive 2.9.5 beta : "http://open-source-feed.blogspot.com/2017/07/elive-295-beta-released-with-various.html"
-  Elive 2.8.6 beta : "http://open-source-feed.blogspot.com/2017/03/elive-286-beta-released-with-improved.html"
-  Elive 2.7.2 beta : "http://open-source-feed.blogspot.com/2016/08/elive-272-beta-released-with-improved.html"
-  Elive 2.7.1 beta : "http://open-source-feed.blogspot.com/2016/07/elive-271-beta-released.html"
-  Elive 2.6.18 beta  : "http://open-source-feed.blogspot.com/2016/03/elive-2618-beta-released.html"
-  Elive 2.6.12 : "http://open-source-feed.blogspot.com/2015/11/elive-linux-2612-beta-released.html"
+  Elive 2.9.5 beta : "https://open-source-feed.blogspot.com/2017/07/elive-295-beta-released-with-various.html"
+  Elive 2.8.6 beta : "https://open-source-feed.blogspot.com/2017/03/elive-286-beta-released-with-improved.html"
+  Elive 2.7.2 beta : "https://open-source-feed.blogspot.com/2016/08/elive-272-beta-released-with-improved.html"
+  Elive 2.7.1 beta : "https://open-source-feed.blogspot.com/2016/07/elive-271-beta-released.html"
+  Elive 2.6.18 beta  : "https://open-source-feed.blogspot.com/2016/03/elive-2618-beta-released.html"
+  Elive 2.6.12 : "https://open-source-feed.blogspot.com/2015/11/elive-linux-2612-beta-released.html"
 ---
 
 **Elive Linux** is a Debian based, fast and beautiful operating system with a fairly customized enlightenment window manager. The tagline of this distribution itself is Where Debian meets Enlightenment.

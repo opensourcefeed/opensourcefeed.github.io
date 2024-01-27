@@ -17,7 +17,7 @@ The existing users of Bodhi Linux 4.x, can avail all the bug fixes by a simple s
 <blockquote>
 This release serves to package up the fixes for a few bugs that slipped through the cracks in the 4.0.0 release, as well as provided updated package sets for the install ISO images. Most notably these ISO images come with EFL 1.18.4, Linux Kernel 4.8, and a new Moksha Theme based on the “Arc Dark” theme. Existing Bodhi 4.0.0 users already have the bug fixes incorporated into these ISO images, but they will need to manually install the newer kernel and theme if they wish to utilize them.
 </blockquote>
-You can also find original [release announcement](http://www.bodhilinux.com/2017/01/27/bodhi-linux-4-1-0-released/) and a few screenshtos in Bodhi Linux blog.
+You can also find original [release announcement](https://www.bodhilinux.com/2017/01/27/bodhi-linux-4-1-0-released/) and a few screenshtos in Bodhi Linux blog.
 
 **Download Bodhi Linux 4.1.0**
 <ul>

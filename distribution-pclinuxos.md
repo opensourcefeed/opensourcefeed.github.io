@@ -6,12 +6,12 @@ Category: Distribution
 permalink: /distribution/pclinuxos
 logo: pclinuxos.png
 preview: pclinuxos.jpg
-home_page: http://www.pclinuxos.com
+home_page: https://www.pclinuxos.com
 desktops: [xfce, plasma, mate]
 base : Independent
 description : PCLinuxOS is an independently evolved, rolling GNU/Linux distribution that started back in 2004. Initially, it was started as a fork of Mandriva Linux. Stories and reviews of PCLinuxOS.
 reviews:
-  PCLinuxOS is conservative in appeal, latest and greatest in applications : http://open-source-feed.blogspot.com/2017/04/pclinuxos-is-conservative-in-appeal.html
+  PCLinuxOS is conservative in appeal, latest and greatest in applications : https://open-source-feed.blogspot.com/2017/04/pclinuxos-is-conservative-in-appeal.html
 
 tagline: It's cool, so ice cubes are jealous
 

@@ -26,4 +26,4 @@ The major highlights in both KDE & Xfce flavors can be summarized as follows:
 <li>Linux Kernel 4.4</li>
 </ul>
 </blockquote>
-For more details, see separate release announcements for [Xfce](http://blog.linuxmint.com/?p=3222) & [KDE](https://www.linuxmint.com/rel_serena_kde_whatsnew.php) flavors of Linux Mint 18.1.
+For more details, see separate release announcements for [Xfce](https://blog.linuxmint.com/?p=3222) & [KDE](https://www.linuxmint.com/rel_serena_kde_whatsnew.php) flavors of Linux Mint 18.1.

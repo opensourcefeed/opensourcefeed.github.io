@@ -33,7 +33,7 @@ As a non-LTS release, Ubuntu 19.10 Eoan Ermine brings some drastic changes. Some
 - Updated toolchain with  glibc 2.30, OpenJDK 11, rustc 1.37, GCC 8.3, optional GCC 9, Python 3.7.3 as default, ruby 2.5.5, php 7.2.15, perl 5.28.1, golang 1.10.4. ..etc
 
 
-<a href="http://cdimage.ubuntu.com/ubuntu/releases/eoan/release/" target="_blank" class="download">Download Ubuntu 19.10 Eoan Ermine</a>
+<a href="https://cdimage.ubuntu.com/ubuntu/releases/eoan/release/" target="_blank" class="download">Download Ubuntu 19.10 Eoan Ermine</a>
 
 
 ## Ubuntu 19.10 Eoan Ermine screenshots

@@ -7,7 +7,7 @@ type : Linux
 permalink: /distribution/archbang
 logo: archbang.png
 preview: archbang.jpg
-home_page: http://archbang.org
+home_page: https://archbang.org
 desktops: [openbox, i3]
 base : [arch]
 

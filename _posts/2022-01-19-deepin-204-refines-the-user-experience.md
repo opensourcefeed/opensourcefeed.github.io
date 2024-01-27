@@ -34,7 +34,7 @@ For a [complete list of changes in deepin 20.4](https://www.deepin.org/en/2022/0
 ## Download deepin 20.4
 You can download the deepin 20.4 images from the below links.
 
-<a href="http://cdimage.deepin.com/releases/20.4/deepin-desktop-community-20.4-amd64.iso" class="download">deepin 20.4 ISO (official)</a>
+<a href="https://cdimage.deepin.com/releases/20.4/deepin-desktop-community-20.4-amd64.iso" class="download">deepin 20.4 ISO (official)</a>
 <a href="https://osdn.net/projects/deepin/storage/20.4" class="download">deepin 20.4 ISO (OSDN)</a>
 
 ## deepin 20.4 screenshots

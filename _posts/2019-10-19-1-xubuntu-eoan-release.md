@@ -24,7 +24,7 @@ The main highlights of Xubuntu 19.10 Eoan Ermine are summarized below.
 
 For further details, read the [Xubuntu 19.10 release announcement](https://xubuntu.org/news/xubuntu-19-10-released/).
 
-<a class="download" target="_blank" href="http://cdimage.ubuntu.com/xubuntu/releases/19.10/release/">Download Xubuntu 19.10</a>
+<a class="download" target="_blank" href="https://cdimage.ubuntu.com/xubuntu/releases/19.10/release/">Download Xubuntu 19.10</a>
 
 ## Xubuntu 19.10 Eoan Ermine screenshots
 {% include image-gallery.html folder="/screenshots/Xubuntu 19.10" %}

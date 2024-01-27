@@ -22,4 +22,4 @@ Other notable changes in Slax 9.3 includes:
 > * screen resolution change is reimplemented to make it work better
 > * syslinux updated to newest version
 
-You may also proceed to read original [Slax 9.3 release announcement](http://www.slax.org/blog/24578-Slax-9-3-is-here.html) in project's website.
+You may also proceed to read original [Slax 9.3 release announcement](https://www.slax.org/blog/24578-Slax-9-3-is-here.html) in project's website.

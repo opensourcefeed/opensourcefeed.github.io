@@ -15,7 +15,7 @@ tagline: Learning Linux in the Arco Way.
 description : "ArcoLinux (formerly, ArchMerge) is an Arch based distribution that has a progressive learning path that teaches to roll your own Arch distribution."
 
 screenshots:
-  ArchMerge 6.3.1 Xfce : "http://distroscreens.blogspot.com/2018/01/archmerge-631-xfce-screenshots.html"
+  ArchMerge 6.3.1 Xfce : "https://distroscreens.blogspot.com/2018/01/archmerge-631-xfce-screenshots.html"
 
 stories:
   ArchMerge evolves into ArcoLinux : "https://arcolinux.info/archmerge-evolves-into-arcolinux/"

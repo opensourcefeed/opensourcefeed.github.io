@@ -24,7 +24,7 @@ The main highlights in Lubuntu 19.10 Eoan Ermine release include the following.
 - The powerful and fast email client Trojitá 0.7 to get you to inbox zero in no time.
 - As different from other Ubuntu flavors, Lubuntu uses the Calamares installer. Version 3.2.15 is included in this release.
 
-<a href="http://cdimage.ubuntu.com/lubuntu/releases/19.10/release/lubuntu-19.10-desktop-amd64.iso" target="_blank" class="download">Download Lubuntu 19.10 Eoan Ermine</a>
+<a href="https://cdimage.ubuntu.com/lubuntu/releases/19.10/release/lubuntu-19.10-desktop-amd64.iso" target="_blank" class="download">Download Lubuntu 19.10 Eoan Ermine</a>
 
 ## Lubuntu 19.10 Eoan Ermine screenshots
 

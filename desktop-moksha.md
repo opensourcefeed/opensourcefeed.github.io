@@ -6,7 +6,7 @@ Category: Desktop
 permalink: /desktop/moksha
 logo: icon_moksha.png
 preview: moksha-preview.jpg
-home_page: http://www.bodhilinux.com/moksha-desktop/
+home_page: https://www.bodhilinux.com/moksha-desktop/
 window_manager: true
 description: Moksha is a continuation of all good features from Enlightenment 17.x series.
 ---

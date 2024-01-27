@@ -7,7 +7,7 @@ type: Linux
 permalink: /distribution/ubuntubudgie
 logo: ubuntubudgie.png
 preview: ubuntu-budgie.jpg
-home_page: http://ubuntubudgie.org/
+home_page: https://ubuntubudgie.org/
 desktops: [budgie]
 base : [ubuntu]
 tagline: Budgie combined with Solid Ubuntu foundation
@@ -22,11 +22,11 @@ screenshots:
   Ubuntu Budgie 20.04 Focal Fossa: "/ubuntu-budgie-20.04-release/"
   Ubuntu Budgie 19.10 Eoan Ermine: "/ubuntu-budgie-19.10-screenshots/"
   Ubuntu Budgie 18.10 Cosmic Cuttlefish: "https://distroscreens.blogspot.com/2018/10/ubuntu-budgie-1810-cosmic-cuttlefish.html"
-  Ubuntu Budgie 18.04 LTS (daily build) : "http://distroscreens.blogspot.com/2018/03/ubuntu-budgie-1804-bionic-beaver.html"
-  Ubuntu Budgie 17.10 : "http://distroscreens.blogspot.com/2017/10/ubuntu-budgie-1710-artful-aardvark.html"
-  Ubuntu Budgie 17.04 : "http://distroscreens.blogspot.com/2017/04/ubuntu-budgie-1704-zesty-zapus.html"
-  budgie remix 16.10 : "http://distroscreens.blogspot.com/2016/11/ubuntu-budgie-remix-1610-screenshots.html"
-  budgie remix 16.04 : "http://distroscreens.blogspot.com/2016/06/budgie-remix-1604-screenshots.html"
+  Ubuntu Budgie 18.04 LTS (daily build) : "https://distroscreens.blogspot.com/2018/03/ubuntu-budgie-1804-bionic-beaver.html"
+  Ubuntu Budgie 17.10 : "https://distroscreens.blogspot.com/2017/10/ubuntu-budgie-1710-artful-aardvark.html"
+  Ubuntu Budgie 17.04 : "https://distroscreens.blogspot.com/2017/04/ubuntu-budgie-1704-zesty-zapus.html"
+  budgie remix 16.10 : "https://distroscreens.blogspot.com/2016/11/ubuntu-budgie-remix-1610-screenshots.html"
+  budgie remix 16.04 : "https://distroscreens.blogspot.com/2016/06/budgie-remix-1604-screenshots.html"
 
 releases:
   Ubuntu Budgie 23.10 Mantic Minotaur: /ubuntu-2310-mantic-release/
@@ -38,18 +38,18 @@ releases:
   Ubuntu Budgie 20.04 Focal Fossa: "/ubuntu-budgie-20.04-release/"
   Ubuntu Budgie 19.10 Eoan Ermine: "/ubuntu-budgie-19.10-screenshots/"
   Ubuntu Budgie 18.10 Cosmic Cuttlefish: "/03-ubuntu-budgie-18.10-brings-early-glimpse-budgie-10.5/"
-  Ubuntu Budgie 18.04 Bionic Beaver: "http://open-source-feed.blogspot.com/2018/04/ubuntu-budgie-1804-lts-released-with.html"
+  Ubuntu Budgie 18.04 Bionic Beaver: "https://open-source-feed.blogspot.com/2018/04/ubuntu-budgie-1804-lts-released-with.html"
   Ubuntu Budgie 17.10 Artful Aardvark : "https://ubuntubudgie.org/blog/2017/10/19/17-10-ubuntu-budgie-released"
-  Ubuntu Budgie 17.04 : "http://open-source-feed.blogspot.com/2017/04/ubuntu-budgie-1704-released-first.html"
-  Ubuntu Budgie 17.04 beta 1 : "http://open-source-feed.blogspot.com/2017/02/ubuntu-budgie-1704-beta-1-is-ready-for.html"
-  budgie-remix 16.04.3 : "http://open-source-feed.blogspot.com/2017/08/ubuntu-based-budgie-remix-16043-is.html"
+  Ubuntu Budgie 17.04 : "https://open-source-feed.blogspot.com/2017/04/ubuntu-budgie-1704-released-first.html"
+  Ubuntu Budgie 17.04 beta 1 : "https://open-source-feed.blogspot.com/2017/02/ubuntu-budgie-1704-beta-1-is-ready-for.html"
+  budgie-remix 16.04.3 : "https://open-source-feed.blogspot.com/2017/08/ubuntu-based-budgie-remix-16043-is.html"
 
 stories:
   Developers Diary, June 2017 : "https://ubuntubudgie.org/blog/2017/07/01/developer-diary-june"
-  Finally, budgie-remix becomes Ubuntu Budgie : "http://open-source-feed.blogspot.com/2016/11/finally-budgie-remix-becomes-ubuntu.html"
+  Finally, budgie-remix becomes Ubuntu Budgie : "https://open-source-feed.blogspot.com/2016/11/finally-budgie-remix-becomes-ubuntu.html"
   
 reviews:
-  Ubuntu Budgie 17.04 leaves a good impression despite of being a newbie : "http://open-source-feed.blogspot.com/2017/06/ubuntu-budgie-1704-leaves-good.html"
+  Ubuntu Budgie 17.04 leaves a good impression despite of being a newbie : "https://open-source-feed.blogspot.com/2017/06/ubuntu-budgie-1704-leaves-good.html"
 ---
 
 **Ubuntu Budgie** was started as an unofficial remix of Ubuntu in 2016. By end of the year, it was recognized as an official community flavor of Ubuntu. It combines solid Ubuntu core with elegant, efficient and productive budgie desktop, developed by Solus project.

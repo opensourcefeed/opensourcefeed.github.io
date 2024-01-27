@@ -7,7 +7,7 @@ type : Linux
 permalink: /distribution/archman
 logo: archman.png
 preview: archman.jpg
-home_page: http://archman.org/
+home_page: https://archman.org/
 desktops: [xfce, mate, plasma, lxqt]
 base : [arch]
 

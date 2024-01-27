@@ -11,15 +11,15 @@ description: Budgie is a contemporary desktop environment known for its chic des
 image: /assets/images/preview/budgie-preview.jpg
 
 stories:
-  "Budgie Desktop is getting merged with Solus" : "http://open-source-feed.blogspot.com/2018/05/budgie-desktop-getting-remerged-with.html"
-  "Budgie Desktop 10.3 development is in progress; Main focus is robustness" : "http://open-source-feed.blogspot.com/2017/04/budgie-desktop-103-development-is-in.html"
-  "Budgie Desktop is getting it's own website" : "http://open-source-feed.blogspot.com/2016/12/budgie-desktop-is-getting-its-own.html"
+  "Budgie Desktop is getting merged with Solus" : "https://open-source-feed.blogspot.com/2018/05/budgie-desktop-getting-remerged-with.html"
+  "Budgie Desktop 10.3 development is in progress; Main focus is robustness" : "https://open-source-feed.blogspot.com/2017/04/budgie-desktop-103-development-is-in.html"
+  "Budgie Desktop is getting it's own website" : "https://open-source-feed.blogspot.com/2016/12/budgie-desktop-is-getting-its-own.html"
 
 releases:
   Budgie Desktop 10.7: "https://blog.buddiesofbudgie.org/budgie-10-7-released/"
-  "Budgie Desktop 10.4 released; Implements long awaited features" : "http://open-source-feed.blogspot.com/2017/08/budgie-desktop-104-released-implements.html"
-  "Budgie Desktop 10.3.x released; Fixes long standing issues and introduces essential features " : "http://open-source-feed.blogspot.com/2017/04/budgie-desktop-103x-released-fixes-long.html"
-  "Budgie 10.2.9 released; A quick bug fix release" : "http://open-source-feed.blogspot.com/2016/12/budgie-1029-released-quick-bug-fix.html"
+  "Budgie Desktop 10.4 released; Implements long awaited features" : "https://open-source-feed.blogspot.com/2017/08/budgie-desktop-104-released-implements.html"
+  "Budgie Desktop 10.3.x released; Fixes long standing issues and introduces essential features " : "https://open-source-feed.blogspot.com/2017/04/budgie-desktop-103x-released-fixes-long.html"
+  "Budgie 10.2.9 released; A quick bug fix release" : "https://open-source-feed.blogspot.com/2016/12/budgie-1029-released-quick-bug-fix.html"
 ---
 
 **Budgie** is a desktop environment for GNU/Linux and similar operating systems. Its main objective is to provide users with a simple and elegant desktop experience, while ensuring optimal performance and productivity. 

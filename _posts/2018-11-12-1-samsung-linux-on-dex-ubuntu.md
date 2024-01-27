@@ -23,4 +23,4 @@ The concept of Linux on DeX is powerful enough to free the developers from desks
 
 The Linux on DeX is using a customized version of Ubuntu. The DeX team is working closely with *Canonical* to provide the best experience to the users.
 
-Linux on DeX will be running as a private beta from 12th of November. Those who are interested to join can register here on [Linux on DeX portal](http://www.linuxondex.com/).
+Linux on DeX will be running as a private beta from 12th of November. Those who are interested to join can register here on [Linux on DeX portal](https://www.linuxondex.com/).

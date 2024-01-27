@@ -6,7 +6,7 @@ Category: Desktop
 permalink: /desktop/xfce
 logo: xfce-logo.jpeg
 preview: xfce-preview.jpg
-home_page: http://xfce.org/
+home_page: https://xfce.org/
 description: Xfce is a Gtk based, lightweight, yet modern desktop environment with a familiar user experience.
 tagline: Stay productive without sacrificing a lot of system resources
 image: /assets/images/preview/xfce-preview.jpg

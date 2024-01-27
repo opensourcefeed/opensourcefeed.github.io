@@ -8,7 +8,7 @@ type : Linux
 logo: makulu.png
 preview: makulu.jpg
 image: /assets/images/preview/makulu.jpg
-home_page: http://www.makululinux.com/
+home_page: https://www.makululinux.com/
 desktops: [xfce, cinnamon]
 base: [debian, custom-debian]
 tagline: A whole world of opportunities.

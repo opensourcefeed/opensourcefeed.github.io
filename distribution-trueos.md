@@ -30,7 +30,7 @@ reviews:
   "PC-BSD is BSD for desktop users": "https://open-source-feed.blogspot.com/2015/12/pc-bsd-bsd-for-desktop-user-review.html"
 
 stories:
-  "TrueOS is becoming a Core Operating system" : "http://open-source-feed.blogspot.com/2018/06/trueos-is-becoming-core-operating-system.html"
+  "TrueOS is becoming a Core Operating system" : "https://open-source-feed.blogspot.com/2018/06/trueos-is-becoming-core-operating-system.html"
 
 ---
 

@@ -17,8 +17,8 @@ description : KaOS is a desktop operating system offering a cutting-edge Plasma 
 releases:
   KaOS 2020.07 : "/kaos-2020.07-release"
   KaOS 2018.10 : "/00-kaos-2018.10-released-with-plasma-5.14/"
-  KaOS 2018.06 : "http://open-source-feed.blogspot.com/2018/06/kaos-201806-released-with-plasma-5131.html"
-  KaOS 2017.09 : "http://open-source-feed.blogspot.com/2017/09/kaos-201709-snapshot-released-with.html"
+  KaOS 2018.06 : "https://open-source-feed.blogspot.com/2018/06/kaos-201806-released-with-plasma-5131.html"
+  KaOS 2017.09 : "https://open-source-feed.blogspot.com/2017/09/kaos-201709-snapshot-released-with.html"
   KaOS 2017.02 : "https://open-source-feed.blogspot.com/2017/02/kaos-201702-snapshot-released-with.html"
   KaOS 2017.01 : "https://open-source-feed.blogspot.com/2017/01/kaos-201701-released-with-fresh-look.html"
   KaOS 2016.11 : "https://open-source-feed.blogspot.com/2016/11/kaos-201611-released-with-plasma-583.html"
@@ -28,7 +28,7 @@ releases:
 
 screenshots:
   KaOS 2020.07 : "/kaos-2020.07-release"
-  KaOS 2018.04 : "http://distroscreens.blogspot.com/2018/05/kaos-201804-screenshots.html"
+  KaOS 2018.04 : "https://distroscreens.blogspot.com/2018/05/kaos-201804-screenshots.html"
 
 ---
 

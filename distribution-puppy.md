@@ -7,7 +7,7 @@ type : Linux
 permalink: /distribution/puppy
 logo: puppylogo96.png
 preview: tahrpup.jpg
-home_page: http://puppylinux.com/
+home_page: https://puppylinux.com/
 desktops: [jwm, roxfiler]
 base : [Independent]
 purchase:

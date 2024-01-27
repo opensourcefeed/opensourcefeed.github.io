@@ -11,10 +11,10 @@ description : Lumina Desktop is a lightweight and simple desktop environment dev
 
 releases:
   Lumina Desktop 1.4.0 : "../lumina-desktop-140-released-with-various-runtime-optimizations-feature-improvemets-and-more/"
-  Lumina Desktop 1.3.0 : "http://open-source-feed.blogspot.com/2017/06/lumina-desktop-130-released-with-new.html"
-  Lumina Desktop 1.2.0 : "http://open-source-feed.blogspot.com/2017/01/lumina-desktop-120-released-prime-focus.html"
-  Lumina Desktop 1.0.0 : "http://open-source-feed.blogspot.com/2016/05/lumina-desktop-090-released-with.html"
-  Lumina Desktop 0.9.0 : "http://open-source-feed.blogspot.com/2016/05/lumina-desktop-090-released-with.html"
+  Lumina Desktop 1.3.0 : "https://open-source-feed.blogspot.com/2017/06/lumina-desktop-130-released-with-new.html"
+  Lumina Desktop 1.2.0 : "https://open-source-feed.blogspot.com/2017/01/lumina-desktop-120-released-prime-focus.html"
+  Lumina Desktop 1.0.0 : "https://open-source-feed.blogspot.com/2016/05/lumina-desktop-090-released-with.html"
+  Lumina Desktop 0.9.0 : "https://open-source-feed.blogspot.com/2016/05/lumina-desktop-090-released-with.html"
  
 ---
 

@@ -16,7 +16,7 @@ image: /assets/images/preview/Goedel3_small.jpg
 
 releases:
   Chakra Linux 2017.10 Goedel : "https://community.chakralinux.org/t/chakra-2017-10-goedel-released/6693"
-  Chakra Linux 2017.03 Goedel: http://open-source-feed.blogspot.com/2017/03/chakra-linux-201703-goedel-released.html
+  Chakra Linux 2017.03 Goedel: https://open-source-feed.blogspot.com/2017/03/chakra-linux-201703-goedel-released.html
 
 stories: 
   Chakra Linux has been discontinued: https://twitter.com/chakralinux/status/1475111596640727045

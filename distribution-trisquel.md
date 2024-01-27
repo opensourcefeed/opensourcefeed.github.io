@@ -21,13 +21,13 @@ releases:
   Trisquel 11 Aramo: /trisquel-11-release/
   Trisquel 10.0 Nabia: "/trisquel-100-nabia-has-been-released/"
   Trisquel 9 Etiona: "/trisquel-9-release/"
-  Trisquel 8 Flidas: "http://open-source-feed.blogspot.com/2018/04/finally-trisquel-80-flidas-is-here-with.html"
+  Trisquel 8 Flidas: "https://open-source-feed.blogspot.com/2018/04/finally-trisquel-80-flidas-is-here-with.html"
   Trisquel 8 Flidas Alpha 1 : "https://open-source-feed.blogspot.com/2016/12/trisquel-80-flidas-alpha1-is-available.html"
 ---
 
-**Trisquel** is a 100% Libre GNU/Linux distribution based on Ubuntu. It strictly follows [Guidelines for Free System Distributions](http://www.gnu.org/distros/free-system-distribution-guidelines.html) established by Free Software Foundation(FSF).
+**Trisquel** is a 100% Libre GNU/Linux distribution based on Ubuntu. It strictly follows [Guidelines for Free System Distributions](https://www.gnu.org/distros/free-system-distribution-guidelines.html) established by Free Software Foundation(FSF).
 
-Trisquel is prepared by carefully removing all proprietary packages, plugins, and drivers from the base distribution. It is then, shipped with Linux Libre, a variety of Linux Kernel that is free from proprietary blobs. The commitment of Trisquel to follow FSD guidelines is identified by FSF by listing it as one among the [few distributions that strictly adheres to free software guide lines](http://www.gnu.org/distros/free-distros.html).
+Trisquel is prepared by carefully removing all proprietary packages, plugins, and drivers from the base distribution. It is then, shipped with Linux Libre, a variety of Linux Kernel that is free from proprietary blobs. The commitment of Trisquel to follow FSD guidelines is identified by FSF by listing it as one among the [few distributions that strictly adheres to free software guide lines](https://www.gnu.org/distros/free-distros.html).
 
 There are multiple variations of Trisquel targeting the different audiences.
 - The standard Trisquel edition is developed for home and office users. It provides productivity suite, multimedia support and networking capabilities by default. Historically, this edition used to ship with GNOME 2.x desktop. Then it was replaced with GNOME 3.x fallback. Beginning from Trisquel 8 Flidas, MATE Desktop will be used.

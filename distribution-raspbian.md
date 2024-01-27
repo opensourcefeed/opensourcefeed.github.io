@@ -5,7 +5,7 @@ title: 'Raspbian'
 Category: Distribution
 permalink: /distribution/raspbian
 logo: raspbian_logo.png
-home_page: http://raspbian.org
+home_page: https://raspbian.org
 base : [debian]
 tagline: "Raspberry + Debian"
 preview: raspbian-preview.jpg
