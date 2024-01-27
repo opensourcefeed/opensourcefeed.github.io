@@ -5,7 +5,7 @@ categories: slackel release
 tags:
   - Linux distribution from Greece
   - Slackware and Slax together
-image: /assets/images/post-images/redcore/redcore-2401.jpg
+image: /assets/images/post-images/slackel/slackel-7.7-mate-en-01.jpg
 description: "Explore the latest in open-source computing with Slackel 7.7 MATE! Up-to-date features, user-friendly tools, and seamless compatibility. Download now for an enriched Linux experience."
 ---
 
