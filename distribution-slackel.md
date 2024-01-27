@@ -8,6 +8,7 @@ permalink: /distribution/slackel
 type : Linux
 logo: slackel-logo.png
 preview: slackel-7.7-openbox-001.jpg
+image: /assets/images/preview/slackel-7.7-openbox-001.jpg
 home_page: https://slackel.sourceforge.io/
 desktops: [openbox, mate]
 base: [Slackware]
