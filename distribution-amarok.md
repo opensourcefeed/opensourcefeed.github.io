@@ -15,6 +15,7 @@ image: /assets/images/preview/amarok.jpg
 description : "Mauna Linux (formerly Amarok Linux) is a Debian Testing-based GNU/Linux distribution of Brazilian origin. With a set of preconfigured applications, it makes computing easier."
 
 releases:
+  Mauna Linux 24.1: /mauna-241-release/
   Mauna Linux 24: /mauna-linux-24-release/
   Mauna Linux 23.9: /mauna-239-release/
   Amarok Linux 23.3: /amarok-233-release/
