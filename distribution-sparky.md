@@ -15,6 +15,7 @@ base: [debian]
 description : "Sparky Linux is a Debian based GNU/Linux distribution offering a ready to use, out of the box operating system. Stories, reviews and updates on Sparky Linux project."
 
 releases:
+  Sparky Linux 2024.02: /sparky-2024.02-release/
   Sparky 7.2 Orion Belt: /sparky-72-release/
   Sparky 7.0 Orion Belt: /sparky-7-orion/
   Sparky Linux 6.4: "/sparky-6.4-release/"
