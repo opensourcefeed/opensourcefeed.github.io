@@ -8,9 +8,10 @@ permalink: /distribution/ghostbsd
 type: BSD
 logo: ghostbsd.png
 preview: ghostbsd.jpg
+image: /assets/images/preview/ghostbsd.jpg
 home_page: https://www.ghostbsd.org/
 desktops: [mate]
-base : [trueos]
+base : [freebsd]
 telegram : 
   GhostBSD: "https://t.me/ghostbsd"
 
@@ -36,4 +37,4 @@ stories:
 
 GhostBSD includes a simple installer, a desktop environment,  and user-friendly package management. It also provides out-of-the-box multimedia support with pre-installed codecs.
 
-Previously, the GhostBSD was based on FreeBSD. In May 2018, the team decided to switch the base in favor of TrueOS. The transition was initially implemented in the GhostBSD 18.10 release.
+Previously, the GhostBSD was based on FreeBSD. In May 2018, the team decided to switch the base in favor of TrueOS. The transition was initially implemented in the GhostBSD 18.10 release. After the discontinuation of TrueOS, GhostBSD again shifted its base to FreeBSD.
