@@ -14,6 +14,11 @@ image: /assets/images/preview/helloSystem.jpg
 screenshots:
   - helloSystem 0.5 screenshots: "/helloSystem-.05/"
 
+releases:
+  - helloSystem 0.8.1: /helloSystem-0.8.1-release/
+  - helloSystem 0.8: /hellosystem-0.8-release/
+  - helloSystem 0.7: /hellosystem-070-has-been-released/
+
 ---
 
 **helloSystem** is a desktop system targeting users whose main focus is simplicity, elegance, and usability. It follows the general design principles put forward by mac in the 90s to give a consistent user experience.
