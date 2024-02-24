@@ -7,6 +7,7 @@ permalink: /distribution/antix
 type : Linux
 logo: antix-logo.png
 preview: antix-preview.jpg
+image: /assets/images/preview/antix-preview.jpg
 home_page: https://antixlinux.com
 desktops: [icewm, fluxbox, jwm, herbstluftwm]
 base: [debian]
@@ -15,6 +16,7 @@ tagline: Debian with no sin of systemd
 description : "antiX is a fast, lightweight and systemd-free live distribution based on Debian. It provides a special eco-system called *antiX Magic* to work with both old and new computers"
 
 releases:
+  antiX 23.1 Arditi del Popolo: /antix-231-release/
   antiX 19.1 Marielle Franco: "/antix-19.1-screenshot/"
   antiX 19 Marielle Franco: "/2-antiX-19-release/"
   antiX 17.2 Helen Keller: "/01-antix-17.2-released-with-critical-bug-fixes/"
