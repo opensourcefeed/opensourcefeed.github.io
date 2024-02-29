@@ -6,6 +6,7 @@ Category: Distribution
 permalink: /distribution/kali
 logo: kali-logo.png
 preview: Kali_Linux.jpg
+image: /assets/images/preview/Kali_Linux.jpg
 home_page: https://www.kali.org/
 desktops: [gnome, plasma]
 base : [debian]
@@ -14,6 +15,7 @@ tagline: The ultimate hacking distribution
 description : "Kali Linux is a Debian (testing) based GNU/Linux distribution designed for digital forensic and peneteration testing. Stories and updates on Kali Linux"
 
 releases:
+  Kali Linux 2024.1: /kali-linux-20241-release/
   Kali Linux 2023.3: /kali-202303-release/
   Kali Linux 2022.4: /kali-2022.4-release/
   Kali Linux 2021.4: "/kali-linux-20214-has-been-released/"
