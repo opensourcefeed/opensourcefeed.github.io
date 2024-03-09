@@ -8,13 +8,15 @@ type : Linux
 permalink: /distribution/zorin
 logo: zorin.png
 preview: zorin-os-preview.jpg
+image: /assets/images/preview/zorin-os-preview.jpg
 home_page: https://zorinos.com
 desktops: [gnome, xfce]
 base : [ubuntu]
 
-description : Zorin OS is a good choice for people migrating from other proprietary operating systems like Microsoft Windows and macOS. Stories and reviews on Zorin OS
+description : Zorin OS is a good choice for people migrating from other proprietary operating systems like Microsoft Windows and macOS. Learn more about Zorin OS.
 
 releases:
+  Zorin OS 17.1: /zorinos-171-release/
   Zorin OS 17: /zorin-17-release/
   Zorin OS 17 BETA: /zorin-17-beta-release/
   Zorin OS 16.3: /zorinos-163-release/
@@ -50,6 +52,12 @@ screenshots:
   Zorin OS 12 Core : "https://distroscreens.blogspot.com/2016/12/zorin-os-12-core-screenshots.html"
 ---
 
-**Zorin OS** is a good choice for people migrating from other proprietary operating systems like Microsoft Windows and macOS. It combines solid Ubuntu base with a custom desktop environment called Zorin Desktop. The Zorin Desktop can be customized to mimic the looks of a range of other desktop environments and operating systems like GNOME 2, GNOME 3, macOS, Windows classic, Windows 7 ..etc.
+**Zorin OS** is a good choice for people migrating from other proprietary operating systems like Microsoft Windows and macOS. It combines solid Ubuntu base with a custom desktop environment called Zorin Desktop. The Zorin Desktop can be customized to mimic the looks other desktop environments and operating systems like GNOME 2, GNOME 3, macOS, Windows classic, Windows 7 ..etc.
 
-Zorin OS also ships a nice collection of themes which resembles other proprietary operating systems. It provides tools to easily switch between different layouts, browsers, and themes.
+Zorin OS also ships a nice collection of layouts and themes which resembles other proprietary operating systems. It provides tools to easily switch between different layouts, browsers, and themes.
+
+There are multiple flavors of Zorin OS. 
+Zorin OS Lite is for older computers with limited resources.
+Zorin OS Education edition is for students and teachers.
+Zorin OS Pro Edition is a paid edition includes additional layouts and applications.
+Zorin OS Core edition is trimmed down version of Pro edition for those who can not afford the Pro edition.
