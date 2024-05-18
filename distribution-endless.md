@@ -19,6 +19,7 @@ screenshots:
   Endless OS 3.6.0: "/1-endless-os-3.6-screenshots/"
 
 releases :
+  Endless OS 6: /endlessos-6-release/
   Endless OS 4.0.0: "/endlessos-4.0.0-release/"
   Endless OS 3.6.0: "https://community.endlessos.com/t/release-endless-os-3-6-0/9638"
 
