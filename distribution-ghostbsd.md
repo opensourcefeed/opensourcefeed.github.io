@@ -15,9 +15,10 @@ base : [freebsd]
 telegram : 
   GhostBSD: "https://t.me/ghostbsd"
 
-description : "Explore GhostBSD, a TrueOS-based distro with pre-installed GUI, user-friendly tools, and multimedia support. Make the switch today!"
+description : "GhostBSD: User-friendly desktop OS based on FreeBSD. Pre-configured GUI, easy software management & multimedia support. Enjoy desktop computing simplicity."
 
 releases:
+  GhostBSD 24.04.01: /ghostbsd-240401-release/
   GhostBSD 23.10.1: /ghostbsd-23101-release/
   GhostBSD 22.01.12: "/ghostbsd-220112-iso-released/"
   GhostBSD 2021.09.06: "/ghostbsd-20210906-release/"
@@ -33,8 +34,20 @@ stories:
 
 ---
 
-**GhostBSD** is a simple and elegant TrueOS-based distribution. In addition to the core values of TrueOS, GhostBSD brings pre-installed GUI and applications to make things easier for desktop users.
+**GhostBSD** is a desktop-oriented operating system designed for ease of use and stability. Based on the robust FreeBSD kernel, it inherits a strong foundation known for its security and performance. 
 
-GhostBSD includes a simple installer, a desktop environment,  and user-friendly package management. It also provides out-of-the-box multimedia support with pre-installed codecs.
+**Streamlined Desktop Environment:**
 
-Previously, the GhostBSD was based on FreeBSD. In May 2018, the team decided to switch the base in favor of TrueOS. The transition was initially implemented in the GhostBSD 18.10 release. After the discontinuation of TrueOS, GhostBSD again shifted its base to FreeBSD.
+GhostBSD prioritizes user-friendliness. It provides a pre-configured graphical user interface (GUI) and a desktop environment, eliminating the need for manual setup. This allows users to start working immediately, without the complexities of command-line configuration.
+
+**Effortless Software Management:**
+
+GhostBSD boasts a user-friendly package manager, simplifying the process of installing, updating, and removing applications. 
+
+**Multimedia Ready Out-of-the-Box:**
+
+Enjoy seamless multimedia playback from the get-go. GhostBSD comes pre-installed with essential codecs, ensuring a smooth audio and video experience.
+
+**Historical Context: TrueOS Integration**
+
+In its earlier iterations (from May 2018 to 2020), GhostBSD leveraged TrueOS as its base. TrueOS, another user-friendly FreeBSD derivative, aimed to bridge the gap for desktop users transitioning from Linux. Following the discontinuation of TrueOS, GhostBSD transitioned back to FreeBSD, ensuring its continued development and a familiar foundation for its users.
