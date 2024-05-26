@@ -1,5 +1,5 @@
 ---
-title: Fedora Wallpapers from Fedora Core 1 to Fedora 39 Workstation
+title: Fedora Wallpapers from Fedora Core 1 to Fedora 40 Workstation
 layout: post
 categories:
 - fedora
@@ -9,14 +9,12 @@ tags:
 - fedora
 - wallapapers
 - gallery
-description: A Collection of default wallpapers from the Fedora 1 Core to Fedora 39 Workstation. Recent releases includes both night and day variations.
+description: Explore the artistic evolution of Fedora wallpapers, from Fedora Core 1 to the cutting-edge Fedora 40.
 ---
 
-**Wallpaper** is the first piece of artwork that catches the attention of an average computer user. For an operating system, it is crucial to have an attractive wallpaper if oriented towards beginners.
+**The** default wallpaper is often the first impression a user has of a new operating system. For beginner-friendly distributions like Fedora, an attractive and welcoming default wallpaper can be a key factor.
 
-As a distribution focusing on beginners and advanced users, Fedora ships a decent default wallpaper with each release. It also provides an additional set of wallpapers to choose from.
-
-Join us as we go through the default wallpapers of Fedora, starting from the very first version, Fedora Core 1. Let's see how the visuals have evolved over the years.
+Fedora strikes a balance between catering to newcomers and experienced users. Each release boasts a unique default wallpaper, accompanied by a selection of additional options. Let's embark on a journey through Fedora's history, exploring how the default wallpapers have visually evolved since the very first iteration, Fedora Core 1.
 
 ## Fedora Core 1
 ![Fedora Core 01 wallpaper](/assets/images/post-images/fedora-wallpaper/Fedora Core 01.jpg)
@@ -156,6 +154,13 @@ Fedora 21 was released on 9th December 2014. With this release, Fedora stopped t
 ## Fedora 34
 ![Fedora 34 wallpaper](/assets/images/post-images/fedora-wallpaper/Fedora 34.jpg)
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6380671811722843"
+     data-ad-slot="3624978305"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
 ## Fedora 35
 ![Fedora 35 Workstation - Day wallpaper](/assets/images/post-images/fedora-wallpaper/f35-01-day.jpg)
 *Fedora 35 Workstation - Day Wallpaper*
@@ -200,6 +205,26 @@ title="Fedora 39 Workstation - Day wallpaper" %}
 {% include image-thumbnail.html 
 path="/assets/images/post-images/fedora-wallpaper/f39-01-night.jpg" 
 title="Fedora 39 Workstation - Night wallpaper" %}
+
+## Fedora 40 Workstation
+
+Fedora Workstation 40, launched on April 23rd, 2024, brought a refreshed desktop experience with the inclusion of GNOME 46. This release initially featured wallpapers from the beta stage, but subsequent updates introduced a new set of wallpapers.
+
+### Initial Wallpaper
+
+{% include image-thumbnail.html path="/assets/images/post-images/fedora-wallpaper/f40-01-day-initial.jpg" 
+title="Fedora 40 Workstation - Day wallpaper (initial)" %}
+
+{% include image-thumbnail.html path="/assets/images/post-images/fedora-wallpaper/f40-01-night-initial.jpg" 
+title="Fedora 40 Workstation - Night wallpaper (initial)" %}
+
+### Updated Wallpaper
+
+{% include image-thumbnail.html path="/assets/images/post-images/fedora-wallpaper/f40-01-day-new.jpg" 
+title="Fedora 40 Workstation - Day wallpaper (updated)" %}
+
+{% include image-thumbnail.html path="/assets/images/post-images/fedora-wallpaper/f40-01-night-new.jpg" 
+title="Fedora 40 Workstation - Night wallpaper (updated)" %}
 
 ## Reference
 1. Fedora 33 Wallpaper is from [OpenSourceFeed Gallery](https://www.opensourcefeed.org/fedora-33-release/)
