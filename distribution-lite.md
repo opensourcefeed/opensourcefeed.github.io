@@ -7,6 +7,7 @@ type : Linux
 permalink: /distribution/lite
 logo: lite-logo.jpg
 preview: linuxlite.jpg
+image: /assets/images/preview/linuxlite.jpg
 home_page: https://www.linuxliteos.com
 desktops: [xfce]
 base : [ubuntu]
@@ -15,6 +16,7 @@ tagline: "Simple, Fast & Free"
 description: Linux Lite is a lightweight, fully functional operating system built on top of Ubuntu. It includes a good collection of applications to serve your day to day needs.
 
 releases:
+  Linux Lite 7.0: /linux-lite-70-release/
   Linux Lite 7.0 RC1: /linuxlite-70-rc1/
   Linux Lite 6.6: /linuxlite-66-release/
   Linux Lite 6.2: /linux-lite-62-release/
