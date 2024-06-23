@@ -73,7 +73,7 @@ title: Free Operating Systems and Desktop Environments
                     {% if post.image %}
                     <img alt="{{post.title|strip_html}}" src="//images.weserv.nl/?url={{ site.url | replace: 'https://','' | replace: 'https://','' }}{{ post.image }}&w=400&output=jpg" />
                     {% else %}
-                    <img src="/assets/images/meta/placeholder.png" />
+                    <img src="/assets/images/meta/placeholder.png" alt="{{post.title|strip_html}}"/>
                     {% endif %}
 
                     <h3 class="card-title">{{post.title|strip_html}}</h3>
@@ -91,5 +91,9 @@ title: Free Operating Systems and Desktop Environments
     </div>
     <div class="more-stories text-center">
         <a href="/blog/">Older Stories ➜</a>
+    </div>
+    <hr>
+    <div class="text-center">
+        <a href="/important-dates/">Important Dates in Free/Open Source history</a>
     </div>
 </div>
