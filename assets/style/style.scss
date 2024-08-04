@@ -229,6 +229,10 @@ footer {
   text-align: center;
   padding: 5px 0 5px 0;
   width: 100%;
+  a {
+    color: #69a9df;
+    text-decoration: underline;
+  }
 }
 
 /* Individual post styles */
@@ -396,6 +400,17 @@ p img + em, figcaption {
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.616);
+}
+
+.navbar-toggler-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  div {
+    width: 100%;
+    height: 2px;
+    background-color: #888;
+  }
 }
 
 /* Syntax highlight */

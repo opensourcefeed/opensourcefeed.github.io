@@ -6,14 +6,14 @@ tagline: 'Enjoy the simplicity'
 Category: Distribution
 type : Linux
 permalink: /distribution/manjaro
-logo: Manjaro-logo.svg
+logo: manjaro-logo.png
 preview: manjaro-preview.jpg
 image: /assets/images/preview/manjaro-preview.jpg
 home_page: https://manjaro.org/
 desktops: [plasma, xfce, mate, gnome, cinnamon, budgie, lxqt, i3, lxde, awesome, bspwm, deepin, cutefish]
 base : [arch]
 
-description : Manjaro is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly scripts and installers to make it usable for newbies and professionals alike. Stories and updates on Manjaro GNU/Linux.
+description : Discover Manjaro, a user-friendly Arch-based Linux distribution perfect for beginners and pros. Learn more about this rolling GNU/Linux OS, featuring easy installers and scripts, and stay updated with latest stories, updates, and screenshots.
 
 releases:
   Manjaro 24.0 Wynsdey: /manjaro-24-wynsdey/
@@ -67,6 +67,6 @@ stories:
   Splitfire introduces Manjaro powered Station X laptops : "https://open-source-feed.blogspot.com/2017/09/station-x-introduces-manjaro-powered.html"
 ---
 
-**Manjaro** is an Arch based, rolling GNU/Linux distribution. It combines the powerful Arch base with user friendly scripts and installers to make it usable for newbies and professionals alike. Official Manjaro ships KDE and Xfce flavors. Additionally, there are community flavors featuring other desktop environments also.
+**Manjaro** is an Arch-based, rolling GNU/Linux distribution. It combines the powerful Arch base with user-friendly scripts and installers to make it usable for newbies and professionals. Official Manjaro ships KDE and Xfce flavors. Additionally, there are community flavors featuring other desktop environments.
 
-Developed in Austria, France, and Germany, Manjaro provides all the benefits of the Arch operating system combined with a focus on user-friendliness and accessibility. Available in both 32 and 64 bit versions, Manjaro is suitable for newcomers as well as experienced Linux users.
+Developed in Austria, France, and Germany, Manjaro provides all the benefits of the Arch operating system combined with a focus on user-friendliness and accessibility. Available in both 32 and 64-bit versions, Manjaro is suitable for newcomers as well as experienced Linux users.
