@@ -9,12 +9,14 @@ type : Linux
 logo: sparky-logo.png
 preview: sparky-lxqt-5.jpg
 home_page: https://sparkylinux.org/
+forum: https://forum.sparkylinux.org/
 desktops: [lxqt, mate, lxde, openbox, enlightenment, jwm, plasma, xfce]
 base: [debian]
 
 description : "Sparky Linux is a Debian based GNU/Linux distribution offering a ready to use, out of the box operating system. Stories, reviews and updates on Sparky Linux project."
 
 releases:
+  Sparky Semi-Rolling 2024.08: /sparky-semirolling-202408/
   Sparky Linux 2024.05: /sparky-202405-release/
   Sparky Linux 2024.02: /sparky-2024.02-release/
   Sparky 7.2 Orion Belt: /sparky-72-release/

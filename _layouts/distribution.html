@@ -59,6 +59,18 @@
                         <td><a href="{{ page.home_page }}">{{page.home_page}}</a></td>
                     </tr>
                     {% endif %} 
+                    {% if page.forum %}
+                    <tr>
+                        <td>Discussion Forum</td>
+                        <td><a href="{{ page.forum }}">{{page.forum}}</a></td>
+                    </tr>
+                    {% endif %} 
+                    {% if page.blog %}
+                    <tr>
+                        <td>News and Updates</td>
+                        <td><a href="{{ page.blog }}">{{page.forum}}</a></td>
+                    </tr>
+                    {% endif %} 
                     {% assign dist_rank = nil %}
                     {% for distribution in site.data.rank.distributions %}
                         {% if distribution.url == page.url %}
