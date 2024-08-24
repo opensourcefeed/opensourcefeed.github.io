@@ -11,8 +11,9 @@ desktops: [xfce, gnome, mate, cinnamon, lxqt, plasma]
 base: [debian]
 preview: amarok.jpg
 image: /assets/images/preview/amarok.jpg
-
+blog: https://magazine.maunalinux.top/
 description : "Mauna Linux (formerly Amarok Linux) is a Debian Testing-based GNU/Linux distribution of Brazilian origin. With a set of preconfigured applications, it makes computing easier."
+redirect_from: /distribution/mauna
 
 releases:
   Mauna Linux 24.2: /mauna-linux-242-release/
