@@ -37,3 +37,7 @@ videoTitle: Installing 4MLinux 38.0 on VirtualBox
 <a href="http://4mlinux.com/index.php?page=download" class="download">Download 4MLinux 46.0 STABLE</a>
 
 For [further information on 4MLinux 46.0 STABLE](https://4mlinux-releases.blogspot.com/2024/08/4mlinux-460-stable-released.html), read the official release announcement on projects website.
+
+## 4MLinux 46.0 STABLE screenshots
+
+{% include image-gallery.html folder="/screenshots/4MLinux 46.0" %}
