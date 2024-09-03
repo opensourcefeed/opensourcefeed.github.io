@@ -10,6 +10,7 @@ logo: ghostbsd.png
 preview: ghostbsd.jpg
 image: /assets/images/preview/ghostbsd.jpg
 home_page: https://www.ghostbsd.org/
+blog: https://www.ghostbsd.org/news
 desktops: [mate]
 base : [freebsd]
 telegram : 
@@ -18,6 +19,7 @@ telegram :
 description : "GhostBSD: User-friendly desktop OS based on FreeBSD. Pre-configured GUI, easy software management & multimedia support. Enjoy desktop computing simplicity."
 
 releases:
+  GhostBSD 24.07.1: /ghostbsd-24071-release/
   GhostBSD 24.04.01: /ghostbsd-240401-release/
   GhostBSD 23.10.1: /ghostbsd-23101-release/
   GhostBSD 22.01.12: "/ghostbsd-220112-iso-released/"
