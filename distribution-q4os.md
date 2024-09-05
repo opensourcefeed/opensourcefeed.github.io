@@ -15,6 +15,7 @@ tagline: Desktop OS with classic experience
 description : "Q4OS is a Debian-based operating system with Trinity and Plasma Desktop environments. This distribution aims to provide a stable, reliable & familiar user experience."
 
 releases:
+  Q4OS 5.6 Aquarius: /q4os-56-aquarius/
   Q4OS 5.2 Aquarius: /q4os-52-aquarius-release/
   Q4OS 4.6 Gemini: /q4os-4.6-release/
   Q4OS 3.12: "/q4os-3.12/"
