@@ -38,7 +38,7 @@ def save_results(resultMap, type):
     if len(resultMap):
 
         with open("../../_data/rank.yaml", "r") as file:
-            final_result = yaml.load(file.read())
+            final_result = yaml.safe_load(file.read())
 
         if not final_result:
             print ("No previous record found")
@@ -50,7 +50,7 @@ def save_results(resultMap, type):
                 'distributions' : [],
                 'desktops': []
             }
-        elif not 'desktops' in final_result:
+        elif 'desktops' not in final_result:
             final_result['desktops'] = []
         else:
             final_result['meta']['previous_date'] = final_result['meta']['current_date']
