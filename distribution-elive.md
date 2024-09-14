@@ -6,6 +6,7 @@ Category: Distribution
 permalink: /distribution/elive
 logo: elive.png
 preview: elive.jpg
+image: /assets/images/preview/elive.jpg
 home_page: https://www.elivecd.org
 desktops: [enlightenment]
 base: [debian]
@@ -14,6 +15,7 @@ tagline: Fast, beautiful & powerful with Englightenment
 description : Elive Linux is a Debian based, fast and beautiful operating system with a highly customized enlightenment window manager. Reviews, updates and other stories on Elive Linux.
 
 releases:
+  Elive 3.8.44: /elive-3844-release/
   Elive 3.7.14 BETA: "/elive-3.7.14-release/"
   Elive 3.0 : "/00-elive-3.0-stable-released-with-added-stability-and-visual-improvements/"
   Elive 2.9.5 beta : "https://open-source-feed.blogspot.com/2017/07/elive-295-beta-released-with-various.html"

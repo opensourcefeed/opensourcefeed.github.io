@@ -28,25 +28,30 @@ image: "/assets/images/meta/logo-collage.png"
                 </thead>
                 <tbody>
                     {% for distribution in site.data.rank.distributions %}
-                    <tr>
-                        <td>{{distribution.current.rank}}</td>
-                        <td>
-                            {% for page in site.pages %}
-                                {% if page.url == distribution.url %}
-                                    <a href="{{page.url}}">{{page.title}}</a>
-                                    {% break %}
-                                {% endif %}
-                            {% endfor %}
-                        </td>
-                        <td>
-                            {% if distribution.current.rank < distribution.previous.rank %}
-                            <span title="Previous rank {{distribution.previous.rank}}" class="text-success"> &uarr;</span>
-                            {% elsif distribution.previous.rank < distribution.current.rank %}
-                            <span title="Previous rank {{distribution.previous.rank}}" class="text-danger"> &darr;</span>
+                        {% assign match = nil %}
+                        {% for page in site.pages %}
+                            {% if page.url == distribution.url %}
+                                {% assign match = page %}
+                                {% break %}
                             {% endif %}
-                        </td>
-                        <td class="text-right">{{distribution.current.count}}</td>
-                    </tr>
+                        {% endfor %}
+
+                        {% if match %}
+                        <tr>
+                            <td>{{distribution.current.rank}}</td>
+                            <td>
+                                <a href="{{match.url}}">{{match.title}}</a>
+                            </td>
+                            <td>
+                                {% if distribution.current.rank < distribution.previous.rank %}
+                                <span title="Previous rank {{distribution.previous.rank}}" class="text-success"> &uarr;</span>
+                                {% elsif distribution.previous.rank < distribution.current.rank %}
+                                <span title="Previous rank {{distribution.previous.rank}}" class="text-danger"> &darr;</span>
+                                {% endif %}
+                            </td>
+                            <td class="text-right">{{distribution.current.count}}</td>
+                        </tr>
+                        {% endif %}
                     {% endfor %}
                 </tbody>
             </table>
