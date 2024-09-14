@@ -11,6 +11,7 @@ home_page: https://www.kali.org/
 desktops: [gnome, plasma]
 base : [debian]
 tagline: The ultimate hacking distribution
+blog: https://kali.org/blog/
 
 description : "Kali Linux is a Debian (testing) based GNU/Linux distribution designed for digital forensic and peneteration testing. Stories and updates on Kali Linux"
 
