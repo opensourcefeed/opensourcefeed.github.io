@@ -5,16 +5,19 @@ title: 'KaOS'
 Category: Distribution
 type : Linux
 permalink: /distribution/kaos
-logo: kaos_logo.svg
+logo: kaos-logo.png
 preview: krita-op.jpg
+image: /assets/images/preview/krita-op.jpg
+blog: https://kaosx.us/news/
 home_page: https://kaosx.us
 desktops: [plasma]
 base : Independent
-tagline: "A lean KDE experience"
+tagline: "A Lean, Rolling KDE Linux Distribution"
 
-description : KaOS is a desktop operating system offering a cutting-edge Plasma experience. It follows a rolling release model and helps users to stay updated.
+description : KaOS is a modern, rolling Linux distro focused on a streamlined KDE Plasma experience. It offers regular updates, a single desktop environment, and a curated package selection.
 
 releases:
+  KaOS 2024.09: /kaos-202409-release/
   KaOS 2020.07 : "/kaos-2020.07-release"
   KaOS 2018.10 : "/00-kaos-2018.10-released-with-plasma-5.14/"
   KaOS 2018.06 : "https://open-source-feed.blogspot.com/2018/06/kaos-201806-released-with-plasma-5131.html"
@@ -32,10 +35,12 @@ screenshots:
 
 ---
 
-KaOS, *A lean KDE distribution* is an independently developed, rolling GNU/Linux distribution. The idea behind KaOS is to deliver a tightly integrated, rolling, and transparent desktop operating system with a modern desktop environment.
+**KaOS** is a lightweight, independent Linux distribution that prioritizes a clean, efficient KDE Plasma desktop experience. As a rolling release, KaOS ensures users always have access to the latest updates and innovations in the open-source world.
 
-Instead of providing several varieties, KaOS ships a single operating system - with one desktop environment (Plasma), one toolkit (Qt), and support of one architecture (x86_64). 
+## Key features of KaOS include:
 
-Instead of providing a large number of packages, KaOS aims to deliver a few quality assured packages.
+- Single, Integrated Environment: KaOS provides a cohesive desktop experience with Plasma, Qt, and x86_64 architecture.
+- Curated Package Selection: Instead of overwhelming users with countless options, KaOS focuses on delivering a carefully chosen set of high-quality packages.
+- Regular Updates: Monthly ISO snapshots keep KaOS users up-to-date with the latest advancements in Plasma and other open-source technologies.
 
-KaOS ships updated ISO snapshots every month. It provides users to stay up-to-date with the latest Plasma and other technologies in the open-source ecosystem.
+If you're seeking a modern, streamlined Linux distribution with a focus on the KDE desktop, KaOS is an excellent choice.
