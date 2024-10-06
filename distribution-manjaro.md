@@ -16,6 +16,7 @@ base : [arch]
 description : Discover Manjaro, a user-friendly Arch-based Linux distribution perfect for beginners and pros. Learn more about this rolling GNU/Linux OS, featuring easy installers and scripts, and stay updated with latest stories, updates, and screenshots.
 
 releases:
+  Manjaro 24.1 Xahea: /manjaro-241-release/
   Manjaro 24.0 Wynsdey: /manjaro-24-wynsdey/
   Manjaro 23.1 Vulcan: /manjaro-231-volcano-release/
   Manjaro 23.0 Uranos: /manjaro-23-uranos-release/
