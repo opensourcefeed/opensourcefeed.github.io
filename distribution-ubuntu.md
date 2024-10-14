@@ -14,6 +14,7 @@ base : [debian]
 description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a range of hardware platforms like desktop, server, clouds and IoT.
 
 releases :
+  Ubuntu 24.10: /ubuntu-2410-release/
   Ubuntu 24.04 Noble Numbat BETA: /ubuntu-2404-noblenumbat-beta/
   Ubuntu 23.10 Mantic Minotaur: /ubuntu-2310-mantic-release/
   Ubuntu 23.04 Lunar Lobster: "/ubuntu-23.04-release/"
