@@ -9,7 +9,7 @@ permalink: /distribution/solus
 logo: solus-logo.png
 preview: solus-preview.jpg
 home_page: https://getsol.us
-desktops: [budgie, mate, gnome, plasma]
+desktops: [budgie, xfce, gnome, plasma]
 base : Independent
 telegram : 
   Unofficial: "https://t.me/solusproject"
@@ -17,6 +17,7 @@ telegram :
 description : Solus is an independent GNU/Linux distribution designed for modern personal computers, every tweak enabling us to deliver a singular, cohesive desktop experience.
 
 releases :
+  Solus 4.6 Convergence: /solus-46-release/
   Solus 4.5 Resilience: /solus-4.5-release/
   Solus 4.4 Harmony: /solus-44-harmony/
   Solus 4.3 Fortitude: "/solus-4.3-release/"
@@ -53,10 +54,8 @@ stories :
   MATE Desktop 1.18 lands in Solus with other package updates : https://open-source-feed.blogspot.com/2017/03/mate-desktop-118-lands-in-solus-with.html
 ---
 
-**Solus** is an independently developed GNU/Linux distribution that is designed for modern personal 
-computing devices, every tweak enabling us to deliver a singular, cohesive desktop experience.
+**Solus** is a fast and easy-to-use operating system based on Linux, made for personal computers. It’s designed to be simple and work smoothly, offering a modern and clean desktop experience. Solus comes with a variety of apps for daily use, including tools for work, gaming, and programming. 
 
-Solus is built from scratch and supported by the community, providing us the freedom to provide the 
-best experience without being beholden to the interests of other projects or corporate agendas.
+Solus features the Budgie desktop as its main option, but you can also choose from GNOME, Xfce, or KDE Plasma depending on what you prefer. Whether you're new to Linux or more experienced, Solus is a reliable and secure system that keeps itself updated with the latest software and security features.
 
-Budgie is the flagship desktop environment of Solus. It also provides GNOME and MATE editions.
+The Solus MATE edition was discontinued after the release of Solus 4.4.
