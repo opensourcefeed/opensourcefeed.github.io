@@ -1,5 +1,5 @@
 ---
-title: Fedora Wallpapers from Fedora Core 1 to Fedora 40 Workstation
+title: Fedora Wallpapers from Fedora Core 1 to Fedora 41 Workstation
 layout: post
 categories:
 - fedora
@@ -225,6 +225,18 @@ title="Fedora 40 Workstation - Day wallpaper (updated)" %}
 
 {% include image-thumbnail.html path="/assets/images/post-images/fedora-wallpaper/f40-01-night-new.jpg" 
 title="Fedora 40 Workstation - Night wallpaper (updated)" %}
+
+## Fedora 41 Workstation
+
+Fedora Workstation 41, released on 29th October 2024 introduced DNF 5. DNF 5 improved the performance and speed of command line package management in Fedora. Also, Fedora 41 came with GNOME 47.
+
+{% include image-thumbnail.html 
+path="/assets/images/post-images/fedora-wallpaper/f41-01-day.jpg" 
+title="Fedora 41 Workstation - Day wallpaper" %}
+
+{% include image-thumbnail.html 
+path="/assets/images/post-images/fedora-wallpaper/f41-01-night.jpg" 
+title="Fedora 41 Workstation - Night wallpaper" %}
 
 ## Reference
 1. Fedora 33 Wallpaper is from [OpenSourceFeed Gallery](https://www.opensourcefeed.org/fedora-33-release/)
