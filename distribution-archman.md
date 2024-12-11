@@ -8,12 +8,13 @@ permalink: /distribution/archman
 logo: archman.png
 preview: archman.jpg
 home_page: https://archman.org/
-desktops: [xfce, mate, plasma, lxqt]
+desktops: [xfce, mate, plasma, lxqt, gnome, deepin]
 base : [arch]
 
-description : "Archman is an Arch-based GNU/Linux distribution intended to make the computing easier for beginners and advanced developers. Stories and updates on Archman"
+description : "Explore Archman - an Arch-based GNU/Linux distribution intended to make computing easier for beginners and advanced developers. "
 
 releases:
+  Archman 2024-12 Xfce: /archman-2024-12-release/
   Archman 2019.09 Xfce: "/1-archman-2019.09-release-screens/"
 
 screenshots:
@@ -21,10 +22,10 @@ screenshots:
 
 ---
 
-**Archman** is an Arch-based GNU/Linux distribution intended to make the computing easier for beginners and advanced developers. The project descriptions states, it makes things easier but keeps the gate open for all range of users.
+**Archman** is an Arch-based GNU/Linux distribution intended to make computing easier for beginners and advanced developers. The project description states, it makes things easier but keeps the gate open for all range of users.
 
 Despite having Turkish origin, Archman defaults to the English language. Also, the website and documentation are provided in English to make it easier for global users.
 
-Archman ships  Xfce, MATE, Plasma and LXQt editions by default. If there is enough user demand, the team is ready to ship other flavors also.
+Archman ships Xfce, KDE Plasma, Mate, Deepin, Gnome, Lxde, and Lxqt versions editions. Xfce is the flagship desktop environment used in the Archman projects.
 
-In addition to the access to whole Arch repositories, Archman maintains their repository to provide the distribution specific customizations and improvements.
+In addition to the access to whole Arch repositories, Archman maintains its repository to provide distribution-specific customizations and improvements.
