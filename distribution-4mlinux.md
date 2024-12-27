@@ -15,6 +15,7 @@ image: /assets/images/preview/4MLinux.jpg
 description : 4MLinux is an independent, mini GNU/Linux distribution with main focus on maintenance, multimedia, minserver & mystery. Stories and updates on 4MLinux
 
 releases:
+  4MLinux 47.0 STABLE: /4m-linux-47-stable/
   4MLinux 46.0 STABLE: /4mlinux-46-release/
   4MLinux 44.0 STABLE: /4mlinux-44-release/
   4MLinux 43.0 STABLE: /4mlinux-43-release/
