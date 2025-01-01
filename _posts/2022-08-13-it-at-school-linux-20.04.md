@@ -2,7 +2,7 @@
 title: KITE GNU/Linux 20.04 - Kerala model of open source education
 layout: post
 categories:
-- itatschool
+- kite
 - screenshots
 tags:
 - itatschool
@@ -17,6 +17,10 @@ tags:
 image: "/screenshots/KITE Linux 20 Lite/10 GeoGebra.jpg"
 description: A brief history of KITE GNU/Linux 20.04 - a GNU/Linux distribution prepared for educational institutions by Government of Kerala. Download KITE GNU/Linux 20.04.
 ---
+
+<div class="alert alert-warning">
+IT@School KITE Linux 20.04 is outdated now. You may need to check on <a href="/kite-linux-2204-and-opensource-education/">IT@School KITE Linux 22.04</a>
+</div>
 
 **The** Kerala State of India has done excellent work by implementing computer learning with open-source applications. The government body of Kerla started the migration into open-source technologies in early 2006. The migration includes the use of *ORUMA* - billing and payment software for the state electricity board, free software migration in the Khadi Board, and free software for IT operations of the Kerala Legislative Assembly.
 

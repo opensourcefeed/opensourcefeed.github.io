@@ -1,7 +1,7 @@
 ---
 ---
 
-$primary-blue: #007bff;
+$primary-blue: #046cdc;
 $--color-border-secondary: #ebedef;
 
 .navbar-small {
@@ -192,6 +192,7 @@ main {
 
 a {
   color: #0470e3;
+  text-decoration: none;
 
   &:hover {
     text-decoration: none;
@@ -239,8 +240,8 @@ a {
       padding: 1.25rem;
       margin-bottom: 0;
       border-bottom: 3px solid #ffab00;
-      font-size: 16px;
-      font-family: open sans, sans-serif;
+      font-size: 1rem;
+      color: $primary-blue;
     }
 
     .date-container {

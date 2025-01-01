@@ -13,7 +13,7 @@ layout: default
 					<div class="col-sm-4">
 						<div class="date">{{ page.date | date: "%B %-d, %Y" }}</div>
 					</div>
-					<div class="col-sm-8 text-right">
+					<div class="col-sm-8 text-end">
 						{% for category in page.categories %}
 						{% assign topage = null %}
 						{% for page in site.pages %}

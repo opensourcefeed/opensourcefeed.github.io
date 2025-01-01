@@ -8,87 +8,91 @@ image: "/assets/images/meta/logo-collage.png"
     <h1>Page Hit Rank (Experimental)</h1>
     <div class="row">
         <div class="col-md-8 order-md-1">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" id="distribution-tab" data-toggle="tab" href="#distribution" role="tab" aria-controls="nav-distribution" aria-selected="true">Distribution</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="desktop-tab" data-toggle="tab" href="#desktop" role="tab" aria-controls="nav-desktop" aria-selected="false">Desktop</a>
-                </li>
-            </ul>
-            <div class="tab-content" id="nav-tabContent">
-            <table role="tabpanel" class="table table-sm tab-pane fade show active" id="distribution">
-                <thead>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Distribution</th>
-                        <th>Status</th>
-                        <th class="text-right">Page Views</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for distribution in site.data.rank.distributions %}
-                        {% assign match = nil %}
-                        {% for page in site.pages %}
-                            {% if page.url == distribution.url %}
-                                {% assign match = page %}
-                                {% break %}
-                            {% endif %}
-                        {% endfor %}
-
-                        {% if match %}
+        <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="distribution-tab" data-bs-toggle="pill" data-bs-target="#distribution" type="button" role="tab" aria-controls="tabs-distribution" aria-selected="true">Distribution</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="desktop-tab" data-bs-toggle="pill" data-bs-target="#desktop" type="button" role="tab" aria-controls="tabs-profile" aria-selected="false">Desktop</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="distribution" role="tabpanel" aria-labelledby="tabs-distribution">
+                <table class="table table-sm">
+                    <thead>
                         <tr>
-                            <td>{{distribution.current.rank}}</td>
-                            <td>
-                                <a href="{{match.url}}">{{match.title}}</a>
-                            </td>
-                            <td>
-                                {% if distribution.current.rank < distribution.previous.rank %}
-                                <span title="Previous rank {{distribution.previous.rank}}" class="text-success"> &uarr;</span>
-                                {% elsif distribution.previous.rank < distribution.current.rank %}
-                                <span title="Previous rank {{distribution.previous.rank}}" class="text-danger"> &darr;</span>
-                                {% endif %}
-                            </td>
-                            <td class="text-right">{{distribution.current.count}}</td>
+                            <th>Rank</th>
+                            <th>Distribution</th>
+                            <th>Status</th>
+                            <th class="text-end">Page Views</th>
                         </tr>
-                        {% endif %}
-                    {% endfor %}
-                </tbody>
-            </table>
-            <table role="tabpanel" class="table table-sm tab-pane fade" id="desktop">
-                <thead>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Desktop / WM</th>
-                        <th>Status</th>
-                        <th class="text-right">Page Views</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for desktop in site.data.rank.desktops %}
-                    <tr>
-                        <td>{{desktop.current.rank}}</td>
-                        <td>
+                    </thead>
+                    <tbody>
+                        {% for distribution in site.data.rank.distributions %}
+                            {% assign match = nil %}
                             {% for page in site.pages %}
-                                {% if page.url == desktop.url %}
-                                    <a href="{{page.url}}">{{page.title}}</a>
+                                {% if page.url == distribution.url %}
+                                    {% assign match = page %}
                                     {% break %}
                                 {% endif %}
                             {% endfor %}
-                        </td>
-                        <td>
-                            {% if desktop.current.rank < desktop.previous.rank %}
-                            <span title="Previous rank {{desktop.previous.rank}}" class="text-success"> &uarr;</span>
-                            {% elsif desktop.previous.rank < desktop.current.rank %}
-                            <span title="Previous rank {{desktop.previous.rank}}" class="text-danger"> &darr;</span>
+
+                            {% if match %}
+                            <tr>
+                                <td>{{distribution.current.rank}}</td>
+                                <td>
+                                    <a href="{{match.url}}">{{match.title}}</a>
+                                </td>
+                                <td>
+                                    {% if distribution.current.rank < distribution.previous.rank %}
+                                    <span title="Previous rank {{distribution.previous.rank}}" class="text-success"> &uarr;</span>
+                                    {% elsif distribution.previous.rank < distribution.current.rank %}
+                                    <span title="Previous rank {{distribution.previous.rank}}" class="text-danger"> &darr;</span>
+                                    {% endif %}
+                                </td>
+                                <td class="text-end">{{distribution.current.count}}</td>
+                            </tr>
                             {% endif %}
-                        </td>
-                        <td class="text-right">{{desktop.current.count}}</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
+                        {% endfor %}
+                    </tbody>
+                </table>
             </div>
+            <div class="tab-pane fade" id="desktop" role="tabpanel" aria-labelledby="tabs-desktop">
+                <table class="table table-sm">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Desktop / WM</th>
+                            <th>Status</th>
+                            <th class="text-end">Page Views</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for desktop in site.data.rank.desktops %}
+                        <tr>
+                            <td>{{desktop.current.rank}}</td>
+                            <td>
+                                {% for page in site.pages %}
+                                    {% if page.url == desktop.url %}
+                                        <a href="{{page.url}}">{{page.title}}</a>
+                                        {% break %}
+                                    {% endif %}
+                                {% endfor %}
+                            </td>
+                            <td>
+                                {% if desktop.current.rank < desktop.previous.rank %}
+                                <span title="Previous rank {{desktop.previous.rank}}" class="text-success"> &uarr;</span>
+                                {% elsif desktop.previous.rank < desktop.current.rank %}
+                                <span title="Previous rank {{desktop.previous.rank}}" class="text-danger"> &darr;</span>
+                                {% endif %}
+                            </td>
+                            <td class="text-end">{{desktop.current.count}}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
         </div>
         <div class="col-md-2 order-md-0"></div>
         <div class="col-md-2 order-md-2"></div>
