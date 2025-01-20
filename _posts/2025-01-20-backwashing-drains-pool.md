@@ -3,7 +3,7 @@ title: "Does Backwashing Drain Your Pool?"
 layout: post
 categories:
 - general
-image: "/assets/images/post-images/guest-posts/artificial-intelligence-3382507_1280.jpg"
+image: "/assets/images/post-images/guest-posts/backwashing-pool.jpg"
 hidden: true
 ---
 
