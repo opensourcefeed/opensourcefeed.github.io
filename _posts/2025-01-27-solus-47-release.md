@@ -5,7 +5,7 @@ categories:
 - solus
 - release
 image: "/assets/images/post-images/solus/solus-4.7-featured.jpg"
-description:  olus 4.7 Endurance released with updated editions, kernels, and improved software centers. Download and experience the latest from Solus today.
+description:  Solus 4.7 Endurance released with updated editions, kernels, and improved software centers. Download and experience the latest from Solus today.
 ---
 
 Solus, the independent Linux distribution, has just unveiled its latest release: **Solus 4.7 Endurance**. This update focuses on enhancing the user experience across all editions with refreshed kernels, updated applications, and improved software center functionality. 
