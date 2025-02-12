@@ -16,6 +16,7 @@ tagline: the power of arch with user-friendliness
 description : "EndeavourOS is an Arch-based GNU/Linux distribution created by the Antergos community. It offers the flexibility of Arch with ease of use."
 
 releases:
+  EndeavourOS Mercury: /endeavouros-mercury-release/
   EndeavourOS Neo Galileo: /endeavoros-20240125-release/
   EndeavourOS Atlantis Neo: "https://endeavouros.com/news/happy-holidays-atlantis-neo-has-arrived/" 
   EndeavourOS Atlantis Orbit: "https://endeavouros.com/news/the-atlantis-release-is-in-orbit/"

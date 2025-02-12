@@ -4,3 +4,4 @@ _site/
 .jekyll-metadata
 .jekyll-cache/
 credentials.json
+assets/pageview/.env
