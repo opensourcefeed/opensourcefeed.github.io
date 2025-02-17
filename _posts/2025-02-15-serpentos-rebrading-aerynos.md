@@ -2,7 +2,7 @@
 title: Serpent OS Sheds Its Skin, Reborn as AerynOS
 layout: post
 categories:
-  - serpentos
+  - serpent
   - news
 image: "/assets/images/post-images/serpentos-rebrading.jpg"
 description:  "AerynOS: The evolution of Serpent OS! Discover the rebranded Linux distro focused on innovation, trust, and community. Launching officially on March 17, 2025."
