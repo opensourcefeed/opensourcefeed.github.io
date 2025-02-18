@@ -431,11 +431,11 @@ table {
 }
 
 .status-active {
-  color: green;
+  color: green !important;
 }
 
 .status-discontinued {
-  color: red;
+  color: red !important;
 }
 
 .distribution h1,
