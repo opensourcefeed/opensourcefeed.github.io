@@ -36,4 +36,4 @@ Existing open-source learning platforms, such as Moodle, tend to focus on tradit
 
 If an open-source alternative to Skool were developed, it could provide the benefits of community-based learning while allowing users greater control and customization. Skool’s success demonstrates the demand for engagement-driven learning, and open-source developers could take inspiration from its model to create free and open educational tools.
 
-Currently, Skool remains a closed platform, but its principles highlight an opportunity for open-source innovation in education. If you’re interested in exploring Skool further, visit [discoverskool.com](https://discoverskool.com/) for more insights.
+Currently, Skool remains a closed platform, but its principles highlight an opportunity for open-source innovation in education. If you’re interested in exploring Skool further, visit <a href="https://discoverskool.com" rel="nofollow">discoverskool.com</a> for more insights.
