@@ -11,6 +11,7 @@ home_page: https://www.gnome.org/
 description: GNOME (originally an acronym for GNU Network Object Model) is a modern desktop environment mainly developed for GNU/Linux operating systems, but also works on most of the BSD systems. Stories & updates on GNOME Desktop.
 
 releases:
+  GNOME 48: /gnome-48-release/
   GNOME 44: /gnome-44-release/
   GNOME 41: "/gnome-41-release/"
   GNOME 40: "/gnome-40-release/"
