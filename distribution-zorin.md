@@ -17,6 +17,7 @@ blog: https://blog.zorin.com/
 description : Zorin OS is a user-friendly Linux distro, ideal for those switching from Windows or macOS. Customize layouts, themes, and choose from Lite, Core, Education, or Pro editions.
 
 releases:
+  Zorin OS 17.3: /zorinos-173-release/
   Zorin OS 17.2: /zorin-os-172-release/
   Zorin OS 17.1: /zorinos-171-release/
   Zorin OS 17: /zorin-17-release/
