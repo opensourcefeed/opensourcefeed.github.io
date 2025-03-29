@@ -14,7 +14,7 @@ tagline: A windows like distribution that is not windows.
 base : Independent
 
 releases:
-  ReactOS 0.4.15: /reactos-045-release/
+  ReactOS 0.4.15: /reactos-0415-release/
   ReactOS 0.4.14: "/reactos-0414-released/"
   ReactOS 0.4.10: "/1-reactos-0.4.10-btrfs-support/"
   ReactOS 0.4.9 : "../reactos-4.9-released-with-stability-and-usability-improvements/"
