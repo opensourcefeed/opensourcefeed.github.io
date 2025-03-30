@@ -16,6 +16,7 @@ description : "Mauna Linux (formerly Amarok Linux) is a Debian Testing-based GNU
 redirect_from: /distribution/mauna
 
 releases:
+  Mauna Linux 24.6: /mauna-246-release/
   Mauna Linux 24.5: /mauna-245-release/
   Mauna Linux 24.2: /mauna-linux-242-release/
   Mauna Linux 24.1: /mauna-241-release/
