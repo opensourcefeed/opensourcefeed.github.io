@@ -47,6 +47,7 @@ screenshots :
   Fedora 24 Alpha : "https://distroscreens.blogspot.com/2016/04/fedora-24-alpha-gnome-320-screenshots.html"
 
 releases:
+  Fedora 42: /fedora-linux-42-released/
   Fedora 41: /fedora-41-release/
   Fedora 39: /fedora-39-release/
   Fedora 38: /fedora-38-release/
