@@ -15,6 +15,7 @@ tagline: Ubuntu lightweight with LXQt
 description : Lubuntu is one of the oldest official community flavors of Ubuntu. It provides a lightweight desktop experience with LXQt desktop environment.
 
 releases:
+  Lubuntu 25.04 Plucky Puffin: "/lubuntu-2504-plucky-puffin-release/"
   Lbuntu 23.10 Mantic Minotaur: /ubuntu-2310-mantic-release/
   Lubuntu 23.04 Lunar Lobster: /lubuntu-23.04-release/
   Lubuntu 22.10 Kinetic Kudu: /lubuntu-22.10-kinetic-kudu-release
@@ -49,6 +50,9 @@ reviews:
   Lubuntu 17.04 - simple evolution : "https://linuxblog.darkduck.com/2017/05/lubuntu-1704-simple-evolution.html"
 
 stories:
+
+versions:
+  - "25.04"
 
 ---
 Lubuntu is a lightweight and user-friendly version of Ubuntu, a popular Linux distribution. It is designed to run well on older computers and systems with limited resources.

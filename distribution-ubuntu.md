@@ -13,7 +13,8 @@ base : [debian]
 
 description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a range of hardware platforms like desktop, server, clouds and IoT.
 
-releases :
+releases:
+  Ubuntu 25.04 Plucky Puffin: "/ubuntu-2504-plucky-puffin-release/"
   Ubuntu 24.10: /ubuntu-2410-release/
   Ubuntu 24.04 Noble Numbat BETA: /ubuntu-2404-noblenumbat-beta/
   Ubuntu 23.10 Mantic Minotaur: /ubuntu-2310-mantic-release/
@@ -35,6 +36,9 @@ releases :
   Ubuntu 16.04.2 : https://open-source-feed.blogspot.com/2017/02/ubuntu-16042-released-with-improved.html
   Ubuntu 5.04: /ubuntu-classic-ubuntu-5.04/
   Ubuntu 4.10: "/ubuntu-classic-ubuntu-4.10/"
+
+versions:
+  - "25.04"
 
 screenshots:
   Ubuntu 22.10 Kinetic Kudu: "/ubuntu-22.10-kinetic-kudu-release/"

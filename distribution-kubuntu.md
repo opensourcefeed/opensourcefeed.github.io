@@ -25,6 +25,7 @@ screenshots:
   Kubuntu 16.04 : "https://distroscreens.blogspot.com/2016/04/kubuntu-1604-xenial-xerus-screenshots.html"
 
 releases:
+  Kubuntu 25.04 Plucky Puffin: "/kubuntu-2504-plucky-puffin-release/"
   Kubuntu 22.10 Kinetic Kudu: /kubuntu-22.10-kinetic-kudu-release
   Kubuntu 20.10 Groovy Gorilla: "/kubuntu-20.10-release/"
   Kubuntu 20.04 Focal Fossa (Dead Link): "#"
@@ -43,6 +44,9 @@ reviews :
   "Kubuntu Zesty is shaping to be a perfect distro" : "https://www.dedoimedo.com/computers/kubuntu-zesty-perfect.html"
   "Kubuntu 17.04 Zesty Zaphod - Kawabuntu!" : "https://www.dedoimedo.com/computers/kubuntu-zesty.html"
   Kubuntu 17.04 - The next generation OS : "https://linuxblog.darkduck.com/2017/04/kubuntu-1704-next-generation.html"
+
+versions:
+  - "25.04"
 ---
 
 **Kubuntu** is one of the oldest, official community flavor of Ubuntu featuring modern Plasma desktop. It brings plasma desktop with a decent customization such as artwork to make it more appealing to end users.
