@@ -15,9 +15,9 @@ Ubuntu 25.04 is supported for **9 months** (until January 2026), making it ideal
 
 ## 🐧 What's New in Ubuntu 25.04?
 
-Ubuntu 25.04 ships with the latest **GNOME 46**, bringing better gesture support, enhanced accessibility features, refined settings, and an overall smoother desktop experience. Key system updates include:
+Ubuntu 25.04 ships with the latest **GNOME 48**, offering a polished user experience packed with performance boosts and accessibility improvements. Key system updates include:
 
-- **Linux Kernel 6.8** – for improved hardware support and performance
+- **Linux Kernel 6.14** – for improved hardware support and performance
 - **Wayland by default** – with better multi-monitor and touchpad support
 - **Updated Snap and Flatpak integration**
 - Improved power efficiency and responsiveness
@@ -90,7 +90,3 @@ Targeting Chinese-speaking users, Ubuntu Kylin includes:
 ## 📥 Download and Explore
 
 Whether you're into modern workflows, minimal desktops, or traditional interfaces, Ubuntu 25.04 has something for everyone. You can [download Ubuntu and its flavors](https://ubuntu.com/download/flavours) from the official website.
-
-Stay tuned for upcoming reviews, tutorials, and performance benchmarks across each flavor.
-
-Which one will you be trying? Let us know in the comments or tag us on [Mastodon](https://fosstodon.org/@opensourcefeed), [X](https://twitter.com/openfeedorg), or [Telegram](https://t.me/opensourcefeed)!
