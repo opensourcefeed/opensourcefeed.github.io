@@ -65,6 +65,7 @@ Microsoft provides **ScanPST.exe**, a built-in utility for repairing .pst files:
 #### Step-by-Step Guide:
 
 **Step 1.** Exit Outlook.
+
 **Step 2.** Locate ScanPST using paths below (varies by Outlook version):
    - Office 365/2019/2016:  
      - `C:\Program Files\Microsoft Office\root\Office16`
