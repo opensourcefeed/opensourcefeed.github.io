@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Breaking Down NDIS Funding: Capital Supports Explained"
-categories: [NDIS, Disability Services]
+categories: [Health, NDIS, Disability Services]
 tags: [NDIS, Capital Supports, Assistive Technology, Home Modifications, SDA, Disability Services NSW]
 description: Learn how NDIS Capital Supports funding works, including assistive technology and home modifications to improve accessibility and independence.
 hidden: true

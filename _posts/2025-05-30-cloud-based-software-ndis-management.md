@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why Cloud-Based Software Is the Future of NDIS Management"
-categories: [Technology, NDIS]
+categories: [Health, Technology, NDIS]
 tags: [NDIS, Cloud Software, Disability Services, Healthcare IT]
 description: Discover how cloud-based software is transforming NDIS management through efficiency, security, and participant-centered care.
 hidden: true
