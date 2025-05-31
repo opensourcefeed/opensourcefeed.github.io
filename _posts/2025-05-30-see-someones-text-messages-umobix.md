@@ -87,7 +87,7 @@ The dashboard is user-friendly, even for non-tech-savvy parents.
 
 ## When Is It Right to Use a Text Message Tracker?
 
-![The one to be tracked](/assets/images/post-images/guest-posts/messenger-tracker/06.png)
+![The one to be tracked](/assets/images/post-images/guest-posts/messenger-tracker/06.jpg)
 
 You might be asking yourself: *Am I overreacting?* Here are signs that it might be time to act:
 

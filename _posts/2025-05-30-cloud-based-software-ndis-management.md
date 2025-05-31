@@ -5,12 +5,12 @@ categories: [Health, Technology, NDIS]
 tags: [NDIS, Cloud Software, Disability Services, Healthcare IT]
 description: Discover how cloud-based software is transforming NDIS management through efficiency, security, and participant-centered care.
 hidden: true
-image: /assets/images/post-images/guest-posts/ndis-management/feature.png
+image: /assets/images/post-images/guest-posts/ndis-management/feature.jpg
 ---
 
 **Every** provider has that moment—the day when admin tasks become overwhelming, compliance checks feel impossible, or a critical document disappears at the worst time. It’s not a sign of failure; it’s a sign that the old way of working no longer fits.
 
-![NDIS management using cloud based software](/assets/images/post-images/guest-posts/ndis-management/feature.png)
+![NDIS management using cloud based software](/assets/images/post-images/guest-posts/ndis-management/feature.jpg)
 
 Some shifts happen overnight. Others creep in slowly, unnoticed—until one day, they’re impossible to ignore. That’s what’s happening in NDIS management.
 

@@ -5,10 +5,10 @@ categories: [energy, savings]
 tags: [energy bill, comparison, rates, discounts]
 description: "Lower your energy bills in Australia! Understand your energy bill, compare rates, find hidden charges, and discover discounts. Learn how to switch providers and save money. #EnergySavings #Australia #LowerBills"
 hidden: true
-image: /assets/images/post-images/guest-posts/energy-saving.png
+image: /assets/images/post-images/guest-posts/energy-saving.jpg
 ---
 
-![Energy saving in Australia featured image](/assets/images/post-images/guest-posts/energy-saving.png)
+![Energy saving in Australia featured image](/assets/images/post-images/guest-posts/energy-saving.jpg)
 
 You check your email, see your latest energy bill, and feel a familiar frustration. It's higher than you expected—again, but you haven't changed your habits. You're using the same appliances and keeping the same routine, yet your bill keeps creeping up. It doesn't seem fair, right? We feel your pain.
 The truth is that Australian energy costs can increase for reasons that have nothing to do with how much power you use. But if you've never taken the time to do an energy and gas comparison, you could be paying more than necessary. A closer look might help you cut down on unnecessary charges.
