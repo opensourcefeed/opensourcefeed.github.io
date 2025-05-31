@@ -64,7 +64,7 @@ title: Free Operating Systems and Desktop Environments
     <h2>Recent Stories</h2>
     <hr>
     <div class="row">
-        {% assign posts = site.posts | slice: 0, 15 %}
+        {% assign posts = site.posts | slice: 0, 30 %}
         {% assign filtered_posts = posts | where_exp: "post", "post.hidden != true" %}
         {% for post in filtered_posts limit:9 %}
         <div class="col-md-4">

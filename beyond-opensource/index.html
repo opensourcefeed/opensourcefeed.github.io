@@ -1,0 +1,37 @@
+---
+layout: blog
+title: Beyond Open Source | Diverse Guest Articles on Technology, Innovation & More
+description: "Explore insightful guest posts on Beyond Open Source — covering technology, innovation, lifestyle, and trending topics beyond the open source world. Fresh perspectives, expert voices."
+---
+<div class="blog">
+  <h1>Beyond Open Source</h1>
+  <div class="row stories">
+    {% for post in site.posts %}
+    {% if post.disclaimer or post.hidden %}
+    <div class="col-md-4">
+      <a href="{{post.url}}">
+        <div class="card">
+          <img alt="{{post.title}}" src="//images.weserv.nl/?url={{ site.url | replace: 'https://','' | replace: 'https://','' }}{{ post.image }}&w=400&output=jpg" />
+          <h3 class="card-title">{{ post.title }}</h3>
+          <div class="card-body">
+            <div class="date-container">
+              <div class="date">{{ post.date | date_to_string}}</div>
+              <div class="mock"></div>
+            </div>
+            <div class="card-text">{{ post.content | strip_html | truncatewords: 30, '...'}}</div>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  main {
+    background-color: #f7f7f7;
+    box-shadow: none;
+    border: none;
+  }
+</style>
