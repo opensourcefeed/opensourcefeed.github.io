@@ -16,6 +16,7 @@ base : [arch]
 description : Discover CachyOS - a fast, user-friendly Arch Linux distro with a customizable, optimized kernel. Read news, updates, reviews, and see screenshots of CachyOS.
 
 releases:
+  CachyOS May 2025 Release: /cachyos-may-2025-release/
   CachyOS March 2025 Release: /cachyos-march25-release/
   CachyOS July 2024 Release: https://cachyos.org/blog/2407-july-release/
 ---
