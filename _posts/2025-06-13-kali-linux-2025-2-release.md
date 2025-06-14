@@ -4,7 +4,7 @@ title: "Kali Linux 2025.2 Released – MITRE Menu, NetHunter Smartwatch & More"
 categories: [Linux, kali, Release]
 tags: [Kali Linux, Linux Distribution, Penetration Testing, Hacking Tools, Open Source]
 description: "Discover what's new in Kali Linux 2025.2: a MITRE-aligned tool menu, GNOME 48 & KDE 6.3 upgrades, BloodHound CE, 13 new tools, and breakthrough NetHunter features."
-image: /assets/images/post-images/deepin/deepin-25-beta.webp
+image: /assets/images/post-images/kali/2025.2.webp
 ---
 
 Kali Linux 2025.2 has officially launched on 13 June 2025—the second major update of the year. It introduces a smarter tool menu, fresh desktop enhancements, stronger pentesting utilities, and impressive NetHunter innovations.
