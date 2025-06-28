@@ -5,12 +5,12 @@ categories: hardware
 tags: [LCD, TFT, displays, electronics, tech-guide]
 description: Learn the key differences between LCD and TFT display technologies to choose the right screen for your next product.
 hidden: true
-image: /assets/images/post-images/guest-posts/display-have/display-2.png
+image: /assets/images/post-images/guest-posts/display-have/display-2.jpg
 ---
 
 **Choosing** the right screen technology for a product can influence everything from power consumption to visual performance. Whether you're developing a medical device, industrial equipment, or consumer gadget, understanding the differences between LCD and TFT screens helps inform smarter decisions. This guide breaks down their characteristics, with a focus on how tailored display solutions can suit a wide range of applications.
 
-![Display Solutions - Image 1](/assets/images/post-images/guest-posts/display-have/display-1.png)
+![Display Solutions - Image 1](/assets/images/post-images/guest-posts/display-have/display-1.jpg)
 
 ## Custom-Made Displays and Why They Matter
 
@@ -30,7 +30,7 @@ TFTs are widely used in everything from smartphones and vehicle dashboards to in
 
 ## Choosing the Right Technology for Your Project
 
-![Display Solutions - Image 2](/assets/images/post-images/guest-posts/display-have/display-2.png)
+![Display Solutions - Image 2](/assets/images/post-images/guest-posts/display-have/display-2.jpg)
 
 Selecting between [LCD](https://www.theguardian.com/artanddesign/2018/sep/28/liquid-crystal-display-review-lcd-a-dazzling-date-with-the-mineral-of-the-millennium) and TFT displays begins with identifying the key requirements of your application. For products that prioritize minimal power draw, simplified visuals, and cost savings, traditional LCDs remain a solid choice. They can also be customized, with options like reflective or transflective backlights to accommodate different lighting conditions.
 
