@@ -13,7 +13,7 @@ tagline: Faster and productive with Xfce
 description : Xubuntu is a full featured, yet lightweight and resource efficient GNU/Linux distribution. Stories and updates on Xubuntu.
 
 releases:
-  Xubuntu 25.04 Plucky Puffin: "/xubuntu-2504-plucky-puffin-release/"
+  Xubuntu 25.04 Plucky Puffin: /ubuntu-25-04-plucky-puffin-flavors-release/
   Xubuntu 23.10 Mantic Minotaur: /ubuntu-2310-mantic-release/
   Xubuntu 22.10 Kinetic Kudu: /xubuntu-22.10-kinetic-kudu-release/
   Xubuntu 22.04: '#'

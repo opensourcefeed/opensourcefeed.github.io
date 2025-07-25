@@ -25,7 +25,7 @@ screenshots:
   Kubuntu 16.04 : "https://distroscreens.blogspot.com/2016/04/kubuntu-1604-xenial-xerus-screenshots.html"
 
 releases:
-  Kubuntu 25.04 Plucky Puffin: "/kubuntu-2504-plucky-puffin-release/"
+  Kubuntu 25.04 Plucky Puffin: /ubuntu-25-04-plucky-puffin-flavors-release/
   Kubuntu 22.10 Kinetic Kudu: /kubuntu-22.10-kinetic-kudu-release
   Kubuntu 20.10 Groovy Gorilla: "/kubuntu-20.10-release/"
   Kubuntu 20.04 Focal Fossa (Dead Link): "#"

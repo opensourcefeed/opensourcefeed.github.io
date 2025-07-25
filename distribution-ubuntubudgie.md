@@ -29,7 +29,7 @@ screenshots:
   budgie remix 16.04 : "https://distroscreens.blogspot.com/2016/06/budgie-remix-1604-screenshots.html"
 
 releases:
-  Ubuntu Budgie 25.04 Plucky Puffin: "/ubuntu-budgie-2504-plucky-puffin-release/"
+  Ubuntu Budgie 25.04 Plucky Puffin: /ubuntu-25-04-plucky-puffin-flavors-release/
   Ubuntu Budgie 23.10 Mantic Minotaur: /ubuntu-2310-mantic-release/
   Ubuntu Budgie 22.10 Kinetic Kudu: /ubuntu-budgie-22.10-kinetic-kudu-release/
   Ubuntu Budgie 22.04: '#'
