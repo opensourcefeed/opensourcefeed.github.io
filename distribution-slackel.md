@@ -16,6 +16,7 @@ base: [Slackware]
 description : "Explore Slackel, a user-friendly Linux distribution by Dimitris Tzemos, seamlessly compatible with Slackware, featuring the latest version and versatile installation options on USB devices."
 
 releases:
+  Slackel 8.0 OpenBox: /slackel-8-0-openbox-release/
   Slackel 7.7 MATE: /slackel-77-mate/
   Slackel 7.2 OpenBox: /1-slackel-7.2-openbox-release/
 
