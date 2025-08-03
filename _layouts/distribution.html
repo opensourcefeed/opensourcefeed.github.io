@@ -22,6 +22,7 @@
                     <a href="/assets/images/preview/{{ image }}">
                             <img src="/assets/images/preview/{{ image }}" alt="{{ page.title}} featured image"/>
                         </a>
+                    {% if page.preview_caption %}<em>{{ page.preview_caption }}</em>{% endif %}
                 </div>
                 {% endfor %}
                 {% endif %}

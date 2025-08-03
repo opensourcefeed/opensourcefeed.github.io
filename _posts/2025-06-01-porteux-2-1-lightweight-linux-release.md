@@ -1,7 +1,7 @@
 ---
 title: "PorteuX 2.1 Released: A modular Linux Distro with Linux Kernel 6.15"
 layout: post
-categories: [Linux, PorteuX, Release]
+categories: [Linux, porteux, Release]
 tags: [PorteuX, Linux, Slackware, lightweight, portable, Linux 6.15]
 description: PorteuX 2.1 brings Linux kernel 6.15, system improvements, and enhanced performance to this portable and modular Linux distro.
 image: /assets/images/post-images/PorteuX-2.1-featured.jpg
