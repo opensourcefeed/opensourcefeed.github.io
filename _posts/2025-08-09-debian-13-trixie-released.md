@@ -4,6 +4,7 @@ title: "Debian 13 'Trixie' Released with Major Updates and New Architecture Supp
 categories: [Linux, debian, Releases]
 tags: [Debian, Linux, Trixie, Release, Open Source, Operating System]
 description: "Debian 13 'Trixie' is here with updated packages, new RISC-V support, and major improvements across desktop, server, and cloud environments."
+image: /assets/images/post-images/debian/debian-13.webp
 ---
 
 The Debian Project has officially announced the release of **Debian 13 "Trixie"**, the new stable version of the universal operating system. Arriving after more than two years of development, Trixie will receive security and long-term support for the next five years.
