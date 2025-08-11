@@ -34,7 +34,7 @@ videoTitle: Installing 4MLinux 38.0 on VirtualBox
 - Gaming Additions: The classic GNU Go game has been added to the 4MLinux GamePack, which is available as a downloadable extension.
 - GTK 4 Integration: For the first time, 4MLinux includes GTK version 4, enhancing the graphical interface capabilities of the distribution.
 
-<a href="http://4mlinux.com/index.php?page=download" class="download">Download 4MLinux 46.0 STABLE</a>
+<a href="https://4mlinux.com/index.php?page=download" class="download">Download 4MLinux 46.0 STABLE</a>
 
 For [further information on 4MLinux 46.0 STABLE](https://4mlinux-releases.blogspot.com/2024/08/4mlinux-460-stable-released.html), read the official release announcement on projects website.
 

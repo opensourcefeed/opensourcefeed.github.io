@@ -18,7 +18,7 @@ description : KaOS is a modern, rolling Linux distro focused on a streamlined KD
 
 releases:
   KaOS 2024.09: /kaos-202409-release/
-  KaOS 2020.07 : "/kaos-2020.07-release"
+  KaOS 2020.07 : "/kaos-2020.07-release/"
   KaOS 2018.10 : "/00-kaos-2018.10-released-with-plasma-5.14/"
   KaOS 2018.06 : "https://open-source-feed.blogspot.com/2018/06/kaos-201806-released-with-plasma-5131.html"
   KaOS 2017.09 : "https://open-source-feed.blogspot.com/2017/09/kaos-201709-snapshot-released-with.html"
@@ -30,7 +30,7 @@ releases:
   KaOS 2015.11 : "https://open-source-feed.blogspot.com/2015/11/kaos-201511-is-available-now.html"
 
 screenshots:
-  KaOS 2020.07 : "/kaos-2020.07-release"
+  KaOS 2020.07 : "/kaos-2020.07-release/"
   KaOS 2018.04 : "https://distroscreens.blogspot.com/2018/05/kaos-201804-screenshots.html"
 
 ---

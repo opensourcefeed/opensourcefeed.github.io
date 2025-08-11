@@ -24,10 +24,10 @@ screenshots :
   Fedora 38 Workstation: /fedora-38-release/
   Fedora 37 Workstation: /fedora-37-release/
   Fedora 35 Plasma Spin: /fedora-35-plasma-spin/
-  Fedora 35 Workstation: "/fedora-35-release"
+  Fedora 35 Workstation: "/fedora-35-release/"
   Fedora 34 Workstation: "/fedora-34-release/"
   Fedora 33: "/fedora-33-release/"
-  Fedora 32: "/fedora-32-release"
+  Fedora 32: "/fedora-32-release/"
   Fedora 32 BETA: "/fedora-32-beta/"
   Fedora 31 Workstation: "/fedora-31-screens/"
   Fedora 31 BETA: "/fedora-31-beta-release/"
@@ -54,10 +54,10 @@ releases:
   Fedora 38 Beta: /fedora-38-release/
   Fedora 37: /fedora-37-release/
   Fedora 36: "https://fedoramagazine.org/announcing-fedora-36/"
-  Fedora 35: "/fedora-35-release"
+  Fedora 35: "/fedora-35-release/"
   Fedora 34 Workstation: "/fedora-34-release/"
-  Fedora 33: "/fedora-33-release"
-  Fedora 32: "/fedora-32-release"
+  Fedora 33: "/fedora-33-release/"
+  Fedora 32: "/fedora-32-release/"
   Fedora 32 BETA: "/fedora-32-beta/"
   Fedora 31 Workstation: "/fedora-31-screens/"
   Fedora 31 BETA: "/fedora-31-beta-release/"

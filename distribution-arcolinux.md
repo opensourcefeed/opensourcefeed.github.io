@@ -21,7 +21,7 @@ stories:
   ArchMerge evolves into ArcoLinux : "https://arcolinux.info/archmerge-evolves-into-arcolinux/"
 
 releases:
-  ArcoLinux 19.12: "/arcolinux-19.12-release"
+  ArcoLinux 19.12: "/arcolinux-19.12-release/"
 ---
 
 **ArcoLinux** (previously, ArchMerge) is a GNU/Linux distribution based on Arch. It provides a progressive learning path of 2 - 3 years to improve Linux skills. The learning path includes various materials includes tutorial articles and youtube videos.
