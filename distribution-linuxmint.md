@@ -30,7 +30,7 @@ screenshots:
   Linux Mint 20 MATE: "/linuxmint-20-mate/"
   Linux Mint 20 Cinnamon: "/linuxmint-20-cinnamon/"
   Linux Mint 20 Xfce: "/linuxmint-20-xfce/"
-  LMDE 4.0 Debbie: "/lmde-4.0-release"
+  LMDE 4.0 Debbie: "/lmde-4.0-release/"
   Linux Mint 19.3 Xfce: "/linuxmint-19.3-xfce/"
   Linux Mint 19.3 MATE: "/linuxmint-19.3-mate/"
   Linux Mint 19.3 Cinnamon: "/linuxmint-19.3-cinnamon-screenshots/"
@@ -58,7 +58,7 @@ releases:
   Linux Mint 21 Vanessa: /linux-mint-21-vanessa-release/
   Linux Mint 20.3: "/linux-mint-203-emuna-em-released/"
   Linux Mint 20: "/linuxmint-20-release/"
-  LMDE 4.0 Debbie: "/lmde-4.0-release"
+  LMDE 4.0 Debbie: "/lmde-4.0-release/"
   Linux Mint 19.3 Tricia: "/linuxmint-19.3-tricia/"
   "Linux Mint 19.2": "/1-linux-mint-19.2-cinnamon-screenshots/"
   "LMDE 3 'Cindy' Cinnamon" : "/00-linux-mint-debia-edition-3-cindy-released/"

@@ -24,7 +24,7 @@ releases:
   Linux Lite 6.0: "/linux-lite-60-emfluorite-em-has-been-released/"
   Linux Lite 5.6: "/linuxlite-5.6-release/"
   Linux Lite 5.2: "/linuxlite-5.2-release/"
-  Linux Lite 5.0: "/linuxlite-5.0-release"
+  Linux Lite 5.0: "/linuxlite-5.0-release/"
   Linux Lite 4.8: "/linux-lite-4.8-release/"
   Linux Lite 4.6: "/1-linux-lite-4.6-final-release/"
   Linux Lite 4.2: "/0-linux-lite-4.2-minor-improvements/"
@@ -41,7 +41,7 @@ releases:
 screenshots:
   Linux Lite 6.0: /linux-lite-60-emfluorite-em-has-been-released/
   Linux Lite 5.2: "/linuxlite-5.2-release/"
-  Linux Lite 5.0 screenshots: "/linuxlite-5.0-release"
+  Linux Lite 5.0 screenshots: "/linuxlite-5.0-release/"
   Linux Lite 4.0 screenshots : "https://distroscreens.blogspot.com/2018/07/linux-lite-40-diamond-screenshots.html"
   Linux Lite 3.8 screenshots : "https://distroscreens.blogspot.com/2018/02/linux-lite-38-final-screenshots.html"
   Linux Lite 3.4 screenshots : "https://distroscreens.blogspot.com/2017/04/linux-lite-34-screenshots.html"

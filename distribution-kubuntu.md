@@ -14,7 +14,7 @@ tagline: Friendly computing with Plasma
 description : Kubuntu is one of the oldest, official community flavor of Ubuntu featuring modern Plasma desktop. Stories and updates on Kubuntu
 
 screenshots:
-  Kubuntu 22.10 Kinetic Kudu: /kubuntu-22.10-kinetic-kudu-release
+  Kubuntu 22.10 Kinetic Kudu: /kubuntu-22.10-kinetic-kudu-release/
   Kubuntu 20.10 Groovy Gorilla: "/kubuntu-20.10-release/"
   Kubuntu 20.04 Focal Fossa (Dead Link): "#"
   Kubuntu 19.10 Eoan Ermine: "/1-kubuntu-eoan-screenshots/"
@@ -26,7 +26,7 @@ screenshots:
 
 releases:
   Kubuntu 25.04 Plucky Puffin: /ubuntu-25-04-plucky-puffin-flavors-release/
-  Kubuntu 22.10 Kinetic Kudu: /kubuntu-22.10-kinetic-kudu-release
+  Kubuntu 22.10 Kinetic Kudu: /kubuntu-22.10-kinetic-kudu-release/
   Kubuntu 20.10 Groovy Gorilla: "/kubuntu-20.10-release/"
   Kubuntu 20.04 Focal Fossa (Dead Link): "#"
   Kubuntu 19.10 Eoan Ermine: "/1-kubuntu-eoan-screenshots/"

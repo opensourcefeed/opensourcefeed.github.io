@@ -21,7 +21,7 @@ releases:
   Nitrux 1.6.1: "/nitrux-1.6.1-release/"
   Nitrux 1.3.7: "/nitrux-1.3.7-release/"
   Nitrux 1.2.9: "/nitrux-1.2.9-release/"
-  Nitrux 1.1.1: "/1-nitrux-1.1.1-release"
+  Nitrux 1.1.1: "/1-nitrux-1.1.1-release/"
   Nitrux 1.1.0: "/1-nitrux-1.1.0-innovative-znx-mauikit/"
   Nitrux 1.0.16 : "/00-Nitrux-1.0.16-released-with-package-updates-from-Ubuntu-Cosmic/"
   Nitrux 1.0.15 : "/00-Nitrux-1.0.15-released-with-updated-hardware-and-graphics-stack/"

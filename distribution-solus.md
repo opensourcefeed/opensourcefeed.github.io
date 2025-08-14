@@ -23,14 +23,14 @@ releases :
   Solus 4.4 Harmony: /solus-44-harmony/
   Solus 4.3 Fortitude: "/solus-4.3-release/"
   Solus 4.2 Fortitude: "/solus-4.2-release/"
-  Solus 4.1 Fortitude: "/solus-4.1-release"
+  Solus 4.1 Fortitude: "/solus-4.1-release/"
   Solus 4.0 Fortitude: "https://getsol.us/2019/03/17/solus-4-released/"
   Solus 3 ISO refresh (3.9999): "/01-Solus-3-ISO-refresh-released-with-better-hardware-supported-improved-theming/"
   Solus 3 : "https://open-source-feed.blogspot.com/2017/08/solus-3-released-with-budgie-desktop.html"
   Solus 2017.04.18.0 : "https://open-source-feed.blogspot.com/2017/04/solus-201704180-snapshot-released.html"
 
 screenshots:
-  Solus 4.1 Plasma Edition: "/solus-4.1-plasma-screens"
+  Solus 4.1 Plasma Edition: "/solus-4.1-plasma-screens/"
   Solus 4.0 with GNOME 3.34.3: "/solus-4.0-gnome-3.34.3-screenshots/"
   "Solus Budgie Edition 2017.04.18.0" : "https://distroscreens.blogspot.com/2017/04/solus-201704180-budgie-screenshots.html"
   "Solus GNOME Edition 2017.04.18.0" : "https://distroscreens.blogspot.com/2017/04/solus-gnome-edition-201704180.html"
