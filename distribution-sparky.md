@@ -16,6 +16,7 @@ base: [debian]
 description : "Sparky Linux is a Debian based GNU/Linux distribution offering a ready to use, out of the box operating system. Stories, reviews and updates on Sparky Linux project."
 
 releases:
+  Sparky Linux 8 Seven Sisters: /sparky-linux-8-seven-sisters-released-based-on-debian-13-trixie/
   Sparky 7.8: /sparky-linux-7-8-released/
   Sparky 7.7: /sparky-7.7-release/
   Sparky Semi-Rolling 2024.08: /sparky-semirolling-202408/
