@@ -51,6 +51,7 @@ reviews:
   "Linux Mint 17.3 - May be the best distribution so far" : "https://open-source-feed.blogspot.com/2015/12/linux-mint-173-may-be-best-linux-distro.html"
   
 releases:
+  Linux Mint 22.2 Zara: /linux-mint-22-2-zara-release/
   Linux Mint 22: /linuxmint-22-release/
   Linux Mint 21.3 Virginia: /linuxmint-213-release/
   LMDE 6: /lmde-6-faye/
