@@ -11,10 +11,12 @@ home_page: https://q4os.org/
 desktops: [trinity, plasma]
 base: [debian]
 tagline: Desktop OS with classic experience
+image: /assets/images/preview/q4os.jpg
 
-description : "Q4OS is a Debian-based operating system with Trinity and Plasma Desktop environments. This distribution aims to provide a stable, reliable & familiar user experience."
+description : "Q4OS is a fast Debian-based Linux with Plasma and Trinity desktops, offering a stable, lightweight and familiar experience for all users."
 
 releases:
+  Q4OS 6.1 Andromeda: /q4os-6-1-andromeda-released/
   Q4OS 5.8 Aquarius: /q4os-58-release/
   Q4OS 5.6 Aquarius: /q4os-56-aquarius/
   Q4OS 5.2 Aquarius: /q4os-52-aquarius-release/
@@ -36,12 +38,11 @@ stories:
   Converting Q4OS into a Windows XP clone using XPQ4 : "https://open-source-feed.blogspot.com/2016/04/converting-q4os-into-windows-xp-clone.html"
 ---
 
-**Q4OS** is ought to be a powerful operating system providing a rock-solid user experience with the Trinity and Plasma desktop environments. Trinity Desktop environment, initially forked from KDE 3.x aims to work as a stable, reliable, and familiar ecosystem for most users.
+Q4OS is a lightweight and powerful Linux operating system designed to deliver a rock-solid user experience. It combines the Trinity Desktop Environment (TDE) – originally forked from KDE 3.x – with the modern Plasma desktop to provide users with a stable, reliable, and familiar workspace.
 
-Q4OS includes some unique utilities and features. 
+- Q4OS stands out with its unique utilities and user-friendly tools, including:
+- Desktop Profiler – Quickly configure your system into different professional profiles with predefined applications and settings.
+- Setup Utility – A streamlined tool for installing third-party applications with ease.
+- Welcome Screen – An intuitive app offering shortcuts for system configuration, ideal for new and experienced users alike.
 
-- Desktop profiler -  for profiling your computer into different professional working tools
-- Setup utility for the smooth installation of third-party applications
-- Welcome Screen - An app with several shortcuts to making system configuration easier for novice users
-
-Q4OS is designed to work seamlessly on the latest laptops and desktops as well as older computers, and it supports a range of different hardware. 
+Designed for maximum compatibility, Q4OS runs smoothly on new laptops and desktops while also breathing new life into older computers. Its efficient performance, combined with long-term support and a polished desktop experience, makes Q4OS an excellent choice for individuals, businesses, and educational environments.
