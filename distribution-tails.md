@@ -16,6 +16,7 @@ image: /assets/images/preview/tails-preview.png
 description : "Tails OS: Browse anonymously & securely. Debian-based, leaves no trace. Free updates & reviews."
 
 releases:
+  Tails 7.0: /tails-7-0-released/
   Tails 6.4: /tails-64-release/
   Tails 5.11: "/tails-5.11-release/"
   Tails 4.25: "/tails-425-has-been-released/"
