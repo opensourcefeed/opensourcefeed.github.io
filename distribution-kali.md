@@ -16,6 +16,7 @@ blog: https://kali.org/blog/
 description : "Kali Linux is a Debian (testing) based GNU/Linux distribution designed for digital forensic and peneteration testing. Stories and updates on Kali Linux"
 
 releases:
+  Kali Linux 2025.3: /kali-linux-2025-3-release/
   Kali Linux 2025.2: /kali-linux-2025-2-release/
   Kali Linux 2024.4: /kali-2024.4-release/
   Kali Linux 2024.3: /kali-linux-20243-release/
