@@ -15,6 +15,7 @@ tagline: Community driven, enterprise linux with SLE foundation
 description : "openSUSE is an independently developed, enterprise quality distribution backed by SUSE Foundation. Reviews, updates and other stories on openSUSE"
 
 releases :
+  openSUSE Leap 16: /opensuse-leap-16-release/
   openSUSE Leap 15.5: /opensuse-leap-155-release/
   openSUSE Leap 15.4: "/opensuse-leap-154-has-been-released/"
   openSUSE Leap 15.2: "/opensuse-leap-15.2/"
