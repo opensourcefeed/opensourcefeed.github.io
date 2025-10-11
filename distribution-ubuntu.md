@@ -14,6 +14,7 @@ base : [debian]
 description : Ubuntu is a popular GNU/Linux distribution backed by Canonical. It is capable of supporting a range of hardware platforms like desktop, server, clouds and IoT.
 
 releases:
+  Ubuntu 25.10 Questin Quokka: /ubuntu-25-10-questing-quokka-release/
   Ubuntu 25.04 Plucky Puffin: /ubuntu-25-04-plucky-puffin-flavors-release/
   Ubuntu 24.10: /ubuntu-2410-release/
   Ubuntu 24.04 Noble Numbat BETA: /ubuntu-2404-noblenumbat-beta/
@@ -75,12 +76,10 @@ reviews:
   Why Ubuntu 16.04 LTS is most secure distribution out of the box? : https://open-source-feed.blogspot.com/2016/12/why-ubuntu-1604-lts-is-most-secure.html
 ---
 
-**Ubuntu** is a popular GNU/Linux distribution backed by **Canonical**. It is capable of supporting different hardware platforms like server computers, cloud systems, desktops, tablets, and mobiles.
+**Ubuntu** is a leading GNU/Linux distribution developed and maintained by Canonical. It runs on a wide range of hardware platforms, including desktops, servers, cloud systems, tablets, and mobile devices. First released in 2004, Ubuntu has grown into one of the most widely used open-source operating systems in the world.
 
-Ubuntu was started back in 2004 and over the years it has grown to become the most popular open source operating system. Presently Ubuntu most used open source cloud solution and it acts as a stable base for other solutions offered by Canonical such as OpenStack.
+Ubuntu’s popularity comes from its balance of stability, usability, and strong community support. It powers many cloud environments and serves as the foundation for Canonical’s other open-source projects, such as OpenStack and Kubernetes solutions.
 
-When the project was started back in 2004, Ubuntu was using GNOME 2.x as default desktop environment. Later when GNOME 2.x development was discontinued in favor of GNOME 3.x / GNOME shell, Ubuntu started developing their own shell named Unity.
+Originally, Ubuntu used the GNOME 2 desktop. When GNOME 2 was replaced by GNOME 3, Canonical developed its own interface called Unity to deliver a consistent user experience across different devices. Unity remained the default desktop for seven years before being replaced by GNOME Shell in Ubuntu 17.10. Canonical continues to customize GNOME to maintain the familiar look and workflow Ubuntu users expect.
 
-Unity served as default desktop environment of Ubuntu for 7 years. The main motive of unity was to offer a uniform user experience across the devices.  This *idea of convergence* was discontinued by Canonical owing to poor reception in the market.
-
-Beginning from Ubuntu 17.10, the default desktop environment is GNOME shell. Instead of shipping the Vanilla GNOME shell, Canonical does a decent amount customization on top of GNOME to retain the user experience established by Unity over the years.
+Today, Ubuntu remains a trusted choice for personal computing, enterprise servers, and cloud infrastructure—continuing its mission to make open-source software accessible and reliable for everyone.
