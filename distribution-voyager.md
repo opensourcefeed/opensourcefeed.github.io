@@ -5,14 +5,16 @@ title: 'Voyager Live'
 Category: Distribution
 permalink: /distribution/voyager
 logo: voyager-logo.png
+image: /assets/images/preview/voyager-preview.jpg
 preview: voyager-preview.jpg
 home_page: https://voyagerlive.org/
 desktops: [gnome, xfce]
 base : [debian, ubuntu]
-tagline: "Adventure in Digital World!"
-description : Ubuntu based GNU/Linux distribution from France. It includes several extensions and tools to provide improved productivity.
+tagline: "Artful Linux Experience"
+description : Voyager Live Linux is a French distribution based on Ubuntu and Debian. It offers GNOME and XFCE editions, combining speed, design, and usability in a polished desktop system.
 
 releases:
+  Voyager 25.10: /voyager-25-10-release/
   Voyager Live 13: /voyager-13-debian-released/
   Voyager 21.10: /voyager-21.10-ge-release/
   Voyager 11 Bullseye: "/voyager-11-release/"
@@ -29,8 +31,8 @@ review:
 
 ---
 
-**Voyager Live** is an Ubuntu and Debian-based GNU/Linux distribution from France. With dozens of extensions and tools, it provides improved productivity and a decent look and feel.
+**Voyager Live Linux** is a distribution from France built on the foundations of Ubuntu and Debian. It began as a customized Xubuntu project designed to combine performance, visual elegance, and everyday usability. The early Voyager releases used the XFCE desktop environment, chosen for its speed and efficiency. Voyager quickly became known for its thoughtful design, preconfigured tools, and consistent visual identity that set it apart from standard Ubuntu variants.
 
-Initially, the Voyager releases were using then Xfce as the default desktop environment. Beginning from the 18.10 release, Voyager is using GNOME shell.
+Beginning with the 18.10 release, Voyager switched to the GNOME Shell as its default desktop environment. This marked a major change in the project’s direction, adopting a more modern user interface while still maintaining its original XFCE edition for users who preferred a lightweight experience. Both versions continue to receive updates, giving users a choice between performance and contemporary design.
 
-The main idea of Voyager is to provide a set of scripts, extensions, and applications together to expedite productivity.
+Over time, Voyager Live expanded beyond Ubuntu to include Debian-based editions, offering greater flexibility between stability and access to newer software. Through each evolution, Voyager Live has remained focused on delivering a fast, elegant, and ready-to-use Linux system that values simplicity, efficiency, and cohesive visual design.
