@@ -10,9 +10,10 @@ home_page: https://xubuntu.org/
 desktops: [xfce]
 base : [ubuntu]
 tagline: Faster and productive with Xfce
-description : Xubuntu is a full featured, yet lightweight and resource efficient GNU/Linux distribution. Stories and updates on Xubuntu.
+description : Xubuntu is a lightweight Ubuntu-based Linux distribution with the Xfce desktop, offering speed, simplicity, and stability for all types of systems.
 
 releases:
+  Xubuntu 25.10 Questing Quokka: /xubuntu-25-10-release/
   Xubuntu 25.04 Plucky Puffin: /ubuntu-25-04-plucky-puffin-flavors-release/
   Xubuntu 23.10 Mantic Minotaur: /ubuntu-2310-mantic-release/
   Xubuntu 22.10 Kinetic Kudu: /xubuntu-22.10-kinetic-kudu-release/
@@ -55,10 +56,10 @@ versions:
   - "25.04"
 ---
 
-**Xubuntu** is a full-featured, yet lightweight and resource efficient GNU/Linux distribution. Built on top of Ubuntu core, it provides a reliable, stable and secure platform along with Xfce Desktop environment.
+**Xubuntu** is a lightweight and complete GNU/Linux distribution based on [Ubuntu](/distribution/ubuntu/). It combines the stability and security of Ubuntu with the Xfce desktop environment, known for its speed and low resource use.
 
-Xubuntu is one among the early members of official community flavors of Ubuntu and has a fair amount of user base. It is mainly chosen by people having older systems, notebooks or who don't like the *complexities* of other mainstream desktop environments.
+Xubuntu is one of the earliest official Ubuntu community flavors. It is widely used by people who want a simple, reliable, and efficient desktop. It also fits well on older computers, notebooks, and systems with limited hardware resources.
 
-Instead of providing vanilla Xfce Desktop, Xubuntu ships a fairly customized version of Xfce. These customizations include, but not limited to, a professional looking icon and Gtk theme, Whisker application menu, and a set of beautiful wallpapers.
+Unlike a plain Xfce setup, Xubuntu includes several refinements. These include a clean GTK and icon theme, the Whisker application menu, and a set of well-chosen wallpapers. Together, they give Xubuntu a polished and consistent look while keeping it fast and responsive.
 
-There is another variation of Xubuntu called, Xubuntu Core. It is a minimal version of Xubuntu with vanilla Xfce desktop.
+A lighter edition called **Xubuntu Core** is also available. It offers a minimal desktop with the vanilla Xfce environment and fewer default packages. Xubuntu Core is ideal for users who want to build their system from the ground up.
