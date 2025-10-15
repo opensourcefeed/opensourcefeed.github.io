@@ -14,9 +14,10 @@ desktops: [gnome, xfce]
 base : [ubuntu]
 blog: https://blog.zorin.com/
 
-description : Zorin OS is a user-friendly Linux distro, ideal for those switching from Windows or macOS. Customize layouts, themes, and choose from Lite, Core, Education, or Pro editions.
+description : Zorin OS is an Ubuntu-based Linux distribution suitable for users switching from Windows or macOS. Learn about its editions, desktop layouts, and customization options.
 
 releases:
+  Zorin OS 18: /zorin-os-18-release/
   Zorin OS 18 BETA: /zorin-os-18-beta-test-the-beta-today/
   Zorin OS 17.3: /zorinos-173-release/
   Zorin OS 17.2: /zorin-os-172-release/
@@ -56,14 +57,23 @@ screenshots:
   Zorin OS 12 Core : "https://distroscreens.blogspot.com/2016/12/zorin-os-12-core-screenshots.html"
 ---
 
-**Zorin OS** is a user-friendly Linux distribution, ideal for anyone switching from proprietary operating systems like Microsoft Windows or macOS. Built on a reliable Ubuntu foundation, it features the **Zorin Desktop**, which can be customized to resemble popular desktop environments. Whether you prefer the look of Windows, macOS, or GNOME, Zorin OS allows you to easily personalize your experience.
+**Zorin OS** is an Ubuntu-based Linux distribution designed for users moving from Windows or macOS. It provides a stable system with the **Zorin Desktop**, which can be configured to resemble Windows, macOS, or GNOME. This flexibility helps new users adapt without a steep learning curve.
 
-It also offers a range of layouts and themes that make transitioning smoother for new users. Switching between different desktop layouts, web browsers, and themes is simple, giving you full control over your setup.
+## Desktop Layouts and Customization
 
-There are multiple versions of Zorin OS to suit different needs:
-- **Zorin OS Lite**: Designed for older, low-resource computers.
-- **Zorin OS Education**: Tailored for students and educators.
-- **Zorin OS Pro**: A premium version with extra layouts and apps.
-- **Zorin OS Core**: A free, slimmed-down version for those who don’t need the extra features of the Pro edition.
+Zorin OS offers multiple desktop layouts and themes. Users can change the appearance and switch between layouts or browsers with simple settings. The system is structured to give control over the workspace without complex configuration.
 
-Zorin OS combines versatility, ease of use, and a familiar design, making it a top choice for users looking to switch from traditional operating systems.
+## Editions of Zorin OS
+
+Zorin OS has several editions to address different requirements:
+
+- **Zorin OS Lite**: Runs on older or low-spec hardware.  
+- **Zorin OS Education**: Includes tools for students and teachers.  
+- **Zorin OS Pro**: Provides additional layouts and apps for more advanced users.  
+- **Zorin OS Core**: A free edition with basic features for general use.
+
+Each edition focuses on specific needs, from lightweight performance to educational or professional use.
+
+## Technical Overview
+
+Zorin OS is based on Ubuntu, which provides security updates and package compatibility. It supports a range of hardware and software options common to Linux systems. The desktop environment is modular, allowing users to select themes, layouts, and default applications without affecting system stability.
