@@ -13,7 +13,7 @@ home_page: https://www.linuxmint.com
 desktops: [mate, cinnamon, xfce, plasma]
 base : [ubuntu, debian]
 
-description : Linux Mint is a popular GNU/Linux distribution based on Ubuntu, offering a modern yet familiar user experience.
+description : Linux Mint is one of the best Linux desktop distributions, combining Ubuntu and Debian stability with a simple, modern, and user-friendly design.
 
 stories:
   Linut Mint 19 is scheduled for June 4 : "https://open-source-feed.blogspot.com/2018/05/linux-mint-19-beta-is-scheduled-to.html"
@@ -51,6 +51,7 @@ reviews:
   "Linux Mint 17.3 - May be the best distribution so far" : "https://open-source-feed.blogspot.com/2015/12/linux-mint-173-may-be-best-linux-distro.html"
   
 releases:
+  LMDE 7 Gigi: /lmde7-gigi-debian-edition-release/
   Linux Mint 22.2 Zara: /linux-mint-22-2-zara-release/
   Linux Mint 22: /linuxmint-22-release/
   Linux Mint 21.3 Virginia: /linuxmint-213-release/
@@ -80,16 +81,10 @@ releases:
   
 ---
 
-**Linux Mint** is a popular operating system based on Ubuntu. In addition to all benefits of Ubuntu,
-Linux Mint ships a well tweaked desktop environment and wisely chosen applications to provide a user
-friendly, productive and highly efficient operating system.
+**Linux Mint** is a free, desktop-focused Linux distribution built on Ubuntu. It combines Ubuntu’s stability with a carefully designed desktop environment and pre-selected applications, offering a productive and efficient computing experience. Mint uses APT for package management and supports Flatpak, allowing users to install sandboxed applications easily.
 
-Linux Mint ships different multimedia codecs and plugins to give out of the box support for wide
-range of media formats.
+The operating system includes multimedia codecs and plugins that provide out-of-the-box support for a wide range of audio and video formats. It also includes proprietary drivers where needed, ensuring hardware works immediately after installation.
 
-Linux Mint releases officially comes with two different desktop environments, MATE and Cinnamon.
-Additionally, there are two community flavors featuring Xfce and Plasma desktop environments.
+Official Linux Mint releases come in two main desktop editions: Cinnamon and MATE. Additionally, the community maintains Xfce and Plasma flavors, optimized for performance and usability across different hardware.
 
-Besides Linux Mint regular releases based on Ubuntu, there is another variation based on Debian. The
-Linux Mint Debian Edition (LMDE) is a semi rolling distribution shipping updated packages in a regular
-interval of time.
+For users seeking a Debian-based alternative, Linux Mint Debian Edition (LMDE) provides a semi-rolling release model. LMDE delivers regular package updates directly from Debian while keeping the Mint desktop polished and user-friendly. Linux Mint also follows Ubuntu LTS releases, offering long-term support for security updates and stability.
