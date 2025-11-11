@@ -17,6 +17,7 @@ image: /assets/images/preview/porteux.jpg
 description: PorteuX is a portable, modular Linux distribution based on Slackware. It can boot from USB or SSD, run entirely in RAM, and deliver lightning-fast performance while offering multiple desktop options and a flexible module-based package system.
 
 releases:
+  PorteuX 2.4: /porteux-2-4-released/
   PorteuX 2.2 : "/porteux-2-2-release/"
   PorteuX 2.1 : "/porteux-2-1-lightweight-linux-release/"
   PorteuX 2.0 : "https://github.com/porteux/porteux/releases/tag/v2.0"

@@ -14,6 +14,7 @@ tagline: Popular distribution in distrowatch
 description : "MX Linux is a cooperative venture between the antiX and former MEPIS communities, using the best tools and talents from each distributions."
 
 releases:
+  MX 25 Infinity: /mx-linux-25-infinity-released/
   MX-23.2 Libretto: /mx-232-release/
   MX-23.1 Libretto: /mx-231-libretto/
   MX-23 Libretto: /mx-23-libretto/
