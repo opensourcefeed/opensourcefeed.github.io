@@ -14,9 +14,10 @@ base : [ubuntu]
 telegram: 
   Nitrux: "https://t.me/nitrux"
 
-description : "Nitrux is a beginner friendly GNU/Linux distribution that ships a well-tweaked Plasma desktop on top of stable Ubuntu core and delivers a clean user experience"
+description : "Nitrux is a Debian-based, immutable Linux OS featuring Hyprland, OpenRC, AppBoxes, and strong sandboxing for a secure and modern desktop experience."
 
 releases:
+  Nitrux 5.0.0: /nitrux-5-0-0-released/
   Nitrux 1.7.0: "/nitrux-1.7.0-release/"
   Nitrux 1.6.1: "/nitrux-1.6.1-release/"
   Nitrux 1.3.7: "/nitrux-1.3.7-release/"
@@ -35,8 +36,12 @@ screenshots:
 
 ---
 
-**Nitrux** is a beginner friendly GNU/Linux distribution based on Ubuntu. With the stable Ubuntu core and well-customized Plasma desktop environment, Nitrux stands out as an ideal choice for laptops and desktop computers.
+**Nitrux** is a 64-bit Linux distribution built from Debian, designed with an emphasis on simplicity, performance, and system integrity. It uses OpenRC as its init system instead of Systemd and features the Hyprland window manager, Waybar, and greetd for a responsive Wayland-based desktop. Nitrux also integrates its own desktop environment, NX Desktop, built with components from KDE Plasma and Maui Shell, offering a consistent and modern user interface.
 
-In addition to all benefits from Ubuntu base, Nitrux provides a clean user experience and encourages distributed app formats like *AppImage*.
+At its core, Nitrux is immutable, meaning the root filesystem cannot be modified after installation. This approach improves reliability, protects against tampering and malware, and simplifies maintenance. The distribution uses Overlayroot to manage immutability and supports atomic updates and rollbacks through the Nitrux Update Tool System, which performs safe, backup-based upgrades.
 
-Nitrux features the *Nomad Desktop* which being developed by Nitrux team. It is intended to extend the capabilities of Plasma desktop without losing its flexibility and customizability.
+Nitrux includes NX AppHub, a user-level application management system built around AppBoxes—reproducible, sandboxed software bundles derived from Debian and other curated sources. Applications remain rootless and self-contained, preserving the system’s immutable design. The distribution also supports Flatpak and Distrobox for running additional applications or containerized environments without compromising its structure.
+
+Performance tuning is a key focus in Nitrux. It ships with kernel-level optimizations such as asynchronous I/O handling, zswap, Transparent Hugepages, and enhanced TCP buffer management for high-speed networks. The filesystem uses zstd compression and integrity checks to prevent data corruption, while Aesthetic FHS introduces a cleaner, more readable directory structure.
+
+Security is reinforced through a layered approach. Firejail, AppArmor, and Bubblewrap provide application sandboxing. Kernel hardening features mitigate memory exploits and speculative execution attacks, while password policies and root account restrictions strengthen access control. Nitrux supports multiple encryption methods, including block-device and filesystem-level encryption, providing users with a dependable and privacy-focused desktop platform.
