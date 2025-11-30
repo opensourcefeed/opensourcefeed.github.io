@@ -96,3 +96,5 @@ The Xfce Edition is now promoted to a full Solus edition.
 ## Download
 
 You can [download the Solus 4.8 edition](https://getsol.us/download/) of your choice from the Solus download page.
+
+For [further information on Solus 4.8 Opportunity](https://getsol.us/2025/11/29/solus-4-8-released/) - see the official release announcement.
