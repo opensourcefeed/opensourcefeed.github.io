@@ -4,9 +4,12 @@ title: "Pop!_OS 24.04 LTS Released with COSMIC Desktop Environment"
 categories: [pop, Linux, Releases]
 tags: [Pop!_OS 24.04 LTS, COSMIC Desktop, System76, Linux Release]
 description: "Pop!_OS 24.04 LTS is now available with the new COSMIC desktop, ARM support, improved graphics handling, and long-term support."
+image: /assets/images/post-images/popos/24.04.webp
 ---
 
 System76 has released **Pop!_OS 24.04 LTS**, a long-term support version that introduces the new **COSMIC Desktop Environment**. This release marks a major technical shift for Pop!_OS and sets the foundation for future development.
+
+![Pop!_OS 24.04 release](/assets/images/post-images/popos/24.04.webp)
 
 ## COSMIC Desktop: Epoch 1
 

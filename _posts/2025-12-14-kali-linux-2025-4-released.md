@@ -4,9 +4,12 @@ title: "Kali Linux 2025.4 Released: GNOME 49, Wayland VM Support, New Tools"
 categories: [kali, Linux, Security]
 tags: [kali-linux, linux, cybersecurity, wayland]
 description: "Kali Linux 2025.4 is released with GNOME 49, KDE Plasma 6.5, Wayland VM support, new security tools, and NetHunter updates."
+image: /assets/images/post-images/kali/2025.4.webp
 ---
 
 Kali Linux 2025.4 is now available. This release focuses on desktop updates, full Wayland support in virtual machines, new tools, and changes to image distribution. The aim remains the same: provide a stable and consistent Kali Linux experience across all platforms.
+
+![Kali Linux 2025.4 released](/assets/images/post-images/kali/2025.4.webp)
 
 ## What’s New in Kali Linux 2025.4
 
