@@ -11,7 +11,7 @@ image: /assets/images/preview/endeavouros-preview.jpg
 home_page: "https://endeavouros.com"
 desktops: [xfce,mate,cinnamon,gnome,budgie,plasma,lxqt,lxde,i3,bspwm,sway,openbox]
 base : [arch]
-tagline: Arch Linux made accessible and flexible
+tagline: A Simple Way to Use Arch Linux
 
 description : "EndeavourOS is an Arch-based Linux distribution by former Antergos community members. It offers a simple installer, multiple desktop environments, and the flexibility of Arch Linux for both new and experienced users."
 
@@ -64,7 +64,6 @@ Available desktop environments include:
 * MATE
 * Budgie
 * LXQt
-* LXDE
 
 It also supports window managers such as:
 
