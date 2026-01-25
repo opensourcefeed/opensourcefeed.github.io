@@ -15,7 +15,11 @@ base : [arch]
 
 description : Discover CachyOS - a fast, user-friendly Arch Linux distro with a customizable, optimized kernel. Read news, updates, reviews, and see screenshots of CachyOS.
 
+seo:
+  type: OperatingSystem
+
 releases:
+  CachyOS 260124: /cachyos-260124-release/
   CachyOS November 2025 Release: /cachyos-november-2025-release/
   CachyOS May 2025 Release: /cachyos-may-2025-release/
   CachyOS March 2025 Release: /cachyos-march25-release/
@@ -28,7 +32,7 @@ releases:
 CachyOS offers a variety of desktop environments and window managers to suit different user preferences. During installation, users can select from popular options such as KDE Plasma, GNOME, XFCE, i3WM, Wayfire, LXQt, OpenBox, Cinnamon, UKUI, LXDE, Mate, Budgie, Qtile, Hyprland, and Sway. This flexibility ensures that users can tailor their system to their workflow and aesthetic preferences.
 
 ## Optimized Web Browsing with Cachy-Browser
-CachyOS comes with Cachy-Browser, a privacy-focused and performance-enhanced fork of Firefox. While inspired by security-oriented browsers like LibreWolf, Cachy-Browser features unique optimizations for a smoother and more secure browsing experience.
+CachyOS includes Cachy-Browser, a performance-optimized build of Firefox tailored for speed and responsiveness. It applies compiler optimizations and selected patches to improve browsing performance while retaining Firefox’s familiar features and compatibility. Unlike privacy-hardened browsers such as LibreWolf, Cachy-Browser prioritizes performance and usability, with reasonable default security settings rather than aggressive privacy modifications.
 
 ## Easy Installation Options
 To accommodate different user preferences, CachyOS provides two installation methods:
