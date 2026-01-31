@@ -3,131 +3,126 @@ from google.analytics.data_v1beta.types import (
     DateRange,
     Dimension,
     Metric,
-    MetricType,
     RunReportRequest,
 )
-import re;
+import re
 import yaml
 import datetime
+import os
 
-PROPERTY_ID = '319747791'
+PROPERTY_ID = "319747791"
+RANK_FILE = "../../_data/rank.yaml"
+
 
 def run_sample():
-    """Runs the sample."""
-    # TODO(developer): Replace this variable with your Google Analytics 4
-    #  property ID before running the sample.
-    property_id = PROPERTY_ID
-    run_report(property_id)
+    run_report(PROPERTY_ID)
 
 
-def run_report(property_id=PROPERTY_ID):
-    """Runs a report of active users grouped by country."""
+def run_report(property_id):
     client = BetaAnalyticsDataClient()
 
     request = RunReportRequest(
         property=f"properties/{property_id}",
         dimensions=[Dimension(name="pagePath")],
-        metrics=[Metric(name="screenPageViews")],
+        metrics=[Metric(name="screenPageViews")],  # safer for web-only sites
         date_ranges=[DateRange(start_date="30daysAgo", end_date="today")],
     )
+
     response = client.run_report(request)
     print_run_report_response(response)
 
-def save_results(resultMap, type):
-    # Print data nicely for the user.
-    if len(resultMap):
 
-        with open("../../_data/rank.yaml", "r") as file:
-            final_result = yaml.safe_load(file.read())
+def load_rank_file():
+    if not os.path.exists(RANK_FILE):
+        return {
+            "meta": {
+                "previous_date": None,
+                "current_date": datetime.date.today().isoformat(),
+            },
+            "distributions": [],
+            "desktops": [],
+        }
 
-        if not final_result:
-            print ("No previous record found")
-            final_result = {
-                'meta': {
-                    'previous_date': None,
-                    'current_date': datetime.date.today().isoformat()
-                },
-                'distributions' : [],
-                'desktops': []
-            }
-        elif 'desktops' not in final_result:
-            final_result['desktops'] = []
-        else:
-            final_result['meta']['previous_date'] = final_result['meta']['current_date']
-            final_result['meta']['current_date'] = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
+    with open(RANK_FILE, "r") as f:
+        data = yaml.safe_load(f) or {}
 
-        processed = []
+    data.setdefault("meta", {})
+    data.setdefault("distributions", [])
+    data.setdefault("desktops", [])
 
-        rank = 1
+    data["meta"]["previous_date"] = data["meta"].get("current_date")
+    data["meta"]["current_date"] = datetime.datetime.now().strftime(
+        "%Y-%m-%d %H:%M"
+    )
 
-        for url in resultMap:
+    return data
 
-            if not re.match(r"\/" + type + "\/", url): continue
 
-            distribution = None
-            for d in final_result['distributions' if type == 'distribution' else 'desktops']:
-                if d['url'] == url:
-                    distribution = d
-                    break
+def save_rank_file(data):
+    with open(RANK_FILE, "w") as f:
+        yaml.safe_dump(data, f, default_flow_style=False)
 
-            if not distribution:
-                distribution = {
-                    'url': url,
-                    'previous': None,
-                    'current': None
-                }
-                final_result['distributions' if type == 'distribution' else 'desktops'].append(distribution)
 
-            distribution['previous'] = distribution['current']
-            distribution['current'] = {
-                'rank': rank,
-                'count': int(resultMap[url])
-            }
-            processed.append(url)
+def save_results(result_map, category):
+    if not result_map:
+        print("No results found for", category)
+        return
+
+    final_result = load_rank_file()
+    target_key = "distributions" if category == "distribution" else "desktops"
+    target_list = final_result[target_key]
+
+    # sort by views DESC (critical fix)
+    sorted_items = sorted(
+        result_map.items(), key=lambda x: x[1], reverse=True
+    )
+
+    processed = set()
+    rank = 1
+
+    for url, count in sorted_items:
+        if not re.match(rf"\/{category}\/", url):
+            continue
+
+        entry = next((d for d in target_list if d["url"] == url), None)
+
+        if not entry:
+            entry = {"url": url, "previous": None, "current": None}
+            target_list.append(entry)
+
+        entry["previous"] = entry["current"]
+        entry["current"] = {"rank": rank, "count": count}
+
+        processed.add(url)
+        rank += 1
+
+    # pages that disappeared this run
+    for entry in target_list:
+        if entry["url"] not in processed:
+            entry["previous"] = entry["current"]
+            entry["current"] = {"rank": rank, "count": 0}
             rank += 1
 
-        for d in final_result['distributions' if type == 'distribution' else 'desktops']:
-            if d['url'] not in processed:
-                d['previous'] = d['current']
-                d['current'] = {
-                    'rank': rank,
-                    'count': 0
-                }
-                rank += 1
+    target_list.sort(key=lambda x: x["current"]["rank"])
+    save_rank_file(final_result)
 
-        # ut.sort(key=lambda x: x.count, reverse=True)
-        final_result['distributions' if type == 'distribution' else 'desktops'].sort(key = lambda x: x['current']['rank'])
+    print(f"Saved {category} rankings")
 
-        with open("../../_data/rank.yaml", "w") as file:
-            file.write(yaml.safe_dump(final_result, default_flow_style=False))
-
-
-        print ('Done')
-
-    else:
-        print ('No results found')
 
 def print_run_report_response(response):
-    """Prints results of a runReport call."""
     print(f"{response.row_count} rows received")
 
-    resultMap = {}
+    result_map = {}
 
-    for rowIdx, row in enumerate(response.rows):
-        
+    for row in response.rows:
         url = row.dimension_values[0].value
-        
-        if re.match(r"\/desktop\/.+|\/distribution\/.+", url):
-            resultMap[url] = 0
 
-            for i, metric_value in enumerate(row.metric_values):
-                metric_name = response.metric_headers[i].name
-                resultMap[url] = metric_value.value
+        if re.match(r"\/(desktop|distribution)\/.+", url):
+            value = int(row.metric_values[0].value)
+            result_map[url] = value
 
-    print(resultMap)
+    save_results(result_map, "desktop")
+    save_results(result_map, "distribution")
 
-    save_results(resultMap, 'desktop')
-    save_results(resultMap, 'distribution')
 
 run_sample()
-
