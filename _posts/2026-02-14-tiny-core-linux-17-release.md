@@ -54,4 +54,4 @@ These changes improve reliability and usability.
 - http://www.tinycorelinux.net/17.x/x86/release  
 - http://www.tinycorelinux.net/17.x/x86_64/release  
 
-You may also the [Tiny Core v17.0 releaes announcement](https://forum.tinycorelinux.net/index.php/topic,28008.0.html) in the project forum website.
+You may also the [Tiny Core v17.0 release announcement](https://forum.tinycorelinux.net/index.php/topic,28008.0.html) in the project forum website.
