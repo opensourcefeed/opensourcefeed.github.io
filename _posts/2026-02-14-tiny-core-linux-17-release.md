@@ -4,6 +4,7 @@ title: "Tiny Core Linux 17.0 Released with Kernel 6.18.2 and Updated Toolchain"
 description: "Tiny Core Linux 17.0 released Feb 10, 2026 with kernel 6.18.2, updated GCC, glibc, and lightweight ISO images from ~20MB."
 categories: [tinycore, Linux, Open Source, Releases]
 tags: [Tiny Core Linux, Linux Release, Lightweight Linux, Open Source, Linux Kernel]
+image: /assets/images/post-images/tinycore-v17.jpg
 ---
 
 Tiny Core Linux 17.0 was released on February 10, 2026. This version updates core system packages, improves scripts, and keeps the distro small and fast.
