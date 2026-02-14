@@ -1,28 +1,53 @@
 ---
 layout: distribution
-uid: serpent
-title: 'Serpent OS'
+uid: aerynos
+title: 'AerynOS (formerly Serpent OS)'
 tagline: 'Fast, Secure, and Built for the Future.'
 Category: Distribution
-type : Linux
-permalink: /distribution/serpentos
-logo: serpent.png
+type: Linux
+permalink: /distribution/aerynos
+redirect_from:
+  - /distribution/serpentos
+logo: aerynos.svg
 preview: aeryn-preview.jpeg
-home_page: https://serpentos.com
-desktops: [gnome]
-base : Independent
-description : Discover Serpent OS, a modern, minimal Linux distribution with atomic updates, UEFI support, and developer-friendly tools. Perfect for gamers, developers, and Linux enthusiasts. Explore now!
-
+home_page: https://aerynos.com
+desktops: [gnome, cosmic]
+base: Independent
+description: Discover AerynOS, formerly Serpent OS — a modern independent Linux distribution featuring atomic updates, developer-focused tooling, and a minimal secure design.
+seo:
+  type: OperatingSystem
 ---
 
-**Serpent OS** is an innovative, independent Linux distribution designed for users seeking a modern, efficient, and developer-friendly operating system. Built from the ground up, it prioritizes performance, stability, and a clean user experience, making it a standout choice in the Linux ecosystem.
+**AerynOS**, previously known as **Serpent OS**, is an independent Linux distribution built from the ground up to deliver a modern, efficient, and developer-focused operating system. The project emphasizes performance, reliability, and clean system design while embracing contemporary Linux technologies.
 
-One of Serpent OS's defining features is its atomic updates, which ensure that system changes are either fully applied or safely reverted, enhancing reliability and minimizing downtime. This stateless design, combined with a rolling-release model, allows users to enjoy the latest software without compromising system integrity.
+## Modern Architecture and Atomic Updates
 
-The distribution is powered by cutting-edge technologies, including the LLVM/Clang compiler and Rust-based tools, which replace traditional utilities like coreutils and sudo with more secure and efficient alternatives. This modern approach extends to its moss package manager, which facilitates atomic transactions and seamless rollbacks, ensuring a robust upgrade process.
+AerynOS adopts an atomic update model where system changes are applied fully or safely rolled back. This approach improves stability, reduces system breakage risk, and makes updates more predictable. Combined with its rolling-release philosophy, users benefit from up-to-date software while maintaining system integrity.
 
-Serpent OS is designed exclusively for UEFI systems and supports both GNOME and COSMIC desktop environments, offering users a choice between a polished, familiar interface and a cutting-edge, Rust-based desktop experience67. Additionally, it includes NVIDIA GPU support and Steam compatibility, making it a viable option for gamers and multimedia enthusiasts.
+## Developer-Centric Tooling
 
-With its focus on minimalism, security, and developer tools, Serpent OS is an excellent choice for advanced users and developers looking for a bloatware-free, high-performance Linux distribution. Its alpha release marks significant progress, with ongoing improvements in hardware support, documentation, and community engagement.
+The distribution integrates modern toolchains such as LLVM/Clang and increasingly Rust-based utilities. It also features the **moss package manager**, designed to support atomic transactions, reliable upgrades, and simplified rollback capabilities — all aligned with the project’s reliability goals.
 
-On 14th Feb 2025, Serpent OS team has announced their plan to rebrand the project as AerynOS to establish its identity in a positive way.
+## Desktop Experience and Hardware Support
+
+AerynOS is designed primarily for UEFI-based systems and currently supports:
+
+* GNOME desktop environment
+* COSMIC desktop environment (modern Rust-driven desktop initiative)
+
+The system also supports modern GPUs from **NVIDIA** and works well with gaming platforms such as **Steam**, making it suitable for developers, power users, and Linux gaming enthusiasts.
+
+## Minimalism, Security, and Performance Focus
+
+The distribution aims to stay lightweight and uncluttered while prioritizing:
+
+* Security-focused system components
+* Developer productivity tools
+* Modern packaging and update workflows
+* High performance with minimal overhead
+
+This makes AerynOS particularly attractive for advanced Linux users, developers, and enthusiasts seeking a forward-looking distribution.
+
+## Rebranding From Serpent OS
+
+On **14 February 2025**, the project officially announced its rebranding from Serpent OS to AerynOS to establish a clearer identity and future direction. Despite the name change, the core goals, development team, and technical vision remain consistent.
