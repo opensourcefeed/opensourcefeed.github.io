@@ -5,7 +5,7 @@ description: "KaOS 2026.02 tests a new desktop setup, updates core packages, and
 categories: [kaos, Linux]
 tags: [KaOS, Linux distribution, Wayland, Qt, Rolling Release]
 image: /assets/images/post-images/kaos/kaos-2026.02.jpg
---------------------------------------------------------------
+---
 
 **The** KaOS team has released a new 2026.02. This Linux distribution is known for its KDE Plasma focus, but this release tests a different desktop setup while keeping its Qt-based design.
 
