@@ -17,6 +17,7 @@ tagline: "A Lean, Rolling KDE Linux Distribution"
 description : KaOS is a modern, rolling Linux distro focused on a streamlined KDE Plasma experience. It offers regular updates, a single desktop environment, and a curated package selection.
 
 releases:
+  KaOS 2026.02: /kaos-february-iso-release/
   KaOS 2024.09: /kaos-202409-release/
   KaOS 2020.07 : "/kaos-2020.07-release/"
   KaOS 2018.10 : "/00-kaos-2018.10-released-with-plasma-5.14/"

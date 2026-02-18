@@ -13,9 +13,10 @@ forum: https://forum.sparkylinux.org/
 desktops: [lxqt, mate, lxde, openbox, enlightenment, jwm, plasma, xfce]
 base: [debian]
 
-description : "Sparky Linux is a Debian based GNU/Linux distribution offering a ready to use, out of the box operating system. Stories, reviews and updates on Sparky Linux project."
+description : "Sparky Linux is a fast Debian-based Linux distro with lightweight desktops, ready-to-use tools, and semi-rolling updates. Editions, releases and details."
 
 releases:
+  Sparky 8.2: /sparky-linux-8-2-release/
   Sparky Linux 8 Seven Sisters: /sparky-linux-8-seven-sisters-released-based-on-debian-13-trixie/
   Sparky 7.8: /sparky-linux-7-8-released/
   Sparky 7.7: /sparky-7.7-release/
@@ -50,14 +51,32 @@ screenshots:
 review :
   Sparky Linux provides a fully functioaning & lightweight OS with some glitches (Distrowatch) : "https://distrowatch.com/weekly.php?issue=20171113#sparky"
   Hands on Sparky Linux 4.2 Enlightenment (ZDNet) : "https://www.zdnet.com/article/hands-on-sparky-linux-4-2-enlightenment/"
+
+seo:
+  type: OperatingSystem
   
 ---
-**Sparky Linux** is a Debian-based GNU/Linux distribution offering a ready-to-use, out-of-the-box operating system. It comes with slightly customized variations of different desktop environments.
 
-There are several variations of Sparky Linux. The *Home Edition* provides a complete operating system with all the essential plugins/codecs and other applications and tools that will find use in day-to-day life. Sparky Linux *Home Editions* mainly comes with LXQt, LXDE, and MATE Desktop environments.
+**Sparky Linux** is a lightweight GNU/Linux distribution based on [Debian](/distribution/debian). It focuses on speed, usability, and flexibility while providing a ready-to-use desktop system with essential applications, codecs, and tools preinstalled. Its balance of stability and relatively fresh packages makes it suitable for both everyday desktop use and older hardware.
 
-The Sparky Linux *Minimal GUI* comes with a lightweight Openbox configuration and installer to install the required tools and packages. The *Minimal CLI* version comes with a text-based installer, and it is for advanced users who prefer to configure their operating system in their way.
+## Editions
 
-The Sparky semi-rolling line inherits from the Debian testing and offers a rolling-like experience.
+### Home Edition
 
-In addition to these, Sparky Linux has another variation called *Game Over* which is for serious gaming. The *Game Over* edition comes with several games for GNU/Linux platform.
+Designed for regular desktop users, this edition includes common applications, multimedia support, and lightweight desktop environments for smooth daily use.
+
+### Minimal GUI
+
+Provides a basic graphical system with minimal software, allowing users to install only what they need.
+
+### Minimal CLI
+
+A console-based edition aimed at experienced users who prefer full control over system setup.
+
+### Semi-Rolling
+
+Tracks Debian Testing repositories to deliver newer software while maintaining reasonable stability.
+
+### Special Editions
+
+Occasionally released variants, including gaming-focused builds with preinstalled Linux-compatible games and related tools.

@@ -1,16 +1,42 @@
 --- 
 layout: default
-title: Page hit rank of operating systems and desktop environments
-description: Ranking of open source distributions & desktop environments, based on the number of page hits each distribution & desktop environment received in prevoius month.
+title: Most Popular Open Source OS & Desktop Environments (Monthly Ranking)
+description: Monthly ranking of Linux, BSD, and open source operating systems plus desktop environments based on page views from OpenSourceFeed.
 image: "/assets/images/meta/logo-collage.png"
+seo:
+  type: ItemList
+  name: Popular Open Source OS Ranking
 ---
+<style>
+.distribution h1 {
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+.distribution p {
+  color: #555;
+}
+</style>
 <div class="distribution">
-    <h1>Page Hit Rank (Experimental)</h1>
+    <h1>Page Hit Rank</h1>
+    <hr>
+    <p>This page shows the monthly popularity ranking of open source
+operating systems, Linux distributions, BSD variants, and desktop
+environments based on page hits on OpenSourceFeed.</p>
+
+<p>It reflects community interest trends and helps users discover
+actively followed open source projects.</p>
+    {% assign last_updated = site.data.rank.meta.currentDate | default: site.data.rank.meta.current_date %}
+    {% if last_updated %}
+    <p class="text-muted small mb-3">Last updated:
+        <time datetime="{{ last_updated | date_to_xmlschema }}" itemprop="dateModified">{{ last_updated | date: "%B %-d, %Y" }}</time>
+    </p>
+    {% endif %}
+<hr>
     <div class="row">
         <div class="col-md-8 order-md-1">
         <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="distribution-tab" data-bs-toggle="pill" data-bs-target="#distribution" type="button" role="tab" aria-controls="tabs-distribution" aria-selected="true">Distribution</button>
+                <button class="nav-link active" id="distribution-tab" data-bs-toggle="pill" data-bs-target="#distribution" type="button" role="tab" aria-controls="tabs-distribution" aria-selected="true">Operating System</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="desktop-tab" data-bs-toggle="pill" data-bs-target="#desktop" type="button" role="tab" aria-controls="tabs-profile" aria-selected="false">Desktop</button>
@@ -22,7 +48,7 @@ image: "/assets/images/meta/logo-collage.png"
                     <thead>
                         <tr>
                             <th>Rank</th>
-                            <th>Distribution</th>
+                            <th>Operating System</th>
                             <th>Status</th>
                             <th class="text-end">Page Views</th>
                         </tr>
