@@ -24,7 +24,7 @@ Available desktop environments:
 
 Most editions use the **Debian 6.12.48 kernel**, while the **Xfce AHS** variant includes the **6.16 Liquorix kernel** for newer hardware support.
 
-> 📦 You can also explore previous releases like [MX Linux 23 Libretto](/mx-linux-23-libretto-released/) for comparison.
+> 📦 You can also explore previous releases like [MX Linux 23.2 Libretto](/mx-232-release/) for comparison.
 
 ## Key Updates
 

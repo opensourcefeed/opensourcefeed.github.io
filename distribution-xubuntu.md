@@ -56,7 +56,7 @@ versions:
   - "25.04"
 ---
 
-**Xubuntu** is a lightweight and complete GNU/Linux distribution based on [Ubuntu](/distribution/ubuntu/). It combines the stability and security of Ubuntu with the Xfce desktop environment, known for its speed and low resource use.
+**Xubuntu** is a lightweight and complete GNU/Linux distribution based on [Ubuntu](/distribution/ubuntu). It combines the stability and security of Ubuntu with the Xfce desktop environment, known for its speed and low resource use.
 
 Xubuntu is one of the earliest official Ubuntu community flavors. It is widely used by people who want a simple, reliable, and efficient desktop. It also fits well on older computers, notebooks, and systems with limited hardware resources.
 
