@@ -19,6 +19,7 @@ seo:
   type: OperatingSystem
 
 releases:
+  CachyOS March 2026: /cachyos-march-2026-release/
   CachyOS 260124: /cachyos-260124-release/
   CachyOS November 2025 Release: /cachyos-november-2025-release/
   CachyOS May 2025 Release: /cachyos-may-2025-release/
