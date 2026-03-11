@@ -7,7 +7,7 @@ description: "FreeBSD 14.4-RELEASE is out with OpenSSH 10.0p2, OpenZFS 2.2.9, a 
 image: /assets/images/post-images/freebsd/freebsd-14.4.jpg
 ---
 
-**FreeBSD 14.4-RELEASE** is now available. This is the fourth release on the 14-STABLE branch, sitting between 14.3-RELEASE and the upcoming 14.5-RELEASE. You can grab it from the [official FreeBSD mirrors](https://www.freebsd.org/releases/).
+**FreeBSD 14.4-RELEASE** is now available. This is the fifth release on the 14-STABLE branch, sitting between 14.3-RELEASE and the upcoming 14.5-RELEASE. You can grab it from the [official FreeBSD mirrors](https://www.freebsd.org/releases/).
 
 Users looking to move to the latest major version can refer to our [FreeBSD 15.0 release coverage](/freebsd-15-0-released/).
 
