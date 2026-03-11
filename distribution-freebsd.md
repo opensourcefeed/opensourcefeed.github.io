@@ -13,6 +13,7 @@ tagline: Powering servers, desktops and embedded systems
 description: "FreeBSD is an open-source operating system known for its stable design, clear codebase, and strong support for servers, desktops, and embedded devices."
 
 releases:
+  FreeBSD 14.4: /freebsd-14-4-released/
   FreeBSD 15.0: /freebsd-15-0-released/
   FreeBSD 12.3: "/freebsd-123-has-been-released/"
   FreeBSD 11.2: "https://open-source-feed.blogspot.com/2018/06/freebsd-112-released-with-updated-gnome.html"
