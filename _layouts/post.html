@@ -15,12 +15,7 @@ layout: default
 					</div>
 					<div class="col-sm-8 text-end">
 						{% for category in page.categories %}
-						{% assign topage = null %}
-						{% for page in site.pages %}
-						{% if page.uid == category %}
-						{% assign topage = page %}
-						{% endif %}
-						{% endfor %}
+						{% assign topage = site.pages | where: "uid", category | first %}
 						{% if topage %}
 						<a href="{{topage.url}}">
 							<span class="category">{{topage.title}}</span>

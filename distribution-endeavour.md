@@ -16,6 +16,7 @@ tagline: A Simple Way to Use Arch Linux
 description : "EndeavourOS is an Arch-based Linux distribution by former Antergos community members. It offers a simple installer, multiple desktop environments, and the flexibility of Arch Linux for both new and experienced users."
 
 releases:
+  EndeavourOS Titan: /endeavouros-titan-release/
   EndeavourOS Ganymede Neo: /endeavouros-ganymede-neo-released/
   EndeavourOS Ganymede: /endeavouros-ganymede-release/
   EndeavourOS Mercury: /endeavouros-mercury-release/
