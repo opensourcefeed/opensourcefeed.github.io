@@ -16,6 +16,7 @@ base: [debian]
 description : "Sparky Linux is a fast Debian-based Linux distro with lightweight desktops, ready-to-use tools, and semi-rolling updates. Editions, releases and details."
 
 releases:
+  Sparky 2026.03: /sparkylinux-2026-03-released/
   Sparky 8.2: /sparky-linux-8-2-release/
   Sparky Linux 8 Seven Sisters: /sparky-linux-8-seven-sisters-released-based-on-debian-13-trixie/
   Sparky 7.8: /sparky-linux-7-8-released/
