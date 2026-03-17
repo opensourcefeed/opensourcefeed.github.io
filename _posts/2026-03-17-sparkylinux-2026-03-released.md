@@ -10,7 +10,6 @@ image: /assets/images/post-images/sparky/sparky-2026.03.jpg
 **S**parkyLinux 2026.03 "Tiamat" is now available. This is the latest snapshot in the project's semi-rolling line, built on Debian testing "Forky". All packages are updated from the Debian and Sparky testing repositories as of March 14, 2026.
 
 ![SparkyLinux 2026.03 Tiamat desktop showing the Xfce environment](/assets/images/post-images/sparky/sparky-2026.03.jpg)
-<Image generation prompt: SparkyLinux 2026.03 Tiamat release, Xfce desktop environment on a dark themed Linux desktop, sparky logo visible, terminal window open showing Linux kernel version 6.19.6, clean and modern UI layout, semi-rolling Debian-based distro aesthetic.>
 
 If you already run the rolling edition of Sparky, you can skip the reinstall — a simple system update is enough to get to the latest state.
 
