@@ -9,7 +9,7 @@ logo: mx-logo.png
 preview: mx-preview.jpg
 home_page: https://mxlinux.org/
 desktops: [xfce, plasma, fluxbox]
-base: [debian]
+base: [debian, antix]
 tagline: Popular distribution in distrowatch
 description : "MX Linux is a cooperative venture between the antiX and former MEPIS communities, using the best tools and talents from each distributions."
 
