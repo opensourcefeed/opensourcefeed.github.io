@@ -12,9 +12,10 @@ desktops: [JWM]
 base : Independent
 tagline: maintenance, multimedia, minserver & mystery
 image: /assets/images/preview/4MLinux.jpg
-description : 4MLinux is an independent, mini GNU/Linux distribution with main focus on maintenance, multimedia, minserver & mystery. Stories and updates on 4MLinux
+description: "Learn about 4MLinux, a lightweight Linux distribution focused on rescue, multimedia, mini servers and retro gaming. Explore releases, screenshots and features."
 
 releases:
+  4MLinux 51.0 STABLE: /4mlinux-51-0-release/
   4MLinux 49.0 STABLE: /4mlinux-49-0-stable-release/
   4MLinux 47.0 STABLE: /4m-linux-47-stable/
   4MLinux 46.0 STABLE: /4mlinux-46-release/
@@ -40,10 +41,65 @@ releases:
 
 screenshots:
   4MLinux 29.0 : "/1-4mlinux-29.0-stable-screenshots/"
+
+seo:
+  type: SoftwareApplication
+  name: 4MLinux
+  operatingSystem: Linux
 ---
 
-4MLinux is an independently evolved, minimal GNU/Linux distribution that mainly focuses on four features:
-1. maintenance - by using it as a system rescue live CD
-2. multimedia - for example, for playing video DVDs
-3. miniserver - using the inetd daemon
-4. mystery - meaning small Linux games
+4MLinux is a lightweight and independently developed GNU/Linux distribution designed for users who need a small, fast, and versatile operating system. Unlike many Linux distributions that focus on a single purpose, 4MLinux is built around four key areas: maintenance, multimedia, mini servers, and mystery, which refers to simple Linux games.
+
+The distribution uses the lightweight JWM desktop environment and is especially suitable for older computers, rescue tasks, and systems with limited hardware resources.
+
+## What is 4MLinux?
+
+4MLinux is an independently developed Linux distribution that focuses on simplicity and low system requirements. It can be used as:
+
+* A rescue live CD for recovering damaged systems
+* A lightweight desktop operating system
+* A multimedia workstation with support for popular audio and video formats
+* A small server platform using the built-in inetd service
+* A retro gaming environment with lightweight Linux games
+
+Because of its small size and minimal design, 4MLinux is often used on older laptops and desktop PCs that struggle with larger Linux distributions.
+
+## 4MLinux Features
+
+The name 4MLinux comes from its four main goals:
+
+1. **Maintenance** – 4MLinux can be used as a rescue live CD to repair Linux and Windows systems, recover files, and manage partitions.
+2. **Multimedia** – The distribution includes support for playing video DVDs, music files, and other multimedia formats out of the box.
+3. **Mini Server** – 4MLinux includes inetd and can be configured as a lightweight web, FTP, or file server.
+4. **Mystery** – The project includes a collection of small Linux games for casual use.
+
+Other important features include:
+
+* Lightweight JWM desktop environment
+* Small ISO image suitable for older hardware
+* Fast boot time
+* Low RAM and storage usage
+* Includes common applications such as a web browser, office tools, and media players
+* Can run on both modern and legacy systems
+
+## Who Should Use 4MLinux?
+
+4MLinux is a good choice for:
+
+* Users with old or low-end PCs
+* Anyone looking for a rescue or recovery Linux distribution
+* Users who want a small Linux distribution for basic desktop use
+* People who need a lightweight mini server
+* Linux enthusiasts who enjoy experimenting with niche and independent distributions
+
+If you want a modern Linux desktop with many preinstalled applications, other distributions may be more suitable. However, if your priority is speed and simplicity, 4MLinux is a popular choice among users looking for a lightweight Linux distribution.
+
+## 4MLinux System Requirements
+
+4MLinux is designed to run on systems with limited hardware resources. In most cases, it works well on:
+
+* 1 GB of RAM or more
+* Around 2–4 GB of free disk space
+* Basic graphics hardware
+
+These low requirements make it useful for reviving old computers.
