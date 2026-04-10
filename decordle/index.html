@@ -2,104 +2,405 @@
 <html lang="en">
 
 <head>
-  <title>Decordle - Guess the 10 hidden words</title>
   <meta charset="UTF-8">
-  <meta name="description"
-    CONTENT="decordle is a word guessing puzzle in which requires 10 hidden words using 16 attempts. The game helps to improve your analytical skills and vocabulary">
-  <meta name="title" content="Decordle - Guess the 10 hidden words" />
-  <meta name="image" content="https://www.opensourcefeed.org/decordle/preview.jpg" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#181a1b">
+
+  <title>Decordle Daily & Unlimited - Guess 10 Hidden Words in 16 Attempts</title>
+  <meta name="description"
+    content="Play Decordle online and guess 10 hidden words in 16 attempts. Try the daily challenge or unlimited mode and improve your vocabulary.">
+  <meta name="keywords"
+    content="Decordle, word puzzle, word game, daily word game, unlimited word game, vocabulary game, hidden words, puzzle game">
+  <meta name="author" content="Tahrik Studio">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://www.opensourcefeed.org/decordle/">
+
+  <meta name="title" content="Decordle Daily & Unlimited - Guess 10 Hidden Words in 16 Attempts">
+  <meta name="image" content="https://www.opensourcefeed.org/decordle/preview.jpg">
+
   <link rel="icon" type="image/png" href="logo.png">
   <link rel="manifest" href="manifest.json">
-  <link href="main.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
 
-  <!-- Open Graph tags-->
-  <meta property="og:title" content="Decordle - Guess the 10 hidden words">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Decordle Daily & Unlimited - Guess 10 Hidden Words in 16 Attempts">
   <meta property="og:site_name" content="Decordle">
   <meta property="og:url" content="https://www.opensourcefeed.org/decordle/">
-  <meta property="og:description" content="decordle is a word guessing puzzle in which requires 10 hidden words using 16
-    attempts. The game helps to improve your analytical skills and vocabulary">
+  <meta property="og:description"
+    content="Play Decordle online and guess 10 hidden words in 16 attempts. Choose the daily challenge or unlimited mode.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://www.opensourcefeed.org/decordle/preview.jpg">
-  <!-- End of open graph tags-->
+  <meta property="og:image:alt" content="Decordle word puzzle preview">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@">
-  <meta name="twitter:title" content="Decordle - Guess the 10 hidden words">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Decordle Daily & Unlimited - Guess 10 Hidden Words in 16 Attempts">
   <meta name="twitter:description"
-    content="decordle is a word guessing puzzle in which requires 10 hidden words using 16 attempts. The game helps to improve your analytical skills and vocabulary">
+    content="Play Decordle online and guess 10 hidden words in 16 attempts. Try the daily challenge or unlimited mode.">
   <meta name="twitter:image" content="https://www.opensourcefeed.org/decordle/preview.jpg">
+  <!-- Replace with your real handle if available -->
+  <meta name="twitter:site" content="@opensourcefeed">
+
   <meta name="propeller" content="ea85c7b18d336448808413719f5491f2">
 
-  <!-- End of Twitter Card-->
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Decordle",
+      "url": "https://www.opensourcefeed.org/decordle/",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Any",
+      "description": "Decordle is a word puzzle game where you guess 10 hidden words in 16 attempts. Play daily challenges or unlimited mode online.",
+      "image": "https://www.opensourcefeed.org/decordle/preview.jpg",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Tahrik Studio"
+      }
+    }
+  </script>
+
+  <style>
+    :root {
+      --bg: #181a1b;
+      --bg-soft: #202325;
+      --card: #24282b;
+      --text: #f2f2f2;
+      --muted: #c9c9c9;
+      --border: #3b4145;
+      --accent: #67d08b;
+      --accent-hover: #7be89f;
+      --link: #8ecbff;
+      --max-width: 920px;
+      --radius: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+
+    .skip-link:focus {
+      left: 16px;
+      top: 16px;
+      width: auto;
+      height: auto;
+      padding: 10px 14px;
+      background: #fff;
+      color: #000;
+      border-radius: 8px;
+      z-index: 1000;
+    }
+
+    .container {
+      width: min(100% - 32px, var(--max-width));
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 40px 0 24px;
+    }
+
+    .hero-card {
+      background: linear-gradient(180deg, var(--bg-soft), var(--card));
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.22);
+    }
+
+    .brand {
+      margin-bottom: 12px;
+    }
+
+    .logo {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+    }
+
+    .tagline {
+      margin: 14px 0 0;
+      font-size: 1.06rem;
+      color: var(--muted);
+      max-width: 720px;
+    }
+
+    .hero-points {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 18px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .hero-points li {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .cta-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 24px;
+    }
+
+    .cta-card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+      transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+    }
+
+    .cta-card:hover,
+    .cta-card:focus {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+      background: rgba(103, 208, 139, 0.08);
+      outline: none;
+    }
+
+    .cta-card.primary {
+      border-color: rgba(103, 208, 139, 0.45);
+      background: rgba(103, 208, 139, 0.08);
+    }
+
+    .cta-title {
+      display: block;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    .cta-desc {
+      display: block;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    .content-section {
+      padding: 8px 0 28px;
+    }
+
+    .section-card {
+      background: var(--bg-soft);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px;
+    }
+
+    .section-card h2 {
+      margin-top: 0;
+      font-size: 1.4rem;
+    }
+
+    .section-card p:last-child,
+    .section-card li:last-child {
+      margin-bottom: 0;
+    }
+
+    .how-to-list {
+      padding-left: 20px;
+      margin-bottom: 0;
+    }
+
+    .promo,
+    .ads,
+    .legal,
+    .store-badge {
+      margin-top: 24px;
+    }
+
+    .store-badge img {
+      display: inline-block;
+      width: 270px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .legal {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: center;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .legal a {
+      text-decoration: none;
+    }
+
+    footer {
+      padding: 10px 0 36px;
+      color: var(--muted);
+      font-size: 0.95rem;
+      text-align: center;
+    }
+
+    @media (max-width: 800px) {
+      .cta-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-card,
+      .section-card {
+        padding: 20px;
+      }
+    }
+  </style>
 </head>
 
-<body class="common-bg">
-  <div id="root">
-    <div class="menu-container">
-      <div class="logo-section">
-        <h1 class="logo">Decordle</h1>
-      </div>
-      <div class="menu-section">
-        <p>Decordle is a word guessing puzzle in which you need to guess 10 hidden words using 16 attempts. After each
-          attempt, you will get a feedback indicating whether your guess has same letters as in the hidden word.</p>
-        <p>Choose a game play mode to proceed.</p>
-        <div class="menu">
-          <ul>
-            <li><a href="https://www.opensourcefeed.org/puzzles/decordle/">Daily</a>
-              <p>Play a new challenge every day</p>
-            </li>
-            <li><a href="https://www.opensourcefeed.org/puzzles/decordle-unlimited/">Unlimited</a>
-              <p>Play Decordle without any limits</p>
-            </li>
-            <li><a href="https://www.opensourcefeed.org/puzzles/jotto-digital/">Other Games</a>
-              <p>Play other word games from us</p>
-            </li>
-          </ul>
-          <div class="banner">
-            <a
-              href='https://play.google.com/store/apps/details?id=org.tahrik.wordle&utm_source=web&utm_campaign=bottom-banner&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
-                width="270" height="104" alt='Get it on Google Play'
-                src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' /></a>
-          </div>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-          <div class="ads">
-            <script async
-              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6380671811722843"
-              crossorigin="anonymous"></script>
-            <!-- Decordle Home Banner -->
-            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6380671811722843"
-              data-ad-slot="3377540367" data-ad-format="auto" data-full-width-responsive="true"></ins>
-            <script>
-              (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-          </div>
-
-          <div class="legal">
-            <a href="privacy-policy/">Privacy Policy</a>
-          </div>
-
+  <header class="hero">
+    <div class="container">
+      <div class="hero-card">
+        <div class="brand">
+          <h1 class="logo">Decordle</h1>
+          <p class="tagline">
+            Decordle is a word puzzle game where you try to guess 10 hidden words in 16 attempts.
+            Play the daily challenge or choose unlimited mode to practice anytime and improve your vocabulary.
+          </p>
         </div>
-        <footer>
-          © Tahrik Studio 2015 - 2025
-        </footer>
+
+        <ul class="hero-points" aria-label="Game highlights">
+          <li>10 hidden words</li>
+          <li>16 attempts</li>
+          <li>Daily challenge</li>
+          <li>Unlimited mode</li>
+          <li>Mobile friendly</li>
+        </ul>
+
+        <nav class="cta-grid" aria-label="Game modes">
+          <a class="cta-card primary" href="https://www.opensourcefeed.org/puzzles/decordle/">
+            <span class="cta-title">Play Daily</span>
+            <span class="cta-desc">Start a fresh Decordle challenge updated every day.</span>
+          </a>
+
+          <a class="cta-card" href="https://www.opensourcefeed.org/puzzles/decordle-unlimited/">
+            <span class="cta-title">Play Unlimited</span>
+            <span class="cta-desc">Practice as much as you want with unlimited games.</span>
+          </a>
+
+          <a class="cta-card" href="https://www.opensourcefeed.org/puzzles/jotto-digital/">
+            <span class="cta-title">Other Games</span>
+            <span class="cta-desc">Explore more word and puzzle games from us.</span>
+          </a>
+        </nav>
+
+        <div class="store-badge">
+          <a href="https://play.google.com/store/apps/details?id=org.tahrik.wordle&utm_source=web&utm_campaign=bottom-banner&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            aria-label="Get Decordle app on Google Play">
+            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+              width="270" height="104" alt="Get it on Google Play">
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140248750-1"></script>
+  </header>
+
+  <main id="main-content">
+    <section class="content-section">
+      <div class="container">
+        <div class="section-card">
+          <h2>How to play Decordle</h2>
+          <ol class="how-to-list">
+            <li>Enter a valid word as your guess.</li>
+            <li>Use the feedback after each attempt to understand which letters match the hidden words.</li>
+            <li>Keep refining your guesses to solve all 10 words within 16 attempts.</li>
+          </ol>
+        </div>
+
+        <div class="ads" aria-label="Advertisement">
+          <script async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6380671811722843"
+            crossorigin="anonymous"></script>
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6380671811722843"
+            data-ad-slot="3377540367" data-ad-format="auto" data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+
+        <div class="legal">
+          <a href="privacy-policy/">Privacy Policy</a>
+          <span>By using this site, you agree to the applicable terms and policies.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © Tahrik Studio 2015 - 2026
+    </div>
+  </footer>
+
+  <!-- Google Analytics -->
+  <!-- Replace G-XXXXXXXXXX with your real GA4 measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KD5NJYRYD3"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
-    gtag('config', 'UA-140248750-1');
+    gtag('config', 'G-KD5NJYRYD3');
   </script>
-  <!-- Clarity tracking code for https://www.opensourcefeed.org/ -->
-  <script>    (function (c, l, a, r, i, t, y) { c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) }; t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i; y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); })(window, document, "clarity", "script", "57t32bv59c");</script>
 
+  <!-- Microsoft Clarity -->
+  <script>
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+      t = l.createElement(r);
+      t.async = 1;
+      t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0];
+      y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "57t32bv59c");
+  </script>
 </body>
 
 </html>

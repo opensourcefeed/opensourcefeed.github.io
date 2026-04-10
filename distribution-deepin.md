@@ -5,18 +5,21 @@ title: 'deepin'
 Category: Distribution
 permalink: /distribution/deepin
 logo: deepin-logo.jpg
-preview: deepin-preview.jpg
+image: /assets/images/preview/deepin-preview.webp
+preview: deepin-preview.webp
+preview_caption: deepin Linux desktop interface with Deepin Desktop Environment (DDE) on Debian base
 home_page: https://www.deepin.org/en/
 desktops: [deepindesktop]
 base : [debian]
 blog: https://www.deepin.org/en/community-news/
-tagline: Debian-Based OS with Deepin Desktop
+tagline: A Beautiful Debian-Based Linux for Desktop Users
 
-description : deepin is a Debian-based GNU/Linux distribution that uses the Deepin Desktop Environment and targets desktop users.
+description : Explore deepin Linux, a Debian-based OS with a beautiful desktop, built-in apps, and a user-friendly design for everyday computing.
 seo:
   type: OperatingSystem
 
 releases :
+  deepin 25.1.0: /deepin-25-1-0-release/
   deepin 25.0.10: /deepin-25-0-10-release/
   deepin 23: /deepin-23-release/
   deepin 20.9: /deepin-20.9-release/
