@@ -20,7 +20,7 @@
                 {% for image in page.preview %}
                 <div class="preview">
                     <a href="/assets/images/preview/{{ image }}">
-                            <img src="/assets/images/preview/{{ image }}" alt="{{ page.title}} featured image"/>
+                            <img src="/assets/images/preview/{{ image }}" alt="{% if page.preview_caption %}{{ page.preview_caption }}{% else %}{{ page.title }} featured image{% endif %}"/>
                         </a>
                     {% if page.preview_caption %}<em>{{ page.preview_caption }}</em>{% endif %}
                 </div>

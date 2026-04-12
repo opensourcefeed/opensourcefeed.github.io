@@ -20,8 +20,12 @@ seo:
   margin: 0 auto;
   padding: 1rem 0 2rem;
 }
+.rank-page .row {
+  --bs-gutter-x: 0;
+}
 .rank-page .table {
   margin-bottom: 0;
+  width: 100%;
 }
 .rank-page .table thead th {
   white-space: nowrap;
@@ -60,8 +64,139 @@ seo:
 .rank-page .period-title {
   scroll-margin-top: 6rem;
 }
-.rank-page .quick-links a {
-  margin-right: 0.75rem;
+.rank-page .rank-summary {
+  margin-bottom: 0.75rem;
+}
+.rank-page .quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.rank-page .quick-link-label {
+  color: #555;
+  font-weight: 600;
+  margin-right: 0.15rem;
+}
+.rank-page .quick-link-group,
+.rank-page .category-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.rank-page .quick-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid #c9d7dd;
+  border-radius: 999px;
+  background: #fff;
+  color: #173f4f;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+.rank-page .quick-link:hover,
+.rank-page .quick-link:focus {
+  background: #eef5f7;
+  border-color: #9fb9c3;
+  color: #0f2f3a;
+}
+.rank-page .quick-link.is-active {
+  background: #173f4f;
+  border-color: #173f4f;
+  color: #fff;
+}
+.rank-page .quick-link.is-active:hover,
+.rank-page .quick-link.is-active:focus {
+  background: #0f2f3a;
+  border-color: #0f2f3a;
+  color: #fff;
+}
+.rank-page .status-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.9rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid #d8e3e7;
+  border-radius: 0.75rem;
+  background: #f8fbfc;
+}
+.rank-page .status-legend-label {
+  font-weight: 600;
+  color: #173f4f;
+}
+.rank-page .status-legend-item {
+  white-space: nowrap;
+}
+.rank-page .category-tabs {
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+  justify-content: center;
+}
+.rank-page .category-tab {
+  appearance: none;
+  border: 1px solid #c9d7dd;
+  border-radius: 999px;
+  background: #fff;
+  color: #173f4f;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.95rem;
+  line-height: 1.2;
+  font-weight: 600;
+  text-decoration: none;
+}
+.rank-page .category-tab.is-active {
+  background: #173f4f;
+  border-color: #173f4f;
+  color: #fff;
+}
+.rank-page .rank-section {
+  padding: 1rem;
+  border: 1px solid #e5ecef;
+  border-radius: 0.9rem;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(23, 63, 79, 0.06);
+}
+.rank-page .rank-section h3 {
+  margin-bottom: 0.85rem;
+}
+@media (max-width: 575.98px) {
+  .rank-page .quick-links {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .rank-page .quick-link-group,
+  .rank-page .category-tabs {
+    gap: 0.45rem;
+  }
+  .rank-page .quick-link-label {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0.1rem;
+  }
+  .rank-page .status-legend {
+    padding: 0.65rem 0.75rem;
+    gap: 0.35rem 0.75rem;
+  }
+  .rank-page .rank-section {
+    padding: 0.85rem;
+  }
+  .rank-page .rank-table {
+    font-size: 0.95rem;
+  }
+  .rank-page .rank-table th,
+  .rank-page .rank-table td {
+    padding: 0.45rem;
+  }
 }
 .rank-page .rank-section[hidden],
 .rank-page .period-block[hidden] {
@@ -88,24 +223,23 @@ seo:
       <time datetime="{{ last_updated | date_to_xmlschema }}" itemprop="dateModified">{{ last_updated | date: "%B %-d, %Y" }}</time>
     </p>
     {% endif %}
-
-    <p class="small text-muted">Sorted by page views for each time range.</p>
-    <p class="small quick-links">
-      View:
-      <a href="?period=30d">30 Days (All)</a>
-      <a href="?period=3m">3 Months (All)</a>
-      <a href="?period=30d&type=os">30 Days: OS Only</a>
-      <a href="?period=30d&type=desktop">30 Days: Desktop Only</a>
-      <a href="?period=3m&type=os">3 Months: OS Only</a>
-      <a href="?period=3m&type=desktop">3 Months: Desktop Only</a>
-    </p>
+    <div class="small quick-links" aria-label="Ranking filters">
+      <div class="quick-link-group" role="group" aria-label="Select time range">
+        <a class="quick-link" data-filter-period="30d" href="?period=30d&type=os">30 Days</a>
+        <a class="quick-link" data-filter-period="3m" href="?period=3m&type=os">3 Months</a>
+      </div>
+    </div>
+    <div class="category-tabs" role="tablist" aria-label="Ranking category">
+      <a class="category-tab" data-filter-type="os" href="?period=30d&type=os" role="tab" aria-controls="rank-results">Operating Systems</a>
+      <a class="category-tab" data-filter-type="desktop" href="?period=30d&type=desktop" role="tab" aria-controls="rank-results">Desktop Environments</a>
+    </div>
 
     <p class="small text-muted d-md-none swipe-hint">Swipe the table horizontally to view all columns.</p>
 
     <section class="period-block" data-period="30d" aria-labelledby="last-30-days">
       <h2 id="last-30-days" class="period-title">Last 30 Days</h2>
-      <div class="row g-4">
-        <div class="col-12 col-lg-6 rank-section" data-period="30d" data-type="os" id="last-30-days-os">
+      <div id="rank-results" class="row g-4">
+        <div class="col-12 rank-section" data-period="30d" data-type="os" id="last-30-days-os">
           <h3>Operating Systems</h3>
           <div class="table-responsive-md">
             <table class="table table-sm table-striped table-hover align-middle rank-table">
@@ -153,7 +287,7 @@ seo:
           </div>
         </div>
 
-        <div class="col-12 col-lg-6 rank-section" data-period="30d" data-type="desktop" id="last-30-days-desktop">
+        <div class="col-12 rank-section" data-period="30d" data-type="desktop" id="last-30-days-desktop">
           <h3>Desktop Environments</h3>
           <div class="table-responsive-md">
             <table class="table table-sm table-striped table-hover align-middle rank-table">
@@ -206,7 +340,7 @@ seo:
     <section class="period-block" data-period="3m" aria-labelledby="last-3-months">
       <h2 id="last-3-months" class="period-title">Last 3 Months</h2>
       <div class="row g-4">
-        <div class="col-12 col-lg-6 rank-section" data-period="3m" data-type="os" id="last-3-months-os">
+        <div class="col-12 rank-section" data-period="3m" data-type="os" id="last-3-months-os">
           <h3>Operating Systems</h3>
           <div class="table-responsive-md">
             <table class="table table-sm table-striped table-hover align-middle rank-table">
@@ -254,7 +388,7 @@ seo:
           </div>
         </div>
 
-        <div class="col-12 col-lg-6 rank-section" data-period="3m" data-type="desktop" id="last-3-months-desktop">
+        <div class="col-12 rank-section" data-period="3m" data-type="desktop" id="last-3-months-desktop">
           <h3>Desktop Environments</h3>
           <div class="table-responsive-md">
             <table class="table table-sm table-striped table-hover align-middle rank-table">
@@ -308,6 +442,7 @@ seo:
       (function () {
         var sections = document.querySelectorAll('.rank-section');
         var periodBlocks = document.querySelectorAll('.period-block');
+        var categoryTabs = document.querySelectorAll('.category-tab');
 
         function isValidPeriod(period) {
           return period === '30d' || period === '3m';
@@ -377,6 +512,52 @@ seo:
           });
         }
 
+        function updateQuickLinks(period, type) {
+          var normalizedPeriod = isValidPeriod(period) ? period : '30d';
+          var normalizedType = isValidType(type) ? type : 'os';
+
+          document.querySelectorAll('.quick-link').forEach(function (link) {
+            var linkPeriod = link.dataset.filterPeriod;
+            var matchesPeriod = false;
+            var href = new URL(link.getAttribute('href'), window.location.href);
+
+            if (linkPeriod) {
+              matchesPeriod = linkPeriod === normalizedPeriod;
+              href.searchParams.set('period', linkPeriod);
+              href.searchParams.set('type', normalizedType);
+            }
+
+            link.classList.toggle('is-active', matchesPeriod);
+
+            if (link.classList.contains('is-active')) {
+              link.setAttribute('aria-current', 'page');
+            } else {
+              link.removeAttribute('aria-current');
+            }
+
+            link.setAttribute('href', href.pathname + href.search);
+          });
+        }
+
+        function updateCategoryTabs(period, type) {
+          var normalizedPeriod = isValidPeriod(period) ? period : '30d';
+          var normalizedType = isValidType(type) ? type : 'os';
+
+          categoryTabs.forEach(function (tab) {
+            var tabType = tab.dataset.filterType;
+            var href = new URL(tab.getAttribute('href'), window.location.href);
+            var isActive = tabType === normalizedType;
+
+            href.searchParams.set('period', normalizedPeriod);
+            href.searchParams.set('type', tabType);
+
+            tab.classList.toggle('is-active', isActive);
+            tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+            tab.setAttribute('tabindex', isActive ? '0' : '-1');
+            tab.setAttribute('href', href.pathname + href.search);
+          });
+        }
+
         function getHeaderOffset() {
           var navbar = document.querySelector('.navbar');
           if (!navbar) return 12;
@@ -417,15 +598,13 @@ seo:
           }
         }
 
-        applyFilters(period, type);
-        if (isValidPeriod(period)) {
-          syncUrl(period, type, true);
-        }
+        if (!isValidPeriod(period)) period = '30d';
+        if (!isValidType(type)) type = 'os';
 
-        var targetId = stateToTargetId(period, type);
-        if (targetId) {
-          setTimeout(function () { scrollToTarget(targetId); }, 0);
-        }
+        applyFilters(period, type);
+        updateQuickLinks(period, type);
+        updateCategoryTabs(period, type);
+        syncUrl(period, type, true);
 
         document.querySelectorAll('.quick-links a[href*="?period="]').forEach(function (link) {
           link.addEventListener('click', function (e) {
@@ -437,9 +616,26 @@ seo:
             if (!isValidPeriod(nextPeriod)) return;
 
             e.preventDefault();
+            period = nextPeriod;
+            type = isValidType(nextType) ? nextType : 'os';
             applyFilters(nextPeriod, nextType);
+            updateQuickLinks(nextPeriod, nextType);
+            updateCategoryTabs(nextPeriod, nextType);
             syncUrl(nextPeriod, nextType, false);
-            scrollToTarget(stateToTargetId(nextPeriod, nextType));
+          });
+        });
+
+        categoryTabs.forEach(function (tab) {
+          tab.addEventListener('click', function (e) {
+            var tabType = tab.dataset.filterType;
+            if (!isValidType(tabType)) return;
+
+            e.preventDefault();
+            type = tabType;
+            applyFilters(period, type);
+            updateQuickLinks(period, type);
+            updateCategoryTabs(period, type);
+            syncUrl(period, type, false);
           });
         });
       })();
