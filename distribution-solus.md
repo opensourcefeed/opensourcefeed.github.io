@@ -1,22 +1,24 @@
 ---
 layout: distribution
 uid: solus
-title: 'Solus'
-tagline: 'OS Designed for everyone'
+title: 'Solus Linux'
 Category: Distribution
 type : Linux
 permalink: /distribution/solus
 logo: solus-logo.png
 preview: solus-preview.jpg
+preview_caption: Solus Linux desktop with multiple interfaces
+image: /assets/images/preview/solus-preview.jpg
 home_page: https://getsol.us
 desktops: [budgie, xfce, gnome, plasma]
 base : Independent
 telegram : 
   Unofficial: "https://t.me/solusproject"
 
-description : Solus is an independent, user-friendly Linux distribution offering a fast, modern desktop experience with Budgie, GNOME, Xfce, and KDE Plasma.
+description : Solus is an independent Linux distribution designed for desktop users, offering a curated rolling release model and multiple desktop environments including Budgie, GNOME, Xfce, and KDE Plasma.
 
 releases :
+  Solus 4.9 Serenity: /solus-4-9-serenity-release/
   Solus 4.8 Opportunity: /solus-4-8-opportunity-release/
   Solus 4.7 Endurance: /solus-47-release/
   Solus 4.6 Convergence: /solus-46-release/
@@ -54,23 +56,76 @@ stories :
   "Solus gets better bluetooth support, project website has been revamped and other updates" : "https://open-source-feed.blogspot.com/2017/05/solus-gets-better-bluetooth-support.html"
   Solus Project is adopting Flatpak to deliver 3rd party apps with less pain : https://open-source-feed.blogspot.com/2017/01/solus-project-is-adopting-flatpak-to.html
   MATE Desktop 1.18 lands in Solus with other package updates : https://open-source-feed.blogspot.com/2017/03/mate-desktop-118-lands-in-solus-with.html
+
+seo:
+  type: SoftwareApplication
+  "applicationCategory": "OperatingSystem"
+  "operatingSystem": "Linux"
 ---
 
-**Solus** is an independent Linux distribution built for personal computers. It aims to provide a simple, stable, and consistent desktop experience. The system ships with well-tested packages and a clear focus on desktop use instead of servers or enterprise workloads.
+**Solus** is an independent Linux distribution designed specifically for personal computers. Unlike many Linux distributions that are derived from larger projects, Solus is built from scratch with a focus on desktop usability, performance, and stability.
+
+It follows a curated approach where software updates are tested before being delivered to users, aiming to balance reliability with access to modern applications.
 
 ## Desktop Environments
 
-Solus offers four desktop environments: **Budgie**, **GNOME**, **Xfce**, and **KDE Plasma**. Budgie is the flagship environment and uses GNOME technologies under the hood. Each option is tuned to work well on everyday hardware and gives users a clean and predictable interface.
+Solus is available with multiple desktop environments to suit different preferences:
+
+- **Budgie** – The flagship desktop developed alongside Solus, focused on simplicity and integration  
+- **GNOME** – A modern and widely used desktop environment  
+- **Xfce** – Lightweight and efficient, suitable for older systems  
+- **KDE Plasma** – Feature-rich and highly customizable  
+
+Each edition is maintained to provide a consistent experience rather than acting as a minimal base system.
+
+## Key Features
+
+- Independent distribution (not based on Debian, Ubuntu, or Fedora)  
+- Curated rolling release model  
+- Focus on desktop performance and usability  
+- Budgie desktop integration  
+- Flatpak support for additional applications  
+- Regularly tested updates before release  
 
 ## Software and Use Cases
 
-Solus includes software for daily tasks such as office work, web browsing, and media playback. It supports gaming through tools like Steam and Lutris. Developers can access compilers, editors, and other tools from the repository.
+Solus includes essential applications for everyday computing, including web browsers, office tools, and media players. It also supports:
+
+- Gaming through platforms like Steam and Lutris  
+- Development tools such as compilers and editors  
+- Flatpak-based application installation for broader software availability  
+
+This makes it suitable for general desktop users, developers, and casual gamers.
 
 ## Release Model
 
-Solus follows a curated rolling release model. Users receive updates on a regular schedule, and new packages are tested before they reach the stable repository. This approach keeps the system current while reducing the risk of breakage.
+Solus follows a **curated rolling release** model. Instead of large version upgrades, users receive continuous updates. However, updates are held back until they are tested, which helps reduce instability often associated with rolling distributions.
+
+## Who Should Use Solus?
+
+Solus may be a good fit for:
+
+- Users looking for a **desktop-focused Linux experience**  
+- Those who prefer a **clean and controlled update cycle**  
+- Users interested in the **Budgie desktop environment**  
+
+It may not be ideal for:
+
+- Server environments  
+- Users who require enterprise-focused distributions  
+- Those who prefer highly customizable or minimal base systems  
 
 ## Discontinued Editions
 
-The **MATE edition is discontinued** as of Solus 4.4.
+The **MATE edition was discontinued** starting from Solus 4.4.
 
+## Frequently Asked Questions
+
+### What makes Solus different from other Linux distributions?
+Solus is built independently and focuses only on desktop computing, rather than supporting multiple use cases like servers or enterprise deployments.
+
+### Is Solus suitable for beginners?
+Solus can be suitable for beginners who want a simple desktop experience, though its independent ecosystem may differ from more widely documented distributions.
+
+### Does Solus support third-party applications?
+Yes, Solus supports third-party applications through Flatpak in addition to its native package repository.
