@@ -4,6 +4,7 @@ uid: deepindesktop
 title: 'Deepin Desktop'
 Category: Desktop
 permalink: /desktop/deepin
+logo: deepin-logo.jpg
 preview: deepin-desktop.jpg
 home_page: https://www.deepin.org/en/dde/
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: wide
 title: Open Source Desktop Environments & Window Managers - Comprehensive Collection
 description: Explore a curated list of open source Linux desktop environments and window managers with details, screenshots, and links to help you choose the best desktop.
 seo:
@@ -16,7 +16,7 @@ seo:
 .desktop-intro{
     text-align:center;
     max-width:800px;
-    margin:0 auto 25px auto;
+    margin:0 auto 18px auto;
     color:#555;
 }
 
@@ -24,7 +24,6 @@ seo:
     border:1px solid #eee;
     border-radius:12px;
     padding:15px;
-    margin:10px 0;
     text-align:center;
     background:#fff;
     transition:0.2s ease;
@@ -39,26 +38,76 @@ seo:
     transform:translateY(-2px);
 }
 
+.desktop-card:focus-visible{
+    outline:3px solid rgba(0, 122, 204, 0.25);
+    outline-offset:2px;
+}
+
+.desktop-card-media{
+    height:64px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:12px;
+}
+
 .desktop-card img{
     max-height:48px;
-    margin-bottom:10px;
+    max-width:100%;
+    object-fit:contain;
 }
 
-.desktop-card a{
+.desktop-card-fallback{
+    width:48px;
+    height:48px;
+    border-radius:12px;
+    background:#f3f6f9;
+    color:#6b7280;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:0.8rem;
     font-weight:600;
-    text-decoration:none;
-    color:#222;
+    letter-spacing:0.04em;
 }
 
-.desktop-card a:hover{
+.desktop-card h3{
+    font-weight:600;
+    color:#222;
+    font-size:1.1rem;
+    margin:0;
+    line-height:1.3;
+}
+
+.desktop-card:hover h3,
+.desktop-card:focus-visible h3{
     color:#007acc;
 }
 
 .section-title{
-    margin-top:35px;
+    margin-top:28px;
+    margin-bottom:20px;
     font-weight:600;
     border-left:4px solid #007acc;
     padding-left:10px;
+}
+
+.section-block{
+    padding-top:8px;
+    margin-bottom:2rem;
+}
+
+.desktop-ad{
+    margin:2rem 0;
+}
+
+.desktop-comments{
+    margin-top:2rem;
+}
+
+.desktop-comments .btn{
+    margin-top:0.5rem;
+    margin-bottom:1rem;
 }
 </style>
 
@@ -73,49 +122,51 @@ Browse detailed pages, screenshots, and technical information to choose the best
 
 <hr>
 
+<section class="section-block">
 <h2 class="section-title">Desktop Environments</h2>
-<div class="row">
-{% for page in site.pages %}
-{% if page.Category == 'Desktop' and page.window_manager != true %}
-<div class="col-md-3 col-sm-6">
+{% assign desktop_pages = site.pages | where: "Category", "Desktop" | where_exp: "item", "item.window_manager != true" | sort: "title" %}
+<div class="row g-3">
+{% for page in desktop_pages %}
+<div class="col-12 col-sm-6 col-lg-3">
 <a href="{{ page.url }}" class="desktop-card">
+    <div class="desktop-card-media">
     {% if page.logo %}
       <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title }} logo" loading="lazy">
     {% else %}
-      <img src="/assets/images/meta/placeholder-logo.png" alt="{{ page.title }} logo" loading="lazy">
+      <div class="desktop-card-fallback" aria-hidden="true">DE</div>
     {% endif %}
+    </div>
     <h3>{{ page.title }}</h3>
 </a>
 
 </div>
-{% endif %}
 {% endfor %}
 </div>
+</section>
 
-<hr>
-
+<section class="section-block">
 <h2 class="section-title">Window Managers</h2>
-<div class="row">
-{% for page in site.pages %}
-{% if page.Category == 'Desktop' and page.window_manager == true %}
-<div class="col-md-3 col-sm-6">
+{% assign window_manager_pages = site.pages | where: "Category", "Desktop" | where: "window_manager", true | sort: "title" %}
+<div class="row g-3">
+{% for page in window_manager_pages %}
+<div class="col-12 col-sm-6 col-lg-4">
 <a href="{{ page.url }}" class="desktop-card">
+    <div class="desktop-card-media">
     {% if page.logo %}
       <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title }} logo" loading="lazy">
     {% else %}
-      <img src="/assets/images/meta/placeholder-logo.png" alt="{{ page.title }} logo" loading="lazy">
+      <div class="desktop-card-fallback" aria-hidden="true">WM</div>
     {% endif %}
+    </div>
     <h3>{{ page.title }}</h3>
 </a>
 
 </div>
-{% endif %}
 {% endfor %}
 </div>
+</section>
 
-<hr>
-
-<!-- ADS (unchanged placement) -->
+<div class="desktop-ad">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <div class="ad">
 <ins class="adsbygoogle"
@@ -127,26 +178,32 @@ Browse detailed pages, screenshots, and technical information to choose the best
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
 
-<hr>
-
+<div class="desktop-comments">
 <h2 class="section-title">Propose a Desktop Environment</h2>
 <p>
 If a desktop environment or window manager is missing, comment below and we'll review and add it.
 </p>
 
 <div id="disqus_thread"></div>
+<button type="button" class="btn btn-primary" id="load-comments">
+Load comments
+</button>
 <script>
-(function() {
-var d=document,s=d.createElement('script');
-s.src='https://theopensourcefeed.disqus.com/embed.js';
-s.setAttribute('data-timestamp',+new Date());
-(d.head||d.body).appendChild(s);
-})();
+document.getElementById('load-comments').addEventListener('click', function () {
+  var d = document;
+  var s = d.createElement('script');
+  s.src = 'https://theopensourcefeed.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  this.remove();
+}, { once: true });
 </script>
 
 <noscript>
 Please enable JavaScript to view comments powered by Disqus.
 </noscript>
+</div>
 
 </div>

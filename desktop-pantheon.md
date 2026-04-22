@@ -4,6 +4,7 @@ uid: pantheon
 title: 'Pantheon Desktop'
 Category: Desktop
 permalink: /desktop/pantheon
+logo: elementary-logo.png
 preview: elementary.jpg
 home_page: https://elementary.io/
 image: /assets/images/preview/elementary.jpg

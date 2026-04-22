@@ -4,6 +4,7 @@ uid: cutefish
 title: 'Cutefish Desktop'
 Category: Desktop
 permalink: /desktop/cutefish
+logo: cutefishos.svg
 preview: cutefish-desktop.jpg
 home_page: https://en.cutefishos.com/
 description: The cutefish desktop offers a visually appealing and friendly user experience. Cutefish desktop is the flagship project from the CutefishOS project.
