@@ -430,12 +430,33 @@ table {
   }
 }
 
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.65rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  background: #f8f9fa;
+}
+
 .status-active {
-  color: green !important;
+  color: #1f7a37 !important;
+  background: #eef9f0;
 }
 
 .status-discontinued {
-  color: red !important;
+  color: #b42318 !important;
+  background: #fff1f1;
+}
+
+.last-updated {
+  margin: 0.75rem 0 1.5rem;
+  color: #6c757d;
+  font-size: 0.95rem;
 }
 
 .distribution h1,

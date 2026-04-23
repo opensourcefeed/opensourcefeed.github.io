@@ -13,15 +13,26 @@
             <article class="post-content">
                 <div class="logo">
                     <a href="/assets/images/logo/{{ page.logo }}">
-                        <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title}} logo"/>
+                        <img
+                            src="/assets/images/logo/{{ page.logo }}"
+                            alt="{{ page.title }} logo"
+                            loading="lazy"
+                            decoding="async"
+                        />
                     </a>
                 </div>
-                {{ content }} {% if page.preview %}
+                {{ content }}
+                {% if page.preview %}
                 {% for image in page.preview %}
                 <div class="preview">
                     <a href="/assets/images/preview/{{ image }}">
-                            <img src="/assets/images/preview/{{ image }}" alt="{% if page.preview_caption %}{{ page.preview_caption }}{% else %}{{ page.title }} featured image{% endif %}"/>
-                        </a>
+                        <img
+                            src="/assets/images/preview/{{ image }}"
+                            alt="{% if page.preview_caption %}{{ page.preview_caption }}{% else %}{{ page.title }} featured image{% endif %}"
+                            loading="lazy"
+                            decoding="async"
+                        />
+                    </a>
                     {% if page.preview_caption %}<em>{{ page.preview_caption }}</em>{% endif %}
                 </div>
                 {% endfor %}
@@ -48,9 +59,9 @@
                     <tr>
                         <td>Status</td>
                         {% if page.status and page.status == 'Discontinued' %}
-                        <td class="status-discontinued">Discontinued</td>
+                        <td><span class="status-badge status-discontinued">Discontinued</span></td>
                         {% else %}
-                        <td class="status-active">Active {{page.status}}</td>
+                        <td><span class="status-badge status-active">Active {{page.status}}</span></td>
                         {% endif %}
                     </tr>
 
@@ -79,7 +90,7 @@
                         {% endif %}
                     {% endfor %}
                     <tr>
-                        <td>Page Hit Rank (rank/views)</td>
+                        <td>Page popularity</td>
                         <td>
                             <a href="/page-hit-rank/">
                             {% if dist_rank %}
@@ -90,51 +101,74 @@
                             </a>
                         </td>
                     </tr>
+                    {% assign distribution_pages = site.pages | where: "Category", "Distribution" %}
+                    {% assign desktop_pages = site.pages | where: "Category", "Desktop" %}
                     {% if page.base %}
                     <tr>
                         <td>Base distributions</td>
                         <td>
                             <ul>
-                                {% for base in page.base %} {% assign to_distro = null %} {% for candidate in site.pages %} {% if candidate.Category == 'Distribution'
-                                and candidate.uid == base %} {% assign to_distro = candidate %} {% break %} {% endif %} {%
-                                endfor %} {% if to_distro %}
+                                {% for base in page.base %}
+                                {% assign to_distro = null %}
+                                {% for candidate in distribution_pages %}
+                                {% if candidate.uid == base %}
+                                {% assign to_distro = candidate %}
+                                {% break %}
+                                {% endif %}
+                                {% endfor %}
+                                {% if to_distro %}
                                 <li><a href="{{to_distro.permalink}}">{{to_distro.title}}</a></li>
                                 {% else %}
                                 <li>{{base}}</li>
-                                {% endif %} {% endfor %}
+                                {% endif %}
+                                {% endfor %}
                             </ul>
                         </td>
-                        {% endif %} 
                     </tr>
+                    {% endif %}
                     {% if page.desktops %}
-                        <tr>
-                            <td>Desktop Environments</td>
-                            <td>
-                                <ul>
-                                    {% for desktop in page.desktops %} {% assign to_desktop = null %} {% for page in site.pages %} {% if page.Category == 'Desktop'
-                                    and page.uid == desktop %} {% assign to_desktop = page %} {% break %} {% endif %} {%
-                                    endfor %} {% if to_desktop %}
-                                    <li><a href="{{to_desktop.url}}">{{to_desktop.title}}</a></li>
-                                    {% else %}
-                                    <li>{{desktop}}</li>
-                                    {% endif %} {% endfor %}
-                                </ul>
-                            </td>
-                        </tr>
-                        {% endif %} {% assign distributions = '' | split: '' %} {% for candidate in site.pages %} {% if candidate.Category == 'Distribution'
-                        and candidate.base contains page.uid %} {% assign distributions = distributions | push: candidate
-                        %} {% endif %} {% endfor %} {% assign count = distributions | size %} {% if count > 0 %}
-                        <tr>
-                            <td>Distributions based on {{page.title}}</td>
-                            <td>
-                                <ul>
-                                    {% for distribution in distributions %}
-                                    <li><a href="{{distribution.permalink}}">{{distribution.title}}</a></li>
-                                    {% endfor %}
-                                </ul>
-                            </td>
-                        </tr>
-                        {% endif %} {% if page.releases %}
+                    <tr>
+                        <td>Desktop Environments</td>
+                        <td>
+                            <ul>
+                                {% for desktop in page.desktops %}
+                                {% assign to_desktop = null %}
+                                {% for candidate in desktop_pages %}
+                                {% if candidate.uid == desktop %}
+                                {% assign to_desktop = candidate %}
+                                {% break %}
+                                {% endif %}
+                                {% endfor %}
+                                {% if to_desktop %}
+                                <li><a href="{{to_desktop.url}}">{{to_desktop.title}}</a></li>
+                                {% else %}
+                                <li>{{desktop}}</li>
+                                {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% assign distributions = '' | split: '' %}
+                    {% for candidate in distribution_pages %}
+                    {% if candidate.base contains page.uid %}
+                    {% assign distributions = distributions | push: candidate %}
+                    {% endif %}
+                    {% endfor %}
+                    {% assign count = distributions | size %}
+                    {% if count > 0 %}
+                    <tr>
+                        <td>Distributions based on {{page.title}}</td>
+                        <td>
+                            <ul>
+                                {% for distribution in distributions %}
+                                <li><a href="{{distribution.permalink}}">{{distribution.title}}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% if page.releases %}
                         <tr>
                             <td>Releases</td>
                             <td>
@@ -161,7 +195,7 @@
                         {% if page.technologies %}
                         <tr>
                             <td>Underlying technologies</td>
-                            <td>{{ page.technologies }}
+                            <td>{{ page.technologies }}</td>
                         </tr>
                         {% endif %}
                         {% comment %}
@@ -193,7 +227,7 @@
                             <td>
                                 <ul>
                                 {% for channel in page.telegram %}
-                                    <li><a href="{{channel[1]}}" target="_blank">{{channel[0]}} - {{channel[1]}}</a></li>
+                                    <li><a href="{{channel[1]}}" target="_blank" rel="noopener noreferrer">{{channel[0]}} - {{channel[1]}}</a></li>
                                 {% endfor %}
                                 </ul>
                             </td>
@@ -210,7 +244,7 @@
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
-            {% if page.review %}
+            {% if page.review or page.reviews %}
             <hr>
             <div class="story-listing">
                 <h2>Reviews of {{page.title}}</h2>
@@ -258,6 +292,9 @@
             </div>
             {% endif %}
             <hr />
+            {% if page.last_modified_at %}
+            <p class="last-updated">Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}</p>
+            {% endif %}
             <!--Disqus comment box-->
             <div class="comment-area">
                 <h2>What do you think about {{page.title}}?</h2>

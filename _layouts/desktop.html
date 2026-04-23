@@ -117,9 +117,12 @@ layout: default
                 </div>
                 {% endif %}
                 <hr/>
+                {% if page.last_modified_at %}
+                    Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}
+                {% endif %}
                 <!--Disqus comment box-->
                 <div class="comment-area">
-                    <h2>What do you think about {{page.title}}?</h3>
+                    <h2>What do you think about {{page.title}}?</h2>
                     <div id="disqus_thread"></div>
                     <script>
                         (function() {
@@ -130,7 +133,7 @@ layout: default
                         })();
                     </script>
                     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                </div
+                </div>
                 <!-- End of comment box -->
             </div>
     </div>
