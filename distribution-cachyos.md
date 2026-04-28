@@ -19,6 +19,7 @@ seo:
   type: OperatingSystem
 
 releases:
+  CachyOS April 2026: /cachyos-april-2026-release/
   CachyOS March 2026: /cachyos-march-2026-release/
   CachyOS 260124: /cachyos-260124-release/
   CachyOS November 2025 Release: /cachyos-november-2025-release/
@@ -27,7 +28,7 @@ releases:
   CachyOS July 2024 Release: https://cachyos.org/blog/2407-july-release/
 ---
 
-**CachyOS** is a highly optimized and performance-driven Linux distribution based on Arch Linux. It is designed for users who seek a fast, secure, and customizable computing experience while benefiting from an easy installation process.
+**CachyOS** is a highly optimized and performance-driven Linux distribution based on [Arch Linux](/distribution/arch). It is designed for users who seek a fast, secure, and customizable computing experience while benefiting from an easy installation process.
 
 ## Flexible Desktop Environment Choices
 CachyOS offers a variety of desktop environments and window managers to suit different user preferences. During installation, users can select from popular options such as KDE Plasma, GNOME, XFCE, i3WM, Wayfire, LXQt, OpenBox, Cinnamon, UKUI, LXDE, Mate, Budgie, Qtile, Hyprland, and Sway. This flexibility ensures that users can tailor their system to their workflow and aesthetic preferences.
