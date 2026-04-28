@@ -55,6 +55,7 @@ screenshots:
   Fedora 24 Alpha: "https://distroscreens.blogspot.com/2016/04/fedora-24-alpha-gnome-320-screenshots.html"
 
 releases:
+  Fedora 44: /fedora-linux-44-release/
   Fedora 44 Beta: /fedora-linux-44-beta-released/
   Fedora 43: /fedora-linux-43-released/
   Fedora 42: /fedora-linux-42-released/
