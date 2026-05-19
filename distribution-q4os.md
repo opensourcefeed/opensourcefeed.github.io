@@ -13,9 +13,10 @@ base: [debian]
 tagline: Desktop OS with classic experience
 image: /assets/images/preview/q4os.jpg
 
-description : "Q4OS is a fast Debian-based Linux with Plasma and Trinity desktops, offering a stable, lightweight and familiar experience for all users."
+description : "Q4OS is a lightweight Debian-based Linux distribution featuring Trinity and KDE Plasma desktops, designed for speed, stability, and older computers."
 
 releases:
+  Q4OS 6.7: Andromeda: /q4os-6-7-andromeda-release/
   Q4OS 6.1 Andromeda: /q4os-6-1-andromeda-released/
   Q4OS 5.8 Aquarius: /q4os-58-release/
   Q4OS 5.6 Aquarius: /q4os-56-aquarius/
@@ -36,13 +37,96 @@ screenshots:
 
 stories:
   Converting Q4OS into a Windows XP clone using XPQ4 : "https://open-source-feed.blogspot.com/2016/04/converting-q4os-into-windows-xp-clone.html"
+
+seo:
+  type: SoftwareApplication
 ---
 
-Q4OS is a lightweight and powerful Linux operating system designed to deliver a rock-solid user experience. It combines the Trinity Desktop Environment (TDE) – originally forked from KDE 3.x – with the modern Plasma desktop to provide users with a stable, reliable, and familiar workspace.
+**Q4OS** is a lightweight Linux distribution based on Debian. It is designed to provide a fast, stable, and familiar desktop experience while keeping system resource usage low. The distribution supports both modern computers and older hardware that may struggle with heavier operating systems.
 
-- Q4OS stands out with its unique utilities and user-friendly tools, including:
-- Desktop Profiler – Quickly configure your system into different professional profiles with predefined applications and settings.
-- Setup Utility – A streamlined tool for installing third-party applications with ease.
-- Welcome Screen – An intuitive app offering shortcuts for system configuration, ideal for new and experienced users alike.
+One of the main highlights of Q4OS is its support for the Trinity Desktop Environment (TDE), a continuation of the classic KDE 3 desktop. Q4OS also offers editions powered by KDE Plasma for users who prefer a more modern desktop environment.
 
-Designed for maximum compatibility, Q4OS runs smoothly on new laptops and desktops while also breathing new life into older computers. Its efficient performance, combined with long-term support and a polished desktop experience, makes Q4OS an excellent choice for individuals, businesses, and educational environments.
+## Key Features of Q4OS
+
+### Trinity Desktop Environment
+
+The Trinity Desktop Environment provides a traditional desktop layout focused on simplicity, speed, and low memory usage. It is especially suitable for older computers and users who prefer a classic desktop workflow.
+
+### KDE Plasma Support
+
+Q4OS also includes KDE Plasma editions, giving users access to a modern desktop with improved customization options and updated technologies while still maintaining good performance.
+
+### Lightweight Performance
+
+Q4OS is optimized for low system resource usage. It performs well on:
+- Older laptops and desktops
+- Low-memory systems
+- Virtual machines
+- Modern hardware
+
+This makes it a practical lightweight Linux distribution for reviving aging computers.
+
+### Desktop Profiler
+
+The Desktop Profiler tool helps users quickly configure the system for different usage scenarios with predefined applications and settings.
+
+### Setup Utility
+
+Q4OS includes a Setup Utility that simplifies the installation of additional software and third-party applications.
+
+### Welcome Screen
+
+The Welcome Screen offers shortcuts for common system configuration tasks, software installation, and documentation access.
+
+## Debian-Based Stability
+
+Since Q4OS is based on Debian, it benefits from:
+- Stable package repositories
+- Long-term security updates
+- Reliable hardware support
+- Access to a large software ecosystem
+
+Users can install software through the standard APT package management system.
+
+## Who Should Use Q4OS?
+
+Q4OS is suitable for:
+- Users switching from Windows
+- Owners of older computers
+- Fans of traditional desktop layouts
+- Lightweight Linux enthusiasts
+- Educational and office environments
+
+The familiar interface and efficient performance make it one of the easier lightweight Linux distributions for beginners.
+
+## Q4OS Compared to Other Lightweight Linux Distributions
+
+Q4OS stands out from many lightweight Linux distributions because of its focus on providing a classic desktop experience alongside modern Debian stability.
+
+Compared to alternatives like Lubuntu, Linux Lite, and antiX, Q4OS offers:
+- Trinity Desktop support
+- Very low hardware requirements
+- Debian-based reliability
+- Familiar Windows-like workflows
+
+## FAQ
+
+### Is Q4OS good for old computers?
+
+Yes. Q4OS is designed to work efficiently on older hardware with limited RAM and older processors.
+
+### Is Q4OS based on Debian?
+
+Yes. Q4OS is built on top of Debian and uses Debian repositories.
+
+### Does Q4OS support KDE Plasma?
+
+Yes. Q4OS offers both Trinity Desktop and KDE Plasma editions.
+
+### Is Q4OS beginner friendly?
+
+Yes. The distribution includes graphical tools and a familiar desktop layout suitable for beginners.
+
+### Can Q4OS replace Windows?
+
+Q4OS can be a good replacement for Windows, especially on older computers where lightweight performance is important.
