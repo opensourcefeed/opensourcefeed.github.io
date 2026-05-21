@@ -16,7 +16,7 @@ image: /assets/images/preview/q4os.jpg
 description : "Q4OS is a lightweight Debian-based Linux distribution featuring Trinity and KDE Plasma desktops, designed for speed, stability, and older computers."
 
 releases:
-  Q4OS 6.7: Andromeda: /q4os-6-7-andromeda-release/
+  Q4OS 6.7 Andromeda: /q4os-6-7-andromeda-release/
   Q4OS 6.1 Andromeda: /q4os-6-1-andromeda-released/
   Q4OS 5.8 Aquarius: /q4os-58-release/
   Q4OS 5.6 Aquarius: /q4os-56-aquarius/
