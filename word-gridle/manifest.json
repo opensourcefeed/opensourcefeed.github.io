@@ -1,6 +1,6 @@
 {
-  "short_name": "Decordle",
-  "name": "The word guessing puzzle with 10 words at once",
+  "short_name": "Word Gridle",
+  "name": "Word Gridle - Daily Word Search Puzzle",
   "icons": [
     {
       "src": "logo.png",
@@ -13,8 +13,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/puzzles/word-gridle/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#181a1b",
+  "background_color": "#e0d2b4"
 }
