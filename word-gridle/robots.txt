@@ -1,1 +1,1 @@
-Sitemap: https://www.opensourcefeed.org/puzzles/word-gridle/sitemap.xml
+Sitemap: https://www.opensourcefeed.org/word-gridle/sitemap.xml
