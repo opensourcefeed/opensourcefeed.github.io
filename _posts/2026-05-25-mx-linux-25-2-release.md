@@ -4,7 +4,7 @@ title: "MX Linux 25.2 Released: Text-Mode Installer, Debian 13.5, and Linux 7.0 
 categories: [mx, debian, release]
 tags: [mxlinux, mx-linux-25, debian-trixie, release, linux]
 description: "MX Linux 25.2 'Infinity' is out with a new text-mode installer, Debian 13.5 base, Linux 6.12 LTS, and a Liquorix 7.0 kernel on AHS builds."
-image: /assets/images/post-images/mx/mx-25-2-release.png
+image: /assets/images/post-images/mx/mx-25-2-release.webp
 ---
 
 **The** MX Linux team has released MX Linux 25.2, the second ISO refresh in the MX 25 "Infinity" series. Coming four months after MX Linux 25.1, this update brings a Debian 13.5 base, kernel updates, and a notable new text-mode installer — all without requiring a reinstall for existing users.
