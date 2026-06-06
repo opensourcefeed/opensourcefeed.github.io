@@ -4,7 +4,7 @@ title: "Linux Lite 8.0 Released with Custom Kernels and GTK4 Apps"
 categories: [lite, ubuntu, release]
 tags: [linux-lite, xfce, ubuntu-2604, lightweight-linux, release]
 description: "Linux Lite 8.0 'Hematite' is out, based on Ubuntu 26.04 LTS. It brings custom performance kernels, 15 new GTK4 apps, a Calamares installer, and a built-in Game Center."
-image: /assets/images/post-images/linuxlite/linux-lite-8.0.png
+image: /assets/images/post-images/linuxlite/linux-lite-8.0.webp
 ---
 
 Linux Lite 8.0, codenamed *Hematite*, is the first release in Series 8 and the project's most ambitious update in its 14-year history. Built on Ubuntu 26.04 LTS (Resolute Raccoon), it introduces a brand-new installer, custom performance kernels, a complete GTK4 application suite, and a new Game Center — all packaged into a leaner 2.36 GB ISO.
