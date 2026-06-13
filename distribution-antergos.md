@@ -1,18 +1,19 @@
 ---
 layout: distribution
 uid: antergos
-title: 'Antergos'
+title: "Antergos"
 Category: Distribution
-type : Linux
+type: Linux
 permalink: /distribution/antergos
 logo: antergos-logo.png
 preview: antergos-preivew.jpg
-home_page (Dead Link): "#"
+home_page (Archived): "#"
 desktops: [cinnamon, gnome, plasma, mate, openbox, xfce]
-base : [arch]
-status : Discontinued
+base: [arch]
+status: Discontinued
+successor: [endeavouros, antergos-next]
 
-description : "Antergos (earlier Cinnarch) was an Arch based distribution that had an aim of delivering a modern, elegant and powerful operating system to all levels of users"
+description: "Antergos was a popular Arch-based Linux distribution that simplified Arch installation through its Cnchi graphical installer before being discontinued in 2019."
 
 screenshots:
   Antergos 2016.04.22 : "https://distroscreens.blogspot.com/2016/04/antergos-22042016-screenshots.html"
@@ -24,8 +25,14 @@ reviews:
 
 ---
 
-**Antergos** (earlier Cinnarch) was an Arch based distribution with the goal of delivering a modern, elegant and powerful operating system to all levels of users. Antergos simplifies OS installation and configuration and it makes Arch Linux accessible for the mass.
+**Antergos** (formerly **Cinnarch**) was one of the most beloved Arch-based Linux distributions. Its goal was to deliver a modern, elegant, and powerful operating system that made Arch Linux accessible to users of all experience levels.
 
-Initially, Antergos project was started with the name Cinnarch, and it was only shipping one desktop environment, Cinnamon. Currently, Antergos offers 6 desktop environments from which users can choose during installation.
+The project started in 2012 as **Cinnarch**, focusing exclusively on the Cinnamon desktop environment. In 2013, it evolved into **Antergos**, adopted GNOME as its default desktop, and expanded to offer multiple desktop environments through its signature **Cnchi** graphical installer.
 
-In May 2019, the team announced the end of Antergos project as they were not having enough time to maintain the project.
+Unlike traditional Arch Linux installations, Antergos provided an easy-to-use installation experience while retaining the flexibility and rolling-release nature of Arch Linux. Users could choose between Cinnamon, GNOME, KDE Plasma, MATE, Openbox, and XFCE during installation.
+
+In May 2019, the original Antergos developers announced the end of the project due to a lack of available time to maintain it. The distribution was officially discontinued, bringing an end to one of the most influential beginner-friendly Arch derivatives.
+
+In 2026, a community-driven revival named **Antergos NeXT** emerged with the aim of recreating the original Antergos experience using a modernized Cnchi installer and updated components. Since it is maintained by a different team, it should be considered a separate continuation project rather than the original Antergos distribution.
+
+If you are looking for the active revival, see the [**Antergos NeXT** distribution](/distribution/antergos-next) page.
