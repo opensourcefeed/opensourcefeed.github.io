@@ -10,7 +10,7 @@ home_page: https://www.mageia.org
 desktops: [gnome, plasma, xfce]
 base : Independent
 
-description: "Mageia is a community driven GNU/Linux operating system backed by a non-profit organization of elected contributors. Releases, reviews and other updates on Mageia."
+description: "Learn about Mageia Linux, an independent community-driven distribution originally forked from Mandriva. Explore its latest releases, supported desktop environments, screenshots, reviews, and release history."
 
 releases:
   Mageia 10: /mageia-10-release/
@@ -38,6 +38,60 @@ stories:
   "Mageia 6 dev1 is available now" : "https://open-source-feed.blogspot.com/2016/03/mageia-6-dev1-is-available-now.html"
 ---
 
-**Mageia** is a community driven GNU/Linux operating system backed by a non-profit organization of elected contributors. Initially, it was started as a fork of Mandriva Linux in 2010. Over the years, Mageia has developed a lot and has become a full-fledged GNU/Linux distribution with its own brand name and identity.
+## What is Mageia?
 
-The main motto of the Mageia project is told as *to build great tools for people*. The goal of the Mageia project is to be a credible and recognizable community in the free software world.
+**Mageia** is an independent GNU/Linux distribution developed by a community of volunteers and coordinated by the non-profit Mageia.Org association. The project was created in 2010 as a fork of Mandriva Linux and has since evolved into a community-governed operating system with its own development and release process.
+
+Mageia is primarily intended for desktop systems and provides official editions with KDE Plasma, GNOME, and Xfce. It follows a stable release model and uses the RPM package format together with the DNF package manager.
+
+## History
+
+Mageia was announced in September 2010 after Mandriva S.A. encountered financial difficulties. Members of the Mandriva community established an independent project to continue the development of the distribution under community governance.
+
+The first stable release became available in 2011. Since then, Mageia has continued to publish new releases that incorporate updated Linux kernels, desktop environments, hardware support, and software packages while maintaining compatibility with the RPM ecosystem.
+
+## Desktop Environments
+
+Mageia provides official installation images for multiple desktop environments.
+
+* **KDE Plasma** is one of the project's primary desktop environments and is included in official releases.
+* **GNOME** offers an alternative desktop with a workflow centred around GNOME Shell.
+* **Xfce** provides a lightweight option for users who prefer a simpler desktop or are running older hardware.
+
+Users can also install additional desktop environments from the official repositories after installation.
+
+## Software Management
+
+Mageia uses RPM packages and the DNF package manager for software installation and system updates.
+
+A notable component of the distribution is the **Mageia Control Center (MCC)**, which provides graphical tools for managing software, hardware, networking, storage devices, printers, user accounts, security settings, and other aspects of the operating system. Most routine administration tasks can be performed through MCC without requiring command-line tools.
+
+Software is available through the official Mageia repositories, and additional community-maintained repositories are available for packages that are not included in the default installation.
+
+## Release Model
+
+Mageia follows a stable release model rather than a rolling-release model. New major releases are preceded by development snapshots, Alpha releases, Beta releases, and Release Candidates that are made available for community testing.
+
+After a stable release is published, it receives security updates, bug fixes, and selected package updates throughout its supported lifetime.
+
+## Quick Facts
+
+| Feature                       | Details                              |
+| ----------------------------- | ------------------------------------ |
+| Project started               | 2010                                 |
+| Origin                        | Fork of Mandriva Linux               |
+| Project governance            | Community-managed through Mageia.Org |
+| Base                          | Independent                          |
+| Package format                | RPM                                  |
+| Package manager               | DNF                                  |
+| System configuration          | Mageia Control Center                |
+| Official desktop environments | KDE Plasma, GNOME, Xfce              |
+| Release model                 | Stable                               |
+| Init system                   | systemd                              |
+
+## Position in the Linux Ecosystem
+
+Mageia is one of the few community-governed RPM-based Linux distributions that is not maintained by a commercial vendor. Its continued development is driven by volunteers who contribute to packaging, testing, documentation, translation, infrastructure, and software development.
+
+While distributions such as Fedora and openSUSE are backed by corporate sponsors, Mageia is developed independently through community participation. Its combination of RPM packaging, DNF, and the Mageia Control Center makes it a distinct project within the Linux ecosystem.
+
