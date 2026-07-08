@@ -19,6 +19,7 @@ seo:
   type: OperatingSystem
 
 releases :
+  deepin 25.2.0: /deepin-25-2-0-release/
   deepin 25.1.0: /deepin-25-1-0-release/
   deepin 25.0.10: /deepin-25-0-10-release/
   deepin 23: /deepin-23-release/
