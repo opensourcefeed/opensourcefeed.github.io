@@ -1,99 +1,43 @@
 .common-bg {
     background-color: #181a1b !important;
-    font-family: sans-serif;
-    color: white
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    color: white;
+    margin: 0;
 }
 
 .menu-container {
-    max-width: 540px;
-    margin: auto;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 16px 0;
     text-align: center;
-    padding-top: 0;
 }
 
-.menu-container .external-buttons {
-    margin-top: 2rem;
-}
-
-.menu-container .external-buttons .button {
-    background-color: #f1c40f;
-}
-
-p {
-    text-align: left;
-    line-height: 1.5rem;
-    font-size: 1.1rem;
+.menu-container nav a {
+    color: #dde6dd;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.95rem;
 }
 
 .logo {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 0.5rem;
     color: #dde6dd;
     font-weight: bold;
     border-bottom: 3px dotted #dde6dd;
+    display: inline-block;
 }
 
-.button {
-    background-color: #07bc0c;
-    text-align: center;
-    margin: 1rem;
-    padding: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 5px;
-    color: black;
-    display: block;
-    text-decoration: none;
-}
-
-.button.special {
-    background-color: #ff007c;
-    color: white;
+.menu-section {
+    text-align: left;
+    margin-top: 1.5rem;
 }
 
 .menu-section p {
     color: white;
-}
-
-.menu {
     text-align: left;
-}
-
-.menu li {
-    list-style-type: none;
-    padding-left: 0;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: #dde6dd;
-}
-
-.menu li p {
-    font-size: 1rem;
-    padding: 0;
-    margin: 0;
-    text-transform: initial;
-}
-
-.menu li a {
-    color: #dde6dd;
-}
-
-.banner {
-    text-align: center;
-}
-
-.banner img {
-    width: 270x;
-    height: 104px;
-}
-
-.sub {
-    font-weight: normal;
-}
-
-p.hint {
-    color: #999;
-    font-size: 14px;
+    line-height: 1.6rem;
+    font-size: 1.05rem;
 }
 
 .legal {
@@ -111,13 +55,13 @@ footer {
     color: #dde6dd;
     border-top: 1px solid #555;
     padding-top: 1rem;
+    text-align: center;
 }
 
 h2 {
     color: white;
     font-weight: normal;
-    margin: auto;
-    text-align: center;
+    margin: 1.5rem 0 0.75rem;
 }
 
 .ads {
@@ -129,4 +73,14 @@ h2 {
 
 ins.adsbygoogle[data-ad-status="unfilled"] {
     display: none !important;
+}
+
+@media (max-width: 520px) {
+    .logo {
+        font-size: 2rem;
+    }
+
+    .menu-container {
+        padding: 16px 12px 0;
+    }
 }

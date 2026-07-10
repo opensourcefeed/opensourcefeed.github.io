@@ -20,7 +20,6 @@
 
   <link rel="icon" type="image/png" href="logo.png">
   <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="main.css">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Decordle Daily & Unlimited - Guess 10 Hidden Words in 16 Attempts">
@@ -158,21 +157,29 @@
     }
 
     .hero-points {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px 18px;
       margin: 18px 0 0;
       padding: 0;
       list-style: none;
     }
 
     .hero-points li {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      padding: 8px 12px;
-      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.98rem;
       color: var(--muted);
+    }
+
+    .hero-points li::before {
+      content: "";
+      flex: 0 0 auto;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
     }
 
     .cta-grid {
@@ -260,6 +267,20 @@
       height: auto;
     }
 
+    .hero-preview {
+      margin-top: 24px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: var(--bg-soft);
+    }
+
+    .hero-preview img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
     .legal {
       display: flex;
       flex-wrap: wrap;
@@ -282,12 +303,22 @@
 
     @media (max-width: 800px) {
       .cta-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
       }
 
       .hero-card,
       .section-card {
         padding: 20px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .cta-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-points {
+        grid-template-columns: 1fr;
       }
     }
   </style>
@@ -308,11 +339,11 @@
         </div>
 
         <ul class="hero-points" aria-label="Game highlights">
-          <li>10 hidden words</li>
-          <li>16 attempts</li>
-          <li>Daily challenge</li>
-          <li>Unlimited mode</li>
-          <li>Mobile friendly</li>
+          <li>🎯 10 Words</li>
+          <li>❤️ 16 Guesses</li>
+          <li>📅 Daily Puzzle</li>
+          <li>🎮 Unlimited</li>
+          <li>📱 Mobile friendly</li>
         </ul>
 
         <nav class="cta-grid" aria-label="Game modes">
@@ -326,11 +357,15 @@
             <span class="cta-desc">Practice as much as you want with unlimited games.</span>
           </a>
 
-          <a class="cta-card" href="https://www.opensourcefeed.org/puzzles/jotto-digital/">
+          <a class="cta-card" href="https://www.opensourcefeed.org/puzzles/">
             <span class="cta-title">Other Games</span>
             <span class="cta-desc">Explore more word and puzzle games from us.</span>
           </a>
         </nav>
+
+        <div class="hero-preview">
+          <img src="preview.jpg" alt="Decordle game preview showing multiple word guess grids" loading="lazy">
+        </div>
 
         <div class="store-badge">
           <a href="https://play.google.com/store/apps/details?id=org.tahrik.wordle&utm_source=web&utm_campaign=bottom-banner&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
