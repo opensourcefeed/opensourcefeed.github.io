@@ -11,11 +11,12 @@ image: /assets/images/preview/debian-kde-preview.jpg
 home_page: https://www.debian.org
 desktops: [gnome, plasma, xfce, lxqt, cinnamon, mate, lxde]
 base: [Independent]
-description: "Learn about Debian Linux, one of the most stable and influential Linux distributions. Explore Debian releases, desktop environments, package management, and Debian-based operating systems."
+description: "Debian — the universal operating system. Explore releases, desktop environments (GNOME, KDE, Xfce), package management, and distros built on Debian."
 tagline: The universal operating system
 seo_title: Debian - The universal operating system
 
 releases:
+  Debian 13.6 Trixie: /debian-13-6-release/
   Debian 13.5 Trixie: /debian-13-5-release/
   Debian 13 Trixie: /debian-13-trixie-released/
   Debian 12 Bookworm: /debian-12-bookworm/
