@@ -4,7 +4,7 @@ title: "Debian 13.6 Released: 124 Fixes, 120 Security Updates"
 categories: [debian, linux, release]
 tags: [debian, debian-13, trixie, release, point-release]
 description: "Debian 13.6 arrives as the sixth Trixie point release, fixing Secure Boot CA expiry, reverting geoip-database, and bundling 120 security updates."
-image: /assets/images/post-images/debian/debian-13.6.jpg
+image: /assets/images/post-images/debian/debian-13.6.webp
 ---
 
 **The** Debian Project has released Debian 13.6, the sixth point update to its stable "Trixie" series. The release lands on July 11, 2026, less than two months after Debian 13.5.
