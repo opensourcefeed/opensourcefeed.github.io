@@ -525,6 +525,18 @@ figcaption {
   color: rgba(255, 255, 255, 0.616);
 }
 
+@media (min-width: 1200px) and (max-width: 1299.98px) {
+  .navbar-dark .navbar-nav {
+    .nav-link {
+      font-size: 0.9rem;
+    }
+
+    .dropdown-toggle {
+      font-size: 0.9rem;
+    }
+  }
+}
+
 .navbar-toggler-icon {
   display: flex;
   flex-direction: column;
