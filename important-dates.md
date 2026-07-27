@@ -3,7 +3,7 @@ layout: default
 title: "Important Dates in Free and Open Source Software History"
 description: "First release dates and anniversary dates of 48+ open source projects — Linux, GNOME, KDE, Debian, Ubuntu, Firefox, Git, and more. A quick-reference timeline for developers and FOSS enthusiasts."
 image: /assets/images/post-images/important-dates.webp
-last_modified_at: 2026-07-21
+last_modified_at: 2026-07-27
 ---
 
 <script type="application/ld+json">
@@ -16,7 +16,7 @@ last_modified_at: 2026-07-21
       "description": "First release dates and anniversary dates of 48+ open source projects including Linux, GNOME, KDE, Debian, Ubuntu, Firefox, Git, Python, and more.",
       "image": "https://www.opensourcefeed.org/assets/images/post-images/important-dates.webp",
       "datePublished": "2024-01-01",
-      "dateModified": "2026-07-21",
+      "dateModified": "2026-07-27",
       "author": { "@type": "Organization", "name": "OpenSourceFeed" },
       "publisher": {
         "@type": "Organization",
@@ -24,6 +24,13 @@ last_modified_at: 2026-07-21
         "logo": { "@type": "ImageObject", "url": "https://www.opensourcefeed.org/assets/images/logo.png" }
       },
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.opensourcefeed.org/important-dates/" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.opensourcefeed.org/" },
+        { "@type": "ListItem", "position": 2, "name": "Important Dates in Free and Open Source Software History", "item": "https://www.opensourcefeed.org/important-dates/" }
+      ]
     },
     {
       "@type": "FAQPage",
@@ -132,13 +139,14 @@ Dates are sourced from official project histories and verified release records. 
 
 <div class="table-responsive">
 <table class="table table-bordered table-hover">
+  <caption class="visually-hidden">First release dates and anniversary dates of free and open source software projects, sorted by anniversary date</caption>
   <thead class="table-light">
     <tr>
-      <th>#</th>
-      <th>Software / Distribution</th>
-      <th>Anniversary Date</th>
-      <th>First Release Date</th>
-      <th>Brief History</th>
+      <th scope="col">#</th>
+      <th scope="col">Software / Distribution</th>
+      <th scope="col">Anniversary Date</th>
+      <th scope="col">First Release Date</th>
+      <th scope="col">Brief History</th>
     </tr>
   </thead>
   <tbody>
@@ -171,7 +179,7 @@ Dates are sourced from official project histories and verified release records. 
 
     <tr>
       <td>4</td>
-      <td>LibreOffice</td>
+      <td><a href="/software/libreoffice/">LibreOffice</a></td>
       <td>25th January</td>
       <td>2011-01-25</td>
       <td>LibreOffice is a free office suite forked from OpenOffice.org by The Document Foundation. Its first release appeared on January 25, 2011. It supports open document formats and is the default office suite in many Linux distributions.</td>
@@ -181,7 +189,7 @@ Dates are sourced from official project histories and verified release records. 
 
     <tr>
       <td>5</td>
-      <td>VLC media player</td>
+      <td><a href="/software/vlc/">VLC media player</a></td>
       <td>1st February</td>
       <td>2001-02-01</td>
       <td>VLC is a free, open source media player and streaming server developed by VideoLAN. It plays most audio and video formats without requiring additional codecs. VLC was originally a student project at École Centrale Paris and was released as open source in February 2001.</td>
@@ -197,7 +205,7 @@ Dates are sourced from official project histories and verified release records. 
 
     <tr>
       <td>7</td>
-      <td>ReactOS</td>
+      <td><a href="/distribution/reactos">ReactOS</a></td>
       <td>24th February</td>
       <td>1998-02-24</td>
       <td>ReactOS is an open source operating system designed to be binary-compatible with Windows applications and drivers. The project started in February 1998 with the goal of providing a free alternative to Windows.</td>
@@ -216,14 +224,14 @@ Dates are sourced from official project histories and verified release records. 
     <tr>
       <td>9</td>
       <td>Ansible</td>
-      <td>4th March</td>
-      <td>2012-03-04</td>
+      <td>9th March</td>
+      <td>2012-03-09</td>
       <td>Ansible is an open source IT automation platform. It uses an agentless, SSH-based architecture and plain YAML playbooks, making it straightforward to deploy and manage infrastructure. Red Hat acquired Ansible in 2015.</td>
     </tr>
 
     <tr>
       <td>10</td>
-      <td><a href="/distribution/arch-linux">Arch Linux</a></td>
+      <td><a href="/distribution/arch">Arch Linux</a></td>
       <td>11th March</td>
       <td>2002-03-11</td>
       <td>Arch Linux is a rolling release distribution aimed at experienced users who prefer a minimal, custom-built system. It follows a "keep it simple" philosophy and is maintained through a community-driven package manager called Pacman.</td>
@@ -231,7 +239,7 @@ Dates are sourced from official project histories and verified release records. 
 
     <tr>
       <td>11</td>
-      <td><a href="/distribution/kali-linux">Kali Linux</a></td>
+      <td><a href="/distribution/kali">Kali Linux</a></td>
       <td>13th March</td>
       <td>2013-03-13</td>
       <td>Kali Linux is a Debian-based distribution built for penetration testing and security auditing. It is developed and maintained by Offensive Security and ships with hundreds of security tools pre-installed.</td>
@@ -255,7 +263,7 @@ Dates are sourced from official project histories and verified release records. 
 
     <tr>
       <td>14</td>
-      <td>Xfce</td>
+      <td><a href="/desktop/xfce">Xfce</a></td>
       <td>30th March</td>
       <td>1997-02-18</td>
       <td>Xfce is a lightweight desktop environment for Unix-like operating systems. It is designed to be fast and low on system resources while remaining visually appealing. Development began in late 1996; the first public release is recorded in early 1997. Xfce uses GTK as its toolkit.</td>
@@ -263,7 +271,7 @@ Dates are sourced from official project histories and verified release records. 
 
     <tr>
       <td>15</td>
-      <td>elementary OS</td>
+      <td><a href="/distribution/elementary">elementary OS</a></td>
       <td>31st March</td>
       <td>2011-03-31</td>
       <td>elementary OS is a Linux distribution focused on design and ease of use. It ships with the Pantheon desktop environment and targets users who want a clean, polished interface. It is built on an Ubuntu LTS base.</td>
@@ -281,7 +289,7 @@ Dates are sourced from official project histories and verified release records. 
 
     <tr>
       <td>17</td>
-      <td>NetBSD</td>
+      <td><a href="/distribution/netbsd">NetBSD</a></td>
       <td>20th April</td>
       <td>1993-04-20</td>
       <td>NetBSD is a Unix-like operating system known for its portability across a wide range of hardware platforms, from embedded systems to enterprise servers. The NetBSD Foundation maintains the project under a BSD licence.</td>
@@ -306,7 +314,7 @@ Dates are sourced from official project histories and verified release records. 
 
     <tr>
       <td>19</td>
-      <td>Zorin OS</td>
+      <td><a href="/distribution/zorin">Zorin OS</a></td>
       <td>1st July</td>
       <td>2009-07-01</td>
       <td>Zorin OS is a Linux distribution designed to ease the transition from Windows and macOS. It provides a familiar desktop layout and ships with a range of pre-installed software to reduce setup time for new Linux users.</td>
@@ -330,23 +338,15 @@ Dates are sourced from official project histories and verified release records. 
 
     <tr>
       <td>22</td>
-      <td>KDE</td>
-      <td>14th October <sup><a href="#kde-note">*</a></sup></td>
-      <td>1996-10-14</td>
-      <td>KDE is a free software community that develops the KDE Plasma desktop environment and a wide range of applications. The project was announced on October 14, 1996 by Matthias Ettrich — the date the KDE community celebrates as its anniversary. KDE 1.0, the first stable release, arrived on July 12, 1998.</td>
+      <td>Slackware</td>
+      <td>17th July</td>
+      <td>1993-07-17</td>
+      <td>Slackware, created by Patrick Volkerding, is one of the oldest surviving Linux distributions. It was first released on July 17, 1993 and is known for its simplicity, stability, and close adherence to Unix conventions.</td>
     </tr>
 
     <tr>
       <td>23</td>
-      <td>Slackware</td>
-      <td>16th July</td>
-      <td>1993-07-16</td>
-      <td>Slackware, created by Patrick Volkerding, is one of the oldest surviving Linux distributions. It was first released on July 16, 1993 and is known for its simplicity, stability, and close adherence to Unix conventions.</td>
-    </tr>
-
-    <tr>
-      <td>24</td>
-      <td>Gentoo Linux</td>
+      <td><a href="/distribution/gentoo">Gentoo Linux</a></td>
       <td>26th July</td>
       <td>2000-07-26</td>
       <td>Gentoo Linux is a source-based distribution that compiles packages from source using the Portage package manager. Users can tune compilation flags for their hardware, giving fine-grained control over performance and features. It was created by Daniel Robbins.</td>
@@ -355,7 +355,7 @@ Dates are sourced from official project histories and verified release records. 
     <tr><td colspan="5" class="month-anchor" id="aug">August</td></tr>
 
     <tr>
-      <td>25</td>
+      <td>24</td>
       <td>QEMU</td>
       <td>15th August</td>
       <td>2003-08-15</td>
@@ -363,7 +363,7 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>26</td>
+      <td>25</td>
       <td>Haiku</td>
       <td>18th August</td>
       <td>2001-08-18</td>
@@ -371,7 +371,7 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>27</td>
+      <td>26</td>
       <td>Linux kernel</td>
       <td>25th August</td>
       <td>1991-08-25</td>
@@ -381,7 +381,7 @@ Dates are sourced from official project histories and verified release records. 
     <tr><td colspan="5" class="month-anchor" id="sep">September</td></tr>
 
     <tr>
-      <td>28</td>
+      <td>27</td>
       <td>FreeDOS</td>
       <td>3rd September</td>
       <td>1994-09-03</td>
@@ -389,7 +389,7 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>29</td>
+      <td>28</td>
       <td><a href="/distribution/debian">Debian</a></td>
       <td>15th September</td>
       <td>1993-09-15</td>
@@ -397,7 +397,7 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>30</td>
+      <td>29</td>
       <td>Firefox</td>
       <td>23rd September</td>
       <td>2002-09-23</td>
@@ -405,7 +405,7 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>31</td>
+      <td>30</td>
       <td>GNU Project</td>
       <td>27th September</td>
       <td>1983-09-27</td>
@@ -415,7 +415,7 @@ Dates are sourced from official project histories and verified release records. 
     <tr><td colspan="5" class="month-anchor" id="oct">October</td></tr>
 
     <tr>
-      <td>32</td>
+      <td>31</td>
       <td>Nginx</td>
       <td>4th October</td>
       <td>2004-10-04</td>
@@ -423,7 +423,7 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>33</td>
+      <td>32</td>
       <td>OpenOffice.org</td>
       <td>13th October</td>
       <td>2000-10-13</td>
@@ -431,15 +431,15 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>34</td>
-      <td>Lubuntu</td>
+      <td>33</td>
+      <td><a href="/distribution/lubuntu">Lubuntu</a></td>
       <td>13th October</td>
       <td>2011-10-13</td>
       <td>Lubuntu is a lightweight Ubuntu-based distribution that uses the LXQt desktop environment. It is designed for older hardware with limited resources and ships as an official Ubuntu flavour.</td>
     </tr>
 
     <tr>
-      <td>35</td>
+      <td>34</td>
       <td>KDE <sup><a href="#kde-note">*</a></sup></td>
       <td>14th October</td>
       <td>1996-10-14</td>
@@ -447,7 +447,7 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>36</td>
+      <td>35</td>
       <td>OpenBSD</td>
       <td>18th October</td>
       <td>1996-10-18</td>
@@ -455,7 +455,7 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>37</td>
+      <td>36</td>
       <td><a href="/distribution/ubuntu">Ubuntu</a></td>
       <td>20th October</td>
       <td>2004-10-20</td>
@@ -463,7 +463,7 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>38</td>
+      <td>37</td>
       <td>Void Linux</td>
       <td>20th October</td>
       <td>2008-10-20</td>
@@ -471,15 +471,15 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>39</td>
-      <td>PCLinuxOS</td>
+      <td>38</td>
+      <td><a href="/distribution/pclinuxos">PCLinuxOS</a></td>
       <td>24th October</td>
       <td>2003-10-24</td>
       <td>PCLinuxOS is a rolling release Linux distribution derived from Mandriva (formerly Mandrake). It is known for being easy to set up and use out of the box, particularly for desktop users transitioning from Windows.</td>
     </tr>
 
     <tr>
-      <td>40</td>
+      <td>39</td>
       <td>MariaDB</td>
       <td>29th October</td>
       <td>2009-10-29</td>
@@ -489,7 +489,7 @@ Dates are sourced from official project histories and verified release records. 
     <tr><td colspan="5" class="month-anchor" id="nov">November</td></tr>
 
     <tr>
-      <td>41</td>
+      <td>40</td>
       <td><a href="/distribution/freebsd">FreeBSD</a></td>
       <td>1st November</td>
       <td>1993-11-01</td>
@@ -497,7 +497,7 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>42</td>
+      <td>41</td>
       <td>Vim</td>
       <td>2nd November</td>
       <td>1991-11-02</td>
@@ -505,7 +505,7 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>43</td>
+      <td>42</td>
       <td>Inkscape</td>
       <td>2nd November</td>
       <td>2003-11-02</td>
@@ -513,7 +513,7 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>44</td>
+      <td>43</td>
       <td>Red Hat Linux</td>
       <td>3rd November</td>
       <td>1994-11-03</td>
@@ -521,15 +521,15 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>45</td>
-      <td><a href="/distribution/fedora-linux">Fedora</a></td>
+      <td>44</td>
+      <td><a href="/distribution/fedora">Fedora</a></td>
       <td>6th November</td>
       <td>2003-11-06</td>
       <td>Fedora is a community-driven Linux distribution sponsored by Red Hat. It ships with cutting-edge software and acts as the upstream testing ground for RHEL. Fedora Core 1, the first release, appeared on November 6, 2003.</td>
     </tr>
 
     <tr>
-      <td>46</td>
+      <td>45</td>
       <td>MPlayer</td>
       <td>11th November</td>
       <td>2000-11-11</td>
@@ -537,8 +537,8 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>47</td>
-      <td>GIMP</td>
+      <td>46</td>
+      <td><a href="/software/gimp/">GIMP</a></td>
       <td>21st November</td>
       <td>1995-11-21</td>
       <td>GIMP (GNU Image Manipulation Program) is a free, open source raster graphics editor. Spencer Kimball and Peter Mattis released the first public version in November 1995 at the University of California, Berkeley. GIMP is used for photo retouching, image composition, and graphic design.</td>
@@ -547,7 +547,7 @@ Dates are sourced from official project histories and verified release records. 
     <tr><td colspan="5" class="month-anchor" id="dec">December</td></tr>
 
     <tr>
-      <td>48</td>
+      <td>47</td>
       <td>Apache HTTP Server</td>
       <td>1st December</td>
       <td>1995-12-01</td>
@@ -555,7 +555,7 @@ Dates are sourced from official project histories and verified release records. 
     </tr>
 
     <tr>
-      <td>49</td>
+      <td>48</td>
       <td>Perl</td>
       <td>18th December</td>
       <td>1987-12-18</td>
@@ -572,7 +572,7 @@ Dates are sourced from official project histories and verified release records. 
 
 <div class="contribute-box" id="suggest">
   <p>
-    <strong>Missing a project?</strong> This list covers 49 projects and grows with community input. If you know the verified first release date of a FOSS project not listed here, leave a comment below and we will review it for inclusion. Please include a source link where possible.
+    <strong>Missing a project?</strong> This list covers 48 projects and grows with community input. If you know the verified first release date of a FOSS project not listed here, leave a comment below and we will review it for inclusion. Please include a source link where possible.
   </p>
 </div>
 
