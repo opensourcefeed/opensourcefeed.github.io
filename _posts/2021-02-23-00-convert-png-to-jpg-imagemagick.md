@@ -6,16 +6,19 @@ categories:
 - linux
 tags:
 - imagemagick
-- imagemagickconvertpng to jpg
-- imagemagickpngto jpg
-- imagemagickconvertto jpg
+- png-to-jpg
+- image-conversion
+- linux
 image: "/assets/images/post-images/png-eligible.webp"
 description: A brief tutorial explaining how to convert PNG images to JPG using the ImageMagick/convert tool. Also, learn the difference between PNG and JPG images.
 redirect_from:
     - /2021/06/how-to-convert-png-images-to-jpg-using-imagemagick-in-linux/
+last_modified_at: 2026-07-27
 ---
 
 **When** dealing with images, we may have to do several format conversions. Depending on the situation, it can be a JPG to PNG conversion, PNG to SVG conversion, or anything. ImageMagick is a tool that supports most of these image format conversions along with the other operations like resizing, reducing the size, changing color scheme ..etc. In this tutorial, we will see how to convert a PNG file to a JPG file. Also, we'll check how to perform this image conversion as a batch job.
+
+**TL;DR:** `convert image.png image.jpg` (ImageMagick 6) or `magick image.png image.jpg` (ImageMagick 7). Add `-quality 85` to control file size, and `-background white -flatten -alpha off` if the PNG has transparency.
 
 Before jumping to the details, let's get familiar with the terms used here, ie, JPG, PNG, and ImageMagick. If you are already familiar with these, you can directly skip to the conversion part.
 
@@ -25,7 +28,7 @@ PNG (Portable Network Graphics) a raster image format. Raster images use a lossl
 ![PNG format is good for simple images](/assets/images/post-images/png-eligible.webp)
 *PNG format is best for simple icons & shapes*
 
-PNG format can be used for any image files. However, it is more suitable for icons, symbols, or small shapes which does not require a lot of points to represent. It will consume more space for complex images like photographs. So, it is better to convert complex images into other formats like JPE when we are using it on the Web.
+PNG format can be used for any image files. However, it is more suitable for icons, symbols, or small shapes which does not require a lot of points to represent. It will consume more space for complex images like photographs. So, it is better to convert complex images into other formats like JPG when we are using it on the Web.
 
 ## JPG Image Format
 JPG or JPEG (Joint Photographic Experts Group) is a commonly used lossy compression approach for digital photographs. It allows adjusting the compression ratio with a tradeoff between compression and quality of the image.
@@ -57,6 +60,19 @@ $ convert [original image] [converted image name]
 ```
 This command can be used to convert between any valid image formats.
 
+> **Note (ImageMagick 7+):** Most current Linux distributions ship ImageMagick 7, where the standalone `convert` binary is deprecated in favor of the `magick` command. You'll see a deprecation warning if you run `convert` directly on IM7. The syntax is otherwise identical — just replace `convert` with `magick`:
+> ```bash
+> $ magick [original image] [converted image name]
+> ```
+> All the examples below work the same way with `magick` instead of `convert`.
+
+### Controlling output quality and file size
+JPG is a lossy format, so you can trade off file size against image quality using the `-quality` flag (0-100, higher means better quality and larger file size). This is especially useful when converting photographs for the web:
+```bash
+$ convert original-image.png -quality 85 new-image.jpg
+```
+A lower value like 60-70 gives a noticeably smaller file, while 85-95 keeps quality close to the original with a moderate size reduction.
+
 If we want to convert multiple jobs at once, we may use a simple batch job as follows:
 ```bash
 for image in *.png ; 
@@ -68,6 +84,12 @@ In one line, it can be written like,
 ```bash
 $ for image in *.png ;  do convert "$image" "${image%.*}.jpg" ; done
 ```
+
+Alternatively, ImageMagick's `mogrify` tool can batch-convert an entire directory in place without needing a loop:
+```bash
+$ mogrify -format jpg *.png
+```
+This creates a `.jpg` copy of every PNG in the current directory, leaving the original PNG files untouched.
 
 ## How to convert PNG to JPG by specifying background color?
 
@@ -92,6 +114,20 @@ $ convert <source image name & format> <destination image name & format>
 # example
 $ convert sample.png sample.webp
 ```
+
+## Frequently Asked Questions
+
+**Does converting PNG to JPG reduce image quality?**
+Yes, potentially. JPG uses lossy compression, so some detail is discarded during conversion. You can minimize the loss by using a high `-quality` value (85-95).
+
+**How do I convert PNG to JPG without losing quality?**
+You can't fully avoid it since JPG is inherently lossy, but setting `-quality 95` or higher keeps the loss visually negligible for most images.
+
+**Why does my converted JPG have a black or white background instead of transparency?**
+JPG doesn't support transparency. Any transparent areas in the source PNG get filled with a background color (black, by default, in some tools). Use the `-background white -flatten -alpha off` flags shown above to control that color explicitly.
+
+**Can I convert PNG to JPG on Windows or macOS with ImageMagick?**
+Yes. ImageMagick is cross-platform - the same `convert`/`magick` commands work on Windows and macOS after installing ImageMagick, though batch loops should use PowerShell or a shell like `zsh`/`bash` accordingly.
 
 That's all for now. This post is inspired by an [answer given in superuser - an affiliate of StackExange](https://superuser.com/questions/71028/batch-converting-png-to-jpg-in-linux).
 
