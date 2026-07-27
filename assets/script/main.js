@@ -3,6 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const searchField = document.getElementById('search-field');
 
     if (searchField) {
+        // Focus the input when the search icon is clicked
+        document.getElementById('search-btn').addEventListener('click', function () {
+            searchField.focus();
+        });
+
         // Filter the results on keyup
         document.getElementById('search-field').addEventListener('keyup', function () {
             const query = this.value;

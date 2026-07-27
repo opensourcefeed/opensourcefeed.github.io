@@ -101,29 +101,20 @@ layout: default
 			{% assign tag_matches = "" | split: "" %}
 
 			{% assign exclude_cats = "linux,release" | split: "," %}
-			{% for post in site.posts %}
-			  {% if post.url != page.url %}
-			    {% assign found = false %}
-			    {% for category in page.categories %}
-			      {% if exclude_cats contains category %}{% continue %}{% endif %}
-			      {% if post.categories contains category %}
-			        {% assign category_matches = category_matches | push: post %}
-			        {% assign found = true %}
-			        {% break %}
-			      {% endif %}
-			    {% endfor %}
-			    {% unless found %}
-			      {% for tag in page.tags %}
-			        {% if post.tags contains tag %}
-			          {% assign tag_matches = tag_matches | push: post %}
-			          {% break %}
-			        {% endif %}
-			      {% endfor %}
-			    {% endunless %}
-			  {% endif %}
+			{% for category in page.categories %}
+			  {% if exclude_cats contains category %}{% continue %}{% endif %}
+			  {% assign category_matches = category_matches | concat: site.categories[category] %}
 			{% endfor %}
+			{% assign category_matches = category_matches | where_exp: "post", "post.url != page.url" | uniq %}
 
-			{% assign related_posts = category_matches | concat: tag_matches | slice: 0, 6 %}
+			{% if category_matches.size < 6 %}
+			  {% for tag in page.tags %}
+			    {% assign tag_matches = tag_matches | concat: site.tags[tag] %}
+			  {% endfor %}
+			  {% assign tag_matches = tag_matches | where_exp: "post", "post.url != page.url" | uniq %}
+			{% endif %}
+
+			{% assign related_posts = category_matches | concat: tag_matches | uniq | slice: 0, 6 %}
 
 			{% if related_posts.size > 0 %}
 		<div class="related">
