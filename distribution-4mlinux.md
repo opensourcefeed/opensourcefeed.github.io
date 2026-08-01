@@ -12,9 +12,10 @@ desktops: [JWM]
 base : Independent
 tagline: maintenance, multimedia, minserver & mystery
 image: /assets/images/preview/4MLinux.jpg
-description: "Learn about 4MLinux, a lightweight Linux distribution focused on rescue, multimedia, mini servers and retro gaming. Explore releases, screenshots and features."
+description: "4MLinux is a lightweight, independent Linux distribution for rescue, multimedia, mini servers and retro gaming. See the latest 4MLinux 52.0 release, full version history, features and system requirements."
 
 releases:
+  4MLinux 52.0 STABLE: /4mlinux-52-0-stable-release/
   4MLinux 51.0 STABLE: /4mlinux-51-0-release/
   4MLinux 49.0 STABLE: /4mlinux-49-0-stable-release/
   4MLinux 47.0 STABLE: /4m-linux-47-stable/
@@ -50,7 +51,7 @@ seo:
 
 4MLinux is a lightweight and independently developed GNU/Linux distribution designed for users who need a small, fast, and versatile operating system. Unlike many Linux distributions that focus on a single purpose, 4MLinux is built around four key areas: maintenance, multimedia, mini servers, and mystery, which refers to simple Linux games.
 
-The distribution uses the lightweight JWM desktop environment and is especially suitable for older computers, rescue tasks, and systems with limited hardware resources.
+The distribution uses the lightweight [JWM](https://jwm-project.org/) desktop environment and is especially suitable for older computers, rescue tasks, and systems with limited hardware resources. The current stable release, [4MLinux 52.0](/4mlinux-52-0-stable-release/), ships with Linux kernel 6.18 LTS, [Firefox](/software/firefox) 153, and [LibreOffice](/software/libreoffice) 26.2.5.
 
 ## What is 4MLinux?
 
@@ -79,7 +80,7 @@ Other important features include:
 * Small ISO image suitable for older hardware
 * Fast boot time
 * Low RAM and storage usage
-* Includes common applications such as a web browser, office tools, and media players
+* Includes common applications such as [Firefox](/software/firefox) and Chrome for browsing, [LibreOffice](/software/libreoffice) for office work, and [VLC](/software/vlc) and [mpv](/software/mpv) for media playback
 * Can run on both modern and legacy systems
 
 ## Who Should Use 4MLinux?
@@ -103,3 +104,17 @@ If you want a modern Linux desktop with many preinstalled applications, other di
 * Basic graphics hardware
 
 These low requirements make it useful for reviving old computers.
+
+## Frequently Asked Questions
+
+**Is 4MLinux free to use?**
+Yes. 4MLinux is free and open source, and can be downloaded and used without cost from the [official 4MLinux website](https://www.4mlinux.com/).
+
+**What does the "4M" in 4MLinux stand for?**
+The four Ms are Maintenance, Multimedia, Mini server, and Mystery (games) — the four core use cases the distribution is designed around.
+
+**Can 4MLinux be used as a rescue disk?**
+Yes. 4MLinux can boot as a live CD/USB to repair Linux and Windows installations, recover files, and manage disk partitions, making it a popular choice for system recovery.
+
+**What is the latest version of 4MLinux?**
+The latest stable release is [4MLinux 52.0](/4mlinux-52-0-stable-release/), built on Linux kernel 6.18 LTS. See the release list below for the full version history.
