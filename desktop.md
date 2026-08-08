@@ -186,24 +186,7 @@ Browse detailed pages, screenshots, and technical information to choose the best
 If a desktop environment or window manager is missing, comment below and we'll review and add it.
 </p>
 
-<div id="disqus_thread"></div>
-<button type="button" class="btn btn-primary" id="load-comments">
-Load comments
-</button>
-<script>
-document.getElementById('load-comments').addEventListener('click', function () {
-  var d = document;
-  var s = d.createElement('script');
-  s.src = 'https://theopensourcefeed.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-  this.remove();
-}, { once: true });
-</script>
-
-<noscript>
-Please enable JavaScript to view comments powered by Disqus.
-</noscript>
+{% include echothread.html %}
 </div>
 
 </div>
