@@ -63,7 +63,7 @@ For most people, **Ubuntu remains the easiest Linux distribution for running loc
 
 There are several reasons for this.
 
-Most installation guides for CUDA, ROCm, PyTorch, and Ollama are written with [Ubuntu](/disribution/ubuntu) in mind. GPU vendors typically validate their documentation against Ubuntu LTS releases first, making troubleshooting easier if something goes wrong. Ollama's own Linux documentation includes installation guidance for both NVIDIA CUDA and AMD ROCm on Linux.
+Most installation guides for CUDA, ROCm, PyTorch, and Ollama are written with [Ubuntu](/distribution/ubuntu) in mind. GPU vendors typically validate their documentation against Ubuntu LTS releases first, making troubleshooting easier if something goes wrong. Ollama's own Linux documentation includes installation guidance for both NVIDIA CUDA and AMD ROCm on Linux.
 
 Ubuntu also offers:
 
