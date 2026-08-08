@@ -35,4 +35,4 @@ For a [complete list of enhancements and improvements in the Deepin V23 Alpha 2 
 
 The Deepin OS V23 Alpha 2 images are available for download from the Deepin website.
 
-<a href="https://cdimage.deepin.com/releases/23-Alpha2/" class="download">Download Deepin OS V23 Alpha 2</a>
+Download Deepin OS V23 Alpha 2 (link no longer available)

@@ -31,7 +31,7 @@ The Beta images have undergone rigorous testing and are deemed to be relatively 
 ## Downloads:
 - [Ubuntu Desktop and Ubuntu Server on amd64](https://releases.ubuntu.com/24.04/)
 - [Cloud Images](https://cloud-images.ubuntu.com/daily/server/noble/current/)
-- [Non-x86](https://cdimage.ubuntu.com/releases/24.04/beta/)
+- Non-x86 (link no longer available)
 
 As development progresses towards the final release, ongoing fixes and improvements will be integrated into subsequent images. Any bugs identified during this Beta phase should be promptly reported against the relevant packages or to the cloud-images project on Launchpad.
 
@@ -39,16 +39,16 @@ Comprehensive release notes for Ubuntu 24.04 LTS Beta can be accessed [here](htt
 
 ## Flavor-Specific Beta Releases:
 
-- [Download Edubuntu Beta images](https://cdimage.ubuntu.com/edubuntu/releases/24.04/beta/)
-- [Download Kubuntu Beta images](https://cdimage.ubuntu.com/kubuntu/releases/24.04/beta/)
-- [Download Lubuntu Beta images](https://cdimage.ubuntu.com/lubuntu/releases/24.04/beta/)
-- [Download Ubuntu Budgie Beta images](https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/beta/)
-- [Download Ubuntu Cinnamon Beta images](https://cdimage.ubuntu.com/ubuntucinnamon/releases/24.04/beta/)
-- [Download UbuntuKylin Beta images](https://cdimage.ubuntu.com/ubuntukylin/releases/24.04/beta/)
-- [Download Ubuntu MATE Beta images](https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/beta/)
-- [Download Ubuntu Studio Beta images](https://cdimage.ubuntu.com/ubuntustudio/releases/24.04/beta/)
-- [Download Ubuntu Unity Beta images](https://cdimage.ubuntu.com/ubuntu-unity/releases/24.04/beta/)
-- [Download Xubuntu Beta images](https://cdimage.ubuntu.com/xubuntu/releases/24.04/beta/)
+- Download Edubuntu Beta images (link no longer available)
+- Download Kubuntu Beta images (link no longer available)
+- Download Lubuntu Beta images (link no longer available)
+- Download Ubuntu Budgie Beta images (link no longer available)
+- Download Ubuntu Cinnamon Beta images (link no longer available)
+- Download UbuntuKylin Beta images (link no longer available)
+- Download Ubuntu MATE Beta images (link no longer available)
+- Download Ubuntu Studio Beta images (link no longer available)
+- Download Ubuntu Unity Beta images (link no longer available)
+- Download Xubuntu Beta images (link no longer available)
 
 Regular daily images for Ubuntu and all flavors are available for download [here](https://cdimage.ubuntu.com).
 

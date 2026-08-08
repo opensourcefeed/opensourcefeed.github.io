@@ -11,7 +11,7 @@ hidden: true
 
 ![BSMT featured image](/assets/images/post-images/guest-posts/about-bsmt.jpg)
 
-**The** BMST (Basic Math and Science Test) is an essential exam for many job applications, academic programs, and certifications, particularly in fields that require technical knowledge or problem-solving abilities. This test evaluates your proficiency in fundamental [math and science](https://www.bhsu.edu/academics/Education/Undergraduate-Programs/Secondary-Education/Math-and-Science-Education) concepts, which are critical for success in various technical roles. 
+**The** BMST (Basic Math and Science Test) is an essential exam for many job applications, academic programs, and certifications, particularly in fields that require technical knowledge or problem-solving abilities. This test evaluates your proficiency in fundamental math and science concepts, which are critical for success in various technical roles. 
 
 Preparing for the BMST might seem overwhelming, but with the right approach and effective study strategies, you can excel. In this article, we’ll explore key tips, techniques, and strategies to help you prepare for the BMST with confidence and ensure a successful outcome.
 

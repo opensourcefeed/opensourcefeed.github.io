@@ -35,7 +35,7 @@ For further information, you may read the official release notes in the [Ubuntu 
 ## Download Ubuntu Budgie 22.10
 You can download Ubuntu Budgie 22.10 from Ubuntu official server.
 
-<a href="https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.10/release/" class="download">Download Ubuntu Budgie 22.10 Kinetic Kudu</a>
+Download Ubuntu Budgie 22.10 Kinetic Kudu (link no longer available)
 
 ## Ubuntu Budgie 22.10 Kinetic Kudu screenshots
 

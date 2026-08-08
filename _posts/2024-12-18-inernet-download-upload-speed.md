@@ -56,7 +56,6 @@ Overall, there should be a balance between download and upload speeds for a seam
 ---
 
 ### References  
-- [Why are download speeds higher than upload speeds? - Business Standard](https://www.business-standard.com/podcast/technology/why-are-download-speeds-higher-than-upload-speeds-122092300055_1.html#goog_rewarded)  
-- [FCC Internet Speed Benchmark - Pavlov Media](https://pavlovmedia.com/fcc-internet-speed-benchmark/#:~:text=Out%2C%20Residential%20Fiber-,Everything%20You%20Need%20to%20Know%20About%20the%20FCC's%20New%20Internet,upload%20speeds%20of%2020%20Mbps.)  
+- [Why are download speeds higher than upload speeds? - Business Standard](https://www.business-standard.com/podcast/technology/why-are-download-speeds-higher-than-upload-speeds-122092300055_1.html#goog_rewarded)
 - [Difference Between Download and Upload Internet Speeds - Allconnect](https://www.allconnect.com/blog/difference-between-download-upload-internet-speeds)  
 - [Download vs Upload Speed: What’s the Difference? - ZDNet](https://www.zdnet.com/home-and-office/networking/download-vs-upload-speed-whats-the-difference/)  

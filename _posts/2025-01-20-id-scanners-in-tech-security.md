@@ -36,8 +36,6 @@ Overall, the adoption of ID scanners is a proactive way to protect businesses an
 
 Bar ID scanners work by quickly verifying the age of customers. They scan the ID and instantly check the date of birth, ensuring that only those of legal age are served alcohol. This not only helps bar owners comply with laws but also protects them from potential fines or legal issues. Learn more about how bar ID scanners help with compliance [here](https://minordecliner.com/pages/id-scanner-for-bars).
 
-According to the [TABC](https://www.tabc.texas.gov/public-safety/age-verification/), checking identification is a legal obligation for establishments serving alcohol. Bar ID scanners make this process efficient and reliable, reducing human error and speeding up service.
-
 - Prevents underage drinking by verifying age instantly
 - Helps follow laws and lowers the risk of fines
 - Streamlines the ID-checking process, enhancing customer experience
@@ -63,8 +61,6 @@ In recent years, ID scanning technology has seen significant advancements, makin
 - **Real-Time Scanning:** Modern ID scanners can process information instantly, reducing wait times and enhancing user experience. This is particularly beneficial in high-traffic areas like bars and retail outlets.
 - **Data Storage and Management:** Advanced ID scanners now come with capabilities to store and manage data securely. This feature helps businesses maintain records for compliance purposes while ensuring data privacy.
 - **Integration with Other Systems:** Newer scanners can seamlessly integrate with existing security and management systems, providing a holistic approach to security and compliance.
-
-For a deeper dive into these innovations, you can explore more on [Technopedia](https://www.techopedia.com/top-digital-identity-verification-trends-and-innovations).
 
 ## Compliance and Legal Aspects
 

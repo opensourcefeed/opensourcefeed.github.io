@@ -46,6 +46,6 @@ For [further information on and a complete list of features in deepin 23](https:
 
 deepin 23 is available for free download from the deepin official website.
 
-<a href="https://cdimage.deepin.com/releases/23/amd64/deepin-desktop-community-23-amd64.iso" class="download">Download deepin 23 ISO</a>
+Download deepin 23 ISO (link no longer available)
 <a href="https://www.mediafire.com/folder/9rpbcrzei0913/deepin_V23_Release" class="download">Download deepin 23 TORRENT</a>
 <a href="https://www.deepin.org/en/download/" class="download">deepin 23 all download options</a>

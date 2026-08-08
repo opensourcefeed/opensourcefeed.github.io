@@ -28,7 +28,7 @@ Following are the major highlights in the Ubuntu Budgie 21.10 Impish release.
 - LibreOffice 7.2.1.2
 - Unlike other flavors, Firefox is included as a debian package. However, in the upcoming releases, firefox will be coming as snap.
 
-<a href="https://cdimage.ubuntu.com/ubuntu-budgie/releases/21.10/release/" class="download">Download Ubuntu Budgie 21.10 Impish Indri</a>
+Download Ubuntu Budgie 21.10 Impish Indri (link no longer available)
 <a href="https://ubuntubudgie.org/downloads/" class="download">Other download options</a>
 
 For [further information on Ubuntu Budgie 21.10 release](https://ubuntubudgie.org/2021/10/ubuntu-budgie-21-10-released/), see the official release announcement.
