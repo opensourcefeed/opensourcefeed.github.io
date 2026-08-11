@@ -4,12 +4,12 @@ title: "SparkyLinux 8.4 Released with Restored 32-Bit Support"
 categories: [sparky, debian, release]
 tags: [sparkylinux, sparky-8, debian-trixie, release, linux]
 description: "SparkyLinux 8.4, the fourth quarterly update to the Debian 13 Trixie-based Seven Sisters series, brings back 32-bit support and refreshed packages."
-image: /assets/images/post-images/sparky/sparky-8-4-release.png
+image: /assets/images/post-images/sparky/sparky-8-4-release.webp
 ---
 
 **SparkyLinux** 8.4 is out — the fourth quarterly update to the Sparky 8 "Seven Sisters" stable series, based on Debian 13 "Trixie". The headline change is the return of 32-bit installation images, reversing a decision made when Debian dropped 32-bit ISO support roughly a year ago.
 
-![SparkyLinux 8.4 desktop screenshot showing the Xfce desktop environment with the Seven Sisters release branding](/assets/images/post-images/sparky/sparky-8-4-release.png)
+![SparkyLinux 8.4 desktop screenshot showing the Xfce desktop environment with the Seven Sisters release branding](/assets/images/post-images/sparky/sparky-8-4-release.webp)
 
 ## What's New in SparkyLinux 8.4
 
