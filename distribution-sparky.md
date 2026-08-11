@@ -2,7 +2,7 @@
 layout: distribution
 uid: sparky
 title: 'Sparky Linux'
-tagline: "Fast, lightweight and customizable OS around Openbox"
+tagline: "Debian-based Linux with lightweight desktops and out-of-the-box convenience"
 Category: Distribution
 permalink: /distribution/sparky
 type : Linux
@@ -16,6 +16,7 @@ base: [debian]
 description : "Sparky Linux is a fast Debian-based Linux distro with lightweight desktops, ready-to-use tools, and semi-rolling updates. Editions, releases and details."
 
 releases:
+  Sparky 8.4: /sparkylinux-8-4-release/
   Sparky 2026.03: /sparkylinux-2026-03-released/
   Sparky 8.2: /sparky-linux-8-2-release/
   Sparky Linux 8 Seven Sisters: /sparky-linux-8-seven-sisters-released-based-on-debian-13-trixie/
@@ -58,26 +59,30 @@ seo:
   
 ---
 
-**Sparky Linux** is a lightweight GNU/Linux distribution based on [Debian](/distribution/debian). It focuses on speed, usability, and flexibility while providing a ready-to-use desktop system with essential applications, codecs, and tools preinstalled. Its balance of stability and relatively fresh packages makes it suitable for both everyday desktop use and older hardware.
+**Sparky Linux** is a lightweight GNU/Linux distribution built on [Debian](/distribution/debian) that stands out by combining Debian's solid foundation with a ready-to-use desktop experience. Unlike a vanilla Debian install, Sparky ships with multimedia codecs, essential tools, and a choice of lightweight desktop environments already configured — so you get a working system without hours of post-install setup. It runs well on both modern hardware and older machines with limited resources, making it one of the more versatile Debian-based options available today.
+
+The project maintains two parallel lines: a **Stable** line based on Debian stable (currently Debian 13 *Trixie*) with quarterly updates, and a **Semi-Rolling** line (codenamed *Tiamat*) that tracks Debian Testing for users who want newer software without switching to a fully rolling distribution. Both lines support amd64 and ARM64 architectures.
+
+If you're looking for a Debian derivative with more out-of-the-box polish than plain Debian — without the heavier footprint of Ubuntu or Linux Mint — Sparky Linux is worth a close look. [Download Sparky Linux from the official website.](https://sparkylinux.org/download/)
 
 ## Editions
 
 ### Home Edition
 
-Designed for regular desktop users, this edition includes common applications, multimedia support, and lightweight desktop environments for smooth daily use.
+The primary edition for everyday desktop users. It ships with a fully configured [LXQt](/desktop/lxqt), [MATE](/desktop/mate), [KDE Plasma](/desktop/plasma), or [Xfce](/desktop/xfce) desktop alongside a curated set of applications for productivity, multimedia, and web browsing. Codecs and media support are included out of the box, so there's no need to hunt down additional packages after installation.
 
 ### Minimal GUI
 
-Provides a basic graphical system with minimal software, allowing users to install only what they need.
+A stripped-down graphical edition that boots into a basic [Openbox](/desktop/enlightenment) environment with minimal software preinstalled. Aimed at users who want a clean Debian base with a graphical interface and full control over what gets added on top.
 
 ### Minimal CLI
 
-A console-based edition aimed at experienced users who prefer full control over system setup.
+A console-only edition with no graphical environment at all. Intended for experienced users, server setups, or anyone who prefers to build their system entirely from scratch. It's also a good starting point for custom builds.
 
 ### Semi-Rolling
 
-Tracks Debian Testing repositories to deliver newer software while maintaining reasonable stability.
+The Semi-Rolling edition (codenamed *Tiamat*) tracks Debian Testing repositories, which means software is typically several months newer than what the stable line ships. It offers a middle ground between Debian Stable's conservatism and the rapid churn of a fully rolling distribution like [Arch Linux](/distribution/arch). Suitable for desktop users who want up-to-date software without accepting the instability risk of a bleeding-edge system.
 
 ### Special Editions
 
-Occasionally released variants, including gaming-focused builds with preinstalled Linux-compatible games and related tools.
+Purpose-built variants released alongside the main ISO lineup. Current special editions include **GameOver** (preloaded with Linux-compatible games and gaming tools), **Multimedia** (configured for audio and video production), and **Rescue** (a live environment for system recovery and diagnostics). These are based on the semi-rolling Debian Testing line.
