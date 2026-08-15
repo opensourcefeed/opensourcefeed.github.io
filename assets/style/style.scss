@@ -8,6 +8,8 @@ $radius-md: 0.75rem;
 $radius-lg: 1.25rem;
 $shadow-card: 0 8px 30px rgba(0, 0, 0, 0.12);
 $shadow-card-hover: 0 14px 40px rgba(0, 0, 0, 0.18);
+$font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$text-muted: #6c757d;
 
 .navbar-small {
   padding: 0rem 1rem;
@@ -56,13 +58,19 @@ main {
   }
 
   .disclaimer {
-    background: #eee;
-    padding: 1rem;
+    background: #f7f9fb;
+    border: 1px solid $--color-border-secondary;
+    padding: 1.25rem 1.5rem;
     border-radius: $radius-lg;
     margin: 2rem auto;
+    color: $text-muted;
+
+    strong {
+      color: #2b2b2b;
+    }
 
     p {
-      font-size: 1rem;
+      font-size: 0.95rem;
     }
   }
 
@@ -124,10 +132,17 @@ main {
   #search-btn {
     display: flex;
     align-items: center;
+    height: 3rem;
+    box-sizing: border-box;
     padding: 0.75rem 1rem;
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-right: none;
     border-radius: $radius-md 0 0 $radius-md;
+
+    svg {
+      height: 1.2em;
+      width: auto;
+    }
   }
 
   #search-area {
@@ -135,8 +150,9 @@ main {
   }
 
   #search-field {
+    height: 3rem;
+    box-sizing: border-box;
     border-radius: 0 $radius-md $radius-md 0;
-    border: 1px solid rgba(255, 255, 255, 0.15);
     padding: 0.75rem 1rem;
   }
 
@@ -337,11 +353,19 @@ footer {
 }
 
 /* Individual post styles */
-.post-content {
-  img {
-    max-width: 100%;
-    display: block;
-    margin: auto;
+.post {
+  font-family: $font-system;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2b2b2b;
+
+  a {
+    color: $primary-blue;
+    text-underline-offset: 2px;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   h2 {
@@ -363,10 +387,20 @@ footer {
   h4,
   h5,
   h6 {
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.25;
     margin-bottom: 16px;
     margin-top: 24px;
+    letter-spacing: -0.01em;
+  }
+}
+
+.post-content {
+  img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: $radius-md;
   }
 
   .attribution {
@@ -375,20 +409,130 @@ footer {
   }
 }
 
+.story-listing {
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  background: #f7f9fb;
+  border-radius: $radius-lg;
+
+  h2,
+  h3,
+  h4 {
+    margin-top: 0;
+    border-bottom: none;
+    opacity: 1;
+  }
+
+  ul,
+  ol {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid $--color-border-secondary;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  a {
+    font-weight: 500;
+  }
+}
+
+.comment-area {
+  margin-top: 1.5rem;
+
+  h2 {
+    margin-top: 0;
+    border-bottom: none;
+  }
+}
+
 .post-header {
+  hr {
+    border: none;
+    border-top: 1px solid $--color-border-secondary;
+    margin: 1.5rem 0;
+  }
+
   .category {
-    border: 1px solid #ddd;
-    padding: 5px;
+    display: inline-block;
+    border: none;
+    padding: 0.3rem 0.85rem;
+    border-radius: 999px;
+    background: rgba($primary-blue, 0.1);
+    color: $primary-blue;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    transition: background 0.2s ease;
+
+    &:hover {
+      background: rgba($primary-blue, 0.18);
+    }
   }
 
   .post-meta {
     font-size: 0.9rem;
+
+    .date {
+      color: $text-muted;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+    }
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
     padding-top: 40px;
     text-align: center;
+  }
+}
+
+.related {
+  margin-top: 2rem;
+  padding: 1.25rem 1.5rem;
+  background: #f7f9fb;
+  border-radius: $radius-lg;
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    opacity: 1;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid $--color-border-secondary;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  a {
+    color: $primary-blue;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

@@ -9,7 +9,8 @@ seo:
 ---
 <style>
 .distribution h1 {
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: -0.02em;
   margin-bottom: 0.8rem;
 }
 .distribution p {
@@ -19,6 +20,7 @@ seo:
   max-width: 1080px;
   margin: 0 auto;
   padding: 1rem 0 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 .rank-page .row {
   --bs-gutter-x: 0;
@@ -56,7 +58,7 @@ seo:
 .rank-page details > summary {
   cursor: pointer;
   font-weight: 600;
-  color: #173f4f;
+  color: #046cdc;
 }
 .rank-page .period-block {
   margin-top: 1.5rem;
@@ -94,29 +96,29 @@ seo:
   justify-content: center;
   min-height: 2rem;
   padding: 0.35rem 0.75rem;
-  border: 1px solid #c9d7dd;
+  border: 1px solid #d3e3f5;
   border-radius: 999px;
   background: #fff;
-  color: #173f4f;
+  color: #046cdc;
   line-height: 1.2;
   text-decoration: none;
   transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 .rank-page .quick-link:hover,
 .rank-page .quick-link:focus {
-  background: #eef5f7;
-  border-color: #9fb9c3;
-  color: #0f2f3a;
+  background: #eaf2fc;
+  border-color: #a8c9f0;
+  color: #0357b0;
 }
 .rank-page .quick-link.is-active {
-  background: #173f4f;
-  border-color: #173f4f;
+  background: #046cdc;
+  border-color: #046cdc;
   color: #fff;
 }
 .rank-page .quick-link.is-active:hover,
 .rank-page .quick-link.is-active:focus {
-  background: #0f2f3a;
-  border-color: #0f2f3a;
+  background: #0357b0;
+  border-color: #0357b0;
   color: #fff;
 }
 .rank-page .status-legend {
@@ -126,13 +128,13 @@ seo:
   align-items: center;
   margin-bottom: 1rem;
   padding: 0.75rem 0.9rem;
-  border: 1px solid #d8e3e7;
+  border: 1px solid #dce7f7;
   border-radius: 0.75rem;
-  background: #f8fbfc;
+  background: #f5f9fe;
 }
 .rank-page .status-legend-label {
   font-weight: 600;
-  color: #173f4f;
+  color: #046cdc;
 }
 .rank-page .status-legend-item {
   white-space: nowrap;
@@ -144,10 +146,10 @@ seo:
 }
 .rank-page .category-tab {
   appearance: none;
-  border: 1px solid #c9d7dd;
+  border: 1px solid #d3e3f5;
   border-radius: 999px;
   background: #fff;
-  color: #173f4f;
+  color: #046cdc;
   padding: 0.4rem 0.9rem;
   font-size: 0.95rem;
   line-height: 1.2;
@@ -155,16 +157,16 @@ seo:
   text-decoration: none;
 }
 .rank-page .category-tab.is-active {
-  background: #173f4f;
-  border-color: #173f4f;
+  background: #046cdc;
+  border-color: #046cdc;
   color: #fff;
 }
 .rank-page .rank-section {
   padding: 1rem;
-  border: 1px solid #e5ecef;
+  border: 1px solid #e3ecf7;
   border-radius: 0.9rem;
   background: #fff;
-  box-shadow: 0 1px 3px rgba(23, 63, 79, 0.06);
+  box-shadow: 0 1px 3px rgba(4, 108, 220, 0.08);
 }
 .rank-page .rank-section h3 {
   margin-bottom: 0.85rem;
