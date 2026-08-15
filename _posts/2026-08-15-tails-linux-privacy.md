@@ -81,14 +81,6 @@ Tor hides your IP from destination servers, but the exit node — the last relay
 
 Always use HTTPS, Signal, or end-to-end encrypted applications on top of Tor, not instead of it.
 
-### Telegram Regular Chats and App-Level Encryption
-
-Tails solves the OS and network layers, but it cannot change how individual applications handle encryption. Telegram's regular chats and group messages are encrypted between your device and Telegram's servers — Telegram holds the keys. This is true whether you use Telegram on Tails or on any other system.
-
-If you use Telegram on Tails, use Secret Chats. That combination — Secret Chats plus Tails plus Tor — leaves very little for a realistic attacker to work with at the application layer.
-
-For a broader comparison of privacy tools across platforms, see our [guide to privacy-focused Linux distros](/insights/privacy-focused-linux-distros/).
-
 ### Your Own Behaviour
 
 Tails cannot protect you from identity leaks caused by your own actions. If you log into your real Gmail, Facebook, or any identified account during a Tails session, you have linked that session to your identity — regardless of Tor.
@@ -118,7 +110,7 @@ Keeping Tails updated is not optional — it is part of the security model.
 | Physical device seizure | Largely yes — nothing to recover |
 | Intel ME / BIOS firmware attacks | No — below OS level |
 | Physical hardware keylogger | No — hardware layer |
-| Telegram server holding chat keys | No — application layer |
+| Messaging app server holding chat keys | No — application layer |
 | Your own identity leaks | No — behaviour is your responsibility |
 | Nation-state Tor correlation attacks | Partially — theoretical but not confirmed in practice |
 | Zero-day exploits in bundled apps | Partially — mitigated by frequent updates |
