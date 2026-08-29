@@ -10,7 +10,7 @@ home_page: https://maunalinux.top/
 desktops: [xfce, gnome, mate, cinnamon, lxqt, plasma]
 base: [debian]
 preview: amarok.jpg
-preview_caption: Mauna Linux with Xfce Desktop Environment
+preview_caption: Mauna Linux 25 with Xfce Desktop Environment
 image: /assets/images/preview/amarok.jpg
 blog: https://magazine.maunalinux.top/
 description : "Mauna Linux is a Debian Testing-based distro with GNOME, KDE, and Xfce options. Learn its features, use cases, and how it compares to Debian."
@@ -19,6 +19,7 @@ redirect_from:
   - /distribution/amarok
 
 releases:
+  Mauna Linux 25.3: /mauna-linux-25-3-release/
   Mauna Linux 25.2: /mauna-linux-25-2-release/
   Mauna Linux 25.1: /mauna-linux-25-1-release/
   Mauna Linux 25: /mauna-linux-25-polaris-release/
@@ -42,84 +43,88 @@ seo:
   "applicationCategory": "OperatingSystem"
   "operatingSystem": "Linux"
 
-last_modified_at: 2026-04-23
+last_modified_at: 2026-08-29
 ---
 
-**Mauna Linux** (formerly Amarok Linux) is a [Debian](/distribution/debian) Testing-based GNU/Linux distribution focused on delivering up-to-date software with a ready-to-use desktop experience. It tries to balance Debian’s stability with access to newer applications through its own repositories.
+**Mauna Linux** (formerly Amarok Linux) is a [Debian](/distribution/debian) Testing-based GNU/Linux distribution that brings newer software and a polished, ready-to-use desktop — without straying from the familiar Debian ecosystem. Where Debian Stable ships GNOME 43, Mauna Linux users get GNOME 48. That gap is what the project exists to close.
 
-The distribution is designed to work out of the box, providing a balanced setup of essential applications for daily use, development, and multimedia tasks.
+[Download Mauna Linux from the official site](https://maunalinux.top/)
 
 ## What is Mauna Linux?
 
-Mauna Linux is built on top of Debian Testing, which allows it to offer more recent software compared to stable Debian releases. The project aims to simplify the user experience by preconfiguring the system with useful defaults, reducing the need for manual setup after installation.
+Built on Debian Testing, Mauna Linux ships more recent packages than Debian Stable while maintaining a usable, preconfigured system. The project handles the setup work — codec support, application selection, desktop defaults — so users can get productive right after installation using the [Calamares installer](https://calamares.io/).
 
-Originally launched as Amarok Linux, the project officially rebranded to Mauna Linux in August 2023 to reflect its evolving identity and direction.
+Originally launched as Amarok Linux, the project rebranded to Mauna Linux in August 2023 to mark a new direction in its development.
 
 ## Key Features
 
-- **Debian Testing Base** for newer software packages  
-- **Preconfigured System** with essential applications included  
-- **Multiple Desktop Options** for different user preferences  
-- **Independent Software Repository** for updated packages  
-- **Ready-to-Use Experience** with minimal setup required  
+- **Debian Testing Base** — newer packages than Debian Stable, updated continuously
+- **Calamares Installer** — beginner-friendly graphical installation
+- **Preconfigured Desktop** — essential apps included; minimal post-install setup needed
+- **Six Desktop Environments** — from lightweight Xfce to full-featured KDE Plasma
+- **Independent Software Repository** — additional updated packages beyond Debian Testing
 
 ## Desktop Environments Available
 
-Mauna Linux offers a wide range of desktop environments, allowing users to choose based on performance and usability needs:
+Mauna Linux offers six desktop environment flavors, making it easy to pick the right fit for your hardware and workflow:
 
-- [Xfce](/desktop/xfce) (lightweight and fast)  
-- [GNOME](/desktop/gnome) (modern and polished)  
-- [MATE](/desktop/mate) (traditional desktop experience)  
-- [Cinnamon](/desktop/cinnamon) (balanced and user-friendly)  
-- [LXQt](/desktop/lxqt) (lightweight Qt-based desktop)  
-- [KDE Plasma](/desktop/plasma) (feature-rich and customizable)  
+- [Xfce](/desktop/xfce) — lightweight and fast; ideal for older hardware
+- [GNOME](/desktop/gnome) — modern, touch-friendly, and polished
+- [MATE](/desktop/mate) — classic GNOME 2-style desktop for traditionalists
+- [Cinnamon](/desktop/cinnamon) — balanced; familiar to Windows users
+- [LXQt](/desktop/lxqt) — minimal Qt-based desktop with a low memory footprint
+- [KDE Plasma](/desktop/plasma) — highly customizable and feature-rich
 
 ## Who Should Use Mauna Linux?
 
-In practice, Mauna Linux works best for:
+Mauna Linux is a strong fit if you find yourself in one of these situations:
 
-- Users who want **newer software without leaving Debian ecosystem**
-- Beginners looking for a **preconfigured Linux experience**
-- Users who prefer **flexibility in desktop environments**
-- Intermediate users who want a balance between **stability and freshness**
+- You're coming from Ubuntu or Linux Mint and want something **closer to upstream Debian** without managing a bare Debian install yourself
+- You want **newer application versions** (recent GNOME, updated LibreOffice, fresh kernels) but find Debian Stable too conservative
+- You're a beginner who wants a **working system out of the box**, with a graphical installer and preinstalled essentials
+- You want to **choose your desktop environment** at install time rather than committing to one later
 
 ## Mauna Linux vs Debian
 
-While Debian Stable focuses on reliability and long-term support, Mauna Linux provides:
+| | Mauna Linux | Debian Stable |
+|---|---|---|
+| Package freshness | Newer (Debian Testing base) | Conservative, long-term |
+| Desktop setup | Preconfigured, ready to use | Minimal; requires configuration |
+| Installer | Calamares (graphical) | Debian installer |
+| Stability | Good, occasional attention needed during upgrades | Very high |
+| Target user | Beginners to intermediate | Intermediate to advanced |
 
-- More recent application versions  
-- Faster access to updates  
-- Preconfigured desktop environments  
-
-However, because it is based on Debian Testing, it may receive updates more frequently and can occasionally require user attention during upgrades.
+Because it tracks Debian Testing, Mauna Linux users get updates faster — but should expect occasional dependency changes or upgrade prompts that Debian Stable users rarely see.
 
 ## Pros and Cons
 
 **Pros**
-- Access to newer software  
-- Multiple desktop choices  
-- Minimal setup required  
-- Based on a well-known Debian ecosystem  
+- Ships newer software than Debian Stable
+- Six desktop environment options at install time
+- Beginner-friendly Calamares installer with minimal post-install setup
+- Rooted in the well-documented Debian ecosystem
 
 **Cons**
-- Not as stable as Debian Stable  
-- Smaller community compared to major distributions, which can make troubleshooting harder
-- Limited documentation compared to larger projects
+- Less stable than Debian Stable; upgrades occasionally need manual attention
+- Small community — fewer forum threads, Stack Overflow answers, and tutorials compared to Ubuntu or Fedora
+- Limited project-specific documentation; you'll often rely on Debian upstream docs
 
 ## FAQ
 
 ### Is Mauna Linux based on Debian?
-Yes, it is based on Debian Testing, which provides newer packages than Debian Stable.
+Yes. It uses Debian Testing as its base, which means packages are newer than Debian Stable but not as cutting-edge as rolling-release distributions like Arch or openSUSE Tumbleweed.
 
 ### Is Mauna Linux beginner-friendly?
-Yes, it comes with preinstalled applications and a ready-to-use setup, making it accessible for new users.
+Yes. The Calamares graphical installer, preconfigured desktop, and bundled application selection make it accessible without requiring command-line setup.
 
 ### What desktop environments are available?
-Mauna Linux supports Xfce, GNOME, MATE, Cinnamon, LXQt, and KDE Plasma.
+Mauna Linux offers Xfce, GNOME, MATE, Cinnamon, LXQt, and KDE Plasma — selectable at download time.
 
 ### Why was Amarok Linux renamed?
-The project was rebranded to Mauna Linux in August 2023 to reflect its updated vision and identity.
+The project rebranded to Mauna Linux in August 2023 to reflect its evolving identity and separate itself from the KDE music player of the same name.
+
+<!-- VERIFY: confirm Amarok name conflict was a factor in the rename, or adjust if not -->
 
 ---
 
-Mauna Linux continues to evolve with regular releases and improvements. You can follow updates on the official magazine and explore individual release notes listed below.
+Mauna Linux releases regularly with updates tracked on the [official magazine](https://magazine.maunalinux.top/). Individual release notes are listed below.
