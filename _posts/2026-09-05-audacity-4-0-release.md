@@ -7,7 +7,7 @@ description: "Audacity 4.0 is out with a rebuilt Qt interface, a new clip-editin
 image: /assets/images/post-images/audacity/audacity-4.0-release.webp
 ---
 
-**Audacity**, the free and open-source audio editor used by millions of podcasters, musicians, and voice-over artists, has released version 4.0. This is the most significant update to the application in over a decade, replacing the long-standing wxWidgets toolkit with Qt and rethinking how audio clips are edited.
+[**Audacity**](/software/audacity/), the free and open-source audio editor used by millions of podcasters, musicians, and voice-over artists, has released version 4.0. This is the most significant update to the application in over a decade, replacing the long-standing wxWidgets toolkit with Qt and rethinking how audio clips are edited.
 
 ![Audacity 4.0 release](/assets/images/post-images/audacity/audacity-4.0-release.webp)
 
@@ -57,7 +57,7 @@ Sync-Lock has been removed and replaced by explicit cut and paste variants that 
 
 ## Availability
 
-Audacity 4.0 is available for Windows, macOS (Intel and Apple Silicon), and Linux. You can download it from [audacityteam.org](https://www.audacityteam.org), the Microsoft Store, or [GitHub Releases](https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0).
+Audacity 4.0 is available for Windows, macOS (Intel and Apple Silicon), and Linux. You can download it from [audacityteam.org](https://www.audacityteam.org), the Microsoft Store, or [GitHub Releases](https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0). For a general overview of the tool, see our [Audacity software page](/software/audacity/).
 
 For users who work across multiple open-source media tools, it's worth noting that tools like [Kdenlive](https://www.opensourcefeed.org/kdenlive-22.12-release/) and other [open-source alternatives to proprietary video editors](https://www.opensourcefeed.org/software/alternative-to/davinci-resolve/) continue to mature alongside Audacity in the FOSS multimedia space.
 
