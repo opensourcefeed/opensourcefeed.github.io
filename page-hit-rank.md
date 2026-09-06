@@ -20,7 +20,7 @@ seo:
   max-width: 1080px;
   margin: 0 auto;
   padding: 1rem 0 2rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 .rank-page .row {
   --bs-gutter-x: 0;
