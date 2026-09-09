@@ -12,6 +12,7 @@ tagline: Powering servers, desktops, cloud infrastructure, and embedded systems
 description: "Learn about FreeBSD, a Unix-like operating system known for reliability, security, ZFS support, and advanced networking capabilities."
 
 releases:
+FreeBSD 14.5: /freebsd-14-5-released/
 FreeBSD 15.1: /freebsd-15-1-released/
 FreeBSD 14.4: /freebsd-14-4-released/
 FreeBSD 15.0: /freebsd-15-0-released/
