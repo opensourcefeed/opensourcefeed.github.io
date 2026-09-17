@@ -9,6 +9,7 @@ preview: gnome-desktop.jpg
 home_page: https://www.gnome.org/
 description: GNOME is a free, open source desktop environment for GNU/Linux and BSD systems. Explore releases, featured distros, and the latest updates on GNOME Desktop.
 releases:
+  GNOME 51: /gnome-51-a-coruna-release/
   GNOME 50: /gnome-50-release/
   GNOME 48: /gnome-48-release/
   GNOME 44: /gnome-44-release/
@@ -24,7 +25,7 @@ seo:
   applicationCategory: DesktopApplication
 ---
 
-**Latest stable release: GNOME 50 "Tokyo" — released 18 March 2026**
+**Latest stable release: GNOME 51 "A Coruña" — released 17 September 2026**
 
 **GNOME** (GNU Network Object Model Environment) is a free and open source desktop environment developed for GNU/Linux and BSD operating systems. It is one of the most widely used desktop environments in the Linux world, shipped by default in [Fedora Linux](/distribution/fedora), [Ubuntu](/distribution/ubuntu), and [Red Hat Enterprise Linux](/distribution/redhat), among others.
 
@@ -34,7 +35,7 @@ GNOME began as part of the GNU Project and later evolved into an independent non
 
 GNOME 2 defined the Linux desktop experience for nearly a decade. It followed a traditional desktop metaphor that users were deeply comfortable with. When GNOME 3 arrived in 2011, it introduced a radically different design — the Activities Overview, dynamic workspaces, and a shell-based workflow — which attracted significant criticism at first.
 
-Over the years, GNOME 3 matured into a polished, productive environment. GNOME 40 introduced horizontal workspaces and gesture-based navigation. [GNOME 50 "Tokyo"](https://release.gnome.org/50/), released in March 2026, is the most recent milestone, bringing parental controls with screen time limits, expanded accessibility features including a redesigned Orca screen reader, Variable Refresh Rate (VRR) support enabled by default, fractional scaling improvements, and hardware-accelerated remote desktop sessions.
+Over the years, GNOME 3 matured into a polished, productive environment. GNOME 40 introduced horizontal workspaces and gesture-based navigation. [GNOME 50 "Tokyo"](https://release.gnome.org/50/), released in March 2026, brought parental controls with screen time limits, expanded accessibility features including a redesigned Orca screen reader, Variable Refresh Rate (VRR) support enabled by default, fractional scaling improvements, and hardware-accelerated remote desktop sessions. [GNOME 51 "A Coruña"](https://release.gnome.org/51/), released in September 2026 and named after the host city of GUADEC 2026, is the most recent milestone. It brings offline map support and improved public transit directions in Maps, a reworked Mutter frame scheduling system for smoother animations, visual document signatures in Papers, and the new oo7 secure key storage component.
 
 ## What makes GNOME different?
 
@@ -44,7 +45,7 @@ GNOME is designed with simplicity and focus in mind. Rather than exposing every 
 - **Extensions** — GNOME's functionality can be expanded through community-built shell extensions.
 - **GNOME Circle** — a curated set of apps built with GNOME's design guidelines, ensuring a consistent experience.
 - **Accessibility** — GNOME has strong built-in accessibility support including screen reader integration via Orca.
-- **Wayland-only** — GNOME 50 dropped the native X11 session entirely. GNOME is now fully Wayland-native. Legacy X11 apps still run via XWayland, and other X11 desktop sessions can still be launched from the GDM login screen.
+- **Wayland-only** — GNOME 50 dropped the native X11 session entirely, and GNOME 51 continues that direction, now also dropping support for legacy NVIDIA driver interfaces in favor of modern, standard graphics APIs. GNOME is fully Wayland-native. Legacy X11 apps still run via XWayland, and other X11 desktop sessions can still be launched from the GDM login screen.
 
 ## GNOME vs KDE Plasma
 
