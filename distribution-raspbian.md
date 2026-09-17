@@ -12,6 +12,12 @@ tagline: Original Debian-based OS project for Raspberry Pi
 preview: raspbian-preview.jpg
 description: "Raspbian was the original Debian-based operating system optimized for Raspberry Pi hardware and later became the base for Raspberry Pi OS."
 canonical: /distribution/raspberry-pi-os
+image: /assets/images/preview/raspbian-preview.jpg
+
+seo:
+  type: SoftwareApplication
+  "applicationCategory": "OperatingSystem"
+  "operatingSystem": "Linux"
 ---
 
 > **Note:** Raspbian is the former name commonly associated with Raspberry Pi OS. For the current official operating system, see [Raspberry Pi OS](/distribution/raspberry-pi-os/).
@@ -49,4 +55,4 @@ For modern use, however, Raspberry Pi OS is the better page to follow because it
 
 Looking for the current Raspberry Pi operating system?
 
-Read more here: **[Raspberry Pi OS](/distribution/raspberry-pi-os/)**
+Read more here: **[Raspberry Pi OS](/distribution/raspberry-pi-os/)**, or see the [Raspberry Pi OS Trixie release](/raspberry-pi-os-trixie-release/) for the latest changes.
