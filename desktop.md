@@ -131,7 +131,9 @@ Browse detailed pages, screenshots, and technical information to choose the best
 <a href="{{ page.url }}" class="desktop-card">
     <div class="desktop-card-media">
     {% if page.logo %}
-      <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title }} logo" loading="lazy">
+      <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title }} logo" loading="lazy"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+      <div class="desktop-card-fallback" aria-hidden="true" style="display:none">DE</div>
     {% else %}
       <div class="desktop-card-fallback" aria-hidden="true">DE</div>
     {% endif %}
@@ -153,7 +155,9 @@ Browse detailed pages, screenshots, and technical information to choose the best
 <a href="{{ page.url }}" class="desktop-card">
     <div class="desktop-card-media">
     {% if page.logo %}
-      <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title }} logo" loading="lazy">
+      <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title }} logo" loading="lazy"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+      <div class="desktop-card-fallback" aria-hidden="true" style="display:none">WM</div>
     {% else %}
       <div class="desktop-card-fallback" aria-hidden="true">WM</div>
     {% endif %}

@@ -153,7 +153,9 @@ seo:
             <a href="{{ page.url }}" class="distribution-card">
                 <div class="distribution-card-media">
                     {% if page.logo %}
-                    <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title }} logo" loading="lazy">
+                    <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title }} logo" loading="lazy"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="distribution-card-fallback" aria-hidden="true" style="display:none">OS</div>
                     {% else %}
                     <div class="distribution-card-fallback" aria-hidden="true">OS</div>
                     {% endif %}
@@ -174,7 +176,9 @@ seo:
             <a href="{{ page.url }}" class="distribution-card">
                 <div class="distribution-card-media">
                     {% if page.logo %}
-                    <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title }} logo" loading="lazy">
+                    <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title }} logo" loading="lazy"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="distribution-card-fallback" aria-hidden="true" style="display:none">BSD</div>
                     {% else %}
                     <div class="distribution-card-fallback" aria-hidden="true">BSD</div>
                     {% endif %}
@@ -195,7 +199,9 @@ seo:
             <a href="{{ page.url }}" class="distribution-card">
                 <div class="distribution-card-media">
                     {% if page.logo %}
-                    <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title }} logo" loading="lazy">
+                    <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title }} logo" loading="lazy"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="distribution-card-fallback" aria-hidden="true" style="display:none">OS</div>
                     {% else %}
                     <div class="distribution-card-fallback" aria-hidden="true">OS</div>
                     {% endif %}
