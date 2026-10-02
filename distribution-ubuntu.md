@@ -14,6 +14,7 @@ base : [debian]
 description : "Ubuntu Linux is a popular Debian-based distribution developed by Canonical. Learn about its features, editions, releases, and why it is widely used across desktop, server, and cloud environments."
 
 releases:
+  Ubuntu 26.10 Stonking Stingray BETA: /ubuntu-26-10-beta-released/
   Ubuntu 26.04 Resolute Raccoon: /ubuntu-26-04-resolute-raccoon-release/
   Ubuntu 25.10 Questin Quokka: /ubuntu-25-10-questing-quokka-release/
   Ubuntu 25.04 Plucky Puffin: /ubuntu-25-04-plucky-puffin-flavors-release/
