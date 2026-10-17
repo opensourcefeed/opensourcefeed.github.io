@@ -5,36 +5,107 @@
 <html lang="en">
 
 <head>
-  <title>Word Plant - Find the word and bloom the plant</title>
   <meta charset="UTF-8">
-  <meta name="description"
-    CONTENT="Cultivate your vocabulary with Word Plant, a unique word puzzle game inspired by Hangman. Grow your virtual plant by solving daily word challenges and enjoy unrestricted practice mode. Learn word meanings for better language comprehension. Play Word Plant today!">
-  <meta name="title" content="Word Plant - Find the word and bloom the plant" />
-  <meta name="image" content="https://www.opensourcefeed.org/word-plant/preview.jpg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#181a1b">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Word Plant – A Hangman-Style Word Game Without the Gallows</title>
+  <!-- This page introduces Word Plant as a whole. The daily and practice
+       pages (/puzzles/word-plant/, /puzzles/word-plant-practice/) cover
+       playing each mode, with their own How to play and FAQ: keep this text
+       from repeating theirs, so the three don't compete in search. -->
+  <meta name="description" content="A free word game in the spirit of Hangman, minus the gallows: each letter you find helps a plant bloom. Play the day's word with everyone, or practise freely.">
+  <link rel="canonical" href="https://www.opensourcefeed.org/word-plant/">
+  <meta name="theme-color" content="#f4efe2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1712" media="(prefers-color-scheme: dark)">
   <link rel="icon" type="image/png" href="logo192.png">
   <link href="main.css" rel="stylesheet">
 
-  <!-- Open Graph tags-->
-  <meta property="og:title" content="Word Plant - Find the word and bloom the plant">
-  <meta property="og:site_name" content="Word Plant">
-  <meta property="og:url" content="https://www.opensourcefeed.org/word-plant/">
-  <meta property="og:description"
-    content="Cultivate your vocabulary with Word Plant, a unique word puzzle game inspired by Hangman. Grow your virtual plant by solving daily word challenges and enjoy unrestricted practice mode. Learn word meanings for better language comprehension. Play Word Plant today!">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://www.opensourcefeed.org/word-plant/preview.jpg">
-  <!-- End of open graph tags-->
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
+  <meta property="og:site_name" content="OpenSourceFeed">
+  <meta property="og:url" content="https://www.opensourcefeed.org/word-plant/">
+  <meta property="og:title" content="Word Plant – Hangman Without the Gallows">
+  <meta property="og:description" content="Hangman without the gallows: find the word letter by letter and watch a plant bloom. Daily and practice modes, free in your browser.">
+  <meta property="og:image" content="https://www.opensourcefeed.org/word-plant/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Word Plant: a potted tree in bloom beside the words Daily and Practice">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@opensourcefeed">
-  <meta name="twitter:title" content="Word Plant - Find the word and bloom the plant">
-  <meta name="twitter:description"
-    content="Cultivate your vocabulary with Word Plant, a unique word puzzle game inspired by Hangman. Grow your virtual plant by solving daily word challenges and enjoy unrestricted practice mode. Learn word meanings for better language comprehension. Play Word Plant today!">
-  <meta name="twitter:image" content="https://www.opensourcefeed.org/word-plant/preview.jpg">
+  <meta name="twitter:title" content="Word Plant – Hangman Without the Gallows">
+  <meta name="twitter:description" content="Hangman without the gallows: find the word letter by letter and watch a plant bloom. Daily and practice modes, free in your browser.">
+  <meta name="twitter:image" content="https://www.opensourcefeed.org/word-plant/og-image.png">
+  <meta name="twitter:image:alt" content="Word Plant: a potted tree in bloom beside the words Daily and Practice">
 
-  <!-- End of Twitter Card-->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "VideoGame",
+        "@id": "https://www.opensourcefeed.org/word-plant/#game",
+        "name": "Word Plant",
+        "description": "A word-guessing game in the spirit of Hangman. Instead of a gallows, a plant grows as letters are found and blooms when the word is complete. It has a daily mode with one shared word and an unlimited practice mode, and shows the meaning of each word.",
+        "url": "https://www.opensourcefeed.org/word-plant/",
+        "image": "https://www.opensourcefeed.org/word-plant/og-image.png",
+        "inLanguage": "en",
+        "genre": [
+          "Puzzle",
+          "Word game"
+        ],
+        "gamePlatform": "Web browser",
+        "playMode": "SinglePlayer",
+        "isAccessibleForFree": true,
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "OpenSourceFeed",
+          "url": "https://www.opensourcefeed.org/"
+        },
+        "hasPart": [
+          {
+            "@type": "VideoGame",
+            "@id": "https://www.opensourcefeed.org/puzzles/word-plant/#game",
+            "name": "Word Plant Daily",
+            "url": "https://www.opensourcefeed.org/puzzles/word-plant/"
+          },
+          {
+            "@type": "VideoGame",
+            "@id": "https://www.opensourcefeed.org/puzzles/word-plant-practice/#game",
+            "name": "Word Plant Practice",
+            "url": "https://www.opensourcefeed.org/puzzles/word-plant-practice/"
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.opensourcefeed.org/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Puzzles",
+            "item": "https://www.opensourcefeed.org/puzzles/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Word Plant",
+            "item": "https://www.opensourcefeed.org/word-plant/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 <!-- The shared boot loader isn't shown when this page opens (it is plain
      HTML, ready at once). It covers the page when a player leaves for a
      game, whose own loader then takes over. Its background matches the
@@ -274,44 +345,68 @@
 
 <body class="common-bg">
   <div class="page">
-    <div class="menu-container">
-      <div class="logo-section">
+    <main class="menu-container">
+      <header class="logo-section">
         <h1 class="logo">Word Plant</h1>
-      </div>
+        <p class="tagline">Hangman without the gallows: find the word and a plant blooms.</p>
+      </header>
       <div class="menu-section">
-        <p>Experience the digital game sensation, Word Plant! This game draws inspiration from the classic Hangman
-          puzzle, but instead of the traditional hanging scenario, you plant a seed and watch it grow as you uncover the
-          word. When the word is completely revealed, the plant blossoms into a beautiful flower.</p>
-        <p>Play the game and nurture your vocabulary skills!</p>
+        <section aria-labelledby="what">
+          <h2 id="what">What is Word Plant?</h2>
+          <p>Word Plant takes the classic letter-guessing game and swaps the gallows for a seedling. Each letter you
+            get right feeds it. Each one you get wrong costs it a leaf. Reveal the whole word and the plant flowers.</p>
+          <p>It's free, runs in any browser on your phone, tablet or computer, and needs no account or download.</p>
+        </section>
 
-        <h2>Game Modes</h2>
-        <p>Word Plant offers two exciting modes:</p>
-        <ul>
-          <li><strong>Daily Mode:</strong> Discover a new word every day and see how your garden flourishes.</li>
-          <li><strong>Practice Mode:</strong> Play the puzzle without any limits and enhance your word-guessing
-            abilities.</li>
-        </ul>
-        <h2>Enhance Your Learning</h2>
-        <p>After completing each game, you'll find the meaning of the word displayed on the result screen. It's not just
-          a game; it's a learning opportunity!</p>
-        <p>Choose a game play mode to proceed.</p>
-        <div class="menu">
-          <a href="https://www.opensourcefeed.org/puzzles/word-plant/">Daily
-          </a>
+        <section aria-labelledby="modes">
+          <h2 id="modes">Choose how to play</h2>
+          <div class="menu">
+            <a href="https://www.opensourcefeed.org/puzzles/word-plant/">Play the daily word
+              <p>One word for everyone, every day. Keep a streak, fill a garden with the words you solve and catch up
+                on days you missed.</p>
+            </a>
+            <a href="https://www.opensourcefeed.org/puzzles/word-plant-practice/">Play practice games
+              <p>As many rounds as you want. Choose short or long words, and try hard mode when it gets easy.</p>
+            </a>
+          </div>
+        </section>
 
+        <section aria-labelledby="why">
+          <h2 id="why">Why it's different</h2>
+          <ul>
+            <li><strong>Kinder than the classroom classic.</strong> Nothing grim on screen, just a plant that thrives
+              or wilts with your guesses.</li>
+            <li><strong>Quick to play.</strong> A round takes a minute or two, so it fits a coffee break.</li>
+            <li><strong>Calm by design.</strong> Soft colours, a light and dark theme, and gentle sounds you can
+              switch off.</li>
+            <li><strong>Results you can share.</strong> Post how your round went without giving the word away.</li>
+          </ul>
+        </section>
 
-          <a href="https://www.opensourcefeed.org/puzzles/word-plant-practice/">Practice
-          </a>
-          <a href="https://www.opensourcefeed.org/puzzles/">Other Games
-          </a>
-        </div>
-        <div class="banner">
-          <p class="hint">Also from us on Android: Decordle, ten words at once.</p>
-          <a
-            href='https://play.google.com/store/apps/details?id=org.tahrik.wordle&utm_source=web&utm_campaign=bottom-banner&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
-              width="270" height="104" alt='Get Decordle on Google Play'
-              src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' /></a>
-        </div>
+        <section aria-labelledby="learn">
+          <h2 id="learn">Learn a word every game</h2>
+          <p>When a round ends, Word Plant shows what the word means, sense by sense, with its part of speech. Over
+            weeks of play that adds up to a steady trickle of new vocabulary, which makes it a good fit for word
+            lovers, classrooms and anyone learning English.</p>
+        </section>
+
+        <section aria-labelledby="more">
+          <h2 id="more">More word games</h2>
+          <ul class="more-games">
+            <li><a href="https://www.opensourcefeed.org/puzzles/decordle/">Decordle</a>: ten words at once</li>
+            <li><a href="https://www.opensourcefeed.org/puzzles/dordle/">Dordle</a>: two words at once</li>
+            <li><a href="https://www.opensourcefeed.org/puzzles/wordle-unlimited/">Wordle Unlimited</a></li>
+            <li><a href="https://www.opensourcefeed.org/puzzles/word-tail/">Word Tail</a>: word chains</li>
+            <li><a href="https://www.opensourcefeed.org/puzzles/">All puzzles</a></li>
+          </ul>
+          <div class="banner">
+            <p class="hint">Decordle is on Android too:</p>
+            <a
+              href="https://play.google.com/store/apps/details?id=org.tahrik.wordle&amp;utm_source=web&amp;utm_campaign=word-plant-landing"><img
+                width="270" height="104" alt="Get Decordle on Google Play"
+                src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"></a>
+          </div>
+        </section>
 
         <div class="ads">
           <script async
@@ -324,9 +419,8 @@
             (adsbygoogle = window.adsbygoogle || []).push({});
           </script>
         </div>
-
       </div>
-    </div>
+    </main>
   </div>
   <footer>
     © Tahrik Studio 2015–{{ site.time | date: "%Y" }}
