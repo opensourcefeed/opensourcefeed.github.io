@@ -2,7 +2,7 @@ body {
     margin: 0
 }
 
-#root {
+.page {
     padding: 1rem;
 }
 
@@ -74,12 +74,6 @@ p {
     text-align: center;
 }
 
-.menu a {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: #dde6dd;
-}
-
 .menu a p {
     font-size: .9rem;
     padding: 0;
@@ -90,6 +84,8 @@ p {
 }
 
 .menu a {
+    font-size: 1.5rem;
+    text-transform: uppercase;
     color: #ddd;
     text-decoration: none;
     background-color: #555;
@@ -106,7 +102,7 @@ p {
 }
 
 .banner img {
-    width: 270x;
+    width: 270px;
     height: 104px;
 }
 
@@ -169,81 +165,4 @@ html {
     height: 100%;
     min-height: 100vh;
     padding: 0;
-    -webkit-user-select: none;
-    user-select: none;
 }
-
-/** Loader **/
-.Loader_Loader__JtD0o {
-    align-items: center;
-    background-color: #000c;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 101;
-    display: none;
-}
-
-.Loader_Loader__JtD0o p {
-    color: #fff;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    text-align: center;
-}
-
-.Loader_Loader__JtD0o .Loader_loader__pvYRd {
-    -webkit-animation: rotation 2s linear infinite;
-    animation: rotation 2s linear infinite;
-    border-color: #fff;
-    border-radius: 50%;
-    border-style: solid solid dotted dotted;
-    border-width: 3px;
-    box-sizing: border-box;
-    display: inline-block;
-    height: 48px;
-    position: relative;
-    width: 48px;
-}
-
-.Loader_Loader__JtD0o .Loader_loader__pvYRd:after {
-    -webkit-animation: rotationBack 1s linear infinite;
-    animation: rotationBack 1s linear infinite;
-    border: 3px #ff3d00;
-    border-radius: 50%;
-    border-style: solid solid dotted;
-    bottom: 0;
-    box-sizing: border-box;
-    content: "";
-    height: 24px;
-    left: 0;
-    margin: auto;
-    position: absolute;
-    right: 0;
-    top: 0;
-    -webkit-transform-origin: center center;
-    transform-origin: center center;
-    width: 24px;
-}
-
-@keyframes rotation {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  } 
-  @keyframes rotationBack {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(-360deg);
-    }
-  } 
-/** Loader ends **/

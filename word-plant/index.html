@@ -1,3 +1,6 @@
+---
+# Front matter so Jekyll fills in the footer year
+---
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +14,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#181a1b">
   <link rel="icon" type="image/png" href="logo192.png">
-  <link rel="manifest" href="manifest.json">
   <link href="main.css" rel="stylesheet">
 
   <!-- Open Graph tags-->
@@ -26,18 +28,252 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@">
+  <meta name="twitter:site" content="@opensourcefeed">
   <meta name="twitter:title" content="Word Plant - Find the word and bloom the plant">
   <meta name="twitter:description"
     content="Cultivate your vocabulary with Word Plant, a unique word puzzle game inspired by Hangman. Grow your virtual plant by solving daily word challenges and enjoy unrestricted practice mode. Learn word meanings for better language comprehension. Play Word Plant today!">
   <meta name="twitter:image" content="https://www.opensourcefeed.org/word-plant/preview.jpg">
-  <meta name="propeller" content="ea85c7b18d336448808413719f5491f2">
 
   <!-- End of Twitter Card-->
+<!-- The shared boot loader isn't shown when this page opens (it is plain
+     HTML, ready at once). It covers the page when a player leaves for a
+     game, whose own loader then takes over. Its background matches the
+     game's. -->
+<meta name="boot-loader-word" content="WORD PLANT">
+<style>
+  :root {
+    --boot-loader-bg: #f4efe2;
+  }
+  :root.dark {
+    --boot-loader-bg: #0f1712;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not(.light) {
+      --boot-loader-bg: #0f1712;
+    }
+  }
+</style>
+<!-- boot-loader:head -->
+<!-- Shared boot loader: edit shared/boot-loader/boot-loader.html, then run shared/boot-loader/install.mjs -->
+<style>
+  /* Shown only while JavaScript is loading the game; without JavaScript the
+     page shows its static content as before */
+  html.boot-loading,
+  html.boot-loading body {
+    overflow: hidden;
+  }
+
+  .boot-loader {
+    display: none;
+  }
+
+  /* Colours follow the game palette in each theme */
+  html.boot-loading .boot-loader {
+    --boot-loader-surface: var(--boot-loader-bg, #ffffff);
+    --boot-loader-border: #d6dbe1;
+    --boot-loader-fill: #6bbf6e;
+    --boot-loader-ink: #111827;
+    --boot-loader-glow: rgba(56, 142, 60, 0.28);
+    position: fixed;
+    inset: 0;
+    z-index: 2147483000;
+    display: grid;
+    place-items: center;
+    background: var(--boot-loader-surface);
+    transition: opacity 0.35s ease;
+  }
+
+  html.boot-loading.dark .boot-loader {
+    --boot-loader-surface: var(--boot-loader-bg, #0f141b);
+    --boot-loader-border: #2f3a48;
+    --boot-loader-fill: #3c8c45;
+    --boot-loader-ink: #ffffff;
+    --boot-loader-glow: rgba(60, 140, 69, 0.35);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    html.boot-loading:not(.light) .boot-loader {
+      --boot-loader-surface: var(--boot-loader-bg, #0f141b);
+      --boot-loader-border: #2f3a48;
+      --boot-loader-fill: #3c8c45;
+      --boot-loader-ink: #ffffff;
+      --boot-loader-glow: rgba(60, 140, 69, 0.35);
+    }
+  }
+
+  html.boot-loading.colorblind .boot-loader {
+    --boot-loader-fill: #f5793a;
+    --boot-loader-glow: rgba(245, 121, 58, 0.3);
+  }
+
+  html.boot-loading.colorblind.dark .boot-loader {
+    --boot-loader-fill: #c8541f;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    html.boot-loading.colorblind:not(.light) .boot-loader {
+      --boot-loader-fill: #c8541f;
+    }
+  }
+
+  html.boot-loading .boot-loader.boot-loader--hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  /* The background covers the page at once; the tiles only appear if
+     loading takes a moment, so fast loads never flash */
+  .boot-loader__tiles {
+    --boot-loader-gap: clamp(4px, 1.2vw, 7px);
+    --boot-loader-tile: min(52px, calc((88vw - (var(--boot-loader-count, 6) - 1) * var(--boot-loader-gap)) / var(--boot-loader-count, 6)));
+    display: flex;
+    gap: var(--boot-loader-gap);
+    opacity: 0;
+    perspective: 600px;
+    animation: boot-loader-appear 0.4s ease-out 0.25s forwards;
+    transition: transform 0.35s ease;
+  }
+
+  /* Once hiding starts, tiles that have not appeared yet stay hidden */
+  .boot-loader--hidden .boot-loader__tiles {
+    transform: scale(0.96);
+    animation-play-state: paused;
+  }
+
+  /* Each tile flips to reveal its letter, lands with a small lift, holds,
+     then clears for the next pass. Delays make it a wave. */
+  /* A space between words: half a tile wide */
+  .boot-loader__space {
+    flex: none;
+    width: calc(var(--boot-loader-tile) * 0.5);
+  }
+
+  .boot-loader__tiles span {
+    display: grid;
+    place-items: center;
+    width: var(--boot-loader-tile);
+    height: var(--boot-loader-tile);
+    box-sizing: border-box;
+    border: 2px solid var(--boot-loader-border);
+    border-radius: calc(var(--boot-loader-tile) * 0.12);
+    color: transparent;
+    font: 700 calc(var(--boot-loader-tile) * 0.52)/1 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    text-transform: uppercase;
+    animation: boot-loader-reveal 2.8s cubic-bezier(0.45, 0, 0.25, 1) infinite;
+    /* The first pass starts as the tiles fade in (timings mirrored in the
+       script below) */
+    animation-delay: calc(0.25s + var(--boot-loader-index, 0) * 0.1s);
+  }
+
+  @keyframes boot-loader-appear {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes boot-loader-reveal {
+    0% {
+      transform: rotateX(0);
+      background: transparent;
+      border-color: var(--boot-loader-border);
+      color: transparent;
+      box-shadow: none;
+    }
+    9% {
+      transform: rotateX(90deg);
+      background: transparent;
+      border-color: var(--boot-loader-border);
+      color: transparent;
+    }
+    9.1% {
+      transform: rotateX(90deg);
+      background: var(--boot-loader-fill);
+      border-color: var(--boot-loader-fill);
+      color: var(--boot-loader-ink);
+    }
+    18% {
+      transform: rotateX(0) translateY(-3px);
+      background: var(--boot-loader-fill);
+      border-color: var(--boot-loader-fill);
+      color: var(--boot-loader-ink);
+      box-shadow: 0 10px 18px -10px var(--boot-loader-glow);
+    }
+    24%, 66% {
+      transform: rotateX(0) translateY(0);
+      background: var(--boot-loader-fill);
+      border-color: var(--boot-loader-fill);
+      color: var(--boot-loader-ink);
+      box-shadow: 0 6px 14px -10px var(--boot-loader-glow);
+    }
+    80%, 100% {
+      transform: rotateX(0);
+      background: transparent;
+      border-color: var(--boot-loader-border);
+      color: transparent;
+      box-shadow: none;
+    }
+  }
+
+  /* Reduced motion: the word shows filled in and breathes gently */
+  @media (prefers-reduced-motion: reduce) {
+    .boot-loader__tiles {
+      animation-duration: 0.01s;
+    }
+
+    .boot-loader__tiles span {
+      background: var(--boot-loader-fill);
+      border-color: var(--boot-loader-fill);
+      color: var(--boot-loader-ink);
+      animation: boot-loader-breathe 2s ease-in-out infinite;
+      animation-delay: 0s;
+    }
+
+    @keyframes boot-loader-breathe {
+      50% {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  .boot-loader__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+</style>
+<script>
+  // Applies the saved theme before anything renders, and marks the page as
+  // loading so the loader shows instead of the static content
+  (function () {
+    var html = document.documentElement;
+    html.classList.add('boot-loading');
+    try {
+      var mode = localStorage.getItem('color-scheme');
+      if (mode !== 'light' && mode !== 'dark') {
+        mode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      html.classList.add(mode);
+      if (localStorage.getItem('high-contrast') === 'true') html.classList.add('colorblind');
+    } catch (e) {}
+  })();
+</script>
+<!-- /boot-loader:head -->
+<script>
+  // Don't cover this page while it opens
+  document.documentElement.classList.remove('boot-loading');
+</script>
 </head>
 
 <body class="common-bg">
-  <div id="root">
+  <div class="page">
     <div class="menu-container">
       <div class="logo-section">
         <h1 class="logo">Word Plant</h1>
@@ -66,13 +302,14 @@
 
           <a href="https://www.opensourcefeed.org/puzzles/word-plant-practice/">Practice
           </a>
-          <a href="https://www.opensourcefeed.org/puzzles/jotto-digital/">Other Games
+          <a href="https://www.opensourcefeed.org/puzzles/">Other Games
           </a>
         </div>
         <div class="banner">
+          <p class="hint">Also from us on Android: Decordle, ten words at once.</p>
           <a
             href='https://play.google.com/store/apps/details?id=org.tahrik.wordle&utm_source=web&utm_campaign=bottom-banner&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
-              width="270" height="104" alt='Get it on Google Play'
+              width="270" height="104" alt='Get Decordle on Google Play'
               src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' /></a>
         </div>
 
@@ -89,39 +326,165 @@
         </div>
 
       </div>
-      <div class="Loader_Loader__JtD0o" id="loader">
-        <div class="Loader_loader__pvYRd"></div>
-        <p>Loading ...</p>
-      </div>
     </div>
   </div>
   <footer>
-    © Tahrik Studio 2015 - 2025
+    © Tahrik Studio 2015–{{ site.time | date: "%Y" }}
   </footer>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140248750-1"></script>
+  <!-- Google Analytics 4, as on the rest of the site -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KD5NJYRYD3"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
-    gtag('config', 'UA-140248750-1');
+    gtag('config', 'G-KD5NJYRYD3');
   </script>
   <!-- Clarity tracking code for https://www.opensourcefeed.org/ -->
   <script>    (function (c, l, a, r, i, t, y) { c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) }; t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i; y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y); })(window, document, "clarity", "script", "57t32bv59c");</script>
-  <script>
-    const links = document.querySelectorAll('a');
-    for (const link of links) {
-      link.onclick = () => {
-        document.getElementById('loader').style.display = 'flex';
+
+<!-- boot-loader:body -->
+<!-- Shared boot loader: edit shared/boot-loader/boot-loader.html, then run shared/boot-loader/install.mjs -->
+<div class="boot-loader" id="boot-loader" role="status">
+  <div class="boot-loader__tiles" aria-hidden="true"></div>
+  <span class="boot-loader__label">Loading…</span>
+</div>
+<script>
+  (function () {
+    var html = document.documentElement;
+    var loader = document.getElementById('boot-loader');
+    var held = false;
+    var done = false;
+
+    // The tiles spell the game's name: <meta name="boot-loader-word">, or the
+    // first word of the page title, e.g. "Dordle Unlimited – …" gives DORDLE.
+    // The meta may hold more than one word ("WORD PLANT"): each space leaves
+    // a half-tile gap. Up to 10 letters are shown.
+    var meta = document.querySelector('meta[name="boot-loader-word"]');
+    var name = ((meta && meta.content) || document.title.split(/\s+/)[0] || 'WORDLE')
+        .replace(/[^a-z ]/gi, '').replace(/ +/g, ' ').trim().toUpperCase() || 'WORDLE';
+    var tiles = loader.querySelector('.boot-loader__tiles');
+    var word = '';
+    var spaces = 0;
+    for (var i = 0; i < name.length && word.length < 10; i++) {
+      if (name[i] === ' ') {
+        var space = document.createElement('i');
+        space.className = 'boot-loader__space';
+        tiles.appendChild(space);
+        spaces++;
+        continue;
+      }
+      var tile = document.createElement('span');
+      tile.textContent = name[i];
+      tile.style.setProperty('--boot-loader-index', word.length);
+      tiles.appendChild(tile);
+      word += name[i];
+    }
+    tiles.style.setProperty('--boot-loader-count', word.length + spaces / 2);
+    loader.querySelector('.boot-loader__label').textContent = 'Loading '
+        + name.toLowerCase().replace(/\b[a-z]/g, function (c) { return c.toUpperCase(); }) + '…';
+
+    // Show late, then show long. The tiles fade in after TILES_DELAY ms. If
+    // the game is ready before that, the loader goes at once and no tiles
+    // are seen. Once they have started to show, the loader stays until the
+    // whole word has been revealed and held, so it never cuts off mid-flip.
+    // Timings mirror the CSS: 2.8s cycle, tiles land at 18% of it, 0.1s apart.
+    var TILES_DELAY = 250;
+    var started = Date.now();
+    var wordRevealed = TILES_DELAY + (word.length - 1) * 100 + 0.18 * 2800 + 300;
+
+    function requestHide() {
+      var elapsed = Date.now() - started;
+      if (elapsed < TILES_DELAY) {
+        hide();
+      } else {
+        setTimeout(hide, Math.max(0, wordRevealed - elapsed));
       }
     }
 
-    window.onpageshow = () => {
-      document.getElementById('loader').style.display = 'none';
-    }
-  </script>
+    var removeTimer;
+    var shownForLeaving = false;
 
+    function hide() {
+      if (done) return;
+      done = true;
+      loader.classList.add('boot-loader--hidden');
+      removeTimer = setTimeout(function () {
+        html.classList.remove('boot-loading');
+        if (loader.parentNode) loader.parentNode.removeChild(loader);
+      }, 380);
+    }
+
+    // Covers the page again, e.g. right before moving to another page (the
+    // next page's own loader takes over). The tiles start afresh.
+    function show() {
+      clearTimeout(removeTimer);
+      done = false;
+      started = Date.now();
+      var fresh = tiles.cloneNode(true);
+      tiles.parentNode.replaceChild(fresh, tiles);
+      tiles = fresh;
+      loader.classList.remove('boot-loader--hidden');
+      html.classList.add('boot-loading');
+      if (!loader.parentNode) document.body.appendChild(loader);
+      shownForLeaving = true;
+    }
+
+    // Back/forward can restore this page from the browser's cache with the
+    // loader still showing: take it away
+    window.addEventListener('pageshow', function (event) {
+      if (event.persisted && shownForLeaving) {
+        shownForLeaving = false;
+        hide();
+      }
+    });
+
+    // A game that renders before its data is ready calls hold() before
+    // rendering and hide() when it is ready. show() covers the page again,
+    // for example when switching to another page of the game.
+    window.bootLoader = {
+      hold: function () { held = true; },
+      hide: function () {
+        // Wait a frame so the game has painted underneath
+        requestAnimationFrame(function () { requestAnimationFrame(requestHide); });
+      },
+      show: show,
+    };
+
+    // This script sits right after #root, so it watches before the game's
+    // scripts (deferred or modules) run and render into it
+    var root = document.getElementById('root');
+    if (root && window.MutationObserver) {
+      var observer = new MutationObserver(function () {
+        if (!root.firstElementChild) return;
+        observer.disconnect();
+        if (!held) window.bootLoader.hide();
+      });
+      observer.observe(root, {childList: true});
+    } else {
+      window.addEventListener('load', requestHide);
+    }
+
+    // Never leave the page covered if the game fails to load
+    setTimeout(hide, 8000);
+  })();
+</script>
+<!-- /boot-loader:body -->
+<script>
+  // Cover the page with the game's loader when opening Daily or Practice in
+  // this tab; the game's own loader takes over when it opens
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('a[href]');
+    if (!link || !window.bootLoader || event.defaultPrevented || event.button !== 0
+        || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || link.target) return;
+    var url = new URL(link.href, location.href);
+    if (url.origin !== location.origin || !/^\/puzzles\/word-plant(-practice)?\/$/.test(url.pathname)) return;
+    event.preventDefault();
+    window.bootLoader.show();
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () { location.assign(url.href); });
+    });
+  });
+</script>
 </body>
 
 </html>
