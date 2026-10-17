@@ -16,7 +16,9 @@
   <link rel="canonical" href="https://www.opensourcefeed.org/word-plant/">
   <meta name="theme-color" content="#f4efe2" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0f1712" media="(prefers-color-scheme: dark)">
-  <link rel="icon" type="image/png" href="logo192.png">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="logo192.png">
+  <link rel="preload" href="assets/nunito.woff2" as="font" type="font/woff2" crossorigin>
   <link href="main.css" rel="stylesheet">
 
   <meta property="og:type" content="website">
@@ -343,87 +345,172 @@
 </script>
 </head>
 
-<body class="common-bg">
-  <div class="page">
-    <main class="menu-container">
-      <header class="logo-section">
-        <h1 class="logo">Word Plant</h1>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="https://www.opensourcefeed.org/puzzles/" aria-label="All puzzles">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21V11" /><path d="M12 13c-4 0-6.5-2.5-6.5-6.5 4 0 6.5 2.5 6.5 6.5Z" /><path d="M12 11c0-3.5 2-6 5.5-6 0 3.5-2 6-5.5 6Z" /></svg>
+        <span>OpenSourceFeed Puzzles</span>
+      </a>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" hidden>
+        <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" /></svg>
+        <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" /></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="title">
+      <div class="hero-text">
+        <p class="kicker">A free word game</p>
+        <h1 id="title">Word Plant</h1>
         <p class="tagline">Hangman without the gallows: find the word and a plant blooms.</p>
-      </header>
-      <div class="menu-section">
-        <section aria-labelledby="what">
+        <div class="cta">
+          <a class="btn btn-primary" href="https://www.opensourcefeed.org/puzzles/word-plant/">Play the daily word</a>
+          <a class="btn btn-secondary" href="https://www.opensourcefeed.org/puzzles/word-plant-practice/">Play practice games</a>
+        </div>
+        <p class="cta-note">Free, in your browser. No account, no download.</p>
+      </div>
+      <div class="hero-art">
+        <span class="leaf leaf-1" aria-hidden="true"></span>
+        <span class="leaf leaf-2" aria-hidden="true"></span>
+        <span class="leaf leaf-3" aria-hidden="true"></span>
+        <svg class="hero-tree" viewBox="0 0 150 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A potted tree in bloom"><g><path d="M 55 195 L 95 195 Q 105 195 100 160 L 50 160 Q 45 195 55 195 Z" fill="#8B4513" stroke="#5D2E0C" stroke-width="2"></path><rect x="43" y="154" width="64" height="8" rx="3" fill="#A0522D" stroke="#5D2E0C" stroke-width="1"></rect><ellipse cx="75" cy="160" rx="25" ry="8" fill="#3E2723"></ellipse></g><g class="crown"><g><rect x="70" y="65" width="10" height="90" rx="3" fill="#5D4037"></rect><line x1="73" y1="75" x2="73" y2="145" stroke="#4E342E" stroke-width="1" opacity="0.5"></line></g><g><line x1="75" y1="101" x2="45" y2="83" stroke="#5D4037" stroke-width="4" stroke-linecap="round"></line><line x1="75" y1="110" x2="105" y2="87.5" stroke="#5D4037" stroke-width="3.5" stroke-linecap="round"></line><line x1="75" y1="83" x2="55" y2="69.5" stroke="#5D4037" stroke-width="3" stroke-linecap="round"></line></g><g><ellipse cx="87" cy="63" rx="12" ry="7.19" fill="#388E3C" style="transform-origin: 87px 70.2px; "></ellipse><ellipse cx="85.60" cy="70.95" rx="16" ry="9.6" fill="#388E3C" style="transform-origin: 85.60px 80.55px; "></ellipse><ellipse cx="75" cy="76.5" rx="20" ry="12" fill="#388E3C" style="transform-origin: 75px 88.5px; "></ellipse><ellipse cx="66.51" cy="69.36" rx="12" ry="7.19" fill="#388E3C" style="transform-origin: 66.51px 76.56px; "></ellipse><ellipse cx="60" cy="63" rx="16" ry="9.6" fill="#388E3C" style="transform-origin: 60px 72.6px; "></ellipse><ellipse cx="62.27" cy="53.45" rx="20" ry="12" fill="#388E3C" style="transform-origin: 62.27px 65.45px; "></ellipse><ellipse cx="75" cy="54" rx="12" ry="7.19" fill="#388E3C" style="transform-origin: 75px 61.2px; "></ellipse><ellipse cx="85.60" cy="55.04" rx="16" ry="9.6" fill="#388E3C" style="transform-origin: 85.60px 64.64px; "></ellipse><ellipse cx="108.43" cy="73.91" rx="14" ry="9" fill="#43A047" style="transform-origin: 108.43px 82.91px; "></ellipse><ellipse cx="82.76" cy="87.50" rx="14" ry="9" fill="#43A047" style="transform-origin: 82.76px 96.50px; "></ellipse><ellipse cx="49.32" cy="81.59" rx="14" ry="9" fill="#43A047" style="transform-origin: 49.32px 90.59px; "></ellipse><ellipse cx="41.56" cy="62.08" rx="14" ry="9" fill="#43A047" style="transform-origin: 41.56px 71.08px; "></ellipse><ellipse cx="67.23" cy="48.49" rx="14" ry="9" fill="#43A047" style="transform-origin: 67.23px 57.49px; "></ellipse><ellipse cx="100.67" cy="54.40" rx="14" ry="9" fill="#43A047" style="transform-origin: 100.67px 63.40px; "></ellipse><ellipse cx="75" cy="63" rx="25" ry="17.5" fill="#2E7D32" opacity="0.5"></ellipse></g><g style="transform-origin: 101.32px 70.19px;"><ellipse cx="107.32" cy="70.19" rx="4" ry="6" fill="#FF6F91" style="transform-origin: 101.32px 70.19px;"></ellipse><ellipse cx="103.18" cy="75.89" rx="4" ry="6" fill="#FF6F91" style="transform-origin: 101.32px 70.19px;"></ellipse><ellipse cx="96.47" cy="73.71" rx="4" ry="6" fill="#FF6F91" style="transform-origin: 101.32px 70.19px;"></ellipse><ellipse cx="96.47" cy="66.66" rx="4" ry="6" fill="#FF6F91" style="transform-origin: 101.32px 70.19px;"></ellipse><ellipse cx="103.18" cy="64.48" rx="4" ry="6" fill="#FF6F91" style="transform-origin: 101.32px 70.19px;"></ellipse><circle cx="101.32" cy="70.19" r="3" fill="#FFD700"></circle></g><g style="transform-origin: 69.45px 77.74px;"><ellipse cx="75.45" cy="77.74" rx="4" ry="6" fill="#FF9671" style="transform-origin: 69.45px 77.74px;"></ellipse><ellipse cx="71.31" cy="83.44" rx="4" ry="6" fill="#FF9671" style="transform-origin: 69.45px 77.74px;"></ellipse><ellipse cx="64.60" cy="81.26" rx="4" ry="6" fill="#FF9671" style="transform-origin: 69.45px 77.74px;"></ellipse><ellipse cx="64.60" cy="74.21" rx="4" ry="6" fill="#FF9671" style="transform-origin: 69.45px 77.74px;"></ellipse><ellipse cx="71.31" cy="72.03" rx="4" ry="6" fill="#FF9671" style="transform-origin: 69.45px 77.74px;"></ellipse><circle cx="69.45" cy="77.74" r="3" fill="#FFD700"></circle></g><g style="transform-origin: 45.24px 64.91px;"><ellipse cx="51.24" cy="64.91" rx="4" ry="6" fill="#FFC75F" style="transform-origin: 45.24px 64.91px;"></ellipse><ellipse cx="47.10" cy="70.62" rx="4" ry="6" fill="#FFC75F" style="transform-origin: 45.24px 64.91px;"></ellipse><ellipse cx="40.39" cy="68.44" rx="4" ry="6" fill="#FFC75F" style="transform-origin: 45.24px 64.91px;"></ellipse><ellipse cx="40.39" cy="61.39" rx="4" ry="6" fill="#FFC75F" style="transform-origin: 45.24px 64.91px;"></ellipse><ellipse cx="47.10" cy="59.21" rx="4" ry="6" fill="#FFC75F" style="transform-origin: 45.24px 64.91px;"></ellipse><circle cx="45.24" cy="64.91" r="3" fill="#FFD700"></circle></g><g style="transform-origin: 62.15px 49.44px;"><ellipse cx="68.15" cy="49.44" rx="4" ry="6" fill="#F9F871" style="transform-origin: 62.15px 49.44px;"></ellipse><ellipse cx="64.00" cy="55.15" rx="4" ry="6" fill="#F9F871" style="transform-origin: 62.15px 49.44px;"></ellipse><ellipse cx="57.30" cy="52.97" rx="4" ry="6" fill="#F9F871" style="transform-origin: 62.15px 49.44px;"></ellipse><ellipse cx="57.30" cy="45.91" rx="4" ry="6" fill="#F9F871" style="transform-origin: 62.15px 49.44px;"></ellipse><ellipse cx="64.00" cy="43.73" rx="4" ry="6" fill="#F9F871" style="transform-origin: 62.15px 49.44px;"></ellipse><circle cx="62.15" cy="49.44" r="3" fill="#FFD700"></circle></g><g style="transform-origin: 96.81px 52.70px;"><ellipse cx="102.81" cy="52.70" rx="4" ry="6" fill="#D65DB1" style="transform-origin: 96.81px 52.70px;"></ellipse><ellipse cx="98.66" cy="58.40" rx="4" ry="6" fill="#D65DB1" style="transform-origin: 96.81px 52.70px;"></ellipse><ellipse cx="91.96" cy="56.22" rx="4" ry="6" fill="#D65DB1" style="transform-origin: 96.81px 52.70px;"></ellipse><ellipse cx="91.96" cy="49.17" rx="4" ry="6" fill="#D65DB1" style="transform-origin: 96.81px 52.70px;"></ellipse><ellipse cx="98.66" cy="46.99" rx="4" ry="6" fill="#D65DB1" style="transform-origin: 96.81px 52.70px;"></ellipse><circle cx="96.81" cy="52.70" r="3" fill="#FFD700"></circle></g></g></svg>
+      </div>
+    </section>
+
+    <section class="section wrap" aria-labelledby="what">
+      <div class="split">
+        <div class="prose">
           <h2 id="what">What is Word Plant?</h2>
           <p>Word Plant takes the classic letter-guessing game and swaps the gallows for a seedling. Each letter you
             get right feeds it. Each one you get wrong costs it a leaf. Reveal the whole word and the plant flowers.</p>
-          <p>It's free, runs in any browser on your phone, tablet or computer, and needs no account or download.</p>
-        </section>
+          <p>It's free and runs in any browser on your phone, tablet or computer.</p>
+          <ol class="steps" aria-label="How a round goes">
+            <li>
+              <span class="step-art tiles" aria-hidden="true"><i>W</i><i></i><i>R</i><i></i></span>
+              <span class="step-text">Pick a letter</span>
+            </li>
+            <li>
+              <span class="step-art" aria-hidden="true">
+                <svg viewBox="0 0 64 64"><path class="stem" d="M32 50V26" /><path class="leaf-fill" d="M32 34c-8 0-12-5-12-12 8 0 12 5 12 12Z" /><path class="leaf-fill" d="M32 30c0-7 4-11 11-11 0 7-4 11-11 11Z" /><path class="pot" d="M21 48h22l-3 11H24Z" /></svg>
+              </span>
+              <span class="step-text">Watch it grow</span>
+            </li>
+            <li>
+              <span class="step-art" aria-hidden="true">
+                <svg viewBox="0 0 64 64"><path class="stem" d="M32 50V18" /><path class="leaf-fill" d="M32 36c-8 0-12-5-12-12 8 0 12 5 12 12Z" /><path class="leaf-fill" d="M32 32c0-7 4-11 11-11 0 7-4 11-11 11Z" /><g class="flower"><circle cx="32" cy="9" r="5" /><circle cx="39" cy="14" r="5" /><circle cx="25" cy="14" r="5" /><circle cx="28" cy="21" r="5" /><circle cx="36" cy="21" r="5" /><circle class="flower-heart" cx="32" cy="16" r="3.5" /></g><path class="pot" d="M21 48h22l-3 11H24Z" /></svg>
+              </span>
+              <span class="step-text">See it bloom</span>
+            </li>
+          </ol>
+        </div>
+        <figure class="shot">
+          <img class="shot-light" src="assets/game-light.webp" width="540" height="997" loading="lazy" decoding="async"
+            alt="A Word Plant game in progress: four of five letters found, six leaves left and a young tree growing">
+          <img class="shot-dark" src="assets/game-dark.webp" width="540" height="997" loading="lazy" decoding="async"
+            alt="The same game in the dark theme">
+        </figure>
+      </div>
+    </section>
 
-        <section aria-labelledby="modes">
-          <h2 id="modes">Choose how to play</h2>
-          <div class="menu">
-            <a href="https://www.opensourcefeed.org/puzzles/word-plant/">Play the daily word
-              <p>One word for everyone, every day. Keep a streak, fill a garden with the words you solve and catch up
-                on days you missed.</p>
-            </a>
-            <a href="https://www.opensourcefeed.org/puzzles/word-plant-practice/">Play practice games
-              <p>As many rounds as you want. Choose short or long words, and try hard mode when it gets easy.</p>
-            </a>
-          </div>
-        </section>
+    <section class="section wrap" aria-labelledby="modes">
+      <h2 id="modes">Choose how to play</h2>
+      <div class="modes">
+        <a class="mode-card" href="https://www.opensourcefeed.org/puzzles/word-plant/">
+          <span class="mode-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="3" /><path d="M3.5 10h17M8 3v4M16 3v4" /><path d="M9 14.5l2 2 4-4" /></svg>
+          </span>
+          <span class="mode-name">Daily</span>
+          <span class="mode-line">One word for everyone, every day.</span>
+          <span class="mode-more">Keep a streak, fill a garden with the words you solve and catch up on days you
+            missed.</span>
+          <span class="mode-go">Play the daily word <span aria-hidden="true">→</span></span>
+        </a>
+        <a class="mode-card" href="https://www.opensourcefeed.org/puzzles/word-plant-practice/">
+          <span class="mode-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M18.5 12a6.5 6.5 0 1 1-2-4.7" /><path d="M17 3.5v4h-4" /></svg>
+          </span>
+          <span class="mode-name">Practice</span>
+          <span class="mode-line">As many rounds as you want.</span>
+          <span class="mode-more">Choose short or long words, and try hard mode when it gets easy.</span>
+          <span class="mode-go">Play practice games <span aria-hidden="true">→</span></span>
+        </a>
+      </div>
+    </section>
 
-        <section aria-labelledby="why">
-          <h2 id="why">Why it's different</h2>
-          <ul>
-            <li><strong>Kinder than the classroom classic.</strong> Nothing grim on screen, just a plant that thrives
-              or wilts with your guesses.</li>
-            <li><strong>Quick to play.</strong> A round takes a minute or two, so it fits a coffee break.</li>
-            <li><strong>Calm by design.</strong> Soft colours, a light and dark theme, and gentle sounds you can
-              switch off.</li>
-            <li><strong>Results you can share.</strong> Post how your round went without giving the word away.</li>
-          </ul>
-        </section>
+    <aside class="ad-slot wrap" aria-label="Advertisement">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6380671811722843"
+        crossorigin="anonymous"></script>
+      <!-- Word Plant Landing Banner -->
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6380671811722843" data-ad-slot="9158009608"
+        data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </aside>
 
-        <section aria-labelledby="learn">
+    <section class="section wrap" aria-labelledby="why">
+      <h2 id="why">Why it's different</h2>
+      <ul class="features">
+        <li><strong>Kinder than the classroom classic.</strong> Nothing grim on screen, just a plant that thrives or
+          wilts with your guesses.</li>
+        <li><strong>Quick to play.</strong> A round takes a minute or two, so it fits a coffee break.</li>
+        <li><strong>Calm by design.</strong> Soft colours, a light and dark theme, and gentle sounds you can switch
+          off.</li>
+        <li><strong>Results you can share.</strong> Post how your round went without giving the word away.</li>
+      </ul>
+    </section>
+
+    <section class="section wrap" aria-labelledby="learn">
+      <div class="learn">
+        <div class="prose">
           <h2 id="learn">Learn a word every game</h2>
           <p>When a round ends, Word Plant shows what the word means, sense by sense, with its part of speech. Over
             weeks of play that adds up to a steady trickle of new vocabulary, which makes it a good fit for word
             lovers, classrooms and anyone learning English.</p>
-        </section>
-
-        <section aria-labelledby="more">
-          <h2 id="more">More word games</h2>
-          <ul class="more-games">
-            <li><a href="https://www.opensourcefeed.org/puzzles/decordle/">Decordle</a>: ten words at once</li>
-            <li><a href="https://www.opensourcefeed.org/puzzles/dordle/">Dordle</a>: two words at once</li>
-            <li><a href="https://www.opensourcefeed.org/puzzles/wordle-unlimited/">Wordle Unlimited</a></li>
-            <li><a href="https://www.opensourcefeed.org/puzzles/word-tail/">Word Tail</a>: word chains</li>
-            <li><a href="https://www.opensourcefeed.org/puzzles/">All puzzles</a></li>
-          </ul>
-          <div class="banner">
-            <p class="hint">Decordle is on Android too:</p>
-            <a
-              href="https://play.google.com/store/apps/details?id=org.tahrik.wordle&amp;utm_source=web&amp;utm_campaign=word-plant-landing"><img
-                width="270" height="104" alt="Get Decordle on Google Play"
-                src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"></a>
-          </div>
-        </section>
-
-        <div class="ads">
-          <script async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6380671811722843"
-            crossorigin="anonymous"></script>
-          <!-- Word Plant Landing Banner -->
-          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6380671811722843"
-            data-ad-slot="9158009608" data-ad-format="auto" data-full-width-responsive="true"></ins>
-          <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
+        </div>
+        <div class="definition" aria-hidden="true">
+          <span class="definition-word">cello</span>
+          <span class="definition-pos">noun</span>
+          <span class="definition-text">A large unfretted stringed instrument of the violin family, with four strings
+            and an endpin to support its weight.</span>
         </div>
       </div>
-    </main>
-  </div>
-  <footer>
-    © Tahrik Studio 2015–{{ site.time | date: "%Y" }}
+    </section>
+
+    <section class="section wrap" aria-labelledby="more">
+      <h2 id="more">More word games</h2>
+      <ul class="games">
+        <li><a href="https://www.opensourcefeed.org/puzzles/decordle/"><strong>Decordle</strong><span>ten words at
+              once</span></a></li>
+        <li><a href="https://www.opensourcefeed.org/puzzles/dordle/"><strong>Dordle</strong><span>two words at
+              once</span></a></li>
+        <li><a href="https://www.opensourcefeed.org/puzzles/wordle-unlimited/"><strong>Wordle Unlimited</strong><span>as
+              many as you like</span></a></li>
+        <li><a href="https://www.opensourcefeed.org/puzzles/word-tail/"><strong>Word Tail</strong><span>word
+              chains</span></a></li>
+      </ul>
+      <div class="android">
+        <p><strong>Decordle is on Android too.</strong> Ten words at once, wherever you are.</p>
+        <a href="https://play.google.com/store/apps/details?id=org.tahrik.wordle&amp;utm_source=web&amp;utm_campaign=word-plant-landing"><img
+            width="180" height="69" loading="lazy" alt="Get Decordle on Google Play"
+            src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <a class="bmc" href="https://www.buymeacoffee.com/tahrikstudio" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M7 2.5c0 1.2 1 1.2 1 2.5M10.5 2.5c0 1.2 1 1.2 1 2.5M14 2.5c0 1.2 1 1.2 1 2.5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><path d="M4 8h13v5.5A5.5 5.5 0 0 1 11.5 19h-2A5.5 5.5 0 0 1 4 13.5V8Z" fill="#fff" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M17 10h1a2.75 2.75 0 0 1 0 5.5h-1.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3 21.5h15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>Buy me a coffee</a>
+      <nav class="footer-links" aria-label="Site">
+        <a href="https://www.opensourcefeed.org/puzzles/">All puzzles</a>
+        <a href="https://www.opensourcefeed.org/privacy-policy/">Privacy</a>
+        <a href="mailto:contact.opensourcefeed@gmail.com">Contact</a>
+      </nav>
+      <p class="copyright">© Tahrik Studio 2015–{{ site.time | date: "%Y" }}</p>
+    </div>
   </footer>
   <!-- Google Analytics 4, as on the rest of the site -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KD5NJYRYD3"></script>
@@ -564,6 +651,29 @@
 </script>
 <!-- /boot-loader:body -->
 <script>
+  // Light and dark theme button. The choice is the site-wide color-scheme
+  // setting the games use; the boot loader applied it before the first paint.
+  (function () {
+    var html = document.documentElement;
+    var button = document.querySelector('.theme-toggle');
+    function label() {
+      var dark = html.classList.contains('dark');
+      button.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
+      document.querySelectorAll('meta[name="theme-color"]').forEach(function (meta) {
+        meta.content = dark ? '#0f1712' : '#f4efe2';
+      });
+    }
+    button.hidden = false;
+    label();
+    button.addEventListener('click', function () {
+      var next = html.classList.contains('dark') ? 'light' : 'dark';
+      html.classList.remove('light', 'dark');
+      html.classList.add(next);
+      try { localStorage.setItem('color-scheme', next); } catch (e) {}
+      label();
+    });
+  })();
+
   // Cover the page with the game's loader when opening Daily or Practice in
   // this tab; the game's own loader takes over when it opens
   document.addEventListener('click', function (event) {
