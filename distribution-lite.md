@@ -18,6 +18,7 @@ seo:
 description: "Linux Lite is a beginner-friendly Ubuntu-based Linux distribution designed for older computers and Windows users. Learn about features, releases, system requirements, desktop environment, and Linux Lite tools."
 
 releases:
+  Linxu Lite 8.2: /linux-lite-8-2-release/
   Linux Lite 8.0: /linux-lite-8-0-release/
   Linux Lite 7.8: /linux-lite-7-8-released/
   Linux Lite 7.6: https://www.linuxliteos.com/forums/showthread.php?tid=9576
