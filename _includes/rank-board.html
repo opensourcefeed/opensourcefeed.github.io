@@ -19,9 +19,11 @@
       <a class="podium-logo" href="{{ re_page.url }}" tabindex="-1" aria-hidden="true">
         {% if re_logo %}<img src="{{ re_logo }}" alt="" width="72" height="72" decoding="async">{% else %}<span class="logo-fallback">{{ re_page.title | slice: 0 }}</span>{% endif %}
       </a>
+      <div class="podium-info">
       <h4 class="podium-name"><span class="visually-hidden">#{{ entry.current.rank }} </span><a href="{{ re_page.url }}">{{ re_page.title }}</a></h4>
       {% if rb_kind == "os" and re_base_label %}<div class="podium-sub">{{ re_base_label }}</div>{% elsif re_page.tagline %}<div class="podium-sub">{{ re_page.tagline | truncate: 48 }}</div>{% endif %}
       {% if re_latest_name %}<a class="podium-release" href="{{ re_latest_url }}">Latest: {{ re_latest_name }}</a>{% endif %}
+      </div>
       <div class="podium-stats">
         {% include rank-change.html change=re_change previous_rank=entry.previous.rank compare=include.compare %}
         <span class="podium-score" title="Popularity relative to #1 (= 100)"><strong>{{ entry.current.score }}</strong><small>/100</small></span>
@@ -62,6 +64,7 @@
 {% endif %}
 
 {% comment %} ================= Full list ================= {% endcomment %}
+<div class="rank-list-wrap">
 <div class="rank-list-head" aria-hidden="true">
   <span>Rank</span><span>Name</span><span>Change</span><span>Popularity</span>
 </div>
@@ -93,4 +96,5 @@
     </li>
   {% endfor %}
 </ol>
+</div>
 <p class="rank-empty" hidden>No {{ include.label }} matches these filters.</p>

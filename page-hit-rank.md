@@ -32,6 +32,7 @@ seo:
   margin: 0 auto;
   padding: 1rem 0 2rem;
   color: var(--rk-text);
+  line-height: 1.5;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 .rank-page a { color: var(--rk-accent); text-decoration: none; }
@@ -68,6 +69,7 @@ seo:
 }
 .rank-hero .lead-text {
   max-width: 46rem;
+  line-height: 1.6;
   margin: 0 auto 0.5rem;
   color: var(--rk-muted);
 }
@@ -132,7 +134,7 @@ seo:
 }
 .filter-chip:hover { border-color: var(--rk-accent-2); color: var(--rk-accent); }
 .filter-chip.is-active { background: var(--rk-accent); border-color: var(--rk-accent); color: #fff; }
-.filter-de { display: flex; align-items: center; gap: 0.5rem; margin-left: auto; }
+.filter-de { display: flex; align-items: center; gap: 0.5rem; }
 .filter-de select {
   padding: 0.3rem 2rem 0.3rem 0.75rem;
   border: 1px solid var(--rk-border);
@@ -239,6 +241,8 @@ seo:
 }
 .place-1 .podium-logo { width: 5.5rem; height: 5.5rem; }
 .podium-logo img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.podium-info { display: contents; }
+.rank-list-wrap { container-type: inline-size; }
 .podium-name { font-size: 1.05rem; font-weight: 700; margin: 0; overflow-wrap: anywhere; }
 .place-1 .podium-name { font-size: 1.2rem; }
 .rank-page .podium-name a { color: var(--rk-text); }
@@ -267,7 +271,7 @@ seo:
 .movers-list { list-style: none; margin: 0; padding: 0; }
 .movers-list li {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   gap: 0.25rem 0.5rem;
   padding: 0.3rem 0;
@@ -275,13 +279,15 @@ seo:
 }
 .movers-list li + li { border-top: 1px dashed var(--rk-border); }
 .movers-list a { font-weight: 600; }
-.movers-meta { color: var(--rk-muted); font-size: 0.8rem; font-variant-numeric: tabular-nums; margin-left: auto; }
+.movers-meta { color: var(--rk-muted); font-size: 0.8rem; font-variant-numeric: tabular-nums; flex: 0 0 auto; }
+.rank-page .movers-list a { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.movers-list .rank-change { flex: 0 0 auto; }
 
 /* ---------- List ---------- */
 .rank-list-head,
 .rank-row {
   display: grid;
-  grid-template-columns: 2.5rem 2.75rem minmax(0, 1fr) 4.25rem minmax(7rem, 30%);
+  grid-template-columns: 2.5rem 2.75rem minmax(0, 1fr) 4.25rem minmax(8rem, 26%);
   align-items: center;
   gap: 0.75rem;
 }
@@ -375,6 +381,24 @@ seo:
 .rank-ad { margin: 2rem 0; }
 
 /* ---------- Responsive ---------- */
+/* List adapts to its own width (the site column is narrow on tablets/small laptops) */
+@container (max-width: 720px) {
+  .rank-list-head { display: none; }
+  .rank-row {
+    grid-template-columns: 2rem 2.25rem minmax(0, 1fr) auto;
+    grid-template-areas: "rank logo main change" "rank logo score score";
+    row-gap: 0.4rem;
+    padding: 0.7rem 0.85rem;
+  }
+  .row-rank { grid-area: rank; }
+  .row-logo { grid-area: logo; width: 2rem; height: 2rem; }
+  .row-main { grid-area: main; }
+  .row-change { grid-area: change; }
+  .row-score { grid-area: score; }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .rank-movers .movers-meta { display: none; }
+}
 @media (max-width: 767.98px) {
   .rank-hero { padding: 1rem 0.85rem; margin-bottom: 1rem; }
   .rank-eyebrow { display: none; }
@@ -401,20 +425,27 @@ seo:
   .rank-page .segmented a { flex: 1; display: flex; align-items: center; justify-content: center; padding: 0.45rem 0.5rem; font-size: 0.9rem; text-align: center; white-space: normal; }
   .rank-podium { grid-template-columns: 1fr; gap: 1.4rem; margin-top: 1rem; }
   .podium-card, .podium-card.place-1 { order: 0; padding: 1.6rem 1rem 1rem; }
+}
+@media (max-width: 575.98px) {
+  .rank-podium { gap: 0.6rem; margin-top: 0; }
+  .podium-card, .podium-card.place-1 {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 0.85rem;
+    border-top-width: 1px;
+    border-left: 4px solid var(--medal);
+    text-align: left;
+  }
+  .podium-medal { position: static; transform: none; flex: 0 0 auto; width: 1.75rem; height: 1.75rem; font-size: 0.9rem; }
+  .podium-logo, .place-1 .podium-logo { flex: 0 0 auto; width: 2.75rem; height: 2.75rem; margin: 0; }
+  .podium-info { display: flex; flex-direction: column; gap: 0.1rem; flex: 1 1 auto; min-width: 0; }
+  .podium-name, .place-1 .podium-name { font-size: 1rem; }
+  .podium-sub, .rank-page .podium-release { font-size: 0.78rem; }
+  .podium-stats { flex-direction: column; align-items: flex-end; gap: 0.25rem; margin: 0; flex: 0 0 auto; }
+  .podium-score strong { font-size: 1rem; }
   .rank-movers { grid-template-columns: 1fr; }
   .filter-de { margin-left: 0; }
-  .rank-list-head { display: none; }
-  .rank-row {
-    grid-template-columns: 2rem 2.25rem minmax(0, 1fr) auto;
-    grid-template-areas: "rank logo main change" "rank logo score score";
-    row-gap: 0.4rem;
-    padding: 0.7rem 0.75rem;
-  }
-  .row-rank { grid-area: rank; }
-  .row-logo { grid-area: logo; width: 2rem; height: 2rem; }
-  .row-main { grid-area: main; }
-  .row-change { grid-area: change; }
-  .row-score { grid-area: score; }
   .rank-method dl { grid-template-columns: 1fr; }
   .rank-method dd { margin-bottom: 0.5rem; }
 }

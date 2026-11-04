@@ -45,7 +45,7 @@ seo:
 
 .distribution-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fill, minmax(210px, 1fr));
+    grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));
     gap:12px;
 }
 
@@ -231,13 +231,12 @@ seo:
 }
 
 
-.distribution-card{ position:relative; }
-.distribution-card-body{ display:flex; flex-direction:column; gap:2px; min-width:0; padding-right:2.4rem; }
-.distribution-card-meta{ color:#6b7280; font-size:0.78rem; }
+.distribution-card,
+.distribution-controls{ line-height:1.5; }
+.distribution-card-body{ display:flex; flex-direction:column; gap:4px; min-width:0; }
+.distribution-card-meta{ display:flex; flex-wrap:wrap; align-items:center; gap:4px 8px; color:#6b7280; font-size:0.78rem; }
+.lbl-short{ display:none; }
 .distribution-card-rank{
-    position:absolute;
-    top:8px;
-    right:10px;
     padding:1px 7px;
     border-radius:999px;
     background:#eaf2fc;
@@ -248,8 +247,7 @@ seo:
 }
 
 .distribution-controls{
-    max-width:960px;
-    margin:0 auto 1.75rem auto;
+    margin:0 0 1.75rem 0;
     padding:0.85rem 1rem;
     border:1px solid #e3ecf7;
     border-radius:14px;
@@ -358,6 +356,30 @@ seo:
     .distribution-filter-chips > *{ flex:0 0 auto; }
     .distribution-section-header{ flex-wrap:wrap; }
 }
+@media (max-width:575.98px){
+    .distribution-grid{ grid-template-columns:repeat(2, minmax(0, 1fr)); gap:10px; }
+    .distribution-card{
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-start;
+        gap:8px;
+        min-height:0;
+        padding:14px 10px 12px;
+        text-align:center;
+    }
+    .distribution-card:hover{ transform:none; }
+    .distribution-card-media{ width:48px; height:48px; flex:0 0 48px; }
+    .distribution-card-media img{ max-width:36px; max-height:36px; }
+    .distribution-card-body{ align-items:center; }
+    .distribution-card-title{ font-size:0.92rem; }
+    .distribution-card-meta{ justify-content:center; font-size:0.72rem; }
+    .distribution-section-header h2{ font-size:1.4rem; }
+}
+@media (max-width:379.98px){
+    .distribution-sort-label{ display:none; }
+    .distribution-sort .lbl-long{ display:none; }
+    .distribution-sort .lbl-short{ display:inline; }
+}
 
 .distribution-section[hidden],
 .distribution-card[hidden]{
@@ -405,9 +427,9 @@ seo:
                 Filters <span class="distribution-filters-count" hidden></span>
             </button>
             <div class="distribution-sort" role="group" aria-label="Sort distributions">
-                <span class="distribution-filter-label">Sort</span>
+                <span class="distribution-filter-label distribution-sort-label">Sort</span>
                 <button type="button" class="distribution-chip" data-sort="az">A&ndash;Z</button>
-                <button type="button" class="distribution-chip" data-sort="popular">Most popular</button>
+                <button type="button" class="distribution-chip" data-sort="popular"><span class="lbl-long">Most popular</span><span class="lbl-short">Popular</span></button>
             </div>
         </div>
         <div class="distribution-filters" id="distribution-filters">
@@ -472,9 +494,11 @@ seo:
                 </div>
                 <div class="distribution-card-body">
                     <div class="distribution-card-title">{{ page.title }}</div>
-                    {% if re_base_label %}<div class="distribution-card-meta">{{ re_base_label }}</div>{% endif %}
+                    {% if re_base_label or card_rank.current %}<div class="distribution-card-meta">
+                        {% if re_base_label %}<span>{{ re_base_label }}</span>{% endif %}
+                        {% if card_rank.current %}<span class="distribution-card-rank" title="#{{ card_rank.current.rank }} in the last 30 days on the popularity ranking">#{{ card_rank.current.rank }}</span>{% endif %}
+                    </div>{% endif %}
                 </div>
-                {% if card_rank.current %}<span class="distribution-card-rank" title="#{{ card_rank.current.rank }} in the last 30 days on the popularity ranking">#{{ card_rank.current.rank }}</span>{% endif %}
             </a>
             {% endfor %}
         </div>
@@ -501,9 +525,11 @@ seo:
                 </div>
                 <div class="distribution-card-body">
                     <div class="distribution-card-title">{{ page.title }}</div>
-                    {% if re_base_label %}<div class="distribution-card-meta">{{ re_base_label }}</div>{% endif %}
+                    {% if re_base_label or card_rank.current %}<div class="distribution-card-meta">
+                        {% if re_base_label %}<span>{{ re_base_label }}</span>{% endif %}
+                        {% if card_rank.current %}<span class="distribution-card-rank" title="#{{ card_rank.current.rank }} in the last 30 days on the popularity ranking">#{{ card_rank.current.rank }}</span>{% endif %}
+                    </div>{% endif %}
                 </div>
-                {% if card_rank.current %}<span class="distribution-card-rank" title="#{{ card_rank.current.rank }} in the last 30 days on the popularity ranking">#{{ card_rank.current.rank }}</span>{% endif %}
             </a>
             {% endfor %}
         </div>
@@ -530,9 +556,11 @@ seo:
                 </div>
                 <div class="distribution-card-body">
                     <div class="distribution-card-title">{{ page.title }}</div>
-                    {% if re_base_label %}<div class="distribution-card-meta">{{ re_base_label }}</div>{% endif %}
+                    {% if re_base_label or card_rank.current %}<div class="distribution-card-meta">
+                        {% if re_base_label %}<span>{{ re_base_label }}</span>{% endif %}
+                        {% if card_rank.current %}<span class="distribution-card-rank" title="#{{ card_rank.current.rank }} in the last 30 days on the popularity ranking">#{{ card_rank.current.rank }}</span>{% endif %}
+                    </div>{% endif %}
                 </div>
-                {% if card_rank.current %}<span class="distribution-card-rank" title="#{{ card_rank.current.rank }} in the last 30 days on the popularity ranking">#{{ card_rank.current.rank }}</span>{% endif %}
             </a>
             {% endfor %}
         </div>
