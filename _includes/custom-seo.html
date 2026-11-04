@@ -1,4 +1,5 @@
 <!-- Begin Custom SEO-->
+{% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
   <meta content="{{ category }}" property="article:section">

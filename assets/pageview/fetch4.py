@@ -269,6 +269,11 @@ def write_archive_stub(snapshot, rebuild):
         "permalink": permalink,
         "image": "/assets/images/meta/logo-collage.png",
     }
+    if snapshot["kind"] == "month":
+        # Monthly pages are templated and overlap the live ranking: keep them for
+        # readers but out of search results. Year-in-review pages stay indexable.
+        front["robots"] = "noindex, follow"
+        front["sitemap"] = False
     os.makedirs(ARCHIVE_DIR, exist_ok=True)
     with open(path, "w") as f:
         f.write("---\n")
