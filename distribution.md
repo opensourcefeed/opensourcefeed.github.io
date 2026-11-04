@@ -247,10 +247,7 @@ seo:
     font-variant-numeric:tabular-nums;
 }
 
-.distribution-filters{
-    display:flex;
-    flex-direction:column;
-    gap:0.6rem;
+.distribution-controls{
     max-width:960px;
     margin:0 auto 1.75rem auto;
     padding:0.85rem 1rem;
@@ -258,15 +255,26 @@ seo:
     border-radius:14px;
     background:#f6f9fd;
 }
+.distribution-toolbar{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:0.6rem;
+    margin-bottom:0.6rem;
+}
+.distribution-filters{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:0.6rem 1.25rem;
+}
 .distribution-filter-chips,
-.distribution-filter-row,
 .distribution-sort{
     display:flex;
     flex-wrap:wrap;
     align-items:center;
     gap:0.4rem;
 }
-.distribution-filter-row{ gap:0.6rem 1.25rem; }
 .distribution-filter-label{ font-size:0.85rem; font-weight:700; color:#6b7280; margin-right:0.15rem; }
 .distribution-chip{
     appearance:none;
@@ -292,9 +300,63 @@ seo:
     font-size:0.85rem;
     font-weight:600;
 }
-.distribution-rank-link{ margin-left:auto; font-size:0.85rem; font-weight:600; }
-@media (max-width:575px){
-    .distribution-rank-link{ margin-left:0; }
+.distribution-filters-toggle{
+    display:none;
+    align-items:center;
+    gap:0.45rem;
+    padding:0.35rem 0.9rem;
+    border:1px solid #d9dde3;
+    border-radius:999px;
+    background:#fff;
+    color:#222;
+    font-size:0.9rem;
+    font-weight:600;
+}
+.distribution-filters-toggle[aria-expanded="true"]{ border-color:#046cdc; color:#046cdc; }
+.distribution-filters-count{
+    min-width:1.3rem;
+    padding:0 0.35rem;
+    border-radius:999px;
+    background:#046cdc;
+    color:#fff;
+    font-size:0.75rem;
+    line-height:1.3rem;
+    text-align:center;
+}
+.distribution-filter-status{ margin:0.6rem 0 0; font-size:0.85rem; color:#6b7280; }
+.distribution-filter-reset{
+    border:0;
+    background:none;
+    padding:0;
+    margin-left:0.4rem;
+    color:#046cdc;
+    font-weight:600;
+    cursor:pointer;
+}
+.distribution-rank-link{ margin-left:auto; font-size:0.85rem; font-weight:600; white-space:nowrap; }
+.distribution-filters[hidden], .distribution-filter-status[hidden]{ display:none !important; }
+
+@media (max-width:767.98px){
+    .distribution h1{ font-size:1.5rem; }
+    .distribution-intro{ font-size:0.92rem; margin-bottom:0.75rem; }
+    .distribution > hr{ display:none; }
+    .distribution-search{ margin-bottom:0.6rem; }
+    .distribution-controls{ margin-bottom:1.25rem; padding:0; border:0; background:none; }
+    .distribution-toolbar{ justify-content:space-between; margin-bottom:0; }
+    .distribution-filters-toggle{ display:inline-flex; }
+    .distribution-filters{ display:none; margin-top:0.6rem; padding:0.75rem; border:1px solid #e3ecf7; border-radius:14px; background:#f6f9fd; }
+    .distribution-filters.is-open{ display:flex; }
+    .distribution-filter-chips{
+        flex-wrap:nowrap;
+        overflow-x:auto;
+        width:calc(100% + 1.5rem);
+        margin:0 -0.75rem;
+        padding:0 0.75rem 0.25rem;
+        scrollbar-width:none;
+    }
+    .distribution-filter-chips::-webkit-scrollbar{ display:none; }
+    .distribution-filter-chips > *{ flex:0 0 auto; }
+    .distribution-section-header{ flex-wrap:wrap; }
 }
 
 .distribution-section[hidden],
@@ -316,7 +378,7 @@ seo:
     <h1>Open Source Operating Systems</h1>
     <p class="distribution-intro">
         Explore free and open source operating systems across GNU/Linux, BSD, and other independent projects.
-        Browse the collection to compare distributions, discover alternatives, and jump into detailed pages.
+        <span class="d-none d-md-inline">Browse the collection to compare distributions, discover alternatives, and jump into detailed pages.</span>
     </p>
 
     <hr>
@@ -336,20 +398,31 @@ seo:
         <div class="distribution-search-status" id="distribution-search-status" role="status" aria-live="polite"></div>
     </div>
 
-    <div class="distribution-filters" id="distribution-filters">
-        <div class="distribution-filter-chips" role="group" aria-label="Filter by base">
-            <span class="distribution-filter-label">Base</span>
-            <button type="button" class="distribution-chip" data-base="">All</button>
-            <button type="button" class="distribution-chip" data-base="debian">Debian</button>
-            <button type="button" class="distribution-chip" data-base="ubuntu">Ubuntu</button>
-            <button type="button" class="distribution-chip" data-base="arch">Arch</button>
-            <button type="button" class="distribution-chip" data-base="fedora">Fedora / RHEL</button>
-            <button type="button" class="distribution-chip" data-base="gentoo">Gentoo</button>
-            <button type="button" class="distribution-chip" data-base="slackware">Slackware</button>
-            <button type="button" class="distribution-chip" data-base="bsd">BSD</button>
-            <button type="button" class="distribution-chip" data-base="independent">Independent</button>
+    <div class="distribution-controls" id="distribution-controls">
+        <div class="distribution-toolbar">
+            <button type="button" class="distribution-filters-toggle" id="distribution-filters-toggle" aria-expanded="false" aria-controls="distribution-filters">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+                Filters <span class="distribution-filters-count" hidden></span>
+            </button>
+            <div class="distribution-sort" role="group" aria-label="Sort distributions">
+                <span class="distribution-filter-label">Sort</span>
+                <button type="button" class="distribution-chip" data-sort="az">A&ndash;Z</button>
+                <button type="button" class="distribution-chip" data-sort="popular">Most popular</button>
+            </div>
         </div>
-        <div class="distribution-filter-row">
+        <div class="distribution-filters" id="distribution-filters">
+            <div class="distribution-filter-chips" role="group" aria-label="Filter by base">
+                <span class="distribution-filter-label">Base</span>
+                <button type="button" class="distribution-chip" data-base="">All</button>
+                <button type="button" class="distribution-chip" data-base="debian">Debian</button>
+                <button type="button" class="distribution-chip" data-base="ubuntu">Ubuntu</button>
+                <button type="button" class="distribution-chip" data-base="arch">Arch</button>
+                <button type="button" class="distribution-chip" data-base="fedora">Fedora / RHEL</button>
+                <button type="button" class="distribution-chip" data-base="gentoo">Gentoo</button>
+                <button type="button" class="distribution-chip" data-base="slackware">Slackware</button>
+                <button type="button" class="distribution-chip" data-base="bsd">BSD</button>
+                <button type="button" class="distribution-chip" data-base="independent">Independent</button>
+            </div>
             <label class="distribution-filter-select">
                 <span class="distribution-filter-label">Desktop</span>
                 <select id="distribution-filter-de">
@@ -366,13 +439,8 @@ seo:
                     <option value="i3">i3</option>
                 </select>
             </label>
-            <div class="distribution-sort" role="group" aria-label="Sort distributions">
-                <span class="distribution-filter-label">Sort</span>
-                <button type="button" class="distribution-chip" data-sort="az">A&ndash;Z</button>
-                <button type="button" class="distribution-chip" data-sort="popular">Most popular</button>
-            </div>
-            <a class="distribution-rank-link" href="/page-hit-rank/">Full popularity ranking &rarr;</a>
         </div>
+        <p class="distribution-filter-status" id="distribution-filter-status" hidden></p>
     </div>
 
     <div id="distribution-results">
@@ -386,6 +454,7 @@ seo:
         <div class="distribution-section-header">
             <h2>GNU/Linux</h2>
             <span class="distribution-count" data-distribution-count>{{ linux_distributions | size }} distributions</span>
+            <a class="distribution-rank-link" href="/page-hit-rank/">Popularity ranking &rarr;</a>
         </div>
         <div class="distribution-grid">
             {% for page in linux_distributions %}
@@ -501,7 +570,11 @@ seo:
     var status = document.getElementById('distribution-search-status');
     var empty = document.getElementById('distribution-empty');
     var emptyTerm = document.getElementById('distribution-empty-term');
-    var filterBar = document.getElementById('distribution-filters');
+    var filterBar = document.getElementById('distribution-controls');
+    var filterPanel = document.getElementById('distribution-filters');
+    var filterToggle = document.getElementById('distribution-filters-toggle');
+    var filterCount = filterToggle.querySelector('.distribution-filters-count');
+    var filterStatus = document.getElementById('distribution-filter-status');
     var baseChips = filterBar.querySelectorAll('[data-base]');
     var sortChips = filterBar.querySelectorAll('[data-sort]');
     var deSelect = document.getElementById('distribution-filter-de');
@@ -592,6 +665,15 @@ seo:
         }
 
         status.textContent = (hasQuery || hasFilters) ? total + ' ' + (total === 1 ? 'result' : 'results') + ' found' : '';
+
+        var active = (state.base ? 1 : 0) + (state.de ? 1 : 0);
+        filterCount.hidden = active === 0;
+        filterCount.textContent = active;
+        filterStatus.hidden = !hasFilters;
+        if (hasFilters) {
+            filterStatus.innerHTML = 'Showing ' + label(total) + '. ' +
+                '<button type="button" class="distribution-filter-reset">Clear filters</button>';
+        }
     }
 
     function render() {
@@ -637,6 +719,17 @@ seo:
             state.sort = chip.getAttribute('data-sort');
             render();
         });
+    });
+    filterToggle.addEventListener('click', function () {
+        var open = !filterPanel.classList.contains('is-open');
+        filterPanel.classList.toggle('is-open', open);
+        filterToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    filterStatus.addEventListener('click', function (e) {
+        if (!e.target.classList.contains('distribution-filter-reset')) return;
+        state.base = '';
+        state.de = '';
+        render();
     });
     deSelect.addEventListener('change', function () {
         state.de = deSelect.value;

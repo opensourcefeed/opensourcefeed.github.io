@@ -98,6 +98,7 @@ seo:
   text-decoration: none;
 }
 .rank-page .segmented a:hover { color: var(--rk-accent); }
+.lbl-short { display: none; }
 .rank-page .segmented a.is-active {
   background: var(--rk-accent);
   color: #fff;
@@ -141,7 +142,31 @@ seo:
   font-size: 0.85rem;
   font-weight: 600;
 }
-.filter-status { width: 100%; font-size: 0.8rem; color: var(--rk-muted); }
+.filter-status { margin: -0.6rem 0 1.25rem; font-size: 0.85rem; color: var(--rk-muted); }
+.filters-toggle {
+  display: none;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 1rem;
+  padding: 0.45rem 0.95rem;
+  border: 1px solid var(--rk-border);
+  border-radius: 999px;
+  background: var(--rk-surface);
+  color: var(--rk-text);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.filters-toggle[aria-expanded="true"] { border-color: var(--rk-accent); color: var(--rk-accent); }
+.filters-count {
+  min-width: 1.3rem;
+  padding: 0 0.35rem;
+  border-radius: 999px;
+  background: var(--rk-accent);
+  color: #fff;
+  font-size: 0.75rem;
+  line-height: 1.3rem;
+  text-align: center;
+}
 .filter-reset {
   border: 0;
   background: none;
@@ -351,9 +376,28 @@ seo:
 
 /* ---------- Responsive ---------- */
 @media (max-width: 767.98px) {
-  .rank-hero { padding: 1.5rem 1rem 1.25rem; }
-  .rank-controls { flex-direction: column; align-items: stretch; }
-  .segmented { display: flex; }
+  .rank-hero { padding: 1rem 0.85rem; margin-bottom: 1rem; }
+  .rank-eyebrow { display: none; }
+  .rank-hero h1 { font-size: 1.5rem; margin-bottom: 0.35rem; }
+  .rank-hero .lead-text { font-size: 0.92rem; margin-bottom: 0.25rem; }
+  .rank-updated { font-size: 0.8rem; margin-bottom: 0.85rem; }
+  .rank-controls { gap: 0.4rem; }
+  .filters-toggle { display: inline-flex; }
+  .rank-filters { display: none; margin-bottom: 1rem; padding: 0.75rem; }
+  .rank-filters.is-open { display: flex; }
+  .filter-chips { flex-wrap: nowrap; overflow-x: auto; margin: 0 -0.75rem; padding: 0 0.75rem 0.25rem; scrollbar-width: none; }
+  .filter-chips::-webkit-scrollbar { display: none; }
+  .filter-chip, .filter-chips .filter-label { flex: 0 0 auto; }
+  .filter-status { margin-top: -0.5rem; }
+  .period-title { font-size: 1rem; }
+  .period-range { font-size: 0.8rem; margin-bottom: 0.75rem; }
+  .rank-section > h3 { font-size: 1.3rem; margin-bottom: 1.4rem; }
+  .rank-controls { flex-wrap: nowrap; }
+  .segmented { display: flex; flex: 1 1 auto; min-width: 0; }
+  .segmented:first-child { flex: 0 0 auto; }
+  .lbl-long { display: none; }
+  .lbl-short { display: inline; }
+  .period-title { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .rank-page .segmented a { flex: 1; display: flex; align-items: center; justify-content: center; padding: 0.45rem 0.5rem; font-size: 0.9rem; text-align: center; white-space: normal; }
   .rank-podium { grid-template-columns: 1fr; gap: 1.4rem; margin-top: 1rem; }
   .podium-card, .podium-card.place-1 { order: 0; padding: 1.6rem 1rem 1rem; }
@@ -390,22 +434,27 @@ seo:
     <header class="rank-hero">
       <span class="rank-eyebrow">Popularity Index</span>
       <h1>Open Source Popularity Ranking</h1>
-      <p class="lead-text">The most-viewed Linux distributions, BSDs and desktop environments on OpenSourceFeed, ranked for the last 30 days and the last 3 months, with each rank compared against the preceding period.</p>
+      <p class="lead-text">The most-viewed Linux distributions, BSDs and desktops on OpenSourceFeed, compared with the previous period.</p>
       {% if last_updated %}
       <p class="rank-updated">Updated <time datetime="{{ last_updated | date_to_xmlschema }}" itemprop="dateModified">{{ last_updated | date: "%B %-d, %Y" }}</time></p>
       {% endif %}
       <div class="rank-controls">
         <nav class="segmented" aria-label="Time range">
-          <a data-filter-period="30d" href="?period=30d&type=os">30 Days</a>
-          <a data-filter-period="3m" href="?period=3m&type=os">3 Months</a>
+          <a data-filter-period="30d" href="?period=30d&type=os"><span class="lbl-long">30 Days</span><span class="lbl-short">30D</span></a>
+          <a data-filter-period="3m" href="?period=3m&type=os"><span class="lbl-long">3 Months</span><span class="lbl-short">3M</span></a>
         </nav>
         <nav class="segmented" aria-label="Category">
-          <a data-filter-type="os" href="?period=30d&type=os">Operating Systems</a>
-          <a data-filter-type="desktop" href="?period=30d&type=desktop">Desktop Environments</a>
+          <a data-filter-type="os" href="?period=30d&type=os"><span class="lbl-long">Operating Systems</span><span class="lbl-short">OS</span></a>
+          <a data-filter-type="desktop" href="?period=30d&type=desktop"><span class="lbl-long">Desktop Environments</span><span class="lbl-short">Desktops</span></a>
         </nav>
       </div>
     </header>
 
+    <div class="rank-filter-wrap" id="rank-filter-wrap">
+    <button type="button" class="filters-toggle" id="rank-filters-toggle" aria-expanded="false" aria-controls="rank-filters">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+      Filters <span class="filters-count" hidden></span>
+    </button>
     <div class="rank-filters" id="rank-filters" aria-label="Filter operating systems">
       <div class="filter-chips" role="group" aria-label="Filter by base">
         <span class="filter-label">Base</span>
@@ -435,7 +484,8 @@ seo:
           <option value="i3">i3</option>
         </select>
       </label>
-      <p class="filter-status" aria-live="polite" hidden></p>
+    </div>
+    <p class="filter-status" aria-live="polite" hidden></p>
     </div>
 
     <section class="period-block" data-period="30d" aria-labelledby="last-30-days">
@@ -510,9 +560,12 @@ seo:
         var periodLinks = document.querySelectorAll('[data-filter-period]');
         var typeLinks = document.querySelectorAll('[data-filter-type]');
         var filterBar = document.getElementById('rank-filters');
+        var filterWrap = document.getElementById('rank-filter-wrap');
+        var filterToggle = document.getElementById('rank-filters-toggle');
+        var filterCount = filterToggle.querySelector('.filters-count');
         var baseChips = filterBar.querySelectorAll('[data-base]');
         var deSelect = document.getElementById('filter-de');
-        var status = filterBar.querySelector('.filter-status');
+        var status = filterWrap.querySelector('.filter-status');
 
         var params = new URLSearchParams(window.location.search);
         var legacy = LEGACY_HASHES[window.location.hash] || [];
@@ -589,7 +642,10 @@ seo:
             link.setAttribute('href', buildQuery({ period: state.period, type: link.dataset.filterType, base: state.base, de: state.de }));
           });
 
-          filterBar.hidden = state.type !== 'os';
+          filterWrap.hidden = state.type !== 'os';
+          var active = (state.base ? 1 : 0) + (state.de ? 1 : 0);
+          filterCount.hidden = active === 0;
+          filterCount.textContent = active;
           baseChips.forEach(function (chip) {
             var on = chip.dataset.base === state.base;
             chip.classList.toggle('is-active', on);
@@ -624,6 +680,11 @@ seo:
         deSelect.addEventListener('change', function () {
           state.de = deSelect.value;
           render(false);
+        });
+        filterToggle.addEventListener('click', function () {
+          var open = !filterBar.classList.contains('is-open');
+          filterBar.classList.toggle('is-open', open);
+          filterToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
         });
         status.addEventListener('click', function (e) {
           if (!e.target.classList.contains('filter-reset')) return;
