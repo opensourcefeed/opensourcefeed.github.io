@@ -38,6 +38,11 @@ Baseline (2026-11-04): 1,133 views across 140 OSes in 30 days (top entry: 36 vie
       and [_layouts/desktop.html](_layouts/desktop.html#L53) to read
       "#8 in the Popularity Index ▲2" instead of "8(24 hits per month)".
 
+- [ ] **Static landing pages per base and desktop** (e.g. `/distribution/arch-based/`,
+      `/distribution/kde-plasma/`): pre-filtered lists at their own URLs with an intro
+      paragraph, generated from front matter via `_includes/os-meta.html`. Filtered JS
+      views are not indexed; these pages target "Arch-based distributions"-style queries.
+
 ## P2: Premium visual redesign
 
 - [x] **Top-3 podium** with logo, name, base, latest version and rank change.
@@ -51,6 +56,9 @@ Baseline (2026-11-04): 1,133 views across 140 OSes in 30 days (top entry: 36 vie
 - [x] **CSS variables** for all rank-page colors (`--rk-*` on `.rank-page`).
 - [ ] **Dark-mode overrides**: add once the site itself gets a dark theme.
 - [x] **Performance:** replace the four nested `site.pages` loops with a single lookup map.
+
+- [x] **Same filters on [distribution.md](distribution.md)**: base and desktop filters
+      combined with name search, "Most popular" sort, rank badge and base line on each card.
 
 ## P3: History and archives
 

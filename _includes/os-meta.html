@@ -1,0 +1,72 @@
+{% comment %}
+  Normalized metadata for a distribution/desktop page. Sets (in the caller's scope):
+    re_base_label, re_base_keys (space separated family keys),
+    re_de_keys (space separated), re_de_labels (array, max 3),
+    re_latest_name, re_latest_url
+  Params: page
+{% endcomment %}
+{% assign om_page = include.page %}
+
+{% comment %} ---- Base family (normalizes string/list and case) ---- {% endcomment %}
+{% assign re_base_list = om_page.base | join: "," | split: "," %}
+{% assign re_base_raw = re_base_list | join: " " | downcase %}
+{% assign re_base_first = re_base_list | first | strip | downcase %}
+{% assign re_base_keys = "" %}
+{% if re_base_raw contains "ubuntu" or re_base_raw contains "kdeneon" or re_base_raw contains "linuxmint" %}{% assign re_base_keys = re_base_keys | append: " ubuntu" %}{% endif %}
+{% if re_base_raw contains "debian" or re_base_raw contains "devuan" or re_base_raw contains "antix" or re_base_raw contains "netrunner" %}{% assign re_base_keys = re_base_keys | append: " debian" %}{% endif %}
+{% if re_base_raw contains "arch" %}{% assign re_base_keys = re_base_keys | append: " arch" %}{% endif %}
+{% if re_base_raw contains "fedora" or re_base_raw contains "redhat" %}{% assign re_base_keys = re_base_keys | append: " fedora" %}{% endif %}
+{% if re_base_raw contains "gentoo" %}{% assign re_base_keys = re_base_keys | append: " gentoo" %}{% endif %}
+{% if re_base_raw contains "slackware" %}{% assign re_base_keys = re_base_keys | append: " slackware" %}{% endif %}
+{% if re_base_raw contains "bsd" or re_base_raw contains "trueos" or om_page.type == "BSD" %}{% assign re_base_keys = re_base_keys | append: " bsd" %}{% endif %}
+{% if re_base_raw contains "independent" %}{% assign re_base_keys = re_base_keys | append: " independent" %}{% endif %}
+{% assign re_base_keys = re_base_keys | strip %}
+{% if re_base_keys == "" %}{% assign re_base_keys = "other" %}{% endif %}
+
+{% case re_base_first %}
+  {% when "debian" %}{% assign re_base_label = "Debian-based" %}
+  {% when "ubuntu" %}{% assign re_base_label = "Ubuntu-based" %}
+  {% when "arch" %}{% assign re_base_label = "Arch-based" %}
+  {% when "gentoo" %}{% assign re_base_label = "Gentoo-based" %}
+  {% when "fedora" %}{% assign re_base_label = "Fedora-based" %}
+  {% when "redhat" %}{% assign re_base_label = "Red Hat-based" %}
+  {% when "freebsd" %}{% assign re_base_label = "FreeBSD-based" %}
+  {% when "slackware" %}{% assign re_base_label = "Slackware-based" %}
+  {% when "lfs" %}{% assign re_base_label = "LFS-based" %}
+  {% when "independent" %}{% assign re_base_label = "Independent" %}
+  {% when "" %}{% assign re_base_label = nil %}
+  {% else %}{% assign re_base_label = re_base_list | first | strip | capitalize | append: "-based" %}
+{% endcase %}
+
+{% comment %} ---- Desktop environments ---- {% endcomment %}
+{% assign re_de_list = om_page.desktops | join: "," | split: "," %}
+{% assign re_de_keys = "" %}
+{% assign re_de_labels = "" | split: "" %}
+{% for de in re_de_list %}
+  {% assign de_key = de | strip | downcase | replace: "kde-plasma", "plasma" | replace: " ", "-" %}
+  {% if de_key == "" %}{% continue %}{% endif %}
+  {% assign re_de_keys = re_de_keys | append: " " | append: de_key %}
+  {% if re_de_labels.size < 3 %}
+    {% case de_key %}
+      {% when "gnome" %}{% assign de_label = "GNOME" %}
+      {% when "plasma" %}{% assign de_label = "KDE Plasma" %}
+      {% when "xfce" %}{% assign de_label = "Xfce" %}
+      {% when "mate" %}{% assign de_label = "MATE" %}
+      {% when "lxqt" %}{% assign de_label = "LXQt" %}
+      {% when "lxde" %}{% assign de_label = "LXDE" %}
+      {% when "i3" %}{% assign de_label = "i3" %}
+      {% when "cosmic" %}{% assign de_label = "COSMIC" %}
+      {% else %}{% assign de_label = de | strip | capitalize %}
+    {% endcase %}
+    {% assign re_de_labels = re_de_labels | push: de_label %}
+  {% endif %}
+{% endfor %}
+{% assign re_de_keys = re_de_keys | strip %}
+
+{% comment %} ---- Latest release (first entry of the releases map) ---- {% endcomment %}
+{% assign re_latest_name = nil %}
+{% assign re_latest_url = nil %}
+{% for release in om_page.releases limit: 1 %}
+  {% assign re_latest_name = release[0] %}
+  {% assign re_latest_url = release[1] %}
+{% endfor %}

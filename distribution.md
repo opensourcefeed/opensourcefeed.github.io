@@ -230,6 +230,73 @@ seo:
     color:#222;
 }
 
+
+.distribution-card{ position:relative; }
+.distribution-card-body{ display:flex; flex-direction:column; gap:2px; min-width:0; padding-right:2.4rem; }
+.distribution-card-meta{ color:#6b7280; font-size:0.78rem; }
+.distribution-card-rank{
+    position:absolute;
+    top:8px;
+    right:10px;
+    padding:1px 7px;
+    border-radius:999px;
+    background:#eaf2fc;
+    color:#046cdc;
+    font-size:0.72rem;
+    font-weight:700;
+    font-variant-numeric:tabular-nums;
+}
+
+.distribution-filters{
+    display:flex;
+    flex-direction:column;
+    gap:0.6rem;
+    max-width:960px;
+    margin:0 auto 1.75rem auto;
+    padding:0.85rem 1rem;
+    border:1px solid #e3ecf7;
+    border-radius:14px;
+    background:#f6f9fd;
+}
+.distribution-filter-chips,
+.distribution-filter-row,
+.distribution-sort{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:0.4rem;
+}
+.distribution-filter-row{ gap:0.6rem 1.25rem; }
+.distribution-filter-label{ font-size:0.85rem; font-weight:700; color:#6b7280; margin-right:0.15rem; }
+.distribution-chip{
+    appearance:none;
+    padding:0.3rem 0.75rem;
+    border:1px solid #e3ecf7;
+    border-radius:999px;
+    background:#fff;
+    color:#222;
+    font-size:0.85rem;
+    font-weight:600;
+    line-height:1.2;
+    cursor:pointer;
+}
+.distribution-chip:hover{ border-color:#5aa2ee; color:#046cdc; }
+.distribution-chip.is-active{ background:#046cdc; border-color:#046cdc; color:#fff; }
+.distribution-filter-select{ display:flex; align-items:center; gap:0.5rem; margin:0; }
+.distribution-filter-select select{
+    padding:0.3rem 2rem 0.3rem 0.75rem;
+    border:1px solid #e3ecf7;
+    border-radius:999px;
+    background-color:#fff;
+    color:#222;
+    font-size:0.85rem;
+    font-weight:600;
+}
+.distribution-rank-link{ margin-left:auto; font-size:0.85rem; font-weight:600; }
+@media (max-width:575px){
+    .distribution-rank-link{ margin-left:0; }
+}
+
 .distribution-section[hidden],
 .distribution-card[hidden]{
     display:none !important;
@@ -269,10 +336,50 @@ seo:
         <div class="distribution-search-status" id="distribution-search-status" role="status" aria-live="polite"></div>
     </div>
 
+    <div class="distribution-filters" id="distribution-filters">
+        <div class="distribution-filter-chips" role="group" aria-label="Filter by base">
+            <span class="distribution-filter-label">Base</span>
+            <button type="button" class="distribution-chip" data-base="">All</button>
+            <button type="button" class="distribution-chip" data-base="debian">Debian</button>
+            <button type="button" class="distribution-chip" data-base="ubuntu">Ubuntu</button>
+            <button type="button" class="distribution-chip" data-base="arch">Arch</button>
+            <button type="button" class="distribution-chip" data-base="fedora">Fedora / RHEL</button>
+            <button type="button" class="distribution-chip" data-base="gentoo">Gentoo</button>
+            <button type="button" class="distribution-chip" data-base="slackware">Slackware</button>
+            <button type="button" class="distribution-chip" data-base="bsd">BSD</button>
+            <button type="button" class="distribution-chip" data-base="independent">Independent</button>
+        </div>
+        <div class="distribution-filter-row">
+            <label class="distribution-filter-select">
+                <span class="distribution-filter-label">Desktop</span>
+                <select id="distribution-filter-de">
+                    <option value="">Any desktop</option>
+                    <option value="gnome">GNOME</option>
+                    <option value="plasma">KDE Plasma</option>
+                    <option value="xfce">Xfce</option>
+                    <option value="mate">MATE</option>
+                    <option value="cinnamon">Cinnamon</option>
+                    <option value="lxqt">LXQt</option>
+                    <option value="lxde">LXDE</option>
+                    <option value="budgie">Budgie</option>
+                    <option value="openbox">Openbox</option>
+                    <option value="i3">i3</option>
+                </select>
+            </label>
+            <div class="distribution-sort" role="group" aria-label="Sort distributions">
+                <span class="distribution-filter-label">Sort</span>
+                <button type="button" class="distribution-chip" data-sort="az">A&ndash;Z</button>
+                <button type="button" class="distribution-chip" data-sort="popular">Most popular</button>
+            </div>
+            <a class="distribution-rank-link" href="/page-hit-rank/">Full popularity ranking &rarr;</a>
+        </div>
+    </div>
+
     <div id="distribution-results">
 
     {% assign linux_distributions = site.pages | where: "Category", "Distribution" | where_exp: "item", "item.type != 'BSD'" | where_exp: "item", "item.type != 'Other'" | sort: "title" %}
     {% assign bsd_distributions = site.pages | where: "Category", "Distribution" | where: "type", "BSD" | sort: "title" %}
+    {% assign rank_list = site.data.rank.rankings.d30.distributions | default: site.data.rank.distributions %}
     {% assign other_distributions = site.pages | where: "Category", "Distribution" | where: "type", "Other" | sort: "title" %}
 
     <section class="distribution-section">
@@ -282,7 +389,9 @@ seo:
         </div>
         <div class="distribution-grid">
             {% for page in linux_distributions %}
-            <a href="{{ page.url }}" class="distribution-card" data-name="{{ page.title | downcase }} {{ page.url | split: '/' | last | downcase }}">
+            {% include os-meta.html page=page %}
+            {% assign card_rank = rank_list | where: "url", page.url | first %}
+            <a href="{{ page.url }}" class="distribution-card" data-name="{{ page.title | downcase }} {{ page.url | split: '/' | last | downcase }}" data-bases="{{ re_base_keys }}" data-des="{{ re_de_keys }}" data-rank="{% if card_rank.current %}{{ card_rank.current.rank }}{% endif %}">
                 <div class="distribution-card-media">
                     {% if page.logo %}
                     <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title }} logo" loading="lazy"
@@ -292,7 +401,11 @@ seo:
                     <div class="distribution-card-fallback" aria-hidden="true">OS</div>
                     {% endif %}
                 </div>
-                <div class="distribution-card-title">{{ page.title }}</div>
+                <div class="distribution-card-body">
+                    <div class="distribution-card-title">{{ page.title }}</div>
+                    {% if re_base_label %}<div class="distribution-card-meta">{{ re_base_label }}</div>{% endif %}
+                </div>
+                {% if card_rank.current %}<span class="distribution-card-rank" title="#{{ card_rank.current.rank }} in the last 30 days on the popularity ranking">#{{ card_rank.current.rank }}</span>{% endif %}
             </a>
             {% endfor %}
         </div>
@@ -305,7 +418,9 @@ seo:
         </div>
         <div class="distribution-grid">
             {% for page in bsd_distributions %}
-            <a href="{{ page.url }}" class="distribution-card" data-name="{{ page.title | downcase }} {{ page.url | split: '/' | last | downcase }}">
+            {% include os-meta.html page=page %}
+            {% assign card_rank = rank_list | where: "url", page.url | first %}
+            <a href="{{ page.url }}" class="distribution-card" data-name="{{ page.title | downcase }} {{ page.url | split: '/' | last | downcase }}" data-bases="{{ re_base_keys }}" data-des="{{ re_de_keys }}" data-rank="{% if card_rank.current %}{{ card_rank.current.rank }}{% endif %}">
                 <div class="distribution-card-media">
                     {% if page.logo %}
                     <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title }} logo" loading="lazy"
@@ -315,7 +430,11 @@ seo:
                     <div class="distribution-card-fallback" aria-hidden="true">BSD</div>
                     {% endif %}
                 </div>
-                <div class="distribution-card-title">{{ page.title }}</div>
+                <div class="distribution-card-body">
+                    <div class="distribution-card-title">{{ page.title }}</div>
+                    {% if re_base_label %}<div class="distribution-card-meta">{{ re_base_label }}</div>{% endif %}
+                </div>
+                {% if card_rank.current %}<span class="distribution-card-rank" title="#{{ card_rank.current.rank }} in the last 30 days on the popularity ranking">#{{ card_rank.current.rank }}</span>{% endif %}
             </a>
             {% endfor %}
         </div>
@@ -328,7 +447,9 @@ seo:
         </div>
         <div class="distribution-grid">
             {% for page in other_distributions %}
-            <a href="{{ page.url }}" class="distribution-card" data-name="{{ page.title | downcase }} {{ page.url | split: '/' | last | downcase }}">
+            {% include os-meta.html page=page %}
+            {% assign card_rank = rank_list | where: "url", page.url | first %}
+            <a href="{{ page.url }}" class="distribution-card" data-name="{{ page.title | downcase }} {{ page.url | split: '/' | last | downcase }}" data-bases="{{ re_base_keys }}" data-des="{{ re_de_keys }}" data-rank="{% if card_rank.current %}{{ card_rank.current.rank }}{% endif %}">
                 <div class="distribution-card-media">
                     {% if page.logo %}
                     <img src="/assets/images/logo/{{ page.logo }}" alt="{{ page.title }} logo" loading="lazy"
@@ -338,14 +459,18 @@ seo:
                     <div class="distribution-card-fallback" aria-hidden="true">OS</div>
                     {% endif %}
                 </div>
-                <div class="distribution-card-title">{{ page.title }}</div>
+                <div class="distribution-card-body">
+                    <div class="distribution-card-title">{{ page.title }}</div>
+                    {% if re_base_label %}<div class="distribution-card-meta">{{ re_base_label }}</div>{% endif %}
+                </div>
+                {% if card_rank.current %}<span class="distribution-card-rank" title="#{{ card_rank.current.rank }} in the last 30 days on the popularity ranking">#{{ card_rank.current.rank }}</span>{% endif %}
             </a>
             {% endfor %}
         </div>
     </section>
 
     <p class="distribution-empty" id="distribution-empty" role="status">
-        No distributions match <strong id="distribution-empty-term"></strong>. Try a different name.
+        No distributions match <strong id="distribution-empty-term"></strong>. Try a different name or clear the filters.
     </p>
 
     </div><!-- /#distribution-results -->
@@ -376,15 +501,65 @@ seo:
     var status = document.getElementById('distribution-search-status');
     var empty = document.getElementById('distribution-empty');
     var emptyTerm = document.getElementById('distribution-empty-term');
+    var filterBar = document.getElementById('distribution-filters');
+    var baseChips = filterBar.querySelectorAll('[data-base]');
+    var sortChips = filterBar.querySelectorAll('[data-sort]');
+    var deSelect = document.getElementById('distribution-filter-de');
     var sections = Array.prototype.slice.call(document.querySelectorAll('.distribution-section'));
 
     sections.forEach(function (section) {
+        section._grid = section.querySelector('.distribution-grid');
         section._cards = Array.prototype.slice.call(section.querySelectorAll('.distribution-card'));
+        section._cards.forEach(function (card, i) { card._order = i; });
         section._countEl = section.querySelector('[data-distribution-count]');
     });
 
+    var params = new URLSearchParams(window.location.search);
+    var state = {
+        base: params.get('base') || '',
+        de: params.get('de') || '',
+        sort: params.get('sort') === 'popular' ? 'popular' : 'az'
+    };
+    if (!filterBar.querySelector('[data-base="' + state.base + '"]')) state.base = '';
+    if (!deSelect.querySelector('option[value="' + state.de + '"]')) state.de = '';
+
     function label(n) {
         return n + (n === 1 ? ' distribution' : ' distributions');
+    }
+
+    function hasToken(list, token) {
+        return (' ' + (list || '') + ' ').indexOf(' ' + token + ' ') >= 0;
+    }
+
+    function rankOf(card) {
+        var r = parseInt(card.getAttribute('data-rank'), 10);
+        return isNaN(r) ? Infinity : r;
+    }
+
+    function applySort() {
+        sections.forEach(function (section) {
+            var cards = section._cards.slice();
+            if (state.sort === 'popular') {
+                cards.sort(function (a, b) {
+                    var ra = rankOf(a), rb = rankOf(b);
+                    if (ra !== rb) return ra < rb ? -1 : 1;
+                    return a._order - b._order;
+                });
+            } else {
+                cards.sort(function (a, b) { return a._order - b._order; });
+            }
+            cards.forEach(function (card) { section._grid.appendChild(card); });
+        });
+    }
+
+    function syncUrl() {
+        var q = new URLSearchParams(window.location.search);
+        ['base', 'de', 'sort'].forEach(function (k) { q.delete(k); });
+        if (state.base) q.set('base', state.base);
+        if (state.de) q.set('de', state.de);
+        if (state.sort === 'popular') q.set('sort', 'popular');
+        var qs = q.toString();
+        history.replaceState(null, '', window.location.pathname + (qs ? '?' + qs : '') + window.location.hash);
     }
 
     function applyFilter() {
@@ -394,7 +569,9 @@ seo:
         sections.forEach(function (section) {
             var visible = 0;
             section._cards.forEach(function (card) {
-                var match = !query || (card.getAttribute('data-name') || '').indexOf(query) !== -1;
+                var match = (!query || (card.getAttribute('data-name') || '').indexOf(query) !== -1) &&
+                    (!state.base || hasToken(card.getAttribute('data-bases'), state.base)) &&
+                    (!state.de || hasToken(card.getAttribute('data-des'), state.de));
                 card.hidden = !match;
                 if (match) visible++;
             });
@@ -404,20 +581,34 @@ seo:
         });
 
         var hasQuery = query.length > 0;
+        var hasFilters = !!(state.base || state.de);
         clearBtn.classList.toggle('is-visible', hasQuery);
 
-        if (hasQuery && total === 0) {
-            emptyTerm.textContent = '"' + input.value.trim() + '"';
+        if ((hasQuery || hasFilters) && total === 0) {
+            emptyTerm.textContent = hasQuery ? '"' + input.value.trim() + '"' : 'these filters';
             empty.style.display = 'block';
         } else {
             empty.style.display = 'none';
         }
 
-        if (hasQuery) {
-            status.textContent = total + ' ' + (total === 1 ? 'result' : 'results') + ' found';
-        } else {
-            status.textContent = '';
-        }
+        status.textContent = (hasQuery || hasFilters) ? total + ' ' + (total === 1 ? 'result' : 'results') + ' found' : '';
+    }
+
+    function render() {
+        baseChips.forEach(function (chip) {
+            var on = chip.getAttribute('data-base') === state.base;
+            chip.classList.toggle('is-active', on);
+            chip.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+        sortChips.forEach(function (chip) {
+            var on = chip.getAttribute('data-sort') === state.sort;
+            chip.classList.toggle('is-active', on);
+            chip.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+        deSelect.value = state.de;
+        applySort();
+        applyFilter();
+        syncUrl();
     }
 
     input.addEventListener('input', applyFilter);
@@ -435,6 +626,23 @@ seo:
         input.focus();
     });
 
-    applyFilter();
+    baseChips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+            state.base = chip.getAttribute('data-base');
+            render();
+        });
+    });
+    sortChips.forEach(function (chip) {
+        chip.addEventListener('click', function () {
+            state.sort = chip.getAttribute('data-sort');
+            render();
+        });
+    });
+    deSelect.addEventListener('change', function () {
+        state.de = deSelect.value;
+        render();
+    });
+
+    render();
 })();
 </script>
