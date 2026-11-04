@@ -12,6 +12,8 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+  - TODO-page-hit-rank.md
+  - assets/pageview
 permalink: ':title/'
 plugins:
   - jekyll-seo-tag

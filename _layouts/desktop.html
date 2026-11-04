@@ -43,20 +43,17 @@ layout: default
                             <td><a href="{{ page.home_page }}" target="_blank">{{page.home_page}}</a></td>
                         </tr>
                         {% endif %}
-                        {% assign dist_rank = nil %}
-                        {% for desktop in site.data.rank.desktops %}
-                            {% if desktop.url == page.url %}
-                                {% assign dist_rank = desktop.current %}
-                            {% endif %}
-                        {% endfor %}
+                        {% assign rank_entry = site.data.rank.desktops | where: "url", page.url | first %}
                         <tr>
-                            <td>Page Hit Rank (rank/views)</td>
+                            <td>Popularity rank</td>
                             <td>
                                 <a href="/page-hit-rank/">
-                                {% if dist_rank %}
-                                    {{dist_rank.rank}} ({{dist_rank.count}} hits per month)
+                                {% if rank_entry and rank_entry.current %}
+                                    #{{ rank_entry.current.rank }} in the last 30 days
+                                    {% if rank_entry.change != nil %}{% assign rank_change = rank_entry.change %}{% elsif rank_entry.previous and rank_entry.previous.rank %}{% assign rank_change = rank_entry.previous.rank | minus: rank_entry.current.rank %}{% else %}{% assign rank_change = nil %}{% endif %}
+                                    {% if rank_change == nil %}(new){% elsif rank_change > 0 %}(&#9650;&#8239;{{ rank_change }}){% elsif rank_change < 0 %}(&#9660;&#8239;{{ rank_change | abs }}){% endif %}
                                 {% else %}
-                                    &infin;
+                                    Not ranked
                                 {% endif %}
                                 </a>
                             </td>

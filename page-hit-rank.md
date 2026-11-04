@@ -43,17 +43,59 @@ seo:
 .rank-page .name-col a {
   white-space: normal;
 }
-.rank-page .views-col,
-.rank-page .status-indicator {
+.rank-page .rank-col,
+.rank-page .change-col {
   white-space: nowrap;
+  width: 1%;
 }
-.rank-page .status-indicator {
+.rank-page .rank-col {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.rank-page .score-col {
+  width: 38%;
+  min-width: 9rem;
+}
+.rank-page .score-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.rank-page .score-bar {
+  flex: 1;
+  height: 0.5rem;
+  border-radius: 999px;
+  background: #e8f0fb;
+  overflow: hidden;
+}
+.rank-page .score-bar span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #5aa2ee, #046cdc);
+}
+.rank-page .score-value {
+  min-width: 2rem;
+  text-align: right;
   font-weight: 600;
+  font-variant-numeric: tabular-nums;
 }
-.rank-page .status-indicator span {
+.rank-page .rank-change {
   display: inline-block;
-  min-width: 1.25rem;
+  min-width: 2.6rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 700;
   text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+.rank-page .rank-change.is-up { background: #e3f6ea; color: #157a3c; }
+.rank-page .rank-change.is-down { background: #fde8e8; color: #b42323; }
+.rank-page .rank-change.is-same { background: #f1f3f5; color: #6c757d; }
+.rank-page .rank-change.is-new { background: #eaf2fc; color: #046cdc; letter-spacing: 0.03em; }
+.rank-page .period-range {
+  margin-top: -0.4rem;
 }
 .rank-page details > summary {
   cursor: pointer;
@@ -211,13 +253,14 @@ seo:
 {% assign d30_desktops = rankings.d30.desktops | default: site.data.rank.desktops %}
 {% assign m3_distributions = rankings.m3.distributions | default: site.data.rank.distributions %}
 {% assign m3_desktops = rankings.m3.desktops | default: site.data.rank.desktops %}
+{% assign periods = site.data.rank.meta.periods %}
 
 <div class="distribution">
   <div class="rank-page">
     <h1>Open Source Popularity Ranking</h1>
     <hr>
     <p>This page shows popularity rankings of open source operating systems and desktop environments based on OpenSourceFeed page hits.</p>
-    <p>Both short-term (last 30 days) and medium-term (last 3 months) trends are shown to make comparisons easier.</p>
+    <p>Rankings are shown for the last 30 days and the last 3 months. <strong>Change</strong> compares each rank with the equivalent preceding period, and <strong>Popularity</strong> is relative to the #1 entry (100).</p>
 
     {% assign last_updated = site.data.rank.meta.currentDate | default: site.data.rank.meta.current_date %}
     {% if last_updated %}
@@ -240,202 +283,32 @@ seo:
 
     <section class="period-block" data-period="30d" aria-labelledby="last-30-days">
       <h2 id="last-30-days" class="period-title">Last 30 Days</h2>
+      {% if periods.d30.current %}<p class="small text-muted period-range">{{ periods.d30.current.start | date: "%b %-d" }} &ndash; {{ periods.d30.current.end | date: "%b %-d, %Y" }}, compared with {{ periods.d30.previous.start | date: "%b %-d" }} &ndash; {{ periods.d30.previous.end | date: "%b %-d" }}</p>{% endif %}
       <div id="rank-results" class="row g-4">
         <div class="col-12 rank-section" data-period="30d" data-type="os" id="last-30-days-os">
           <h3>Operating Systems</h3>
-          <div class="table-responsive-md">
-            <table class="table table-sm table-striped table-hover align-middle rank-table">
-              <thead>
-                <tr>
-                  <th>Rank</th>
-                  <th class="name-col">OS</th>
-                  <th>Status</th>
-                  <th class="text-end views-col">Page Views</th>
-                </tr>
-              </thead>
-              <tbody>
-                {% for distribution in d30_distributions %}
-                  {% assign match = nil %}
-                  {% for page in site.pages %}
-                    {% if page.url == distribution.url %}
-                      {% assign match = page %}
-                      {% break %}
-                    {% endif %}
-                  {% endfor %}
-
-                  {% if match and distribution.current %}
-                  <tr>
-                    <td>{{ distribution.current.rank }}</td>
-                    <td class="name-col"><a href="{{ match.url }}">{{ match.title }}</a></td>
-                    <td class="status-indicator">
-                      {% if distribution.previous and distribution.previous.rank %}
-                        {% if distribution.current.rank < distribution.previous.rank %}
-                          <span title="Moved up from {{ distribution.previous.rank }}" class="text-success" aria-label="Moved up from previous rank {{ distribution.previous.rank }}">&uarr;<span class="visually-hidden">Moved up from previous rank {{ distribution.previous.rank }}</span></span>
-                        {% elsif distribution.previous.rank < distribution.current.rank %}
-                          <span title="Moved down from {{ distribution.previous.rank }}" class="text-danger" aria-label="Moved down from previous rank {{ distribution.previous.rank }}">&darr;<span class="visually-hidden">Moved down from previous rank {{ distribution.previous.rank }}</span></span>
-                        {% else %}
-                          <span title="No change from {{ distribution.previous.rank }}" class="text-muted" aria-label="No change from previous rank {{ distribution.previous.rank }}">&rarr;<span class="visually-hidden">No change from previous rank {{ distribution.previous.rank }}</span></span>
-                        {% endif %}
-                      {% else %}
-                        <span title="New in ranking" class="text-muted" aria-label="New in ranking">&bull;<span class="visually-hidden">New in ranking</span></span>
-                      {% endif %}
-                    </td>
-                    <td class="text-end views-col">{{ distribution.current.count }}</td>
-                  </tr>
-                  {% endif %}
-                {% endfor %}
-              </tbody>
-            </table>
-          </div>
+          {% include rank-table.html entries=d30_distributions name_label="OS" compare="previous 30 days" %}
         </div>
 
         <div class="col-12 rank-section" data-period="30d" data-type="desktop" id="last-30-days-desktop">
           <h3>Desktop Environments</h3>
-          <div class="table-responsive-md">
-            <table class="table table-sm table-striped table-hover align-middle rank-table">
-              <thead>
-                <tr>
-                  <th>Rank</th>
-                  <th class="name-col">Desktop / WM</th>
-                  <th>Status</th>
-                  <th class="text-end views-col">Page Views</th>
-                </tr>
-              </thead>
-              <tbody>
-                {% for desktop in d30_desktops %}
-                  {% assign match = nil %}
-                  {% for page in site.pages %}
-                    {% if page.url == desktop.url %}
-                      {% assign match = page %}
-                      {% break %}
-                    {% endif %}
-                  {% endfor %}
-
-                  {% if match and desktop.current %}
-                  <tr>
-                    <td>{{ desktop.current.rank }}</td>
-                    <td class="name-col"><a href="{{ match.url }}">{{ match.title }}</a></td>
-                    <td class="status-indicator">
-                      {% if desktop.previous and desktop.previous.rank %}
-                        {% if desktop.current.rank < desktop.previous.rank %}
-                          <span title="Moved up from {{ desktop.previous.rank }}" class="text-success" aria-label="Moved up from previous rank {{ desktop.previous.rank }}">&uarr;<span class="visually-hidden">Moved up from previous rank {{ desktop.previous.rank }}</span></span>
-                        {% elsif desktop.previous.rank < desktop.current.rank %}
-                          <span title="Moved down from {{ desktop.previous.rank }}" class="text-danger" aria-label="Moved down from previous rank {{ desktop.previous.rank }}">&darr;<span class="visually-hidden">Moved down from previous rank {{ desktop.previous.rank }}</span></span>
-                        {% else %}
-                          <span title="No change from {{ desktop.previous.rank }}" class="text-muted" aria-label="No change from previous rank {{ desktop.previous.rank }}">&rarr;<span class="visually-hidden">No change from previous rank {{ desktop.previous.rank }}</span></span>
-                        {% endif %}
-                      {% else %}
-                        <span title="New in ranking" class="text-muted" aria-label="New in ranking">&bull;<span class="visually-hidden">New in ranking</span></span>
-                      {% endif %}
-                    </td>
-                    <td class="text-end views-col">{{ desktop.current.count }}</td>
-                  </tr>
-                  {% endif %}
-                {% endfor %}
-              </tbody>
-            </table>
-          </div>
+          {% include rank-table.html entries=d30_desktops name_label="Desktop / WM" compare="previous 30 days" %}
         </div>
       </div>
     </section>
 
     <section class="period-block" data-period="3m" aria-labelledby="last-3-months">
       <h2 id="last-3-months" class="period-title">Last 3 Months</h2>
+      {% if periods.m3.current %}<p class="small text-muted period-range">{{ periods.m3.current.start | date: "%b %-d" }} &ndash; {{ periods.m3.current.end | date: "%b %-d, %Y" }}, compared with {{ periods.m3.previous.start | date: "%b %-d" }} &ndash; {{ periods.m3.previous.end | date: "%b %-d" }}</p>{% endif %}
       <div class="row g-4">
         <div class="col-12 rank-section" data-period="3m" data-type="os" id="last-3-months-os">
           <h3>Operating Systems</h3>
-          <div class="table-responsive-md">
-            <table class="table table-sm table-striped table-hover align-middle rank-table">
-              <thead>
-                <tr>
-                  <th>Rank</th>
-                  <th class="name-col">OS</th>
-                  <th>Status</th>
-                  <th class="text-end views-col">Page Views</th>
-                </tr>
-              </thead>
-              <tbody>
-                {% for distribution in m3_distributions %}
-                  {% assign match = nil %}
-                  {% for page in site.pages %}
-                    {% if page.url == distribution.url %}
-                      {% assign match = page %}
-                      {% break %}
-                    {% endif %}
-                  {% endfor %}
-
-                  {% if match and distribution.current %}
-                  <tr>
-                    <td>{{ distribution.current.rank }}</td>
-                    <td class="name-col"><a href="{{ match.url }}">{{ match.title }}</a></td>
-                    <td class="status-indicator">
-                      {% if distribution.previous and distribution.previous.rank %}
-                        {% if distribution.current.rank < distribution.previous.rank %}
-                          <span title="Moved up from {{ distribution.previous.rank }}" class="text-success" aria-label="Moved up from previous rank {{ distribution.previous.rank }}">&uarr;<span class="visually-hidden">Moved up from previous rank {{ distribution.previous.rank }}</span></span>
-                        {% elsif distribution.previous.rank < distribution.current.rank %}
-                          <span title="Moved down from {{ distribution.previous.rank }}" class="text-danger" aria-label="Moved down from previous rank {{ distribution.previous.rank }}">&darr;<span class="visually-hidden">Moved down from previous rank {{ distribution.previous.rank }}</span></span>
-                        {% else %}
-                          <span title="No change from {{ distribution.previous.rank }}" class="text-muted" aria-label="No change from previous rank {{ distribution.previous.rank }}">&rarr;<span class="visually-hidden">No change from previous rank {{ distribution.previous.rank }}</span></span>
-                        {% endif %}
-                      {% else %}
-                        <span title="New in ranking" class="text-muted" aria-label="New in ranking">&bull;<span class="visually-hidden">New in ranking</span></span>
-                      {% endif %}
-                    </td>
-                    <td class="text-end views-col">{{ distribution.current.count }}</td>
-                  </tr>
-                  {% endif %}
-                {% endfor %}
-              </tbody>
-            </table>
-          </div>
+          {% include rank-table.html entries=m3_distributions name_label="OS" compare="previous 3 months" %}
         </div>
 
         <div class="col-12 rank-section" data-period="3m" data-type="desktop" id="last-3-months-desktop">
           <h3>Desktop Environments</h3>
-          <div class="table-responsive-md">
-            <table class="table table-sm table-striped table-hover align-middle rank-table">
-              <thead>
-                <tr>
-                  <th>Rank</th>
-                  <th class="name-col">Desktop / WM</th>
-                  <th>Status</th>
-                  <th class="text-end views-col">Page Views</th>
-                </tr>
-              </thead>
-              <tbody>
-                {% for desktop in m3_desktops %}
-                  {% assign match = nil %}
-                  {% for page in site.pages %}
-                    {% if page.url == desktop.url %}
-                      {% assign match = page %}
-                      {% break %}
-                    {% endif %}
-                  {% endfor %}
-
-                  {% if match and desktop.current %}
-                  <tr>
-                    <td>{{ desktop.current.rank }}</td>
-                    <td class="name-col"><a href="{{ match.url }}">{{ match.title }}</a></td>
-                    <td class="status-indicator">
-                      {% if desktop.previous and desktop.previous.rank %}
-                        {% if desktop.current.rank < desktop.previous.rank %}
-                          <span title="Moved up from {{ desktop.previous.rank }}" class="text-success" aria-label="Moved up from previous rank {{ desktop.previous.rank }}">&uarr;<span class="visually-hidden">Moved up from previous rank {{ desktop.previous.rank }}</span></span>
-                        {% elsif desktop.previous.rank < desktop.current.rank %}
-                          <span title="Moved down from {{ desktop.previous.rank }}" class="text-danger" aria-label="Moved down from previous rank {{ desktop.previous.rank }}">&darr;<span class="visually-hidden">Moved down from previous rank {{ desktop.previous.rank }}</span></span>
-                        {% else %}
-                          <span title="No change from {{ desktop.previous.rank }}" class="text-muted" aria-label="No change from previous rank {{ desktop.previous.rank }}">&rarr;<span class="visually-hidden">No change from previous rank {{ desktop.previous.rank }}</span></span>
-                        {% endif %}
-                      {% else %}
-                        <span title="New in ranking" class="text-muted" aria-label="New in ranking">&bull;<span class="visually-hidden">New in ranking</span></span>
-                      {% endif %}
-                    </td>
-                    <td class="text-end views-col">{{ desktop.current.count }}</td>
-                  </tr>
-                  {% endif %}
-                {% endfor %}
-              </tbody>
-            </table>
-          </div>
+          {% include rank-table.html entries=m3_desktops name_label="Desktop / WM" compare="previous 3 months" %}
         </div>
       </div>
     </section>
@@ -655,10 +528,12 @@ seo:
     </script>
 
     <details class="alert alert-info mt-3">
-      <summary>Disclaimer - Page Hit Count Information</summary>
+      <summary>Methodology &amp; Disclaimer</summary>
       <div class="mt-2">
         <p><strong>Data Source:</strong> The page hit count displayed on this website is sourced from the <a href="https://developers.google.com/analytics/">Google Analytics API</a>. It serves as a general indicator of user interest and engagement with our content.</p>
-        <p><strong>Data Precision:</strong> The hit count provides a directional view and may not precisely reflect quality or efficiency of a distribution or desktop environment.</p>
+        <p><strong>Popularity score:</strong> Each entry's page views divided by the page views of the #1 entry in the same list, scaled to 100. Hits on old or alias URLs are merged into the main page.</p>
+        <p><strong>Rank change:</strong> Compares the current rank with the rank in the preceding period of the same length (for example, the last 30 days against the 30 days before them). &ldquo;NEW&rdquo; means the entry was not ranked in the preceding period.</p>
+        <p><strong>Data Precision:</strong> The ranking is a directional indicator of reader interest and does not reflect the quality or efficiency of a distribution or desktop environment.</p>
         <p><strong>Data Update Frequency:</strong> The displayed data is not real-time and may take several days to fully reflect traffic changes.</p>
       </div>
     </details>

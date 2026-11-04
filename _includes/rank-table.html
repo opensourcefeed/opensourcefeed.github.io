@@ -1,0 +1,67 @@
+{% comment %}
+  Ranking table.
+  Params:
+    entries     - list of ranking entries from _data/rank.yaml
+    name_label  - header for the name column
+    compare     - text describing the comparison window (e.g. "previous 30 days")
+{% endcomment %}
+{% assign rank_entries = include.entries %}
+{% assign leader_count = rank_entries.first.current.count | default: 0 %}
+<div class="table-responsive-md">
+  <table class="table table-sm table-hover align-middle rank-table">
+    <thead>
+      <tr>
+        <th scope="col" class="rank-col">Rank</th>
+        <th scope="col" class="name-col">{{ include.name_label }}</th>
+        <th scope="col" class="change-col" title="Rank change vs the {{ include.compare }}">Change</th>
+        <th scope="col" class="score-col" title="Popularity relative to #1 (= 100)">Popularity</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for entry in rank_entries %}
+        {% unless entry.current %}{% continue %}{% endunless %}
+        {% assign match = site.pages | where: "url", entry.url | first %}
+        {% unless match %}{% continue %}{% endunless %}
+
+        {% if entry.current.score %}
+          {% assign score = entry.current.score %}
+        {% elsif leader_count > 0 %}
+          {% assign score = entry.current.count | times: 100 | divided_by: leader_count %}
+          {% if score < 1 %}{% assign score = 1 %}{% endif %}
+        {% else %}
+          {% assign score = 0 %}
+        {% endif %}
+
+        {% if entry.change != nil %}
+          {% assign change = entry.change %}
+        {% elsif entry.previous and entry.previous.rank %}
+          {% assign change = entry.previous.rank | minus: entry.current.rank %}
+        {% else %}
+          {% assign change = nil %}
+        {% endif %}
+      <tr>
+        <td class="rank-col">{{ entry.current.rank }}</td>
+        <td class="name-col"><a href="{{ match.url }}">{{ match.title }}</a></td>
+        <td class="change-col">
+          {% if change == nil %}
+            <span class="rank-change is-new" title="Not ranked in the {{ include.compare }}">NEW</span>
+          {% elsif change > 0 %}
+            <span class="rank-change is-up" title="Up {{ change }} from #{{ entry.previous.rank }}">&#9650;&#8239;{{ change }}<span class="visually-hidden"> places up from rank {{ entry.previous.rank }}</span></span>
+          {% elsif change < 0 %}
+            {% assign drop = change | abs %}
+            <span class="rank-change is-down" title="Down {{ drop }} from #{{ entry.previous.rank }}">&#9660;&#8239;{{ drop }}<span class="visually-hidden"> places down from rank {{ entry.previous.rank }}</span></span>
+          {% else %}
+            <span class="rank-change is-same" title="Same rank as the {{ include.compare }}">&ndash;<span class="visually-hidden">No change</span></span>
+          {% endif %}
+        </td>
+        <td class="score-col">
+          <div class="score-wrap">
+            <div class="score-bar" aria-hidden="true"><span style="width: {{ score }}%"></span></div>
+            <span class="score-value">{{ score }}</span>
+          </div>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
