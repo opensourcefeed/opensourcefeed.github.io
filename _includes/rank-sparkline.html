@@ -1,0 +1,51 @@
+{% comment %}
+  Rank sparkline (rank 1 at the top). Gaps (unranked months) break the line.
+  Params: ranks (array, oldest first; nil = not ranked), months (labels, same length), name,
+          scale_max (shared worst rank for the y-axis; ranks beyond it sit on the bottom edge)
+{% endcomment %}
+{% assign sp_ranks = include.ranks %}
+{% assign sp_months = include.months %}
+{% assign sp_n = sp_ranks.size %}
+{% assign sp_w = 120 %}{% assign sp_h = 32 %}{% assign sp_pad = 5 %}
+{% assign sp_min = 100000 %}{% assign sp_max = 0 %}{% assign sp_count = 0 %}
+{% for r in sp_ranks %}{% if r %}
+  {% assign sp_count = sp_count | plus: 1 %}
+  {% if r < sp_min %}{% assign sp_min = r %}{% endif %}
+  {% if r > sp_max %}{% assign sp_max = r %}{% endif %}
+{% endif %}{% endfor %}
+{% assign sp_best = sp_min %}
+{% if sp_count >= 2 %}
+{% assign sp_floor = include.scale_max | default: sp_max %}
+{% assign sp_min = 1 %}
+{% assign sp_span = sp_floor | minus: 1 %}{% if sp_span < 1 %}{% assign sp_span = 1 %}{% endif %}
+{% assign sp_inner_w = sp_w | minus: sp_pad | minus: sp_pad %}
+{% assign sp_inner_h = sp_h | minus: sp_pad | minus: sp_pad %}
+{% assign sp_last_index = sp_n | minus: 1 %}
+{% assign sp_step = sp_inner_w | times: 1.0 | divided_by: sp_last_index %}
+{% assign sp_path = "" %}{% assign sp_pen = "M" %}{% assign sp_points = "" | split: "" %}
+{% for r in sp_ranks %}
+  {% if r %}
+    {% assign sp_x = forloop.index0 | times: sp_step | plus: sp_pad | round: 1 %}
+    {% assign sp_r = r %}{% if sp_r > sp_floor %}{% assign sp_r = sp_floor %}{% endif %}
+    {% assign sp_y = sp_r | minus: 1 | times: 1.0 | divided_by: sp_span | times: sp_inner_h | plus: sp_pad | round: 1 %}
+    {% assign sp_path = sp_path | append: sp_pen | append: sp_x | append: " " | append: sp_y | append: " " %}
+    {% assign sp_pen = "L" %}
+    {% assign sp_pt = sp_x | append: "," | append: sp_y | append: "," | append: r | append: "," | append: sp_months[forloop.index0] %}
+    {% assign sp_points = sp_points | push: sp_pt %}
+  {% else %}
+    {% assign sp_pen = "M" %}
+  {% endif %}
+{% endfor %}
+{% assign sp_first = sp_points | first | split: "," %}
+{% assign sp_last = sp_points | last | split: "," %}
+<svg class="sparkline" viewBox="0 0 {{ sp_w }} {{ sp_h }}" width="{{ sp_w }}" height="{{ sp_h }}" role="img"
+     aria-label="{{ include.name }} rank trend: #{{ sp_first[2] }} in {{ sp_first[3] }}, #{{ sp_last[2] }} {% if sp_last[3] == 'Now' %}now{% else %}in {{ sp_last[3] }}{% endif %}, best #{{ sp_best }}">
+  <path class="sparkline-line" d="{{ sp_path | strip }}"/>
+  <circle class="sparkline-end" cx="{{ sp_last[0] }}" cy="{{ sp_last[1] }}" r="4"/>
+  {% for pt in sp_points %}{% assign p = pt | split: "," %}
+  <circle class="sparkline-hit" cx="{{ p[0] }}" cy="{{ p[1] }}" r="7"><title>{{ p[3] }}: #{{ p[2] }}</title></circle>
+  {% endfor %}
+</svg>
+{% else %}
+<span class="sparkline-empty">Not enough history</span>
+{% endif %}

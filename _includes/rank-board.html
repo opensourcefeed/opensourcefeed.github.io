@@ -63,6 +63,33 @@
 </div>
 {% endif %}
 
+{% comment %} ================= 12-month trend (live 30-day lists only) ================= {% endcomment %}
+{% if include.trend_months and rb_entries.first.trend %}
+  {% assign tr_scale = 10 %}
+  {% for entry in rb_entries limit: 10 %}{% for r in entry.trend %}{% if r and r > tr_scale %}{% assign tr_scale = r %}{% endif %}{% endfor %}{% endfor %}
+  {% if tr_scale > 50 %}{% assign tr_scale = 50 %}{% endif %}
+<div class="rank-trend">
+  <div class="trend-head">
+    <h4 class="trend-title">12-month trend &middot; Top 10</h4>
+    <span class="trend-note">Monthly rank, {{ include.trend_months.first }} &ndash; now, on a shared #1&ndash;#{{ tr_scale }} scale{% if tr_scale == 50 %} (lower ranks sit on the bottom edge){% endif %}. Higher = better.</span>
+  </div>
+  <ol class="trend-list">
+    {% for entry in rb_entries limit: 10 %}
+      {% assign tr_page = site.pages | where: "url", entry.url | first %}
+      {% unless tr_page %}{% continue %}{% endunless %}
+      {% assign tr_best = 100000 %}
+      {% for r in entry.trend %}{% if r and r < tr_best %}{% assign tr_best = r %}{% endif %}{% endfor %}
+      <li class="trend-row">
+        <span class="trend-rank">{{ entry.current.rank }}</span>
+        <a class="trend-name" href="{{ tr_page.url }}">{{ tr_page.title }}</a>
+        <span class="trend-spark">{% include rank-sparkline.html ranks=entry.trend months=include.trend_months name=tr_page.title scale_max=tr_scale %}</span>
+        <span class="trend-best" title="Best monthly rank in the last 12 months">best #{{ tr_best }}</span>
+      </li>
+    {% endfor %}
+  </ol>
+</div>
+{% endif %}
+
 {% comment %} ================= Full list ================= {% endcomment %}
 <div class="rank-list-wrap">
 <div class="rank-list-head" aria-hidden="true">

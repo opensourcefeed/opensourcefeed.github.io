@@ -62,11 +62,13 @@ Baseline (2026-11-04): 1,133 views across 140 OSes in 30 days (top entry: 36 vie
 
 ## P3: History and archives
 
-- [ ] **Store a monthly snapshot** (e.g. `_data/rank_history/2026-10.yaml`).
-- [ ] **Sparklines / trend chart** for the top 10 over the last 6–12 months.
-- [ ] **Frozen monthly archive pages** (`/page-hit-rank/2026/10/`) linked from a
+- [x] **Store a monthly snapshot** (`_data/rank_history/YYYY-MM.yaml`, plus `YYYY.yaml` per year).
+      `fetch4.py` keeps the last 12 complete months and every complete year since 2023;
+      existing snapshots are frozen (`--rebuild-history` regenerates them).
+- [x] **Sparklines / trend chart** for the top 10 over the last 6–12 months.
+- [x] **Frozen monthly archive pages** (`/page-hit-rank/2026/10/`) linked from a
       "Previous months" list on the main page.
-- [ ] **Year-end page** ("Most Popular Linux Distros of 2026"), reviving the
+- [x] **Year-end page** ("Most Popular Linux Distros of 2026"), reviving the
       2021 "top 5 distributions" post format.
 
 ## P4: Composite popularity index (differentiator)
@@ -75,7 +77,7 @@ Baseline (2026-11-04): 1,133 views across 140 OSes in 30 days (top entry: 36 vie
       activity, subreddit subscribers, Google Trends, Flathub/AUR/Repology data).
 - [ ] **Build the fetch + scoring job** that outputs the blended score into `rank.yaml`.
 - [ ] **Document the methodology** on the page; show per-signal breakdown on hover/expand.
-- [ ] **Rename navbar item** "Page Hit Rank" → "Popularity Index" (keep the `/page-hit-rank/` URL).
+- [x] **Rename navbar item** "Page Hit Rank" → "Popularity Index" (keep the `/page-hit-rank/` URL).
 
 ## P5: Distribution and backlinks
 

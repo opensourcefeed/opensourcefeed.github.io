@@ -1,0 +1,22 @@
+{% comment %} Archive navigation. Params: current (archive_key of the page being viewed, optional) {% endcomment %}
+{% assign ra_pages = site.pages | where: "layout", "rank-archive" | sort: "archive_key" | reverse %}
+{% if ra_pages.size > 0 %}
+{% assign ra_years = ra_pages | where: "archive_kind", "year" %}
+{% assign ra_months = ra_pages | where: "archive_kind", "month" | group_by_exp: "p", "p.archive_key | slice: 0, 4" %}
+<section class="rank-archive-list" aria-labelledby="rank-archive-heading">
+  <h2 id="rank-archive-heading">Rankings archive</h2>
+  {% if ra_years.size > 0 %}
+  <div class="archive-group">
+    <span class="archive-group-label">Year in review</span>
+    {% for p in ra_years %}<a class="archive-chip{% if p.archive_key == include.current %} is-current{% endif %}" href="{{ p.url }}">{{ p.archive_key }}</a>{% endfor %}
+  </div>
+  {% endif %}
+  {% for group in ra_months %}
+  <div class="archive-group">
+    <span class="archive-group-label">{{ group.name }}</span>
+    {% assign ra_sorted = group.items | sort: "archive_key" %}
+    {% for p in ra_sorted %}<a class="archive-chip{% if p.archive_key == include.current %} is-current{% endif %}" href="{{ p.url }}" title="{{ p.title }}">{{ p.archive_key | append: "-01" | date: "%b" }}</a>{% endfor %}
+  </div>
+  {% endfor %}
+</section>
+{% endif %}

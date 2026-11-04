@@ -1,0 +1,101 @@
+---
+layout: default
+---
+{% comment %}
+  Frozen monthly / yearly popularity ranking.
+  Page front matter (written by assets/pageview/fetch4.py): archive_key, archive_kind ("month" | "year").
+  Data: _data/rank_history/<archive_key>.yaml
+{% endcomment %}
+{% include rank-styles.html %}
+{% assign snap = site.data.rank_history[page.archive_key] %}
+{% if page.archive_kind == "year" %}
+  {% assign ar_eyebrow = "Year in review" %}
+  {% assign ar_compare = "previous year" %}
+{% else %}
+  {% assign ar_eyebrow = "Monthly archive" %}
+  {% assign ar_compare = "previous month" %}
+{% endif %}
+
+<div class="distribution">
+  <div class="rank-page">
+
+    <header class="rank-hero">
+      <span class="rank-eyebrow">{{ ar_eyebrow }}</span>
+      <h1>{{ page.title }}</h1>
+      {% if snap %}
+        {% assign ar_os = snap.distributions | where_exp: "e", "e.current" %}
+        {% assign ar_de = snap.desktops | where_exp: "e", "e.current" %}
+        {% assign ar_os_names = "" | split: "" %}
+        {% for e in ar_os limit: 3 %}
+          {% assign ar_p = site.pages | where: "url", e.url | first %}
+          {% if ar_p %}{% assign ar_os_names = ar_os_names | push: ar_p.title %}{% endif %}
+        {% endfor %}
+        {% assign ar_de_top = ar_de.first %}
+        {% if ar_de_top %}{% assign ar_de_page = site.pages | where: "url", ar_de_top.url | first %}{% endif %}
+        {% assign ar_risers = ar_os | where_exp: "e", "e.current.rank <= 50" | where_exp: "e", "e.change > 0" | sort: "change" | reverse %}
+        {% assign ar_riser = ar_risers.first %}
+        {% if ar_riser %}{% assign ar_riser_page = site.pages | where: "url", ar_riser.url | first %}{% endif %}
+        <p class="archive-summary">
+          {% if ar_os_names.size > 0 %}In {{ snap.label }}, <strong>{{ ar_os_names[0] }}</strong> was the most-viewed operating system on OpenSourceFeed{% if ar_os_names.size > 2 %}, ahead of {{ ar_os_names[1] }} and {{ ar_os_names[2] }}{% elsif ar_os_names.size > 1 %}, ahead of {{ ar_os_names[1] }}{% endif %}.{% endif %}
+          {% if ar_de_page %}{{ ar_de_page.title }} led the desktop environments.{% endif %}
+          {% if ar_riser_page %}The biggest climber in the top 50 was {{ ar_riser_page.title }}, up from #{{ ar_riser.previous.rank }} to #{{ ar_riser.current.rank }}.{% endif %}
+        </p>
+        <p class="rank-updated">
+          {{ snap.period.start | date: "%b %-d, %Y" }} &ndash; {{ snap.period.end | date: "%b %-d, %Y" }}
+          &middot; compared with {{ snap.compare_label }}
+        </p>
+      {% endif %}
+      <a href="/page-hit-rank/">See the live ranking &rarr;</a>
+    </header>
+
+    {% if snap %}
+    <section class="archive-section" aria-labelledby="archive-os">
+      <div class="rank-section">
+        <h3 id="archive-os">Operating Systems</h3>
+        {% include rank-board.html entries=snap.distributions kind="os" compare=ar_compare label="operating system" %}
+      </div>
+    </section>
+
+    <section class="archive-section" aria-labelledby="archive-desktops">
+      <div class="rank-section">
+        <h3 id="archive-desktops">Desktop Environments</h3>
+        {% include rank-board.html entries=snap.desktops kind="desktop" compare=ar_compare label="desktop environment" %}
+      </div>
+    </section>
+    {% else %}
+    <p>No data is available for this period.</p>
+    {% endif %}
+
+    {% assign ar_same = site.pages | where: "layout", "rank-archive" | where: "archive_kind", page.archive_kind | sort: "archive_key" %}
+    {% assign ar_prev = nil %}{% assign ar_next = nil %}
+    {% for p in ar_same %}
+      {% if p.archive_key == page.archive_key %}
+        {% assign ar_i = forloop.index0 %}
+      {% endif %}
+    {% endfor %}
+    {% if ar_i %}
+      {% if ar_i > 0 %}{% assign ar_pi = ar_i | minus: 1 %}{% assign ar_prev = ar_same[ar_pi] %}{% endif %}
+      {% assign ar_ni = ar_i | plus: 1 %}{% assign ar_next = ar_same[ar_ni] %}
+    {% endif %}
+    <nav class="archive-nav" aria-label="Archive navigation">
+      <span>{% if ar_prev %}<a href="{{ ar_prev.url }}" rel="prev">&larr; {{ ar_prev.title | remove: "Most Popular Linux Distributions – " | remove: "Most Popular Linux Distros of " }}</a>{% endif %}</span>
+      <span>{% if ar_next %}<a href="{{ ar_next.url }}" rel="next">{{ ar_next.title | remove: "Most Popular Linux Distributions – " | remove: "Most Popular Linux Distros of " }} &rarr;</a>{% endif %}</span>
+    </nav>
+
+    {% include rank-archive-list.html current=page.archive_key %}
+
+    <section class="rank-method" aria-labelledby="methodology">
+      <h2 id="methodology">Methodology</h2>
+      <dl>
+        <dt>Data source</dt>
+        <dd>Page views of each distribution and desktop page on OpenSourceFeed during this {% if page.archive_kind == "year" %}calendar year{% else %}calendar month{% endif %}, from the Google Analytics Data API. Hits on old or alias URLs are merged into the main page.</dd>
+        <dt>Popularity score</dt>
+        <dd>Each entry's page views divided by those of the #1 entry in the same list, scaled to 100.</dd>
+        <dt>Rank change</dt>
+        <dd>Compared with the rank in {{ snap.compare_label | default: "the previous period" }}. &ldquo;NEW&rdquo; means the entry was not ranked then.</dd>
+        <dt>Frozen data</dt>
+        <dd>This page is a snapshot. It is not updated after the period ends; see the <a href="/page-hit-rank/">live ranking</a> for current numbers.</dd>
+      </dl>
+    </section>
+  </div>
+</div>
