@@ -1,0 +1,96 @@
+{% comment %}
+  Ranking board: top-3 podium, biggest movers, full ranked list.
+  Params:
+    entries  - ranking entries from _data/rank.yaml
+    kind     - "os" or "desktop"
+    compare  - comparison window text, e.g. "previous 30 days"
+    label    - singular noun for empty states, e.g. "operating system"
+{% endcomment %}
+{% assign rb_entries = include.entries | where_exp: "e", "e.current" %}
+{% assign rb_kind = include.kind %}
+
+{% comment %} ================= Podium ================= {% endcomment %}
+<div class="rank-podium" aria-label="Top 3">
+  {% for entry in rb_entries limit: 3 %}
+    {% include rank-entry-data.html entry=entry %}
+    {% unless re_page %}{% continue %}{% endunless %}
+    <article class="podium-card place-{{ entry.current.rank }}">
+      <div class="podium-medal" aria-hidden="true">{{ entry.current.rank }}</div>
+      <a class="podium-logo" href="{{ re_page.url }}" tabindex="-1" aria-hidden="true">
+        {% if re_logo %}<img src="{{ re_logo }}" alt="" width="72" height="72" decoding="async">{% else %}<span class="logo-fallback">{{ re_page.title | slice: 0 }}</span>{% endif %}
+      </a>
+      <h4 class="podium-name"><span class="visually-hidden">#{{ entry.current.rank }} </span><a href="{{ re_page.url }}">{{ re_page.title }}</a></h4>
+      {% if rb_kind == "os" and re_base_label %}<div class="podium-sub">{{ re_base_label }}</div>{% elsif re_page.tagline %}<div class="podium-sub">{{ re_page.tagline | truncate: 48 }}</div>{% endif %}
+      {% if re_latest_name %}<a class="podium-release" href="{{ re_latest_url }}">Latest: {{ re_latest_name }}</a>{% endif %}
+      <div class="podium-stats">
+        {% include rank-change.html change=re_change previous_rank=entry.previous.rank compare=include.compare %}
+        <span class="podium-score" title="Popularity relative to #1 (= 100)"><strong>{{ entry.current.score }}</strong><small>/100</small></span>
+      </div>
+    </article>
+  {% endfor %}
+</div>
+
+{% comment %} ================= Biggest movers ================= {% endcomment %}
+{% assign rb_pool = rb_entries | where_exp: "e", "e.current.rank <= 50" %}
+{% assign rb_risers = rb_pool | where_exp: "e", "e.change > 0" | sort: "change" | reverse %}
+{% assign rb_fallers = rb_pool | where_exp: "e", "e.change < 0" | sort: "change" %}
+{% if rb_risers.size > 0 or rb_fallers.size > 0 %}
+<div class="rank-movers">
+  {% if rb_risers.size > 0 %}
+  <div class="movers-group">
+    <h4 class="movers-title is-up">Biggest risers</h4>
+    <ul class="movers-list">
+      {% for entry in rb_risers limit: 3 %}
+        {% assign mv_page = site.pages | where: "url", entry.url | first %}
+        {% if mv_page %}<li><a href="{{ mv_page.url }}">{{ mv_page.title }}</a> <span class="movers-meta">#{{ entry.previous.rank }} &rarr; #{{ entry.current.rank }}</span> {% include rank-change.html change=entry.change previous_rank=entry.previous.rank compare=include.compare %}</li>{% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  {% if rb_fallers.size > 0 %}
+  <div class="movers-group">
+    <h4 class="movers-title is-down">Biggest fallers</h4>
+    <ul class="movers-list">
+      {% for entry in rb_fallers limit: 3 %}
+        {% assign mv_page = site.pages | where: "url", entry.url | first %}
+        {% if mv_page %}<li><a href="{{ mv_page.url }}">{{ mv_page.title }}</a> <span class="movers-meta">#{{ entry.previous.rank }} &rarr; #{{ entry.current.rank }}</span> {% include rank-change.html change=entry.change previous_rank=entry.previous.rank compare=include.compare %}</li>{% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+</div>
+{% endif %}
+
+{% comment %} ================= Full list ================= {% endcomment %}
+<div class="rank-list-head" aria-hidden="true">
+  <span>Rank</span><span>Name</span><span>Change</span><span>Popularity</span>
+</div>
+<ol class="rank-list">
+  {% for entry in rb_entries %}
+    {% include rank-entry-data.html entry=entry %}
+    {% unless re_page %}{% continue %}{% endunless %}
+    <li class="rank-row{% if entry.current.rank <= 3 %} is-podium{% endif %}" data-bases="{{ re_base_keys }}" data-des="{{ re_de_keys }}">
+      <span class="row-rank">{{ entry.current.rank }}</span>
+      <span class="row-logo" aria-hidden="true">
+        {% if re_logo %}<img src="{{ re_logo }}" alt="" width="36" height="36" loading="lazy" decoding="async">{% else %}<span class="logo-fallback">{{ re_page.title | slice: 0 }}</span>{% endif %}
+      </span>
+      <span class="row-main">
+        <a class="row-name" href="{{ re_page.url }}">{{ re_page.title }}</a>
+        <span class="row-chips">
+          {% if rb_kind == "os" %}
+            {% if re_base_label %}<span class="chip chip-base">{{ re_base_label }}</span>{% endif %}
+            {% for de_label in re_de_labels %}<span class="chip">{{ de_label }}</span>{% endfor %}
+          {% elsif re_latest_name %}
+            <span class="chip">{{ re_latest_name }}</span>
+          {% endif %}
+        </span>
+      </span>
+      <span class="row-change">{% include rank-change.html change=re_change previous_rank=entry.previous.rank compare=include.compare %}</span>
+      <span class="row-score" title="Popularity relative to #1 (= 100)">
+        <span class="score-bar" aria-hidden="true"><span style="width: {{ entry.current.score }}%"></span></span>
+        <span class="score-value">{{ entry.current.score }}<span class="visually-hidden"> out of 100</span></span>
+      </span>
+    </li>
+  {% endfor %}
+</ol>
+<p class="rank-empty" hidden>No {{ include.label }} matches these filters.</p>

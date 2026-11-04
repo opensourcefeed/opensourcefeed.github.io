@@ -1,0 +1,12 @@
+{% comment %} Params: change (number or nil), previous_rank, compare {% endcomment %}
+{%- assign rc = include.change -%}
+{%- if rc == nil -%}
+<span class="rank-change is-new" title="Not ranked in the {{ include.compare }}">NEW</span>
+{%- elsif rc > 0 -%}
+<span class="rank-change is-up" title="Up {{ rc }} from #{{ include.previous_rank }}">&#9650;&#8239;{{ rc }}<span class="visually-hidden"> places up from rank {{ include.previous_rank }}</span></span>
+{%- elsif rc < 0 -%}
+{%- assign rc_abs = rc | abs -%}
+<span class="rank-change is-down" title="Down {{ rc_abs }} from #{{ include.previous_rank }}">&#9660;&#8239;{{ rc_abs }}<span class="visually-hidden"> places down from rank {{ include.previous_rank }}</span></span>
+{%- else -%}
+<span class="rank-change is-same" title="Same rank as the {{ include.compare }}">&ndash;<span class="visually-hidden">No change</span></span>
+{%- endif -%}

@@ -40,15 +40,17 @@ Baseline (2026-11-04): 1,133 views across 140 OSes in 30 days (top entry: 36 vie
 
 ## P2: Premium visual redesign
 
-- [ ] **Top-3 podium** with logo, name, base, latest version and rank change.
-- [ ] **"Biggest movers" strip**: top 3 risers and top 3 fallers.
-- [ ] **Card/row layout with logos** replacing striped Bootstrap tables;
+- [x] **Top-3 podium** with logo, name, base, latest version and rank change.
+- [x] **"Biggest movers" strip**: top 3 risers and top 3 fallers.
+- [x] **Card/row layout with logos** replacing striped Bootstrap tables;
       relative-popularity bar per row; base and DE chips.
-- [ ] **Extra filters**: base (Debian / Arch / Fedora / Independent), use case
-      (gaming / privacy / lightweight), desktop environment.
-- [ ] **Move the ad** below the podium or first table, not between tables and context.
-- [ ] **Dark-mode friendly colors** (replace hard-coded `#046cdc` / `#555` with CSS variables).
-- [ ] **Performance:** replace the four nested `site.pages` loops with a single lookup map.
+- [x] **Extra filters**: base family and desktop environment (shareable via `?base=` / `?de=`).
+- [ ] **Use-case filter** (gaming / privacy / lightweight): needs a new `use_cases`
+      front matter field on distribution pages first.
+- [x] **Move the ad** below the podium or first table, not between tables and context.
+- [x] **CSS variables** for all rank-page colors (`--rk-*` on `.rank-page`).
+- [ ] **Dark-mode overrides**: add once the site itself gets a dark theme.
+- [x] **Performance:** replace the four nested `site.pages` loops with a single lookup map.
 
 ## P3: History and archives
 
