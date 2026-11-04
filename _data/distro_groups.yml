@@ -1,0 +1,58 @@
+# Base-family landing pages (/distribution/<slug>/).
+# `key` matches the family keys produced by _includes/os-meta.html.
+- key: debian
+  slug: debian-based
+  label: Debian-based
+  heading: Debian-based Linux Distributions
+  intro: >-
+    Debian-based distributions use Debian's APT package manager and .deb packages, and most
+    follow Debian Stable or Testing. They tend to favour stability and long release cycles,
+    which makes them a common choice for older hardware, servers and lightweight desktops.
+- key: ubuntu
+  slug: ubuntu-based
+  label: Ubuntu-based
+  heading: Ubuntu-based Linux Distributions
+  intro: >-
+    Ubuntu-based distributions build on Ubuntu, usually its Long Term Support releases, and
+    inherit its large software archive, PPAs and broad hardware support. Many differ from
+    Ubuntu mainly in their desktop, default apps and update policy.
+- key: arch
+  slug: arch-based
+  label: Arch-based
+  heading: Arch-based Linux Distributions
+  intro: >-
+    Arch-based distributions are rolling releases built on Arch Linux. They use the pacman
+    package manager, can usually install from the community-maintained Arch User Repository
+    (AUR), and receive new kernels and desktops soon after upstream releases them.
+- key: fedora
+  slug: fedora-based
+  label: Fedora / Red Hat-based
+  heading: Fedora and Red Hat-based Linux Distributions
+  intro: >-
+    These distributions derive from Fedora or Red Hat Enterprise Linux and use RPM packages
+    with the DNF package manager. Fedora ships a new release about every six months and is
+    the upstream for CentOS Stream and RHEL.
+- key: gentoo
+  slug: gentoo-based
+  label: Gentoo-based
+  heading: Gentoo-based Linux Distributions
+  intro: >-
+    Gentoo-based distributions use the Portage package manager, which builds software from
+    source with USE flags that control exactly which features are compiled in. Derivatives
+    often add binary packages or a graphical installer to make that model easier to start with.
+- key: slackware
+  slug: slackware-based
+  label: Slackware-based
+  heading: Slackware-based Linux Distributions
+  intro: >-
+    Slackware, first released in 1993, is the oldest Linux distribution still maintained.
+    Its derivatives keep its simple design and plain-text configuration while adding
+    dependency-aware package tools, live modes or a friendlier installer.
+- key: bsd
+  slug: bsd
+  label: BSD
+  heading: BSD Operating Systems
+  intro: >-
+    The BSDs are complete Unix-like operating systems descended from Berkeley Software
+    Distribution, not Linux distributions. Each develops its kernel and base system together,
+    and most add third-party software through a ports tree or binary packages.

@@ -89,7 +89,7 @@
                         <td>
                             <a href="/page-hit-rank/">
                             {% if rank_entry and rank_entry.current %}
-                                #{{ rank_entry.current.rank }} in the last 30 days
+                                #{{ rank_entry.current.rank }} in the Popularity Index
                                 {% if rank_entry.change != nil %}{% assign rank_change = rank_entry.change %}{% elsif rank_entry.previous and rank_entry.previous.rank %}{% assign rank_change = rank_entry.previous.rank | minus: rank_entry.current.rank %}{% else %}{% assign rank_change = nil %}{% endif %}
                                 {% if rank_change == nil %}(new){% elsif rank_change > 0 %}(&#9650;&#8239;{{ rank_change }}){% elsif rank_change < 0 %}(&#9660;&#8239;{{ rank_change | abs }}){% endif %}
                             {% else %}
@@ -120,6 +120,10 @@
                                 {% endif %}
                                 {% endfor %}
                             </ul>
+                            {% include os-meta.html page=page %}
+                            {% assign base_family = re_base_keys | split: " " | first %}
+                            {% assign base_group = site.data.distro_groups | where: "key", base_family | first %}
+                            {% if base_group %}<a href="/distribution/{{ base_group.slug }}/">More {{ base_group.label }} distributions &rarr;</a>{% endif %}
                         </td>
                     </tr>
                     {% endif %}

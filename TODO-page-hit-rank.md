@@ -23,25 +23,24 @@ Baseline (2026-11-04): 1,133 views across 140 OSes in 30 days (top entry: 36 vie
 
 ## P1: SEO foundations
 
-- [ ] **Dynamic, dated title**, e.g. "Most Popular Linux Distributions (November 2026)
-      – Open Source Popularity Index", generated from `meta.current_date`.
-- [ ] **Add 300–600 words of commentary** above the tables (templated from data is fine):
-      leaders, biggest movers, new entries.
-- [ ] **`ItemList` JSON-LD** for the top 10 OSes and top 10 desktops.
-- [ ] **`Dataset` JSON-LD** with `dateModified` and a methodology description.
-- [ ] **FAQ section with `FAQPage` schema**: "What is the most popular Linux distro?",
-      "Which desktop environment is most used?", "How is this ranking calculated?"
-- [ ] **Turn the disclaimer into a visible "Methodology" section** (not a collapsed `<details>`).
-- [ ] **Separate crawlable URLs** for desktop environments and the 3-month view
-      (e.g. `/page-hit-rank/desktop-environments/`), each with its own title, description and canonical.
-- [ ] **Update distro/desktop page rows** in [_layouts/distribution.html](_layouts/distribution.html#L93-L100)
-      and [_layouts/desktop.html](_layouts/desktop.html#L53) to read
-      "#8 in the Popularity Index ▲2" instead of "8(24 hits per month)".
-
-- [ ] **Static landing pages per base and desktop** (e.g. `/distribution/arch-based/`,
-      `/distribution/kde-plasma/`): pre-filtered lists at their own URLs with an intro
-      paragraph, generated from front matter via `_includes/os-meta.html`. Filtered JS
-      views are not indexed; these pages target "Arch-based distributions"-style queries.
+- [x] **Dynamic, dated title**: "Most Popular Linux Distributions (November 2026) – Popularity Index";
+      `fetch4.py` updates the month on each run.
+- [x] **Data-driven summary** in the header (leader, top climber, base mix of the top 20,
+      new entries). Kept to a few sentences instead of 300–600 words of filler.
+- [x] **`ItemList` JSON-LD** for the current top 10 on each live page.
+- [ ] ~~`Dataset` JSON-LD~~ skipped: there is no downloadable dataset to describe.
+- [ ] ~~FAQ section with `FAQPage` schema~~ skipped: Google limits FAQ rich results to
+      authoritative government/health sites, and the summary + methodology already answer these.
+- [x] **Visible "Methodology" section** (done in P2).
+- [x] **Separate URL for desktop environments**: `/page-hit-rank/desktop-environments/`
+      (old `?type=desktop` links redirect). The 3-month view stays a `?period=3m` toggle,
+      since a separate URL would mostly duplicate the 30-day page.
+- [x] **Distro/desktop page rows** read "#8 in the Popularity Index (▲ 2)".
+- [x] **Base-family pages**: `/distribution/{debian,ubuntu,arch,fedora,gentoo,slackware}-based/`
+      and `/distribution/bsd/`, each with a short intro and its distros ranked by
+      reader interest. Linked from the rank page, `distribution.md` and each distro's
+      "Base distributions" row. Desktop pages already list their distros, so no
+      per-desktop landing pages.
 
 ## P2: Premium visual redesign
 

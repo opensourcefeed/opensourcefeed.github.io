@@ -1,0 +1,99 @@
+---
+layout: default
+---
+{% comment %}
+  Base-family landing page. Front matter: group (key from _data/distro_groups.yml).
+  Lists every distribution of the family, ordered by the live 30-day popularity rank.
+{% endcomment %}
+{% include rank-styles.html %}
+{% assign dg = site.data.distro_groups | where: "key", page.group | first %}
+{% assign dg_rank = site.data.rank.rankings.d30.distributions | default: site.data.rank.distributions %}
+{% assign dg_all = site.pages | where: "Category", "Distribution" | where_exp: "p", "p.redirect_to == nil" | sort: "title" %}
+
+{% comment %} Ranked members first (in rank order), then unranked members alphabetically. {% endcomment %}
+{% assign dg_ranked = "" | split: "" %}
+{% assign dg_ranked_urls = "|" %}
+{% for e in dg_rank %}
+  {% assign p = site.pages | where: "url", e.url | first %}
+  {% unless p %}{% continue %}{% endunless %}
+  {% include os-meta.html page=p %}
+  {% assign dg_tok = " " | append: dg.key | append: " " %}
+  {% assign dg_keys = " " | append: re_base_keys | append: " " %}
+  {% if dg_keys contains dg_tok %}
+    {% assign dg_ranked = dg_ranked | push: e %}
+    {% assign dg_ranked_urls = dg_ranked_urls | append: e.url | append: "|" %}
+  {% endif %}
+{% endfor %}
+{% assign dg_unranked = "" | split: "" %}
+{% for p in dg_all %}
+  {% assign dg_probe = "|" | append: p.url | append: "|" %}
+  {% if dg_ranked_urls contains dg_probe %}{% continue %}{% endif %}
+  {% include os-meta.html page=p %}
+  {% assign dg_tok = " " | append: dg.key | append: " " %}
+  {% assign dg_keys = " " | append: re_base_keys | append: " " %}
+  {% if dg_keys contains dg_tok %}{% assign dg_unranked = dg_unranked | push: p %}{% endif %}
+{% endfor %}
+{% assign dg_total = dg_ranked.size | plus: dg_unranked.size %}
+
+<div class="distribution">
+  <div class="rank-page">
+    <header class="rank-hero">
+      <span class="rank-eyebrow">Browse by base</span>
+      <h1>{{ dg.heading }}</h1>
+      <p class="archive-summary">{{ dg.intro }}</p>
+      <p class="rank-updated">{{ dg_total }} {% if dg_total == 1 %}entry{% else %}entries{% endif %} on OpenSourceFeed, ordered by reader interest over the last 30 days.</p>
+      <a href="/distribution/">All distributions &rarr;</a>
+    </header>
+
+    <div class="rank-list-wrap">
+      <div class="rank-list-head" aria-hidden="true">
+        <span>#</span><span>Name</span><span>Overall</span><span>Popularity</span>
+      </div>
+      <ol class="rank-list is-filtered">
+        {% for entry in dg_ranked %}
+          {% include rank-entry-data.html entry=entry %}
+          <li class="rank-row">
+            <span class="row-rank">{{ forloop.index }}</span>
+            <span class="row-logo" aria-hidden="true">{% if re_logo %}<img src="{{ re_logo }}" alt="" width="36" height="36" loading="lazy" decoding="async">{% else %}<span class="logo-fallback">{{ re_page.title | slice: 0 }}</span>{% endif %}</span>
+            <span class="row-main">
+              <a class="row-name" href="{{ re_page.url }}">{{ re_page.title }}</a>
+              <span class="row-chips">
+                {% for de_label in re_de_labels %}<span class="chip">{{ de_label }}</span>{% endfor %}
+              </span>
+            </span>
+            <span class="row-change"><span class="rank-change is-same" title="Rank among all operating systems, last 30 days">#{{ entry.current.rank }}</span></span>
+            <span class="row-score" title="Popularity relative to the overall #1 (= 100)">
+              <span class="score-bar" aria-hidden="true"><span style="width: {{ entry.current.score }}%"></span></span>
+              <span class="score-value">{{ entry.current.score }}<span class="visually-hidden"> out of 100</span></span>
+            </span>
+          </li>
+        {% endfor %}
+        {% for p in dg_unranked %}
+          {% include os-meta.html page=p %}
+          <li class="rank-row">
+            <span class="row-rank">&ndash;</span>
+            <span class="row-logo" aria-hidden="true">{% if p.logo %}<img src="/assets/images/logo/{{ p.logo }}" alt="" width="36" height="36" loading="lazy" decoding="async">{% else %}<span class="logo-fallback">{{ p.title | slice: 0 }}</span>{% endif %}</span>
+            <span class="row-main">
+              <a class="row-name" href="{{ p.url }}">{{ p.title }}</a>
+              <span class="row-chips">{% for de_label in re_de_labels %}<span class="chip">{{ de_label }}</span>{% endfor %}</span>
+            </span>
+            <span class="row-change"><span class="rank-change is-same" title="No views in the last 30 days">&ndash;</span></span>
+            <span class="row-score"><span class="score-value">&ndash;</span></span>
+          </li>
+        {% endfor %}
+      </ol>
+    </div>
+
+    {% include distro-group-links.html current=dg.key %}
+
+    <section class="rank-method" aria-labelledby="about-list">
+      <h2 id="about-list">About this list</h2>
+      <dl>
+        <dt>Which distributions</dt>
+        <dd>Every {{ dg.label }} entry in the OpenSourceFeed <a href="/distribution/">distribution collection</a>, based on the base listed on its page. Distributions with more than one base appear under each.</dd>
+        <dt>Order</dt>
+        <dd>By page views on OpenSourceFeed over the last 30 days. &ldquo;Overall&rdquo; is the rank among all operating systems in the <a href="/page-hit-rank/">Popularity Index</a>, and the score is relative to the overall #1 (100).</dd>
+      </dl>
+    </section>
+  </div>
+</div>

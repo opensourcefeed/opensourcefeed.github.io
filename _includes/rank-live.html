@@ -1,0 +1,365 @@
+{% comment %}
+  Live popularity ranking (30 days / 3 months) for one category.
+  Params: kind ("os" | "desktop")
+  Used by page-hit-rank.md (/page-hit-rank/) and page-hit-rank-desktops.md (/page-hit-rank/desktop-environments/).
+{% endcomment %}
+{% include rank-styles.html %}
+
+{% assign lv_kind = include.kind %}
+{% assign rankings = site.data.rank.rankings %}
+{% if lv_kind == "desktop" %}
+  {% assign lv_d30 = rankings.d30.desktops | default: site.data.rank.desktops %}
+  {% assign lv_m3 = rankings.m3.desktops %}
+  {% assign lv_noun = "desktop environment" %}
+  {% assign lv_heading = "Desktop Environments" %}
+  {% assign lv_h1 = "Most Popular Desktop Environments" %}
+{% else %}
+  {% assign lv_d30 = rankings.d30.distributions | default: site.data.rank.distributions %}
+  {% assign lv_m3 = rankings.m3.distributions %}
+  {% assign lv_noun = "operating system" %}
+  {% assign lv_heading = "Operating Systems" %}
+  {% assign lv_h1 = "Most Popular Linux Distributions" %}
+{% endif %}
+{% assign lv_d30 = lv_d30 | where_exp: "e", "e.current" %}
+{% assign periods = site.data.rank.meta.periods %}
+{% assign last_updated = site.data.rank.meta.current_date %}
+
+{% comment %} ---- At a glance (data-driven summary) ---- {% endcomment %}
+{% assign lv_names = "" | split: "" %}
+{% for e in lv_d30 limit: 3 %}
+  {% assign lv_p = site.pages | where: "url", e.url | first %}
+  {% if lv_p %}{% assign lv_names = lv_names | push: lv_p.title %}{% endif %}
+{% endfor %}
+{% assign lv_risers = lv_d30 | where_exp: "e", "e.current.rank <= 50" | where_exp: "e", "e.change > 0" | sort: "change" | reverse %}
+{% assign lv_riser = lv_risers.first %}
+{% if lv_riser %}{% assign lv_riser_page = site.pages | where: "url", lv_riser.url | first %}{% endif %}
+{% assign lv_new = lv_d30 | where_exp: "e", "e.previous == nil" %}
+
+{% if lv_kind == "os" %}
+  {% assign lv_fam = "" %}
+  {% for e in lv_d30 limit: 20 %}
+    {% assign fam_page = site.pages | where: "url", e.url | first %}
+    {% include os-meta.html page=fam_page %}
+    {% assign fam_first = re_base_keys | split: " " | first %}
+    {% assign lv_fam = lv_fam | append: " " | append: fam_first | append: " " %}
+  {% endfor %}
+  {% assign lv_fam_best = "" %}{% assign lv_fam_best_n = 0 %}
+  {% assign lv_fam_keys = "debian,ubuntu,arch,fedora,gentoo,slackware,bsd,independent" | split: "," %}
+  {% for fk in lv_fam_keys %}
+    {% assign fk_token = " " | append: fk | append: " " %}
+    {% assign fk_n = lv_fam | split: fk_token | size | minus: 1 %}
+    {% if fk_n > lv_fam_best_n %}{% assign lv_fam_best = fk %}{% assign lv_fam_best_n = fk_n %}{% endif %}
+  {% endfor %}
+  {% case lv_fam_best %}
+    {% when "debian" %}{% assign lv_fam_label = "Debian-based" %}
+    {% when "ubuntu" %}{% assign lv_fam_label = "Ubuntu-based" %}
+    {% when "arch" %}{% assign lv_fam_label = "Arch-based" %}
+    {% when "fedora" %}{% assign lv_fam_label = "Fedora/Red Hat-based" %}
+    {% when "gentoo" %}{% assign lv_fam_label = "Gentoo-based" %}
+    {% when "slackware" %}{% assign lv_fam_label = "Slackware-based" %}
+    {% when "bsd" %}{% assign lv_fam_label = "BSD" %}
+    {% when "independent" %}{% assign lv_fam_label = "independent" %}
+  {% endcase %}
+{% endif %}
+
+<div class="distribution">
+  <div class="rank-page" data-kind="{{ lv_kind }}">
+
+    <header class="rank-hero">
+      <span class="rank-eyebrow">Popularity Index{% if last_updated %} &middot; {{ last_updated | date: "%B %Y" }}{% endif %}</span>
+      <h1>{{ lv_h1 }}</h1>
+      <p class="archive-summary">
+        {% if lv_names.size > 0 %}<strong>{{ lv_names[0] }}</strong> is the most-viewed {{ lv_noun }} on OpenSourceFeed over the last 30 days{% if lv_names.size > 2 %}, followed by {{ lv_names[1] }} and {{ lv_names[2] }}{% elsif lv_names.size > 1 %}, followed by {{ lv_names[1] }}{% endif %}.{% endif %}
+        {% if lv_riser_page %}{{ lv_riser_page.title }} climbed the most{% if lv_kind == "os" %} within the top 50{% endif %}, from #{{ lv_riser.previous.rank }} to #{{ lv_riser.current.rank }}.{% endif %}
+        {% if lv_kind == "os" and lv_fam_best_n > 0 %}{{ lv_fam_best_n }} of the top 20 are {{ lv_fam_label }}.{% endif %}
+        {% if lv_new.size > 0 %}{{ lv_new.size }} {% if lv_new.size == 1 %}entry is{% else %}entries are{% endif %} new compared with the previous 30 days.{% endif %}
+      </p>
+      {% if last_updated %}
+      <p class="rank-updated">Updated <time datetime="{{ last_updated | date_to_xmlschema }}">{{ last_updated | date: "%B %-d, %Y" }}</time></p>
+      {% endif %}
+      <div class="rank-controls">
+        <nav class="segmented" aria-label="Time range">
+          <a data-filter-period="30d" href="?period=30d"><span class="lbl-long">30 Days</span><span class="lbl-short">30D</span></a>
+          <a data-filter-period="3m" href="?period=3m"><span class="lbl-long">3 Months</span><span class="lbl-short">3M</span></a>
+        </nav>
+        <nav class="segmented" aria-label="Category">
+          <a href="/page-hit-rank/"{% if lv_kind == "os" %} class="is-active" aria-current="page"{% endif %}><span class="lbl-long">Operating Systems</span><span class="lbl-short">OS</span></a>
+          <a href="/page-hit-rank/desktop-environments/"{% if lv_kind == "desktop" %} class="is-active" aria-current="page"{% endif %}><span class="lbl-long">Desktop Environments</span><span class="lbl-short">Desktops</span></a>
+        </nav>
+      </div>
+    </header>
+
+    {% if lv_kind == "os" %}
+    <div class="rank-filter-wrap" id="rank-filter-wrap">
+    <button type="button" class="filters-toggle" id="rank-filters-toggle" aria-expanded="false" aria-controls="rank-filters">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+      Filters <span class="filters-count" hidden></span>
+    </button>
+    <div class="rank-filters" id="rank-filters" aria-label="Filter operating systems">
+      <div class="filter-chips" role="group" aria-label="Filter by base">
+        <span class="filter-label">Base</span>
+        <button type="button" class="filter-chip" data-base="">All</button>
+        <button type="button" class="filter-chip" data-base="debian">Debian</button>
+        <button type="button" class="filter-chip" data-base="ubuntu">Ubuntu</button>
+        <button type="button" class="filter-chip" data-base="arch">Arch</button>
+        <button type="button" class="filter-chip" data-base="fedora">Fedora / RHEL</button>
+        <button type="button" class="filter-chip" data-base="gentoo">Gentoo</button>
+        <button type="button" class="filter-chip" data-base="slackware">Slackware</button>
+        <button type="button" class="filter-chip" data-base="bsd">BSD</button>
+        <button type="button" class="filter-chip" data-base="independent">Independent</button>
+      </div>
+      <label class="filter-de">
+        <span class="filter-label">Desktop</span>
+        <select id="filter-de">
+          <option value="">Any desktop</option>
+          <option value="gnome">GNOME</option>
+          <option value="plasma">KDE Plasma</option>
+          <option value="xfce">Xfce</option>
+          <option value="mate">MATE</option>
+          <option value="cinnamon">Cinnamon</option>
+          <option value="lxqt">LXQt</option>
+          <option value="lxde">LXDE</option>
+          <option value="budgie">Budgie</option>
+          <option value="openbox">Openbox</option>
+          <option value="i3">i3</option>
+        </select>
+      </label>
+    </div>
+    <p class="filter-status" aria-live="polite" hidden></p>
+    </div>
+    {% endif %}
+
+    <section class="period-block" data-period="30d" aria-labelledby="last-30-days">
+      <h2 id="last-30-days" class="period-title">Last 30 Days</h2>
+      {% if periods.d30.current %}<p class="period-range">{{ periods.d30.current.start | date: "%b %-d" }} &ndash; {{ periods.d30.current.end | date: "%b %-d, %Y" }} &middot; compared with {{ periods.d30.previous.start | date: "%b %-d" }} &ndash; {{ periods.d30.previous.end | date: "%b %-d" }}</p>{% endif %}
+      <div class="rank-section" data-period="30d" data-type="{{ lv_kind }}" id="last-30-days-{{ lv_kind }}">
+        <h3>{{ lv_heading }}</h3>
+        {% include rank-board.html entries=lv_d30 kind=lv_kind compare="previous 30 days" label=lv_noun trend_months=site.data.rank.meta.trend_months %}
+      </div>
+    </section>
+
+    {% if lv_m3 %}
+    <section class="period-block" data-period="3m" aria-labelledby="last-3-months">
+      <h2 id="last-3-months" class="period-title">Last 3 Months</h2>
+      {% if periods.m3.current %}<p class="period-range">{{ periods.m3.current.start | date: "%b %-d" }} &ndash; {{ periods.m3.current.end | date: "%b %-d, %Y" }} &middot; compared with {{ periods.m3.previous.start | date: "%b %-d" }} &ndash; {{ periods.m3.previous.end | date: "%b %-d" }}</p>{% endif %}
+      <div class="rank-section" data-period="3m" data-type="{{ lv_kind }}" id="last-3-months-{{ lv_kind }}">
+        <h3>{{ lv_heading }}</h3>
+        {% include rank-board.html entries=lv_m3 kind=lv_kind compare="previous 3 months" label=lv_noun %}
+      </div>
+    </section>
+    {% endif %}
+
+    {% if lv_kind == "os" %}{% include distro-group-links.html %}{% endif %}
+
+    {% include rank-archive-list.html %}
+
+    <section class="rank-method" aria-labelledby="methodology">
+      <h2 id="methodology">Methodology</h2>
+      <dl>
+        <dt>Data source</dt>
+        <dd>Page views of each distribution and desktop page on OpenSourceFeed, from the <a href="https://developers.google.com/analytics/">Google Analytics</a> Data API. Hits on old or alias URLs are merged into the main page.</dd>
+        <dt>Popularity score</dt>
+        <dd>Each entry's page views divided by those of the #1 entry in the same list, scaled to 100.</dd>
+        <dt>Rank change</dt>
+        <dd>The current rank compared with the rank in the preceding period of the same length, for example the last 30 days against the 30 days before them. &ldquo;NEW&rdquo; means the entry was not ranked in the preceding period.</dd>
+        <dt>12-month trend</dt>
+        <dd>Each entry's rank in every complete calendar month of the last year, then its current 30-day rank. Monthly and yearly rankings are frozen in the archive and never change afterwards.</dd>
+        <dt>Biggest movers</dt>
+        <dd>The largest rank changes among entries currently in the top 50.</dd>
+        <dt>Limitations</dt>
+        <dd>The ranking reflects reader interest on this site only. It does not measure install base, quality or efficiency, and it is not real-time.</dd>
+      </dl>
+    </section>
+
+    <div class="rank-ad">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-6380671811722843"
+           data-ad-slot="9117305104"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    <h2>Express your views on distributions and desktop environments.</h2>
+    {% include echothread.html %}
+
+    {% comment %} Structured data: the current top 10 as an ordered list. {% endcomment %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": {{ lv_h1 | append: " on OpenSourceFeed (last 30 days)" | jsonify }},
+      "itemListOrder": "https://schema.org/ItemListOrderDescending",
+      "itemListElement": [
+        {%- assign lv_pos = 0 -%}
+        {%- for e in lv_d30 limit: 10 -%}
+          {%- assign lv_p = site.pages | where: "url", e.url | first -%}
+          {%- if lv_p -%}
+          {%- assign lv_pos = lv_pos | plus: 1 -%}
+          {%- if lv_pos > 1 %},{% endif %}
+        { "@type": "ListItem", "position": {{ lv_pos }}, "name": {{ lv_p.title | jsonify }}, "url": {{ lv_p.url | absolute_url | jsonify }} }
+          {%- endif -%}
+        {%- endfor %}
+      ]
+    }
+    </script>
+
+    <script>
+      (function () {
+        var KIND = '{{ lv_kind }}';
+        var PERIODS = ['30d', '3m'];
+        var params = new URLSearchParams(window.location.search);
+        var hash = window.location.hash;
+
+        /* Old links (?type=desktop, #last-30-days-desktop) now live on their own page. */
+        if (KIND === 'os' && (params.get('type') === 'desktop' || /-desktop$/.test(hash))) {
+          var p = params.get('period') || (/3-months/.test(hash) ? '3m' : '');
+          window.location.replace('/page-hit-rank/desktop-environments/' + (p ? '?period=' + p : ''));
+          return;
+        }
+
+        var periodBlocks = document.querySelectorAll('.period-block');
+        var periodLinks = document.querySelectorAll('[data-filter-period]');
+        var filterWrap = document.getElementById('rank-filter-wrap');
+
+        var state = {
+          period: /3-months/.test(hash) ? '3m' : params.get('period'),
+          base: params.get('base') || '',
+          de: params.get('de') || ''
+        };
+        if (PERIODS.indexOf(state.period) < 0) state.period = '30d';
+
+        var filterBar, baseChips = [], deSelect, status, filterToggle, filterCount;
+        if (filterWrap) {
+          filterBar = document.getElementById('rank-filters');
+          baseChips = filterBar.querySelectorAll('[data-base]');
+          deSelect = document.getElementById('filter-de');
+          status = filterWrap.querySelector('.filter-status');
+          filterToggle = document.getElementById('rank-filters-toggle');
+          filterCount = filterToggle.querySelector('.filters-count');
+          if (!filterBar.querySelector('[data-base="' + state.base + '"]')) state.base = '';
+          if (!deSelect.querySelector('option[value="' + state.de + '"]')) state.de = '';
+        } else {
+          state.base = '';
+          state.de = '';
+        }
+
+        function buildQuery(s) {
+          var q = new URLSearchParams();
+          if (s.period !== '30d') q.set('period', s.period);
+          if (s.base) q.set('base', s.base);
+          if (s.de) q.set('de', s.de);
+          var qs = q.toString();
+          return qs ? '?' + qs : '';
+        }
+
+        function hasToken(list, token) {
+          return (' ' + (list || '') + ' ').indexOf(' ' + token + ' ') >= 0;
+        }
+
+        function applyRowFilters(block) {
+          var section = block.querySelector('.rank-section');
+          var list = section && section.querySelector('.rank-list');
+          if (!list) return;
+          var empty = section.querySelector('.rank-empty');
+          var rows = list.querySelectorAll('.rank-row');
+          var filtering = !!(state.base || state.de);
+          var shown = 0;
+
+          rows.forEach(function (row) {
+            var ok = !filtering ||
+              ((!state.base || hasToken(row.dataset.bases, state.base)) &&
+               (!state.de || hasToken(row.dataset.des, state.de)));
+            row.hidden = !ok;
+            if (ok) shown++;
+          });
+
+          list.classList.toggle('is-filtered', filtering);
+          section.querySelectorAll('.rank-podium, .rank-movers, .rank-trend').forEach(function (el) { el.hidden = filtering; });
+          if (empty) empty.hidden = !(filtering && shown === 0);
+
+          if (status && block.dataset.period === state.period) {
+            status.hidden = !filtering;
+            if (filtering) {
+              status.innerHTML = 'Showing ' + shown + ' of ' + rows.length + ' operating systems. ' +
+                '<button type="button" class="filter-reset">Clear filters</button>';
+            }
+          }
+        }
+
+        function render(push) {
+          periodBlocks.forEach(function (block) {
+            block.hidden = block.dataset.period !== state.period;
+            applyRowFilters(block);
+          });
+
+          periodLinks.forEach(function (link) {
+            var on = link.dataset.filterPeriod === state.period;
+            link.classList.toggle('is-active', on);
+            if (on) link.setAttribute('aria-current', 'true'); else link.removeAttribute('aria-current');
+            link.setAttribute('href', window.location.pathname + buildQuery({ period: link.dataset.filterPeriod, base: state.base, de: state.de }));
+          });
+
+          if (filterWrap) {
+            var active = (state.base ? 1 : 0) + (state.de ? 1 : 0);
+            filterCount.hidden = active === 0;
+            filterCount.textContent = active;
+            baseChips.forEach(function (chip) {
+              var on = chip.dataset.base === state.base;
+              chip.classList.toggle('is-active', on);
+              chip.setAttribute('aria-pressed', on ? 'true' : 'false');
+            });
+            deSelect.value = state.de;
+          }
+
+          var next = window.location.pathname + buildQuery(state);
+          if (push) history.pushState(null, '', next); else history.replaceState(null, '', next);
+        }
+
+        periodLinks.forEach(function (link) {
+          link.addEventListener('click', function (e) {
+            e.preventDefault();
+            state.period = link.dataset.filterPeriod;
+            render(true);
+          });
+        });
+
+        if (filterWrap) {
+          baseChips.forEach(function (chip) {
+            chip.addEventListener('click', function () {
+              state.base = chip.dataset.base;
+              render(false);
+            });
+          });
+          deSelect.addEventListener('change', function () {
+            state.de = deSelect.value;
+            render(false);
+          });
+          filterToggle.addEventListener('click', function () {
+            var open = !filterBar.classList.contains('is-open');
+            filterBar.classList.toggle('is-open', open);
+            filterToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+          });
+          status.addEventListener('click', function (e) {
+            if (!e.target.classList.contains('filter-reset')) return;
+            state.base = '';
+            state.de = '';
+            render(false);
+          });
+        }
+
+        window.addEventListener('popstate', function () {
+          var q = new URLSearchParams(window.location.search);
+          state.period = PERIODS.indexOf(q.get('period')) >= 0 ? q.get('period') : '30d';
+          render(false);
+        });
+
+        render(false);
+      })();
+    </script>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+{% comment %} Links to the base-family landing pages. Params: current (group key, optional) {% endcomment %}
+<nav class="distro-group-links" aria-label="Browse distributions by base">
+  <span class="distro-group-links-label">Browse by base</span>
+  {% for g in site.data.distro_groups %}
+  <a class="distro-group-link{% if g.key == include.current %} is-current{% endif %}" href="/distribution/{{ g.slug }}/"{% if g.key == include.current %} aria-current="page"{% endif %}>{{ g.label }}</a>
+  {% endfor %}
+</nav>
+<style>
+.distro-group-links { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin: 1.5rem 0; line-height: 1.5; }
+.distro-group-links-label { font-size: 0.8rem; font-weight: 700; color: #5f6b7a; margin-right: 0.35rem; }
+a.distro-group-link {
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #e3ecf7;
+  border-radius: 999px;
+  background: #fff;
+  color: #1d2733;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+a.distro-group-link:hover { border-color: #5aa2ee; color: #046cdc; text-decoration: none; }
+a.distro-group-link.is-current { background: #046cdc; border-color: #046cdc; color: #fff; }
+</style>

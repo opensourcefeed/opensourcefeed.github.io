@@ -570,6 +570,8 @@ seo:
         No distributions match <strong id="distribution-empty-term"></strong>. Try a different name or clear the filters.
     </p>
 
+    {% include distro-group-links.html %}
+
     </div><!-- /#distribution-results -->
 
     <div class="distribution-ad">

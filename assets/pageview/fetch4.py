@@ -35,6 +35,11 @@ SITE_ROOT = os.path.normpath(os.path.join(SCRIPT_DIR, "..", ".."))
 RANK_FILE = os.path.join(SITE_ROOT, "_data", "rank.yaml")
 HISTORY_DIR = os.path.join(SITE_ROOT, "_data", "rank_history")
 ARCHIVE_DIR = os.path.join(SITE_ROOT, "rank-archive")
+# Live ranking pages whose <title> carries the current month, e.g. "(November 2026)".
+DATED_TITLE_PAGES = [
+    os.path.join(SITE_ROOT, "page-hit-rank.md"),
+    os.path.join(SITE_ROOT, "page-hit-rank-desktops.md"),
+]
 
 MONTHS_BACK = 12      # monthly snapshots kept up to date / used for trends
 FIRST_YEAR = 2023     # first year-in-review page (GA4 data starts mid-2022)
@@ -337,6 +342,22 @@ def attach_trends(data, today):
             entry["trend"] = [ranks.get(entry["url"]) for ranks in ranks_by_month] + [entry["current"]["rank"]]
 
 
+def update_dated_titles(today):
+    """Replace the "(Month YYYY)" part of the live pages' front-matter title."""
+    month = today.strftime("%B %Y")
+    pattern = re.compile(r"^(title:.*\()[A-Z][a-z]+ \d{4}(\).*)$", re.M)
+    for path in DATED_TITLE_PAGES:
+        if not os.path.exists(path):
+            continue
+        with open(path, "r", encoding="utf-8") as f:
+            text = f.read()
+        updated = pattern.sub(lambda m: m.group(1) + month + m.group(2), text, count=1)
+        if updated != text:
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(updated)
+            print(f"Updated title month in {os.path.basename(path)}")
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -380,6 +401,7 @@ def run_reports(property_id, rebuild_history=False):
 
     ensure_history(client, property_id, canonical, aliases, today, rebuild_history)
     attach_trends(data, today)
+    update_dated_titles(today)
 
     save_rank_file(data)
 
