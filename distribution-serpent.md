@@ -2,7 +2,7 @@
 layout: distribution
 uid: aerynos
 title: 'AerynOS (formerly Serpent OS)'
-tagline: 'Fast, Secure, and Built for the Future.'
+tagline: 'Independent Atomic Linux'
 Category: Distribution
 type: Linux
 permalink: /distribution/aerynos
@@ -11,43 +11,61 @@ redirect_from:
 logo: aerynos.svg
 preview: aeryn-preview.jpeg
 home_page: https://aerynos.com
-desktops: [gnome, cosmic]
+desktops: [plasma, gnome, cosmic, budgie]
 base: Independent
-description: Discover AerynOS, formerly Serpent OS — a modern independent Linux distribution featuring atomic updates, developer-focused tooling, and a minimal secure design.
+description: "AerynOS (formerly Serpent OS) is an independent alpha-stage Linux distribution with atomic, rollback-capable updates via moss, its own Rust tooling, and GNOME, KDE Plasma, COSMIC and Budgie."
 seo:
   type: OperatingSystem
+
+stories:
+  Serpent OS rebrands as AerynOS : /serpentos-rebrading-aerynos/
+
+faq:
+  "Is AerynOS free and open source?": "Yes. AerynOS is free, open-source software developed in the open on GitHub. The project is funded through community sponsorship."
+  "Do I need an internet connection to install AerynOS?": "Yes. The installer downloads the latest package sets during installation, so a working network connection is required."
+  "How can I get help or contribute to AerynOS?": "The community talks on Zulip, Discourse and Mastodon. The project welcomes contributions of code, artwork, documentation and package recipes."
 ---
 
-**AerynOS**, previously known as **Serpent OS**, is an independent Linux distribution built from the ground up to deliver a modern, efficient, and developer-focused operating system. The project emphasizes performance, reliability, and clean system design while embracing contemporary Linux technologies.
+## What is AerynOS?
 
-## Modern Architecture and Atomic Updates
+**AerynOS** (styled **aerynOS** since August 2026, and previously known as **Serpent OS**) is an independent [Linux distribution](/distribution/) built from the ground up with its own tooling. It is not based on any other distribution. The project focuses on reliable atomic updates, easy rollback, and modern system tools written in Rust.
 
-AerynOS adopts an atomic update model where system changes are applied fully or safely rolled back. This approach improves stability, reduces system breakage risk, and makes updates more predictable. Combined with its rolling-release philosophy, users benefit from up-to-date software while maintaining system integrity.
+> **Development status:** AerynOS is an **alpha technical preview**. The project says it is not yet recommended for daily use by people who need a stable, production-ready system. Early adopters should be technically minded and willing to report and help fix issues.
 
-## Developer-Centric Tooling
+## Atomic updates and rollback
 
-The distribution integrates modern toolchains such as LLVM/Clang and increasingly Rust-based utilities. It also features the **moss package manager**, designed to support atomic transactions, reliable upgrades, and simplified rollback capabilities — all aligned with the project’s reliability goals.
+All software changes go through **moss**, AerynOS's package and system state manager. Each install, removal or update is applied as a single atomic transaction. If something fails, the running system is left untouched.
 
-## Desktop Experience and Hardware Support
+moss keeps previous system states, so you can roll back to an earlier state from the command line. The last five states can also be chosen from the boot menu. Unlike image-based immutable distributions, AerynOS does not need a reboot to apply each update. moss supports both imperative commands and declarative system definitions.
 
-AerynOS is designed primarily for UEFI-based systems and currently supports:
+## Its own Rust tooling
 
-* GNOME desktop environment
-* COSMIC desktop environment (modern Rust-driven desktop initiative)
+AerynOS builds and maintains its core tools in-house, mostly in Rust:
 
-The system also supports modern GPUs from **NVIDIA** and works well with gaming platforms such as **Steam**, making it suitable for developers, power users, and Linux gaming enthusiasts.
+* **moss**: package and system state manager with atomic transactions and rollback.
+* **boulder**: builds packages from YAML-based recipe files.
+* **blsforme**: a boot management tool that follows the Boot Loader Specification and handles the ESP and XBOOTLDR partitions.
+* **lichen**: the system installer. The 2026.11 ISO also includes a new terminal-based `lichen-installer` for testing. It sets up Btrfs with a separate `@home` subvolume but does not yet support disk encryption or dual booting.
 
-## Minimalism, Security, and Performance Focus
+## Desktops and kernels
 
-The distribution aims to stay lightweight and uncluttered while prioritizing:
+The installer offers four desktop environments, listed in the table below. Around a dozen Wayland compositors are also in the repositories, including Hyprland and niri. The live ISO boots into GNOME.
 
-* Security-focused system components
-* Developer productivity tools
-* Modern packaging and update workflows
-* High performance with minimal overhead
+AerynOS provides three kernel flavours: **linux-stable** (the default), **linux-lts**, and **linux-gaming**. The gaming flavour adds handheld-gaming patches and performance tweaks. NVIDIA drivers and firmware updates through fwupd are available in the repositories.
 
-This makes AerynOS particularly attractive for advanced Linux users, developers, and enthusiasts seeking a forward-looking distribution.
+## Release history
 
-## Rebranding From Serpent OS
+AerynOS publishes regular alpha ISO snapshots alongside its project updates:
 
-On **14 February 2025**, the project officially announced its rebranding from Serpent OS to AerynOS to establish a clearer identity and future direction. Despite the name change, the core goals, development team, and technical vision remain consistent.
+| Release | Date | Highlights |
+|---|---|---|
+| 2026.11 | November 2026 | Plasma 6.8, GNOME 51, COSMIC 1.11, Budgie 10.10 added, Linux 7.2, new `lichen-installer` preview, breaking moss CLI changes |
+| 2026.08 | August 2026 | Stable and gaming kernels moved to Linux 7.1 |
+| 2026.05 | May 2026 | Plasma 6.6, GNOME 50, COSMIC 1.0.11, Linux 7.0, three kernel flavours |
+| February 2026 update | February 2026 | Plasma 6.6.1 with Plasma Login Manager, GNOME 49.4, COSMIC 1.0.8, new console-only install option |
+
+## From Serpent OS to AerynOS
+
+The project announced its rename from Serpent OS to AerynOS in February 2025, because the team felt the old name carried negative connotations. Its development team and technical goals stayed the same.
+
+In April 2026 the project introduced a new triquetra logo and colour palette. In August 2026 it adjusted the logo colours and fonts and changed how it styles its name to "aerynOS".

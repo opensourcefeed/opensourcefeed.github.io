@@ -16,7 +16,7 @@ description : "Ubuntu Linux is a popular Debian-based distribution developed by 
 releases:
   Ubuntu 26.10 Stonking Stingray: /ubuntu-26-10-stonking-stingray-release/
   Ubuntu 26.04 Resolute Raccoon: /ubuntu-26-04-resolute-raccoon-release/
-  Ubuntu 25.10 Questin Quokka: /ubuntu-25-10-questing-quokka-release/
+  Ubuntu 25.10 Questing Quokka: /ubuntu-25-10-questing-quokka-release/
   Ubuntu 25.04 Plucky Puffin: /ubuntu-25-04-plucky-puffin-flavors-release/
   Ubuntu 24.10: /ubuntu-2410-release/
   Ubuntu 24.04 Noble Numbat BETA: /ubuntu-2404-noblenumbat-beta/
@@ -61,11 +61,11 @@ screenshots:
 
 stories:
   A cloud optimized, minimal Ubuntu image is available now : "https://open-source-feed.blogspot.com/2018/07/a-cloud-optimized-minimal-ubuntu-image.html"
-  Ubuntu 18.10 will be named as Cosmic Cuttlerfish : "https://open-source-feed.blogspot.com/2018/05/ubuntu-1810-will-be-name-as-cosmic.html"
+  Ubuntu 18.10 will be named as Cosmic Cuttlefish : "https://open-source-feed.blogspot.com/2018/05/ubuntu-1810-will-be-name-as-cosmic.html"
   GNOME Shell 3.25.91 lands in Artful, final release will ship with 3.26 : "https://open-source-feed.blogspot.com/2017/09/gnome-shell-32591-lands-in-artful-final.html"
   Ubuntu 16.04 is now available in Windows Store : "https://open-source-feed.blogspot.com/2017/07/ubuntu-1604-is-now-available-in-windows.html"
   Kubernetes 1.7 is now available for Ubuntu : "https://open-source-feed.blogspot.com/2017/07/kubernetes-17-is-now-available-in-ubuntu.html"
-  Ubuntu 17.10 Yakkety Yak reaches end of life on 20th July 2017 : "https://open-source-feed.blogspot.com/2017/07/ubuntu-1610-yakkety-yak-reaches-end-of.html"
+  Ubuntu 16.10 Yakkety Yak reaches end of life on 20th July 2017 : "https://open-source-feed.blogspot.com/2017/07/ubuntu-1610-yakkety-yak-reaches-end-of.html"
   Ubuntu on AWS gets better performance by AWS-tuned Kernel : "https://open-source-feed.blogspot.com/2017/04/ubuntu-on-aws-gets-improved-performance.html"
   Ubuntu 12.04 Precise Pangolin retires on 28th April 2017 : https://open-source-feed.blogspot.com/2017/03/ubuntu-1204-precise-pangolin-retires-on.html
   Microsoft SQL Server public preview is available for Ubuntu : https://open-source-feed.blogspot.com/2016/11/microsoft-sql-server-public-preview-is.html
@@ -151,4 +151,4 @@ Ubuntu is based on Debian Linux.
 Yes, Ubuntu supports gaming through tools like Steam and Proton, though support depends on the game.
 
 ### What is the latest Ubuntu version?
-Ubuntu follows a 6-month release cycle, with LTS versions released every 2 years. The latest Ubuntu version is 26.04 LTS Resolute Reccoon.
+Ubuntu follows a 6-month release cycle, with LTS versions released every 2 years. The latest Ubuntu version is 26.10 Stonking Stingray, and the latest LTS release is 26.04 Resolute Raccoon.
