@@ -1,22 +1,22 @@
 meta:
-  current_date: 2026-11-06 23:07
+  current_date: 2026-11-08 08:45
   periods:
     d30:
       label: Last 30 days
       current:
-        start: '2026-10-08'
-        end: '2026-11-06'
+        start: '2026-10-10'
+        end: '2026-11-08'
       previous:
-        start: '2026-09-08'
-        end: '2026-10-07'
+        start: '2026-09-10'
+        end: '2026-10-09'
     m3:
       label: Last 3 months
       current:
-        start: '2026-08-09'
-        end: '2026-11-06'
+        start: '2026-08-11'
+        end: '2026-11-08'
       previous:
-        start: '2026-05-11'
-        end: '2026-08-08'
+        start: '2026-05-13'
+        end: '2026-08-10'
   trend_months:
   - Nov 2025
   - Dec 2025
@@ -37,12 +37,12 @@ rankings:
     - url: /distribution/starbuntu
       current:
         rank: 1
-        count: 43
+        count: 46
         score: 100
       previous:
-        rank: 6
-        count: 20
-      change: 5
+        rank: 20
+        count: 13
+      change: 19
       trend:
       - 3
       - 2
@@ -60,12 +60,12 @@ rankings:
     - url: /distribution/kite
       current:
         rank: 2
-        count: 35
-        score: 81
+        count: 36
+        score: 78
       previous:
-        rank: 9
-        count: 17
-      change: 7
+        rank: 6
+        count: 19
+      change: 4
       trend:
       - 27
       - 15
@@ -80,38 +80,15 @@ rankings:
       - 9
       - 3
       - 2
-    - url: /distribution/steamos
+    - url: /distribution/aerynos
       current:
         rank: 3
         count: 34
-        score: 79
-      previous:
-        rank: 1
-        count: 25
-      change: -2
-      trend:
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
-      - 112
-      - 56
-      - 32
-      - 1
-      - 2
-      - 3
-    - url: /distribution/aerynos
-      current:
-        rank: 4
-        count: 32
         score: 74
       previous:
         rank: 22
         count: 12
-      change: 18
+      change: 19
       trend:
       - 40
       - 74
@@ -125,16 +102,39 @@ rankings:
       - 4
       - 23
       - 5
+      - 3
+    - url: /distribution/steamos
+      current:
+        rank: 4
+        count: 33
+        score: 72
+      previous:
+        rank: 1
+        count: 27
+      change: -3
+      trend:
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - 112
+      - 56
+      - 32
+      - 1
+      - 2
       - 4
     - url: /distribution/clover
       current:
         rank: 5
-        count: 29
+        count: 31
         score: 67
       previous:
-        rank: 5
-        count: 20
-      change: 0
+        rank: 7
+        count: 18
+      change: 2
       trend:
       - 7
       - 3
@@ -153,11 +153,11 @@ rankings:
       current:
         rank: 6
         count: 27
-        score: 63
+        score: 59
       previous:
-        rank: 4
-        count: 20
-      change: -2
+        rank: 2
+        count: 24
+      change: -4
       trend:
       - 13
       - 6
@@ -172,38 +172,15 @@ rankings:
       - 12
       - 4
       - 6
-    - url: /distribution/manjaro
-      current:
-        rank: 7
-        count: 27
-        score: 63
-      previous:
-        rank: 28
-        count: 11
-      change: 21
-      trend:
-      - 91
-      - null
-      - 6
-      - 65
-      - 80
-      - 86
-      - 60
-      - 54
-      - 84
-      - 82
-      - 30
-      - 10
-      - 7
     - url: /distribution/antix
       current:
-        rank: 8
-        count: 26
-        score: 60
-      previous:
         rank: 7
+        count: 26
+        score: 57
+      previous:
+        rank: 5
         count: 19
-      change: -1
+      change: -2
       trend:
       - 6
       - 24
@@ -217,16 +194,16 @@ rankings:
       - 59
       - 10
       - 17
-      - 8
+      - 7
     - url: /distribution/endeavour
       current:
-        rank: 9
+        rank: 8
         count: 26
-        score: 60
+        score: 57
       previous:
-        rank: 23
-        count: 12
-      change: 14
+        rank: 38
+        count: 8
+      change: 30
       trend:
       - 26
       - 5
@@ -240,16 +217,39 @@ rankings:
       - 3
       - 14
       - 11
+      - 8
+    - url: /distribution/manjaro
+      current:
+        rank: 9
+        count: 26
+        score: 57
+      previous:
+        rank: 25
+        count: 12
+      change: 16
+      trend:
+      - 91
+      - null
+      - 6
+      - 65
+      - 80
+      - 86
+      - 60
+      - 54
+      - 84
+      - 82
+      - 30
+      - 10
       - 9
     - url: /distribution/q4os
       current:
         rank: 10
-        count: 25
-        score: 58
+        count: 26
+        score: 57
       previous:
-        rank: 20
+        rank: 19
         count: 13
-      change: 10
+      change: 9
       trend:
       - 8
       - 45
@@ -268,11 +268,11 @@ rankings:
       current:
         rank: 11
         count: 23
-        score: 53
+        score: 50
       previous:
-        rank: 3
+        rank: 4
         count: 21
-      change: -8
+      change: -7
       trend:
       - 55
       - 18
@@ -287,38 +287,15 @@ rankings:
       - 5
       - 6
       - 11
-    - url: /distribution/fedora
+    - url: /distribution/raspberry-pi-os
       current:
         rank: 12
         count: 22
-        score: 51
+        score: 48
       previous:
-        rank: 13
-        count: 15
-      change: 1
-      trend:
-      - 61
-      - 25
-      - 30
-      - 75
-      - 19
-      - 51
-      - 29
-      - 22
-      - 5
-      - 15
-      - 8
-      - 13
-      - 12
-    - url: /distribution/raspberry-pi-os
-      current:
-        rank: 13
+        rank: 3
         count: 22
-        score: 51
-      previous:
-        rank: 2
-        count: 21
-      change: -11
+      change: -9
       trend:
       - 67
       - 59
@@ -332,16 +309,39 @@ rankings:
       - 47
       - 15
       - 9
+      - 12
+    - url: /distribution/fedora
+      current:
+        rank: 13
+        count: 21
+        score: 46
+      previous:
+        rank: 10
+        count: 17
+      change: -3
+      trend:
+      - 61
+      - 25
+      - 30
+      - 75
+      - 19
+      - 51
+      - 29
+      - 22
+      - 5
+      - 15
+      - 8
+      - 13
       - 13
     - url: /distribution/ghostbsd
       current:
         rank: 14
-        count: 20
-        score: 47
+        count: 19
+        score: 41
       previous:
-        rank: 30
-        count: 10
-      change: 16
+        rank: 23
+        count: 12
+      change: 9
       trend:
       - null
       - 78
@@ -356,38 +356,38 @@ rankings:
       - 41
       - 19
       - 14
-    - url: /distribution/arch
+    - url: /distribution/mauna-linux
       current:
         rank: 15
-        count: 17
-        score: 40
+        count: 19
+        score: 41
       previous:
-        rank: 35
-        count: 9
-      change: 20
+        rank: 55
+        count: 6
+      change: 40
       trend:
-      - 4
-      - 20
-      - 40
-      - 43
-      - 6
-      - 39
-      - 42
-      - 68
-      - 33
-      - 8
       - 45
-      - 18
+      - 56
+      - 9
+      - 9
+      - 23
+      - 6
+      - 30
+      - 55
+      - 70
+      - 67
+      - 76
+      - 20
       - 15
     - url: /distribution/debian
       current:
         rank: 16
-        count: 17
-        score: 40
+        count: 18
+        score: 39
       previous:
-        rank: 18
+        rank: 17
         count: 13
-      change: 2
+      change: 1
       trend:
       - 24
       - 28
@@ -402,36 +402,13 @@ rankings:
       - 13
       - 24
       - 16
-    - url: /distribution/solus
-      current:
-        rank: 17
-        count: 17
-        score: 40
-      previous:
-        rank: 64
-        count: 6
-      change: 47
-      trend:
-      - 94
-      - 72
-      - 38
-      - 17
-      - 43
-      - 24
-      - 34
-      - 33
-      - 77
-      - 41
-      - 80
-      - 12
-      - 17
     - url: /distribution/endless
       current:
-        rank: 18
-        count: 16
-        score: 37
+        rank: 17
+        count: 18
+        score: 39
       previous:
-        rank: 54
+        rank: 53
         count: 6
       change: 36
       trend:
@@ -447,108 +424,39 @@ rankings:
       - 77
       - 62
       - 25
-      - 18
-    - url: /distribution/mauna-linux
-      current:
-        rank: 19
-        count: 16
-        score: 37
-      previous:
-        rank: 57
-        count: 6
-      change: 38
-      trend:
-      - 45
-      - 56
-      - 9
-      - 9
-      - 23
-      - 6
-      - 30
-      - 55
-      - 70
-      - 67
-      - 76
-      - 20
-      - 19
-    - url: /distribution/nixos
-      current:
-        rank: 20
-        count: 16
-        score: 37
-      previous:
-        rank: 16
-        count: 14
-      change: -4
-      trend:
-      - null
-      - null
-      - null
-      - null
-      - null
-      - 1
-      - 6
-      - 48
-      - 20
       - 17
-      - 19
-      - 21
-      - 20
-    - url: /distribution/4mlinux
+    - url: /distribution/arch
       current:
-        rank: 21
-        count: 15
-        score: 35
+        rank: 18
+        count: 17
+        score: 37
       previous:
-        rank: 21
-        count: 12
-      change: 0
+        rank: 30
+        count: 10
+      change: 12
       trend:
-      - 71
-      - 23
-      - 32
-      - 10
-      - 11
       - 4
-      - 19
-      - 34
-      - 14
-      - 7
-      - 17
-      - 16
-      - 21
-    - url: /distribution/arya
-      current:
-        rank: 22
-        count: 15
-        score: 35
-      previous:
-        rank: 52
-        count: 6
-      change: 30
-      trend:
-      - 58
-      - 96
-      - 16
-      - 30
-      - 64
-      - 57
-      - 48
-      - 35
-      - 90
-      - 66
-      - 60
-      - 29
-      - 22
+      - 20
+      - 40
+      - 43
+      - 6
+      - 39
+      - 42
+      - 68
+      - 33
+      - 8
+      - 45
+      - 18
+      - 18
     - url: /distribution/enso
       current:
-        rank: 23
-        count: 15
-        score: 35
+        rank: 19
+        count: 17
+        score: 37
       previous:
-        rank: 55
-        count: 6
-      change: 32
+        rank: 64
+        count: 5
+      change: 45
       trend:
       - 14
       - 12
@@ -562,15 +470,38 @@ rankings:
       - 53
       - 54
       - 26
-      - 23
+      - 19
+    - url: /distribution/solus
+      current:
+        rank: 20
+        count: 17
+        score: 37
+      previous:
+        rank: 61
+        count: 6
+      change: 41
+      trend:
+      - 94
+      - 72
+      - 38
+      - 17
+      - 43
+      - 24
+      - 34
+      - 33
+      - 77
+      - 41
+      - 80
+      - 12
+      - 20
     - url: /distribution/mageia
       current:
-        rank: 24
-        count: 15
+        rank: 21
+        count: 16
         score: 35
       previous:
-        rank: 31
-        count: 10
+        rank: 28
+        count: 11
       change: 7
       trend:
       - null
@@ -585,16 +516,85 @@ rankings:
       - 45
       - 33
       - 32
+      - 21
+    - url: /distribution/nixos
+      current:
+        rank: 22
+        count: 16
+        score: 35
+      previous:
+        rank: 14
+        count: 15
+      change: -8
+      trend:
+      - null
+      - null
+      - null
+      - null
+      - null
+      - 1
+      - 6
+      - 48
+      - 20
+      - 17
+      - 19
+      - 21
+      - 22
+    - url: /distribution/4mlinux
+      current:
+        rank: 23
+        count: 15
+        score: 33
+      previous:
+        rank: 21
+        count: 12
+      change: -2
+      trend:
+      - 71
+      - 23
+      - 32
+      - 10
+      - 11
+      - 4
+      - 19
+      - 34
+      - 14
+      - 7
+      - 17
+      - 16
+      - 23
+    - url: /distribution/arya
+      current:
+        rank: 24
+        count: 15
+        score: 33
+      previous:
+        rank: 52
+        count: 6
+      change: 28
+      trend:
+      - 58
+      - 96
+      - 16
+      - 30
+      - 64
+      - 57
+      - 48
+      - 35
+      - 90
+      - 66
+      - 60
+      - 29
       - 24
     - url: /distribution/pop
       current:
         rank: 25
         count: 15
-        score: 35
+        score: 33
       previous:
-        rank: 32
+        rank: 31
         count: 10
-      change: 7
+      change: 6
       trend:
       - 51
       - 26
@@ -609,14 +609,37 @@ rankings:
       - 21
       - 38
       - 25
-    - url: /distribution/tails
+    - url: /distribution/raspbian
       current:
         rank: 26
         count: 15
-        score: 35
+        score: 33
       previous:
-        rank: 33
-        count: 10
+        rank: 59
+        count: 6
+      change: 33
+      trend:
+      - 52
+      - 60
+      - 82
+      - 22
+      - 31
+      - 88
+      - 79
+      - 12
+      - 40
+      - 70
+      - 48
+      - 22
+      - 26
+    - url: /distribution/tails
+      current:
+        rank: 27
+        count: 15
+        score: 33
+      previous:
+        rank: 34
+        count: 9
       change: 7
       trend:
       - 69
@@ -631,16 +654,16 @@ rankings:
       - 6
       - 28
       - 15
-      - 26
+      - 27
     - url: /distribution/calculate
       current:
-        rank: 27
+        rank: 28
         count: 14
-        score: 33
+        score: 30
       previous:
         rank: 75
         count: 4
-      change: 48
+      change: 47
       trend:
       - 88
       - null
@@ -654,62 +677,39 @@ rankings:
       - 75
       - 73
       - 41
-      - 27
-    - url: /distribution/kali
-      current:
-        rank: 28
-        count: 14
-        score: 33
-      previous:
-        rank: 48
-        count: 7
-      change: 20
-      trend:
-      - 35
-      - 14
-      - 13
-      - 76
-      - 17
-      - 16
-      - 12
-      - 23
-      - 48
       - 28
-      - 42
-      - 30
-      - 28
-    - url: /distribution/raspbian
+    - url: /distribution/linuxmint
       current:
         rank: 29
         count: 14
-        score: 33
+        score: 30
       previous:
-        rank: 50
-        count: 7
-      change: 21
+        rank: 11
+        count: 16
+      change: -18
       trend:
-      - 52
-      - 60
-      - 82
-      - 22
-      - 31
-      - 88
-      - 79
-      - 12
-      - 40
-      - 70
+      - 44
+      - 16
       - 48
-      - 22
+      - 34
+      - 8
+      - 76
+      - 50
+      - 62
+      - 50
+      - 20
+      - 11
+      - 36
       - 29
     - url: /distribution/refreshos
       current:
         rank: 30
         count: 14
-        score: 33
+        score: 30
       previous:
-        rank: 62
+        rank: 60
         count: 6
-      change: 32
+      change: 30
       trend:
       - 81
       - 63
@@ -724,61 +724,61 @@ rankings:
       - 68
       - 27
       - 30
-    - url: /distribution/zorin
+    - url: /distribution/antergos-next
       current:
         rank: 31
-        count: 14
-        score: 33
+        count: 13
+        score: 28
       previous:
-        rank: 17
-        count: 14
-      change: -14
+        rank: 72
+        count: 4
+      change: 41
       trend:
-      - 23
-      - 88
-      - 89
-      - 82
-      - 35
-      - 35
-      - 11
-      - 39
-      - 57
-      - 23
-      - 16
-      - 23
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - 14
+      - 22
+      - 24
+      - 51
+      - 50
       - 31
-    - url: /distribution/linuxmint
+    - url: /distribution/kali
       current:
         rank: 32
         count: 13
-        score: 30
+        score: 28
       previous:
-        rank: 12
-        count: 16
-      change: -20
+        rank: 47
+        count: 7
+      change: 15
       trend:
-      - 44
-      - 16
-      - 48
-      - 34
-      - 8
+      - 35
+      - 14
+      - 13
       - 76
-      - 50
-      - 62
-      - 50
-      - 20
-      - 11
-      - 36
+      - 17
+      - 16
+      - 12
+      - 23
+      - 48
+      - 28
+      - 42
+      - 30
       - 32
     - url: /distribution/makulu
       current:
         rank: 33
         count: 13
-        score: 30
+        score: 28
       previous:
-        rank: 49
+        rank: 48
         count: 7
-      change: 16
+      change: 15
       trend:
       - 90
       - 99
@@ -793,15 +793,61 @@ rankings:
       - 46
       - 43
       - 33
-    - url: /distribution/archlabs
+    - url: /distribution/tinycore
       current:
         rank: 34
-        count: 12
+        count: 13
         score: 28
       previous:
-        rank: 66
+        rank: 26
+        count: 12
+      change: -8
+      trend:
+      - 31
+      - 27
+      - 15
+      - 99
+      - 51
+      - 18
+      - 4
+      - 4
+      - 43
+      - 85
+      - 36
+      - 40
+      - 34
+    - url: /distribution/zorin
+      current:
+        rank: 35
+        count: 13
+        score: 28
+      previous:
+        rank: 15
+        count: 15
+      change: -20
+      trend:
+      - 23
+      - 88
+      - 89
+      - 82
+      - 35
+      - 35
+      - 11
+      - 39
+      - 57
+      - 23
+      - 16
+      - 23
+      - 35
+    - url: /distribution/archlabs
+      current:
+        rank: 36
+        count: 12
+        score: 26
+      previous:
+        rank: 62
         count: 5
-      change: 32
+      change: 26
       trend:
       - 33
       - 31
@@ -815,62 +861,16 @@ rankings:
       - 74
       - 38
       - 93
-      - 34
-    - url: /distribution/ferenos
-      current:
-        rank: 35
-        count: 12
-        score: 28
-      previous:
-        rank: 89
-        count: 3
-      change: 54
-      trend:
-      - 17
-      - 33
-      - 8
-      - 46
-      - 27
-      - 73
-      - 89
-      - 73
-      - 34
-      - 54
-      - 74
-      - 34
-      - 35
-    - url: /distribution/gentoo
-      current:
-        rank: 36
-        count: 12
-        score: 28
-      previous:
-        rank: 39
-        count: 8
-      change: 3
-      trend:
-      - 62
-      - 98
-      - 85
-      - 48
-      - 40
-      - 97
-      - 49
-      - 53
-      - 17
-      - 14
-      - 40
-      - 35
       - 36
     - url: /distribution/kaos
       current:
         rank: 37
         count: 12
-        score: 28
+        score: 26
       previous:
-        rank: 90
+        rank: 87
         count: 3
-      change: 53
+      change: 50
       trend:
       - null
       - 92
@@ -885,38 +885,38 @@ rankings:
       - 91
       - 42
       - 37
-    - url: /distribution/nitrux
+    - url: /distribution/pureos
       current:
         rank: 38
         count: 12
-        score: 28
+        score: 26
       previous:
-        rank: 15
-        count: 14
-      change: -23
+        rank: 58
+        count: 6
+      change: 20
       trend:
-      - 5
-      - 7
-      - 42
-      - 16
-      - 29
-      - 79
+      - null
+      - null
+      - null
+      - null
+      - null
+      - null
+      - 23
+      - 37
+      - 35
+      - 39
       - 44
       - 47
-      - 19
-      - 11
-      - 31
-      - 14
       - 38
     - url: /distribution/salix
       current:
         rank: 39
         count: 12
-        score: 28
+        score: 26
       previous:
-        rank: 71
+        rank: 69
         count: 5
-      change: 32
+      change: 30
       trend:
       - 39
       - 46
@@ -931,37 +931,37 @@ rankings:
       - 94
       - 39
       - 39
-    - url: /distribution/antergos-next
+    - url: /distribution/cutefish
       current:
         rank: 40
         count: 11
-        score: 26
+        score: 24
       previous:
-        rank: 65
-        count: 5
-      change: 25
+        rank: 77
+        count: 4
+      change: 37
       trend:
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
+      - 41
+      - 32
       - 14
-      - 22
-      - 24
+      - 5
+      - 37
+      - 36
+      - 87
+      - 52
+      - 15
+      - 10
+      - 89
       - 51
-      - 50
       - 40
     - url: /distribution/deepin
       current:
         rank: 41
         count: 11
-        score: 26
+        score: 24
       previous:
         rank: 8
-        count: 19
+        count: 18
       change: -33
       trend:
       - 76
@@ -977,199 +977,15 @@ rankings:
       - 6
       - 33
       - 41
-    - url: /distribution/lfs
+    - url: /distribution/elementary
       current:
         rank: 42
         count: 11
-        score: 26
+        score: 24
       previous:
-        rank: 98
+        rank: 96
         count: 2
-      change: 56
-      trend:
-      - null
-      - 93
-      - 56
-      - 91
-      - 67
-      - 61
-      - 91
-      - 74
-      - 92
-      - 44
-      - 92
-      - 65
-      - 42
-    - url: /distribution/lite
-      current:
-        rank: 43
-        count: 11
-        score: 26
-      previous:
-        rank: 27
-        count: 11
-      change: -16
-      trend:
-      - 28
-      - 21
-      - 34
-      - 38
-      - 22
-      - 77
-      - 59
-      - 45
-      - 61
-      - 55
-      - 32
-      - 55
-      - 43
-    - url: /distribution/oracle
-      current:
-        rank: 44
-        count: 11
-        score: 26
-      previous:
-        rank: 81
-        count: 4
-      change: 37
-      trend:
-      - 48
-      - 69
-      - 19
-      - 67
-      - 46
-      - 23
-      - 37
-      - 109
-      - 95
-      - 69
-      - 78
-      - 46
-      - 44
-    - url: /distribution/pureos
-      current:
-        rank: 45
-        count: 11
-        score: 26
-      previous:
-        rank: 61
-        count: 6
-      change: 16
-      trend:
-      - null
-      - null
-      - null
-      - null
-      - null
-      - null
-      - 23
-      - 37
-      - 35
-      - 39
-      - 44
-      - 47
-      - 45
-    - url: /distribution/tinycore
-      current:
-        rank: 46
-        count: 11
-        score: 26
-      previous:
-        rank: 25
-        count: 12
-      change: -21
-      trend:
-      - 31
-      - 27
-      - 15
-      - 99
-      - 51
-      - 18
-      - 4
-      - 4
-      - 43
-      - 85
-      - 36
-      - 40
-      - 46
-    - url: /distribution/voyager
-      current:
-        rank: 47
-        count: 11
-        score: 26
-      previous:
-        rank: 73
-        count: 5
-      change: 26
-      trend:
-      - 70
-      - 101
-      - 70
-      - 42
-      - 77
-      - 105
-      - 99
-      - 103
-      - 100
-      - 105
-      - 71
-      - 60
-      - 47
-    - url: /distribution/cutefish
-      current:
-        rank: 48
-        count: 10
-        score: 23
-      previous:
-        rank: 76
-        count: 4
-      change: 28
-      trend:
-      - 41
-      - 32
-      - 14
-      - 5
-      - 37
-      - 36
-      - 87
-      - 52
-      - 15
-      - 10
-      - 89
-      - 51
-      - 48
-    - url: /distribution/dsl
-      current:
-        rank: 49
-        count: 10
-        score: 23
-      previous:
-        rank: 53
-        count: 6
-      change: 4
-      trend:
-      - 42
-      - 91
-      - 91
-      - 14
-      - 39
-      - 59
-      - 36
-      - 43
-      - 10
-      - 25
-      - 29
-      - 62
-      - 49
-    - url: /distribution/elementary
-      current:
-        rank: 50
-        count: 10
-        score: 23
-      previous:
-        rank: 97
-        count: 2
-      change: 47
+      change: 54
       trend:
       - 77
       - 10
@@ -1183,16 +999,200 @@ rankings:
       - 19
       - 101
       - 52
+      - 42
+    - url: /distribution/ferenos
+      current:
+        rank: 43
+        count: 11
+        score: 24
+      previous:
+        rank: 79
+        count: 4
+      change: 36
+      trend:
+      - 17
+      - 33
+      - 8
+      - 46
+      - 27
+      - 73
+      - 89
+      - 73
+      - 34
+      - 54
+      - 74
+      - 34
+      - 43
+    - url: /distribution/gentoo
+      current:
+        rank: 44
+        count: 11
+        score: 24
+      previous:
+        rank: 33
+        count: 9
+      change: -11
+      trend:
+      - 62
+      - 98
+      - 85
+      - 48
+      - 40
+      - 97
+      - 49
+      - 53
+      - 17
+      - 14
+      - 40
+      - 35
+      - 44
+    - url: /distribution/lfs
+      current:
+        rank: 45
+        count: 11
+        score: 24
+      previous:
+        rank: 97
+        count: 2
+      change: 52
+      trend:
+      - null
+      - 93
+      - 56
+      - 91
+      - 67
+      - 61
+      - 91
+      - 74
+      - 92
+      - 44
+      - 92
+      - 65
+      - 45
+    - url: /distribution/lite
+      current:
+        rank: 46
+        count: 11
+        score: 24
+      previous:
+        rank: 24
+        count: 12
+      change: -22
+      trend:
+      - 28
+      - 21
+      - 34
+      - 38
+      - 22
+      - 77
+      - 59
+      - 45
+      - 61
+      - 55
+      - 32
+      - 55
+      - 46
+    - url: /distribution/lubuntu
+      current:
+        rank: 47
+        count: 11
+        score: 24
+      previous:
+        rank: 16
+        count: 14
+      change: -31
+      trend:
+      - 18
+      - 34
+      - 41
+      - 21
+      - 15
+      - 17
+      - 22
+      - 46
+      - 30
+      - 21
+      - 25
+      - 31
+      - 47
+    - url: /distribution/nitrux
+      current:
+        rank: 48
+        count: 11
+        score: 24
+      previous:
+        rank: 13
+        count: 15
+      change: -35
+      trend:
+      - 5
+      - 7
+      - 42
+      - 16
+      - 29
+      - 79
+      - 44
+      - 47
+      - 19
+      - 11
+      - 31
+      - 14
+      - 48
+    - url: /distribution/oracle
+      current:
+        rank: 49
+        count: 11
+        score: 24
+      previous:
+        rank: 82
+        count: 4
+      change: 33
+      trend:
+      - 48
+      - 69
+      - 19
+      - 67
+      - 46
+      - 23
+      - 37
+      - 109
+      - 95
+      - 69
+      - 78
+      - 46
+      - 49
+    - url: /distribution/voyager
+      current:
+        rank: 50
+        count: 11
+        score: 24
+      previous:
+        rank: 71
+        count: 5
+      change: 21
+      trend:
+      - 70
+      - 101
+      - 70
+      - 42
+      - 77
+      - 105
+      - 99
+      - 103
+      - 100
+      - 105
+      - 71
+      - 60
       - 50
     - url: /distribution/gnoppix
       current:
         rank: 51
         count: 10
-        score: 23
+        score: 22
       previous:
-        rank: 68
+        rank: 65
         count: 5
-      change: 17
+      change: 14
       trend:
       - null
       - 79
@@ -1207,36 +1207,13 @@ rankings:
       - 63
       - 53
       - 51
-    - url: /distribution/lubuntu
+    - url: /distribution/mx
       current:
         rank: 52
         count: 10
-        score: 23
+        score: 22
       previous:
-        rank: 14
-        count: 14
-      change: -38
-      trend:
-      - 18
-      - 34
-      - 41
-      - 21
-      - 15
-      - 17
-      - 22
-      - 46
-      - 30
-      - 21
-      - 25
-      - 31
-      - 52
-    - url: /distribution/mx
-      current:
-        rank: 53
-        count: 10
-        score: 23
-      previous:
-        rank: 19
+        rank: 18
         count: 13
       change: -34
       trend:
@@ -1252,154 +1229,16 @@ rankings:
       - 5
       - 18
       - 44
-      - 53
-    - url: /distribution/porteus
-      current:
-        rank: 54
-        count: 10
-        score: 23
-      previous:
-        rank: 69
-        count: 5
-      change: 15
-      trend:
-      - 37
-      - 84
-      - 60
-      - 94
-      - 48
-      - 101
-      - 94
-      - 76
-      - 64
-      - 46
-      - 66
-      - 67
-      - 54
-    - url: /distribution/redox
-      current:
-        rank: 55
-        count: 10
-        score: 23
-      previous:
-        rank: 42
-        count: 8
-      change: -13
-      trend:
-      - 9
-      - 8
-      - 83
-      - 69
-      - 13
-      - 67
-      - 40
-      - 18
       - 52
-      - 50
-      - 49
-      - 45
-      - 55
-    - url: /distribution/slackel
-      current:
-        rank: 56
-        count: 10
-        score: 23
-      previous:
-        rank: 83
-        count: 4
-      change: 27
-      trend:
-      - 93
-      - 71
-      - 95
-      - 102
-      - 32
-      - 82
-      - 33
-      - 25
-      - 87
-      - 63
-      - 69
-      - 58
-      - 56
-    - url: /distribution/korora
-      current:
-        rank: 57
-        count: 9
-        score: 21
-      previous:
-        rank: 78
-        count: 4
-      change: 21
-      trend:
-      - 36
-      - 67
-      - 108
-      - 90
-      - 53
-      - 22
-      - 43
-      - 16
-      - 60
-      - 81
-      - 102
-      - 64
-      - 57
-    - url: /distribution/opensuse
-      current:
-        rank: 58
-        count: 9
-        score: 21
-      previous:
-        rank: 111
-        count: 1
-      change: 53
-      trend:
-      - 47
-      - 44
-      - 98
-      - 106
-      - 45
-      - 33
-      - 62
-      - 86
-      - 94
-      - 84
-      - 109
-      - 81
-      - 58
-    - url: /distribution/pentoo
-      current:
-        rank: 59
-        count: 9
-        score: 21
-      previous:
-        rank: 10
-        count: 17
-      change: -49
-      trend:
-      - 2
-      - 9
-      - 31
-      - 11
-      - 70
-      - 64
-      - 31
-      - 96
-      - 31
-      - 38
-      - 7
-      - 37
-      - 59
     - url: /distribution/porteux
       current:
-        rank: 60
-        count: 9
-        score: 21
+        rank: 53
+        count: 10
+        score: 22
       previous:
-        rank: 60
-        count: 6
-      change: 0
+        rank: 67
+        count: 5
+      change: 14
       trend:
       - 19
       - 22
@@ -1413,12 +1252,173 @@ rankings:
       - 22
       - 67
       - 56
+      - 53
+    - url: /distribution/redox
+      current:
+        rank: 54
+        count: 10
+        score: 22
+      previous:
+        rank: 43
+        count: 8
+      change: -11
+      trend:
+      - 9
+      - 8
+      - 83
+      - 69
+      - 13
+      - 67
+      - 40
+      - 18
+      - 52
+      - 50
+      - 49
+      - 45
+      - 54
+    - url: /distribution/slackel
+      current:
+        rank: 55
+        count: 10
+        score: 22
+      previous:
+        rank: 90
+        count: 3
+      change: 35
+      trend:
+      - 93
+      - 71
+      - 95
+      - 102
+      - 32
+      - 82
+      - 33
+      - 25
+      - 87
+      - 63
+      - 69
+      - 58
+      - 55
+    - url: /distribution/dragonfly
+      current:
+        rank: 56
+        count: 9
+        score: 20
+      previous:
+        rank: 27
+        count: 11
+      change: -29
+      trend:
+      - null
+      - 52
+      - 18
+      - 32
+      - 38
+      - 58
+      - 88
+      - 82
+      - 111
+      - 76
+      - 24
+      - 87
+      - 56
+    - url: /distribution/dsl
+      current:
+        rank: 57
+        count: 9
+        score: 20
+      previous:
+        rank: 63
+        count: 5
+      change: 6
+      trend:
+      - 42
+      - 91
+      - 91
+      - 14
+      - 39
+      - 59
+      - 36
+      - 43
+      - 10
+      - 25
+      - 29
+      - 62
+      - 57
+    - url: /distribution/korora
+      current:
+        rank: 58
+        count: 9
+        score: 20
+      previous:
+        rank: 88
+        count: 3
+      change: 30
+      trend:
+      - 36
+      - 67
+      - 108
+      - 90
+      - 53
+      - 22
+      - 43
+      - 16
+      - 60
+      - 81
+      - 102
+      - 64
+      - 58
+    - url: /distribution/midnight
+      current:
+        rank: 59
+        count: 9
+        score: 20
+      previous:
+        rank: 98
+        count: 2
+      change: 39
+      trend:
+      - 92
+      - 100
+      - 105
+      - 92
+      - 96
+      - 54
+      - 78
+      - 31
+      - 71
+      - 99
+      - 103
+      - 79
+      - 59
+    - url: /distribution/pentoo
+      current:
+        rank: 60
+        count: 9
+        score: 20
+      previous:
+        rank: 9
+        count: 18
+      change: -51
+      trend:
+      - 2
+      - 9
+      - 31
+      - 11
+      - 70
+      - 64
+      - 31
+      - 96
+      - 31
+      - 38
+      - 7
+      - 37
       - 60
     - url: /distribution/puppy
       current:
         rank: 61
         count: 9
-        score: 21
+        score: 20
       previous:
         rank: 29
         count: 11
@@ -1437,15 +1437,38 @@ rankings:
       - 34
       - 68
       - 61
-    - url: /distribution/rhino-linux
+    - url: /distribution/reactos
       current:
         rank: 62
         count: 9
-        score: 21
+        score: 20
       previous:
-        rank: 70
+        rank: 32
+        count: 10
+      change: -30
+      trend:
+      - 20
+      - 61
+      - 61
+      - 105
+      - 71
+      - 66
+      - 39
+      - 38
+      - 41
+      - 48
+      - 22
+      - 72
+      - 62
+    - url: /distribution/rhino-linux
+      current:
+        rank: 63
+        count: 9
+        score: 20
+      previous:
+        rank: 68
         count: 5
-      change: 8
+      change: 5
       trend:
       - null
       - null
@@ -1459,15 +1482,15 @@ rankings:
       - 62
       - 57
       - 69
-      - 62
+      - 63
     - url: /distribution/rosa
       current:
-        rank: 63
+        rank: 64
         count: 9
-        score: 21
+        score: 20
       previous:
-        rank: 11
-        count: 17
+        rank: 12
+        count: 16
       change: -52
       trend:
       - 1
@@ -1482,16 +1505,16 @@ rankings:
       - 12
       - 4
       - 48
-      - 63
+      - 64
     - url: /distribution/sabayon
       current:
-        rank: 64
+        rank: 65
         count: 9
-        score: 21
+        score: 20
       previous:
-        rank: 43
-        count: 8
-      change: -21
+        rank: 49
+        count: 7
+      change: -16
       trend:
       - 68
       - 36
@@ -1505,62 +1528,16 @@ rankings:
       - 57
       - 58
       - 57
-      - 64
-    - url: /distribution/slax
-      current:
-        rank: 65
-        count: 9
-        score: 21
-      previous:
-        rank: 63
-        count: 6
-      change: -2
-      trend:
-      - 16
-      - 30
-      - 43
-      - 39
-      - 59
-      - 34
-      - 111
-      - 110
-      - 54
-      - 110
-      - 79
-      - 49
       - 65
-    - url: /distribution/trisquel
-      current:
-        rank: 66
-        count: 9
-        score: 21
-      previous:
-        rank: 37
-        count: 9
-      change: -29
-      trend:
-      - 12
-      - 73
-      - 39
-      - 79
-      - 34
-      - 29
-      - 97
-      - 13
-      - 44
-      - 73
-      - 82
-      - 28
-      - 66
     - url: /distribution/apricity
       current:
-        rank: 67
+        rank: 66
         count: 8
-        score: 19
+        score: 17
       previous:
-        rank: 95
-        count: 2
-      change: 28
+        rank: 107
+        count: 1
+      change: 41
       trend:
       - 32
       - 19
@@ -1574,16 +1551,16 @@ rankings:
       - 52
       - 98
       - 92
-      - 67
+      - 66
     - url: /distribution/arco
       current:
-        rank: 68
-        count: 8
-        score: 19
-      previous:
         rank: 67
-        count: 5
-      change: -1
+        count: 8
+        score: 17
+      previous:
+        rank: 73
+        count: 4
+      change: 6
       trend:
       - 74
       - 95
@@ -1597,16 +1574,16 @@ rankings:
       - 65
       - 53
       - 84
-      - 68
+      - 67
     - url: /distribution/bodhi
       current:
-        rank: 69
+        rank: 68
         count: 8
-        score: 19
+        score: 17
       previous:
         rank: 108
         count: 1
-      change: 39
+      change: 40
       trend:
       - 59
       - 89
@@ -1620,62 +1597,16 @@ rankings:
       - 97
       - 99
       - 77
-      - 69
-    - url: /distribution/chakra
-      current:
-        rank: 70
-        count: 8
-        score: 19
-      previous:
-        rank: 87
-        count: 3
-      change: 17
-      trend:
-      - null
-      - 97
-      - 96
-      - 73
-      - 89
-      - 13
-      - 21
-      - 81
-      - 27
-      - 33
-      - 88
-      - 94
-      - 70
-    - url: /distribution/dragonfly
-      current:
-        rank: 71
-        count: 8
-        score: 19
-      previous:
-        rank: 26
-        count: 11
-      change: -45
-      trend:
-      - null
-      - 52
-      - 18
-      - 32
-      - 38
-      - 58
-      - 88
-      - 82
-      - 111
-      - 76
-      - 24
-      - 87
-      - 71
+      - 68
     - url: /distribution/freebsd
       current:
-        rank: 72
+        rank: 69
         count: 8
-        score: 19
+        score: 17
       previous:
-        rank: 47
-        count: 7
-      change: -25
+        rank: 39
+        count: 8
+      change: -30
       trend:
       - 43
       - 13
@@ -1689,39 +1620,39 @@ rankings:
       - 34
       - 39
       - 70
-      - 72
-    - url: /distribution/midnight
+      - 69
+    - url: /distribution/kodachi
       current:
-        rank: 73
+        rank: 70
         count: 8
-        score: 19
+        score: 17
       previous:
-        rank: 99
-        count: 2
-      change: 26
+        rank: 40
+        count: 8
+      change: -30
       trend:
-      - 92
-      - 100
-      - 105
-      - 92
-      - 96
-      - 54
       - 78
-      - 31
-      - 71
-      - 99
-      - 103
-      - 79
-      - 73
+      - 80
+      - 33
+      - 37
+      - 90
+      - 21
+      - 8
+      - 36
+      - 18
+      - 36
+      - 43
+      - 54
+      - 70
     - url: /distribution/openmandriva
       current:
-        rank: 74
+        rank: 71
         count: 8
-        score: 19
+        score: 17
       previous:
-        rank: 80
+        rank: 81
         count: 4
-      change: 6
+      change: 10
       trend:
       - 46
       - 83
@@ -1735,16 +1666,39 @@ rankings:
       - 83
       - 56
       - 71
-      - 74
+      - 71
+    - url: /distribution/opensuse
+      current:
+        rank: 72
+        count: 8
+        score: 17
+      previous:
+        rank: 101
+        count: 2
+      change: 29
+      trend:
+      - 47
+      - 44
+      - 98
+      - 106
+      - 45
+      - 33
+      - 62
+      - 86
+      - 94
+      - 84
+      - 109
+      - 81
+      - 72
     - url: /distribution/pclinuxos
       current:
-        rank: 75
+        rank: 73
         count: 8
-        score: 19
+        score: 17
       previous:
-        rank: 92
+        rank: 89
         count: 3
-      change: 17
+      change: 16
       trend:
       - 50
       - 94
@@ -1758,39 +1712,85 @@ rankings:
       - 101
       - 105
       - 66
+      - 73
+    - url: /distribution/porteus
+      current:
+        rank: 74
+        count: 8
+        score: 17
+      previous:
+        rank: 66
+        count: 5
+      change: -8
+      trend:
+      - 37
+      - 84
+      - 60
+      - 94
+      - 48
+      - 101
+      - 94
+      - 76
+      - 64
+      - 46
+      - 66
+      - 67
+      - 74
+    - url: /distribution/slax
+      current:
+        rank: 75
+        count: 8
+        score: 17
+      previous:
+        rank: 50
+        count: 7
+      change: -25
+      trend:
+      - 16
+      - 30
+      - 43
+      - 39
+      - 59
+      - 34
+      - 111
+      - 110
+      - 54
+      - 110
+      - 79
+      - 49
       - 75
-    - url: /distribution/reactos
+    - url: /distribution/trisquel
       current:
         rank: 76
         count: 8
-        score: 19
+        score: 17
       previous:
-        rank: 24
-        count: 12
-      change: -52
+        rank: 35
+        count: 9
+      change: -41
       trend:
-      - 20
-      - 61
-      - 61
-      - 105
-      - 71
-      - 66
+      - 12
+      - 73
       - 39
-      - 38
-      - 41
-      - 48
-      - 22
-      - 72
+      - 79
+      - 34
+      - 29
+      - 97
+      - 13
+      - 44
+      - 73
+      - 82
+      - 28
       - 76
     - url: /distribution/ubuntudeepin
       current:
         rank: 77
         count: 8
-        score: 19
+        score: 17
       previous:
-        rank: 45
-        count: 8
-      change: -32
+        rank: 51
+        count: 7
+      change: -26
       trend:
       - 84
       - null
@@ -1805,57 +1805,57 @@ rankings:
       - 37
       - 82
       - 77
-    - url: /distribution/ubuntuunity
+    - url: /distribution/chakra
       current:
         rank: 78
-        count: 8
-        score: 19
-      previous:
-        rank: 51
         count: 7
-      change: -27
+        score: 15
+      previous:
+        rank: 76
+        count: 4
+      change: -2
       trend:
-      - 85
       - null
-      - 66
       - 97
-      - 76
-      - 56
-      - 57
-      - 79
-      - 80
-      - 111
-      - 70
-      - 59
+      - 96
+      - 73
+      - 89
+      - 13
+      - 21
+      - 81
+      - 27
+      - 33
+      - 88
+      - 94
       - 78
-    - url: /distribution/kodachi
+    - url: /distribution/neptune
       current:
         rank: 79
         count: 7
-        score: 16
+        score: 15
       previous:
-        rank: 36
-        count: 9
-      change: -43
+        rank: 99
+        count: 2
+      change: 20
       trend:
-      - 78
-      - 80
-      - 33
-      - 37
-      - 90
-      - 21
-      - 8
-      - 36
-      - 18
-      - 36
-      - 43
-      - 54
+      - 79
+      - 11
+      - 35
+      - 59
+      - 68
+      - 62
+      - 71
+      - 64
+      - 72
+      - 68
+      - 77
+      - 96
       - 79
     - url: /distribution/nomad
       current:
         rank: 80
         count: 7
-        score: 16
+        score: 15
       previous:
         rank: 100
         count: 2
@@ -1874,38 +1874,15 @@ rankings:
       - 104
       - 80
       - 80
-    - url: /distribution/redhat
+    - url: /distribution/shark
       current:
         rank: 81
         count: 7
-        score: 16
-      previous:
-        rank: 41
-        count: 8
-      change: -40
-      trend:
-      - 38
-      - 62
-      - 102
-      - 96
-      - 42
-      - 89
-      - 53
-      - 97
-      - 51
-      - 71
-      - 35
-      - 73
-      - 81
-    - url: /distribution/shark
-      current:
-        rank: 82
-        count: 7
-        score: 16
+        score: 15
       previous:
         rank: 44
         count: 8
-      change: -38
+      change: -37
       trend:
       - 21
       - 37
@@ -1919,16 +1896,16 @@ rankings:
       - 91
       - 59
       - 74
-      - 82
+      - 81
     - url: /distribution/trident
       current:
-        rank: 83
+        rank: 82
         count: 7
-        score: 16
+        score: 15
       previous:
-        rank: 103
-        count: 2
-      change: 20
+        rank: 92
+        count: 3
+      change: 10
       trend:
       - 82
       - 50
@@ -1942,16 +1919,16 @@ rankings:
       - 103
       - 111
       - 90
-      - 83
+      - 82
     - url: /distribution/trueos
       current:
-        rank: 84
+        rank: 83
         count: 7
-        score: 16
+        score: 15
       previous:
-        rank: 38
-        count: 9
-      change: -46
+        rank: 45
+        count: 8
+      change: -38
       trend:
       - 83
       - 40
@@ -1965,16 +1942,39 @@ rankings:
       - 51
       - 50
       - 75
+      - 83
+    - url: /distribution/ubuntuunity
+      current:
+        rank: 84
+        count: 7
+        score: 15
+      previous:
+        rank: 46
+        count: 8
+      change: -38
+      trend:
+      - 85
+      - null
+      - 66
+      - 97
+      - 76
+      - 56
+      - 57
+      - 79
+      - 80
+      - 111
+      - 70
+      - 59
       - 84
     - url: /distribution/ultimate
       current:
         rank: 85
         count: 7
-        score: 16
+        score: 15
       previous:
-        rank: 94
+        rank: 93
         count: 3
-      change: 9
+      change: 8
       trend:
       - 10
       - 4
@@ -1989,38 +1989,15 @@ rankings:
       - 84
       - 76
       - 85
-    - url: /distribution/archbang
+    - url: /distribution/devuan
       current:
         rank: 86
         count: 6
-        score: 14
+        score: 13
       previous:
-        rank: 46
-        count: 7
-      change: -40
-      trend:
-      - 11
-      - 41
-      - 55
-      - 88
-      - 63
-      - 83
-      - 110
-      - 80
-      - 47
-      - 42
-      - 72
-      - 61
-      - 86
-    - url: /distribution/devuan
-      current:
-        rank: 87
-        count: 6
-        score: 14
-      previous:
-        rank: 88
+        rank: 86
         count: 3
-      change: 1
+      change: 0
       trend:
       - 25
       - 90
@@ -2034,16 +2011,16 @@ rankings:
       - 106
       - 90
       - 86
-      - 87
+      - 86
     - url: /distribution/elive
       current:
-        rank: 88
+        rank: 87
         count: 6
-        score: 14
+        score: 13
       previous:
-        rank: 77
+        rank: 78
         count: 4
-      change: -11
+      change: -9
       trend:
       - 60
       - 17
@@ -2057,16 +2034,39 @@ rankings:
       - 88
       - 61
       - 95
+      - 87
+    - url: /distribution/kdeneon
+      current:
+        rank: 88
+        count: 6
+        score: 13
+      previous:
+        rank: 54
+        count: 6
+      change: -34
+      trend:
+      - null
+      - 53
+      - 97
+      - 98
+      - 66
+      - 75
+      - 90
+      - 61
+      - 83
+      - 80
+      - 75
+      - 63
       - 88
     - url: /distribution/kubuntu
       current:
         rank: 89
         count: 6
-        score: 14
+        score: 13
       previous:
-        rank: 79
+        rank: 80
         count: 4
-      change: -10
+      change: -9
       trend:
       - null
       - 54
@@ -2081,38 +2081,15 @@ rankings:
       - 55
       - 78
       - 89
-    - url: /distribution/neptune
+    - url: /distribution/pardus
       current:
         rank: 90
         count: 6
-        score: 14
+        score: 13
       previous:
-        rank: 91
-        count: 3
-      change: 1
-      trend:
-      - 79
-      - 11
-      - 35
-      - 59
-      - 68
-      - 62
-      - 71
-      - 64
-      - 72
-      - 68
-      - 77
-      - 96
-      - 90
-    - url: /distribution/pardus
-      current:
-        rank: 91
-        count: 6
-        score: 14
-      previous:
-        rank: 82
+        rank: 83
         count: 4
-      change: -9
+      change: -7
       trend:
       - 49
       - 57
@@ -2126,16 +2103,16 @@ rankings:
       - 61
       - 64
       - 88
-      - 91
+      - 90
     - url: /distribution/redcore
       current:
-        rank: 92
+        rank: 91
         count: 6
-        score: 14
+        score: 13
       previous:
-        rank: 40
+        rank: 41
         count: 8
-      change: -52
+      change: -50
       trend:
       - 53
       - 85
@@ -2149,16 +2126,85 @@ rankings:
       - 49
       - 27
       - 89
+      - 91
+    - url: /distribution/redhat
+      current:
+        rank: 92
+        count: 6
+        score: 13
+      previous:
+        rank: 42
+        count: 8
+      change: -50
+      trend:
+      - 38
+      - 62
+      - 102
+      - 96
+      - 42
+      - 89
+      - 53
+      - 97
+      - 51
+      - 71
+      - 35
+      - 73
       - 92
-    - url: /distribution/backbox
+    - url: /distribution/xubuntu
       current:
         rank: 93
+        count: 6
+        score: 13
+      previous:
+        rank: 113
+        count: 1
+      change: 20
+      trend:
+      - null
+      - 102
+      - 107
+      - 81
+      - 87
+      - 108
+      - 83
+      - 21
+      - 46
+      - 113
+      - null
+      - 83
+      - 93
+    - url: /distribution/archbang
+      current:
+        rank: 94
         count: 5
-        score: 12
+        score: 11
+      previous:
+        rank: 37
+        count: 8
+      change: -57
+      trend:
+      - 11
+      - 41
+      - 55
+      - 88
+      - 63
+      - 83
+      - 110
+      - 80
+      - 47
+      - 42
+      - 72
+      - 61
+      - 94
+    - url: /distribution/backbox
+      current:
+        rank: 95
+        count: 5
+        score: 11
       previous:
         rank: 74
         count: 4
-      change: -19
+      change: -21
       trend:
       - 75
       - 76
@@ -2172,37 +2218,14 @@ rankings:
       - 96
       - 87
       - 85
-      - 93
-    - url: /distribution/kdeneon
-      current:
-        rank: 94
-        count: 5
-        score: 12
-      previous:
-        rank: 56
-        count: 6
-      change: -38
-      trend:
-      - null
-      - 53
-      - 97
-      - 98
-      - 66
-      - 75
-      - 90
-      - 61
-      - 83
-      - 80
-      - 75
-      - 63
-      - 94
+      - 95
     - url: /distribution/peppermint
       current:
-        rank: 95
+        rank: 96
         count: 5
-        score: 12
+        score: 11
       previous:
-        rank: 101
+        rank: 102
         count: 2
       change: 6
       trend:
@@ -2218,29 +2241,6 @@ rankings:
       - 107
       - 93
       - 98
-      - 95
-    - url: /distribution/xubuntu
-      current:
-        rank: 96
-        count: 5
-        score: 12
-      previous:
-        rank: 113
-        count: 1
-      change: 17
-      trend:
-      - null
-      - 102
-      - 107
-      - 81
-      - 87
-      - 108
-      - 83
-      - 21
-      - 46
-      - 113
-      - null
-      - 83
       - 96
     - url: /distribution/antergos
       current:
@@ -2248,9 +2248,9 @@ rankings:
         count: 4
         score: 9
       previous:
-        rank: 85
-        count: 3
-      change: -12
+        rank: 94
+        count: 2
+      change: -3
       trend:
       - 72
       - 75
@@ -2271,9 +2271,9 @@ rankings:
         count: 4
         score: 9
       previous:
-        rank: 96
+        rank: 95
         count: 2
-      change: -2
+      change: -3
       trend:
       - 34
       - 77
@@ -2288,130 +2288,15 @@ rankings:
       - 100
       - 100
       - 98
-    - url: /distribution/netbsd
+    - url: /distribution/maui
       current:
         rank: 99
         count: 4
         score: 9
       previous:
-        rank: 110
-        count: 1
-      change: 11
-      trend:
-      - 80
-      - 43
-      - 58
-      - 55
-      - 44
-      - 43
-      - 92
-      - 94
-      - 113
-      - 60
-      - 108
-      - 101
-      - 99
-    - url: /distribution/netrunner
-      current:
-        rank: 100
-        count: 4
-        score: 9
-      previous:
-        rank: 58
-        count: 6
-      change: -42
-      trend:
-      - 63
-      - 35
-      - 93
-      - 66
-      - 69
-      - 20
-      - 26
-      - 84
-      - 73
-      - 30
-      - 47
-      - 97
-      - 100
-    - url: /distribution/spirallinux
-      current:
-        rank: 101
-        count: 4
-        score: 9
-      previous:
-        rank: 102
-        count: 2
-      change: 1
-      trend:
-      - 30
-      - 48
-      - 44
-      - 78
-      - 84
-      - 69
-      - 107
-      - 111
-      - 109
-      - 72
-      - 96
-      - 99
-      - 101
-    - url: /distribution/vanillaos
-      current:
-        rank: 102
-        count: 4
-        score: 9
-      previous:
-        rank: 84
-        count: 4
-      change: -18
-      trend:
-      - 87
-      - 87
-      - 88
-      - 57
-      - 30
-      - 26
-      - 41
-      - 67
-      - 89
-      - 64
-      - 85
-      - 91
-      - 102
-    - url: /distribution/archman
-      current:
-        rank: 103
-        count: 3
-        score: 7
-      previous:
-        rank: 86
-        count: 3
-      change: -17
-      trend:
-      - 73
-      - 51
-      - 22
-      - 19
-      - 36
-      - 31
-      - 47
-      - 41
-      - 81
-      - 87
-      - 52
-      - 107
-      - 103
-    - url: /distribution/maui
-      current:
-        rank: 104
-        count: 3
-        score: 7
-      previous:
         rank: 109
         count: 1
-      change: 5
+      change: 10
       trend:
       - 15
       - 55
@@ -2425,6 +2310,121 @@ rankings:
       - 98
       - null
       - 108
+      - 99
+    - url: /distribution/netbsd
+      current:
+        rank: 100
+        count: 4
+        score: 9
+      previous:
+        rank: 110
+        count: 1
+      change: 10
+      trend:
+      - 80
+      - 43
+      - 58
+      - 55
+      - 44
+      - 43
+      - 92
+      - 94
+      - 113
+      - 60
+      - 108
+      - 101
+      - 100
+    - url: /distribution/netrunner
+      current:
+        rank: 101
+        count: 4
+        score: 9
+      previous:
+        rank: 56
+        count: 6
+      change: -45
+      trend:
+      - 63
+      - 35
+      - 93
+      - 66
+      - 69
+      - 20
+      - 26
+      - 84
+      - 73
+      - 30
+      - 47
+      - 97
+      - 101
+    - url: /distribution/spirallinux
+      current:
+        rank: 102
+        count: 4
+        score: 9
+      previous:
+        rank: 112
+        count: 1
+      change: 10
+      trend:
+      - 30
+      - 48
+      - 44
+      - 78
+      - 84
+      - 69
+      - 107
+      - 111
+      - 109
+      - 72
+      - 96
+      - 99
+      - 102
+    - url: /distribution/vanillaos
+      current:
+        rank: 103
+        count: 4
+        score: 9
+      previous:
+        rank: 84
+        count: 4
+      change: -19
+      trend:
+      - 87
+      - 87
+      - 88
+      - 57
+      - 30
+      - 26
+      - 41
+      - 67
+      - 89
+      - 64
+      - 85
+      - 91
+      - 103
+    - url: /distribution/archman
+      current:
+        rank: 104
+        count: 3
+        score: 7
+      previous:
+        rank: 85
+        count: 3
+      change: -19
+      trend:
+      - 73
+      - 51
+      - 22
+      - 19
+      - 36
+      - 31
+      - 47
+      - 41
+      - 81
+      - 87
+      - 52
+      - 107
       - 104
     - url: /distribution/parsix
       current:
@@ -2432,9 +2432,9 @@ rankings:
         count: 3
         score: 7
       previous:
-        rank: 59
+        rank: 57
         count: 6
-      change: -46
+      change: -48
       trend:
       - 64
       - 58
@@ -2455,9 +2455,9 @@ rankings:
         count: 3
         score: 7
       previous:
-        rank: 104
+        rank: 103
         count: 2
-      change: -2
+      change: -3
       trend:
       - 96
       - null
@@ -2478,9 +2478,9 @@ rankings:
         count: 3
         score: 7
       previous:
-        rank: 34
-        count: 10
-      change: -73
+        rank: 36
+        count: 9
+      change: -71
       trend:
       - null
       - null
@@ -2501,9 +2501,9 @@ rankings:
         count: 3
         score: 7
       previous:
-        rank: 106
+        rank: 105
         count: 2
-      change: -2
+      change: -3
       trend:
       - 57
       - 86
@@ -2522,11 +2522,11 @@ rankings:
       current:
         rank: 109
         count: 2
-        score: 5
+        score: 4
       previous:
-        rank: 93
+        rank: 91
         count: 3
-      change: -16
+      change: -18
       trend:
       - 54
       - 38
@@ -2541,59 +2541,13 @@ rankings:
       - 81
       - 109
       - 109
-    - url: /distribution/uruk
+    - url: /distribution/sparky
       current:
         rank: 110
         count: 2
-        score: 5
+        score: 4
       previous:
-        rank: 107
-        count: 2
-      change: -3
-      trend:
-      - 86
-      - 65
-      - 27
-      - 80
-      - 60
-      - 94
-      - 109
-      - 113
-      - 99
-      - 112
-      - 107
-      - 105
-      - 110
-    - url: /distribution/siduction
-      current:
-        rank: 111
-        count: 1
-        score: 2
-      previous:
-        rank: 112
-        count: 1
-      change: 1
-      trend:
-      - 22
-      - 47
-      - 62
-      - 101
-      - 73
-      - 81
-      - 106
-      - 106
-      - 86
-      - 109
-      - 110
-      - 112
-      - 111
-    - url: /distribution/sparky
-      current:
-        rank: 112
-        count: 1
-        score: 2
-      previous:
-        rank: 72
+        rank: 70
         count: 5
       change: -40
       trend:
@@ -2609,16 +2563,16 @@ rankings:
       - 31
       - 95
       - 103
-      - 112
+      - 110
     - url: /distribution/ubuntucinnamon
       current:
-        rank: 113
-        count: 1
-        score: 2
-      previous:
-        rank: 105
+        rank: 111
         count: 2
-      change: -8
+        score: 4
+      previous:
+        rank: 104
+        count: 2
+      change: -7
       trend:
       - 56
       - 64
@@ -2632,16 +2586,62 @@ rankings:
       - 58
       - 83
       - 113
+      - 111
+    - url: /distribution/uruk
+      current:
+        rank: 112
+        count: 2
+        score: 4
+      previous:
+        rank: 106
+        count: 2
+      change: -6
+      trend:
+      - 86
+      - 65
+      - 27
+      - 80
+      - 60
+      - 94
+      - 109
+      - 113
+      - 99
+      - 112
+      - 107
+      - 105
+      - 112
+    - url: /distribution/siduction
+      current:
+        rank: 113
+        count: 1
+        score: 2
+      previous:
+        rank: 111
+        count: 1
+      change: -2
+      trend:
+      - 22
+      - 47
+      - 62
+      - 101
+      - 73
+      - 81
+      - 106
+      - 106
+      - 86
+      - 109
+      - 110
+      - 112
       - 113
     desktops: &id002
     - url: /desktop/gnome
       current:
         rank: 1
-        count: 61
+        count: 60
         score: 100
       previous:
         rank: 1
-        count: 42
+        count: 41
       change: 0
       trend:
       - null
@@ -2661,11 +2661,11 @@ rankings:
       current:
         rank: 2
         count: 28
-        score: 46
+        score: 47
       previous:
-        rank: 8
-        count: 12
-      change: 6
+        rank: 5
+        count: 13
+      change: 3
       trend:
       - 6
       - 6
@@ -2684,10 +2684,10 @@ rankings:
       current:
         rank: 3
         count: 22
-        score: 36
+        score: 37
       previous:
         rank: 12
-        count: 8
+        count: 10
       change: 9
       trend:
       - 5
@@ -2707,7 +2707,7 @@ rankings:
       current:
         rank: 4
         count: 22
-        score: 36
+        score: 37
       previous:
         rank: 4
         count: 19
@@ -2726,38 +2726,15 @@ rankings:
       - 4
       - 6
       - 4
-    - url: /desktop/cutefish
-      current:
-        rank: 5
-        count: 20
-        score: 33
-      previous:
-        rank: 3
-        count: 23
-      change: -2
-      trend:
-      - 7
-      - 2
-      - 7
-      - 10
-      - 7
-      - 10
-      - 11
-      - 9
-      - 6
-      - 2
-      - 3
-      - 3
-      - 5
     - url: /desktop/xfce
       current:
-        rank: 6
-        count: 19
-        score: 31
+        rank: 5
+        count: 22
+        score: 37
       previous:
         rank: 2
-        count: 32
-      change: -4
+        count: 34
+      change: -3
       trend:
       - 1
       - 1
@@ -2771,12 +2748,35 @@ rankings:
       - 5
       - 2
       - 5
+      - 5
+    - url: /desktop/cutefish
+      current:
+        rank: 6
+        count: 21
+        score: 35
+      previous:
+        rank: 3
+        count: 22
+      change: -3
+      trend:
+      - 7
+      - 2
+      - 7
+      - 10
+      - 7
+      - 10
+      - 11
+      - 9
+      - 6
+      - 2
+      - 3
+      - 3
       - 6
     - url: /desktop/pantheon
       current:
         rank: 7
-        count: 15
-        score: 25
+        count: 16
+        score: 27
       previous:
         rank: 14
         count: 6
@@ -2795,38 +2795,15 @@ rankings:
       - 12
       - 8
       - 7
-    - url: /desktop/enlightenment
-      current:
-        rank: 8
-        count: 13
-        score: 21
-      previous:
-        rank: 11
-        count: 9
-      change: 3
-      trend:
-      - 3
-      - 7
-      - 14
-      - 12
-      - 17
-      - 6
-      - 12
-      - 16
-      - 16
-      - 16
-      - 10
-      - 11
-      - 8
     - url: /desktop/lxde
       current:
-        rank: 9
-        count: 13
-        score: 21
+        rank: 8
+        count: 15
+        score: 25
       previous:
         rank: 16
         count: 4
-      change: 7
+      change: 8
       trend:
       - 14
       - 17
@@ -2840,16 +2817,39 @@ rankings:
       - 11
       - 16
       - 10
+      - 8
+    - url: /desktop/budgie
+      current:
+        rank: 9
+        count: 14
+        score: 23
+      previous:
+        rank: 6
+        count: 12
+      change: -3
+      trend:
+      - 2
+      - 10
+      - 3
+      - 7
+      - 1
+      - 1
+      - 3
+      - 2
+      - 12
+      - 4
+      - 8
+      - 9
       - 9
     - url: /desktop/mate
       current:
         rank: 10
-        count: 13
-        score: 21
+        count: 14
+        score: 23
       previous:
-        rank: 6
-        count: 13
-      change: -4
+        rank: 8
+        count: 12
+      change: -2
       trend:
       - 4
       - 5
@@ -2868,10 +2868,10 @@ rankings:
       current:
         rank: 11
         count: 13
-        score: 21
+        score: 22
       previous:
         rank: 10
-        count: 12
+        count: 11
       change: -1
       trend:
       - 12
@@ -2887,38 +2887,38 @@ rankings:
       - 11
       - 7
       - 11
-    - url: /desktop/budgie
+    - url: /desktop/enlightenment
       current:
         rank: 12
-        count: 11
-        score: 18
+        count: 12
+        score: 20
       previous:
-        rank: 5
-        count: 13
-      change: -7
+        rank: 11
+        count: 10
+      change: -1
       trend:
-      - 2
-      - 10
       - 3
       - 7
-      - 1
-      - 1
-      - 3
-      - 2
+      - 14
       - 12
-      - 4
-      - 8
-      - 9
+      - 17
+      - 6
+      - 12
+      - 16
+      - 16
+      - 16
+      - 10
+      - 11
       - 12
     - url: /desktop/plasma
       current:
         rank: 13
-        count: 10
-        score: 16
+        count: 11
+        score: 18
       previous:
-        rank: 7
-        count: 13
-      change: -6
+        rank: 9
+        count: 12
+      change: -4
       trend:
       - 13
       - 9
@@ -2936,12 +2936,12 @@ rankings:
     - url: /desktop/lumina
       current:
         rank: 14
-        count: 9
-        score: 15
+        count: 10
+        score: 17
       previous:
-        rank: 9
+        rank: 7
         count: 12
-      change: -5
+      change: -7
       trend:
       - 8
       - 4
@@ -2956,38 +2956,15 @@ rankings:
       - 6
       - 16
       - 14
-    - url: /desktop/regolith
+    - url: /desktop/deepin
       current:
         rank: 15
         count: 9
         score: 15
       previous:
-        rank: 15
-        count: 6
-      change: 0
-      trend:
-      - 10
-      - 12
-      - 12
-      - 17
-      - 15
-      - 15
-      - 4
-      - 15
-      - 10
-      - 14
-      - 13
-      - 15
-      - 15
-    - url: /desktop/deepin
-      current:
-        rank: 16
-        count: 8
-        score: 13
-      previous:
         rank: 13
-        count: 6
-      change: -3
+        count: 7
+      change: -2
       trend:
       - 11
       - 14
@@ -3001,6 +2978,29 @@ rankings:
       - 12
       - 15
       - 14
+      - 15
+    - url: /desktop/regolith
+      current:
+        rank: 16
+        count: 9
+        score: 15
+      previous:
+        rank: 15
+        count: 6
+      change: -1
+      trend:
+      - 10
+      - 12
+      - 12
+      - 17
+      - 15
+      - 15
+      - 4
+      - 15
+      - 10
+      - 14
+      - 13
+      - 15
       - 16
     - url: /desktop/moksha
       current:
@@ -3030,26 +3030,26 @@ rankings:
     - url: /distribution/starbuntu
       current:
         rank: 1
-        count: 110
+        count: 112
         score: 100
       previous:
         rank: 1
-        count: 125
+        count: 126
       change: 0
     - url: /distribution/steamos
       current:
         rank: 2
-        count: 78
+        count: 79
         score: 71
       previous:
-        rank: 102
+        rank: 103
         count: 12
-      change: 100
+      change: 101
     - url: /distribution/clover
       current:
         rank: 3
-        count: 73
-        score: 66
+        count: 75
+        score: 67
       previous:
         rank: 6
         count: 48
@@ -3057,62 +3057,62 @@ rankings:
     - url: /distribution/kite
       current:
         rank: 4
-        count: 66
-        score: 60
+        count: 69
+        score: 62
       previous:
         rank: 4
-        count: 59
+        count: 58
       change: 0
     - url: /distribution/cachyos
       current:
         rank: 5
-        count: 65
-        score: 59
+        count: 68
+        score: 61
       previous:
         rank: 2
-        count: 76
+        count: 77
       change: -3
     - url: /distribution/aerynos
       current:
         rank: 6
-        count: 63
+        count: 64
         score: 57
       previous:
         rank: 10
-        count: 39
+        count: 40
       change: 4
     - url: /distribution/ubuntu
       current:
         rank: 7
         count: 63
-        score: 57
+        score: 56
       previous:
-        rank: 50
+        rank: 54
         count: 23
-      change: 43
+      change: 47
     - url: /distribution/endeavour
       current:
         rank: 8
-        count: 61
-        score: 55
+        count: 60
+        score: 54
       previous:
-        rank: 7
-        count: 47
-      change: -1
+        rank: 9
+        count: 42
+      change: 1
     - url: /distribution/antix
       current:
         rank: 9
-        count: 52
-        score: 47
+        count: 54
+        score: 48
       previous:
-        rank: 35
+        rank: 34
         count: 27
-      change: 26
+      change: 25
     - url: /distribution/fedora
       current:
         rank: 10
         count: 52
-        score: 47
+        score: 46
       previous:
         rank: 12
         count: 39
@@ -3120,278 +3120,278 @@ rankings:
     - url: /distribution/raspberry-pi-os
       current:
         rank: 11
-        count: 51
-        score: 46
+        count: 50
+        score: 45
       previous:
-        rank: 16
-        count: 36
-      change: 5
-    - url: /distribution/nixos
-      current:
-        rank: 12
-        count: 48
-        score: 44
-      previous:
-        rank: 18
-        count: 34
-      change: 6
+        rank: 14
+        count: 38
+      change: 3
     - url: /distribution/4mlinux
       current:
-        rank: 13
+        rank: 12
         count: 47
-        score: 43
+        score: 42
       previous:
         rank: 24
         count: 32
-      change: 11
-    - url: /distribution/tails
+      change: 12
+    - url: /distribution/nixos
       current:
-        rank: 14
+        rank: 13
         count: 47
-        score: 43
+        score: 42
       previous:
-        rank: 23
+        rank: 22
         count: 33
       change: 9
     - url: /distribution/debian
       current:
-        rank: 15
+        rank: 14
         count: 46
-        score: 42
-      previous:
-        rank: 25
-        count: 32
-      change: 10
-    - url: /distribution/nitrux
-      current:
-        rank: 16
-        count: 45
         score: 41
-      previous:
-        rank: 30
-        count: 30
-      change: 14
-    - url: /distribution/rosa
-      current:
-        rank: 17
-        count: 45
-        score: 41
-      previous:
-        rank: 3
-        count: 61
-      change: -14
-    - url: /distribution/zorin
-      current:
-        rank: 18
-        count: 44
-        score: 40
       previous:
         rank: 19
-        count: 34
-      change: 1
+        count: 33
+      change: 5
+    - url: /distribution/tails
+      current:
+        rank: 15
+        count: 46
+        score: 41
+      previous:
+        rank: 23
+        count: 33
+      change: 8
+    - url: /distribution/rosa
+      current:
+        rank: 16
+        count: 44
+        score: 39
+      previous:
+        rank: 3
+        count: 62
+      change: -13
+    - url: /distribution/zorin
+      current:
+        rank: 17
+        count: 44
+        score: 39
+      previous:
+        rank: 27
+        count: 32
+      change: 10
+    - url: /distribution/manjaro
+      current:
+        rank: 18
+        count: 43
+        score: 38
+      previous:
+        rank: 73
+        count: 20
+      change: 55
     - url: /distribution/mx
       current:
         rank: 19
         count: 43
-        score: 39
+        score: 38
       previous:
-        rank: 61
+        rank: 60
         count: 22
-      change: 42
-    - url: /distribution/q4os
+      change: 41
+    - url: /distribution/nitrux
       current:
         rank: 20
         count: 43
-        score: 39
+        score: 38
       previous:
-        rank: 63
-        count: 22
-      change: 43
-    - url: /distribution/manjaro
+        rank: 25
+        count: 32
+      change: 5
+    - url: /distribution/q4os
       current:
         rank: 21
+        count: 43
+        score: 38
+      previous:
+        rank: 53
+        count: 23
+      change: 32
+    - url: /distribution/linuxmint
+      current:
+        rank: 22
         count: 42
         score: 38
       previous:
         rank: 72
         count: 20
-      change: 51
-    - url: /distribution/arch
-      current:
-        rank: 22
-        count: 41
-        score: 37
-      previous:
-        rank: 45
-        count: 25
-      change: 23
-    - url: /distribution/deepin
+      change: 50
+    - url: /distribution/pentoo
       current:
         rank: 23
         count: 41
         score: 37
       previous:
-        rank: 70
-        count: 20
-      change: 47
-    - url: /distribution/linuxmint
+        rank: 61
+        count: 22
+      change: 38
+    - url: /distribution/arch
       current:
         rank: 24
-        count: 41
-        score: 37
-      previous:
-        rank: 57
-        count: 22
-      change: 33
-    - url: /distribution/pentoo
-      current:
-        rank: 25
         count: 40
         score: 36
       previous:
-        rank: 62
-        count: 22
-      change: 37
-    - url: /distribution/ghostbsd
+        rank: 35
+        count: 27
+      change: 11
+    - url: /distribution/deepin
       current:
-        rank: 26
+        rank: 25
         count: 39
         score: 35
       previous:
+        rank: 65
+        count: 21
+      change: 40
+    - url: /distribution/ghostbsd
+      current:
+        rank: 26
+        count: 38
+        score: 34
+      previous:
         rank: 5
-        count: 53
+        count: 55
       change: -21
     - url: /distribution/lubuntu
       current:
         rank: 27
-        count: 38
-        score: 35
+        count: 37
+        score: 33
       previous:
-        rank: 27
-        count: 31
-      change: 0
+        rank: 21
+        count: 33
+      change: -6
     - url: /distribution/gentoo
       current:
         rank: 28
-        count: 37
-        score: 34
+        count: 36
+        score: 32
       previous:
-        rank: 47
-        count: 24
-      change: 19
+        rank: 45
+        count: 25
+      change: 17
     - url: /distribution/pop
       current:
         rank: 29
         count: 36
-        score: 33
+        score: 32
       previous:
-        rank: 67
+        rank: 68
         count: 21
-      change: 38
-    - url: /distribution/solus
+      change: 39
+    - url: /distribution/mageia
       current:
         rank: 30
         count: 34
-        score: 31
+        score: 30
       previous:
-        rank: 39
-        count: 27
-      change: 9
+        rank: 66
+        count: 21
+      change: 36
     - url: /distribution/kali
       current:
         rank: 31
         count: 33
-        score: 30
+        score: 29
       previous:
-        rank: 21
+        rank: 20
         count: 33
-      change: -10
-    - url: /distribution/mageia
+      change: -11
+    - url: /distribution/cutefish
       current:
         rank: 32
         count: 32
         score: 29
       previous:
-        rank: 71
-        count: 20
-      change: 39
-    - url: /distribution/cutefish
+        rank: 40
+        count: 26
+      change: 8
+    - url: /distribution/mauna-linux
       current:
         rank: 33
+        count: 31
+        score: 28
+      previous:
+        rank: 67
+        count: 21
+      change: 34
+    - url: /distribution/solus
+      current:
+        rank: 34
+        count: 31
+        score: 28
+      previous:
+        rank: 43
+        count: 26
+      change: 9
+    - url: /distribution/antergos-next
+      current:
+        rank: 35
         count: 30
         score: 27
       previous:
-        rank: 40
-        count: 26
-      change: 7
-    - url: /distribution/antergos-next
-      current:
-        rank: 34
-        count: 29
-        score: 26
-      previous:
-        rank: 29
-        count: 30
-      change: -5
-    - url: /distribution/pureos
-      current:
-        rank: 35
-        count: 29
-        score: 26
-      previous:
-        rank: 17
-        count: 35
-      change: -18
+        rank: 28
+        count: 31
+      change: -7
     - url: /distribution/enso
       current:
         rank: 36
-        count: 28
-        score: 25
+        count: 29
+        score: 26
       previous:
-        rank: 20
-        count: 33
-      change: -16
-    - url: /distribution/mauna-linux
+        rank: 18
+        count: 34
+      change: -18
+    - url: /distribution/tinycore
       current:
         rank: 37
-        count: 28
-        score: 25
+        count: 29
+        score: 26
       previous:
-        rank: 60
-        count: 22
-      change: 23
-    - url: /distribution/porteux
+        rank: 7
+        count: 48
+      change: -30
+    - url: /distribution/endless
       current:
         rank: 38
         count: 28
         score: 25
       previous:
-        rank: 13
-        count: 38
-      change: -25
-    - url: /distribution/tinycore
+        rank: 36
+        count: 27
+      change: -2
+    - url: /distribution/porteux
       current:
         rank: 39
         count: 28
         score: 25
       previous:
-        rank: 8
-        count: 47
-      change: -31
-    - url: /distribution/ubuntudeepin
+        rank: 13
+        count: 39
+      change: -26
+    - url: /distribution/pureos
       current:
         rank: 40
         count: 28
         score: 25
       previous:
-        rank: 51
-        count: 23
-      change: 11
+        rank: 16
+        count: 37
+      change: -24
     - url: /distribution/dsl
       current:
         rank: 41
         count: 27
-        score: 25
+        score: 24
       previous:
         rank: 11
         count: 39
@@ -3400,362 +3400,362 @@ rankings:
       current:
         rank: 42
         count: 27
-        score: 25
+        score: 24
       previous:
         rank: 15
-        count: 36
+        count: 37
       change: -27
     - url: /distribution/lite
       current:
         rank: 43
         count: 27
-        score: 25
+        score: 24
       previous:
-        rank: 58
-        count: 22
-      change: 15
-    - url: /distribution/arya
+        rank: 51
+        count: 23
+      change: 8
+    - url: /distribution/raspbian
       current:
         rank: 44
-        count: 26
+        count: 27
         score: 24
       previous:
-        rank: 66
-        count: 21
-      change: 22
-    - url: /distribution/endless
+        rank: 30
+        count: 31
+      change: -14
+    - url: /distribution/ubuntudeepin
       current:
         rank: 45
-        count: 26
+        count: 27
         score: 24
       previous:
-        rank: 36
-        count: 27
-      change: -9
-    - url: /distribution/raspbian
+        rank: 49
+        count: 24
+      change: 4
+    - url: /distribution/reactos
       current:
         rank: 46
         count: 26
-        score: 24
+        score: 23
       previous:
-        rank: 28
-        count: 31
-      change: -18
-    - url: /distribution/reactos
-      current:
-        rank: 47
-        count: 26
-        score: 24
-      previous:
-        rank: 37
-        count: 27
-      change: -10
+        rank: 33
+        count: 28
+      change: -13
     - url: /distribution/archlabs
       current:
-        rank: 48
+        rank: 47
         count: 25
-        score: 23
+        score: 22
       previous:
         rank: 75
         count: 19
-      change: 27
+      change: 28
+    - url: /distribution/arya
+      current:
+        rank: 48
+        count: 25
+        score: 22
+      previous:
+        rank: 64
+        count: 21
+      change: 16
     - url: /distribution/dragonfly
       current:
         rank: 49
-        count: 24
+        count: 25
         score: 22
       previous:
-        rank: 106
+        rank: 107
         count: 10
-      change: 57
-    - url: /distribution/sabayon
+      change: 58
+    - url: /distribution/elementary
       current:
         rank: 50
         count: 24
-        score: 22
-      previous:
-        rank: 88
-        count: 15
-      change: 38
-    - url: /distribution/elementary
-      current:
-        rank: 51
-        count: 23
         score: 21
       previous:
         rank: 41
         count: 26
-      change: -10
+      change: -9
     - url: /distribution/freebsd
+      current:
+        rank: 51
+        count: 24
+        score: 21
+      previous:
+        rank: 8
+        count: 44
+      change: -43
+    - url: /distribution/kubuntu
       current:
         rank: 52
         count: 23
         score: 21
       previous:
-        rank: 9
-        count: 44
-      change: -43
-    - url: /distribution/kubuntu
+        rank: 84
+        count: 16
+      change: 32
+    - url: /distribution/sabayon
       current:
         rank: 53
         count: 23
         score: 21
       previous:
-        rank: 82
+        rank: 85
         count: 16
-      change: 29
-    - url: /distribution/makulu
-      current:
-        rank: 54
-        count: 23
-        score: 21
-      previous:
-        rank: 99
-        count: 12
-      change: 45
-    - url: /distribution/trisquel
-      current:
-        rank: 55
-        count: 23
-        score: 21
-      previous:
-        rank: 33
-        count: 29
-      change: -22
+      change: 32
     - url: /distribution/calculate
       current:
-        rank: 56
+        rank: 54
         count: 22
         score: 20
       previous:
         rank: 93
         count: 14
-      change: 37
+      change: 39
     - url: /distribution/ferenos
+      current:
+        rank: 55
+        count: 22
+        score: 20
+      previous:
+        rank: 58
+        count: 22
+      change: 3
+    - url: /distribution/makulu
+      current:
+        rank: 56
+        count: 22
+        score: 20
+      previous:
+        rank: 97
+        count: 13
+      change: 41
+    - url: /distribution/puppy
       current:
         rank: 57
         count: 22
         score: 20
       previous:
-        rank: 55
-        count: 22
-      change: -2
-    - url: /distribution/netrunner
+        rank: 102
+        count: 12
+      change: 45
+    - url: /distribution/redcore
       current:
         rank: 58
         count: 22
         score: 20
       previous:
-        rank: 73
-        count: 20
-      change: 15
-    - url: /distribution/puppy
+        rank: 17
+        count: 37
+      change: -41
+    - url: /distribution/refreshos
       current:
         rank: 59
         count: 22
         score: 20
       previous:
-        rank: 101
-        count: 12
-      change: 42
-    - url: /distribution/redcore
+        rank: 38
+        count: 27
+      change: -21
+    - url: /distribution/trisquel
       current:
         rank: 60
         count: 22
         score: 20
       previous:
-        rank: 14
-        count: 37
-      change: -46
-    - url: /distribution/refreshos
-      current:
-        rank: 61
-        count: 22
-        score: 20
-      previous:
-        rank: 38
-        count: 27
-      change: -23
-    - url: /distribution/trueos
-      current:
-        rank: 62
-        count: 22
-        score: 20
-      previous:
-        rank: 90
-        count: 15
-      change: 28
-    - url: /distribution/archbang
-      current:
-        rank: 63
-        count: 21
-        score: 19
-      previous:
-        rank: 86
-        count: 15
-      change: 23
+        rank: 31
+        count: 30
+      change: -29
     - url: /distribution/lfs
       current:
-        rank: 64
+        rank: 61
         count: 21
         score: 19
       previous:
         rank: 94
         count: 14
-      change: 30
+      change: 33
+    - url: /distribution/netrunner
+      current:
+        rank: 62
+        count: 21
+        score: 19
+      previous:
+        rank: 74
+        count: 20
+      change: 12
     - url: /distribution/redox
       current:
-        rank: 65
+        rank: 63
         count: 21
         score: 19
       previous:
-        rank: 22
-        count: 33
-      change: -43
+        rank: 26
+        count: 32
+      change: -37
     - url: /distribution/rhino-linux
       current:
-        rank: 66
+        rank: 64
         count: 21
         score: 19
       previous:
-        rank: 97
+        rank: 100
         count: 13
-      change: 31
+      change: 36
     - url: /distribution/slackel
       current:
-        rank: 67
+        rank: 65
         count: 21
         score: 19
       previous:
         rank: 48
         count: 24
-      change: -19
+      change: -17
+    - url: /distribution/archbang
+      current:
+        rank: 66
+        count: 20
+        score: 18
+      previous:
+        rank: 82
+        count: 16
+      change: 16
     - url: /distribution/arco
       current:
-        rank: 68
+        rank: 67
         count: 20
         score: 18
       previous:
         rank: 91
         count: 14
-      change: 23
+      change: 24
+    - url: /distribution/trueos
+      current:
+        rank: 68
+        count: 20
+        score: 18
+      previous:
+        rank: 81
+        count: 17
+      change: 13
     - url: /distribution/gnoppix
       current:
         rank: 69
-        count: 20
-        score: 18
+        count: 19
+        score: 17
       previous:
-        rank: 56
-        count: 22
-      change: -13
-    - url: /distribution/oracle
+        rank: 50
+        count: 23
+      change: -19
+    - url: /distribution/kdeneon
       current:
         rank: 70
-        count: 20
-        score: 18
-      previous:
-        rank: 100
-        count: 12
-      change: 30
-    - url: /distribution/salix
-      current:
-        rank: 71
-        count: 20
-        score: 18
-      previous:
-        rank: 98
-        count: 13
-      change: 27
-    - url: /distribution/chakra
-      current:
-        rank: 72
         count: 19
         score: 17
       previous:
-        rank: 34
-        count: 28
-      change: -38
-    - url: /distribution/kaos
-      current:
-        rank: 73
-        count: 19
-        score: 17
-      previous:
-        rank: 46
-        count: 25
-      change: -27
+        rank: 88
+        count: 15
+      change: 18
     - url: /distribution/openmandriva
       current:
-        rank: 74
+        rank: 71
         count: 19
         score: 17
       previous:
         rank: 80
         count: 17
-      change: 6
+      change: 9
+    - url: /distribution/oracle
+      current:
+        rank: 72
+        count: 19
+        score: 17
+      previous:
+        rank: 98
+        count: 13
+      change: 26
     - url: /distribution/porteus
       current:
-        rank: 75
-        count: 19
-        score: 17
-      previous:
-        rank: 68
-        count: 21
-      change: -7
-    - url: /distribution/redhat
-      current:
-        rank: 76
-        count: 19
-        score: 17
-      previous:
-        rank: 64
-        count: 22
-      change: -12
-    - url: /distribution/shark
-      current:
-        rank: 77
-        count: 19
-        score: 17
-      previous:
-        rank: 65
-        count: 22
-      change: -12
-    - url: /distribution/ubuntugnome
-      current:
-        rank: 78
+        rank: 73
         count: 19
         score: 17
       previous:
         rank: 69
         count: 21
-      change: -9
-    - url: /distribution/kdeneon
+      change: -4
+    - url: /distribution/redhat
       current:
-        rank: 79
-        count: 18
-        score: 16
+        rank: 74
+        count: 19
+        score: 17
       previous:
-        rank: 87
-        count: 15
-      change: 8
-    - url: /distribution/korora
+        rank: 62
+        count: 22
+      change: -12
+    - url: /distribution/salix
       current:
-        rank: 80
+        rank: 75
+        count: 19
+        score: 17
+      previous:
+        rank: 95
+        count: 14
+      change: 20
+    - url: /distribution/shark
+      current:
+        rank: 76
+        count: 19
+        score: 17
+      previous:
+        rank: 63
+        count: 22
+      change: -13
+    - url: /distribution/ubuntugnome
+      current:
+        rank: 77
+        count: 19
+        score: 17
+      previous:
+        rank: 70
+        count: 21
+      change: -7
+    - url: /distribution/kaos
+      current:
+        rank: 78
         count: 18
         score: 16
       previous:
         rank: 42
         count: 26
-      change: -38
-    - url: /distribution/voyager
+      change: -36
+    - url: /distribution/korora
       current:
-        rank: 81
+        rank: 79
         count: 18
         score: 16
       previous:
-        rank: 105
+        rank: 46
+        count: 25
+      change: -33
+    - url: /distribution/voyager
+      current:
+        rank: 80
+        count: 18
+        score: 16
+      previous:
+        rank: 106
         count: 11
-      change: 24
+      change: 26
+    - url: /distribution/chakra
+      current:
+        rank: 81
+        count: 17
+        score: 15
+      previous:
+        rank: 32
+        count: 29
+      change: -49
     - url: /distribution/pardus
       current:
         rank: 82
@@ -3771,117 +3771,117 @@ rankings:
         count: 17
         score: 15
       previous:
-        rank: 96
+        rank: 99
         count: 13
-      change: 13
-    - url: /distribution/slax
+      change: 16
+    - url: /distribution/crux
       current:
         rank: 84
-        count: 17
-        score: 15
+        count: 16
+        score: 14
       previous:
-        rank: 108
-        count: 10
-      change: 24
-    - url: /distribution/crux
+        rank: 57
+        count: 22
+      change: -27
+    - url: /distribution/slax
       current:
         rank: 85
         count: 16
-        score: 15
-      previous:
-        rank: 54
-        count: 22
-      change: -31
-    - url: /distribution/apricity
-      current:
-        rank: 86
-        count: 15
         score: 14
       previous:
-        rank: 26
-        count: 31
-      change: -60
-    - url: /distribution/elive
+        rank: 105
+        count: 11
+      change: 20
+    - url: /distribution/sparky
+      current:
+        rank: 86
+        count: 16
+        score: 14
+      previous:
+        rank: 39
+        count: 27
+      change: -47
+    - url: /distribution/apricity
       current:
         rank: 87
         count: 15
-        score: 14
+        score: 13
       previous:
-        rank: 110
-        count: 9
-      change: 23
-    - url: /distribution/sparky
+        rank: 29
+        count: 31
+      change: -58
+    - url: /distribution/elive
       current:
         rank: 88
         count: 15
-        score: 14
+        score: 13
       previous:
-        rank: 32
-        count: 29
-      change: -56
-    - url: /distribution/ubuntuunity
+        rank: 110
+        count: 9
+      change: 22
+    - url: /distribution/neptune
       current:
         rank: 89
         count: 15
-        score: 14
-      previous:
-        rank: 77
-        count: 19
-      change: -12
-    - url: /distribution/neptune
-      current:
-        rank: 90
-        count: 14
         score: 13
       previous:
         rank: 76
         count: 19
-      change: -14
+      change: -13
+    - url: /distribution/ubuntuunity
+      current:
+        rank: 90
+        count: 15
+        score: 13
+      previous:
+        rank: 78
+        count: 18
+      change: -12
     - url: /distribution/pclinuxos
       current:
         rank: 91
         count: 14
-        score: 13
+        score: 12
       previous:
-        rank: 31
-        count: 29
-      change: -60
+        rank: 37
+        count: 27
+      change: -54
     - url: /distribution/ultimate
       current:
         rank: 92
         count: 14
-        score: 13
+        score: 12
       previous:
-        rank: 52
+        rank: 55
         count: 23
-      change: -40
-    - url: /distribution/vanillaos
+      change: -37
+    - url: /distribution/opensuse
       current:
         rank: 93
-        count: 14
-        score: 13
+        count: 13
+        score: 12
       previous:
-        rank: 74
-        count: 20
-      change: -19
-    - url: /distribution/opensuse
+        rank: 89
+        count: 15
+      change: -4
+    - url: /distribution/vanillaos
       current:
         rank: 94
         count: 13
         score: 12
       previous:
-        rank: 83
-        count: 16
-      change: -11
+        rank: 71
+        count: 21
+      change: -23
     - url: /distribution/backbox
       current:
         rank: 95
         count: 12
         score: 11
       previous:
-        rank: 79
+        rank: 77
         count: 18
-      change: -16
+      change: -18
     - url: /distribution/bodhi
       current:
         rank: 96
@@ -3891,141 +3891,141 @@ rankings:
         rank: 92
         count: 14
       change: -4
-    - url: /distribution/nomad
+    - url: /distribution/midnight
       current:
         rank: 97
         count: 12
         score: 11
       previous:
-        rank: 107
-        count: 10
-      change: 10
-    - url: /distribution/spirallinux
+        rank: 52
+        count: 23
+      change: -45
+    - url: /distribution/nomad
       current:
         rank: 98
         count: 12
         score: 11
       previous:
-        rank: 112
-        count: 7
-      change: 14
+        rank: 108
+        count: 10
+      change: 10
     - url: /distribution/archman
       current:
         rank: 99
         count: 11
         score: 10
       previous:
-        rank: 53
+        rank: 56
         count: 22
-      change: -46
+      change: -43
     - url: /distribution/devuan
       current:
         rank: 100
         count: 11
         score: 10
       previous:
-        rank: 81
+        rank: 83
         count: 16
-      change: -19
-    - url: /distribution/midnight
+      change: -17
+    - url: /distribution/spirallinux
       current:
         rank: 101
         count: 11
         score: 10
       previous:
-        rank: 49
-        count: 23
-      change: -52
-    - url: /distribution/antergos
+        rank: 112
+        count: 8
+      change: 11
+    - url: /distribution/trident
       current:
         rank: 102
-        count: 10
-        score: 9
+        count: 11
+        score: 10
       previous:
-        rank: 78
-        count: 18
-      change: -24
-    - url: /distribution/netbsd
+        rank: 90
+        count: 15
+      change: -12
+    - url: /distribution/antergos
       current:
         rank: 103
         count: 10
         score: 9
       previous:
-        rank: 103
-        count: 11
-      change: 0
+        rank: 79
+        count: 17
+      change: -24
     - url: /distribution/peppermint
       current:
         rank: 104
         count: 10
         score: 9
       previous:
-        rank: 43
-        count: 26
-      change: -61
-    - url: /distribution/trident
+        rank: 47
+        count: 24
+      change: -57
+    - url: /distribution/ubuntucinnamon
       current:
         rank: 105
         count: 10
         score: 9
       previous:
-        rank: 89
-        count: 15
-      change: -16
-    - url: /distribution/solydxk
+        rank: 87
+        count: 16
+      change: -18
+    - url: /distribution/netbsd
       current:
         rank: 106
         count: 9
         score: 8
       previous:
-        rank: 109
-        count: 10
-      change: 3
-    - url: /distribution/ubuntucinnamon
+        rank: 101
+        count: 12
+      change: -5
+    - url: /distribution/solydxk
       current:
         rank: 107
         count: 9
         score: 8
       previous:
-        rank: 85
-        count: 16
-      change: -22
-    - url: /distribution/ubuntumate
+        rank: 109
+        count: 10
+      change: 2
+    - url: /distribution/maui
       current:
         rank: 108
         count: 8
         score: 7
       previous:
-        rank: 95
-        count: 14
-      change: -13
-    - url: /distribution/maui
-      current:
-        rank: 109
-        count: 7
-        score: 6
-      previous:
         rank: 59
         count: 22
-      change: -50
-    - url: /distribution/ubuntubudgie
+      change: -49
+    - url: /distribution/ubuntumate
+      current:
+        rank: 109
+        count: 8
+        score: 7
+      previous:
+        rank: 96
+        count: 14
+      change: -13
+    - url: /distribution/xubuntu
       current:
         rank: 110
-        count: 7
-        score: 6
+        count: 8
+        score: 7
       previous:
-        rank: 84
-        count: 16
-      change: -26
-    - url: /distribution/xubuntu
+        rank: 44
+        count: 26
+      change: -66
+    - url: /distribution/ubuntubudgie
       current:
         rank: 111
         count: 7
         score: 6
       previous:
-        rank: 44
-        count: 26
-      change: -67
+        rank: 86
+        count: 16
+      change: -25
     - url: /distribution/uruk
       current:
         rank: 112
@@ -4048,26 +4048,26 @@ rankings:
     - url: /desktop/gnome
       current:
         rank: 1
-        count: 134
+        count: 133
         score: 100
       previous:
         rank: 1
-        count: 83
+        count: 85
       change: 0
     - url: /desktop/xfce
       current:
         rank: 2
-        count: 64
-        score: 48
+        count: 67
+        score: 50
       previous:
-        rank: 5
-        count: 36
-      change: 3
+        rank: 4
+        count: 38
+      change: 2
     - url: /desktop/cutefish
       current:
         rank: 3
-        count: 55
-        score: 41
+        count: 58
+        score: 44
       previous:
         rank: 6
         count: 35
@@ -4075,11 +4075,11 @@ rankings:
     - url: /desktop/cinnamon
       current:
         rank: 4
-        count: 50
-        score: 37
+        count: 51
+        score: 38
       previous:
         rank: 2
-        count: 46
+        count: 44
       change: -2
     - url: /desktop/lxqt
       current:
@@ -4093,17 +4093,17 @@ rankings:
     - url: /desktop/budgie
       current:
         rank: 6
-        count: 38
-        score: 28
+        count: 41
+        score: 31
       previous:
-        rank: 4
-        count: 38
-      change: -2
+        rank: 5
+        count: 36
+      change: -1
     - url: /desktop/mate
       current:
         rank: 7
         count: 38
-        score: 28
+        score: 29
       previous:
         rank: 8
         count: 32
@@ -4111,38 +4111,38 @@ rankings:
     - url: /desktop/hello
       current:
         rank: 8
-        count: 34
-        score: 25
+        count: 36
+        score: 27
       previous:
-        rank: 16
+        rank: 15
         count: 17
-      change: 8
+      change: 7
     - url: /desktop/pantheon
       current:
         rank: 9
-        count: 30
-        score: 22
+        count: 31
+        score: 23
       previous:
         rank: 3
-        count: 40
+        count: 38
       change: -6
     - url: /desktop/plasma
       current:
         rank: 10
-        count: 30
-        score: 22
+        count: 31
+        score: 23
       previous:
         rank: 11
-        count: 27
+        count: 26
       change: 1
     - url: /desktop/lumina
       current:
         rank: 11
-        count: 29
-        score: 22
+        count: 30
+        score: 23
       previous:
         rank: 7
-        count: 34
+        count: 32
       change: -4
     - url: /desktop/trinity
       current:
@@ -4151,7 +4151,7 @@ rankings:
         score: 20
       previous:
         rank: 9
-        count: 31
+        count: 28
       change: -3
     - url: /desktop/enlightenment
       current:
@@ -4165,30 +4165,30 @@ rankings:
     - url: /desktop/lxde
       current:
         rank: 14
-        count: 22
-        score: 16
+        count: 24
+        score: 18
       previous:
-        rank: 15
-        count: 18
-      change: 1
-    - url: /desktop/regolith
-      current:
-        rank: 15
-        count: 18
-        score: 13
-      previous:
-        rank: 10
-        count: 30
-      change: -5
+        rank: 16
+        count: 17
+      change: 2
     - url: /desktop/deepin
       current:
-        rank: 16
-        count: 16
-        score: 12
+        rank: 15
+        count: 18
+        score: 14
       previous:
         rank: 13
-        count: 24
-      change: -3
+        count: 23
+      change: -2
+    - url: /desktop/regolith
+      current:
+        rank: 16
+        count: 18
+        score: 14
+      previous:
+        rank: 10
+        count: 27
+      change: -6
     - url: /desktop/moksha
       current:
         rank: 17
