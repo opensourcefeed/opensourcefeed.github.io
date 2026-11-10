@@ -14,8 +14,10 @@ layout: default
 						<div class="date">{{ page.date | date: "%B %-d, %Y" }}</div>
 					</div>
 					<div class="col-sm-8 text-end">
+						{% comment %}Scan site.pages once per post (not once per category); scanning is the expensive part.{% endcomment %}
+						{% assign category_pages = site.pages | where_exp: "p", "page.categories contains p.uid" %}
 						{% for category in page.categories %}
-						{% assign topage = site.pages | where: "uid", category | first %}
+						{% assign topage = category_pages | where: "uid", category | first %}
 						{% if topage %}
 						<a href="{{topage.url}}">
 							<span class="category">{{topage.title}}</span>
@@ -97,33 +99,43 @@ layout: default
 </div>
 {% endif %}
 			
-			{% assign category_matches = "" | split: "" %}
-			{% assign tag_matches = "" | split: "" %}
-
+			{% comment %}
+			  Related posts. The current post is skipped while rendering instead of with
+			  where_exp over the whole pool, which was slow on large categories. The pool
+			  still contains the current post here, hence "< 7" for "fewer than 6 others".
+			{% endcomment %}
+			{% assign related_pool = "" | split: "" %}
 			{% assign exclude_cats = "linux,release" | split: "," %}
 			{% for category in page.categories %}
 			  {% if exclude_cats contains category %}{% continue %}{% endif %}
-			  {% assign category_matches = category_matches | concat: site.categories[category] %}
+			  {% assign related_pool = related_pool | concat: site.categories[category] %}
 			{% endfor %}
-			{% assign category_matches = category_matches | where_exp: "post", "post.url != page.url" | uniq %}
+			{% assign related_pool = related_pool | uniq %}
 
-			{% if category_matches.size < 6 %}
+			{% if related_pool.size < 7 %}
 			  {% for tag in page.tags %}
-			    {% assign tag_matches = tag_matches | concat: site.tags[tag] %}
+			    {% assign related_pool = related_pool | concat: site.tags[tag] %}
 			  {% endfor %}
-			  {% assign tag_matches = tag_matches | where_exp: "post", "post.url != page.url" | uniq %}
+			  {% assign related_pool = related_pool | uniq %}
 			{% endif %}
 
-			{% assign related_posts = category_matches | concat: tag_matches | uniq | slice: 0, 6 %}
+			{% assign related_count = 0 %}
+			{% for post in related_pool %}
+			  {% if post.url != page.url %}{% assign related_count = related_count | plus: 1 %}{% break %}{% endif %}
+			{% endfor %}
 
-			{% if related_posts.size > 0 %}
+			{% if related_count > 0 %}
 		<div class="related">
 			<h3>Related Stories</h3>
 			<ul>
-				{% for post in related_posts %}
+				{% assign related_count = 0 %}
+				{% for post in related_pool %}
+				{% if post.url == page.url %}{% continue %}{% endif %}
+				{% if related_count >= 6 %}{% break %}{% endif %}
+				{% assign related_count = related_count | plus: 1 %}
 				<li>
 					<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-				</li> 
+				</li>
 				{% endfor %}
 			</ul>
 		</div>
