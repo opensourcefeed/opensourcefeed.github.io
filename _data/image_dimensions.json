@@ -1,0 +1,1046 @@
+{
+  "logo": {
+    "4mlinux.png": {
+      "w": 204,
+      "h": 100
+    },
+    "500px-PCLinuxOS_logo.svg": {
+      "w": 500,
+      "h": 500
+    },
+    "ReactOS.png": {
+      "w": 225,
+      "h": 54
+    },
+    "Shark logo.png": {
+      "w": 217,
+      "h": 153
+    },
+    "SpiralLinux-transparent-small.png": {
+      "w": 182,
+      "h": 190
+    },
+    "aerynos.svg": {
+      "w": 25,
+      "h": 25
+    },
+    "amarok.png": {
+      "w": 395,
+      "h": 138
+    },
+    "antergos-logo.png": {
+      "w": 301,
+      "h": 66
+    },
+    "antergos-next.webp": {
+      "w": 254,
+      "h": 69
+    },
+    "antix-logo.png": {
+      "w": 110,
+      "h": 83
+    },
+    "apricity-logo.png": {
+      "w": 300,
+      "h": 148
+    },
+    "archbang.png": {
+      "w": 106,
+      "h": 124
+    },
+    "archlabs-logo.png": {
+      "w": 148,
+      "h": 148
+    },
+    "archlinux-logo.png": {
+      "w": 600,
+      "h": 199
+    },
+    "archman.png": {
+      "w": 128,
+      "h": 128
+    },
+    "arcolinux-one-liner.jpg": {
+      "w": 369,
+      "h": 92
+    },
+    "arya-logo.png": {
+      "w": 219,
+      "h": 80
+    },
+    "backbox.png": {
+      "w": 200,
+      "h": 60
+    },
+    "bodhi-logo.png": {
+      "w": 200,
+      "h": 200
+    },
+    "budgie-logo.png": {
+      "w": 172,
+      "h": 172
+    },
+    "cachyos-logo.png": {
+      "w": 128,
+      "h": 128
+    },
+    "calculate-linux.png": {
+      "w": 142,
+      "h": 82
+    },
+    "chakra.png": {
+      "w": 128,
+      "h": 128
+    },
+    "cinnamon.png": {
+      "w": 128,
+      "h": 128
+    },
+    "cinnamon.svg": {
+      "w": 240,
+      "h": 240
+    },
+    "clover-logo.png": {
+      "w": 136,
+      "h": 136
+    },
+    "crux-logo.png": {
+      "w": 262,
+      "h": 68
+    },
+    "cutefishos.png": {
+      "w": 488,
+      "h": 74
+    },
+    "cutefishos.svg": {
+      "w": 512,
+      "h": 76
+    },
+    "debian-logo.png": {
+      "w": 101,
+      "h": 124
+    },
+    "deepin-logo.jpg": {
+      "w": 148,
+      "h": 148
+    },
+    "devuan-logo.png": {
+      "w": 230,
+      "h": 48
+    },
+    "dragonfly.png": {
+      "w": 150,
+      "h": 167
+    },
+    "dsl.png": {
+      "w": 110,
+      "h": 110
+    },
+    "e-logo-title.png": {
+      "w": 200,
+      "h": 200
+    },
+    "elementary-logo.png": {
+      "w": 128,
+      "h": 128
+    },
+    "elive.png": {
+      "w": 100,
+      "h": 100
+    },
+    "endeavouros-logo.png": {
+      "w": 200,
+      "h": 154
+    },
+    "endless.png": {
+      "w": 168,
+      "h": 72
+    },
+    "enso.png": {
+      "w": 128,
+      "h": 128
+    },
+    "fedora.png": {
+      "w": 160,
+      "h": 160
+    },
+    "ferenos.png": {
+      "w": 90,
+      "h": 88
+    },
+    "flatpak-logo.svg": {
+      "w": 400,
+      "h": 300
+    },
+    "freebsd-logo.png": {
+      "w": 224,
+      "h": 80
+    },
+    "gentoo-logo.png": {
+      "w": 128,
+      "h": 134
+    },
+    "ghostbsd.png": {
+      "w": 132,
+      "h": 132
+    },
+    "gnome-logo.png": {
+      "w": 1063,
+      "h": 408
+    },
+    "gnoppix.png": {
+      "w": 200,
+      "h": 200
+    },
+    "hello.png": {
+      "w": 171,
+      "h": 96
+    },
+    "icon_moksha.png": {
+      "w": 134,
+      "h": 134
+    },
+    "kali-logo.png": {
+      "w": 193,
+      "h": 155
+    },
+    "kaos-logo.png": {
+      "w": 400,
+      "h": 150
+    },
+    "kaos_logo.svg": {
+      "w": 128,
+      "h": 128
+    },
+    "kite_logo.png": {
+      "w": 128,
+      "h": 88
+    },
+    "kodachi-logo.png": {
+      "w": 136,
+      "h": 136
+    },
+    "korora.png": {
+      "w": 128,
+      "h": 128
+    },
+    "kubuntu-logo.png": {
+      "w": 128,
+      "h": 128
+    },
+    "lfs-logo.png": {
+      "w": 192,
+      "h": 75
+    },
+    "linuxmint-logo.png": {
+      "w": 160,
+      "h": 145
+    },
+    "lite-logo.jpg": {
+      "w": 300,
+      "h": 157
+    },
+    "lubuntu.png": {
+      "w": 128,
+      "h": 128
+    },
+    "lumina.png": {
+      "w": 177,
+      "h": 60
+    },
+    "lxde-logo.svg": {
+      "w": 100,
+      "h": 100
+    },
+    "lxqt-logo.png": {
+      "w": 160,
+      "h": 151
+    },
+    "lxqt-white.png": {
+      "w": 250,
+      "h": 103
+    },
+    "mageia-2013.png": {
+      "w": 331,
+      "h": 102
+    },
+    "makulu.png": {
+      "w": 331,
+      "h": 202
+    },
+    "manjaro-logo.png": {
+      "w": 518,
+      "h": 120
+    },
+    "mate-desktop-tile.jpg": {
+      "w": 350,
+      "h": 200
+    },
+    "maui-logo-v2.png": {
+      "w": 250,
+      "h": 86
+    },
+    "midnightbsd-logo.png": {
+      "w": 142,
+      "h": 142
+    },
+    "mx-logo.png": {
+      "w": 128,
+      "h": 116
+    },
+    "neon-logo.png": {
+      "w": 200,
+      "h": 200
+    },
+    "neptune.png": {
+      "w": 264,
+      "h": 84
+    },
+    "netbsd.png": {
+      "w": 200,
+      "h": 200
+    },
+    "netrunner.png": {
+      "w": 400,
+      "h": 114
+    },
+    "nitrux.png": {
+      "w": 195,
+      "h": 178
+    },
+    "nitrux_logo.png": {
+      "w": 80,
+      "h": 46
+    },
+    "nixos-logo.png": {
+      "w": 256,
+      "h": 75
+    },
+    "nomadbsd.jpg": {
+      "w": 128,
+      "h": 124
+    },
+    "openSUSE.svg": {
+      "w": 400,
+      "h": 300
+    },
+    "openmandriva.png": {
+      "w": 128,
+      "h": 129
+    },
+    "oracle.jpg": {
+      "w": 125,
+      "h": 148
+    },
+    "pardus-logo.png": {
+      "w": 253,
+      "h": 90
+    },
+    "parsix-logo.png": {
+      "w": 200,
+      "h": 75
+    },
+    "pclinuxos.png": {
+      "w": 128,
+      "h": 128
+    },
+    "pentoo.jpg": {
+      "w": 114,
+      "h": 161
+    },
+    "peppermintos.png": {
+      "w": 1000,
+      "h": 168
+    },
+    "plasma-logo.png": {
+      "w": 128,
+      "h": 128
+    },
+    "popos.png": {
+      "w": 140,
+      "h": 140
+    },
+    "porteus.png": {
+      "w": 329,
+      "h": 113
+    },
+    "porteux.png": {
+      "w": 333,
+      "h": 136
+    },
+    "puppylogo96.png": {
+      "w": 96,
+      "h": 96
+    },
+    "pureos.png": {
+      "w": 256,
+      "h": 125
+    },
+    "q4os.png": {
+      "w": 128,
+      "h": 128
+    },
+    "raspberrypi.png": {
+      "w": 301,
+      "h": 72
+    },
+    "raspbian_logo.png": {
+      "w": 384,
+      "h": 64
+    },
+    "redcore.png": {
+      "w": 128,
+      "h": 128
+    },
+    "redhat.png": {
+      "w": 320,
+      "h": 103
+    },
+    "redox.png": {
+      "w": 178,
+      "h": 64
+    },
+    "refreshos.png": {
+      "w": 512,
+      "h": 92
+    },
+    "regolith.png": {
+      "w": 148,
+      "h": 127
+    },
+    "rhino-linux-logo.png": {
+      "w": 256,
+      "h": 202
+    },
+    "rosa-logo.jpeg": {
+      "w": 403,
+      "h": 118
+    },
+    "sabayon-logo.png": {
+      "w": 150,
+      "h": 150
+    },
+    "salix.png": {
+      "w": 96,
+      "h": 96
+    },
+    "serpent.png": {
+      "w": 200,
+      "h": 200
+    },
+    "siduction.png": {
+      "w": 412,
+      "h": 94
+    },
+    "slackel-logo.png": {
+      "w": 512,
+      "h": 512
+    },
+    "slax_logo.png": {
+      "w": 114,
+      "h": 128
+    },
+    "solus-logo.png": {
+      "w": 148,
+      "h": 148
+    },
+    "solydxk-logo.png": {
+      "w": 150,
+      "h": 150
+    },
+    "sparky-logo.png": {
+      "w": 400,
+      "h": 80
+    },
+    "starbuntu.png": {
+      "w": 96,
+      "h": 96
+    },
+    "steamos.png": {
+      "w": 256,
+      "h": 256
+    },
+    "tails-logo-square.png": {
+      "w": 250,
+      "h": 250
+    },
+    "tde-logo.png": {
+      "w": 125,
+      "h": 124
+    },
+    "tinycore.png": {
+      "w": 150,
+      "h": 58
+    },
+    "trident-logo.png": {
+      "w": 500,
+      "h": 200
+    },
+    "trisquel-logo.png": {
+      "w": 240,
+      "h": 50
+    },
+    "trueos.png": {
+      "w": 219,
+      "h": 73
+    },
+    "ubuntu-cinnamon.png": {
+      "w": 148,
+      "h": 148
+    },
+    "ubuntu-logo32.png": {
+      "w": 128,
+      "h": 128
+    },
+    "ubuntu-unity.webp": {
+      "w": 347,
+      "h": 347
+    },
+    "ubuntubudgie.png": {
+      "w": 128,
+      "h": 128
+    },
+    "ubuntudde.png": {
+      "w": 148,
+      "h": 149
+    },
+    "ubuntugnome.png": {
+      "w": 399,
+      "h": 48
+    },
+    "ubuntumate.png": {
+      "w": 253,
+      "h": 240
+    },
+    "ultimate-edition-logo.png": {
+      "w": 192,
+      "h": 192
+    },
+    "uruk.svg": {
+      "w": 192,
+      "h": 240
+    },
+    "vanilla-logo.png": {
+      "w": 248,
+      "h": 87
+    },
+    "voyager-logo.png": {
+      "w": 140,
+      "h": 142
+    },
+    "xfce-logo.jpeg": {
+      "w": 225,
+      "h": 225
+    },
+    "xubuntu.png": {
+      "w": 384,
+      "h": 80
+    },
+    "zenwalk.png": {
+      "w": 190,
+      "h": 89
+    },
+    "zorin.png": {
+      "w": 148,
+      "h": 148
+    }
+  },
+  "preview": {
+    "4MLinux.jpg": {
+      "w": 1280,
+      "h": 800
+    },
+    "ArchLabs-preview.jpg": {
+      "w": 653,
+      "h": 368
+    },
+    "Devuan-Jessie-Screenshot.png": {
+      "w": 1280,
+      "h": 800
+    },
+    "Fedora25-preview.jpg": {
+      "w": 1280,
+      "h": 800
+    },
+    "Goedel3_small.jpg": {
+      "w": 1024,
+      "h": 663
+    },
+    "Kali_Linux.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "Mageia 6.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "ReactosThemedEverywhere.png": {
+      "w": 800,
+      "h": 600
+    },
+    "SpiralLinux-Mate.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "aeryn-preview.jpeg": {
+      "w": 1280,
+      "h": 720
+    },
+    "amarok.jpg": {
+      "w": 1920,
+      "h": 1080
+    },
+    "antergos-preivew.jpg": {
+      "w": 1280,
+      "h": 800
+    },
+    "antix-preview.jpg": {
+      "w": 1280,
+      "h": 800
+    },
+    "apricityos.jpg": {
+      "w": 720,
+      "h": 450
+    },
+    "arch-preview.jpg": {
+      "w": 640,
+      "h": 400
+    },
+    "archbang.jpg": {
+      "w": 1280,
+      "h": 800
+    },
+    "archman.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "arco-linux.jpg": {
+      "w": 640,
+      "h": 400
+    },
+    "arya-app-menu.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "backbox-preview.jpg": {
+      "w": 1280,
+      "h": 800
+    },
+    "bodhi linux.jpg": {
+      "w": 1024,
+      "h": 518
+    },
+    "budgie-preview.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "cachyos-preview.jpg": {
+      "w": 1480,
+      "h": 1110
+    },
+    "calculate-preview.jpg": {
+      "w": 1024,
+      "h": 768
+    },
+    "cinnamon-desktop.jpg": {
+      "w": 1024,
+      "h": 640
+    },
+    "cloveros-preview.jpg": {
+      "w": 1366,
+      "h": 768
+    },
+    "crux-preview.png": {
+      "w": 720,
+      "h": 340
+    },
+    "cutefish-desktop.jpg": {
+      "w": 1920,
+      "h": 1080
+    },
+    "cutefishos.jpg": {
+      "w": 1920,
+      "h": 1080
+    },
+    "debian-kde-preview.jpg": {
+      "w": 800,
+      "h": 450
+    },
+    "deepin-desktop.jpg": {
+      "w": 1200,
+      "h": 675
+    },
+    "deepin-preview.webp": {
+      "w": 1200,
+      "h": 674
+    },
+    "dsl-fluxbox-rc3.jpg": {
+      "w": 1280,
+      "h": 720
+    },
+    "elementary.jpg": {
+      "w": 1200,
+      "h": 750
+    },
+    "elive.jpg": {
+      "w": 1023,
+      "h": 853
+    },
+    "endeavouros-preview.jpg": {
+      "w": 1200,
+      "h": 675
+    },
+    "endless.jpg": {
+      "w": 1024,
+      "h": 640
+    },
+    "enlightenment-preview.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "enso-preview.jpg": {
+      "w": 1024,
+      "h": 640
+    },
+    "ferenos.jpg": {
+      "w": 1100,
+      "h": 526
+    },
+    "gentoo-preview.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "ghostbsd.jpg": {
+      "w": 1024,
+      "h": 640
+    },
+    "gnome-desktop.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "gnoppix-preview.jpg": {
+      "w": 1920,
+      "h": 1080
+    },
+    "helloSystem.jpg": {
+      "w": 1920,
+      "h": 1080
+    },
+    "kdeneon.jpg": {
+      "w": 980,
+      "h": 555
+    },
+    "kdeneon.png": {
+      "w": 980,
+      "h": 555
+    },
+    "kite-linux.jpg": {
+      "w": 1200,
+      "h": 900
+    },
+    "kodachi-preview.jpg": {
+      "w": 1024,
+      "h": 640
+    },
+    "korora-laptop.png": {
+      "w": 640,
+      "h": 400
+    },
+    "krita-op.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "kubuntu-preview.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "linuxlite.jpg": {
+      "w": 1024,
+      "h": 640
+    },
+    "linuxmint-preview.jpg": {
+      "w": 1280,
+      "h": 800
+    },
+    "lubuntu-preview.jpg": {
+      "w": 1280,
+      "h": 800
+    },
+    "lumina1.4.jpg": {
+      "w": 577,
+      "h": 363
+    },
+    "lxde-preview.jpg": {
+      "w": 1024,
+      "h": 640
+    },
+    "lxqt-ambiance.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "makulu.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "manjaro-preview.jpg": {
+      "w": 1024,
+      "h": 640
+    },
+    "mate-desktop.jpg": {
+      "w": 1024,
+      "h": 640
+    },
+    "maui-dolphin-screen.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "midnightbsd-preview.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "moksha-preview.jpg": {
+      "w": 620,
+      "h": 312
+    },
+    "mx-preview.jpg": {
+      "w": 1280,
+      "h": 800
+    },
+    "neptune5.0.jpg": {
+      "w": 720,
+      "h": 450
+    },
+    "netrunner.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "nitrux-preview.jpg": {
+      "w": 620,
+      "h": 349
+    },
+    "nixos-preview.webp": {
+      "w": 1200,
+      "h": 675
+    },
+    "nomadbsd-preview.jpg": {
+      "w": 1280,
+      "h": 800
+    },
+    "openmandriva.jpg": {
+      "w": 1280,
+      "h": 800
+    },
+    "opensuse-laptop.jpg": {
+      "w": 517,
+      "h": 400
+    },
+    "pardus-preview.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "parsix preview.jpg": {
+      "w": 1024,
+      "h": 768
+    },
+    "pclinuxos.jpg": {
+      "w": 640,
+      "h": 400
+    },
+    "pentoo-preview.jpg": {
+      "w": 800,
+      "h": 264
+    },
+    "peppermintos.jpg": {
+      "w": 1280,
+      "h": 800
+    },
+    "plasma-preview.jpg": {
+      "w": 1024,
+      "h": 648
+    },
+    "popos-preview.jpg": {
+      "w": 1280,
+      "h": 726
+    },
+    "porteus.jpg": {
+      "w": 640,
+      "h": 359
+    },
+    "porteux.jpg": {
+      "w": 1200,
+      "h": 750
+    },
+    "pureos.webp": {
+      "w": 1200,
+      "h": 572
+    },
+    "q4os.jpg": {
+      "w": 900,
+      "h": 561
+    },
+    "raspberryos.png": {
+      "w": 1024,
+      "h": 576
+    },
+    "raspbian-preview.jpg": {
+      "w": 1280,
+      "h": 800
+    },
+    "redcore.jpg": {
+      "w": 1280,
+      "h": 720
+    },
+    "redhat.jpg": {
+      "w": 1024,
+      "h": 768
+    },
+    "redox.jpg": {
+      "w": 1280,
+      "h": 720
+    },
+    "refreshos.jpg": {
+      "w": 1200,
+      "h": 750
+    },
+    "regolith.jpg": {
+      "w": 1024,
+      "h": 640
+    },
+    "rhino-linux-preview.webp": {
+      "w": 1200,
+      "h": 675
+    },
+    "rosa fresh r8.1.jpg": {
+      "w": 1200,
+      "h": 750
+    },
+    "sabayon-preview.jpg": {
+      "w": 1024,
+      "h": 640
+    },
+    "salix.png": {
+      "w": 1920,
+      "h": 1080
+    },
+    "sharklinux.jpg": {
+      "w": 1024,
+      "h": 768
+    },
+    "siduction.jpg": {
+      "w": 1200,
+      "h": 675
+    },
+    "slackel-7.7-openbox-001.jpg": {
+      "w": 1280,
+      "h": 720
+    },
+    "slax.jpg": {
+      "w": 800,
+      "h": 450
+    },
+    "solus-preview.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "sparky-lxqt-5.jpg": {
+      "w": 1024,
+      "h": 560
+    },
+    "starbuntu-1.jpg": {
+      "w": 1920,
+      "h": 1080
+    },
+    "starbuntu-2.jpg": {
+      "w": 1920,
+      "h": 1080
+    },
+    "tahrpup.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "tails-preview.png": {
+      "w": 1280,
+      "h": 800
+    },
+    "tc_010_dt.png": {
+      "w": 1024,
+      "h": 768
+    },
+    "tde4.jpg": {
+      "w": 1274,
+      "h": 783
+    },
+    "trident.jpg": {
+      "w": 1366,
+      "h": 768
+    },
+    "trisquel-12-ecne.webp": {
+      "w": 1200,
+      "h": 675
+    },
+    "trueos-preview.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "ubuntu-budgie.jpg": {
+      "w": 1024,
+      "h": 640
+    },
+    "ubuntu-cinnamon.jpeg": {
+      "w": 1366,
+      "h": 768
+    },
+    "ubuntu-preview.jpg": {
+      "w": 1366,
+      "h": 768
+    },
+    "ubuntu-unity.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "ubuntudde.jpg": {
+      "w": 1024,
+      "h": 515
+    },
+    "ubuntugnome-preview.jpg": {
+      "w": 1280,
+      "h": 800
+    },
+    "ubuntumate.jpg": {
+      "w": 1024,
+      "h": 640
+    },
+    "ultimate-edition-preview.jpg": {
+      "w": 1024,
+      "h": 576
+    },
+    "uruk1.0.jpg": {
+      "w": 1024,
+      "h": 640
+    },
+    "vanilla.jpg": {
+      "w": 1024,
+      "h": 544
+    },
+    "voyager-preview.jpg": {
+      "w": 1200,
+      "h": 675
+    },
+    "xfce-preview.jpg": {
+      "w": 800,
+      "h": 400
+    },
+    "xubuntu.jpg": {
+      "w": 1280,
+      "h": 800
+    },
+    "zenwalk.webp": {
+      "w": 1200,
+      "h": 675
+    },
+    "zorin-os-preview.jpg": {
+      "w": 1280,
+      "h": 800
+    }
+  }
+}

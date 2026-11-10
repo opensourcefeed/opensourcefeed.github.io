@@ -11,12 +11,16 @@
                 <hr>
             </div>
             <article class="post-content">
+                {% comment %}Intrinsic sizes come from _data/image_dimensions.json (scripts/generate_image_dimensions.rb). SVGs are skipped so their rendering is unchanged.{% endcomment %}
+                {% assign logo_dim = site.data.image_dimensions.logo[page.logo] %}
+                {% assign logo_ext = page.logo | split: "." | last | downcase %}
                 <div class="logo">
                     <a href="/assets/images/logo/{{ page.logo }}">
                         <img
                             src="/assets/images/logo/{{ page.logo }}"
                             alt="{{ page.title }} logo"
-                            loading="lazy"
+                            {% if logo_dim and logo_ext != "svg" %}width="{{ logo_dim.w }}" height="{{ logo_dim.h }}"{% endif %}
+                            fetchpriority="high"
                             decoding="async"
                         />
                     </a>
@@ -24,10 +28,13 @@
                 {{ content }}
                 {% if page.preview %}
                 {% for image in page.preview %}
+                {% assign preview_dim = site.data.image_dimensions.preview[image] %}
+                {% assign preview_ext = image | split: "." | last | downcase %}
                 <div class="preview">
                     <a href="/assets/images/preview/{{ image }}">
                         <img
                             src="/assets/images/preview/{{ image }}"
+                            {% if preview_dim and preview_ext != "svg" %}width="{{ preview_dim.w }}" height="{{ preview_dim.h }}"{% endif %}
                             alt="{% if page.preview_caption %}{{ page.preview_caption }}{% else %}{{ page.title }} featured image{% endif %}"
                             loading="lazy"
                             decoding="async"
@@ -40,7 +47,7 @@
                 <hr>
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- post body2 -->
-                <ins class="adsbygoogle"
+                <ins class="adsbygoogle ad-reserve"
                      style="display:block"
                      data-ad-client="ca-pub-6380671811722843"
                      data-ad-slot="9117305104"
@@ -239,7 +246,7 @@
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- Feed sidebar -->
             <div class="ad">
-                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6380671811722843" data-ad-slot="8487642304" data-ad-format="auto">
+                <ins class="adsbygoogle ad-reserve" style="display:block" data-ad-client="ca-pub-6380671811722843" data-ad-slot="8487642304" data-ad-format="auto">
                 </ins>
             </div>
             <script>
