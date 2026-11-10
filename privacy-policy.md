@@ -4,7 +4,7 @@ title: Privacy Policy
 permalink: /privacy-policy/
 ---
 
-*Last updated: August 15, 2026*
+*Last updated: November 10, 2026*
 
 ## Your privacy is critically important to us.
 
@@ -42,7 +42,7 @@ Ads appearing on our website are delivered by Google AdSense and other advertisi
 
 ## Donations
 
-Our homepage includes a Ko-fi donation widget provided by Ko-fi.com. If you choose to make a donation through this widget, your payment and any information you provide is handled directly by Ko-fi under its own [Privacy Policy](https://more.ko-fi.com/privacy-policy), and is not collected or stored by OpenSourceFeed.
+Our homepage links to our Buy Me a Coffee page. If you choose to make a donation there, your payment and any information you provide is handled directly by Buy Me a Coffee under its own [Privacy Policy](https://www.buymeacoffee.com/privacy-policy), and is not collected or stored by OpenSourceFeed.
 
 ## Links To External Sites
 
