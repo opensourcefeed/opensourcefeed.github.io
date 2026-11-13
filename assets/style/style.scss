@@ -550,84 +550,116 @@ main {
 }
 
 /* ==========================================================================
-   Story cards (home, blog, beyond-opensource)
+   Story cards (home, blog, beyond-opensource) - _includes/story-card.html
+   Selectors are scoped to .stories so the .post link styles on listing
+   pages (blog layout wraps content in .post) do not leak into cards.
    ========================================================================== */
 
-a {
-  .card {
-    border: none;
-    margin: 0.5rem 0rem;
-    border-radius: $radius-md;
-    overflow: hidden;
-    box-shadow: $shadow-card;
-    transition: transform $duration-base ease, box-shadow $duration-base ease;
+.stories a.story-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  background: $color-surface;
+  border-radius: $radius-md;
+  box-shadow: $shadow-card;
+  color: $color-text;
+  text-decoration: none;
+  transition: transform $duration-base ease, box-shadow $duration-base ease;
 
-    img {
-      display: block;
-      width: 100%;
-      aspect-ratio: 16 / 9; /* fixed box: no layout shift while loading, equal card heights */
-      object-fit: cover;
-      transition: transform $duration-slow ease;
-    }
+  &:hover,
+  &:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: $shadow-card-hover;
+    color: $color-text;
+    text-decoration: none;
 
-    .card-body {
-      font-size: 14px;
-      background-color: $color-card-dark;
-      background-image: linear-gradient(180deg, $color-card-dark 0%, $color-card-dark-end 100%);
-      padding: 1.25rem;
-      border-radius: 0 0 $radius-md $radius-md;
-    }
-
-    &:hover {
-      transform: translateY(-2px);
-      box-shadow: $shadow-card-hover;
-      z-index: 5;
-      text-decoration: none;
-
-      img {
-        transform: scale(1.04);
-      }
-    }
-
-    .card-title {
-      padding: 1.25rem;
-      margin-bottom: 0;
-      border-bottom: 3px solid $color-accent;
-      font-size: 1rem;
+    .story-card-title {
       color: $color-primary;
     }
 
-    .date-container {
-      text-align: right;
-      position: relative;
-      margin-top: -43px;
-
-      .date {
-        padding: 2px 4px;
-        background-color: rgba(0, 0, 0, 0.65);
-        -webkit-backdrop-filter: blur(4px);
-        backdrop-filter: blur(4px);
-        color: #fff;
-        font-size: 12px;
-        margin-top: 11px;
-        float: left;
-        border-radius: $radius-sm;
-        width: auto;
-        line-height: 1.5;
-      }
-
-      .mock {
-        height: 3rem;
-      }
+    .story-card-media img {
+      transform: scale(1.04);
     }
   }
 
-  .card-text {
-    margin: 0;
-    color: $color-text-card;
-    line-height: 1.5;
-    font-family: open sans, sans-serif;
+  &:focus-visible {
+    outline: 2px solid $color-primary;
+    outline-offset: 3px;
+    border-radius: $radius-md;
   }
+
+  @media (prefers-reduced-motion: reduce) {
+    &,
+    .story-card-media img {
+      transition: none;
+    }
+
+    &:hover,
+    &:focus-visible {
+      transform: none;
+
+      .story-card-media img {
+        transform: none;
+      }
+    }
+  }
+}
+
+.story-card-media {
+  aspect-ratio: 16 / 9; /* fixed box: no layout shift while loading, equal card heights */
+  overflow: hidden;
+  background: $color-surface-muted;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform $duration-slow ease;
+  }
+}
+
+.story-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1rem 1.25rem 1.25rem;
+}
+
+.story-card-date {
+  color: $color-text-muted;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+}
+
+.stories .story-card-title {
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: $color-text;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  text-transform: none;
+  opacity: 1;
+  transition: color $duration-fast ease;
+}
+
+.story-card-excerpt {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  color: $color-text-muted;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
 }
 
 .stories h2 {
@@ -654,13 +686,6 @@ a {
 
 .blog {
   padding-top: 20px;
-
-  h2 {
-    margin: 0;
-    text-transform: uppercase;
-    border-bottom: 1px solid $color-border;
-    margin-bottom: 1rem;
-  }
 
   .pagination {
     margin-top: 2rem;

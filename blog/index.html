@@ -6,22 +6,11 @@ operating systems."
 ---
 <div class="blog">
   <h1>Open Source Stories</h1>
-  <div class="row stories">
+  <div class="row g-4 stories">
     {% for post in paginator.posts %}
-    <div class="col-md-4">
-      <a href="{{post.url}}">
-        <div class="card">
-          <img alt="{{post.title}}" src="//images.weserv.nl/?url={{ site.url | replace: 'https://','' | replace: 'https://','' }}{{ post.image }}&w=400&output=jpg" />
-          <h3 class="card-title">{{ post.title }}</h3>
-          <div class="card-body">
-            <div class="date-container">
-              <div class="date">{{ post.date | date_to_string}}</div>
-              <div class="mock"></div>
-            </div>
-            <div class="card-text">{{ post.content | strip_html | truncatewords: 30, '...'}}</div>
-          </div>
-        </div>
-      </a>
+    <div class="col-sm-6 col-lg-4">
+      {% if forloop.index <= 3 %}{% assign card_eager = true %}{% else %}{% assign card_eager = false %}{% endif %}
+      {% include story-card.html post=post heading="h2" eager=card_eager %}
     </div>
     {% endfor %}
   </div>

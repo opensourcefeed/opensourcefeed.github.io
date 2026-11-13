@@ -64,33 +64,16 @@ title: Free Operating Systems and Desktop Environments
 <div class="stories container">
     <h2>Recent Stories</h2>
     <hr>
-    <div class="row">
+    <div class="row g-4">
         {% assign posts = site.posts | slice: 0, 30 %}
         {% assign filtered_posts = posts | where_exp: "post", "post.hidden != true" %}
         {% for post in filtered_posts limit:9 %}
-        <div class="col-md-4">
-            <a href="{{post.url}}">
-                <div class="card">
-                    {% if post.image %}
-                    <img alt="{{post.title|strip_html}}" src="//images.weserv.nl/?url={{ site.url | replace: 'https://','' | replace: 'https://','' }}{{ post.image }}&w=400&output=jpg" />
-                    {% else %}
-                    <img src="/assets/images/meta/placeholder.png" alt="{{post.title|strip_html}}"/>
-                    {% endif %}
-
-                    <h3 class="card-title">{{post.title|strip_html}}</h3>
-                    <div class="card-body">
-                        <div class="date-container">
-                            <div class="date">{{ post.date | date_to_string}}</div>
-                            <div class="mock"></div>
-                        </div>
-                        <div class="card-text">{{ post.content | strip_html | truncatewords: 30, '...'}}</div>
-                    </div>
-                </div>
-            </a>
+        <div class="col-sm-6 col-lg-4">
+            {% include story-card.html post=post heading="h3" %}
         </div>
-        {% endfor%}
+        {% endfor %}
     </div>
     <div class="more-stories text-center">
         <a href="/blog/">Older Stories <span class="arrow" aria-hidden="true">➜</span></a>
     </div>
-</div>
+</div>

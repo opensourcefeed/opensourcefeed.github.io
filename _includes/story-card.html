@@ -1,0 +1,24 @@
+{% comment %}
+  Story card for post listings (home, blog, beyond-opensource).
+  Usage: {% include story-card.html post=post heading="h3" eager=false %}
+    heading: tag for the title, so it fits the page outline (default h3)
+    eager:   true for cards in the first row, so above-the-fold images are not lazy loaded
+  Images are resized through images.weserv.nl to 400px wide; posts without an image get the placeholder.
+{% endcomment %}
+{% assign card_post = include.post %}
+{% assign card_heading = include.heading | default: "h3" %}
+{% assign card_title = card_post.title | strip_html %}
+<a class="story-card" href="{{ card_post.url }}">
+    <div class="story-card-media">
+        {% if card_post.image %}
+        <img src="//images.weserv.nl/?url={{ site.url | replace: 'https://','' }}{{ card_post.image }}&w=400&output=jpg" alt="" width="400" height="225" {% unless include.eager %}loading="lazy"{% endunless %} decoding="async">
+        {% else %}
+        <img src="/assets/images/meta/placeholder.png" alt="" width="420" height="300" {% unless include.eager %}loading="lazy"{% endunless %} decoding="async">
+        {% endif %}
+    </div>
+    <div class="story-card-body">
+        <time class="story-card-date" datetime="{{ card_post.date | date_to_xmlschema }}">{{ card_post.date | date: "%b %-d, %Y" }}</time>
+        <{{ card_heading }} class="story-card-title">{{ card_title }}</{{ card_heading }}>
+        <p class="story-card-excerpt">{{ card_post.content | strip_html | truncatewords: 30, '…' }}</p>
+    </div>
+</a>
