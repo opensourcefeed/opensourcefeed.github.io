@@ -1,8 +1,15 @@
 ---
  layout: default 
 ---
-<div class="row">
-    <div class="col-md-8 order-md-1 content">
+{% assign distribution_pages = site.pages | where: "Category", "Distribution" %}
+{% assign desktop_pages = site.pages | where: "Category", "Desktop" %}
+{% assign distributions = '' | split: '' %}
+{% for candidate in distribution_pages %}
+{% if candidate.base contains page.uid %}
+{% assign distributions = distributions | push: candidate %}
+{% endif %}
+{% endfor %}
+<div class="content-readable">
         <div class="post">
 
             <div class="post-header">
@@ -25,6 +32,7 @@
                         />
                     </a>
                 </div>
+                {% include at-a-glance.html kind="distribution" related=distributions %}
                 {{ content }}
                 {% if page.preview %}
                 {% for image in page.preview %}
@@ -56,116 +64,11 @@
                 <script>
                      (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
+                {% assign count = distributions | size %}
+                {% if count > 0 or page.releases or page.screenshots or page.technologies or page.telegram %}
                 <table class="table table-bordered">
-                    {% if page.type %}
-                    <tr>
-                        <td>Type</td>
-                        <td>{{page.type}}</td>
-                    </tr>
-                    {% endif %}
-                    <tr>
-                        <td>Status</td>
-                        {% if page.status and page.status == 'Discontinued' %}
-                        <td><span class="status-badge status-discontinued">Discontinued</span></td>
-                        {% else %}
-                        <td><span class="status-badge status-active">Active {{page.status}}</span></td>
-                        {% endif %}
-                    </tr>
-
-                    {% if page.home_page %}
-                    <tr>
-                        <td>Home Page</td>
-                        <td><a href="{{ page.home_page }}">{{page.home_page}}</a></td>
-                    </tr>
-                    {% endif %} 
-                    {% if page.forum %}
-                    <tr>
-                        <td>Discussion Forum</td>
-                        <td><a href="{{ page.forum }}">{{page.forum}}</a></td>
-                    </tr>
-                    {% endif %} 
-                    {% if page.blog %}
-                    <tr>
-                        <td>News and Updates</td>
-                        <td><a href="{{ page.blog }}">{{page.blog}}</a></td>
-                    </tr>
-                    {% endif %} 
-                    {% assign rank_entry = site.data.rank.distributions | where: "url", page.url | first %}
-                    <tr>
-                        <td>Popularity rank</td>
-                        <td>
-                            <a href="/page-hit-rank/">
-                            {% if rank_entry and rank_entry.current %}
-                                #{{ rank_entry.current.rank }} in the Popularity Index
-                                {% if rank_entry.change != nil %}{% assign rank_change = rank_entry.change %}{% elsif rank_entry.previous and rank_entry.previous.rank %}{% assign rank_change = rank_entry.previous.rank | minus: rank_entry.current.rank %}{% else %}{% assign rank_change = nil %}{% endif %}
-                                {% if rank_change == nil %}(new){% elsif rank_change > 0 %}(&#9650;&#8239;{{ rank_change }}){% elsif rank_change < 0 %}(&#9660;&#8239;{{ rank_change | abs }}){% endif %}
-                            {% else %}
-                                Not ranked
-                            {% endif %}
-                            </a>
-                        </td>
-                    </tr>
-                    {% assign distribution_pages = site.pages | where: "Category", "Distribution" %}
-                    {% assign desktop_pages = site.pages | where: "Category", "Desktop" %}
-                    {% if page.base %}
-                    <tr>
-                        <td>Base distributions</td>
-                        <td>
-                            <ul>
-                                {% for base in page.base %}
-                                {% assign to_distro = null %}
-                                {% for candidate in distribution_pages %}
-                                {% if candidate.uid == base %}
-                                {% assign to_distro = candidate %}
-                                {% break %}
-                                {% endif %}
-                                {% endfor %}
-                                {% if to_distro %}
-                                <li><a href="{{to_distro.permalink}}">{{to_distro.title}}</a></li>
-                                {% else %}
-                                <li>{{base}}</li>
-                                {% endif %}
-                                {% endfor %}
-                            </ul>
-                            {% include os-meta.html page=page %}
-                            {% assign base_family = re_base_keys | split: " " | first %}
-                            {% assign base_group = site.data.distro_groups | where: "key", base_family | first %}
-                            {% if base_group %}<a href="/distribution/{{ base_group.slug }}/">More {{ base_group.label }} distributions &rarr;</a>{% endif %}
-                        </td>
-                    </tr>
-                    {% endif %}
-                    {% if page.desktops %}
-                    <tr>
-                        <td>Desktop Environments</td>
-                        <td>
-                            <ul>
-                                {% for desktop in page.desktops %}
-                                {% assign to_desktop = null %}
-                                {% for candidate in desktop_pages %}
-                                {% if candidate.uid == desktop %}
-                                {% assign to_desktop = candidate %}
-                                {% break %}
-                                {% endif %}
-                                {% endfor %}
-                                {% if to_desktop %}
-                                <li><a href="{{to_desktop.url}}">{{to_desktop.title}}</a></li>
-                                {% else %}
-                                <li>{{desktop}}</li>
-                                {% endif %}
-                                {% endfor %}
-                            </ul>
-                        </td>
-                    </tr>
-                    {% endif %}
-                    {% assign distributions = '' | split: '' %}
-                    {% for candidate in distribution_pages %}
-                    {% if candidate.base contains page.uid %}
-                    {% assign distributions = distributions | push: candidate %}
-                    {% endif %}
-                    {% endfor %}
-                    {% assign count = distributions | size %}
                     {% if count > 0 %}
-                    <tr>
+                    <tr id="related-distributions">
                         <td>Distributions based on {{page.title}}</td>
                         <td>
                             <ul>
@@ -242,6 +145,7 @@
                         </tr>
                         {% endif %}
                 </table>
+                {% endif %}
             </article>
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- Feed sidebar -->
@@ -310,9 +214,6 @@
             </div>
             <!-- End of comment box -->
         </div>
-    </div>
-    <div class="col-md-2 order-md-0"></div>
-    <div class="col-md-2 order-md-2"></div>
 </div>
 {% if page.faq %}
 <script type="application/ld+json">

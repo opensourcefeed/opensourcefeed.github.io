@@ -1,8 +1,15 @@
 ---
 layout: default
 ---
-<div class="row">
-    <div class="col-md-8 order-md-1 content">
+{% assign desktop_pages = site.pages | where: "Category", "Desktop" %}
+{% assign distribution_pages = site.pages | where: "Category", "Distribution" %}
+{% assign distributions = '' | split: '' %}
+{% for candidate in distribution_pages %}
+{% if candidate.desktops contains page.uid %}
+{% assign distributions = distributions | push: candidate %}
+{% endif %}
+{% endfor %}
+<div class="content-readable">
         <div class="post">
             
                 <div class="post-header">
@@ -27,6 +34,7 @@ layout: default
                         </a>
                     </div>
                     {% endif %}
+                    {% include at-a-glance.html kind="desktop" related=distributions %}
                     {{ content }}
                     {% assign preview_dim = site.data.image_dimensions.preview[page.preview] %}
                     {% assign preview_ext = page.preview | split: "." | last | downcase %}
@@ -53,28 +61,9 @@ layout: default
                     <script>
                          (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>
+                    {% assign count = distributions | size %}
+                    {% if count > 0 or page.releases %}
                     <table class="table table-bordered">
-                        {% if page.home_page %}
-                        <tr>
-                            <td>Home Page</td>
-                            <td><a href="{{ page.home_page }}" target="_blank">{{page.home_page}}</a></td>
-                        </tr>
-                        {% endif %}
-                        {% assign rank_entry = site.data.rank.desktops | where: "url", page.url | first %}
-                        <tr>
-                            <td>Popularity rank</td>
-                            <td>
-                                <a href="/page-hit-rank/">
-                                {% if rank_entry and rank_entry.current %}
-                                    #{{ rank_entry.current.rank }} in the Popularity Index
-                                    {% if rank_entry.change != nil %}{% assign rank_change = rank_entry.change %}{% elsif rank_entry.previous and rank_entry.previous.rank %}{% assign rank_change = rank_entry.previous.rank | minus: rank_entry.current.rank %}{% else %}{% assign rank_change = nil %}{% endif %}
-                                    {% if rank_change == nil %}(new){% elsif rank_change > 0 %}(&#9650;&#8239;{{ rank_change }}){% elsif rank_change < 0 %}(&#9660;&#8239;{{ rank_change | abs }}){% endif %}
-                                {% else %}
-                                    Not ranked
-                                {% endif %}
-                                </a>
-                            </td>
-                        </tr>
                          {% if page.releases %}
                         <tr>
                             <td>Releases</td>
@@ -87,15 +76,8 @@ layout: default
                             </td>
                         </tr>
                         {% endif %}
-                        {% assign distributions = '' | split: '' %}
-                        {% for candidate in site.pages %}
-                            {% if candidate.Category == 'Distribution' and candidate.desktops contains page.uid %}
-                                {% assign distributions = distributions | push: candidate %}
-                            {% endif %}
-                        {% endfor %}
-                        {% assign count = distributions | size %}
                         {% if count > 0 %}
-                        <tr>
+                        <tr id="related-distributions">
                             <td>Distributions with {{ page.title }}</td>
                             <td>
                                 <ul>
@@ -107,6 +89,7 @@ layout: default
                         </tr>
                         {% endif %}
                     </table>
+                    {% endif %}
                 </article>
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- Feed sidebar -->
@@ -120,7 +103,7 @@ layout: default
                 {% if site.categories[page.uid] or page.stories%}
                 <hr>
                 <div class="story-listing">
-                    <h2>Other stories on {{page.title}}</h3>
+                    <h2>Other stories on {{page.title}}</h2>
                     <ul>
                         {% for story in page.stories %}
                         <li><a href="{{story[1]}}">{{story[0]}}</a></li>
@@ -132,7 +115,7 @@ layout: default
                 {% endif %}
                 <hr/>
                 {% if page.last_modified_at %}
-                    Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}
+                <p class="last-updated">Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}</p>
                 {% endif %}
                 <!--EchoThread comment box-->
                 <div class="comment-area">
@@ -141,7 +124,4 @@ layout: default
                 </div>
                 <!-- End of comment box -->
             </div>
-    </div>
-    <div class="col-md-2 order-md-0"></div>
-    <div class="col-md-2 order-md-2"></div>
 </div>

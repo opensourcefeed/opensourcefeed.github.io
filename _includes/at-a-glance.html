@@ -1,0 +1,95 @@
+{% comment %}
+  "At a glance" summary card for distribution and desktop pages. It holds the short
+  facts and official links; the long lists (releases, screenshots, derivatives) stay in
+  the details table further down the page, so nothing is shown twice.
+  Params:
+    kind:    "distribution" or "desktop"
+    related: pages listed in the details table (derivatives of a distribution, or
+             distributions shipping a desktop); shown here as a count linking to that list
+  Expects distribution_pages and desktop_pages to be assigned by the calling layout.
+{% endcomment %}
+{% assign glance_related_count = include.related | size %}
+{% if include.kind == "desktop" %}
+  {% assign glance_rank = site.data.rank.desktops | where: "url", page.url | first %}
+{% else %}
+  {% assign glance_rank = site.data.rank.distributions | where: "url", page.url | first %}
+{% endif %}
+<section class="glance" aria-labelledby="glance-title">
+    <h2 id="glance-title" class="glance-title">{{ page.title }} at a glance</h2>
+    <dl class="glance-facts">
+        {% if include.kind == "distribution" %}
+        <div class="glance-fact">
+            <dt>Status</dt>
+            <dd>{% if page.status == "Discontinued" %}<span class="status-badge status-discontinued">Discontinued</span>{% else %}<span class="status-badge status-active">Active</span>{% endif %}</dd>
+        </div>
+        {% if page.type %}
+        <div class="glance-fact">
+            <dt>Type</dt>
+            <dd>{{ page.type }}</dd>
+        </div>
+        {% endif %}
+        {% endif %}
+        <div class="glance-fact">
+            <dt>Popularity</dt>
+            <dd>
+                <a href="{% if include.kind == 'desktop' %}/page-hit-rank/desktop-environments/{% else %}/page-hit-rank/{% endif %}">
+                {% if glance_rank and glance_rank.current %}
+                    #{{ glance_rank.current.rank }}
+                    {% if glance_rank.change != nil %}{% assign glance_change = glance_rank.change %}{% elsif glance_rank.previous and glance_rank.previous.rank %}{% assign glance_change = glance_rank.previous.rank | minus: glance_rank.current.rank %}{% else %}{% assign glance_change = nil %}{% endif %}
+                    {% if glance_change == nil %}<span class="glance-change">new</span>{% elsif glance_change > 0 %}<span class="glance-change is-up" title="Up {{ glance_change }} places">&#9650;&#8239;{{ glance_change }}</span>{% elsif glance_change < 0 %}<span class="glance-change is-down" title="Down {{ glance_change | abs }} places">&#9660;&#8239;{{ glance_change | abs }}</span>{% endif %}
+                {% else %}
+                    Not ranked
+                {% endif %}
+                </a>
+            </dd>
+        </div>
+        {% if glance_related_count > 0 %}
+        <div class="glance-fact">
+            {% if include.kind == "desktop" %}
+            <dt>Shipped by</dt>
+            <dd><a href="#related-distributions">{{ glance_related_count }} distribution{% if glance_related_count != 1 %}s{% endif %}</a></dd>
+            {% else %}
+            <dt>Derivatives</dt>
+            <dd><a href="#related-distributions">{{ glance_related_count }} distribution{% if glance_related_count != 1 %}s{% endif %}</a></dd>
+            {% endif %}
+        </div>
+        {% endif %}
+        {% if include.kind == "distribution" and page.base %}
+        <div class="glance-fact glance-fact-wide">
+            <dt>Based on</dt>
+            <dd>
+                <ul class="glance-chips">
+                    {% for base in page.base %}
+                    {% assign glance_base = distribution_pages | where: "uid", base | first %}
+                    <li>{% if glance_base %}<a href="{{ glance_base.permalink }}">{{ glance_base.title }}</a>{% else %}<span>{{ base | capitalize }}</span>{% endif %}</li>
+                    {% endfor %}
+                </ul>
+                {% include os-meta.html page=page %}
+                {% assign base_family = re_base_keys | split: " " | first %}
+                {% assign base_group = site.data.distro_groups | where: "key", base_family | first %}
+                {% if base_group %}<a class="glance-more" href="/distribution/{{ base_group.slug }}/">More {{ base_group.label }} distributions &rarr;</a>{% endif %}
+            </dd>
+        </div>
+        {% endif %}
+        {% if include.kind == "distribution" and page.desktops %}
+        <div class="glance-fact glance-fact-wide">
+            <dt>Desktop environments</dt>
+            <dd>
+                <ul class="glance-chips">
+                    {% for desktop in page.desktops %}
+                    {% assign glance_desktop = desktop_pages | where: "uid", desktop | first %}
+                    <li>{% if glance_desktop %}<a href="{{ glance_desktop.url }}">{{ glance_desktop.title }}</a>{% else %}<span>{{ desktop | capitalize }}</span>{% endif %}</li>
+                    {% endfor %}
+                </ul>
+            </dd>
+        </div>
+        {% endif %}
+    </dl>
+    {% if page.home_page or page.forum or page.blog %}
+    <div class="glance-actions">
+        {% if page.home_page %}<a class="glance-btn glance-btn-primary" href="{{ page.home_page }}" target="_blank" rel="noopener">Official website <span aria-hidden="true">&#8599;</span></a>{% endif %}
+        {% if page.forum %}<a class="glance-btn" href="{{ page.forum }}" target="_blank" rel="noopener">Discussion forum <span aria-hidden="true">&#8599;</span></a>{% endif %}
+        {% if page.blog %}<a class="glance-btn" href="{{ page.blog }}" target="_blank" rel="noopener">News and updates <span aria-hidden="true">&#8599;</span></a>{% endif %}
+    </div>
+    {% endif %}
+</section>
