@@ -1,0 +1,30 @@
+# Social profiles, rendered by _includes/footer.html and (where navbar: true) _includes/navbar.html.
+# icon must match a case in _includes/social-icon.html.
+# rel_me: true marks the profile link with rel="me" (Mastodon profile verification).
+- label: Mastodon
+  icon: mastodon
+  url: https://floss.social/@opensourcefeed
+  navbar: true
+  rel_me: true
+- label: RSS feed
+  icon: rss
+  url: /feed.xml
+  navbar: true
+- label: Telegram
+  icon: telegram
+  url: https://t.me/opensourcefeedOrg
+- label: X (Twitter)
+  icon: x
+  url: https://x.com/opensourcefeed
+- label: Facebook
+  icon: facebook
+  url: https://www.facebook.com/opensourcefeed/
+- label: YouTube
+  icon: youtube
+  url: https://www.youtube.com/c/DistroScreens
+- label: Instagram
+  icon: instagram
+  url: https://www.instagram.com/opensourcefeed/
+- label: Email
+  icon: email
+  url: mailto:contact.opensourcefeed@gmail.com

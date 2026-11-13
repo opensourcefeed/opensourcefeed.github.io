@@ -1,0 +1,47 @@
+<footer class="site-footer">
+    <div class="container">
+        <div class="row footer-top">
+            <div class="col-12 col-lg-4 footer-brand">
+                <a class="footer-logo" href="/"><img src="/assets/images/meta/icon.png" width="28" height="28" alt="" loading="lazy" decoding="async">{{ site.title }}</a>
+                <p>{{ site.caption }}. Guides, release news and popularity rankings for GNU/Linux, BSD and open source desktops.</p>
+            </div>
+            <nav class="col-6 col-md-4 col-lg-2 footer-col" aria-label="Explore">
+                <h2>Explore</h2>
+                <ul>
+                    <li><a href="/distribution/">Operating Systems</a></li>
+                    <li><a href="/distro-chooser/">Distro Finder</a></li>
+                    <li><a href="/desktop/">Desktop Environments</a></li>
+                    <li><a href="/page-hit-rank/">Popularity Index</a></li>
+                    <li><a href="/screenshots/">Screenshots</a></li>
+                </ul>
+            </nav>
+            <nav class="col-6 col-md-4 col-lg-3 footer-col" aria-label="Read">
+                <h2>Read</h2>
+                <ul>
+                    <li><a href="/blog/">Open Source News</a></li>
+                    <li><a href="/beyond-opensource/">Analysis</a></li>
+                    <li><a href="/insights/">Insights</a></li>
+                    <li><a href="/software/">Software Directory</a></li>
+                    <li><a href="/software/alternative-to/">Open Source Alternatives</a></li>
+                </ul>
+            </nav>
+            <nav class="col-12 col-md-4 col-lg-3 footer-col" aria-label="About">
+                <h2>About</h2>
+                <ul>
+                    <li><a href="/guest-post-guidelines/">Guest Post Guidelines</a></li>
+                    <li><a href="/important-dates/">Important FOSS Dates</a></li>
+                    <li><a href="/privacy-policy/">Privacy Policy</a></li>
+                    <li><a href="mailto:contact.opensourcefeed@gmail.com">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-copy">&copy; 2015&ndash;{{ site.time | date: '%Y' }} Tahrik Studio</p>
+            <ul class="footer-social" aria-label="Follow OpenSourceFeed">
+                {% for item in site.data.social %}
+                <li>{% include social-link.html item=item %}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</footer>

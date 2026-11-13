@@ -56,26 +56,9 @@
         </li>
       </ul>
       <ul class="navbar-nav social-icons">
-        <li> <a rel="nofollow" title="Follow us on Mastodon" target="_blank" href="https://floss.social/@opensourcefeed">
-            <img height="25" alt="Mastodon Link" src="/assets/images/meta/mastodon.png"> </a> </li>
-        <li> <a rel="nofollow" title="Send us Email" target="_blank" href="mailto:contact.opensourcefeed@gmail.com"> <img
-              height="25" alt="Email ID" src="/assets/images/meta/email.png"> </a> </li>
-        <li> <a rel="nofollow" title="Like us on facebook" target="_blank"
-            href="https://www.facebook.com/opensourcefeed/">
-            <img height="25" alt="FB Link" src="/assets/images/meta/facebook.png"> </a> </li>
-        <li> <a rel="nofollow" title="Follow us on Twitter" target="_blank" href="https://x.com/opensourcefeed">
-            <img height="25" alt="Twitter Link" src="/assets/images/meta/twitter.png"> </a> </li>
-        <li> <a rel="nofollow" title="Subscribe our YouTube channel" target="_blank"
-            href="https://www.youtube.com/c/DistroScreens"> <img height="25" alt="YouTube Channel"
-              src="/assets/images/meta/youtube.png">
-          </a> </li>
-        <li> <a title="Subscribe for our RSS" target="_blank" href="/feed.xml"> <img height="25" alt="RSS Link"
-              src="/assets/images/meta/rss.png"> </a> </li>
-        <li> <a rel="nofollow" title="Subscribe us on Telegram" target="_blank" href="https://t.me/opensourcefeedOrg">
-            <img height="25" alt="Telegram Link" src="/assets/images/meta/telegram.png"> </a> </li>
-        <li> <a rel="nofollow" title="Follow us on Instagram" target="_blank"
-            href="https://www.instagram.com/opensourcefeed/">
-            <img height="25" alt="Instagram Link" src="/assets/images/meta/instagram.png"> </a> </li>
+        {% for item in site.data.social %}{% if item.navbar %}
+        <li>{% include social-link.html item=item %}</li>
+        {% endif %}{% endfor %}
       </ul>
     </div>
   </div>

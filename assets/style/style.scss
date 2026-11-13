@@ -144,6 +144,17 @@ body {
   background: $color-page;
   font-size: 1.1rem;
   line-height: 2rem;
+
+  /* Keep the footer at the bottom of the viewport on short pages */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* The page body (home: main.container-fluid; others: div.container-fluid) takes the spare height */
+body > .container-fluid,
+body > main {
+  flex: 1 0 auto;
 }
 
 a {
@@ -224,23 +235,43 @@ figcaption {
   .nav-link {
     font-size: 1rem;
   }
+}
 
-  .social-icons {
-    img {
-      height: 32px;
-    }
+/* Navbar social links: monochrome SVG icons that inherit the nav link colour */
+.navbar .social-icons {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25rem;
+  margin-left: -0.6rem; /* align icon glyphs with the collapsed menu text */
+  padding: 0.25rem 0 0.5rem;
+  list-style: none;
+
+  @media (min-width: 1200px) {
+    margin-left: 0;
+    padding: 0;
   }
 }
 
-.social-icons {
-  display: inline;
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;  /* 40px touch target */
+  height: 2.5rem;
+  border-radius: $radius-pill;
+  color: $color-text-nav;
+  transition: color $duration-fast ease, background-color $duration-fast ease;
 
-  img {
-    height: 25px;
+  &:hover,
+  &:focus-visible {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
   }
 
-  li {
-    display: inline;
+  .social-icon {
+    width: 1.15rem;
+    height: 1.15rem;
+    flex: none;
   }
 }
 
@@ -663,14 +694,108 @@ a {
   }
 }
 
-footer {
-  text-align: center;
-  padding: 5px 0 5px 0;
+/* ==========================================================================
+   Site footer
+   ========================================================================== */
+
+.site-footer {
   width: 100%;
+  margin-top: 3rem;
+  padding: 3rem 0 1.5rem;
+  background: linear-gradient(180deg, $color-dark-800 0%, $color-dark-900 100%);
+  color: $color-text-nav;
+  font-size: 0.95rem;
+  line-height: 1.6;
 
   a {
-    color: $color-link-on-dark;
-    text-decoration: underline;
+    color: $color-text-on-dark;
+    text-decoration: none;
+    transition: color $duration-fast ease;
+
+    &:hover,
+    &:focus-visible {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .footer-top {
+    row-gap: 2rem;
+  }
+
+  .footer-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  .footer-brand p {
+    max-width: 22rem;
+    margin: 0.75rem 0 0;
+  }
+
+  .footer-col {
+    h2 {
+      margin: 0 0 0.75rem;
+      color: white;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li + li {
+      margin-top: 0.4rem;
+    }
+  }
+
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .footer-copy {
+    margin: 0;
+    font-size: 0.875rem;
+  }
+
+  .footer-social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin: 0 0 0 -0.6rem; /* align first icon's glyph with the text edge on small screens */
+    padding: 0;
+    list-style: none;
+
+    @media (min-width: $breakpoint-md) {
+      margin: 0 -0.6rem 0 0;
+    }
+
+    /* Fit all eight icons on one row down to 320px wide screens */
+    @media (max-width: 575.98px) {
+      gap: 0;
+
+      .social-link {
+        width: 2.25rem;
+        height: 2.25rem;
+      }
+    }
   }
 }
 
