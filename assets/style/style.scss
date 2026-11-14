@@ -40,6 +40,7 @@ $red-50: #fef2f2;
 $red-700: #b91c1c;
 
 /* Accents */
+$amber-50: #fffbeb;
 $amber-500: #f2b705;
 $bmc-yellow: #ffdd00;              /* Buy Me a Coffee brand yellow */
 $bmc-ink: #0d0c22;
@@ -87,6 +88,7 @@ $color-success: $green-700;
 $color-success-bg: $green-50;
 $color-danger: $red-700;
 $color-danger-bg: $red-50;
+$color-warning-bg: $amber-50;
 
 /* Radius: sm for small inline items, md for controls, lg for cards and panels, pill for tags */
 $radius-sm: 8px;
@@ -130,7 +132,7 @@ $duration-base: 0.25s;
 $duration-slow: 0.4s;
 $duration-slower: 0.5s;
 
-/* Breakpoints (match Bootstrap) */
+/* Breakpoints (same as the grid in _sass/_foundation.scss) */
 $breakpoint-md: 768px;
 
 /* ==========================================================================
@@ -182,42 +184,14 @@ $css-tokens: (
   "font-system": $font-system,
 );
 
-@function rgb-triplet($color) {
-  @return red($color), green($color), blue($color);
-}
-
 :root {
   @each $name, $value in $css-tokens {
     --osf-#{$name}: #{$value};
   }
-
-  /* Feed the same tokens to Bootstrap so its components (headings, borders,
-     dropdowns, form controls, .bg-dark navbar) match without per-component overrides */
-  --bs-body-font-family: #{$font-sans};
-  --bs-body-color: #{$color-text};
-  --bs-body-color-rgb: #{rgb-triplet($color-text)};
-  --bs-heading-color: #{$color-heading};
-  --bs-secondary-color: #{$color-text-muted};
-  --bs-link-color: #{$color-primary};
-  --bs-link-color-rgb: #{rgb-triplet($color-primary)};
-  --bs-link-hover-color: #{$color-primary-hover};
-  --bs-link-hover-color-rgb: #{rgb-triplet($color-primary-hover)};
-  --bs-primary-rgb: #{rgb-triplet($color-primary)};
-  --bs-dark-rgb: #{rgb-triplet($color-dark)};
-  --bs-border-color: #{$color-line-strong};
-  --bs-border-color-translucent: #{$color-line};
-  --bs-border-radius: #{$radius-md};
-  --bs-border-radius-sm: #{$radius-sm};
-  --bs-border-radius-lg: #{$radius-lg};
-  --bs-border-radius-pill: #{$radius-pill};
-  --bs-box-shadow: #{$shadow-md};
-  --bs-box-shadow-sm: #{$shadow-sm};
-  --bs-box-shadow-lg: #{$shadow-lg};
-  --bs-focus-ring-color: #{rgba($color-primary, 0.35)};
-  --bs-tertiary-bg: #{$color-surface-sunk};
-  --bs-secondary-bg: #{$color-surface-strong};
-  --bs-code-color: #{$color-text};
 }
+
+/* Reset, grid, navbar and the Bootstrap-named components the markup uses */
+@import "foundation";
 
 /* ==========================================================================
    Web font
@@ -349,58 +323,6 @@ table {
   overflow-wrap: break-word;
 }
 
-/* Bootstrap form controls and primary button on the shared tokens */
-.form-control,
-.form-select {
-  border-color: $color-line-strong;
-  color: $color-text;
-
-  &:focus {
-    border-color: $color-primary;
-    box-shadow: $shadow-focus-ring;
-  }
-
-  &::placeholder {
-    color: $color-text-muted;
-  }
-}
-
-.btn {
-  --bs-btn-border-radius: #{$radius-md};
-  --bs-btn-font-weight: 600;
-  --bs-btn-focus-box-shadow: #{$shadow-focus-ring};
-}
-
-.btn-primary {
-  --bs-btn-bg: #{$color-primary};
-  --bs-btn-border-color: #{$color-primary};
-  --bs-btn-hover-bg: #{$color-primary-hover};
-  --bs-btn-hover-border-color: #{$color-primary-hover};
-  --bs-btn-active-bg: #{$color-primary-hover};
-  --bs-btn-active-border-color: #{$color-primary-hover};
-  box-shadow: $shadow-button;
-}
-
-/* Navbar dropdowns: floating panel with the large shadow */
-.dropdown-menu {
-  --bs-dropdown-border-color: #{$color-line};
-  --bs-dropdown-border-radius: #{$radius-md};
-  --bs-dropdown-box-shadow: #{$shadow-lg};
-  --bs-dropdown-link-color: #{$color-text};
-  --bs-dropdown-link-hover-color: #{$color-primary};
-  --bs-dropdown-link-hover-bg: #{$color-primary-tint};
-  --bs-dropdown-link-active-color: #{$color-primary};
-  --bs-dropdown-link-active-bg: #{$color-primary-tint};
-  --bs-dropdown-padding-x: 0.35rem;
-  --bs-dropdown-padding-y: 0.35rem;
-  --bs-dropdown-item-padding-x: 0.75rem;
-  --bs-dropdown-item-padding-y: 0.45rem;
-  --bs-dropdown-item-border-radius: #{$radius-sm};
-  box-shadow: var(--bs-dropdown-box-shadow);
-  font-size: 0.95rem;
-  line-height: 1.4;
-}
-
 /* Wrapper added by main.js so wide tables scroll inside the column, not the page */
 .table-scroll {
   max-width: 100%;
@@ -494,10 +416,6 @@ figcaption {
   margin-right: 0.5rem;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: $color-text-nav;
-}
-
 @media (min-width: 1200px) and (max-width: 1299.98px) {
   .navbar-dark .navbar-nav {
     .nav-link {
@@ -507,18 +425,6 @@ figcaption {
     .dropdown-toggle {
       font-size: 0.9rem;
     }
-  }
-}
-
-.navbar-toggler-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
-  div {
-    width: 100%;
-    height: 2px;
-    background-color: #888;
   }
 }
 
@@ -558,10 +464,9 @@ main {
     }
   }
 
-  /* Tables: one rounded outer border and row dividers only (also restyles Bootstrap .table / .table-bordered) */
+  /* Tables: one rounded outer border and row dividers only (also restyles .table / .table-bordered) */
   article table,
   .table {
-    --bs-table-bg: transparent;
     width: 100%;
     margin-bottom: 1.5rem;
     border-collapse: separate;
@@ -962,33 +867,6 @@ main {
   }
 }
 
-/* Pill pagination (Bootstrap 5.3 variables) */
-.pagination {
-  gap: 0.35rem;
-  --bs-pagination-color: #{$color-primary};
-  --bs-pagination-border-color: #{$color-border};
-  --bs-pagination-hover-color: #{$color-primary-hover};
-  --bs-pagination-hover-bg: #{rgba($color-primary, 0.08)};
-  --bs-pagination-hover-border-color: #{rgba($color-primary, 0.3)};
-  --bs-pagination-focus-box-shadow: #{$shadow-focus-ring};
-  --bs-pagination-active-bg: #{$color-primary};
-  --bs-pagination-active-border-color: #{$color-primary};
-  --bs-pagination-disabled-color: #{$color-text-muted};
-  --bs-pagination-disabled-border-color: #{$color-border};
-
-  .page-item .page-link {
-    margin-left: 0;
-    border-radius: $radius-pill;
-    min-width: 2.25rem;
-    text-align: center;
-    transition: background $duration-fast ease, border-color $duration-fast ease, color $duration-fast ease;
-  }
-
-  .page-item.active .page-link {
-    box-shadow: $shadow-button;
-  }
-}
-
 /* ==========================================================================
    Site footer
    ========================================================================== */
@@ -1099,7 +977,7 @@ main {
    ========================================================================== */
 
 /* Single reading column for post, page, distribution and desktop layouts.
-   Replaces a second nested Bootstrap grid that shrank the text to ~340px on tablets. */
+   Replaces a second nested grid that shrank the text to ~340px on tablets. */
 .content-readable {
   max-width: 720px;
   margin-inline: auto;

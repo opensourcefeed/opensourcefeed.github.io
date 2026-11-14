@@ -9,6 +9,8 @@ caption: Free Operating Systems & Desktop Environments
 twitter_username: opensourcefeed
 github_username: opensourcefeed
 markdown: kramdown
+sass:
+  style: compressed
 exclude:
   - Gemfile
   - Gemfile.lock
