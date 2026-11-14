@@ -1,5 +1,5 @@
 ---
-title: How to convert JPG images to PNG using ImageMagick in Linux?
+title: How to Convert JPG to PNG in Linux Using ImageMagick
 layout: post
 categories:
 - tutorial
@@ -12,68 +12,65 @@ tags:
 image: "/assets/images/post-images/kde-neon-5.10.jpg"
 redirect_from:
     - /2021/06/how-to-convert-jpg-images-to-png-using-imagemagick-in-linux/
-description: An article briefly explaining how to convert jpg images into PNG using imagemagick - a command line tool for image processing in different platforms.
-last_modified_at: 2026-07-27
+description: Convert JPG images to PNG on Linux with ImageMagick, for one file or a whole folder. Learn when PNG helps, what it can't fix, and how to keep file sizes down.
+last_modified_at: 2026-11-14
 ---
 
-**This** is a continuation of our [tutorial for converting png images to jpg using ImageMagick](/00-convert-png-to-jpg-imagemagick/). You may refer to the same article to learn about PNG and JPG image formats, and also about ImageMagick.
+**You** can convert a JPG image to PNG on Linux with a single ImageMagick command, and convert a whole folder just as easily. This guide shows both, explains when switching to PNG actually helps, and covers how to keep the larger PNG files under control.
 
-![A JPG photograph being converted to PNG format](/assets/images/post-images/kde-neon-5.10.jpg)
+**Quick answer:** run `magick photo.jpg photo.png` with ImageMagick 7, or `convert photo.jpg photo.png` with ImageMagick 6.
 
-**TL;DR:** `convert image.jpg image.png` (ImageMagick 6) or `magick image.jpg image.png` (ImageMagick 7). Note that converting a JPG to PNG does **not** recover any quality lost during the original JPG compression — PNG just stops further loss from that point on.
+![A detailed desktop screenshot saved as JPG](/assets/images/post-images/kde-neon-5.10.jpg)
 
-## Why convert JPG to PNG?
+New to ImageMagick? Our [PNG to JPG guide](/00-convert-png-to-jpg-imagemagick/) explains how to install it, the difference between ImageMagick 6 and 7, and how the PNG and JPG formats compare.
 
-The most common reasons to go from JPG to PNG are needing a lossless format for further editing (avoiding repeated generation loss from re-saving as JPG), needing to add transparency to an image that a JPG can't support, or preparing a photo for use as an icon, logo, or overlay where PNG's lossless edges matter.
+## When converting JPG to PNG makes sense
 
-## How to perform JPG to PNG conversion using ImageMagick?
-ImageMagick provides a set of command-line tools for performing image manipulation operations. **convert** is one such tool in the ImageMagick tool suite, that facilitates the conversion of images between various formats. It also provides options to resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.
+- **You will keep editing the image.** Each time a JPG is saved, it loses a little more detail. Working in PNG, which is lossless, stops that further loss.
+- **You need transparency.** PNG supports transparent areas and JPG doesn't, so a logo or cut-out has to be PNG.
+- **A tool or website requires PNG**, for example for icons or app assets.
 
-You can read the complete `convert` tool documentation using the man pages. The man page for `convert` can be read using the following commands:
+Converting does **not** improve quality. Any detail or blockiness lost when the JPG was saved stays in the PNG, and the file usually becomes several times larger.
+
+## Convert a single JPG to PNG
+
 ```bash
-$ convert --help
-   OR
-$ man convert
-```
-The image format conversion can be done using the following command:
-```bash
-$ convert [original image] [converted image name]
-```
-This command can be used to convert between any valid image formats.
-
-> **Note (ImageMagick 7+):** Most current Linux distributions ship ImageMagick 7, where the standalone `convert` binary is deprecated in favor of the `magick` command. The syntax is otherwise identical — just replace `convert` with `magick`:
-> ```bash
-> $ magick [original image] [converted image name]
-> ```
-
-If we want to convert multiple jobs at once, we may use a simple batch job like the below:
-```bash
-for image in *.jpg ; 
-do 
-    convert "$image" "${image%.*}.png" ;
-done
-```
-In one line, it can be written like,
-```bash
-$ for image in *.jpg ;  do convert "$image" "${image%.*}.png" ; done
+magick photo.jpg photo.png
 ```
 
-Alternatively, `mogrify` can batch-convert an entire directory in place without a loop:
+On ImageMagick 6, use `convert` in place of `magick`.
+
+## Batch-convert all JPG files in a folder
+
 ```bash
-$ mogrify -format png *.jpg
+magick mogrify -format png *.jpg
 ```
-This creates a `.png` copy of every JPG in the current directory, leaving the original JPG files untouched.
 
-## Generic format
-The `convert`/`magick` syntax works between any two image formats, not just JPG and PNG — see our [PNG to JPG tutorial](/00-convert-png-to-jpg-imagemagick/#how-to-convert-from-any-image-format-to-any-other-image-format) for the general form and more examples.
+This writes a PNG next to every JPG and leaves the originals unchanged. Use `*.jpeg` as well if some files have that extension, and add `-path png` to save the results in a `png` folder (create it first with `mkdir png`). On ImageMagick 6, run `mogrify` without `magick`.
 
-## Frequently Asked Questions
+## Keep the PNG files smaller
 
-**Does converting JPG to PNG improve image quality?**
-No. PNG is lossless going forward, but it can't restore detail already lost when the source image was saved as JPG. Converting a low-quality JPG to PNG just locks in that same quality at a larger file size.
+PNG files of photographs are large. Two options help without losing any more quality:
 
-**Will converting to PNG increase the file size?**
-Usually, yes. PNG's lossless compression typically produces larger files than JPG for photographs, though it compresses simple graphics well.
+```bash
+magick photo.jpg -strip -define png:compression-level=9 photo.png
+```
 
-**Can I add transparency to a JPG by converting it to PNG?**
-Converting alone won't add transparency — PNG supports an alpha channel, but you need a separate step (like background removal) to actually make part of the image transparent after conversion.
+- `-strip` removes metadata such as camera details and embedded previews.
+- `png:compression-level=9` uses the strongest lossless compression. It is slower but makes the file smaller.
+
+If the image is a photo and you don't need transparency or further editing, keeping it as JPG is usually the better choice.
+
+## Add a transparent background
+
+Converting alone doesn't make anything transparent. To turn one solid background colour transparent, for example the white around a logo, use:
+
+```bash
+magick logo.jpg -fuzz 10% -transparent white logo.png
+```
+
+`-fuzz 10%` also catches near-white pixels left by JPG compression. Increase it if a light edge remains, and lower it if parts of the logo disappear.
+
+## Next steps
+
+For converting PNG back to JPG, quality settings and handling transparency, read our [PNG to JPG guide](/00-convert-png-to-jpg-imagemagick/). For more terminal basics, see [essential Linux commands every user should know](/1-essential-linux-commands/).

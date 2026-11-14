@@ -1,88 +1,127 @@
 ---
-title: "FFmpeg quick reference: essential commands for video and audio"
+title: "FFmpeg Commands Cheat Sheet: Convert, Trim, Compress and More"
 layout: post
 categories: tutorial
 tags: tutorial ffmpeg
 image: "/assets/images/post-images/ffmpg-man.png"
-last_modified_at: 2026-08-03
+description: "Practical FFmpeg commands with examples: convert formats, trim clips, extract audio, compress and resize video, make GIFs, join files and inspect media."
+last_modified_at: 2026-11-14
 ---
 
-**FFmpeg** is a cross-platform, command-line multimedia framework for recording, converting, and streaming audio and video. Because it's scriptable, it's ideal for batch-processing large numbers of files without opening a GUI. You can find [more about FFmpeg](https://www.ffmpeg.org/about.html) on the official website.
+**FFmpeg** is a free, open-source command-line tool for converting, editing and streaming audio and video. It handles almost every media format and runs on Linux, macOS and Windows. Because it works from the terminal, it can process hundreds of files with a single script. This cheat sheet covers the FFmpeg commands you are most likely to need, each with a ready-to-use example.
 
-![FFmpeg preview in Linux Mint](/assets/images/post-images/ffmpg-man.png)
+![FFmpeg manual page in a Linux Mint terminal](/assets/images/post-images/ffmpg-man.png)
 
-This post walks through the FFmpeg commands you're most likely to need, with example input/output for each.
+## Installing FFmpeg
 
-## Converting video from one format to another
-
-```sh
-ffmpeg -i <input-file> -codec <output-codec> <output-file>
-# or, to set the audio and video codecs independently
-ffmpeg -i <input-file> -acodec <output-audio-codec> -vcodec <output-video-codec> <output-file>
-
-# example: mkv to mp4, keeping the existing codecs
-ffmpeg -i input.mkv -codec copy output.mp4
-```
-
-Use `copy` as the codec value to keep the input file's existing codec instead of re-encoding — this is much faster since FFmpeg just repackages the stream. To re-encode instead, provide a target codec name. See the full list of supported codecs with:
+FFmpeg is in the repositories of most Linux distributions.
 
 ```sh
-ffmpeg -codecs
+sudo apt install ffmpeg          # Debian, Ubuntu, Linux Mint
+sudo dnf install ffmpeg-free     # Fedora (the full ffmpeg package is in RPM Fusion)
+sudo pacman -S ffmpeg            # Arch Linux, Manjaro
 ```
 
-## Clipping a video by start and end time
+Check that it works with `ffmpeg -version`.
+
+## How FFmpeg commands are built
+
+Most commands follow the same pattern:
 
 ```sh
-ffmpeg -i <input-file> -ss <start-time> -to <end-time> -c:v copy -c:a copy <output-file>
-
-# example: keep only 00:01:30 to 00:02:45
-ffmpeg -i input.mp4 -ss 00:01:30 -to 00:02:45 -c:v copy -c:a copy clip.mp4
+ffmpeg -i <input-file> [options] <output-file>
 ```
 
-This keeps the input's audio and video codecs and just trims the file. Both times are given in `HH:MM:SS` (or `seconds.milliseconds`) format. See more [ffmpeg clipping options](https://superuser.com/questions/138331/using-ffmpeg-to-cut-up-video) on StackExchange.
+FFmpeg picks the output format from the file extension. Two options appear again and again below:
 
-If you'd rather trim visually instead of guessing timestamps, a GUI editor like [Kdenlive](/software/kdenlive/) or [Shotcut](/software/shotcut/) can do the same job with a scrubbable timeline.
+- `-c:v` sets the video codec and `-c:a` sets the audio codec (`-c` sets both).
+- `copy` as the codec copies the existing streams without re-encoding. It is very fast and keeps the original quality, but it only works when the output format supports the input codecs.
+
+## Checking a file's format and streams
+
+Start by finding out what a file contains. `ffprobe` is installed with FFmpeg and prints the container, codecs, resolution, duration and bitrate without changing the file.
+
+```sh
+ffprobe input.mp4
+```
+
+Knowing the codecs tells you whether you can use `copy` in the commands below or need to re-encode.
+
+## Converting video to another format
+
+To change the container without re-encoding, for example MKV to MP4:
+
+```sh
+ffmpeg -i input.mkv -c copy output.mp4
+```
+
+This fails if the MKV holds a stream that MP4 can't store, such as some subtitle formats. In that case, drop the subtitles with `-sn`, or re-encode to widely supported codecs:
+
+```sh
+ffmpeg -i input.mkv -c:v libx264 -c:a aac output.mp4
+```
+
+By default FFmpeg keeps one video and one audio stream. Add `-map 0` to keep every stream, such as extra audio tracks. To see all available codecs, run `ffmpeg -codecs`.
+
+## Trimming a video by start and end time
+
+```sh
+ffmpeg -i input.mp4 -ss 00:01:30 -to 00:02:45 -c copy clip.mp4
+```
+
+This keeps the part between 1:30 and 2:45. Times use the `HH:MM:SS` format or plain seconds, such as `90`. With `-c copy`, the cut can only start on a keyframe, so the clip may begin a little earlier than requested. For a frame-accurate cut, re-encode by removing `-c copy`.
+
+If you'd rather trim on a visual timeline, a video editor like [Kdenlive](/software/kdenlive/) or [Shotcut](/software/shotcut/) can do the same job.
 
 ## Extracting audio from a video
 
 ```sh
-ffmpeg -i input.mp4 -vn -acodec copy output.aac
+# Keep the original audio (use the extension that matches its codec, e.g. .aac or .opus)
+ffmpeg -i input.mp4 -vn -c:a copy output.aac
 
-# or convert to mp3 while extracting
-ffmpeg -i input.mp4 -vn -acodec libmp3lame output.mp3
+# Convert the audio to MP3
+ffmpeg -i input.mp4 -vn -c:a libmp3lame -q:a 2 output.mp3
 ```
 
-`-vn` tells FFmpeg to drop the video stream entirely.
+`-vn` removes the video stream. `-q:a 2` gives high-quality variable-bitrate MP3; higher numbers make smaller files.
 
 ## Compressing a video
 
 ```sh
-ffmpeg -i input.mp4 -vcodec libx264 -crf 28 output.mp4
+ffmpeg -i input.mp4 -c:v libx264 -crf 28 -preset slow -c:a copy output.mp4
 ```
 
-`-crf` (constant rate factor) controls the quality/size tradeoff — lower values mean better quality and larger files. `18` is close to visually lossless, `23` is the libx264 default, and `28`+ trades noticeable quality for a much smaller file. Good range to experiment with: 18-28.
+`-crf` (constant rate factor) sets the balance between quality and file size for H.264. Lower values mean better quality and bigger files: `18` looks almost identical to the source, `23` is the default, and `28` gives a much smaller file with visible quality loss. A slower `-preset` produces a smaller file at the same quality but takes longer to encode.
+
+For even smaller files, use H.265 with `-c:v libx265`. Its default CRF is `28`, and older devices may not play it.
 
 ## Resizing a video
 
 ```sh
-ffmpeg -i input.mp4 -vf scale=1280:-1 output.mp4
+ffmpeg -i input.mp4 -vf scale=1280:-2 -c:a copy output.mp4
 ```
 
-Setting one dimension and `-1` for the other keeps the original aspect ratio — here the output is scaled to 1280px wide.
+This scales the video to 1280 pixels wide. `-2` calculates the height from the original aspect ratio and rounds it to an even number, which H.264 requires.
 
-## Converting an image sequence to video, or a video to a GIF
+## Making a GIF from a video
 
 ```sh
-# images to video (frame001.png, frame002.png, ...)
-ffmpeg -framerate 24 -i frame%03d.png output.mp4
-
-# video to GIF
-ffmpeg -i input.mp4 -vf "fps=10,scale=480:-1" output.gif
+ffmpeg -i input.mp4 -vf "fps=10,scale=480:-1:flags=lanczos,split[a][b];[a]palettegen[p];[b][p]paletteuse" output.gif
 ```
 
-## Merging/concatenating multiple video files
+GIFs can only use 256 colours. This filter creates a colour palette from the video first, which gives much cleaner results than a direct conversion. Lower the `fps` or `scale` values to make the file smaller. Add `-ss` and `-t` before `-i` to convert only part of the video, for example `-ss 10 -t 5` for five seconds starting at 0:10.
 
-Create a text file listing the files to join, one per line:
+## Turning an image sequence into a video
+
+```sh
+ffmpeg -framerate 24 -i frame%03d.png -c:v libx264 -pix_fmt yuv420p output.mp4
+```
+
+`frame%03d.png` matches `frame001.png`, `frame002.png` and so on. `-pix_fmt yuv420p` makes the video play in most players and browsers.
+
+## Joining several videos into one
+
+List the files to join in a text file, one per line:
 
 ```
 file 'part1.mp4'
@@ -95,15 +134,8 @@ Then run:
 ffmpeg -f concat -safe 0 -i list.txt -c copy output.mp4
 ```
 
-This only works cleanly when all input files share the same codec and resolution; otherwise, re-encode first.
+This works without re-encoding only when all the files use the same codecs, resolution and frame rate. Otherwise, convert them to matching settings first.
 
-## Checking a file's format and stream details
+## Next steps
 
-```sh
-ffprobe input.mp4
-```
-
-`ffprobe` ships alongside FFmpeg and prints the container format, codecs, resolution, duration, and bitrate without modifying the file — useful for figuring out what codec/scale flags to use above. Once you're done, play the result back in [VLC](/software/vlc/) or [mpv](/software/mpv/) to confirm it looks and sounds right.
-
----
-This list covers the FFmpeg tasks that come up most often, but it isn't exhaustive. If you have another common use case that isn't listed here, let us know in the comments and we'll add it.
+Check the result in a player such as [VLC](/software/vlc/) or [mpv](/software/mpv/) before deleting your originals. For every option, see the [official FFmpeg documentation](https://ffmpeg.org/ffmpeg.html). If you work with images as well as video, our [ImageMagick conversion guide](/00-convert-png-to-jpg-imagemagick/) covers the same kind of batch tasks for pictures.

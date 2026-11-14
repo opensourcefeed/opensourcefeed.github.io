@@ -1,113 +1,114 @@
 ---
 layout: post
 title: How to Reduce PDF File Size Using Ghostscript on Linux
-categories: [Linux, Open Source, tutorial]
+categories: [linux, tutorial]
 tags: [PDF, Ghostscript, Linux, Command Line, Compression]
-description: Learn how to reduce PDF file size using Ghostscript with simple offline command-line examples on Linux.
+description: Compress PDF files offline on Linux with Ghostscript. Covers the basic command, quality presets, custom image resolution and batch compression.
 image: /assets/images/post-images/optimize-pdf.jpg
+last_modified_at: 2026-11-14
 ---
 
-**Large** PDF files are common. Scanned documents, images, and embedded fonts increase file size fast.
-This makes sharing, uploading, and emailing harder.
+**Large** PDF files are hard to email, upload or share, and scanned documents are often the worst offenders. On Linux, you can shrink them offline with Ghostscript, a free, open-source tool that is already installed on many systems. This guide shows the command to use, how to choose the right quality preset, and how to compress a whole folder of PDFs at once.
 
-Ghostscript offers a simple way to reduce PDF file size using the command line.
-It is free, open source, and widely available on Linux systems.
+![Reducing PDF file size using Ghostscript on the Linux command line](/assets/images/post-images/optimize-pdf.jpg)
 
-This guide explains how to compress PDFs using Ghostscript with clear examples.
+## Why PDF files get large
 
-![Reducing PDF file size using Ghostscript command line on Linux](/assets/images/post-images/optimize-pdf.jpg)
+Most of the size in a large PDF comes from images: scanned pages, photos and high-resolution graphics. Embedded fonts add a little more. Ghostscript reduces the size mainly by lowering the resolution of those images and recompressing them, and by removing duplicate resources. Because the PDF is processed on your own computer, nothing is uploaded, which makes it a good choice for private documents.
 
-## What Is Ghostscript?
+## Install Ghostscript
 
-Ghostscript is a command-line tool used to process PDF and PostScript files.
-It is often used in printing workflows and document automation.
+Check whether it is already installed:
 
-Ghostscript works on Linux, macOS, and Windows.
-It runs offline and does not upload files.
-
-## Installing Ghostscript
-
-Most Linux distributions include Ghostscript in their repositories.
-
-### Ubuntu and Debian
-
-```
-sudo apt install ghostscript
-```
-
-### Fedora
-
-```
-sudo dnf install ghostscript
-```
-
-### Arch Linux
-
-```
-sudo pacman -S ghostscript
-```
-
-After installation, check the version:
-
-```
+```sh
 gs --version
 ```
 
-## Basic PDF Compression Command
+If not, install it from your distribution's repositories:
 
-Use the following command to compress a PDF file:
-
-```
-gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 \
--dPDFSETTINGS=/screen \
--dNOPAUSE -dQUIET -dBATCH \
--sOutputFile=output.pdf input.pdf
+```sh
+sudo apt install ghostscript      # Debian, Ubuntu, Linux Mint
+sudo dnf install ghostscript      # Fedora
+sudo pacman -S ghostscript        # Arch Linux, Manjaro
 ```
 
-This command creates a new PDF with a smaller file size.
+## Compress a PDF
 
-
-## PDFSETTINGS Explained
-
-Ghostscript includes preset quality levels.
-
-| PDFSETTINGS | Quality Level | Best Use Case |
-|------------|---------------|---------------|
-| /screen   | Low           | Email, chat, and quick sharing |
-| /ebook    | Medium        | Reading on phones, tablets, and laptops |
-| /printer  | High          | Home and office printing |
-| /prepress | Very high     | Professional and commercial printing |
-| /default  | Balanced      | General purpose use |
-
-
-
-## Checking File Size
-
-Check the file size before and after compression:
-
-```
-ls -lh *.pdf
+```sh
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \
+   -dNOPAUSE -dQUIET -dBATCH \
+   -sOutputFile=output.pdf input.pdf
 ```
 
-Scanned PDFs usually shrink more than text-only files.
+What each part does:
 
+- `-sDEVICE=pdfwrite` writes a new PDF file.
+- `-dCompatibilityLevel=1.4` makes the output readable by practically every PDF viewer.
+- `-dPDFSETTINGS=/ebook` picks the quality preset (see the next section).
+- `-dNOPAUSE -dQUIET -dBATCH` runs the job without prompts or progress messages and exits when done.
+- `-sOutputFile=output.pdf` is the new, smaller file. Always use a different name from the input, because Ghostscript can't safely overwrite the file it is reading.
 
-## FAQ
+## Choose the right quality preset
 
-> * Does Ghostscript reduce image quality?  
-Yes. Lower presets reduce image resolution to save space.
+`-dPDFSETTINGS` controls how much the images are reduced. Start with `/ebook`, and switch to `/screen` only if the file is still too large.
 
-> * Is Ghostscript safe for private documents?  
-Yes. It works offline and never uploads files.
+| Preset | What happens to images | Best for |
+|--------|------------------------|----------|
+| `/screen` | Reduced to 72 dpi | Smallest files for email and chat; images look soft when zoomed or printed |
+| `/ebook` | Reduced to 150 dpi | Reading on screens; a good balance of size and quality |
+| `/printer` | Recompressed, resolution kept | Office and home printing |
+| `/prepress` | Recompressed, resolution and colour information kept | Professional printing; files stay larger |
+| `/default` | Recompressed, resolution kept | General use; usually the smallest saving |
 
-> * Can Ghostscript compress scanned PDFs?  
-Yes. Scanned PDFs often see the largest size reduction.
+Only `/screen` and `/ebook` lower the image resolution, so they give by far the biggest size reduction. `/screen` also skips embedding some fonts, so text may look slightly different on computers that lack those fonts.
 
-> * Does Ghostscript change text quality?  
-Text remains clear in most presets, especially ebook and printer modes.
+Text in a PDF is stored as text, not as an image, so it stays sharp with every preset. In scanned documents, though, each page is an image, so text becomes blurrier at lower settings.
 
+## Set a custom image resolution
 
-## Conclusion
+If `/screen` is too blurry and `/ebook` is too large, set the resolution yourself. This example reduces all images to 100 dpi:
 
-Ghostscript provides a reliable way to reduce PDF file size on Linux.
-It works offline, respects privacy, and fits well into command-line workflows.
+```sh
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \
+   -dDownsampleColorImages=true -dColorImageResolution=100 \
+   -dDownsampleGrayImages=true -dGrayImageResolution=100 \
+   -dDownsampleMonoImages=true -dMonoImageResolution=100 \
+   -dNOPAUSE -dQUIET -dBATCH \
+   -sOutputFile=output.pdf input.pdf
+```
+
+## Compress all PDFs in a folder
+
+This loop saves a compressed copy of every PDF in the current folder into a `compressed` folder, leaving the originals untouched:
+
+```sh
+mkdir -p compressed
+for f in *.pdf; do
+  gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \
+     -dNOPAUSE -dQUIET -dBATCH \
+     -sOutputFile="compressed/$f" "$f"
+done
+```
+
+## Compare the file sizes
+
+```sh
+ls -lh input.pdf output.pdf
+```
+
+Scanned and image-heavy PDFs usually shrink the most. A PDF that contains mostly text, or one that is already optimised, may hardly shrink at all and can even grow. In that case, keep the original.
+
+## Frequently asked questions
+
+**Does Ghostscript reduce image quality?**
+It can. `/screen` and `/ebook` lower the resolution of images, and every preset recompresses them. Open the result and check it before deleting the original.
+
+**Will links, bookmarks and form fields still work?**
+Links and bookmarks are usually kept. Interactive form fields and digital signatures may not survive, so test the output, and don't compress a signed document if the signature must stay valid.
+
+**Is there a graphical alternative?**
+Yes. Some PDF tools offer compression from a menu, but Ghostscript is faster for many files and gives you exact control. You can view the result in a PDF reader such as [Okular](/software/okular/).
+
+## Next steps
+
+Save the compression command as a shell alias or script so you can reuse it in one step. For more terminal skills, see [essential Linux commands every user should know](/1-essential-linux-commands/). The [Ghostscript documentation](https://ghostscript.readthedocs.io/) lists every `pdfwrite` option.
