@@ -3,66 +3,118 @@
 
 /* ==========================================================================
    Design tokens
+   Three layers:
+     1. Primitive scales (raw colours). Only referenced by layer 2.
+     2. Semantic tokens (what a value is for). Components use these.
+     3. Legacy aliases (older names kept so existing rules keep working).
    Change values here; components below only reference tokens.
    ========================================================================== */
 
-/* Brand */
-$color-primary: #046cdc;
-$color-primary-hover: #0b5fb0;
-$color-primary-soft: #4a86cf;        /* brand blue tuned for dark backgrounds */
-$color-primary-softer: #7db4ff;
-$color-accent: #f2b705;
-$color-bmc: #ffdd00;              /* Buy Me a Coffee brand yellow */
-$color-bmc-text: #0d0c22;
+/* ---- 1. Primitive scales ---- */
 
-/* Text */
-$color-text: #2b2b2b;
-$color-text-muted: #6c757d;
-$color-text-label: #495057;
-$color-text-on-dark: #dddddd;
-$color-text-card: #cecccc;
-$color-text-nav: rgba(255, 255, 255, 0.616);
-$color-link-on-dark: #8fbff0;
+/* Neutral: cool slate, shared with the insights site */
+$slate-50: #f8fafc;
+$slate-100: #f1f5f9;
+$slate-200: #e2e8f0;
+$slate-300: #cbd5e1;
+$slate-400: #94a3b8;
+$slate-500: #64748b;
+$slate-600: #475569;
+$slate-700: #334155;
+$slate-800: #1e293b;
+$slate-900: #0f172a;
+$slate-850: #172033;               /* subtle gradient partner for slate-900 */
+$slate-950: #0b1120;
+
+/* Brand blue */
+$blue-50: #eef5fd;
+$blue-300: #7db4ff;
+$blue-400: #4a86cf;
+$blue-600: #046cdc;
+$blue-700: #0b5fb0;
+
+/* Status */
+$green-50: #f0fdf4;
+$green-700: #15803d;
+$red-50: #fef2f2;
+$red-700: #b91c1c;
+
+/* Accents */
+$amber-500: #f2b705;
+$bmc-yellow: #ffdd00;              /* Buy Me a Coffee brand yellow */
+$bmc-ink: #0d0c22;
+
+/* ---- 2. Semantic tokens ---- */
+
+/* Brand */
+$color-primary: $blue-600;          /* links, primary buttons, active states (5.0:1 on white) */
+$color-primary-hover: $blue-700;
+$color-primary-tint: $blue-50;      /* soft backgrounds: quotes, hover fills */
+$color-primary-soft: $blue-400;     /* brand blue tuned for dark backgrounds */
+$color-primary-softer: $blue-300;
+$color-accent: $amber-500;
+$color-bmc: $bmc-yellow;
+$color-bmc-text: $bmc-ink;
+
+/* Text (contrast on white in brackets) */
+$color-heading: $slate-900;         /* titles (17.9:1) */
+$color-text: $slate-800;            /* body copy (14.6:1) */
+$color-text-secondary: $slate-600;  /* excerpts, labels (7.6:1) */
+$color-text-muted: #5f6f84;        /* dates, meta: slate-500 nudged darker to keep 4.5:1 on every surface (4.7-5.1:1) */
+$color-text-faint: $slate-400;      /* icons and disabled states only, never body text (2.6:1) */
+$color-text-on-dark: $slate-300;
+$color-text-nav: rgba(255, 255, 255, 0.7);
 
 /* Surfaces */
-$color-page: #f7f7f7;
-$color-surface: white;
-$color-surface-subtle: #f7f9fb;
-$color-surface-muted: #f8f9fa;
-$color-surface-table-head: #f1f3f5;
-$color-surface-quote: #f3f7fd;
-$color-dark-900: #14161a;
-$color-dark-800: #1c1f24;
-$color-card-dark: #2c2c2c;
-$color-card-dark-end: #25272b;
+$color-page: #f3f5f8;               /* page canvas behind content */
+$color-surface: #ffffff;            /* cards, sheets */
+$color-surface-sunk: $slate-50;     /* panels inside a surface: glance card, related, filters */
+$color-surface-strong: $slate-100;  /* table headers, label cells */
+$color-dark: $slate-900;            /* navbar, hero, footer */
+$color-dark-deep: $slate-950;
 $color-code-bg: #282c34;
 $color-code-fg: #abb2bf;
 $color-code-line: #3e4451;
 
-/* Borders */
-$color-border: #e6e8eb;
-$color-border-on-dark: rgba(255, 255, 255, 0.25);
+/* Lines: translucent so they read the same on white, sunk and tinted surfaces */
+$color-line: rgba(15, 23, 42, 0.08);
+$color-line-strong: rgba(15, 23, 42, 0.14);
+$color-line-on-dark: rgba(255, 255, 255, 0.12);
+$color-border-on-dark: rgba(255, 255, 255, 0.25);  /* outlined controls on dark */
 
 /* Status */
-$color-success: #1f7a37;
-$color-success-bg: #eef9f0;
-$color-danger: #b42318;
-$color-danger-bg: #fff1f1;
+$color-success: $green-700;
+$color-success-bg: $green-50;
+$color-danger: $red-700;
+$color-danger-bg: $red-50;
 
-/* Radius */
-$radius-xs: 4px;
-$radius-sm: 6px;
-$radius-md: 0.75rem;
-$radius-lg: 1.25rem;
+/* Radius: sm for small inline items, md for controls, lg for cards and panels, pill for tags */
+$radius-sm: 8px;
+$radius-md: 12px;
+$radius-lg: 16px;
 $radius-pill: 999px;
 
-/* Shadows */
-$shadow-ring: 0 0 0 1px rgba(16, 24, 40, 0.06);
-$shadow-card: $shadow-ring, 0 1px 2px rgba(16, 24, 40, 0.06), 0 4px 12px rgba(16, 24, 40, 0.08);
-$shadow-card-hover: $shadow-ring, 0 2px 4px rgba(16, 24, 40, 0.06), 0 12px 32px rgba(16, 24, 40, 0.14);
-$shadow-button: 0 1px 2px rgba($color-primary, 0.2), 0 4px 12px rgba($color-primary, 0.25);
-$shadow-focus-ring: 0 0 0 4px rgba($color-primary-soft, 0.25);
-$shadow-navbar: 0 1px 2px rgba(0, 0, 0, 0.3);
+/* Elevation: one slate tint; the 1px ring doubles as the card edge, so cards need no border */
+$shadow-ring: 0 0 0 1px $color-line;
+$shadow-sm: $shadow-ring, 0 1px 2px rgba(15, 23, 42, 0.04), 0 4px 12px rgba(15, 23, 42, 0.05);
+$shadow-md: 0 0 0 1px $color-line-strong, 0 2px 4px rgba(15, 23, 42, 0.04), 0 14px 32px -8px rgba(15, 23, 42, 0.14);
+$shadow-lg: $shadow-ring, 0 12px 40px -8px rgba(15, 23, 42, 0.22);
+$shadow-focus-ring: 0 0 0 3px rgba($color-primary, 0.35);
+$shadow-button: 0 1px 2px rgba($color-primary, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+$shadow-navbar: 0 1px 0 $color-line-on-dark, 0 6px 20px rgba(2, 6, 23, 0.28);
+
+/* ---- 3. Legacy aliases (prefer the semantic names above in new code) ---- */
+$color-text-label: $color-text-secondary;
+$color-surface-subtle: $color-surface-sunk;
+$color-surface-muted: $color-surface-sunk;
+$color-surface-table-head: $color-surface-strong;
+$color-surface-quote: $color-primary-tint;
+$color-dark-900: $color-dark;
+$color-dark-800: $slate-850;
+$color-border: $color-line;
+$radius-xs: $radius-sm;
+$shadow-card: $shadow-sm;
+$shadow-card-hover: $shadow-md;
 
 /* Typography
    Inter (self-hosted, variable, Latin subset) with a metric-matched fallback,
@@ -88,31 +140,76 @@ $breakpoint-md: 768px;
 $css-tokens: (
   "color-primary": $color-primary,
   "color-primary-hover": $color-primary-hover,
+  "color-primary-tint": $color-primary-tint,
   "color-primary-soft": $color-primary-soft,
   "color-accent": $color-accent,
+  "color-heading": $color-heading,
   "color-text": $color-text,
+  "color-text-secondary": $color-text-secondary,
   "color-text-muted": $color-text-muted,
+  "color-text-faint": $color-text-faint,
   "color-page": $color-page,
   "color-surface": $color-surface,
-  "color-surface-subtle": $color-surface-subtle,
-  "color-border": $color-border,
+  "color-surface-sunk": $color-surface-sunk,
+  "color-surface-strong": $color-surface-strong,
+  "color-surface-subtle": $color-surface-sunk,
+  "color-dark": $color-dark,
+  "color-line": $color-line,
+  "color-line-strong": $color-line-strong,
+  "color-border": $color-line,
+  "color-success": $color-success,
+  "color-success-bg": $color-success-bg,
+  "color-danger": $color-danger,
+  "color-danger-bg": $color-danger-bg,
   "color-code-bg": $color-code-bg,
   "color-code-fg": $color-code-fg,
   "radius-sm": $radius-sm,
   "radius-md": $radius-md,
   "radius-lg": $radius-lg,
   "radius-pill": $radius-pill,
-  "shadow-card": $shadow-card,
-  "shadow-card-hover": $shadow-card-hover,
+  "shadow-sm": $shadow-sm,
+  "shadow-md": $shadow-md,
+  "shadow-lg": $shadow-lg,
+  "shadow-focus": $shadow-focus-ring,
+  "shadow-card": $shadow-sm,
+  "shadow-card-hover": $shadow-md,
   "font-system": $font-system,
 );
+
+@function rgb-triplet($color) {
+  @return red($color), green($color), blue($color);
+}
 
 :root {
   @each $name, $value in $css-tokens {
     --osf-#{$name}: #{$value};
   }
 
-  --bs-body-font-family: #{$font-sans}; /* Bootstrap reads this for body text */
+  /* Feed the same tokens to Bootstrap so its components (headings, borders,
+     dropdowns, form controls, .bg-dark navbar) match without per-component overrides */
+  --bs-body-font-family: #{$font-sans};
+  --bs-body-color: #{$color-text};
+  --bs-body-color-rgb: #{rgb-triplet($color-text)};
+  --bs-heading-color: #{$color-heading};
+  --bs-secondary-color: #{$color-text-muted};
+  --bs-link-color: #{$color-primary};
+  --bs-link-color-rgb: #{rgb-triplet($color-primary)};
+  --bs-link-hover-color: #{$color-primary-hover};
+  --bs-link-hover-color-rgb: #{rgb-triplet($color-primary-hover)};
+  --bs-primary-rgb: #{rgb-triplet($color-primary)};
+  --bs-dark-rgb: #{rgb-triplet($color-dark)};
+  --bs-border-color: #{$color-line-strong};
+  --bs-border-color-translucent: #{$color-line};
+  --bs-border-radius: #{$radius-md};
+  --bs-border-radius-sm: #{$radius-sm};
+  --bs-border-radius-lg: #{$radius-lg};
+  --bs-border-radius-pill: #{$radius-pill};
+  --bs-box-shadow: #{$shadow-md};
+  --bs-box-shadow-sm: #{$shadow-sm};
+  --bs-box-shadow-lg: #{$shadow-lg};
+  --bs-focus-ring-color: #{rgba($color-primary, 0.35)};
+  --bs-tertiary-bg: #{$color-surface-sunk};
+  --bs-secondary-bg: #{$color-surface-strong};
 }
 
 /* ==========================================================================
@@ -587,17 +684,11 @@ main {
 
 /* ==========================================================================
    Story cards (home, blog, beyond-opensource) - _includes/story-card.html
-   Adopted from the insights site (ring shadow, 16px radius, uppercase meta,
+   Adopted from the insights site (ring shadow, lg radius, uppercase meta,
    clamped title/excerpt with reserved height so cards in a row line up).
    Selectors are scoped to .stories so the .post link styles on listing
    pages (blog layout wraps content in .post) do not leak into cards.
    ========================================================================== */
-
-$story-line: rgba(15, 23, 42, 0.08);
-$story-line-strong: rgba(15, 23, 42, 0.14);
-$story-radius: 16px;
-$story-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 4px 12px rgba(15, 23, 42, 0.05), 0 0 0 1px $story-line;
-$story-shadow-hover: 0 2px 4px rgba(15, 23, 42, 0.04), 0 14px 32px -8px rgba(15, 23, 42, 0.14), 0 0 0 1px $story-line-strong;
 
 .stories a.story-card {
   display: flex;
@@ -605,15 +696,15 @@ $story-shadow-hover: 0 2px 4px rgba(15, 23, 42, 0.04), 0 14px 32px -8px rgba(15,
   height: 100%;
   overflow: hidden;
   background: $color-surface;
-  border-radius: $story-radius;
-  box-shadow: $story-shadow;
+  border-radius: $radius-lg;
+  box-shadow: $shadow-sm;
   color: $color-text;
   text-decoration: none;
   transition: transform $duration-fast ease, box-shadow $duration-fast ease;
 
   &:hover {
     transform: translateY(-2px);
-    box-shadow: $story-shadow-hover;
+    box-shadow: $shadow-md;
     color: $color-text;
     text-decoration: none;
 
@@ -625,7 +716,7 @@ $story-shadow-hover: 0 2px 4px rgba(15, 23, 42, 0.04), 0 14px 32px -8px rgba(15,
   &:focus-visible {
     outline: 3px solid rgba($color-primary, 0.28);
     outline-offset: -3px;
-    border-radius: $story-radius;
+    border-radius: $radius-lg;
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -648,7 +739,7 @@ $story-shadow-hover: 0 2px 4px rgba(15, 23, 42, 0.04), 0 14px 32px -8px rgba(15,
   aspect-ratio: 16 / 9; /* fixed box: no layout shift while loading, equal card heights */
   overflow: hidden;
   background: $color-surface-subtle;
-  border-bottom: 1px solid $story-line;
+  border-bottom: 1px solid $color-line;
 
   img {
     display: block;
