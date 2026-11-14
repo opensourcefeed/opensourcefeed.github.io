@@ -8,7 +8,7 @@ operating systems."
   <h1>Open Source Stories</h1>
   <div class="row g-4 stories">
     {% for post in paginator.posts %}
-    <div class="col-sm-6 col-lg-4">
+    <div class="col-md-6 col-xl-4">
       {% if forloop.index <= 3 %}{% assign card_eager = true %}{% else %}{% assign card_eager = false %}{% endif %}
       {% include story-card.html post=post heading="h2" eager=card_eager %}
     </div>

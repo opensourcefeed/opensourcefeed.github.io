@@ -1,24 +1,39 @@
 {% comment %}
-  Story card for post listings (home, blog, beyond-opensource).
+  Story card for post listings (home, blog, beyond-opensource). Style follows the insights site.
   Usage: {% include story-card.html post=post heading="h3" eager=false %}
     heading: tag for the title, so it fits the page outline (default h3)
     eager:   true for cards in the first row, so above-the-fold images are not lazy loaded
-  Images are resized through images.weserv.nl to 400px wide; posts without an image get the placeholder.
+  Images are resized through images.weserv.nl to 720px wide, falling back to the original file if the
+  proxy fails; posts without an image get a gradient block.
+  Excerpt: the post excerpt (first paragraph), falling back to the first non-empty paragraph.
 {% endcomment %}
 {% assign card_post = include.post %}
 {% assign card_heading = include.heading | default: "h3" %}
 {% assign card_title = card_post.title | strip_html %}
+{% assign card_read_time = card_post.content | strip_html | number_of_words | divided_by: 180 %}
+{% if card_read_time < 1 %}{% assign card_read_time = 1 %}{% endif %}
+{% assign card_excerpt = card_post.excerpt | strip_html | replace: "&nbsp;", " " | strip %}
+{% if card_excerpt == "" %}
+  {% assign card_blocks = card_post.content | split: "</p>" %}
+  {% for card_block in card_blocks limit: 5 %}
+    {% assign card_candidate = card_block | strip_html | replace: "&nbsp;", " " | strip %}
+    {% if card_candidate != "" %}{% assign card_excerpt = card_candidate %}{% break %}{% endif %}
+  {% endfor %}
+{% endif %}
 <a class="story-card" href="{{ card_post.url }}">
     <div class="story-card-media">
         {% if card_post.image %}
-        <img src="//images.weserv.nl/?url={{ site.url | replace: 'https://','' }}{{ card_post.image }}&w=400&output=jpg" alt="" width="400" height="225" {% unless include.eager %}loading="lazy"{% endunless %} decoding="async">
+        <img src="//images.weserv.nl/?url={{ site.url | replace: 'https://','' }}{{ card_post.image }}&w=720&output=jpg" onerror="this.onerror=null;this.src='{{ card_post.image }}'" alt="" width="720" height="405" {% unless include.eager %}loading="lazy"{% endunless %} decoding="async">
         {% else %}
-        <img src="/assets/images/meta/placeholder.png" alt="" width="420" height="300" {% unless include.eager %}loading="lazy"{% endunless %} decoding="async">
+        <div class="story-card-placeholder" aria-hidden="true"></div>
         {% endif %}
     </div>
     <div class="story-card-body">
-        <time class="story-card-date" datetime="{{ card_post.date | date_to_xmlschema }}">{{ card_post.date | date: "%b %-d, %Y" }}</time>
+        <div class="story-card-meta">
+            <time datetime="{{ card_post.date | date_to_xmlschema }}">{{ card_post.date | date: "%b %-d, %Y" }}</time>
+            <span>{{ card_read_time }} min read</span>
+        </div>
         <{{ card_heading }} class="story-card-title">{{ card_title }}</{{ card_heading }}>
-        <p class="story-card-excerpt">{{ card_post.content | strip_html | truncatewords: 30, '…' }}</p>
+        <p class="story-card-excerpt">{{ card_excerpt | truncatewords: 28, '…' }}</p>
     </div>
 </a>

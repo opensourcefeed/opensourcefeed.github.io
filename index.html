@@ -68,7 +68,7 @@ title: Free Operating Systems and Desktop Environments
         {% assign posts = site.posts | slice: 0, 30 %}
         {% assign filtered_posts = posts | where_exp: "post", "post.hidden != true" %}
         {% for post in filtered_posts limit:9 %}
-        <div class="col-sm-6 col-lg-4">
+        <div class="col-md-6 col-xl-4">
             {% include story-card.html post=post heading="h3" %}
         </div>
         {% endfor %}

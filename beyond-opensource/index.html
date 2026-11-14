@@ -10,7 +10,7 @@ description: "Explore insightful guest posts on Beyond Open Source — covering 
     {% for post in site.posts %}
     {% if post.disclaimer or post.hidden %}
     {% assign card_count = card_count | plus: 1 %}
-    <div class="col-sm-6 col-lg-4">
+    <div class="col-md-6 col-xl-4">
       {% if card_count <= 3 %}{% assign card_eager = true %}{% else %}{% assign card_eager = false %}{% endif %}
       {% include story-card.html post=post heading="h2" eager=card_eager %}
     </div>
