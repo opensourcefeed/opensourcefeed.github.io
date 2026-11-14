@@ -20,9 +20,10 @@ description: "Explore insightful guest posts on Beyond Open Source — covering 
 </div>
 
 <style>
-  main {
+  /* Listing pages: cards sit directly on the page canvas, no content sheet */
+  main.site-sheet {
     background-color: var(--osf-color-page);
     box-shadow: none;
-    border: none;
+    padding-inline: calc(var(--bs-gutter-x) * 0.5);
   }
 </style>

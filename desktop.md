@@ -89,8 +89,8 @@ seo:
     margin-top:28px;
     margin-bottom:20px;
     font-weight:600;
-    border-left:3px solid var(--osf-color-primary);
-    padding-left:10px;
+    color:var(--osf-color-heading);
+    letter-spacing:-0.01em;
 }
 
 .section-block{
@@ -120,8 +120,6 @@ seo:
 Explore major free and open source desktop environments and window managers for Linux and Unix-like systems.
 Browse detailed pages, screenshots, and technical information to choose the best desktop for your workflow.
 </p>
-
-<hr>
 
 <section class="section-block">
 <h2 class="section-title">Desktop Environments</h2>

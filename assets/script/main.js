@@ -1,5 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+    // Let wide tables scroll inside the content column instead of widening the page
+    document.querySelectorAll('main table').forEach(function (table) {
+        if (table.parentElement.classList.contains('table-scroll') || table.closest('.table-responsive')) return;
+        const wrap = document.createElement('div');
+        wrap.className = 'table-scroll';
+        table.parentNode.insertBefore(wrap, table);
+        wrap.appendChild(table);
+    });
+
     const searchField = document.getElementById('search-field');
 
     if (searchField) {

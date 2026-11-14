@@ -216,6 +216,7 @@ $css-tokens: (
   --bs-focus-ring-color: #{rgba($color-primary, 0.35)};
   --bs-tertiary-bg: #{$color-surface-sunk};
   --bs-secondary-bg: #{$color-surface-strong};
+  --bs-code-color: #{$color-text};
 }
 
 /* ==========================================================================
@@ -317,7 +318,7 @@ button:focus-visible {
 }
 
 blockquote {
-  border-left: 5px solid $color-primary;
+  border-left: 3px solid $color-primary;
   padding: 1rem;
   background: $color-surface-quote;
   border-radius: 0 $radius-md $radius-md 0;
@@ -335,6 +336,80 @@ table {
 
   td+td {
     word-break: break-word;
+  }
+}
+
+/* Inline code: body colour on a quiet chip (Rouge code blocks keep their own theme) */
+:not(pre) > code {
+  padding: 0.12em 0.4em;
+  border-radius: $radius-sm;
+  background: $color-surface-strong;
+  color: $color-heading;
+  font-size: 0.875em;
+  overflow-wrap: break-word;
+}
+
+/* Bootstrap form controls and primary button on the shared tokens */
+.form-control,
+.form-select {
+  border-color: $color-line-strong;
+  color: $color-text;
+
+  &:focus {
+    border-color: $color-primary;
+    box-shadow: $shadow-focus-ring;
+  }
+
+  &::placeholder {
+    color: $color-text-muted;
+  }
+}
+
+.btn {
+  --bs-btn-border-radius: #{$radius-md};
+  --bs-btn-font-weight: 600;
+  --bs-btn-focus-box-shadow: #{$shadow-focus-ring};
+}
+
+.btn-primary {
+  --bs-btn-bg: #{$color-primary};
+  --bs-btn-border-color: #{$color-primary};
+  --bs-btn-hover-bg: #{$color-primary-hover};
+  --bs-btn-hover-border-color: #{$color-primary-hover};
+  --bs-btn-active-bg: #{$color-primary-hover};
+  --bs-btn-active-border-color: #{$color-primary-hover};
+  box-shadow: $shadow-button;
+}
+
+/* Navbar dropdowns: floating panel with the large shadow */
+.dropdown-menu {
+  --bs-dropdown-border-color: #{$color-line};
+  --bs-dropdown-border-radius: #{$radius-md};
+  --bs-dropdown-box-shadow: #{$shadow-lg};
+  --bs-dropdown-link-color: #{$color-text};
+  --bs-dropdown-link-hover-color: #{$color-primary};
+  --bs-dropdown-link-hover-bg: #{$color-primary-tint};
+  --bs-dropdown-link-active-color: #{$color-primary};
+  --bs-dropdown-link-active-bg: #{$color-primary-tint};
+  --bs-dropdown-padding-x: 0.35rem;
+  --bs-dropdown-padding-y: 0.35rem;
+  --bs-dropdown-item-padding-x: 0.75rem;
+  --bs-dropdown-item-padding-y: 0.45rem;
+  --bs-dropdown-item-border-radius: #{$radius-sm};
+  box-shadow: var(--bs-dropdown-box-shadow);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Wrapper added by main.js so wide tables scroll inside the column, not the page */
+.table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  -webkit-overflow-scrolling: touch;
+
+  > table {
+    margin-bottom: 0;
   }
 }
 
@@ -460,7 +535,6 @@ main {
 
   h3 {
     font-size: 1.17em;
-    opacity: 0.8;
   }
 
   h4 {
@@ -484,25 +558,55 @@ main {
     }
   }
 
-  article {
-    table {
-      border-collapse: collapse;
-      width: 100%;
+  /* Tables: one rounded outer border and row dividers only (also restyles Bootstrap .table / .table-bordered) */
+  article table,
+  .table {
+    --bs-table-bg: transparent;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid $color-line-strong;
+    border-radius: $radius-md;
 
-      td,
-      th {
-        border: 1px solid $color-border;
-        padding: 8px;
-      }
-
-      th {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        text-align: left;
-        background-color: $color-surface-table-head;
-        color: $color-text;
-      }
+    td,
+    th {
+      padding: 0.65rem 0.85rem;
+      border: 0;
+      border-top: 1px solid $color-line;
+      vertical-align: top;
     }
+
+    th {
+      background-color: $color-surface-strong;
+      color: $color-heading;
+      font-size: 0.9em;
+      font-weight: 600;
+      text-align: left;
+    }
+
+    > :first-child > tr:first-child > * {
+      border-top: 0;
+    }
+
+    /* Round the corner cells so their backgrounds follow the outer radius */
+    > :first-child > tr:first-child > :first-child { border-top-left-radius: calc(#{$radius-md} - 1px); }
+    > :first-child > tr:first-child > :last-child { border-top-right-radius: calc(#{$radius-md} - 1px); }
+    > :last-child > tr:last-child > :first-child { border-bottom-left-radius: calc(#{$radius-md} - 1px); }
+    > :last-child > tr:last-child > :last-child { border-bottom-right-radius: calc(#{$radius-md} - 1px); }
+  }
+}
+
+/* Content sheet: from tablet width up, the main column floats as a white sheet on the page canvas */
+.site-sheet {
+  background: $color-surface;
+
+  @media (min-width: $breakpoint-md) {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    padding: 1.25rem 2rem 2rem;
+    border-radius: $radius-lg;
+    box-shadow: $shadow-sm;
   }
 }
 
@@ -599,9 +703,10 @@ main {
     display: none;
     overflow-y: auto;
     max-height: 200px;
-    border: 1px solid $color-border;
-    border-radius: 0 0 $radius-md $radius-md;
-    box-shadow: $shadow-card;
+    border: 0;
+    border-radius: $radius-md;
+    margin-top: 0.35rem;
+    box-shadow: $shadow-lg;
 
     ul {
       padding-left: 0;
@@ -1016,8 +1121,6 @@ main {
   }
 
   h2 {
-    border-bottom: 1px solid $color-border;
-    padding-bottom: 0.3em;
     font-size: 1.5em;
   }
 
@@ -1036,9 +1139,10 @@ main {
   h6 {
     font-weight: 700;
     line-height: 1.25;
-    margin-bottom: 16px;
-    margin-top: 24px;
-    letter-spacing: -0.01em;
+    margin-bottom: 0.75rem;
+    margin-top: 2rem;
+    color: $color-heading;
+    letter-spacing: -0.015em;
   }
 }
 
@@ -1083,7 +1187,12 @@ main {
     letter-spacing: -0.02em;
     line-height: 1.2;
     padding-top: 40px;
+    margin-bottom: 1.5rem;
     text-align: center;
+  }
+
+  .post-meta {
+    row-gap: 0.5rem;
   }
 }
 
@@ -1482,7 +1591,6 @@ a.download,
 }
 
 .distribution h2 {
-  border-bottom: 1px solid $color-border;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }

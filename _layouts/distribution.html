@@ -15,7 +15,6 @@
             <div class="post-header">
 
                 <h1 class="post-title">{{ page.title }}</h1>
-                <hr>
             </div>
             <article class="post-content">
                 {% comment %}Intrinsic sizes come from _data/image_dimensions.json (scripts/generate_image_dimensions.rb). SVGs are skipped so their rendering is unchanged.{% endcomment %}
@@ -157,7 +156,6 @@
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
             {% if page.review or page.reviews %}
-            <hr>
             <div class="story-listing">
                 <h2>Reviews of {{page.title}}</h2>
                 <ul>
@@ -167,7 +165,6 @@
                 </ul>
             </div>
             {% endif %} {% if site.categories[page.uid] or page.stories%}
-            <hr>
             <div class="story-listing">
                 <h2>Other stories on {{page.title}}</h2>
                 <ul>
@@ -179,7 +176,6 @@
                 </ul>
             </div>
             {% endif %}
-            <hr/>
             {% if page.faq %}
             <div class="story-listing">
                 <h2>Frequently asked questions on {{page.title}}</h2>
@@ -203,7 +199,6 @@
                 </ul>
             </div>
             {% endif %}
-            <hr />
             {% if page.last_modified_at %}
             <p class="last-updated">Last updated: {{ page.last_modified_at | date: "%B %d, %Y" }}</p>
             {% endif %}

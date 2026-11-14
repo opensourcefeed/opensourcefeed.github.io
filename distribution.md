@@ -34,8 +34,8 @@ seo:
 .distribution-section-header h2{
     margin:0;
     font-weight:600;
-    border-left:3px solid var(--osf-color-primary);
-    padding-left:10px;
+    color:var(--osf-color-heading);
+    letter-spacing:-0.01em;
 }
 
 .distribution-count{
@@ -120,8 +120,8 @@ seo:
 .distribution-comments h2{
     margin:0 0 0.5rem 0;
     font-weight:600;
-    border-left:3px solid var(--osf-color-primary);
-    padding-left:10px;
+    color:var(--osf-color-heading);
+    letter-spacing:-0.01em;
 }
 
 .distribution-comments .btn{
@@ -337,7 +337,6 @@ seo:
 @media (max-width:767.98px){
     .distribution h1{ font-size:1.5rem; }
     .distribution-intro{ font-size:0.92rem; margin-bottom:0.75rem; }
-    .distribution > hr{ display:none; }
     .distribution-search{ margin-bottom:0.6rem; }
     .distribution-controls{ margin-bottom:1.25rem; padding:0; border:0; background:none; }
     .distribution-toolbar{ justify-content:space-between; margin-bottom:0; }
@@ -402,8 +401,6 @@ seo:
         Explore free and open source operating systems across GNU/Linux, BSD, and other independent projects.
         <span class="d-none d-md-inline">Browse the collection to compare distributions, discover alternatives, and jump into detailed pages.</span>
     </p>
-
-    <hr>
 
     <div class="distribution-search">
         <label for="distribution-search-input" class="visually-hidden">Search distributions</label>
