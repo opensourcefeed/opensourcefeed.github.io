@@ -5,6 +5,8 @@ categories: [linux, tutorial]
 tags: [PDF, Ghostscript, Linux, Command Line, Compression]
 description: Compress PDF files offline on Linux with Ghostscript. Covers the basic command, quality presets, custom image resolution and batch compression.
 image: /assets/images/post-images/optimize-pdf.jpg
+redirect_from:
+    - /reduce-pdf-file-size-using-ghostscript-seo-optimized/
 last_modified_at: 2026-11-14
 ---
 

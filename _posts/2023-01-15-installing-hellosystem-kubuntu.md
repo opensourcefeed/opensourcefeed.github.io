@@ -3,7 +3,7 @@ title: How to install helloSystem on Kubuntu or Ubuntu
 image: /assets/images/post-images/hello/building-on-linux.png
 description: A tutorial explaining how to install helloSystem - a mac inspired desktop environment for BSD in a famous GNU/Linux distribution like Ubuntu or Kubuntu.
 layout: post
-categories: helloSystem tutorial
+categories: hello tutorial
 tags: 
   - Installing helloSystem on Linux
   - Mac inspired desktop environment for linux

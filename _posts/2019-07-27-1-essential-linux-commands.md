@@ -204,4 +204,4 @@ If you'd prefer a more modern terminal app to run these commands in, [Tabby](/so
 
 ## Next steps
 
-Practise these commands on a test directory until they feel natural, and use `man <command>` whenever you need an option that isn't listed here. To work with media and documents from the terminal, see our guides to [FFmpeg commands](/ffmpeg-commands/), [converting images with ImageMagick](/00-convert-png-to-jpg-imagemagick/) and [reducing PDF file size with Ghostscript](/reduce-pdf-file-size-using-ghostscript-seo-optimized/).
+Practise these commands on a test directory until they feel natural, and use `man <command>` whenever you need an option that isn't listed here. To work with media and documents from the terminal, see our guides to [FFmpeg commands](/ffmpeg-commands/), [converting images with ImageMagick](/00-convert-png-to-jpg-imagemagick/) and [reducing PDF file size with Ghostscript](/reduce-pdf-file-size-using-ghostscript/).
