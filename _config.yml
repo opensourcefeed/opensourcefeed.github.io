@@ -7,6 +7,7 @@ baseurl: ''
 url: 'https://www.opensourcefeed.org'
 caption: Free Operating Systems & Desktop Environments
 twitter_username: opensourcefeed
+logo: /assets/images/brand/icon-512.png
 github_username: opensourcefeed
 markdown: kramdown
 sass:
@@ -43,4 +44,4 @@ defaults:
     scope:
       path: ""
     values:
-      image: /assets/images/meta/logo-collage.jpg
+      image: /assets/images/brand/og-image.jpg

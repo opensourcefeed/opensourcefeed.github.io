@@ -21,7 +21,7 @@ last_modified_at: 2026-07-27
       "publisher": {
         "@type": "Organization",
         "name": "OpenSourceFeed",
-        "logo": { "@type": "ImageObject", "url": "https://www.opensourcefeed.org/assets/images/logo.png" }
+        "logo": { "@type": "ImageObject", "url": "https://www.opensourcefeed.org/assets/images/brand/icon-512.png" }
       },
       "mainEntityOfPage": { "@type": "WebPage", "@id": "https://www.opensourcefeed.org/important-dates/" }
     },

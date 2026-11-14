@@ -39,6 +39,10 @@ $green-700: #15803d;
 $red-50: #fef2f2;
 $red-700: #b91c1c;
 
+/* Brand kit (osf-brand-kit-v2): mark and wordmark gradient stops */
+$brand-cyan: #22d3ee;
+$brand-periwinkle: #8b9bff;
+
 /* Accents */
 $amber-50: #fffbeb;
 $amber-500: #f2b705;
@@ -411,9 +415,29 @@ figcaption {
   }
 }
 
+/* Wordmark as in the brand kit: bold, tight, "Feed" in the cyan-to-periwinkle gradient */
+.wordmark {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: white;
+}
+
+.wordmark-accent {
+  color: $brand-cyan; /* fallback where background-clip: text is unsupported */
+
+  @supports ((-webkit-background-clip: text) or (background-clip: text)) {
+    background: linear-gradient(90deg, $brand-cyan, $brand-periwinkle);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
 .navbar-brand img {
-  width: 24px;
-  margin-right: 0.5rem;
+  width: auto;
+  height: 1.6rem;
+  margin-right: 0.55rem;
+  vertical-align: -0.35rem;
 }
 
 @media (min-width: 1200px) and (max-width: 1299.98px) {
