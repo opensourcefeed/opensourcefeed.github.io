@@ -47,8 +47,6 @@ $brand-violet: #a78bfa;
 /* Accents */
 $amber-50: #fffbeb;
 $amber-500: #f2b705;
-$bmc-yellow: #ffdd00;              /* Buy Me a Coffee brand yellow */
-$bmc-ink: #0d0c22;
 
 /* ---- 2. Semantic tokens ---- */
 
@@ -59,8 +57,6 @@ $color-primary-tint: $blue-50;      /* soft backgrounds: quotes, hover fills */
 $color-primary-soft: $blue-400;     /* brand blue tuned for dark backgrounds */
 $color-primary-softer: $blue-300;
 $color-accent: $amber-500;
-$color-bmc: $bmc-yellow;
-$color-bmc-text: $bmc-ink;
 
 /* Text (contrast on white in brackets) */
 $color-heading: $slate-900;         /* titles (17.9:1) */
@@ -864,19 +860,6 @@ main {
       &:focus-visible {
         color: white;
         text-decoration-color: currentColor;
-      }
-    }
-
-    .hero-support {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
-      color: $color-accent;
-      text-decoration-color: rgba($color-accent, 0.35);
-
-      &:hover,
-      &:focus-visible {
-        color: $bmc-yellow;
       }
     }
   }
