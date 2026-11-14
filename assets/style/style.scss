@@ -42,6 +42,7 @@ $red-700: #b91c1c;
 /* Brand kit (osf-brand-kit-v2): mark and wordmark gradient stops */
 $brand-cyan: #22d3ee;
 $brand-periwinkle: #8b9bff;
+$brand-violet: #a78bfa;
 
 /* Accents */
 $amber-50: #fffbeb;
@@ -544,179 +545,338 @@ main {
    ========================================================================== */
 
 #master-section {
+  position: relative;
+  z-index: 2; /* keep the search results above the stories below */
+  isolation: isolate;
+  padding: 2.25rem 0 2rem;
   text-align: center;
-  min-height: 50vh;
+  color: $color-text-on-dark;
   background:
-    radial-gradient(ellipse at top, rgba($color-primary, 0.18), transparent 60%),
+    radial-gradient(60% 55% at 50% 0%, rgba($brand-cyan, 0.14), transparent 70%),
+    radial-gradient(35% 45% at 88% 35%, rgba($brand-violet, 0.12), transparent 70%),
+    radial-gradient(35% 45% at 12% 70%, rgba($color-primary, 0.14), transparent 70%),
     linear-gradient(180deg, $color-dark-900 0%, $color-dark-800 100%);
-  padding: 3rem 0;
+
+  /* Dot grid, faded towards the edges */
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.09) 1px, transparent 1px);
+    background-size: 22px 22px;
+    -webkit-mask-image: radial-gradient(ellipse 70% 65% at 50% 40%, #000 20%, transparent 75%);
+    mask-image: radial-gradient(ellipse 70% 65% at 50% 40%, #000 20%, transparent 75%);
+  }
+
+  /* Hairline in the brand gradient along the bottom edge */
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba($brand-cyan, 0.5), rgba($brand-violet, 0.5), transparent);
+  }
+
+  @media (min-width: $breakpoint-md) {
+    padding: 3.25rem 0 2.75rem;
+  }
+
+  .hero-inner {
+    max-width: 760px;
+    margin-inline: auto;
+  }
+
+  /* Statement pill: always first, styled as a deliberate statement */
+  .hero-statement {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    max-width: 100%;
+    margin: 0 0 1.5rem;
+    padding: 0.4rem 0.95rem;
+    border: 1px solid rgba($color-accent, 0.3);
+    border-radius: 1.25rem;
+    background: rgba($color-accent, 0.08);
+    color: $color-accent;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.45;
+    text-align: left;
+    text-wrap: balance;
+  }
+
+  .hero-flag {
+    flex: none;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25);
+  }
 
   h1 {
-    color: $color-primary-soft; /* fallback where background-clip: text is unsupported */
-    font-weight: 600;
-    letter-spacing: -0.02em;
+    margin: 0 0 0.85rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+
+    @media (min-width: $breakpoint-md) {
+      font-size: 2.75rem;
+    }
+
+    @media (min-width: 1200px) {
+      font-size: 3rem;
+    }
+  }
+
+  .hero-accent {
+    color: $brand-cyan; /* fallback where background-clip: text is unsupported */
 
     @supports ((-webkit-background-clip: text) or (background-clip: text)) {
-      background: linear-gradient(90deg, $color-primary-softer, $color-primary-soft);
+      background: linear-gradient(90deg, $brand-cyan, $brand-periwinkle 60%, $brand-violet);
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
     }
   }
 
-  /* Fixed max width instead of half the viewport, so the three lead buttons
-     keep their labels on one line on 13-15" laptops (1280-1440px). */
-  .hero-inner {
-    max-width: 880px;
-    margin-inline: auto;
-  }
-
   .description {
+    max-width: 34rem;
+    margin: 0 auto;
     color: $color-text-on-dark;
-    font-size: 1.1rem;
-  }
+    font-size: 1.05rem;
+    line-height: 1.6;
 
-  .policy {
-    color: $color-accent;
-    opacity: 0.9;
-    font-size: 1rem;
-  }
+    @media (min-width: $breakpoint-md) {
+      font-size: 1.15rem;
+    }
 
-  #search-btn {
-    display: flex;
-    align-items: center;
-    height: 3rem;
-    box-sizing: border-box;
-    padding: 0.75rem 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-right: none;
-    border-radius: $radius-md 0 0 $radius-md;
-
-    svg {
-      height: 1.2em;
-      width: auto;
+    strong {
+      color: white;
+      font-weight: 600;
     }
   }
 
-  #search-area {
-    margin: 2rem 0 2rem 0;
-
-    .input-group {
-      border-radius: $radius-md;
-      transition: box-shadow $duration-fast ease;
-
-      &:focus-within {
-        box-shadow: $shadow-focus-ring;
-      }
-    }
+  /* Search: one large pill with the icon and the "/" hint inside */
+  .hero-search {
+    position: relative;
+    max-width: 640px;
+    margin: 1.75rem auto 0;
+    text-align: left;
   }
 
   #search-field {
-    height: 3rem;
-    box-sizing: border-box;
-    border-radius: 0 $radius-md $radius-md 0;
-    padding: 0.75rem 1rem;
+    height: 3.5rem;
+    padding: 0 3rem 0 3.25rem;
+    border: 0;
+    border-radius: $radius-pill;
+    background: $color-surface;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12), 0 12px 32px -8px rgba(2, 6, 23, 0.6);
+    color: $color-text;
+    font-size: 1rem;
+    transition: box-shadow $duration-fast ease;
 
     &:focus {
-      box-shadow: none; /* the input group draws the focus ring */
+      box-shadow: 0 0 0 4px rgba($brand-cyan, 0.4), 0 12px 32px -8px rgba(2, 6, 23, 0.6);
+    }
+
+    &::-webkit-search-cancel-button {
+      display: none;
     }
   }
 
-  #result-list {
-    background: $color-surface;
-    text-align: left;
-    list-style: none;
-    font-size: 1.2rem;
+  .hero-search-icon {
     position: absolute;
-    z-index: 1;
+    top: 50%;
+    left: 1.2rem;
+    z-index: 6;
+    display: flex;
+    color: $color-text-muted;
+    transform: translateY(-50%);
+    cursor: text;
+  }
+
+  .hero-search-key {
+    position: absolute;
+    top: 50%;
+    right: 1.1rem;
+    z-index: 6;
     display: none;
+    min-width: 1.6rem;
+    padding: 0.1rem 0.45rem;
+    border: 1px solid $color-line-strong;
+    border-radius: 6px;
+    background: $color-surface-sunk;
+    color: $color-text-muted;
+    font-family: $font-sans;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    text-align: center;
+    transform: translateY(-50%);
+    pointer-events: none;
+
+    /* Keyboard hint: only where a keyboard and mouse are likely */
+    @media (min-width: $breakpoint-md) and (hover: hover) and (pointer: fine) {
+      display: block;
+    }
+  }
+
+  #search-field:focus ~ .hero-search-key {
+    display: none;
+  }
+
+  #result-list {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    right: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    max-height: 260px;
     overflow-y: auto;
-    max-height: 200px;
-    border: 0;
     border-radius: $radius-md;
-    margin-top: 0.35rem;
+    background: $color-surface;
     box-shadow: $shadow-lg;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
 
     ul {
-      padding-left: 0;
-      margin-bottom: 0;
-    }
-
-    li {
+      margin: 0;
+      padding: 0.35rem;
       list-style: none;
     }
 
     a {
       display: block;
-      height: 100%;
       padding: 0.5rem 0.8rem;
+      border-radius: $radius-sm;
+      color: $color-text;
     }
 
-    a:hover {
-      background: $color-primary;
-      color: white;
-      text-decoration: none;
+    a[href]:hover,
+    a[href]:focus-visible {
+      background: $color-primary-tint;
+      color: $color-primary;
+    }
+
+    #no-result a {
+      color: $color-text-muted;
     }
   }
 
-  .lead-link {
-    a {
-      color: white;
-      display: block;
-      margin-top: 1rem;
-      padding: 0 0.5rem;
-      font-size: 1rem;
-      border: 1px solid $color-border-on-dark;
-      border-radius: $radius-md;
-      background: rgba(255, 255, 255, 0.04);
-      transition: background $duration-fast ease, border-color $duration-fast ease;
+  /* Trending chips from the popularity index; one scrollable row on phones */
+  .hero-trending {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 1.1rem;
+    font-size: 0.875rem;
+    line-height: 1.4;
 
-      &:hover {
-        background: rgba(255, 255, 255, 0.1);
-        border-color: rgba(255, 255, 255, 0.45);
+    /* Label and chips wrap together as one centred line */
+    @media (min-width: $breakpoint-md) {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.4rem;
+    }
+
+    ul {
+      display: flex;
+      gap: 0.4rem;
+      margin: 0;
+      padding: 0;
+      overflow-x: auto;
+      list-style: none;
+      scrollbar-width: none;
+      /* Fade the right edge so the row reads as scrollable */
+      -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent);
+      mask-image: linear-gradient(90deg, #000 85%, transparent);
+
+      &::-webkit-scrollbar {
+        display: none;
       }
 
-      &.donate {
-        background: $color-accent;
-        border-radius: $radius-lg;
-        color: black;
-        font-weight: 600;
-        border: none;
-
-        &:hover {
-          background: rgba($color-accent, 0.85);
-        }
+      @media (min-width: $breakpoint-md) {
+        display: contents;
       }
     }
 
-    .bmc {
-      a {
-        border: none;
+    li {
+      flex: none;
+    }
+
+    a {
+      display: inline-block;
+      padding: 0.3rem 0.8rem;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: $radius-pill;
+      background: rgba(255, 255, 255, 0.05);
+      color: $slate-200;
+      white-space: nowrap;
+      transition: background-color $duration-fast ease, border-color $duration-fast ease, color $duration-fast ease;
+
+      &:hover,
+      &:focus-visible {
+        border-color: rgba(255, 255, 255, 0.28);
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
       }
+    }
 
-      /* Buy Me a Coffee: plain link, no third-party widget script */
-      a.bmc-button {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        margin: 1.25rem auto 0;
-        padding: 0.45rem 1.25rem;
-        background: $color-bmc;
-        color: $color-bmc-text;
-        font-weight: 600;
-        border-radius: $radius-pill;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 4px 14px rgba($color-bmc, 0.25);
-        transition: transform $duration-fast ease, box-shadow $duration-fast ease;
+    .hero-trending-more {
+      border-color: transparent;
+      background: none;
+      color: $brand-cyan;
+    }
+  }
 
-        &:hover {
-          background: $color-bmc;
-          transform: translateY(-1px);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 8px 22px rgba($color-bmc, 0.35);
-        }
+  .hero-trending-label {
+    flex: none;
+    margin-right: 0.2rem;
+    color: $slate-400;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
 
-        svg {
-          flex: none;
-        }
+  /* Browse links */
+  .hero-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 1.25rem;
+    margin-top: 1.5rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+
+    a {
+      color: $color-text-on-dark;
+      text-decoration: underline;
+      text-decoration-color: rgba(255, 255, 255, 0.25);
+      text-underline-offset: 4px;
+      transition: color $duration-fast ease, text-decoration-color $duration-fast ease;
+
+      &:hover,
+      &:focus-visible {
+        color: white;
+        text-decoration-color: currentColor;
+      }
+    }
+
+    .hero-support {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      color: $color-accent;
+      text-decoration-color: rgba($color-accent, 0.35);
+
+      &:hover,
+      &:focus-visible {
+        color: $bmc-yellow;
       }
     }
   }

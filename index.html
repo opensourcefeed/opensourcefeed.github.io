@@ -2,25 +2,24 @@
 layout: default
 title: Free Operating Systems and Desktop Environments
 ---
-<div class="row bg-dark" id="master-section">
-    <div class="col-12 align-self-center hero-inner">
-        <p class="policy">We support Palestine's independence and condemn Israel's war crimes and atrocities.</p>
-        <h1>{{site.title}}</h1>
-        <p class="description">{{site.caption}}</p>
+{% assign hero_distros = site.pages | where: "Category", "Distribution" %}
+{% assign hero_desktops = site.pages | where: "Category", "Desktop" %}
+<section class="row" id="master-section" aria-labelledby="hero-title">
+    <div class="col-12 hero-inner">
+        <p class="hero-statement">
+            <svg class="hero-flag" viewBox="0 0 18 12" width="18" height="12" aria-hidden="true"><path fill="#000" d="M0 0h18v4H0z"/><path fill="#fff" d="M0 4h18v4H0z"/><path fill="#149954" d="M0 8h18v4H0z"/><path fill="#e4312b" d="M0 0l7 6-7 6z"/></svg>
+            <span>We support Palestine's independence and condemn Israel's war crimes and atrocities.</span>
+        </p>
+        <h1 id="hero-title">Find your next <span class="hero-accent">free operating system</span></h1>
+        <p class="description"><strong>{{ hero_distros.size }}</strong> distributions, <strong>{{ hero_desktops.size }}</strong> desktops, release news and a monthly popularity index.</p>
 
-        <div id="search-area">
-            <div class="input-group">
-                <span class="input-group-text" id="search-btn">
-                    <svg class="icon icon-search" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 26 28"
-                        aria-hidden="true">
-                        <path
-                            d="M18 13c0-3.859-3.141-7-7-7s-7 3.141-7 7 3.141 7 7 7 7-3.141 7-7zm8 13c0 1.094-.906 2-2 2a1.96 1.96 0 0 1-1.406-.594l-5.359-5.344a10.971 10.971 0 0 1-6.234 1.937c-6.078 0-11-4.922-11-11s4.922-11 11-11 11 4.922 11 11c0 2.219-.672 4.406-1.937 6.234l5.359 5.359c.359.359.578.875.578 1.406z">
-                        </path>
-                    </svg>
-                </span>
-                <input type="text" class="form-control" id="search-field" placeholder="Search for Desktop or Operating System"
-                    required>
-            </div>
+        <div id="search-area" class="hero-search" role="search">
+            <label id="search-btn" for="search-field" class="hero-search-icon">
+                <span class="visually-hidden">Search distributions and desktops</span>
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            </label>
+            <input type="search" class="form-control" id="search-field" placeholder="Search distros and desktops" autocomplete="off" required>
+            <kbd class="hero-search-key" aria-hidden="true">/</kbd>
             <div id="result-list">
                 <ul>
                     {% for page in site.pages %}
@@ -32,17 +31,29 @@ title: Free Operating Systems and Desktop Environments
                     {% endfor %}
                     <li id="no-result"><a>No matching result...</a></li>
                 </ul>
-                </ul>
-            </div>
-            <div class="row lead-link">
-                <div class="col-md-4"><a href="/distribution/">All Operating Systems</a></div>
-                <div class="col-md-4"><a href="/desktop/">All Desktop Environments</a></div>
-                <div class="col-md-4"><a href="/important-dates/">Important FOSS Dates</a></div>
-                <div class="col-md-6 offset-md-3 bmc">
-                    <a class="bmc-button" href="https://www.buymeacoffee.com/tahrikstudio" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M7 2.5c0 1.2 1 1.2 1 2.5M10.5 2.5c0 1.2 1 1.2 1 2.5M14 2.5c0 1.2 1 1.2 1 2.5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><path d="M4 8h13v5.5A5.5 5.5 0 0 1 11.5 19h-2A5.5 5.5 0 0 1 4 13.5V8Z" fill="#fff" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M17 10h1a2.75 2.75 0 0 1 0 5.5h-1.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3 21.5h15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>Buy me a coffee</a>
-                </div>
             </div>
         </div>
+
+        {% assign hero_trending = site.data.rank.distributions | slice: 0, 5 %}
+        {% if hero_trending.size > 0 %}
+        <div class="hero-trending">
+            <span class="hero-trending-label">Trending</span>
+            <ul>
+                {% for item in hero_trending %}
+                {% assign trending_page = site.pages | where: "url", item.url | first %}
+                {% if trending_page %}{% assign trending_name = trending_page.title | split: " (" | first | split: " or " | first %}<li><a href="{{ trending_page.url }}">{{ trending_name }}</a></li>{% endif %}
+                {% endfor %}
+                <li><a class="hero-trending-more" href="/page-hit-rank/">Full index <span aria-hidden="true">&rarr;</span></a></li>
+            </ul>
+        </div>
+        {% endif %}
+
+        <nav class="hero-links" aria-label="Browse">
+            <a href="/distribution/">All operating systems</a>
+            <a href="/desktop/">Desktop environments</a>
+            <a href="/important-dates/">FOSS dates</a>
+            <a class="hero-support" href="https://www.buymeacoffee.com/tahrikstudio" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M4 8h13v5.5A5.5 5.5 0 0 1 11.5 19h-2A5.5 5.5 0 0 1 4 13.5V8Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M17 10h1a2.75 2.75 0 0 1 0 5.5h-1.2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>Support us</a>
+        </nav>
     </div>
     {% comment %}
     <div class="container-fluid recent-additions">
@@ -60,7 +71,7 @@ title: Free Operating Systems and Desktop Environments
         </div>
     </div>
     {% endcomment %}
-</div>
+</section>
 <div class="stories container">
     <h2>Recent Stories</h2>
     <div class="row g-4">

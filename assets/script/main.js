@@ -117,8 +117,8 @@ document.addEventListener("DOMContentLoaded", function () {
             searchField.focus();
         });
 
-        // Filter the results on keyup
-        document.getElementById('search-field').addEventListener('keyup', function () {
+        // Filter the results as the visitor types
+        searchField.addEventListener('input', function () {
             const query = this.value;
             const entryParent = document.getElementById('result-list');
             const entries = entryParent.querySelectorAll('li:not(#no-result)');
@@ -142,9 +142,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             }
 
-            if (hasResult) {
-                entryParent.style.width = (this.offsetWidth - 1) + 'px';
-                entryParent.style.marginLeft = document.getElementById('search-btn').offsetWidth + 'px';
+            if (query !== '') {
                 entryParent.style.display = 'block';
             } else {
                 entryParent.style.display = 'none';
@@ -154,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const closeSearch = function () {
             const searchField = document.getElementById('search-field');
             searchField.value = '';
-            searchField.dispatchEvent(new Event('keyup'));
+            searchField.dispatchEvent(new Event('input'));
         };
 
         // Close the search result when clicking outside
@@ -168,6 +166,15 @@ document.addEventListener("DOMContentLoaded", function () {
             if (e.key === 'Escape') {
                 closeSearch();
             }
+        });
+
+        // "/" focuses the search box, unless the visitor is already typing somewhere
+        document.addEventListener('keydown', function (e) {
+            if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+            const el = document.activeElement;
+            if (el && (el.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName))) return;
+            e.preventDefault();
+            searchField.focus();
         });
     }
 
