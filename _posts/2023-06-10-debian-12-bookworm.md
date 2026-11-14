@@ -22,7 +22,7 @@ Debian 12 *Bookworm* has a support period of 5 years. During this period, users 
 
 ## What's new in Debian 12 <em>Bookworm</a>
 
-Debian 12 stable release is available with several desktop environments and updated packages. The noteworthy package updates avaiable in Debia 12 are as follows:
+Debian 12 stable release is available with several desktop environments and updated packages. The noteworthy package updates available in Debian 12 are as follows:
 > - Gnome 43
 - KDE Plasma 5.27
 - LXDE 11
