@@ -17,15 +17,16 @@ seo:
     text-align:center;
     max-width:800px;
     margin:0 auto 18px auto;
-    color:#555;
+    color:var(--osf-color-text-secondary);
 }
 
 .desktop-card{
-    border:1px solid #eee;
-    border-radius:12px;
+    border:0;
+    border-radius:var(--osf-radius-lg);
+    box-shadow:var(--osf-shadow-sm);
     padding:15px;
     text-align:center;
-    background:#fff;
+    background:var(--osf-color-surface);
     transition:0.2s ease;
     height:100%;
     text-decoration: none;
@@ -34,13 +35,13 @@ seo:
 }
 
 .desktop-card:hover{
-    box-shadow:0 6px 18px rgba(0,0,0,0.08);
+    box-shadow:var(--osf-shadow-md);
     transform:translateY(-2px);
 }
 
 .desktop-card:focus-visible{
-    outline:3px solid rgba(0, 122, 204, 0.25);
-    outline-offset:2px;
+    outline:none;
+    box-shadow:var(--osf-shadow-focus), var(--osf-shadow-sm);
 }
 
 .desktop-card-media{
@@ -60,9 +61,9 @@ seo:
 .desktop-card-fallback{
     width:48px;
     height:48px;
-    border-radius:12px;
-    background:#f3f6f9;
-    color:#6b7280;
+    border-radius:var(--osf-radius-md);
+    background:var(--osf-color-surface-sunk);
+    color:var(--osf-color-text-muted);
     display:flex;
     align-items:center;
     justify-content:center;
@@ -73,7 +74,7 @@ seo:
 
 .desktop-card h3{
     font-weight:600;
-    color:#222;
+    color:var(--osf-color-heading);
     font-size:1.1rem;
     margin:0;
     line-height:1.3;
@@ -81,14 +82,14 @@ seo:
 
 .desktop-card:hover h3,
 .desktop-card:focus-visible h3{
-    color:#007acc;
+    color:var(--osf-color-primary);
 }
 
 .section-title{
     margin-top:28px;
     margin-bottom:20px;
     font-weight:600;
-    border-left:4px solid #007acc;
+    border-left:3px solid var(--osf-color-primary);
     padding-left:10px;
 }
 

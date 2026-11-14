@@ -1,23 +1,23 @@
 <style>
 .rank-page {
-  --rk-accent: #046cdc;
-  --rk-accent-strong: #0357b0;
-  --rk-accent-soft: #eaf2fc;
-  --rk-accent-2: #5aa2ee;
-  --rk-text: #1d2733;
-  --rk-muted: #5f6b7a;
-  --rk-border: #e3ecf7;
-  --rk-surface: #ffffff;
-  --rk-surface-alt: #f6f9fd;
-  --rk-up: #157a3c;
-  --rk-up-soft: #e3f6ea;
-  --rk-down: #b42323;
-  --rk-down-soft: #fde8e8;
+  --rk-accent: var(--osf-color-primary);
+  --rk-accent-strong: var(--osf-color-primary-hover);
+  --rk-accent-soft: var(--osf-color-primary-tint);
+  --rk-accent-2: var(--osf-color-primary-soft);
+  --rk-text: var(--osf-color-text);
+  --rk-muted: var(--osf-color-text-muted);
+  --rk-border: var(--osf-color-line);
+  --rk-surface: var(--osf-color-surface);
+  --rk-surface-alt: var(--osf-color-surface-sunk);
+  --rk-up: var(--osf-color-success);
+  --rk-up-soft: var(--osf-color-success-bg);
+  --rk-down: var(--osf-color-danger);
+  --rk-down-soft: var(--osf-color-danger-bg);
   --rk-gold: #d4a017;
   --rk-silver: #8e9aa8;
   --rk-bronze: #b36b32;
-  --rk-radius: 1rem;
-  --rk-shadow: 0 1px 2px rgba(16, 40, 80, 0.06), 0 6px 20px rgba(16, 40, 80, 0.06);
+  --rk-radius: var(--osf-radius-lg);
+  --rk-shadow: var(--osf-shadow-soft);  /* cards here keep a 1px border, so no ring */
 
   max-width: 1080px;
   margin: 0 auto;
@@ -35,7 +35,7 @@
   padding: 2rem 1.5rem 1.5rem;
   margin-bottom: 1.5rem;
   border: 1px solid var(--rk-border);
-  border-radius: calc(var(--rk-radius) * 1.25);
+  border-radius: var(--rk-radius);
   background:
     radial-gradient(120% 140% at 100% 0%, rgba(90, 162, 238, 0.18) 0%, transparent 55%),
     linear-gradient(180deg, var(--rk-surface-alt), var(--rk-surface));
@@ -45,7 +45,7 @@
   display: inline-block;
   margin-bottom: 0.6rem;
   padding: 0.2rem 0.7rem;
-  border-radius: 999px;
+  border-radius: var(--osf-radius-pill);
   background: var(--rk-accent-soft);
   color: var(--rk-accent);
   font-size: 0.8rem;
@@ -77,12 +77,12 @@
   display: inline-flex;
   padding: 0.25rem;
   border: 1px solid var(--rk-border);
-  border-radius: 999px;
+  border-radius: var(--osf-radius-pill);
   background: var(--rk-surface);
 }
 .rank-page .segmented a {
   padding: 0.4rem 1rem;
-  border-radius: 999px;
+  border-radius: var(--osf-radius-pill);
   color: var(--rk-muted);
   font-size: 0.95rem;
   font-weight: 600;
@@ -95,7 +95,7 @@
 .rank-page .segmented a.is-active {
   background: var(--rk-accent);
   color: #fff;
-  box-shadow: 0 2px 6px rgba(4, 108, 220, 0.3);
+  box-shadow: var(--osf-shadow-button);
 }
 
 .rank-filters {
@@ -115,7 +115,7 @@
   appearance: none;
   padding: 0.3rem 0.75rem;
   border: 1px solid var(--rk-border);
-  border-radius: 999px;
+  border-radius: var(--osf-radius-pill);
   background: var(--rk-surface);
   color: var(--rk-text);
   font-size: 0.85rem;
@@ -129,7 +129,7 @@
 .filter-de select {
   padding: 0.3rem 2rem 0.3rem 0.75rem;
   border: 1px solid var(--rk-border);
-  border-radius: 999px;
+  border-radius: var(--osf-radius-pill);
   background-color: var(--rk-surface);
   color: var(--rk-text);
   font-size: 0.85rem;
@@ -143,7 +143,7 @@
   margin-bottom: 1rem;
   padding: 0.45rem 0.95rem;
   border: 1px solid var(--rk-border);
-  border-radius: 999px;
+  border-radius: var(--osf-radius-pill);
   background: var(--rk-surface);
   color: var(--rk-text);
   font-size: 0.9rem;
@@ -153,7 +153,7 @@
 .filters-count {
   min-width: 1.3rem;
   padding: 0 0.35rem;
-  border-radius: 999px;
+  border-radius: var(--osf-radius-pill);
   background: var(--rk-accent);
   color: #fff;
   font-size: 0.75rem;
@@ -313,7 +313,7 @@
 .row-chips { display: flex; flex-wrap: wrap; gap: 0.3rem; }
 .chip {
   padding: 0.05rem 0.5rem;
-  border-radius: 999px;
+  border-radius: var(--osf-radius-pill);
   background: var(--rk-surface-alt);
   border: 1px solid var(--rk-border);
   color: var(--rk-muted);
@@ -325,8 +325,8 @@
 .chip-base { background: var(--rk-accent-soft); border-color: transparent; color: var(--rk-accent); }
 .row-change { text-align: center; }
 .row-score { display: flex; align-items: center; gap: 0.6rem; }
-.score-bar { flex: 1; height: 0.5rem; border-radius: 999px; background: var(--rk-accent-soft); overflow: hidden; }
-.score-bar span { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--rk-accent-2), var(--rk-accent)); }
+.score-bar { flex: 1; height: 0.5rem; border-radius: var(--osf-radius-pill); background: var(--rk-accent-soft); overflow: hidden; }
+.score-bar span { display: block; height: 100%; border-radius: var(--osf-radius-pill); background: linear-gradient(90deg, var(--rk-accent-2), var(--rk-accent)); }
 .score-value { min-width: 1.9rem; text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; }
 .rank-empty { padding: 1.5rem; text-align: center; color: var(--rk-muted); }
 
@@ -345,7 +345,7 @@
   display: inline-block;
   min-width: 2.6rem;
   padding: 0.1rem 0.45rem;
-  border-radius: 999px;
+  border-radius: var(--osf-radius-pill);
   font-size: 0.8rem;
   font-weight: 700;
   text-align: center;
@@ -488,7 +488,7 @@
 .rank-page a.archive-chip {
   padding: 0.25rem 0.7rem;
   border: 1px solid var(--rk-border);
-  border-radius: 999px;
+  border-radius: var(--osf-radius-pill);
   background: var(--rk-surface);
   color: var(--rk-text);
   font-size: 0.82rem;

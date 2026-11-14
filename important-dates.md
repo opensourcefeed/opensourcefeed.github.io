@@ -83,13 +83,13 @@ last_modified_at: 2026-07-27
 
 <style>
   .content { margin: auto }
-  .fact-note { font-size: 0.85em; color: #666; font-style: italic; }
-  .month-nav { display: flex; flex-wrap: wrap; gap: 6px; margin: 1rem 0 1.5rem; padding: 0.75rem 1rem; background: #f8f9fa; border-radius: 6px; border-left: 3px solid #0d6efd; }
-  .month-nav a { font-size: 0.85em; color: #0d6efd; text-decoration: none; white-space: nowrap; }
+  .fact-note { font-size: 0.85em; color: var(--osf-color-text-muted); font-style: italic; }
+  .month-nav { display: flex; flex-wrap: wrap; gap: 6px; margin: 1rem 0 1.5rem; padding: 0.75rem 1rem; background: var(--osf-color-surface-sunk); border-radius: var(--osf-radius-sm); border-left: 3px solid var(--osf-color-primary); }
+  .month-nav a { font-size: 0.85em; color: var(--osf-color-primary); text-decoration: none; white-space: nowrap; }
   .month-nav a:hover { text-decoration: underline; }
-  .month-nav span { font-size: 0.85em; color: #555; font-weight: 600; margin-right: 4px; }
-  .month-anchor { display: block; font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.05em; color: #888; background: #f0f0f0; padding: 4px 8px; margin-top: 1rem; }
-  .contribute-box { background: #f0f7ff; border: 1px solid #b8d9f8; border-radius: 6px; padding: 1rem 1.25rem; margin: 1.5rem 0; }
+  .month-nav span { font-size: 0.85em; color: var(--osf-color-text-secondary); font-weight: 600; margin-right: 4px; }
+  .month-anchor { display: block; font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.05em; color: var(--osf-color-text-muted); background: var(--osf-color-surface-strong); border-radius: var(--osf-radius-sm); padding: 4px 8px; margin-top: 1rem; }
+  .contribute-box { background: var(--osf-color-primary-tint); border: 1px solid var(--osf-color-line); border-radius: var(--osf-radius-md); padding: 1rem 1.25rem; margin: 1.5rem 0; }
   .contribute-box p { margin: 0; font-size: 0.95em; }
   .table td:nth-child(3), .table td:nth-child(4) { white-space: nowrap; font-size: 0.9em; }
   @media (max-width: 768px) {
@@ -307,7 +307,7 @@ Dates are sourced from official project histories and verified release records. 
 
     <tr><td colspan="5" class="month-anchor" id="jun">June</td></tr>
     <tr>
-      <td colspan="5" style="text-align:center; color: #999; font-size:0.85em; font-style:italic;">No entries for June yet — <a href="#suggest">suggest one below</a>.</td>
+      <td colspan="5" style="text-align:center; color: var(--osf-color-text-muted); font-size:0.85em; font-style:italic;">No entries for June yet — <a href="#suggest">suggest one below</a>.</td>
     </tr>
 
     <tr><td colspan="5" class="month-anchor" id="jul">July</td></tr>
