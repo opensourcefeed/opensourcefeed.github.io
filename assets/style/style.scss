@@ -1198,21 +1198,40 @@ main {
     margin: 1.5rem 0;
   }
 
+  /* Plain categories are neutral labels; categories that link to a
+     distribution or desktop page are blue, carry an arrow and react to hover */
   .category {
     display: inline-block;
     border: none;
     padding: 0.3rem 0.85rem;
     border-radius: $radius-pill;
-    background: rgba($color-primary, 0.1);
-    color: $color-primary;
+    background: $slate-100;
+    color: $slate-600;
     font-size: 0.8rem;
     font-weight: 600;
     letter-spacing: 0.02em;
     text-transform: uppercase;
+  }
+
+  a .category {
+    background: rgba($color-primary, 0.1);
+    color: $color-primary;
     transition: background $duration-fast ease;
 
-    &:hover {
-      background: rgba($color-primary, 0.18);
+    &::after {
+      content: "\2192";
+      display: inline-block;
+      margin-left: 0.35em;
+      transition: transform $duration-fast ease;
+    }
+  }
+
+  a:hover .category,
+  a:focus-visible .category {
+    background: rgba($color-primary, 0.18);
+
+    &::after {
+      transform: translateX(2px);
     }
   }
 
