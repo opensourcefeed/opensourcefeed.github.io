@@ -191,18 +191,6 @@ document.addEventListener("DOMContentLoaded", function () {
             navbar.classList.remove('navbar-small');
             main.removeAttribute('style');
         }
-
-        if (window.innerWidth > 768) {
-            const elem = document.querySelector('aside ins.adsbygoogle');
-            if (elem) {
-                if (scrollTop > 0) {
-                    elem.style.position = 'fixed';
-                    elem.style.top = '20px';
-                } else {
-                    elem.style.position = 'relative';
-                }
-            }
-        }
     });
 
 });

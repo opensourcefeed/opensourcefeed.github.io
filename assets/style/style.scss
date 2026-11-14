@@ -1810,8 +1810,13 @@ $syntax-colors: (
    Ads
    ========================================================================== */
 
+/* Sidebar ads stay in view while scrolling. Sticky (not fixed) keeps each
+   ad inside its column, so it stops above the footer instead of covering it.
+   The top offset clears the fixed navbar that appears once the page scrolls. */
 @media (min-width: $breakpoint-md) {
   aside ins.adsbygoogle {
+    position: sticky;
+    top: 5rem;
     margin-top: 50px;
   }
 }
