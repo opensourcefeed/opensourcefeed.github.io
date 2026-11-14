@@ -385,19 +385,13 @@ summary {
 
 /* ---- 3. Navbar, collapse and dropdowns ---- */
 
-/* Collapsed content is hidden until main.js adds .show; .collapsing animates the height */
+/* Collapsed content is hidden until main.js adds .show; .sliding clips it while main.js animates the height */
 .collapse:not(.show) {
   display: none;
 }
 
-.collapsing {
-  height: 0;
+.sliding {
   overflow: hidden;
-  transition: height 0.3s ease;
-
-  @media (prefers-reduced-motion: reduce) {
-    transition: none;
-  }
 }
 
 .navbar {
@@ -567,6 +561,20 @@ summary {
 
   &.show {
     display: block;
+  }
+}
+
+/* Desktop: menus fade and drop in slightly (mobile menus slide, see main.js) */
+@media (min-width: map-get($breakpoints, "xl")) and (prefers-reduced-motion: no-preference) {
+  .navbar-expand-xl .dropdown-menu.show {
+    animation: dropdown-in 0.18s ease-out;
+  }
+}
+
+@keyframes dropdown-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
   }
 }
 

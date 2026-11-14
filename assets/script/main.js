@@ -1,48 +1,63 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    // Navbar: collapse toggle on small screens (styles in _sass/_foundation.scss)
+    // Navbar: collapse toggle and dropdowns (styles in _sass/_foundation.scss)
     const toggler = document.querySelector('.navbar-toggler');
     const collapse = toggler && document.getElementById(toggler.getAttribute('aria-controls'));
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const isCollapsedNav = function () {
+        return toggler && getComputedStyle(toggler).display !== 'none';
+    };
+
+    // Slide an element open or closed: height (plus padding and opacity for
+    // dropdown menus) animates between zero and the natural size
+    const slide = function (el, open) {
+        if (reduceMotion.matches || !el.animate) {
+            el.classList.toggle('show', open);
+            return;
+        }
+        el.classList.add('show', 'sliding');
+        const style = getComputedStyle(el);
+        const shown = { height: el.offsetHeight + 'px' };
+        const hidden = { height: '0px' };
+        if (el.classList.contains('dropdown-menu')) {
+            Object.assign(shown, { paddingTop: style.paddingTop, paddingBottom: style.paddingBottom, opacity: 1 });
+            Object.assign(hidden, { paddingTop: '0px', paddingBottom: '0px', opacity: 0 });
+        }
+        const anim = el.animate(open ? [hidden, shown] : [shown, hidden], { duration: 280, easing: 'ease' });
+        anim.onfinish = anim.oncancel = function () {
+            el.classList.remove('sliding');
+            el.classList.toggle('show', open);
+        };
+    };
 
     if (collapse) {
-        const setOpen = function (open) {
-            toggler.setAttribute('aria-expanded', open);
-            if (reduceMotion.matches) {
-                collapse.classList.toggle('show', open);
-                return;
-            }
-            // Animate the height between 0 and the content height, then hand back to CSS
-            const from = open ? 0 : collapse.scrollHeight;
-            collapse.classList.add('show');
-            const to = open ? collapse.scrollHeight : 0;
-            collapse.classList.add('collapsing');
-            collapse.style.height = from + 'px';
-            collapse.offsetHeight; // apply the start height before transitioning
-            collapse.style.height = to + 'px';
-            collapse.addEventListener('transitionend', function done() {
-                collapse.removeEventListener('transitionend', done);
-                collapse.classList.remove('collapsing');
-                collapse.classList.toggle('show', open);
-                collapse.style.height = '';
-            });
-        };
-
         toggler.addEventListener('click', function () {
-            if (collapse.classList.contains('collapsing')) return;
-            setOpen(toggler.getAttribute('aria-expanded') !== 'true');
+            if (collapse.classList.contains('sliding')) return;
+            const open = toggler.getAttribute('aria-expanded') !== 'true';
+            toggler.setAttribute('aria-expanded', open);
+            slide(collapse, open);
         });
     }
 
-    // Navbar: dropdown menus (click to open; Escape, outside click or Tab away closes)
+    // Dropdown menus: click to open; Escape, outside click or Tab away closes.
+    // In the collapsed (mobile) navbar they slide; on desktop CSS fades them in.
     const toggles = document.querySelectorAll('.dropdown-toggle');
+
+    const setMenu = function (t, open) {
+        const menu = t.nextElementSibling;
+        if (menu.classList.contains('show') === open && !menu.classList.contains('sliding')) return;
+        t.classList.toggle('show', open);
+        t.setAttribute('aria-expanded', open);
+        if (isCollapsedNav()) {
+            slide(menu, open);
+        } else {
+            menu.classList.toggle('show', open);
+        }
+    };
 
     const closeMenus = function (except) {
         toggles.forEach(function (t) {
-            if (t === except) return;
-            t.classList.remove('show');
-            t.setAttribute('aria-expanded', 'false');
-            t.nextElementSibling.classList.remove('show');
+            if (t !== except && t.classList.contains('show')) setMenu(t, false);
         });
     };
 
@@ -51,11 +66,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         t.addEventListener('click', function (e) {
             e.preventDefault();
+            if (menu.classList.contains('sliding')) return;
             closeMenus(t);
-            const open = !menu.classList.contains('show');
-            t.classList.toggle('show', open);
-            t.setAttribute('aria-expanded', open);
-            menu.classList.toggle('show', open);
+            setMenu(t, !t.classList.contains('show'));
         });
 
         // Arrow keys move through the items, as with Bootstrap
