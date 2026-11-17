@@ -54,6 +54,17 @@ Posts use the `:title/` permalink. `.post-template` is the starter front matter 
 - Layouts: `default.html` (three columns with sidebar ads), `wide.html`, `post.html`, `distribution.html`, `desktop.html`, `distro-group.html`, `rank-archive.html`, `blog.html` (paginated at `/blog/`). Most layouts wrap `compress.html`, which minifies HTML.
 - Brand assets live in `assets/images/brand/` plus `favicon.ico`, `favicon.svg`, `apple-touch-icon.png` and `site.webmanifest` at the root. The navbar and footer render the wordmark as text (`.wordmark` / `.wordmark-accent`).
 
+## Editorial guidelines
+
+Apply these to any new or edited content page (distribution, desktop, post, or alternative listing):
+
+- **Factually correct**: verify claims (release dates, base distro, license, maintainer) against the project's own site or docs before writing. Prefer a `<!-- VERIFY: ... -->` comment over guessing when a fact can't be confirmed.
+- **Useful for readers**: explain what the project actually does and who it's for, not just a rephrased tagline. Cover real decision points (install options, desktop choices, hardware support, how it compares to similar projects).
+- **SEO optimized**: fill `description` (used by `jekyll-seo-tag`) with a concrete, keyword-relevant summary; use descriptive `##` headings rather than generic ones; link to related distro/desktop pages via their `permalink` instead of raw URLs; add a `faq:` block (distribution pages only — `_layouts/distribution.html` renders it with `FAQPage` JSON-LD) for genuine common questions.
+- **No content duplication or plagiarism**: write in your own words from primary/official sources; don't copy marketing copy or other sites' phrasing verbatim.
+- **No thin content**: a new distribution or desktop page needs multiple substantive `##` sections (features, installation, use cases, etc.), not a two-sentence stub — follow the depth of pages like `distribution-cachyos.md`, not older thin ones like `desktop-mate.md`.
+- Logo and preview images must be the project's real, official artwork (brand/press kit, official screenshots) — never a placeholder or unrelated image. Save them under `assets/images/logo/` and `assets/images/preview/`, then re-run the two Ruby generators listed above.
+
 ## Conventions
 
 - `assets/script/main.js` and `index.html` use CRLF line endings; preserve them when editing.

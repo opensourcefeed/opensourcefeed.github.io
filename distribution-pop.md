@@ -9,7 +9,7 @@ type : Linux
 logo: popos.png
 preview: popos-preview.jpg
 home_page: https://system76.com/pop
-desktops: [gnome]
+desktops: [cosmic, gnome]
 base : [ubuntu]
 description: "Pop!_OS is a powerful operating system developed by the System76, a reputed hardware company. It provides solutions for the challenging problems while using computers"
 
