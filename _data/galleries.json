@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-14T05:57:14Z",
+    "generated_at": "2026-11-17T13:58:03Z",
     "source_dir": "screenshots",
     "image_exts": [
       ".jpg",
@@ -481,6 +481,20 @@
       {
         "path": "/screenshots/BackBox 7/19 Shutdown confirmation.jpg",
         "filename": "19 Shutdown confirmation"
+      }
+    ],
+    "/screenshots/Cutefish 2026": [
+      {
+        "path": "/screenshots/Cutefish 2026/01 desktop and dock.webp",
+        "filename": "01 desktop and dock"
+      },
+      {
+        "path": "/screenshots/Cutefish 2026/02 apps.webp",
+        "filename": "02 apps"
+      },
+      {
+        "path": "/screenshots/Cutefish 2026/03 agent consent prompt.webp",
+        "filename": "03 agent consent prompt"
       }
     ],
     "/screenshots/CutefishOS 0.6": [
