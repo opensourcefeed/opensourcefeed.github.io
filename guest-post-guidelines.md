@@ -51,7 +51,7 @@ Thank you for your interest in writing for our blog. If you want to **write for 
 
 ## 6. Publishing Fee
 
-* Standard fee: **$20 USD per post**.
+* Standard fee: **$40 USD per post**.
 * Discounted pricing applies only to existing long‑term partners.
 * Payment options include PayPal or supported creator platforms.
 * Please complete payment within **one week after publishing** to avoid removal.
@@ -86,7 +86,7 @@ Open‑source software, Linux, development tools, and related tech topics.
 
 ### How many links can I include?
 
-Roughly one external link per 250 words. All links must be relevant.
+One promote link and 2-3 external reference links.
 
 ### How fast will I get a response?
 
