@@ -15,6 +15,9 @@ tagline: A whole world of opportunities.
 
 description : "MakuluLinux is a unique GNU/Linux distribution built on a custom Debian foundation and surprises users and reviewer's with it's odd design decistions"
 
+releases:
+  MakuluLinux AI-OS: /makululinux-ai-os-released/
+
 ---
 
 **MakuluLinux** is a unique GNU/Linux distribution built on top of a custom Debian Foundation. It always surprises users and reviewers with their design decisions.
