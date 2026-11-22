@@ -12,7 +12,7 @@
   navbar: true
 - label: Telegram
   icon: telegram
-  url: https://t.me/opensourcefeedOrg
+  url: https://t.me/opensourcefeed_org
 - label: X (Twitter)
   icon: x
   url: https://x.com/opensourcefeed
