@@ -57,6 +57,13 @@ System requirements from the documentation: a 64-bit PC, 4 GB of RAM or more, an
 
 If you want a comparison, our coverage of [Debian 13 "trixie"](https://www.opensourcefeed.org/debian-13-trixie-released/) explains the base system. For another privacy-focused option, see [Tails 7.0](https://www.opensourcefeed.org/tails-7-0-released/). If the Cinnamon desktop is what interests you, read about [Linux Mint 22.2](https://www.opensourcefeed.org/linux-mint-22-2-zara-release/).
 
+
+## mylinuxbsdOS 1.4 screenshots.
+
+> Screenshot courtesy: mylinuxbsdOS project.
+
+{% include image-gallery.html folder="/screenshots/mylinuxbsdos1.4" %}
+
 ## References
 
 - [myLinuxBSD official website](https://www.mylinuxbsd.com/index.html)
