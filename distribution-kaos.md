@@ -6,17 +6,18 @@ Category: Distribution
 type : Linux
 permalink: /distribution/kaos
 logo: kaos-logo.png
-preview: krita-op.jpg
-image: /assets/images/preview/krita-op.jpg
+preview: krita-op.jpg # TODO: replace with a KaOS screenshot or logo card, this is a Krita image
+image: /assets/images/preview/krita-op.jpg # TODO: same as above
 blog: https://kaosx.us/news/
 home_page: https://kaosx.us
 desktops: [plasma]
 base : Independent
 tagline: "A Lean, Rolling KDE Linux Distribution"
 
-description : KaOS is a modern, rolling Linux distro focused on a streamlined KDE Plasma experience. It offers regular updates, a single desktop environment, and a curated package selection.
+description : KaOS is an independent, rolling-release Linux distro built around KDE Plasma and Qt, with its own repositories and a curated package set.
 
 releases:
+  KaOS 2026.11: /kaos-2026-11-release/
   KaOS 2026.02: /kaos-february-iso-release/
   KaOS 2024.09: /kaos-202409-release/
   KaOS 2020.07 : "/kaos-2020.07-release/"
@@ -36,12 +37,47 @@ screenshots:
 
 ---
 
-**KaOS** is a lightweight, independent Linux distribution that prioritizes a clean, efficient KDE Plasma desktop experience. As a rolling release, KaOS ensures users always have access to the latest updates and innovations in the open-source world.
+**KaOS** is an independent, rolling-release Linux distribution that does one thing: deliver a polished [KDE Plasma](/desktop/plasma) desktop on a Qt-based software stack. It is not a spin of another distro. It ships its own repositories and keeps the package list deliberately small.
 
-## Key features of KaOS include:
+## What makes KaOS different?
 
-- Single, Integrated Environment: KaOS provides a cohesive desktop experience with Plasma, Qt, and x86_64 architecture.
-- Curated Package Selection: Instead of overwhelming users with countless options, KaOS focuses on delivering a carefully chosen set of high-quality packages.
-- Regular Updates: Monthly ISO snapshots keep KaOS users up-to-date with the latest advancements in Plasma and other open-source technologies.
+Most distros try to offer every desktop and every package. KaOS does the opposite.
 
-If you're seeking a modern, streamlined Linux distribution with a focus on the KDE desktop, KaOS is an excellent choice.
+- **Plasma only.** There are no GNOME, Xfce or Cinnamon editions. Because the team supports a single desktop, Plasma and KDE Frameworks get tested as one product rather than as one option among many.
+- **Qt first.** Core apps and tooling lean on Qt, so the desktop looks and behaves consistently. You are less likely to see GTK apps clashing with Plasma themes.
+- **Independent and rolling.** KaOS is not based on another distribution (see [Based on](#) above), and packages update continuously. You install once and stay current without major version upgrades. <!-- VERIFY: package manager (pacman?) and own-repo wording against kaosx.us/about -->
+- **Curated repositories.** The package set is intentionally limited. That means fewer choices than a large distro, but each package is built to work with the Plasma stack. <!-- VERIFY: any specific package/app counts before adding -->
+- **x86_64 only.** KaOS targets 64-bit PCs. There are no 32-bit or ARM builds. <!-- VERIFY: still true -->
+- **Periodic ISO snapshots.** New ISOs are published from time to time for fresh installs, while existing systems update through the rolling repos. For what shipped in each snapshot, see the [latest KaOS release](/kaos-2026-11-release/) and the release list below.
+
+## Who is KaOS for?
+
+**Good fit if you:**
+- want a Plasma-focused system and don't plan to switch desktops
+- like rolling releases and are comfortable updating regularly
+- prefer a tidy, opinionated setup over a huge package catalog
+
+**Probably not for you if you:**
+- need a very large software repository out of the box
+- run 32-bit or ARM hardware
+- want long-term-support stability with infrequent, tested point releases
+
+Not sure yet? The [Distro Finder](/distro-chooser/) can help you compare options, and the [full distribution list](/distribution/) covers other KDE and rolling-release choices.
+
+## Getting KaOS
+
+Download the current ISO from the [official KaOS website](https://kaosx.us). Project announcements and release notes are on the [KaOS news page](https://kaosx.us/news/). Write the ISO to a USB drive, boot it, and use the live session to try the desktop before installing. <!-- VERIFY: installer name (Calamares?) and whether live session is offered -->
+
+## Frequently asked questions
+
+**Is KaOS based on Arch Linux?**
+No. KaOS is independent. <!-- VERIFY: add one sentence on how it relates to Arch (pacman, similar packaging ideas) once confirmed -->
+
+**Can I use GNOME or another desktop on KaOS?**
+KaOS officially supports only KDE Plasma. Other desktops are not part of the project's scope.
+
+**Do I need to reinstall for every new release?**
+No. KaOS is a rolling release, so an installed system updates in place. New ISO snapshots mainly benefit fresh installs.
+
+**Where can I see how KaOS looks?**
+See the screenshots below, or browse the [KDE Plasma](/desktop/plasma) page for the desktop itself. <!-- TODO: add a current KaOS screenshot with alt text "KaOS KDE Plasma desktop" -->
