@@ -1,0 +1,2 @@
+Sitemap: https://www.opensourcefeed.org/sitemap.xml
+Sitemap: https://www.opensourcefeed.org/puzzles/sitemap.xml
