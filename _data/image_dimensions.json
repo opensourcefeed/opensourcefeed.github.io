@@ -532,6 +532,10 @@
       "w": 248,
       "h": 87
     },
+    "voidlinux.png": {
+      "w": 174,
+      "h": 143
+    },
     "voyager-logo.png": {
       "w": 140,
       "h": 142
@@ -866,6 +870,10 @@
       "w": 800,
       "h": 264
     },
+    "peppermint-void.webp": {
+      "w": 1376,
+      "h": 768
+    },
     "peppermintos.jpg": {
       "w": 1280,
       "h": 800
@@ -1037,6 +1045,10 @@
     "vanilla.jpg": {
       "w": 1024,
       "h": 544
+    },
+    "voidlinux.png": {
+      "w": 1440,
+      "h": 900
     },
     "voyager-preview.jpg": {
       "w": 1200,
